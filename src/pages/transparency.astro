@@ -3,16 +3,16 @@ import ArrowIcon from "../components/ArrowIcon.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { site } from "../data/site";
 import evidenceManifest from "../../manifests/rights-and-sources.v1.json";
-import legacyManifest from "../../manifests/legacy-url-actions.v1.json";
+import routeManifest from "../../manifests/route-actions.v1.json";
 
 const publicLocation = (location: string) => location.startsWith("https://") ? location : undefined;
 ---
 
-<BaseLayout title="Transparency" canonicalPath="/transparency" description="Ownership, sources, rights, corrections and unresolved evidence for ai-fanout.com.">
+<BaseLayout title="Transparency" canonicalPath="/transparency" description="Ownership, sources, rights, route policy, corrections and unresolved evidence for ai-fanout.com.">
   <header class="page-head">
     <h1>Transparency</h1>
     <div class="page-head-copy">
-      <p>Ownership, methods, evidence gaps and corrections belong beside the work—not in a hidden legal footnote.</p>
+      <p>Ownership, methods, evidence gaps and corrections belong beside the work—not in a hidden footnote.</p>
       <p class="meta-line">Manifest · {evidenceManifest.manifestVersion} · reviewed {evidenceManifest.reviewedAt}</p>
     </div>
   </header>
@@ -22,19 +22,19 @@ const publicLocation = (location: string) => location.startsWith("https://") ? l
     <div>
       <p>{site.ownershipDisclosure}</p>
       <p><a href="https://contextter.com/" rel="external nofollow">Contextter</a> may consume future research in a real workflow, but shared ownership never turns this site into independent market validation. The research design must remain useful if every Contextter link is removed.</p>
-      <p>The descriptive term “AI fan-out” is used without a claim of exclusivity or endorsement. No complete trademark clearance has been performed.</p>
+      <p>ai-fanout.com was newly registered by Matthias Ramahi for this project. The site and route system were created for the current Evidence Lab.</p>
     </div>
   </section>
 
   <section class="section-pad section-rule" aria-labelledby="sources-title">
     <span class="section-number">02</span><h2 id="sources-title" class="section-title">Verified source register</h2>
-    <p class="section-lede">A source supports only the statement named here. A timeout, missing record or owner statement is not promoted into stronger evidence.</p>
+    <p class="section-lede">A source supports only the statement named here. Owner records, primary documentation, standards and live technical checks remain distinct evidence roles.</p>
     <ol class="source-register ruled-list">
       {evidenceManifest.sources.map((source) => (
         <li>
           <span>{source.checkedAt}</span>
           <div><h3>{source.title}</h3><p>{source.supports}</p></div>
-          <div><strong>{source.status.replaceAll("_", " ")}</strong>{publicLocation(source.location) ? <a href={source.location} rel="external">Open source <ArrowIcon size={16} /></a> : <small>Central owner record</small>}</div>
+          <div><strong>{source.status.replaceAll("_", " ")}</strong>{publicLocation(source.location) ? <a href={source.location} rel="external">Open source <ArrowIcon size={16} /></a> : <small>Local or central record</small>}</div>
         </li>
       ))}
     </ol>
@@ -49,12 +49,12 @@ const publicLocation = (location: string) => location.startsWith("https://") ? l
     </dl>
   </section>
 
-  <section class="legacy section-pad section-rule" aria-labelledby="legacy-title">
-    <div><span class="section-number">04</span><h2 id="legacy-title" class="section-title">Legacy URL actions</h2></div>
+  <section class="routes section-pad section-rule" aria-labelledby="routes-title">
+    <div><span class="section-number">04</span><h2 id="routes-title" class="section-title">Current route policy</h2></div>
     <div>
-      <p>{legacyManifest.evidenceSummary}</p>
-      <dl><div><dt>Accepted historical records</dt><dd>{legacyManifest.records.length}</dd></div><div><dt>Unknown-path action</dt><dd>{legacyManifest.defaultAction}</dd></div><div><dt>Catch-all redirect</dt><dd>{legacyManifest.catchAllRedirect ? "Enabled" : "Disabled"}</dd></div></dl>
-      <p>There is no accepted URL cohort to restore, redirect or retire with 410. A future action requires URL-level evidence and intent equivalence.</p>
+      <p>This is a fresh registration. The route manifest describes only the current product and normal unknown-path handling.</p>
+      <dl><div><dt>Canonical routes</dt><dd>{routeManifest.canonicalRoutes.length}</dd></div><div><dt>Unknown paths</dt><dd>{routeManifest.defaultUnknownPathAction}</dd></div><div><dt>Catch-all redirect</dt><dd>{routeManifest.catchAllRedirect ? "Enabled" : "Disabled"}</dd></div></dl>
+      <p>The public preview is crawlable through robots.txt while every page and response remains noindex. Unknown routes return a real 404.</p>
     </div>
   </section>
 
@@ -65,14 +65,14 @@ const publicLocation = (location: string) => location.startsWith("https://") ? l
 
   <section class="corrections section-pad" aria-labelledby="corrections-title">
     <div><span class="section-number">06</span><h2 id="corrections-title" class="section-title">Corrections &amp; contact</h2></div>
-    <div><p>For a factual, rights or methodology correction, open a public issue in the source repository and name the affected route and evidence. Do not post vulnerabilities, credentials, private endpoints or personal data publicly.</p><a class="text-action" href={site.githubUrl} rel="external">Open the source repository <ArrowIcon /></a><p>Security concerns use GitHub private vulnerability reporting as described in `SECURITY.md`.</p></div>
+    <div><p>For a factual, rights or methodology correction, email <a href="mailto:info@matthiasramahi.de">info@matthiasramahi.de</a> or open a public issue in the source repository and name the affected route and evidence. Do not post vulnerabilities, credentials, private endpoints or personal data publicly.</p><a class="text-action" href={site.githubUrl} rel="external">Open the source repository <ArrowIcon /></a><p>Security concerns use GitHub private vulnerability reporting as described in <code>SECURITY.md</code>.</p></div>
   </section>
 </BaseLayout>
 
 <style>
-  .ownership, .rights, .legacy, .unknowns, .corrections { display: grid; grid-template-columns: 0.7fr 1.3fr; gap: clamp(2rem, 7vw, 8rem); }
-  .ownership > div:last-child, .legacy > div:last-child, .corrections > div:last-child { border-top: 1px solid var(--rule); }
-  .ownership p, .legacy p, .corrections p { max-width: 62ch; margin: 0; padding-block: 1.25rem; border-bottom: 1px solid var(--fine-rule); line-height: 1.65; }
+  .ownership, .rights, .routes, .unknowns, .corrections { display: grid; grid-template-columns: 0.7fr 1.3fr; gap: clamp(2rem, 7vw, 8rem); }
+  .ownership > div:last-child, .routes > div:last-child, .corrections > div:last-child { border-top: 1px solid var(--rule); }
+  .ownership p, .routes p, .corrections p { max-width: 62ch; margin: 0; padding-block: 1.25rem; border-bottom: 1px solid var(--fine-rule); line-height: 1.65; }
   .source-register { margin-top: 3rem; }
   .source-register li { display: grid; grid-template-columns: 7rem minmax(0, 1fr) 11rem; gap: 1.5rem; padding-block: 1.25rem; }
   .source-register > li > span { font: 0.72rem/1.5 var(--font-mono); }
@@ -87,13 +87,13 @@ const publicLocation = (location: string) => location.startsWith("https://") ? l
   .rights dd { margin: 0; }
   .rights dd strong { color: var(--signal); font: 0.68rem/1.4 var(--font-mono); text-transform: uppercase; }
   .rights dd p { margin: 0.5rem 0 0; color: var(--muted); line-height: 1.55; }
-  .legacy dl { display: grid; grid-template-columns: repeat(3, 1fr); margin: 1.5rem 0; }
-  .legacy dl > div { padding: 1rem; border: 1px solid var(--fine-rule); border-left: 0; }
-  .legacy dt { color: var(--muted); font: 0.66rem/1.3 var(--font-mono); text-transform: uppercase; }
-  .legacy dd { margin: 0.5rem 0 0; font: 1rem/1.3 var(--font-mono); }
+  .routes dl { display: grid; grid-template-columns: repeat(3, 1fr); margin: 1.5rem 0; }
+  .routes dl > div { padding: 1rem; border: 1px solid var(--fine-rule); border-left: 0; }
+  .routes dt { color: var(--muted); font: 0.66rem/1.3 var(--font-mono); text-transform: uppercase; }
+  .routes dd { margin: 0.5rem 0 0; font: 1rem/1.3 var(--font-mono); }
   .unknowns ul { margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }
   .unknowns li { position: relative; padding: 1rem 0 1rem 1.5rem; border-bottom: 1px solid var(--fine-rule); }
   .unknowns li::before { position: absolute; left: 0; color: var(--signal); content: "?"; font-family: var(--font-mono); }
   .corrections .text-action { margin-top: 1rem; }
-  @media (max-width: 780px) { .ownership, .rights, .legacy, .unknowns, .corrections { grid-template-columns: 1fr; } .source-register li { grid-template-columns: 1fr; gap: 0.6rem; } .rights dl > div { grid-template-columns: 1fr; } .legacy dl { grid-template-columns: 1fr; } .legacy dl > div { border-left: 1px solid var(--fine-rule); border-bottom: 0; } }
+  @media (max-width: 780px) { .ownership, .rights, .routes, .unknowns, .corrections { grid-template-columns: 1fr; } .source-register li { grid-template-columns: 1fr; gap: 0.6rem; } .rights dl > div { grid-template-columns: 1fr; } .routes dl { grid-template-columns: 1fr; } .routes dl > div { border-left: 1px solid var(--fine-rule); border-bottom: 0; } }
 </style>

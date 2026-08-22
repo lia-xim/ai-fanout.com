@@ -37,7 +37,9 @@ The homepage signature is a source-recurrence composition that routes into the w
 - `/datasets` — publish the data dictionary and truthful availability state; later host rights-safe releases.
 - `/methodology` — provide the governing preregistration scaffold and correction contract.
 - `/tracker` — show launch-gate and future observation-series readiness.
-- `/transparency` — disclose ownership, sources, rights, conflicts, corrections and contact paths.
+- `/transparency` — disclose ownership, sources, rights, current route policy, corrections and contact paths.
+- `/impressum` — identify the operator and editorial responsibility.
+- `/datenschutz` — document actual hosting, tool, export, analytics, font, contact and storage behavior.
 
 ## Library publishing contract
 
@@ -54,9 +56,10 @@ The homepage signature is a source-recurrence composition that routes into the w
 - Observe only public outputs and public cited or linked sources.
 - Never claim access to hidden queries, private retrieval traces, system prompts, chain of thought, ranking internals or model reasoning.
 - Treat model/provider/interface changes as possible comparability breaks.
-- Do not publish output excerpts, datasets, screenshots or derived statistics until provider terms and applicable rights permit it.
+- Do not publish output excerpts, datasets, screenshots or derived statistics until provenance and applicable provider, copyright and privacy rights permit it.
 - Common Contextter ownership is disclosed and never counted as independent corroboration.
-- No former-site identity or content is present. Fresh-registration evidence is not trademark or rights clearance.
+- ai-fanout.com is a fresh registration by Matthias Ramahi for this project.
+- Browser-local tool inputs are not transmitted by ai-fanout.com.
 
 ## Non-goals
 
@@ -64,7 +67,6 @@ The homepage signature is a source-recurrence composition that routes into the w
 - Automated production of hundreds of thin landing pages.
 - A marketing funnel, AI visibility score, provider leaderboard or unverified claims publication.
 - Authentication, billing, crawling, scheduled collection or model calls inside page requests.
-- A claim to own the descriptive term “AI fan-out.”
 
 ## Operating model
 
@@ -74,10 +76,10 @@ The homepage signature is a source-recurrence composition that routes into the w
 - Current cadence: source review during material implementation; private monthly batches only after protocol and lawful retention approval.
 - Operating burden: medium for browser-local tools; high only when automated collection or public benchmarks begin.
 - Cost ceiling: not assigned.
-- Stop condition: keep parked/noindex when there is no named owner, cost ceiling, lawful observation set or three comparable batches; consolidate or retire stale library pages rather than maintaining empty authority signals.
+- Stop condition: keep noindex when there is no named owner, cost ceiling, lawful observation set or three comparable batches; consolidate or retire stale library pages rather than maintaining empty authority signals.
 
 ## Launch gates
 
-All research-publication gates are currently open: fixed protocol; named owner and backup; cost ceiling and annual budget; provider-by-provider rights review; three comparable batches over at least 60 days; inspectable evidence package; content and source review; and explicit public launch approval with verified production evidence. Browser-local user tools may operate noindex without claiming that these gates have passed.
+Research-publication gates remain open: fixed protocol; named owner and backup; cost ceiling and annual budget; provider-by-provider rights review for future site-run data; three comparable batches over at least 60 days; inspectable evidence package; content and source review; and explicit public launch approval with verified production evidence. Browser-local user tools may operate noindex without claiming that these gates have passed.
 
-Until every gate passes, every route remains `noindex, nofollow, noarchive`, the sitemap contains no URL entries and neither the Vercel preview nor custom domain may be treated as launched.
+Until every gate passes, every page remains `noindex, nofollow, noarchive` and the sitemap contains no URL entries. The public Vercel and custom-domain previews are crawlable through `robots.txt` so crawlers can receive the noindex directive; a confidential preview would require real access protection.

@@ -14,7 +14,7 @@ const slugs = [
 ];
 const libraryRoutes = slugs.map((slug) => `/library/${slug}`);
 const toolRoutes = ["/lab", "/protocol-builder"];
-const routes = ["/", ...toolRoutes, "/research", "/library", ...libraryRoutes, "/datasets", "/methodology", "/tracker", "/transparency"];
+const routes = ["/", ...toolRoutes, "/research", "/library", ...libraryRoutes, "/datasets", "/methodology", "/tracker", "/transparency", "/impressum", "/datenschutz"];
 const failures = [];
 const check = (condition, message) => { if (!condition) failures.push(message); };
 const pageFile = (route) => route === "/" ? join(dist, "index.html") : join(dist, route.slice(1), "index.html");
@@ -99,8 +99,16 @@ for (const route of libraryRoutes) {
 const datasets = htmlByRoute.get("/datasets") ?? "";
 for (const field of ["question", "answer_text", "source_urls", "coverage_criteria", "protocol_version"]) check(new RegExp(`<code[^>]*>${field}</code>`).test(datasets), `datasets: ${field} schema field missing`);
 check(datasets.includes("no ai-fanout.com observation release exists"), "datasets: release boundary missing");
+
+const imprint = htmlByRoute.get("/impressum") ?? "";
+check(imprint.includes("Matthias Ramahi") && imprint.includes("Kempener Straße 44") && imprint.includes("40699 Erkrath") && imprint.includes("info@matthiasramahi.de"), "imprint: verified operator details missing");
+check(imprint.includes("§ 5 DDG") && imprint.includes("§ 18 Abs. 2 MStV") && imprint.includes("ai-fanout.com — AI Answer Evidence Lab"), "imprint: provider or responsibility scope missing");
+
+const privacy = htmlByRoute.get("/datenschutz") ?? "";
+for (const claim of ["Vercel", "ausschließlich im Arbeitsspeicher Ihres Browsers", "keine Analytics-", "keine eigenen Cookies", "Systemschriften", "Es gibt kein Kontaktformular", "lokale Blob-URL"]) check(privacy.includes(claim), `privacy: exact behavior missing: ${claim}`);
+check(privacy.includes("localStorage") && privacy.includes("sessionStorage") && privacy.includes("nicht an ai-fanout.com"), "privacy: local-storage or transmission boundary missing");
 const robots = await readFile(join(dist, "robots.txt"), "utf8");
-check(robots.includes("User-agent: *") && robots.includes("Disallow: /") && robots.includes(`Sitemap: ${host}/sitemap.xml`), "robots: noindex incubator contract failed");
+check(robots.includes("User-agent: *") && robots.includes("Allow: /") && !robots.includes("Disallow: /") && robots.includes(`Sitemap: ${host}/sitemap.xml`), "robots: crawlable noindex preview contract failed");
 const sitemap = await readFile(join(dist, "sitemap.xml"), "utf8");
 check(sitemap.includes("<urlset") && !/<url(?:\s|>)/i.test(sitemap), "sitemap: noindex sitemap must have zero URLs");
 
@@ -114,14 +122,15 @@ check(rights.schemaVersion === 1 && rights.domain === "ai-fanout.com", "rights: 
 check(Array.isArray(rights.sources) && rights.sources.length >= 16, "rights: expanded source register missing");
 check(rights.sources.every((source) => source.id && source.checkedAt && source.status && source.supports), "rights: incomplete source provenance");
 check(requiredSources.every((id) => rights.sources.some((source) => source.id === id && source.status === "verified")), "rights: required primary source missing");
-check(rights.sources.some((source) => source.id === "recovery-raw-evidence" && source.status === "verified"), "rights: raw recovery evidence missing");
+check(rights.sources.some((source) => source.id === "operator-imprint-live" && source.status === "verified"), "rights: verified operator source missing");
 check(rights.sources.some((source) => source.id === "custom-domain-live" && source.status === "verified_noindex_live"), "rights: custom-domain state stale");
-check(rights.rights?.some((record) => record.status === "no_trademark_clearance_performed"), "rights: naming gap missing");
+check(rights.rights?.some((record) => record.status === "provenance_and_rights_required_before_publication"), "rights: third-party publication boundary missing");
 check(rights.rights?.some((record) => record.status === "browser_local_user_controlled"), "rights: user-input boundary missing");
 
-const legacy = JSON.parse(await readFile(join(root, "manifests", "legacy-url-actions.v1.json"), "utf8"));
-check(legacy.schemaVersion === 1 && legacy.domain === "ai-fanout.com", "legacy: identity failed");
-check(legacy.defaultAction === "404" && legacy.catchAllRedirect === false && legacy.records?.length === 0, "legacy: unsupported URL action detected");
+const routeActions = JSON.parse(await readFile(join(root, "manifests", "route-actions.v1.json"), "utf8"));
+check(routeActions.schemaVersion === 1 && routeActions.domain === "ai-fanout.com" && routeActions.domainOrigin === "fresh_registration", "routes: identity or origin failed");
+check(routeActions.defaultUnknownPathAction === "404" && routeActions.catchAllRedirect === false, "routes: unknown-path policy failed");
+check(routeActions.canonicalRoutes?.length === routes.length && routes.every((route) => routeActions.canonicalRoutes.includes(route)), "routes: manifest and implementation differ");
 
 const routeExists = async (pathname) => {
   if (pathname === "/" || routes.includes(pathname) || ["/robots.txt", "/sitemap.xml"].includes(pathname)) return true;
@@ -147,7 +156,7 @@ try {
     const response = await fetch(`${baseUrl}${route}`, { redirect: "manual" });
     check(response.status === 200, `${route}: expected HTTP 200, received ${response.status}`);
   }
-  const missing = await fetch(`${baseUrl}/not-a-reviewed-legacy-path`, { redirect: "manual" });
+  const missing = await fetch(`${baseUrl}/not-a-reviewed-route`, { redirect: "manual" });
   check(missing.status === 404 && !missing.headers.has("location"), "unknown path: real 404 without redirect required");
 } finally { await server.stop(); }
 

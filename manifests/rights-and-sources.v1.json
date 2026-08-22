@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-22.4",
+  "manifestVersion": "2026-08-22.5",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-08-22",
   "sources": [
@@ -11,25 +11,43 @@
       "location": "C:\\Users\\matth\\Documents\\DomainPortfolio\\strategy\\domains\\ai-fanout.com.md",
       "checkedAt": "2026-08-22",
       "status": "accepted",
-      "supports": "Purpose, audience, ownership disclosure, noindex tool-first Evidence Lab strategy, research launch gate, operating burden, information architecture and forbidden claims."
+      "supports": "Confirmed ownership, accepted Evidence Lab purpose, noindex research launch gate, operating model and portfolio relationship."
     },
     {
-      "id": "recovery-handoff",
-      "title": "Owned-domain rebuild handoff",
-      "kind": "technical_evidence_handoff",
-      "location": "C:\\Users\\matth\\Documents\\DomainPortfolio\\reports\\owned-domain-rebuild\\domains\\ai-fanout.com.md",
+      "id": "ownership-record",
+      "title": "Canonical owned-domain registry entry",
+      "kind": "owner_record",
+      "location": "C:\\Users\\matth\\Documents\\DomainPortfolio\\data\\domains.json",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "Recorded bounded DNS, RDAP, live-site and archive evidence for the confirmed-owned domain."
+      "supports": "Records ai-fanout.com as owned and newly purchased for the current project."
     },
     {
-      "id": "recovery-raw-evidence",
-      "title": "Owned-domain rebuild raw evidence",
-      "kind": "technical_evidence_json",
-      "location": "C:\\Users\\matth\\Documents\\DomainPortfolio\\reports\\owned-domain-rebuild\\evidence-2026-08-22.json",
+      "id": "operator-imprint-live",
+      "title": "Matthias Ramahi imprint",
+      "kind": "operator_identity",
+      "location": "https://matthiasramahi.de/impressum.html",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "Machine-readable free-source evidence generated at 2026-08-22T10:36:58Z: confirmed domain input, DNS addresses, RDAP registration and nameservers, current live response and zero successful HTML URLs in the bounded Wayback sample."
+      "supports": "Operator name, postal address, contact email and editorial responsibility used for the ai-fanout.com legal notice."
+    },
+    {
+      "id": "operator-legal-source",
+      "title": "Canonical operator legal source",
+      "kind": "operator_identity_source",
+      "location": "C:\\Users\\matth\\Documents\\MatthiasRamahiDe\\apps\\web\\src\\lib\\legalContent.ts",
+      "checkedAt": "2026-08-22",
+      "status": "verified",
+      "supports": "Repository source confirming Matthias Ramahi, Kempener Straße 44, 40699 Erkrath, info@matthiasramahi.de and responsibility under section 18(2) MStV."
+    },
+    {
+      "id": "vercel-privacy",
+      "title": "Vercel Privacy Notice",
+      "kind": "processor_documentation",
+      "location": "https://vercel.com/legal/privacy-notice",
+      "checkedAt": "2026-08-22",
+      "status": "verified",
+      "supports": "Hosting-provider disclosures about end-user request data, retention, providers and international transfers used in the site-specific privacy notice."
     },
     {
       "id": "google-query-fanout",
@@ -38,7 +56,7 @@
       "location": "https://developers.google.com/search/docs/appearance/ai-features",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "Google publicly describes query fan-out as multiple related searches across subtopics and data sources; it does not expose a general private-query inspection interface."
+      "supports": "Google describes query fan-out publicly without exposing a general private-query inspection interface."
     },
     {
       "id": "google-ai-optimization",
@@ -47,7 +65,7 @@
       "location": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "Google says normal SEO foundations remain relevant and warns against separate pages for every fan-out or query variation when created primarily to manipulate rankings or generative responses."
+      "supports": "Normal SEO foundations remain relevant; pages made primarily for fan-out variations are not the accepted content model."
     },
     {
       "id": "google-helpful-content",
@@ -56,7 +74,7 @@
       "location": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "Google recommends original, substantial, audience-first content with clear authorship, sourcing and production context rather than search-engine-first mass publishing."
+      "supports": "Supports original, substantial, audience-first content with transparent sourcing and production context."
     },
     {
       "id": "google-spam-policies",
@@ -65,7 +83,7 @@
       "location": "https://developers.google.com/search/docs/essentials/spam-policies",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "Google defines scaled content abuse as many pages produced primarily to manipulate rankings while providing little original user value, regardless of production method."
+      "supports": "Defines scaled content abuse regardless of production method."
     },
     {
       "id": "nist-ai-rmf-genai",
@@ -74,7 +92,7 @@
       "location": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "A current cross-sectoral risk-management profile supporting explicit measurement, documentation, monitoring and limitations for generative-AI evaluations."
+      "supports": "Supports explicit measurement, documentation, monitoring and limitations for generative-AI evaluations."
     },
     {
       "id": "w3c-prov-o",
@@ -83,7 +101,7 @@
       "location": "https://www.w3.org/TR/prov-o/",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "W3C provenance concepts for identifying entities, activities, agents, derivations, revisions, sources and versioned evidence chains."
+      "supports": "Provides provenance concepts for entities, activities, agents, derivations, sources and versions."
     },
     {
       "id": "rfc-3339",
@@ -92,7 +110,7 @@
       "location": "https://www.rfc-editor.org/info/rfc3339/",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "An interoperable timestamp representation with a stated relationship to UTC for observation records."
+      "supports": "Supports an interoperable timestamp representation tied to UTC."
     },
     {
       "id": "fair-principles",
@@ -101,7 +119,7 @@
       "location": "https://force11.org/info/the-fair-data-principles/",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "Principles for findable, accessible, interoperable and reusable research data, including persistent identifiers, metadata, provenance and clear usage licenses."
+      "supports": "Supports reusable research data with metadata, provenance and clear usage licenses."
     },
     {
       "id": "rdap",
@@ -110,7 +128,7 @@
       "location": "https://rdap.org/domain/ai-fanout.com",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "Registration event dated 2026-08-16 and current nameserver record."
+      "supports": "Registration event dated 2026-08-16 and current registry state."
     },
     {
       "id": "custom-domain-live",
@@ -119,25 +137,25 @@
       "location": "https://ai-fanout.com/",
       "checkedAt": "2026-08-22",
       "status": "verified_noindex_live",
-      "supports": "Custom domain returned the deployed noindex website over HTTPS after DNS connection; final tool-build deployment proof is recorded separately after release."
+      "supports": "Custom domain serves the production deployment over HTTPS with canonical URLs and noindex directives."
     },
     {
       "id": "vercel-preview",
-      "title": "Current Vercel preview",
+      "title": "Current Vercel project alias",
       "kind": "live_technical_check",
       "location": "https://ai-fanout-com.vercel.app/",
       "checkedAt": "2026-08-22",
       "status": "verified_noindex_preview",
-      "supports": "Vercel project preview returned the deployed noindex site with the global X-Robots-Tag boundary; final tool-build deployment proof is recorded after release."
+      "supports": "The Vercel project alias serves the same noindex deployment."
     },
     {
-      "id": "wayback-cdx",
-      "title": "Bounded Wayback CDX query",
-      "kind": "archive_check",
-      "location": "https://web.archive.org/cdx/search/cdx?url=ai-fanout.com%2F%2A&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=urlkey&limit=500",
+      "id": "browser-local-implementation",
+      "title": "Browser-local tool implementation",
+      "kind": "implementation_evidence",
+      "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\src\\scripts",
       "checkedAt": "2026-08-22",
-      "status": "verified_empty_bounded_sample",
-      "supports": "The refreshed free recovery run observed zero successful historical HTML URLs in its bounded sample; this does not prove complete archive absence or naming clearance."
+      "status": "verified",
+      "supports": "Evidence Lab and Protocol Builder contain no fetch, XMLHttpRequest, sendBeacon, localStorage or sessionStorage path; exports use browser-created files after explicit actions."
     },
     {
       "id": "source-repository",
@@ -146,52 +164,44 @@
       "location": "https://github.com/lia-xim/ai-fanout.com",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "Current code provenance and the absence of a repository license file."
+      "supports": "Current code provenance and absence of a repository license file."
     }
   ],
   "rights": [
-    {
-      "assetClass": "Former-site text, code, media, identity and users",
-      "status": "not_available_not_used",
-      "decision": "No former-site asset is copied or represented as transferred."
-    },
     {
       "assetClass": "Current repository code and copy",
       "status": "owner_created_no_open_license",
       "decision": "The public repository does not grant reuse rights unless a later LICENSE file does so explicitly."
     },
     {
-      "assetClass": "AI provider outputs, screenshots and source lists",
-      "status": "review_required_before_collection_or_publication",
-      "decision": "The Lab may process user-supplied material transiently in the browser. Site-run retention, quotation, collection and redistribution still require provider-by-provider review before any batch."
+      "assetClass": "Third-party screenshots, copied text and stored model outputs",
+      "status": "provenance_and_rights_required_before_publication",
+      "decision": "Publication requires verified provenance, clear attribution and the necessary provider, copyright and privacy permissions."
     },
     {
-      "assetClass": "The descriptive term AI fan-out",
-      "status": "no_trademark_clearance_performed",
-      "decision": "Use as a descriptive project name only; do not claim exclusivity or endorsement."
+      "assetClass": "AI provider outputs and source lists used in a future site-run dataset",
+      "status": "provider_review_required_before_collection_or_publication",
+      "decision": "Future server-side retention, quotation, batching or redistribution requires provider-by-provider review. The current browser-local tools do none of these things."
     },
     {
       "assetClass": "Typography and production imagery",
       "status": "no_bundled_third_party_assets",
-      "decision": "The website uses system font fallbacks and code-native graphics. Generated concept PNGs are internal design references and are not rendered by the public site."
+      "decision": "The public website uses system font fallbacks and code-native graphics; it loads no third-party font or production image asset."
     },
     {
       "assetClass": "External standards and documentation",
       "status": "linked_and_paraphrased",
-      "decision": "Library pages link to primary sources and paraphrase narrowly supported facts; they do not republish source documents or protected artwork."
+      "decision": "Reference pages link to primary sources and paraphrase narrowly supported facts without republishing source documents or protected artwork."
     },
     {
       "assetClass": "User-supplied answers, criteria, metadata and visible source URLs",
       "status": "browser_local_user_controlled",
-      "decision": "Inputs are processed in memory in the browser, are not sent to ai-fanout.com or an AI provider, and are exported only by an explicit user action. Users remain responsible for material they enter and retain."
+      "decision": "Inputs are processed only in browser memory, are not transmitted by ai-fanout.com, and are exported only after an explicit user action."
     }
   ],
   "unknowns": [
-    "Complete trademark and naming clearance",
-    "Provider-specific retention and redistribution rights",
-    "Complete Wayback coverage beyond the bounded successful-HTML sample",
-    "Search Console ownership, manual actions, security issues and current index state",
-    "Complete backlink target coverage; no paid endpoint was executed",
+    "Provider-specific retention and redistribution rights for any future site-run observation dataset",
+    "Search Console manual-action, security and current index-state evidence",
     "Named research owner, backup reviewer, cost ceiling and sustainable editorial maintenance owner"
   ]
 }
