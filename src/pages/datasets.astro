@@ -8,7 +8,7 @@ import { observationSchema } from "../data/research";
   <header class="page-head">
     <h1>Datasets</h1>
     <div class="page-head-copy">
-      <p>The schema is public before the data. No observation release exists, and no download is implied.</p>
+      <p>The Lab export schema is public before any research dataset. You can create your own local package, but no ai-fanout.com observation release exists.</p>
       <p class="meta-line">Release state · none · license not assigned</p>
     </div>
   </header>
@@ -24,7 +24,7 @@ import { observationSchema } from "../data/research";
   <section class="section-pad section-rule" aria-labelledby="dictionary-title">
     <span class="section-number">02</span>
     <h2 id="dictionary-title" class="section-title">Observation dictionary</h2>
-    <p class="section-lede">Labels only. Fields do not contain example results, providers, sources or scores.</p>
+    <p class="section-lede">These fields describe the portable package produced by the local Lab and the stricter record a future study would need. They do not imply collected results.</p>
     <table class="data-table schema-table">
       <thead><tr><th scope="col">Field</th><th scope="col">Purpose</th><th scope="col">Required rule</th></tr></thead>
       <tbody>
@@ -45,7 +45,7 @@ import { observationSchema } from "../data/research";
     </dl>
   </section>
 
-  <section class="section-pad handoff"><p>Need the rules behind these fields?</p><a class="text-action" href="/methodology">Read methodology v0.1 <ArrowIcon /></a></section>
+  <section class="section-pad handoff"><div><p>Need a package you can inspect now?</p><small>The Lab exports only the observations you enter in your browser.</small></div><a class="text-action" href="/lab">Open the Evidence Lab <ArrowIcon /></a></section>
 </BaseLayout>
 
 <style>
@@ -59,5 +59,6 @@ import { observationSchema } from "../data/research";
   .release-contract dd { margin: 0; line-height: 1.55; }
   .handoff { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
   .handoff p { margin: 0; font: 400 clamp(1.8rem, 4vw, 3.8rem)/1 var(--font-display); }
+  .handoff small { display: block; max-width: 52ch; margin-top: 0.8rem; color: var(--muted); line-height: 1.5; }
   @media (max-width: 760px) { .release-contract { grid-template-columns: 1fr; } .handoff { align-items: flex-start; flex-direction: column; } }
 </style>

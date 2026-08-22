@@ -46,7 +46,7 @@ export const launchGates: readonly Gate[] = [
     id: "G-07",
     label: "Public launch approval",
     state: "not_granted",
-    explanation: "No explicit launch approval or verified custom-domain production release is recorded.",
+    explanation: "The custom domain is connected, but explicit approval for an indexable public launch has not been granted.",
   },
 ] as const;
 
@@ -66,12 +66,15 @@ export const studyRegistry = [
 export const observationSchema = [
   ["observation_id", "Stable record identifier"],
   ["observed_at", "UTC observation timestamp"],
+  ["question", "Exact public question supplied for the observation"],
   ["surface", "Public product or search surface"],
   ["surface_version", "Publicly available version or release identifier, when known"],
   ["locale", "Declared language and market context"],
-  ["question_id", "Stable preregistered question identifier"],
+  ["question_id", "Stable preregistered question identifier when a protocol defines one"],
+  ["answer_text", "User-supplied public answer text when local processing or retention is permitted"],
   ["response_hash", "Integrity hash when retaining the response is permitted"],
   ["source_urls", "Visible cited or linked source URLs"],
+  ["coverage_criteria", "User-defined literal phrases tested against the supplied answer"],
   ["missing_reason", "Explicit reason when a field is unavailable"],
   ["protocol_version", "Version governing collection and calculation"],
 ] as const;
@@ -93,7 +96,7 @@ export const methodologySections = [
     id: "measures",
     number: "03",
     title: "Measures",
-    body: "Source-domain diversity, source recurrence, answer overlap, citation persistence, and missingness—with denominators.",
+    body: "Visible source-domain recurrence, mean pairwise token Jaccard overlap, literal phrase coverage, and missingness—with explicit denominators and limitations.",
   },
   {
     id: "comparability-breaks",

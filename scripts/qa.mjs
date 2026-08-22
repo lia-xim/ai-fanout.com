@@ -13,7 +13,8 @@ const slugs = [
   "audit-ai-answer-sources", "compare-ai-answers-over-time",
 ];
 const libraryRoutes = slugs.map((slug) => `/library/${slug}`);
-const routes = ["/", "/research", "/library", ...libraryRoutes, "/datasets", "/methodology", "/tracker", "/transparency"];
+const toolRoutes = ["/lab", "/protocol-builder"];
+const routes = ["/", ...toolRoutes, "/research", "/library", ...libraryRoutes, "/datasets", "/methodology", "/tracker", "/transparency"];
 const failures = [];
 const check = (condition, message) => { if (!condition) failures.push(message); };
 const pageFile = (route) => route === "/" ? join(dist, "index.html") : join(dist, route.slice(1), "index.html");
@@ -49,9 +50,35 @@ for (const route of routes) {
 }
 
 const home = htmlByRoute.get("/") ?? "";
-check(home.includes("Observe the answer. Audit the evidence."), "home: accepted hero copy missing");
-check(home.includes('role="tablist"') && home.includes('aria-controls="protocol-panel"') && home.includes('aria-controls="limits-panel"'), "home: accessible Observation Field contract failed");
+check(home.includes("Map what stays. Mark what changes."), "home: tool-first visual thesis missing");
+check(home.includes('href="/lab"') && home.includes('href="/protocol-builder"'), "home: primary tool paths missing");
+check(home.includes("Not research data") && home.includes("No input upload"), "home: demo or privacy boundary missing");
+check(home.includes("Visible source recurrence") && home.includes("Literal coverage"), "home: evidence output contract missing");
 check(home.includes("<summary>Menu</summary>") && home.includes('class="skip-link"'), "site: mobile menu or skip link missing");
+
+const lab = htmlByRoute.get("/lab") ?? "";
+check(lab.includes("data-evidence-lab") && lab.includes("data-lab-form"), "lab: interactive workbench missing");
+check(lab.includes("data-source-matrix") && lab.includes("data-coverage-matrix"), "lab: evidence matrices missing");
+check(lab.includes("data-export-json") && lab.includes("data-export-csv"), "lab: portable exports missing");
+check(lab.includes("Nothing entered here is sent") && lab.includes("Local only"), "lab: browser-local contract missing");
+check(lab.includes("does not verify factual accuracy") && lab.includes("hidden fan-out queries"), "lab: evidence boundary missing");
+
+const protocol = htmlByRoute.get("/protocol-builder") ?? "";
+check(protocol.includes("data-protocol-builder") && protocol.includes("data-protocol-form"), "protocol: builder missing");
+check(protocol.includes("data-protocol-readiness") && protocol.includes("not preregistered"), "protocol: readiness or draft boundary missing");
+check(protocol.includes("data-export-protocol-json") && protocol.includes("data-export-protocol-markdown"), "protocol: exports missing");
+for (const name of ["questions", "surface", "route", "missingRule", "retention"]) check(protocol.includes(`data-protocol-field="${name}"`), `protocol: ${name} contract missing`);
+
+const labSource = await readFile(join(root, "src", "scripts", "evidence-lab.ts"), "utf8");
+const protocolSource = await readFile(join(root, "src", "scripts", "protocol-builder.ts"), "utf8");
+for (const [name, source] of [["lab", labSource], ["protocol", protocolSource]]) {
+  for (const forbidden of ["fetch(", "XMLHttpRequest", "sendBeacon(", "localStorage", "sessionStorage"]) check(!source.includes(forbidden), `${name}: browser-local boundary violated by ${forbidden}`);
+}
+check(labSource.includes("pairwiseJaccard") && labSource.includes("literalPresence") && labSource.includes("parseSources"), "lab: transparent calculation methods missing");
+check(protocolSource.includes("draft_not_preregistered") && protocolSource.includes("toMarkdown"), "protocol: portable draft contract missing");
+const globalCss = await readFile(join(root, "src", "styles", "global.css"), "utf8");
+check(globalCss.includes(":focus-visible") && globalCss.includes("outline: 2px solid var(--focus)"), "accessibility: global visible focus treatment missing");
+check(globalCss.includes("prefers-reduced-motion: reduce") && globalCss.includes("scroll-behavior: auto !important"), "accessibility: reduced-motion contract missing");
 
 const hub = htmlByRoute.get("/library") ?? "";
 check(hub.includes("Build the evidence before the trend."), "library: visual thesis missing");
@@ -69,6 +96,9 @@ for (const route of libraryRoutes) {
   check(visibleLength(html) >= 3000, `${route}: substantive reference depth failed`);
 }
 
+const datasets = htmlByRoute.get("/datasets") ?? "";
+for (const field of ["question", "answer_text", "source_urls", "coverage_criteria", "protocol_version"]) check(new RegExp(`<code[^>]*>${field}</code>`).test(datasets), `datasets: ${field} schema field missing`);
+check(datasets.includes("no ai-fanout.com observation release exists"), "datasets: release boundary missing");
 const robots = await readFile(join(dist, "robots.txt"), "utf8");
 check(robots.includes("User-agent: *") && robots.includes("Disallow: /") && robots.includes(`Sitemap: ${host}/sitemap.xml`), "robots: noindex incubator contract failed");
 const sitemap = await readFile(join(dist, "sitemap.xml"), "utf8");
@@ -85,7 +115,9 @@ check(Array.isArray(rights.sources) && rights.sources.length >= 16, "rights: exp
 check(rights.sources.every((source) => source.id && source.checkedAt && source.status && source.supports), "rights: incomplete source provenance");
 check(requiredSources.every((id) => rights.sources.some((source) => source.id === id && source.status === "verified")), "rights: required primary source missing");
 check(rights.sources.some((source) => source.id === "recovery-raw-evidence" && source.status === "verified"), "rights: raw recovery evidence missing");
+check(rights.sources.some((source) => source.id === "custom-domain-live" && source.status === "verified_noindex_live"), "rights: custom-domain state stale");
 check(rights.rights?.some((record) => record.status === "no_trademark_clearance_performed"), "rights: naming gap missing");
+check(rights.rights?.some((record) => record.status === "browser_local_user_controlled"), "rights: user-input boundary missing");
 
 const legacy = JSON.parse(await readFile(join(root, "manifests", "legacy-url-actions.v1.json"), "utf8"));
 check(legacy.schemaVersion === 1 && legacy.domain === "ai-fanout.com", "legacy: identity failed");
@@ -105,7 +137,7 @@ for (const [route, html] of htmlByRoute) {
 }
 
 const allHtml = [...htmlByRoute.values()].join("\n").toLowerCase();
-for (const phrase of ["reveals hidden queries", "accesses private retrieval traces", "exposes chain of thought", "live research dataset", "published trend findings", "independently verified by contextter", "guaranteed rankings", "ranking guarantee", "private query trace recovered"]) check(!allHtml.includes(phrase), `forbidden claim: ${phrase}`);
+for (const phrase of ["reveals hidden queries", "accesses private retrieval traces", "exposes chain of thought", "live research dataset", "published trend findings", "independently verified by contextter", "guaranteed rankings", "ranking guarantee", "private query trace recovered", "actual fan-out queries"]) check(!allHtml.includes(phrase), `forbidden claim: ${phrase}`);
 for (const stale of ["project setup", "temporary project page", "custom domain is not connected yet", "raw recovery evidence json was not present"]) check(!allHtml.includes(stale), `stale copy: ${stale}`);
 
 const server = await preview({ root, logLevel: "silent", server: { host: "127.0.0.1", port: 0 } });
@@ -120,4 +152,4 @@ try {
 } finally { await server.stop(); }
 
 if (failures.length) { console.error(failures.join("\n")); process.exit(1); }
-console.log(`QA passed: ${routes.length} canonical pages including ${libraryRoutes.length} deep references; unique metadata, source depth, noindex, links, HTTP 200/404, manifests and claims verified.`);
+console.log(`QA passed: ${routes.length} canonical pages, 2 browser-local tools, ${libraryRoutes.length} deep references; unique metadata, source depth, noindex, links, HTTP 200/404, manifests, local-processing and forbidden claims verified.`);

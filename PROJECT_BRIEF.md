@@ -4,15 +4,15 @@ Updated: 2026-08-22
 
 ## Accepted purpose
 
-`ai-fanout.com` is a gated research incubator and noindex reference library for a future international observatory of observable AI-answer and source stability. It exists now to make the definitions, research protocol, observation schema, field procedures, launch gates and evidence boundaries inspectable. Versioned observations, datasets and findings may appear only after the research launch gate passes.
+`ai-fanout.com` is a free, browser-local AI Answer Evidence Lab backed by a gated international research observatory. It helps users compare one to five public AI-answer observations, visible source URLs, user-defined coverage criteria and comparability metadata, then export an inspectable evidence package.
 
-The website is useful without a dataset because it turns vague AI-search claims into bounded measurement contracts. It is not evidence that collection has begun or produced findings.
+The tools are useful before a public dataset exists. Versioned observations, benchmarks, datasets and findings may appear only after the research launch gate passes. The website is not evidence that collection has begun or produced findings.
 
 ## Audiences
 
-- Primary: AI-search and information-retrieval researchers who need inspectable methods and denominators.
-- Secondary: SEO researchers and technical marketers who need practical source-audit and longitudinal-comparison procedures.
-- Tertiary: reviewers checking ownership, rights, limitations, provenance and launch readiness.
+- Primary: AI-search, AEO and SEO practitioners who need to audit visible answers and cited sources.
+- Secondary: researchers and analysts who need repeatable cross-model or longitudinal observation packages.
+- Tertiary: publishers, site owners and reviewers checking coverage, source recurrence, provenance, rights and launch readiness.
 
 ## Original evidence obligation
 
@@ -24,11 +24,13 @@ Reference pages must be grounded in current primary documentation, standards or 
 
 The visual system is **controlled signal**: a near-black research environment with high-discipline modern grotesk typography, cool-white content, cyan observable/source states and restrained red open/blocked states. Open bands, evidence rails and ruled indexes create authority through structure and whitespace.
 
-The homepage signature remains the keyboard-operable **Observation Field**. The library extends that thesis with a filterable signal index, direct-answer bands, sticky evidence spines and source notes. Motion is limited to state, direction and entrance; the site has no scroll hijacking or decorative continuous animation.
+The homepage signature is a source-recurrence composition that routes into the working **Evidence Lab**. The lab extends controlled signal into a dense but calm observation workspace with ruled inputs, a recurrence matrix, explicit warnings and export states. Motion is limited to state, direction and entrance; the site has no scroll hijacking or decorative continuous animation.
 
 ## Information architecture and page jobs
 
-- `/` — explain why the research deserves to exist and expose method, limits and launch gate.
+- `/` — explain the observable-evidence promise and route directly into the tools.
+- `/lab` — compare one to five public AI-answer observations and export source, coverage, stability and comparability evidence.
+- `/protocol-builder` — create and export a repeatable observation plan before collection.
 - `/research` — register planned, active, completed, superseded or withdrawn studies without implying results.
 - `/library` — navigate the curated reference system by concept, measurement, method, data standard and field guide.
 - `/library/<slug>` — solve one distinct definition, measurement or procedure intent with a direct answer, evidence limits, sources and related next step.
@@ -70,12 +72,12 @@ The homepage signature remains the keyboard-operable **Observation Field**. The 
 - Backup reviewer: not assigned.
 - Library review owner: not assigned.
 - Current cadence: source review during material implementation; private monthly batches only after protocol and lawful retention approval.
-- Operating burden: high.
+- Operating burden: medium for browser-local tools; high only when automated collection or public benchmarks begin.
 - Cost ceiling: not assigned.
 - Stop condition: keep parked/noindex when there is no named owner, cost ceiling, lawful observation set or three comparable batches; consolidate or retire stale library pages rather than maintaining empty authority signals.
 
 ## Launch gates
 
-All gates are currently open: fixed protocol; named owner and backup; cost ceiling and annual budget; provider-by-provider rights review; three comparable batches over at least 60 days; inspectable evidence package; content and source review; and explicit public launch approval with verified production evidence.
+All research-publication gates are currently open: fixed protocol; named owner and backup; cost ceiling and annual budget; provider-by-provider rights review; three comparable batches over at least 60 days; inspectable evidence package; content and source review; and explicit public launch approval with verified production evidence. Browser-local user tools may operate noindex without claiming that these gates have passed.
 
 Until every gate passes, every route remains `noindex, nofollow, noarchive`, the sitemap contains no URL entries and neither the Vercel preview nor custom domain may be treated as launched.

@@ -1,0 +1,47 @@
+---
+import ArrowIcon from "../components/ArrowIcon.astro";
+import EvidenceLab from "../components/EvidenceLab.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import "../styles/tools.css";
+---
+
+<BaseLayout title="AI Answer Evidence Lab" canonicalPath="/lab" description="Compare one to five public AI-answer observations, visible source domains, literal coverage and answer overlap locally in your browser." pageClass="tool-page">
+  <header class="page-head tool-page-head">
+    <div>
+      <p class="section-number">Primary tool · no signup</p>
+      <h1>Compare what the answers show.</h1>
+    </div>
+    <div class="page-head-copy">
+      <p>Bring public final answers, visible source URLs and the metadata needed to compare them. Leave with a transparent evidence package you can inspect and export.</p>
+      <dl class="tool-proof"><div><dt>Processing</dt><dd>In this browser tab</dd></div><div><dt>Inputs</dt><dd>1–5 observations</dd></div><div><dt>Output</dt><dd>JSON + CSV</dd></div></dl>
+    </div>
+  </header>
+
+  <EvidenceLab />
+
+  <section class="tool-method section-pad section-rule" aria-labelledby="method-title">
+    <div><span class="section-number">05</span><h2 id="method-title" class="section-title">What the measures mean</h2></div>
+    <dl>
+      <div><dt>Visible source domain</dt><dd>A normalized host parsed from a URL that the user recorded as visibly cited or linked.</dd></div>
+      <div><dt>Recurring domain</dt><dd>A visible source host present in at least two included observations. Recurrence is not a quality score.</dd></div>
+      <div><dt>Answer overlap</dt><dd>The mean pairwise Jaccard overlap of normalized content-word sets. It describes shared vocabulary, not semantic equivalence.</dd></div>
+      <div><dt>Literal coverage</dt><dd>The share of observation-by-criterion cells containing the exact normalized phrase supplied by the user.</dd></div>
+    </dl>
+  </section>
+
+  <section class="tool-next section-pad">
+    <div><p class="section-number">Before repeated collection</p><h2>Freeze the rules that make comparison possible.</h2></div>
+    <a class="button" href="/protocol-builder">Build an observation protocol <ArrowIcon /></a>
+  </section>
+</BaseLayout>
+
+<style>
+  .tool-method { display: grid; grid-template-columns: minmax(15rem, 0.65fr) minmax(0, 1.35fr); gap: clamp(2rem, 7vw, 8rem); }
+  .tool-method dl { margin: 0; border-top: 1px solid var(--rule); }
+  .tool-method dl > div { display: grid; grid-template-columns: minmax(10rem, 0.42fr) minmax(0, 1fr); gap: 1.5rem; padding-block: 1.15rem; border-bottom: 1px solid var(--fine-rule); }
+  .tool-method dt { color: var(--source); font: 0.7rem/1.45 var(--font-mono); text-transform: uppercase; }
+  .tool-method dd { margin: 0; color: var(--muted); font-size: 0.84rem; line-height: 1.6; }
+  .tool-next { display: flex; align-items: end; justify-content: space-between; gap: 3rem; }
+  .tool-next h2 { max-width: 16ch; margin: 0; font: 700 clamp(2.4rem, 5vw, 5rem)/0.98 var(--font-display); letter-spacing: -0.055em; }
+  @media (max-width: 760px) { .tool-method { grid-template-columns: 1fr; } .tool-method dl > div { grid-template-columns: 1fr; gap: 0.5rem; } .tool-next { align-items: flex-start; flex-direction: column; } }
+</style>

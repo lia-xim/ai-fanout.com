@@ -1,10 +1,12 @@
 import { spawn } from "node:child_process";
-import { mkdtemp, rm } from "node:fs/promises";
+import { mkdir, mkdtemp, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 
 const chromePath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const previewUrl = process.env.PREVIEW_URL ?? "http://127.0.0.1:4322";
+const screenshotDir = process.env.QA_SCREENSHOT_DIR;
+const runLabel = process.env.QA_RUN_LABEL ?? (previewUrl.includes("127.0.0.1") ? "local" : "live");
 const debugPort = 9339;
 const profile = await mkdtemp(join(tmpdir(), "ai-fanout-browser-qa-"));
 const chrome = spawn(chromePath, [
@@ -104,6 +106,12 @@ async function navigate(session, url) {
   await delay(150);
 }
 
+async function screenshot(session, name) {
+  if (!screenshotDir) return;
+  await mkdir(screenshotDir, { recursive: true });
+  const result = await session.send("Page.captureScreenshot", { format: "png", fromSurface: true, captureBeyondViewport: false });
+  await writeFile(join(screenshotDir, `${runLabel}-${name}.png`), Buffer.from(result.data, "base64"));
+}
 await waitForChrome();
 const session = await createSession();
 const consoleProblems = [];
@@ -118,21 +126,51 @@ session.on("Runtime.consoleAPICalled", (event) => {
 const results = {};
 try {
   await session.send("Emulation.setDeviceMetricsOverride", { width: 1440, height: 1000, deviceScaleFactor: 1, mobile: false });
-  await navigate(session, `${previewUrl}/library`);
-  results.desktop = await session.evaluate(`(() => ({
+  await navigate(session, `${previewUrl}/`);
+  results.home = await session.evaluate(`(() => ({
     width: innerWidth,
     scrollWidth: document.documentElement.scrollWidth,
     overflow: document.documentElement.scrollWidth > innerWidth,
-    title: document.title,
     h1: document.querySelector('h1')?.textContent?.trim(),
-    references: document.querySelectorAll('[data-library-item]').length,
-    filters: document.querySelectorAll('[data-filter]').length,
-    currentNav: document.querySelector('.desktop-nav [aria-current="page"]')?.textContent?.trim()
+    demoRows: document.querySelectorAll('.signal-grid .signal-row:not(.signal-head)').length,
+    primaryAction: document.querySelector('.hero-actions .button')?.getAttribute('href')
   }))()`);
-  results.filter = await session.evaluate(`(() => {
+  await screenshot(session, "home-desktop");
+
+  await navigate(session, `${previewUrl}/lab`);
+  results.lab = await session.evaluate(`(() => {
+    document.querySelector('[data-load-sample]')?.click();
+    document.querySelector('[data-lab-form]')?.requestSubmit();
+    const metric = (name) => document.querySelector('[data-metric="' + name + '"]')?.textContent?.trim();
+    return {
+      width: innerWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+      overflow: document.documentElement.scrollWidth > innerWidth,
+      h1: document.querySelector('h1')?.textContent?.trim(),
+      observations: document.querySelectorAll('[data-observation-stack] [data-observation]').length,
+      resultsVisible: !document.querySelector('[data-lab-results]')?.hidden,
+      observationMetric: metric('observations'),
+      domainMetric: metric('domains'),
+      recurringMetric: metric('recurring'),
+      coverageMetric: metric('coverage'),
+      overlapMetric: metric('overlap'),
+      sourceRows: document.querySelectorAll('[data-source-matrix] tbody tr').length,
+      coverageRows: document.querySelectorAll('[data-coverage-matrix] tbody tr').length,
+      warnings: document.querySelectorAll('[data-warning-list] li').length,
+      localOnly: document.querySelector('.privacy-mark strong')?.textContent?.trim()
+    };
+  })()`);
+  await delay(250);
+  await session.evaluate(`(() => { document.documentElement.style.scrollBehavior = 'auto'; document.querySelector('[data-lab-results]')?.scrollIntoView({ block: 'start' }); })()`);
+  await screenshot(session, "lab-desktop");
+
+  await navigate(session, `${previewUrl}/library`);
+  results.library = await session.evaluate(`(() => {
     document.querySelector('[data-filter="Method"]')?.click();
     const items = [...document.querySelectorAll('[data-library-item]')];
     return {
+      references: items.length,
+      filters: document.querySelectorAll('[data-filter]').length,
       pressed: document.querySelector('[data-filter="Method"]')?.getAttribute('aria-pressed'),
       visible: items.filter((item) => !item.hidden).length,
       hidden: items.filter((item) => item.hidden).length
@@ -140,30 +178,41 @@ try {
   })()`);
 
   await session.send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
-  await navigate(session, `${previewUrl}/library/query-fan-out`);
-  results.mobile = await session.evaluate(`(() => {
+  await navigate(session, `${previewUrl}/protocol-builder`);
+  results.protocol = await session.evaluate(`(() => {
     document.querySelector('.mobile-nav summary')?.click();
+    document.querySelector('[data-load-protocol-sample]')?.click();
+    document.querySelector('[data-protocol-form]')?.requestSubmit();
+    const readiness = [...document.querySelectorAll('[data-protocol-readiness] li')];
     return {
       width: innerWidth,
       scrollWidth: document.documentElement.scrollWidth,
       overflow: document.documentElement.scrollWidth > innerWidth,
       h1: document.querySelector('h1')?.textContent?.trim(),
-      sections: document.querySelectorAll('.article-section').length,
-      sources: document.querySelectorAll('.source-notes li').length,
       menuOpen: document.querySelector('.mobile-nav')?.hasAttribute('open'),
-      directAnswer: Boolean(document.querySelector('.direct-answer')),
-      breadcrumb: document.querySelector('.breadcrumb')?.textContent?.replace(/\\s+/g, ' ').trim()
+      resultsVisible: !document.querySelector('[data-protocol-result]')?.hidden,
+      readinessSignals: readiness.length,
+      readySignals: readiness.filter((item) => item.classList.contains('is-ready')).length,
+      previewHasName: document.querySelector('[data-protocol-preview]')?.textContent?.includes('Monthly public answer-source control set'),
+      exportButtons: document.querySelectorAll('[data-protocol-result] button').length
     };
   })()`);
+  await delay(250);
+  await session.evaluate(`(() => { document.documentElement.style.scrollBehavior = 'auto'; document.querySelector('.mobile-nav summary')?.click(); document.querySelector('[data-protocol-result]')?.scrollIntoView({ block: 'start' }); })()`);
+  await screenshot(session, "protocol-mobile");
 
   const failed = [];
-  if (results.desktop.overflow || results.mobile.overflow) failed.push("horizontal overflow detected");
-  if (results.desktop.references !== 13 || results.desktop.filters < 6) failed.push("library index count failed");
-  if (results.filter.pressed !== "true" || results.filter.visible !== 4 || results.filter.hidden !== 9) failed.push("library filter interaction failed");
-  if (results.mobile.sections < 4 || results.mobile.sources < 2 || !results.mobile.menuOpen || !results.mobile.directAnswer) failed.push("mobile article or menu contract failed");
+  if (results.home.overflow || results.lab.overflow || results.protocol.overflow) failed.push("horizontal overflow detected");
+  if (results.home.h1 !== "Map what stays. Mark what changes." || results.home.demoRows !== 4 || results.home.primaryAction !== "/lab") failed.push("homepage composition failed");
+  if (results.lab.h1 !== "Compare what the answers show." || results.lab.observations !== 3 || !results.lab.resultsVisible) failed.push("lab demo interaction failed");
+  if (results.lab.observationMetric !== "3" || results.lab.domainMetric !== "3" || results.lab.recurringMetric !== "2 / 3" || results.lab.coverageMetric !== "12 / 12") failed.push("lab measure contract failed");
+  if (!/%$/.test(results.lab.overlapMetric ?? "") || results.lab.sourceRows !== 3 || results.lab.coverageRows !== 4 || results.lab.warnings < 3 || results.lab.localOnly !== "Local only") failed.push("lab output rendering failed");
+  if (results.library.references !== 13 || results.library.filters < 6 || results.library.pressed !== "true" || results.library.visible !== 4 || results.library.hidden !== 9) failed.push("library filter interaction failed");
+  if (results.protocol.h1 !== "Fix the method before the first run." || !results.protocol.menuOpen || !results.protocol.resultsVisible) failed.push("mobile protocol interaction failed");
+  if (results.protocol.readinessSignals !== 8 || results.protocol.readySignals !== 5 || !results.protocol.previewHasName || results.protocol.exportButtons !== 2) failed.push("protocol output contract failed");
   if (consoleProblems.length) failed.push(...consoleProblems);
   if (failed.length) throw new Error(failed.join("; "));
-  console.log(JSON.stringify({ status: "passed", previewUrl, ...results, consoleProblems }, null, 2));
+  console.log(JSON.stringify({ status: "passed", previewUrl, screenshotDir: screenshotDir ?? null, ...results, consoleProblems }, null, 2));
 } finally {
   session.close();
   chrome.kill();

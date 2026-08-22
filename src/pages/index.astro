@@ -1,116 +1,133 @@
 ---
 import ArrowIcon from "../components/ArrowIcon.astro";
-import ObservationField from "../components/ObservationField.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { launchGates } from "../data/research";
-import evidenceManifest from "../../manifests/rights-and-sources.v1.json";
 
-const pageLinks = [
-  { number: "01", title: "Research", href: "/research", copy: "A registry for studies and their evidence state." },
-  { number: "02", title: "Datasets", href: "/datasets", copy: "Schema first; releases only after rights and quality review." },
-  { number: "03", title: "Methodology", href: "/methodology", copy: "Sampling, measurement and reproducibility rules." },
-  { number: "04", title: "Tracker", href: "/tracker", copy: "Launch gates and future observation windows." },
+const references = [
+  { code: "M-01", href: "/library/source-diversity", title: "Source diversity", copy: "Count visible source domains with an explicit denominator." },
+  { code: "M-02", href: "/library/citation-persistence", title: "Citation persistence", copy: "Measure which visible citations recur across observation windows." },
+  { code: "M-03", href: "/library/answer-stability", title: "Answer stability", copy: "Compare observable answer properties without manufacturing a trend." },
+  { code: "F-01", href: "/library/audit-ai-answer-sources", title: "Source audit field guide", copy: "Run a documented audit of links shown in public AI answers." },
 ] as const;
-const sourcePreview = evidenceManifest.sources.filter((source) => ["google-query-fanout", "rdap", "custom-domain-live", "vercel-preview"].includes(source.id));
+const demoRows = [
+  ["method.example", true, true, true],
+  ["schema.example", true, false, true],
+  ["rights.example", false, true, false],
+  ["reference.example", true, false, false],
+] as const;
 ---
 
 <BaseLayout canonicalPath="/" pageClass="home-page">
-  <section class="home-hero">
-    <div class="home-hero-copy">
-      <h1>Observe the answer. Audit the evidence.</h1>
-      <p>A longitudinal research program for measuring source diversity and answer stability across public AI search surfaces—without pretending to see private retrieval traces.</p>
-      <div class="hero-actions"><a class="button" href="/methodology">Read the protocol <ArrowIcon /></a><a class="secondary-action" href="#launch-gates">Inspect launch gates <ArrowIcon /></a></div>
+  <section class="product-hero">
+    <div class="product-hero-copy">
+      <p class="hero-eyebrow">AI Answer Evidence Lab · browser-local</p>
+      <h1>Map what stays. Mark what changes.</h1>
+      <p class="hero-lede">Compare public AI answers, visible source URLs and user-defined coverage criteria. Export the evidence before you call a pattern a trend.</p>
+      <div class="hero-actions"><a class="button" href="/lab">Open the Evidence Lab <ArrowIcon /></a><a class="secondary-action" href="/protocol-builder">Build a protocol <ArrowIcon /></a></div>
+      <ul class="hero-contract"><li>No signup</li><li>No provider call</li><li>No input upload</li></ul>
     </div>
-    <div class="hero-field"><ObservationField /></div>
+
+    <figure class="signal-specimen" aria-labelledby="signal-specimen-title">
+      <figcaption><div><span>Illustrative interface preview</span><strong id="signal-specimen-title">Visible source recurrence</strong></div><small>Not research data</small></figcaption>
+      <div class="specimen-question"><span>Q</span><p>What should a team record before comparing public AI answers?</p></div>
+      <div class="signal-grid" role="table" aria-label="Illustrative source recurrence matrix">
+        <div class="signal-row signal-head" role="row"><span role="columnheader">Source domain</span><span role="columnheader">Run A</span><span role="columnheader">Run B</span><span role="columnheader">Run C</span></div>
+        {demoRows.map(([domain, ...states]) => <div class="signal-row" role="row"><strong role="rowheader">{domain}</strong>{states.map((present) => <span class:list={["signal-cell", { "is-present": present }]} role="cell" aria-label={present ? "Present" : "Absent"}>{present ? "●" : "—"}</span>)}</div>)}
+      </div>
+      <div class="specimen-foot"><span><i class="dot present"></i> recorded as visible</span><span><i class="dot"></i> not recorded</span><a href="/methodology">Calculation rules <ArrowIcon size={14} /></a></div>
+    </figure>
   </section>
 
-  <section id="launch-gates" class="protocol-band section-pad section-rule" aria-labelledby="protocol-title">
-    <div><span class="section-number">01</span><h2 id="protocol-title" class="section-title">A protocol before a publication</h2><p class="batch-state"><strong>0</strong> / 3 comparable batches</p></div>
-    <ol class="gate-preview">
-      {launchGates.slice(0, 4).map((gate) => <li><span class="gate-state" aria-hidden="true"></span><div><strong>{gate.label}</strong><p>{gate.explanation}</p></div><ArrowIcon size={16} /></li>)}
-    </ol>
+  <section class="workflow-band section-rule" aria-labelledby="workflow-title">
+    <header><span class="section-number">01</span><h2 id="workflow-title">From pasted answer to inspectable package.</h2></header>
+    <ol><li><span>01</span><strong>Record</strong><p>Add the question, public surface, date, answer and visible source URLs.</p></li><li><span>02</span><strong>Compare</strong><p>See source recurrence, literal coverage, answer overlap and comparability notes.</p></li><li><span>03</span><strong>Export</strong><p>Keep the observations, method version and boundaries together in JSON or CSV.</p></li></ol>
   </section>
 
-  <section class="field-index section-pad section-rule" aria-labelledby="field-index-title">
-    <div><span class="section-number">02</span><h2 id="field-index-title" class="section-title">Explore the research system</h2></div>
-    <ol>{pageLinks.map((item) => <li><a href={item.href}><span>{item.number}</span><strong>{item.title}</strong><p>{item.copy}</p><ArrowIcon /></a></li>)}</ol>
+  <section class="output-stage section-pad section-rule" aria-labelledby="output-title">
+    <div class="output-intro"><span class="section-number">02</span><h2 id="output-title" class="section-title">A result you can audit—not a visibility score.</h2><p>Every measure exposes its inputs and limit. The lab never ranks providers, judges factual accuracy or guesses the private searches behind an answer.</p><a class="text-action" href="/lab">Analyze your observations <ArrowIcon /></a></div>
+    <div class="output-register">
+      <div><span>Source recurrence</span><strong>Which visible hosts return?</strong><p>Presence by observation, normalized at the host level.</p></div>
+      <div><span>Answer overlap</span><strong>How much vocabulary is shared?</strong><p>Mean pairwise Jaccard overlap of normalized content-word sets.</p></div>
+      <div><span>Literal coverage</span><strong>Which supplied phrases appear?</strong><p>Transparent case-insensitive phrase matching—never semantic scoring.</p></div>
+      <div><span>Comparability</span><strong>What changed around the answer?</strong><p>Surface, model label, locale, route, timestamp and missing-source warnings.</p></div>
+    </div>
   </section>
 
-  <section class="limits-split section-rule" aria-label="Observation boundaries">
-    <div><span class="section-number">03A</span><h2>What we can observe</h2><ul><li>Public assistant answers as shown to users.</li><li>Cited or linked sources included in the response.</li><li>Dates, locale and public surface configuration.</li><li>Our sampling choices, exclusions and costs.</li></ul></div>
-    <div><span class="section-number">03B</span><h2>What we do not observe</h2><ul><li>Hidden queries or system prompts.</li><li>Private retrieval traces or ranking internals.</li><li>Model reasoning or intermediate steps.</li><li>Vendor-internal or other non-public data.</li></ul></div>
+  <section class="tools-duet section-rule" aria-label="Available tools">
+    <article><span class="tool-code">Tool 01 · analyze</span><h2>AI Answer Evidence Lab</h2><p>Bring one to five observations. Compare visible sources and answer properties entirely in the browser.</p><ul><li>JSON and CSV exports</li><li>Synthetic demo included</li><li>No automatic storage</li></ul><a href="/lab">Open the lab <ArrowIcon /></a></article>
+    <article><span class="tool-code">Tool 02 · plan</span><h2>Observation Protocol Builder</h2><p>Freeze the question set, route, repetitions, missing-data rule and rights decision before collection.</p><ul><li>JSON and Markdown exports</li><li>Readiness signals</li><li>No scheduling or collection</li></ul><a href="/protocol-builder">Build a protocol <ArrowIcon /></a></article>
   </section>
 
-  <section class="source-preview section-pad section-rule" aria-labelledby="source-preview-title">
-    <div class="source-heading"><div><span class="section-number">04</span><h2 id="source-preview-title">Source register</h2></div><p>Checked 22 Aug 2026</p></div>
-    <ol class="ruled-list">{sourcePreview.map((source) => <li class="record-row"><span class="record-id">{source.checkedAt}</span><strong class="record-title">{source.title}</strong><p class="record-copy">{source.supports}</p><span class="record-state">{source.status.replaceAll("_", " ")}</span></li>)}</ol>
-    <a class="text-action" href="/transparency">See all sources and rights <ArrowIcon /></a>
+  <section class="reference-index section-pad section-rule" aria-labelledby="reference-title">
+    <div><span class="section-number">03</span><h2 id="reference-title" class="section-title">Understand every field in the output.</h2><p class="section-lede">The maintained library supports the tools with definitions, measurement contracts, data standards and field procedures.</p></div>
+    <ol>{references.map((item) => <li><a href={item.href}><span>{item.code}</span><div><strong>{item.title}</strong><p>{item.copy}</p></div><ArrowIcon /></a></li>)}</ol>
+    <a class="text-action all-references" href="/library">Browse all 13 references <ArrowIcon /></a>
   </section>
 
-  <section class="disclosure-band section-pad"><span class="section-number">05</span><h2>Disclosure</h2><p>Operated by the team behind Contextter. Common ownership is disclosed and never treated as independent corroboration.</p><p class="no-data">No public dataset yet.</p></section>
+  <section class="boundary-stage section-rule" aria-label="Evidence boundary">
+    <div><span class="section-number">04A</span><h2>Observable</h2><ul><li>Public final answers supplied by the user</li><li>Visible cited or linked source URLs</li><li>Declared surface, route, locale and time</li><li>User-defined literal coverage criteria</li></ul></div>
+    <div><span class="section-number">04B</span><h2>Not exposed</h2><ul><li>Hidden fan-out queries or system prompts</li><li>Private retrieval traces or ranking internals</li><li>Model reasoning or intermediate steps</li><li>Factual accuracy or causal effects</li></ul></div>
+  </section>
+
+  <section class="research-gate section-pad">
+    <div><p class="hero-eyebrow">Research observatory · still gated</p><h2>Useful tools now. Public benchmarks only after proof.</h2><p>No collection has started, no public dataset exists and {launchGates.filter((gate) => gate.state !== "open").length === 0 ? "every publication gate remains open" : "publication gates remain"}. The tools do not turn a draft protocol into a research finding.</p></div>
+    <div><p><strong>0</strong><span>of 3 comparable batches</span></p><a class="secondary-action" href="/tracker">Inspect launch status <ArrowIcon /></a></div>
+  </section>
 </BaseLayout>
 
 <style>
-  .home-hero { display: grid; grid-template-columns: minmax(22rem, 0.8fr) minmax(36rem, 1.2fr); gap: clamp(2.5rem, 5vw, 5.5rem); align-items: center; min-height: calc(100vh - 5.25rem); padding: clamp(3.75rem, 6vw, 6.5rem) var(--gutter); border-bottom: 1px solid var(--rule); }
-  .home-hero-copy h1 { max-width: 8.5ch; margin: 0; font: 800 clamp(4.3rem, 6.4vw, 7.1rem)/0.9 var(--font-display); letter-spacing: -0.075em; text-wrap: balance; }
-  .home-hero-copy > p { max-width: 39ch; margin: 2rem 0 0; color: #b8c1c5; font-size: clamp(1rem, 1.35vw, 1.18rem); line-height: 1.65; }
-  .hero-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: 2.6rem; }
+  .product-hero { display: grid; grid-template-columns: minmax(25rem, 0.9fr) minmax(35rem, 1.1fr); gap: clamp(3rem, 7vw, 8rem); align-items: center; min-height: calc(100dvh - 5.25rem); padding: clamp(4rem, 8vw, 8rem) var(--gutter); border-bottom: 1px solid var(--rule); }
+  .hero-eyebrow, .tool-code { margin: 0 0 1.25rem; color: var(--source); font: 0.68rem/1.4 var(--font-mono); letter-spacing: 0.05em; text-transform: uppercase; }
+  .product-hero h1 { max-width: 9ch; margin: 0; font: 780 clamp(4.4rem, 7.2vw, 8rem)/0.88 var(--font-display); letter-spacing: -0.078em; text-wrap: balance; }
+  .hero-lede { max-width: 47ch; margin: 2rem 0 0; color: #bdc7ca; font-size: clamp(1.05rem, 1.5vw, 1.25rem); line-height: 1.65; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2.5rem; }
   .secondary-action { display: inline-flex; min-height: 3.15rem; align-items: center; justify-content: center; gap: 0.75rem; padding: 0.95rem 1.25rem; border: 1px solid var(--rule); font-size: 0.8rem; font-weight: 650; text-decoration: none; transition: border-color 180ms ease, background-color 180ms ease, transform 180ms var(--ease-out); }
   .secondary-action:hover { border-color: var(--source); background: var(--source-soft); transform: translateY(-2px); }
-  .hero-field { min-width: 0; }
-  .protocol-band, .field-index { display: grid; grid-template-columns: minmax(19rem, 0.7fr) minmax(0, 1.3fr); gap: clamp(2.5rem, 7vw, 8rem); }
-  .batch-state { margin: 2rem 0 0; color: var(--muted); font-size: 0.82rem; }
-  .batch-state strong { color: var(--source); font: 700 1.15rem/1 var(--font-mono); }
-  .gate-preview { margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }
-  .gate-preview li { display: grid; grid-template-columns: 1.25rem minmax(0, 1fr) 1rem; gap: 1rem; align-items: start; padding: 1.15rem 0.5rem; border-bottom: 1px solid var(--fine-rule); transition: background-color 180ms ease, transform 180ms var(--ease-out); }
-  .gate-preview li:hover { transform: translateX(0.25rem); }
-  .gate-state { width: 0.85rem; height: 0.85rem; margin-top: 0.1rem; border: 1px solid var(--signal); border-radius: 50%; }
-  .gate-preview strong { display: block; font-size: 0.88rem; }
-  .gate-preview p { margin: 0.45rem 0 0; color: var(--muted); font-size: 0.74rem; line-height: 1.55; }
-  .gate-preview svg { margin-top: 0.1rem; color: var(--muted); }
-  .field-index ol { margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }
-  .field-index li { border-bottom: 1px solid var(--fine-rule); }
-  .field-index a { display: grid; grid-template-columns: 3rem minmax(8rem, 0.42fr) minmax(0, 1fr) 2rem; gap: 1.25rem; align-items: center; min-height: 5rem; padding-inline: 0.5rem; text-decoration: none; transition: background-color 180ms ease, transform 180ms var(--ease-out); }
-  .field-index a:hover { transform: translateX(0.3rem); }
-  .field-index a > span { color: var(--source); font: 0.72rem/1 var(--font-mono); }
-  .field-index a > strong { font-size: 0.9rem; }
-  .field-index a > p { margin: 0; color: var(--muted); font-size: 0.86rem; }
-  .field-index a:hover svg { color: var(--source); transform: translateX(0.25rem); }
-  .field-index svg { transition: transform 180ms var(--ease-out); }
-  .limits-split { display: grid; grid-template-columns: 1fr 1fr; }
-  .limits-split > div { padding: clamp(4rem, 7vw, 7rem) var(--gutter); }
-  .limits-split > div + div { border-left: 1px solid var(--source); }
-  .limits-split h2 { max-width: 12ch; margin: 0 0 2.3rem; font: 720 clamp(2.5rem, 4.6vw, 4.7rem)/0.98 var(--font-display); letter-spacing: -0.055em; }
-  .limits-split ul { display: grid; gap: 0; max-width: 44rem; margin: 0; padding: 0; border-top: 1px solid var(--fine-rule); list-style: none; }
-  .limits-split li { position: relative; padding: 1rem 0 1rem 1.65rem; border-bottom: 1px solid var(--fine-rule); color: #c4cccf; font-size: 0.84rem; line-height: 1.55; }
-  .limits-split li::before { position: absolute; left: 0; color: var(--source); content: "✓"; }
-  .limits-split > div + div li::before { color: var(--signal); content: "×"; }
-  .source-heading { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2rem; }
-  .source-heading h2, .disclosure-band h2 { margin: 0; font: 700 clamp(2.3rem, 4vw, 4rem)/1 var(--font-display); letter-spacing: -0.05em; }
-  .source-heading p { color: var(--muted); font: 0.68rem/1.4 var(--font-mono); text-transform: uppercase; }
-  .source-preview > .text-action { margin-top: 1.5rem; }
-  .disclosure-band { display: grid; grid-template-columns: 3rem 0.45fr 1fr auto; gap: clamp(1.5rem, 4vw, 4rem); align-items: center; }
-  .disclosure-band .section-number { margin: 0; }
-  .disclosure-band .section-number::after { display: none; }
-  .disclosure-band p { max-width: 48ch; margin: 0; color: var(--muted); font-size: 0.85rem; line-height: 1.6; }
-  .disclosure-band .no-data { padding-left: 1.5rem; border-left: 1px solid var(--source); color: var(--ink); font: 0.72rem/1.4 var(--font-mono); text-transform: uppercase; }
-  @media (max-width: 1120px) { .home-hero { grid-template-columns: 1fr; min-height: auto; } .home-hero-copy { max-width: 50rem; } .hero-field { max-width: 60rem; } }
-  @media (max-width: 780px) {
-    .home-hero { display: block; padding-block: 3.75rem 1.5rem; }
-    .home-hero-copy h1 { max-width: 9ch; font-size: clamp(3.8rem, 15vw, 5.7rem); }
-    .hero-actions { display: grid; }
-    .hero-actions > * { width: 100%; min-height: 3.7rem; }
-    .hero-field { margin-top: 3rem; }
-    .protocol-band, .field-index { grid-template-columns: 1fr; }
-    .field-index a { grid-template-columns: 2.5rem minmax(0, 1fr) 1.5rem; padding-block: 1rem; }
-    .field-index a > p { grid-column: 2; }
-    .field-index a > svg { grid-column: 3; grid-row: 1 / span 2; }
-    .limits-split { grid-template-columns: 1fr; }
-    .limits-split > div + div { border-top: 1px solid var(--source); border-left: 0; }
-    .source-heading { align-items: start; flex-direction: column; }
-    .source-preview .record-row { grid-template-columns: 1fr; gap: 0.55rem; }
-    .source-preview .record-copy, .source-preview .record-state { grid-column: 1; }
-    .disclosure-band { grid-template-columns: 1fr; }
-    .disclosure-band .no-data { padding: 1rem 0 0; border-top: 1px solid var(--source); border-left: 0; }
-  }
+  .hero-contract { display: flex; flex-wrap: wrap; gap: 0; margin: 2rem 0 0; padding: 0; list-style: none; }
+  .hero-contract li { padding: 0.45rem 0.8rem; border-left: 1px solid var(--fine-rule); color: var(--muted); font: 0.63rem/1.2 var(--font-mono); text-transform: uppercase; }
+  .hero-contract li:first-child { padding-left: 0; border-left: 0; }
+  .signal-specimen { min-width: 0; margin: 0; border: 1px solid var(--rule); background: radial-gradient(circle at 85% 0%, rgba(39,199,244,0.08), transparent 35%), var(--surface); box-shadow: 0 2rem 6rem rgba(0,0,0,0.25); }
+  .signal-specimen figcaption { display: flex; align-items: start; justify-content: space-between; gap: 1rem; padding: 1rem 1.2rem; border-bottom: 1px solid var(--fine-rule); }
+  .signal-specimen figcaption span, .signal-specimen figcaption small { display: block; color: var(--muted); font: 0.61rem/1.4 var(--font-mono); text-transform: uppercase; }
+  .signal-specimen figcaption strong { display: block; margin-top: 0.3rem; font-size: 0.83rem; }
+  .signal-specimen figcaption small { color: var(--signal); }
+  .specimen-question { display: grid; grid-template-columns: 2rem 1fr; gap: 1rem; padding: 1.4rem 1.2rem; border-bottom: 1px solid var(--rule); }
+  .specimen-question span { color: var(--source); font: 0.76rem/1.5 var(--font-mono); }
+  .specimen-question p { max-width: 38ch; margin: 0; font-size: 0.9rem; line-height: 1.5; }
+  .signal-grid { padding: 0 1.2rem; }
+  .signal-row { display: grid; grid-template-columns: minmax(10rem, 1fr) repeat(3, 4.5rem); min-height: 3.6rem; align-items: center; border-bottom: 1px solid var(--fine-rule); }
+  .signal-row strong { overflow-wrap: anywhere; font: 0.7rem/1.4 var(--font-mono); font-weight: 450; }
+  .signal-row > span { text-align: center; }
+  .signal-head { min-height: 2.8rem; color: var(--muted); font: 0.58rem/1.3 var(--font-mono); text-transform: uppercase; }
+  .signal-head > span:first-child { text-align: left; }
+  .signal-cell { color: #596469; font: 0.8rem/1 var(--font-mono); transition: color 180ms ease, text-shadow 180ms ease, transform 180ms var(--ease-out); }
+  .signal-row:hover .signal-cell.is-present { color: var(--source); text-shadow: 0 0 1rem rgba(39,199,244,0.6); transform: scale(1.12); }
+  .signal-cell.is-present { color: var(--source); }
+  .specimen-foot { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; padding: 1rem 1.2rem; color: var(--muted); font: 0.58rem/1.4 var(--font-mono); text-transform: uppercase; }
+  .specimen-foot span { display: inline-flex; gap: 0.45rem; align-items: center; }
+  .specimen-foot a { display: inline-flex; gap: 0.4rem; align-items: center; margin-left: auto; color: var(--ink); }
+  .dot { width: 0.5rem; height: 0.5rem; border: 1px solid #596469; border-radius: 50%; }.dot.present { border-color: var(--source); background: var(--source); }
+  .workflow-band { display: grid; grid-template-columns: minmax(15rem, 0.55fr) minmax(0, 1.45fr); gap: clamp(2rem, 7vw, 8rem); padding: clamp(3rem, 6vw, 6rem) var(--gutter); }
+  .workflow-band header h2 { max-width: 11ch; margin: 0; font: 700 clamp(2rem, 4vw, 4rem)/1 var(--font-display); letter-spacing: -0.055em; }
+  .workflow-band ol { display: grid; grid-template-columns: repeat(3, 1fr); margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }
+  .workflow-band li { padding: 1.3rem 1.2rem 0 0; border-right: 1px solid var(--fine-rule); }.workflow-band li + li { padding-left: 1.2rem; }
+  .workflow-band li > span { color: var(--source); font: 0.65rem/1 var(--font-mono); }.workflow-band strong { display: block; margin-top: 1.6rem; font-size: 0.9rem; }.workflow-band p { color: var(--muted); font-size: 0.78rem; line-height: 1.55; }
+  .output-stage { display: grid; grid-template-columns: minmax(19rem, 0.7fr) minmax(0, 1.3fr); gap: clamp(3rem, 8vw, 9rem); }
+  .output-intro > p { max-width: 48ch; color: var(--muted); line-height: 1.65; }.output-intro .text-action { margin-top: 1rem; }
+  .output-register { border-top: 1px solid var(--rule); }
+  .output-register > div { display: grid; grid-template-columns: 8rem minmax(12rem, 0.8fr) minmax(0, 1fr); gap: 1.25rem; padding: 1.15rem 0.5rem; border-bottom: 1px solid var(--fine-rule); }
+  .output-register span { color: var(--source); font: 0.64rem/1.4 var(--font-mono); text-transform: uppercase; }.output-register strong { font-size: 0.85rem; }.output-register p { margin: 0; color: var(--muted); font-size: 0.78rem; line-height: 1.5; }
+  .tools-duet { display: grid; grid-template-columns: 1fr 1fr; }
+  .tools-duet article { display: grid; align-content: start; min-height: 34rem; padding: clamp(3rem, 6vw, 6rem) var(--gutter); background: linear-gradient(150deg, rgba(39,199,244,0.035), transparent 45%); }.tools-duet article + article { border-left: 1px solid var(--source); }
+  .tools-duet h2 { max-width: 9ch; margin: 0; font: 720 clamp(2.7rem, 5vw, 5.4rem)/0.94 var(--font-display); letter-spacing: -0.06em; }.tools-duet p { max-width: 44ch; color: var(--muted); line-height: 1.65; }
+  .tools-duet ul { margin: 2rem 0; padding: 0; border-top: 1px solid var(--fine-rule); list-style: none; }.tools-duet li { padding: 0.8rem 0; border-bottom: 1px solid var(--fine-rule); font-size: 0.78rem; }.tools-duet a { display: inline-flex; gap: 0.7rem; align-items: center; justify-self: start; margin-top: auto; border-bottom: 1px solid var(--source); padding-block: 0.6rem; font-weight: 650; text-decoration: none; }
+  .reference-index { display: grid; grid-template-columns: minmax(18rem, 0.68fr) minmax(0, 1.32fr); gap: clamp(3rem, 8vw, 9rem); }.reference-index ol { margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }.reference-index li { border-bottom: 1px solid var(--fine-rule); }
+  .reference-index li a { display: grid; grid-template-columns: 4rem minmax(0, 1fr) 1.5rem; gap: 1rem; align-items: center; min-height: 5.2rem; padding: 0.5rem; text-decoration: none; transition: background-color 180ms ease, transform 180ms var(--ease-out); }.reference-index li a:hover { background: rgba(39,199,244,0.035); transform: translateX(0.25rem); }
+  .reference-index li span { color: var(--source); font: 0.65rem/1 var(--font-mono); }.reference-index li strong { font-size: 0.88rem; }.reference-index li p { margin: 0.35rem 0 0; color: var(--muted); font-size: 0.75rem; line-height: 1.45; }.all-references { grid-column: 2; justify-self: start; }
+  .boundary-stage { display: grid; grid-template-columns: 1fr 1fr; }.boundary-stage > div { padding: clamp(4rem, 7vw, 7rem) var(--gutter); }.boundary-stage > div + div { border-left: 1px solid var(--signal); }
+  .boundary-stage h2 { margin: 0 0 2rem; font: 700 clamp(2.8rem, 5vw, 5rem)/0.95 var(--font-display); letter-spacing: -0.06em; }.boundary-stage ul { margin: 0; padding: 0; border-top: 1px solid var(--fine-rule); list-style: none; }.boundary-stage li { position: relative; padding: 0.9rem 0 0.9rem 1.5rem; border-bottom: 1px solid var(--fine-rule); color: #c1c9cc; font-size: 0.8rem; line-height: 1.5; }.boundary-stage li::before { position: absolute; left: 0; color: var(--source); content: "+"; }.boundary-stage > div + div li::before { color: var(--signal); content: "×"; }
+  .research-gate { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(15rem, 0.75fr); gap: clamp(3rem, 8vw, 9rem); align-items: end; }.research-gate h2 { max-width: 14ch; margin: 0; font: 700 clamp(2.8rem, 5vw, 5.4rem)/0.96 var(--font-display); letter-spacing: -0.06em; }.research-gate > div:first-child > p:last-child { max-width: 60ch; color: var(--muted); line-height: 1.65; }
+  .research-gate > div:last-child { display: grid; justify-items: start; gap: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }.research-gate > div:last-child p { display: flex; gap: 1rem; align-items: baseline; margin: 0; }.research-gate > div:last-child strong { color: var(--signal); font: 500 clamp(4rem, 7vw, 7rem)/0.8 var(--font-display); }.research-gate > div:last-child span { max-width: 8rem; font: 0.68rem/1.4 var(--font-mono); text-transform: uppercase; }
+  @media (max-width: 1050px) { .product-hero { grid-template-columns: 1fr; min-height: 0; }.product-hero-copy { max-width: 52rem; }.signal-specimen { width: 100%; }.workflow-band, .output-stage, .reference-index { grid-template-columns: 1fr; }.all-references { grid-column: 1; }.output-register > div { grid-template-columns: 7rem 1fr; }.output-register p { grid-column: 2; }.workflow-band ol { margin-top: 1rem; } }
+  @media (max-width: 720px) { .product-hero { padding-block: 3.8rem 4.5rem; }.product-hero h1 { font-size: clamp(4rem, 19vw, 6.5rem); }.signal-row { grid-template-columns: minmax(8rem, 1fr) repeat(3, 3.3rem); }.specimen-foot a { width: 100%; margin-left: 0; }.workflow-band ol { grid-template-columns: 1fr; }.workflow-band li, .workflow-band li + li { padding: 1rem 0; border-right: 0; border-bottom: 1px solid var(--fine-rule); }.workflow-band strong { margin-top: 0.7rem; }.tools-duet, .boundary-stage, .research-gate { grid-template-columns: 1fr; }.tools-duet article { min-height: 0; }.tools-duet article + article { border-top: 1px solid var(--source); border-left: 0; }.tools-duet a { margin-top: 2rem; }.boundary-stage > div + div { border-top: 1px solid var(--signal); border-left: 0; }.reference-index li a { grid-template-columns: 3rem minmax(0, 1fr) 1.5rem; } }
 </style>

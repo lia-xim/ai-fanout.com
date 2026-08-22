@@ -1,0 +1,40 @@
+---
+import ArrowIcon from "../components/ArrowIcon.astro";
+import ProtocolBuilder from "../components/ProtocolBuilder.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import "../styles/tools.css";
+---
+
+<BaseLayout title="AI answer observation protocol builder" canonicalPath="/protocol-builder" description="Create and export a repeatable protocol for observing public AI answers and visible sources without starting collection." pageClass="tool-page">
+  <header class="page-head tool-page-head">
+    <div><p class="section-number">Planning tool · no collection</p><h1>Fix the method before the first run.</h1></div>
+    <div class="page-head-copy">
+      <p>A comparison becomes defensible only when the question set, surface, route, locale, repetitions, missingness and rights decisions are visible before collection.</p>
+      <dl class="tool-proof"><div><dt>Output</dt><dd>JSON + Markdown</dd></div><div><dt>State</dt><dd>Draft, not preregistered</dd></div><div><dt>Storage</dt><dd>None</dd></div></dl>
+    </div>
+  </header>
+
+  <ProtocolBuilder />
+
+  <section class="protocol-explainer section-pad section-rule" aria-labelledby="protocol-explainer-title">
+    <div><span class="section-number">06</span><h2 id="protocol-explainer-title" class="section-title">What this builder cannot decide</h2></div>
+    <ul>
+      <li><strong>Collection rights</strong><span>Provider terms and applicable rights still need provider-by-provider review.</span></li>
+      <li><strong>Comparability</strong><span>A generated plan cannot prevent a later model, interface, policy or route change from breaking a series.</span></li>
+      <li><strong>Public release</strong><span>Three comparable batches, inspectable evidence and explicit launch approval remain separate gates.</span></li>
+    </ul>
+  </section>
+
+  <section class="protocol-handoff section-pad"><div><p class="section-number">Use the plan</p><h2>Record answers against the same contract.</h2></div><a class="button" href="/lab">Open the Evidence Lab <ArrowIcon /></a></section>
+</BaseLayout>
+
+<style>
+  .protocol-explainer { display: grid; grid-template-columns: minmax(15rem, 0.65fr) minmax(0, 1.35fr); gap: clamp(2rem, 7vw, 8rem); }
+  .protocol-explainer ul { margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }
+  .protocol-explainer li { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 1.5rem; padding-block: 1.15rem; border-bottom: 1px solid var(--fine-rule); }
+  .protocol-explainer strong { color: var(--signal); font: 0.68rem/1.5 var(--font-mono); text-transform: uppercase; }
+  .protocol-explainer span { color: var(--muted); font-size: 0.84rem; line-height: 1.6; }
+  .protocol-handoff { display: flex; align-items: end; justify-content: space-between; gap: 3rem; }
+  .protocol-handoff h2 { max-width: 15ch; margin: 0; font: 700 clamp(2.4rem, 5vw, 5rem)/0.98 var(--font-display); letter-spacing: -0.055em; }
+  @media (max-width: 760px) { .protocol-explainer { grid-template-columns: 1fr; } .protocol-explainer li { grid-template-columns: 1fr; gap: 0.45rem; } .protocol-handoff { align-items: flex-start; flex-direction: column; } }
+</style>

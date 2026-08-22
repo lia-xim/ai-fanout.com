@@ -10,12 +10,14 @@ const isCurrent = (href: string) => currentPath === href || currentPath.startsWi
   <nav class="desktop-nav" aria-label="Primary navigation">
     {site.navigation.map((item) => <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a>)}
   </nav>
-  <a class="header-action" href="/methodology">Read the protocol</a>
+  <a class="header-action" href="/lab">Open the lab</a>
   <details class="mobile-nav">
     <summary>Menu</summary>
     <nav aria-label="Mobile navigation">
       {site.navigation.map((item) => <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a>)}
-      <a href="/methodology">Read the protocol</a>
+      <a href="/methodology">Methodology</a>
+      <a href="/tracker">Launch status</a>
+      <a href="/transparency">Transparency</a>
     </nav>
   </details>
 </header>

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Project foundation for a longitudinal research observatory on observable AI answer and source stability.",
+  "description": "Browser-local evidence tools and a gated research observatory for observable AI answers and visible sources.",
   "engines": {
     "node": "24.x"
   },
