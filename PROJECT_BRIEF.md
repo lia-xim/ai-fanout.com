@@ -4,56 +4,51 @@ Updated: 2026-08-22
 
 ## Accepted purpose
 
-ai-fanout.com is a free, public AI Answer Evidence Lab. It helps practitioners and researchers turn user-supplied public answers, visible source URLs, literal criteria and comparability metadata into an inspectable browser-local package before making a trend or optimization claim.
+ai-fanout.com is a bounded AI Query Fanout Planner. A visitor enters one deliberately short question and receives four to eight planner-generated longtails or subquestions with intent, rationale, suggested source type, explicit assumption, model ID, method version and planner version.
 
-The website and maintained reference library are indexable. Provider-output benchmarks, datasets and findings remain a separate gated research program.
+The output is a planning hypothesis. It is never presented as an actual or recovered Google query, ChatGPT subquery, private retrieval trace, system prompt, ranking internal or chain of thought. The browser-local Answer Evidence Lab remains a useful secondary tool at `/lab`.
 
 ## Audiences
 
-- Primary: AI-search, AEO and SEO practitioners auditing visible answers and cited sources.
-- Secondary: researchers and analysts designing repeatable cross-surface or longitudinal observations.
-- Tertiary: publishers, site owners and reviewers checking provenance, rights and calculation limits.
+- Primary: SEO, AEO, editorial and research practitioners exploring a question before deciding what deserves evidence or content.
+- Secondary: publishers and site owners checking for distinct user intents, ambiguity and source needs.
+- Tertiary: reviewers auditing the planner contract, limitations, privacy and costs.
 
 ## Visual thesis
 
-The system is controlled signal: near-black research surfaces, disciplined modern typography, cool-white copy, cyan observable/source states and restrained red uncertainty states. Ruled evidence registers, open bands and source matrices make the method legible. Motion communicates state and direction only; reduced motion is respected.
+Controlled Signal is retained and sharpened into a question-to-branches composition: near-black work surfaces, cool-white type, cyan observable/planner states, restrained red boundaries, open ruled registers and a signature radial branch map. The tool is the homepage composition rather than a card in a marketing grid. Motion is limited to state and scroll transitions and respects reduced-motion preferences.
 
 ## Page jobs
 
-- / explains the observable-evidence promise and routes into the tools.
-- /lab compares one to five user-supplied observations locally.
-- /protocol-builder creates a repeatable plan before collection.
-- /protocols/example-2026-08-22 is the dated synthetic regression and teaching fixture.
-- /research registers planned or completed studies without implying findings.
-- /library and /library/<slug> provide one distinct reference job per URL.
-- /datasets states the schema and truthful release state.
-- /methodology publishes the governing scaffold and correction contract.
-- /tracker exposes operational research gates and remains noindex.
-- /transparency discloses ownership, sources, rights, routes and corrections.
-- /impressum and /datenschutz identify the operator and actual data behavior.
+- `/` is the primary Planner interface and product explanation.
+- `/methodology` is the exact Planner input, CAPTCHA, quota, budget, provider, output, privacy and responsibility contract.
+- `/lab` is the secondary browser-local Answer Evidence Lab.
+- `/protocol-builder` builds a browser-local evidence-observation protocol.
+- `/research/methodology` holds the separate Evidence Lab observation method.
+- `/library` and its maintained references explain fanout, observable evidence, methods and standards.
+- `/research`, `/datasets` and noindex `/tracker` remain gated research surfaces and never imply a published benchmark.
+- `/transparency`, `/impressum` and `/datenschutz` disclose ownership, sources, rights, operator responsibility and actual data behavior.
 
-## Evidence and rights boundaries
+## Server and cost contract
 
-- Observe only user-supplied public outputs and visible public links.
-- Never claim access to hidden queries, private retrieval traces, system prompts, chain of thought, ranking internals or model reasoning.
-- Browser-local inputs are not transmitted, stored or published by ai-fanout.com.
-- The dated example uses only owner-created synthetic text and reserved .example hosts; it is not an independent provider benchmark.
-- Third-party screenshots, copied text, stored provider outputs and future site-run datasets require verified provenance and applicable rights.
-- Common Contextter ownership is disclosed and never counted as independent corroboration.
-- ai-fanout.com is a fresh registration by Matthias Ramahi.
+- 4–120 Unicode code points and at most 256 UTF-8 bytes; no URLs, files, line breaks or additional request fields.
+- Cloudflare Turnstile verified server-side before reservation.
+- Two anonymous attempts per salted 24-hour bucket and 40 global reservations per UTC day.
+- EUR 0.02 reserved atomically per request; EUR 25 monthly soft stop and EUR 30 hard ceiling.
+- Exactly one allowlisted `gpt-5.4-nano` Responses API call with `store: false`, 700 maximum output tokens, 12-second timeout and no retry or fallback.
+- Strict JSON Schema and runtime validation; four to eight result branches only.
+- No raw question or raw provider output stored by ai-fanout.com. Operational records contain keyed hashes, versions, status, token counts, cost and latency.
+- Function and form remain closed unless every production secret and explicit enable flag is present.
 
-## Operating model
+## Rights and identity boundaries
 
-- Operator and Research Owner: Matthias Ramahi.
-- Protocol versions and corrections: assigned and recorded by Matthias Ramahi.
-- Independent reviewer: not assigned; independent review is not claimed.
-- Current provider/API collection ceiling: EUR 0 because current tools make no provider calls.
-- Future site-run collection: separate per-window ceiling and provider-rights review required.
-- Review cadence: quarterly; next governance review 2026-11-22.
-- Maintenance stop condition: keep useful tools and accurate references public; pause or remove affected research claims when protocol, rights, review or evidence cannot be maintained.
+- Matthias Ramahi is operator and Research Owner. He owns protocol versions, corrections, reviewer status and the monthly cost envelope.
+- Common ownership with SEO Fanout and Contextter is disclosed beside contextual result handoffs; neither is independent corroboration.
+- Third-party screenshots, copied text, saved model outputs and public examples require verified provenance, applicable rights and review.
+- No retained provider-output dataset, benchmark or trend claim is authorized by this release candidate.
 
-## Launch and publication gates
+## Launch gates
 
-Matthias explicitly approved indexation for an honest, legally clean and technically verified minimum viable website. Public canonical 200 pages may index. /tracker, 404s and utility/status paths remain excluded.
+The static public website remains indexable under the prior owner approval. The new Planner endpoint must not be enabled in production until OpenAI, Turnstile, high-entropy bucket salt and atomic Redis credentials exist and live adversarial QA proves CAPTCHA, the 24-hour and daily caps, parallel hard-budget enforcement, timeouts, provider failures, secret isolation and exact privacy behavior.
 
-This launch does not satisfy the provider-research gates. A frozen sampling protocol, independent reviewer status, future collection budget, provider-by-provider rights review, three comparable batches across at least 60 days and an inspectable provider evidence package remain required before benchmark or trend claims.
+If those gates are not met, the production site keeps its current public Evidence Lab release and the Planner stays a closed release candidate.

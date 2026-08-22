@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-22.7",
+  "manifestVersion": "2026-08-22.8",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-08-22",
   "sources": [
@@ -11,7 +11,7 @@
       "location": "C:\\Users\\matth\\Documents\\DomainPortfolio\\strategy\\domains\\ai-fanout.com.md",
       "checkedAt": "2026-08-22",
       "status": "accepted",
-      "supports": "Confirmed ownership, accepted public Evidence Lab purpose, named Research Owner, indexable website launch and separately gated provider research."
+      "supports": "Confirmed ownership and accepted primary AI Fanout Planner role, with the browser-local Evidence Lab retained as a secondary tool."
     },
     {
       "id": "ownership-record",
@@ -183,6 +183,42 @@
       "checkedAt": "2026-08-22",
       "status": "verified",
       "supports": "Automatic sitemap generation from statically generated Astro routes with route filtering."
+    },
+    {
+      "id": "openai-responses-api",
+      "title": "OpenAI Responses API reference",
+      "kind": "primary_documentation",
+      "location": "https://developers.openai.com/api/reference/cli/resources/responses/methods/create",
+      "checkedAt": "2026-08-22",
+      "status": "verified",
+      "supports": "Supports one stateless Responses API call, store false, max output tokens and strict JSON Schema output."
+    },
+    {
+      "id": "openai-gpt-5-4-nano",
+      "title": "GPT-5.4 nano model documentation",
+      "kind": "primary_documentation",
+      "location": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+      "checkedAt": "2026-08-22",
+      "status": "verified",
+      "supports": "Current allowlisted low-cost planner model identity and published token pricing."
+    },
+    {
+      "id": "cloudflare-turnstile",
+      "title": "Cloudflare Turnstile documentation and privacy policy",
+      "kind": "primary_documentation",
+      "location": "https://developers.cloudflare.com/turnstile/",
+      "checkedAt": "2026-08-22",
+      "status": "verified",
+      "supports": "Server-side human-verification boundary and required privacy disclosure."
+    },
+    {
+      "id": "planner-release-candidate",
+      "title": "AI Fanout Planner secured release candidate",
+      "kind": "implementation_evidence",
+      "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\src\\server\\fanout",
+      "checkedAt": "2026-08-22",
+      "status": "verified_closed_by_default",
+      "supports": "Strict input and output schemas, one allowlisted provider call, atomic quota and budget ledger, timeout, no raw application storage and fail-closed environment gate."
     }
   ],
   "rights": [
@@ -198,8 +234,8 @@
     },
     {
       "assetClass": "AI provider outputs and source lists used in a future site-run dataset",
-      "status": "provider_review_required_before_collection_or_publication",
-      "decision": "Future server-side retention, quotation, batching or redistribution requires provider-by-provider review. The current browser-local tools do none of these things."
+      "status": "single_transient_provider_call_no_application_archive",
+      "decision": "The secured planner sends one short question to the allowlisted OpenAI model with store false. ai-fanout.com does not store or publish raw provider outputs; any later examples or datasets require separate provenance, rights and review."
     },
     {
       "assetClass": "Typography and production imagery",
@@ -218,8 +254,9 @@
     }
   ],
   "unknowns": [
-    "Provider-specific retention and redistribution rights for any future site-run observation dataset",
-    "Independent reviewer assignment and future provider-collection cost ceiling",
-    "Google Search Console post-launch crawl and index state after sitemap discovery"
+    "OpenAI production API key and applicable processing terms are not yet configured for this Vercel project",
+    "Cloudflare Turnstile production keys are not yet configured",
+    "Upstash Redis production ledger credentials and a high-entropy bucket salt are not yet configured",
+    "Google Search Console post-change crawl and index state after an eventual safe production release"
   ]
 }

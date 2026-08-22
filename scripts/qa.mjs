@@ -14,7 +14,7 @@ const slugs = [
 ];
 const libraryRoutes = slugs.map((slug) => `/library/${slug}`);
 const toolRoutes = ["/lab", "/protocol-builder"];
-const routes = ["/", ...toolRoutes, "/research", "/library", ...libraryRoutes, "/datasets", "/methodology", "/protocols/example-2026-08-22", "/tracker", "/transparency", "/impressum", "/datenschutz"];
+const routes = ["/", ...toolRoutes, "/research", "/research/methodology", "/library", ...libraryRoutes, "/datasets", "/methodology", "/protocols/example-2026-08-22", "/tracker", "/transparency", "/impressum", "/datenschutz"];
 const failures = [];
 const check = (condition, message) => { if (!condition) failures.push(message); };
 const pageFile = (route) => route === "/" ? join(dist, "index.html") : join(dist, route.slice(1), "index.html");
@@ -50,10 +50,10 @@ for (const route of routes) {
 }
 
 const home = htmlByRoute.get("/") ?? "";
-check(home.includes("Map what stays. Mark what changes."), "home: tool-first visual thesis missing");
-check(home.includes('href="/lab"') && home.includes('href="/protocol-builder"'), "home: primary tool paths missing");
-check(home.includes("Not research data") && home.includes("No input upload"), "home: demo or privacy boundary missing");
-check(home.includes("Visible source recurrence") && home.includes("Literal coverage"), "home: evidence output contract missing");
+check(home.includes("One question.") && home.includes("Its useful edges."), "home: tool-first visual thesis missing");
+check(home.includes('href="/lab"') && home.includes('href="/methodology"'), "home: primary tool paths missing");
+check(home.includes("Not provider-internal data") && home.includes("No raw storage"), "home: demo or privacy boundary missing");
+check(home.includes("Planner hypotheses") && home.includes("Not hidden provider queries"), "home: evidence output contract missing");
 check(home.includes("<summary>Menu</summary>") && home.includes('class="skip-link"'), "site: mobile menu or skip link missing");
 
 const lab = htmlByRoute.get("/lab") ?? "";
@@ -107,10 +107,10 @@ check(datasets.includes("no ai-fanout.com observation release exists"), "dataset
 
 const imprint = htmlByRoute.get("/impressum") ?? "";
 check(imprint.includes("Matthias Ramahi") && imprint.includes("Kempener Straße 44") && imprint.includes("40699 Erkrath") && imprint.includes("info@matthiasramahi.de"), "imprint: verified operator details missing");
-check(imprint.includes("§ 5 DDG") && imprint.includes("§ 18 Abs. 2 MStV") && imprint.includes("ai-fanout.com — AI Answer Evidence Lab"), "imprint: provider or responsibility scope missing");
+check(imprint.includes("§ 5 DDG") && imprint.includes("§ 18 Abs. 2 MStV") && imprint.includes("ai-fanout.com — AI Fanout Planner"), "imprint: provider or responsibility scope missing");
 
 const privacy = htmlByRoute.get("/datenschutz") ?? "";
-for (const claim of ["Vercel", "ausschließlich im Arbeitsspeicher Ihres Browsers", "keine Analytics-", "keine eigenen Cookies", "Systemschriften", "Es gibt kein Kontaktformular", "lokale Blob-URL"]) check(privacy.includes(claim), `privacy: exact behavior missing: ${claim}`);
+for (const claim of ["Vercel", "ausschließlich im Arbeitsspeicher Ihres Browsers", "keine Analytics-", "af_device", "Systemschriften", "kein Kontaktformular", "Blob-URL"]) check(privacy.includes(claim), `privacy: exact behavior missing: ${claim}`);
 check(privacy.includes("localStorage") && privacy.includes("sessionStorage") && privacy.includes("nicht an ai-fanout.com"), "privacy: local-storage or transmission boundary missing");
 const robots = await readFile(join(dist, "robots.txt"), "utf8");
 check(robots.includes("User-agent: *") && robots.includes("Allow: /") && !robots.includes("Disallow: /") && robots.includes("Sitemap: https://ai-fanout.com/sitemap-index.xml"), "robots: indexable launch contract failed");
@@ -125,7 +125,7 @@ for (const route of routes.filter((route) => route !== "/tracker")) {
 }
 
 const vercel = JSON.parse(await readFile(join(root, "vercel.json"), "utf8"));
-check(!vercel.headers, "vercel: global noindex header must be absent");
+check(vercel.headers?.[0]?.headers?.some((entry) => entry.key === "Content-Security-Policy"), "vercel: security headers missing");
 check(vercel.redirects?.some((entry) => entry.source === "/sitemap.xml" && entry.destination === "/sitemap-index.xml" && entry.permanent === true), "vercel: permanent sitemap compatibility redirect missing");
 
 const rights = JSON.parse(await readFile(join(root, "manifests", "rights-and-sources.v1.json"), "utf8"));

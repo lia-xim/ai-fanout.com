@@ -1,41 +1,46 @@
 # ai-fanout.com
 
-Public source repository for the indexable ai-fanout.com AI Answer Evidence Lab and its separately gated research program.
+Source repository for the AI Fanout Planner and the secondary browser-local Answer Evidence Lab.
 
 ## Current state
 
-The public site contains two browser-local tools, a 13-page research library, legal and transparency pages, and a dated reproducible synthetic example. Canonical public 200 pages are indexable. The operational /tracker and the 404 response remain noindex.
+The `codex/fanout-planner-v1` release candidate makes `/` a short-question fanout tool and `/methodology` its transparency contract. The serverless endpoint is intentionally fail-closed. It returns `503 PLANNER_NOT_CONFIGURED` unless every production safeguard and explicit public-enable flag is configured.
 
-No provider benchmark dataset or trend finding exists.
+The current production site is not replaced by this branch. No open Planner endpoint has been deployed and no paid provider call was made.
 
-## Purpose and hard boundary
+## Planner contract
 
-The site helps people compare user-supplied observable AI answers and visible citations in their own browser, export the evidence, and define a protocol before making a trend or optimization claim.
+- one short question, maximum 120 Unicode code points and 256 UTF-8 bytes;
+- no URLs, files, line breaks or extra request fields;
+- server-side Turnstile;
+- two attempts per salted 24-hour bucket and 40 global reservations per UTC day;
+- atomic EUR 0.02 reservation, EUR 25 soft and EUR 30 hard monthly stops;
+- exactly one allowlisted `gpt-5.4-nano` call, 700 maximum output tokens, 12-second timeout, no retry or fallback;
+- strict JSON Schema plus Zod validation;
+- no raw question or raw provider result stored by ai-fanout.com.
 
-It does not access hidden queries, private retrieval traces, ranking internals or model reasoning. Browser-local inputs are not transmitted, stored or published by ai-fanout.com. Third-party screenshots, copied text, saved model outputs and future site-run research require verified provenance and applicable rights.
+Required production variables are documented in `.env.example` and `docs/PLANNER_RELEASE_CANDIDATE.md`. Secrets are server-only and never use a `PUBLIC_` prefix. The static form additionally needs the public Turnstile site key and explicit public build flag.
 
-Matthias Ramahi is the operator and Research Owner. He owns protocol versioning, corrections and explicit reviewer/cost status. No independent reviewer is currently assigned. Current provider/API collection budget is EUR 0 because the public tools make no provider calls.
+## Product boundary
 
-Common ownership with Contextter is disclosed and never treated as independent corroboration.
+Planner results are hypotheses created by this tool. They do not reveal actual Google or ChatGPT queries, private retrieval traces, ranking internals, system prompts or chain of thought.
 
-## Content system
+SEO Fanout is linked only after a result for the separate page/section/merge/no-action decision. Contextter is linked for broader SEO workflow. Common ownership by Matthias Ramahi is disclosed beside those links and is not independent endorsement.
 
-- /lab analyzes one to five user-supplied observations in browser memory and exports JSON or CSV after an explicit action.
-- /protocol-builder creates a local, exportable draft protocol.
-- /protocols/example-2026-08-22 documents exact synthetic inputs, calculations, results and limitations.
-- /library and /library/[slug] form the maintained reference system.
-- /methodology, /research, /datasets and /tracker separate method, planned studies, releases and operational gates.
-- /transparency, /impressum and /datenschutz document ownership, sources, rights and actual data behavior.
-- manifests/rights-and-sources.v1.json records evidence and rights boundaries.
-- manifests/route-actions.v1.json records automatic sitemap, exclusions, redirect and 404 policy.
+The Answer Evidence Lab and Protocol Builder remain browser-local: their inputs are not transmitted or stored by ai-fanout.com. Third-party screenshots, copied text, saved model outputs and public examples require verified provenance and applicable rights.
 
-## Local development and verification
+## Development and verification
 
-Run corepack pnpm install, corepack pnpm dev and corepack pnpm verify.
+```text
+corepack pnpm install
+corepack pnpm verify:planner
+corepack pnpm qa
+vercel build
+```
 
-Rendered QA against a running preview or production URL uses PREVIEW_URL and node scripts/browser-qa.mjs.
+`verify:planner` builds the 27-page Astro site and tests input caps, strict requests, CAPTCHA, two-per-bucket and global caps, parallel hard-budget reservation, provider errors, timeout, exactly-one-call behavior and absence of raw storage. `scripts/browser-qa.mjs` checks desktop and mobile layout plus the existing Evidence Lab and Protocol Builder interactions.
 
-The build creates /sitemap-index.xml and its generated child sitemap from Astro's static route graph. /sitemap.xml is a permanent compatibility redirect in Vercel. robots.txt allows crawling and references the sitemap index. Sitemap membership is not maintained as a parallel hand-written page list.
+The Astro sitemap is generated from canonical static routes. `/tracker`, 404 and API paths are excluded. Security headers are defined in `vercel.json`.
 
 ## Rights and license
 

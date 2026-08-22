@@ -1,23 +1,4 @@
 ---
-import { site } from "../data/site";
-interface Props { currentPath: string; }
-const { currentPath } = Astro.props;
-const isCurrent = (href: string) => currentPath === href || currentPath.startsWith(`${href}/`);
+import {site} from "../data/site";interface Props{currentPath:string}const{currentPath}=Astro.props;const isCurrent=(href:string)=>href==="/"?currentPath==="/":currentPath===href||currentPath.startsWith(`${href}/`);
 ---
-
-<header class="site-header">
-  <a class="wordmark" href="/" aria-label={`${site.domain} home`}><span class="wordmark-mark" aria-hidden="true"></span><span>{site.domain}</span></a>
-  <nav class="desktop-nav" aria-label="Primary navigation">
-    {site.navigation.map((item) => <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a>)}
-  </nav>
-  <a class="header-action" href="/lab">Open the lab</a>
-  <details class="mobile-nav">
-    <summary>Menu</summary>
-    <nav aria-label="Mobile navigation">
-      {site.navigation.map((item) => <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a>)}
-      <a href="/methodology">Methodology</a>
-      <a href="/tracker">Launch status</a>
-      <a href="/transparency">Transparency</a>
-    </nav>
-  </details>
-</header>
+<header class="site-header"><a class="wordmark" href="/" aria-label={`${site.domain} home`}><span class="wordmark-mark" aria-hidden="true"></span><span>{site.domain}</span></a><nav class="desktop-nav" aria-label="Primary navigation">{site.navigation.map(item=><a href={item.href} aria-current={isCurrent(item.href)?"page":undefined}>{item.label}</a>)}</nav><a class="header-action" href="/#planner">Build a fanout</a><details class="mobile-nav"><summary>Menu</summary><nav aria-label="Mobile navigation">{site.navigation.map(item=><a href={item.href} aria-current={isCurrent(item.href)?"page":undefined}>{item.label}</a>)}<a href="/tracker">Research status</a><a href="/transparency">Sources &amp; rights</a></nav></details></header>

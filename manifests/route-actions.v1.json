@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-22.2",
+  "manifestVersion": "2026-08-22.3",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-08-22",
   "domainOrigin": "fresh_registration",
@@ -11,7 +11,8 @@
   "sitemapPath": "/sitemap-index.xml",
   "excludedFromSitemap": [
     "/404",
-    "/tracker"
+    "/tracker",
+    "/api"
   ],
   "legacyCompatibilityRedirects": [
     {
@@ -22,8 +23,10 @@
   ],
   "notes": [
     "ai-fanout.com was newly registered by Matthias Ramahi for this project.",
-    "The sitemap is generated from Astro's static route graph rather than a manually maintained URL list.",
-    "Only canonical indexable 200 pages are emitted; the noindex tracker and 404 route are excluded.",
+    "The canonical homepage role is the AI Fanout Planner; /lab remains the secondary browser-local Answer Evidence Lab.",
+    "/methodology documents the Planner contract; /research/methodology documents the separate Evidence Lab observation method.",
+    "The sitemap is generated from Astro static routes and excludes noindex, error and API paths.",
+    "The API is closed by default and may not be publicly enabled until all CAPTCHA, atomic quota, cost and provider secrets are configured and live-tested.",
     "Unknown paths return a real 404 and are not redirected to the homepage."
   ]
 }

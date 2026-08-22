@@ -132,9 +132,10 @@ try {
     scrollWidth: document.documentElement.scrollWidth,
     overflow: document.documentElement.scrollWidth > innerWidth,
     h1: document.querySelector('h1')?.textContent?.trim(),
-    demoRows: document.querySelectorAll('.signal-grid .signal-row:not(.signal-head)').length,
+    plannerPresent: Boolean(document.querySelector('[data-fanout-planner]')),
+    plannerDisabled: document.querySelector('[data-planner-form] button')?.disabled,
     robots: document.querySelector('meta[name="robots"]')?.content ?? null,
-    primaryAction: document.querySelector('.hero-actions .button')?.getAttribute('href')
+    primaryAction: document.querySelector('.planner-hero .button')?.getAttribute('href')
   }))()`);
   await screenshot(session, "home-desktop");
 
@@ -207,7 +208,7 @@ try {
   const failed = [];
   if (results.home.overflow || results.lab.overflow || results.protocol.overflow) failed.push("horizontal overflow detected");
   if (results.home.robots !== null || results.lab.robots !== null || results.protocol.robots !== null) failed.push("global meta noindex still present");
-  if (results.home.h1 !== "Map what stays. Mark what changes." || results.home.demoRows !== 4 || results.home.primaryAction !== "/lab") failed.push("homepage composition failed");
+  if (results.home.h1 !== "One question.Its useful edges." || !results.home.plannerPresent || !results.home.plannerDisabled || results.home.primaryAction !== "#planner") failed.push("homepage composition failed");
   if (results.lab.h1 !== "Compare what the answers show." || results.lab.observations !== 3 || !results.lab.resultsVisible) failed.push("lab demo interaction failed");
   if (results.lab.observationMetric !== "3" || results.lab.domainMetric !== "3" || results.lab.recurringMetric !== "2 / 3" || results.lab.coverageMetric !== "12 / 12") failed.push("lab measure contract failed");
   if (!/%$/.test(results.lab.overlapMetric ?? "") || results.lab.sourceRows !== 3 || results.lab.coverageRows !== 4 || results.lab.warnings < 3 || results.lab.localOnly !== "Local only") failed.push("lab output rendering failed");
