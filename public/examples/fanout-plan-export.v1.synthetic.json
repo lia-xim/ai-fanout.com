@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "ai-fanout.export/1.0",
+  "kind": "planner_hypothesis_set",
+  "question": "How should a team validate an AI query fanout plan?",
+  "summary": "A synthetic, operator-authored fixture showing four distinct validation branches and every portable handoff field.",
+  "branches": [
+    {
+      "id": "branch-01",
+      "query": "Which branches represent distinct user jobs rather than wording variants?",
+      "intent": "evaluate",
+      "rationale": "Separates useful decomposition from duplicate phrasing before any page decision.",
+      "sourceType": "expert guidance",
+      "assumption": "The team has a current page and topic inventory.",
+      "evidenceState": "hypothesis"
+    },
+    {
+      "id": "branch-02",
+      "query": "What evidence would be required to support each surviving branch?",
+      "intent": "verify",
+      "rationale": "Makes the source requirement explicit before drafting or publishing content.",
+      "sourceType": "primary documentation",
+      "assumption": "Each branch can be matched to a reviewable evidence role.",
+      "evidenceState": "hypothesis"
+    },
+    {
+      "id": "branch-03",
+      "query": "Where does the proposed fanout overlap the existing site inventory?",
+      "intent": "compare",
+      "rationale": "Identifies consolidation and section-level opportunities before creating new URLs.",
+      "sourceType": "comparison data",
+      "assumption": "Canonical URLs and their primary user jobs are inventoried.",
+      "evidenceState": "hypothesis"
+    },
+    {
+      "id": "branch-04",
+      "query": "Which branches should become a page, section, merge or no action?",
+      "intent": "implement",
+      "rationale": "Creates a bounded downstream decision without treating every branch as a keyword target.",
+      "sourceType": "case study",
+      "assumption": "The downstream consumer applies its own demand, risk and maintenance gates.",
+      "evidenceState": "hypothesis"
+    }
+  ],
+  "metadata": {
+    "plannerVersion": "fanout-planner/1.0.0",
+    "methodVersion": "hypothetical-query-fanout/1.0",
+    "modelId": "synthetic-fixture/no-provider-call",
+    "generatedAt": "2026-08-22T20:30:00Z",
+    "locale": "en",
+    "reviewStatus": "self_reviewed",
+    "producer": "ai-fanout.com"
+  },
+  "notice": "Planner-generated hypotheses — not internal queries, retrieval traces, or model reasoning."
+}

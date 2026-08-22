@@ -1,24 +1,24 @@
 <section class="protocol-builder" data-protocol-builder aria-labelledby="protocol-workspace-title">
   <div class="lab-command">
-    <div><p class="lab-kicker">Repeatability before collection · schema 0.1</p><h2 id="protocol-workspace-title">Make the rules portable.</h2><p>Define what will stay fixed, what can vary and what must be recorded as missing. Generation and export happen only in this browser tab.</p></div>
+    <div><p class="lab-kicker">Plan before you compare · format 0.1</p><h2 id="protocol-workspace-title">Write down the rules once.</h2><p>Choose what stays the same, what may change, and what to do when an answer or source is missing. The plan is created and downloaded only in this browser tab.</p></div>
     <div class="privacy-mark"><span aria-hidden="true"></span><strong>Local only</strong><small>No schedule is started</small></div>
   </div>
 
   <form class="protocol-form" data-protocol-form novalidate>
     <section aria-labelledby="protocol-scope-title">
-      <div class="panel-index"><span>01</span><h3 id="protocol-scope-title">Research scope</h3></div>
+      <div class="panel-index"><span>01</span><h3 id="protocol-scope-title">What you want to compare</h3></div>
       <div class="protocol-fields">
-        <label><span>Protocol name <b>required</b></span><input data-protocol-field="name" type="text" maxlength="100" required placeholder="Monthly answer-source control set" /></label>
+        <label><span>Plan name <b>required</b></span><input data-protocol-field="name" type="text" maxlength="100" required placeholder="Monthly comparison of answer sources" /></label>
         <label><span>Locale <b>required</b></span><input data-protocol-field="locale" type="text" maxlength="24" required value="en-US" /></label>
-        <label class="field-wide"><span>Objective <b>required</b></span><textarea data-protocol-field="objective" rows="3" maxlength="800" required placeholder="Describe the observable question this protocol can answer."></textarea></label>
-        <label class="field-wide"><span>Question set <b>required</b> <small>one public question per line</small></span><textarea data-protocol-field="questions" rows="6" maxlength="5000" required placeholder="Question 01&#10;Question 02&#10;Question 03"></textarea></label>
+        <label class="field-wide"><span>What do you want to learn? <b>required</b></span><textarea data-protocol-field="objective" rows="3" maxlength="800" required placeholder="Write the specific comparison this plan should make possible."></textarea></label>
+        <label class="field-wide"><span>Questions <b>required</b> <small>one public question per line</small></span><textarea data-protocol-field="questions" rows="6" maxlength="5000" required placeholder="Question 01&#10;Question 02&#10;Question 03"></textarea></label>
       </div>
     </section>
 
     <section aria-labelledby="protocol-route-title">
-      <div class="panel-index"><span>02</span><h3 id="protocol-route-title">Surface &amp; route</h3></div>
+      <div class="panel-index"><span>02</span><h3 id="protocol-route-title">AI service and mode</h3></div>
       <div class="protocol-fields">
-        <label><span>Public surface <b>required</b></span><select data-protocol-field="surface" required><option value="">Choose a surface</option><option>ChatGPT Search</option><option>Google AI Mode</option><option>Google AI Overview</option><option>Perplexity</option><option>Gemini</option><option>Copilot</option><option>Other public surface</option></select></label>
+        <label><span>AI service <b>required</b></span><select data-protocol-field="surface" required><option value="">Choose a service</option><option>ChatGPT Search</option><option>Google AI Mode</option><option>Google AI Overview</option><option>Perplexity</option><option>Gemini</option><option>Copilot</option><option>Other public service</option></select></label>
         <label><span>Route or mode <b>required</b></span><input data-protocol-field="route" type="text" maxlength="80" required placeholder="Default search mode" /></label>
         <label><span>Model/version rule</span><input data-protocol-field="modelRule" type="text" maxlength="180" placeholder="Record displayed version; do not infer when absent" /></label>
         <label><span>Access state</span><select data-protocol-field="accessState"><option>Signed out</option><option>Signed in — neutral account</option><option>Signed in — declared profile</option><option>Other declared state</option></select></label>
@@ -26,7 +26,7 @@
     </section>
 
     <section aria-labelledby="protocol-window-title">
-      <div class="panel-index"><span>03</span><h3 id="protocol-window-title">Observation windows</h3></div>
+      <div class="panel-index"><span>03</span><h3 id="protocol-window-title">Timing and repeats</h3></div>
       <div class="protocol-fields">
         <label><span>Repetitions per question <b>required</b></span><input data-protocol-field="repetitions" type="number" min="1" max="20" value="3" required /></label>
         <label><span>Cadence <b>required</b></span><select data-protocol-field="cadence" required><option>One bounded window</option><option>Weekly</option><option>Monthly</option><option>Quarterly</option><option>Custom declared cadence</option></select></label>
@@ -36,32 +36,32 @@
     </section>
 
     <section aria-labelledby="protocol-boundary-title">
-      <div class="panel-index"><span>04</span><h3 id="protocol-boundary-title">Missingness &amp; rights</h3></div>
+      <div class="panel-index"><span>04</span><h3 id="protocol-boundary-title">Missing answers and storage</h3></div>
       <div class="protocol-fields">
-        <label class="field-wide"><span>Missing-data rule <b>required</b></span><textarea data-protocol-field="missingRule" rows="3" maxlength="800" required placeholder="Record an unavailable answer or missing source list; do not remove it from the denominator."></textarea></label>
-        <label class="field-wide"><span>Exclusions and stop rules</span><textarea data-protocol-field="exclusions" rows="3" maxlength="1000" placeholder="Define exclusions before collection and state when a run must stop."></textarea></label>
-        <label><span>Retention decision <b>required</b></span><select data-protocol-field="retention" required><option value="">Choose a decision</option><option>Metadata and hashes only</option><option>Full text retained privately after rights review</option><option>Excerpts retained after rights review</option><option>Decision still blocked</option></select></label>
-        <label><span>Source URL treatment</span><select data-protocol-field="sourceTreatment"><option>Retain visible public URLs</option><option>Retain normalized domains only</option><option>Hash URLs after domain extraction</option></select></label>
+        <label class="field-wide"><span>Missing-answer rule <b>required</b></span><textarea data-protocol-field="missingRule" rows="3" maxlength="800" required placeholder="Record an unavailable answer or missing source list; do not quietly remove it from the comparison."></textarea></label>
+        <label class="field-wide"><span>When to skip or stop</span><textarea data-protocol-field="exclusions" rows="3" maxlength="1000" placeholder="Decide in advance when a result is excluded and when a run must stop."></textarea></label>
+        <label><span>What may be saved? <b>required</b></span><select data-protocol-field="retention" required><option value="">Choose a decision</option><option>Metadata and hashes only</option><option>Full text retained privately after rights review</option><option>Excerpts retained after rights review</option><option>Decision still blocked</option></select></label>
+        <label><span>How to keep source links</span><select data-protocol-field="sourceTreatment"><option>Retain visible public URLs</option><option>Retain normalized domains only</option><option>Hash URLs after domain extraction</option></select></label>
       </div>
     </section>
 
     <section aria-labelledby="protocol-owner-title">
-      <div class="panel-index"><span>05</span><h3 id="protocol-owner-title">Ownership &amp; cost</h3></div>
+      <div class="panel-index"><span>05</span><h3 id="protocol-owner-title">Responsibility and budget</h3></div>
       <div class="protocol-fields">
-        <label><span>Research owner</span><input data-protocol-field="owner" type="text" maxlength="100" placeholder="Name or accountable role" /></label>
-        <label><span>Backup reviewer</span><input data-protocol-field="reviewer" type="text" maxlength="100" placeholder="Name or accountable role" /></label>
-        <label><span>Per-window cost ceiling</span><input data-protocol-field="cost" type="number" min="0" step="0.01" placeholder="0.00" /></label>
+        <label><span>Person responsible</span><input data-protocol-field="owner" type="text" maxlength="100" placeholder="Name or responsible role" /></label>
+        <label><span>Second reviewer</span><input data-protocol-field="reviewer" type="text" maxlength="100" placeholder="Name or responsible role" /></label>
+        <label><span>Budget per round</span><input data-protocol-field="cost" type="number" min="0" step="0.01" placeholder="0.00" /></label>
         <label><span>Currency</span><select data-protocol-field="currency"><option>EUR</option><option>USD</option><option>GBP</option><option>Other</option></select></label>
       </div>
     </section>
 
-    <div class="lab-submit"><div><p data-protocol-error role="alert"></p><small>Generating a plan does not run, schedule or publish a study.</small></div><div><button type="button" class="secondary-button" data-load-protocol-sample>Load example</button><button type="submit" class="button">Generate protocol</button></div></div>
+    <div class="lab-submit"><div><p data-protocol-error role="alert"></p><small>Creating this plan does not run, schedule, or publish a comparison.</small></div><div><button type="button" class="secondary-button" data-load-protocol-sample>Load example</button><button type="submit" class="button">Create comparison plan</button></div></div>
   </form>
 
   <section class="protocol-result" data-protocol-result aria-labelledby="protocol-result-title" aria-live="polite" hidden>
-    <div class="protocol-result-head"><div><p class="lab-kicker">Portable draft · not preregistered</p><h2 id="protocol-result-title">Protocol package</h2></div><div class="protocol-result-actions"><button type="button" class="secondary-button" data-export-protocol-json>Export JSON</button><button type="button" class="secondary-button" data-export-protocol-markdown>Export Markdown</button></div></div>
-    <div class="protocol-preview"><div><pre data-protocol-preview></pre></div><div><p class="lab-kicker">Readiness signals</p><ul class="protocol-readiness" data-protocol-readiness></ul></div></div>
-    <p class="result-boundary">This builder creates a plan only. Provider terms, credentials, collection rights, research ownership and public-launch approval remain separate decisions.</p>
+    <div class="protocol-result-head"><div><p class="lab-kicker">Downloadable draft plan</p><h2 id="protocol-result-title">Your comparison plan</h2></div><div class="protocol-result-actions"><button type="button" class="secondary-button" data-export-protocol-json>Export JSON</button><button type="button" class="secondary-button" data-export-protocol-markdown>Export Markdown</button></div></div>
+    <div class="protocol-preview"><div><pre data-protocol-preview></pre></div><div><p class="lab-kicker">Before you start</p><ul class="protocol-readiness" data-protocol-readiness></ul></div></div>
+    <p class="result-boundary">This page creates a plan only. You still need to check provider terms, access, collection rights, responsibility, and approval before running or publishing a comparison.</p>
   </section>
 </section>
 

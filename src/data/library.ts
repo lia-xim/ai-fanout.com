@@ -1,3 +1,5 @@
+import { plainLanguageArticles } from "./plain-language-articles";
+
 export const libraryCategories = ["Concept", "Measurement", "Method", "Data standard", "Field guide"] as const;
 
 export type LibraryCategory = typeof libraryCategories[number];
@@ -25,7 +27,7 @@ export type LibraryArticle = {
   readonly relatedSlugs: readonly string[];
 };
 
-export const libraryArticles = [
+const researchArticles = [
   {
     slug: "query-fan-out",
     number: "L-01",
@@ -744,6 +746,7 @@ export const libraryArticles = [
   }
 ] as const satisfies readonly LibraryArticle[];
 
+export const libraryArticles = [...plainLanguageArticles, ...researchArticles] as const satisfies readonly LibraryArticle[];
 export const libraryBySlug = new Map(libraryArticles.map((article) => [article.slug, article]));
 
 export const libraryGroups = libraryCategories

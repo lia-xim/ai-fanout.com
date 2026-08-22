@@ -179,8 +179,34 @@ try {
       hidden: items.filter((item) => item.hidden).length
     };
   })()`);
+  await screenshot(session, "library-desktop");
+
+  await navigate(session, `${previewUrl}/library/how-query-fanout-works`);
+  results.guide = await session.evaluate(`(() => ({
+    width: innerWidth,
+    scrollWidth: document.documentElement.scrollWidth,
+    overflow: document.documentElement.scrollWidth > innerWidth,
+    h1: document.querySelector('h1')?.textContent?.trim(),
+    canonical: document.querySelector('link[rel="canonical"]')?.href,
+    shortAnswer: document.querySelector('.direct-answer p')?.textContent?.trim(),
+    sourcesHeading: document.querySelector('.source-notes h2')?.textContent?.trim(),
+    relatedHeading: document.querySelector('.related-references h2')?.textContent?.trim()
+  }))()`);
+  await screenshot(session, "guide-desktop");
+
 
   await session.send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
+  await navigate(session, `${previewUrl}/`);
+  results.homeMobile = await session.evaluate(`(() => ({
+    width: innerWidth,
+    scrollWidth: document.documentElement.scrollWidth,
+    overflow: document.documentElement.scrollWidth > innerWidth,
+    h1: document.querySelector('h1')?.textContent?.trim(),
+    menuVisible: getComputedStyle(document.querySelector('.mobile-nav')).display !== 'none',
+    primaryAction: document.querySelector('.planner-hero .button')?.textContent?.trim()
+  }))()`);
+  await screenshot(session, "home-mobile");
+
   await navigate(session, `${previewUrl}/protocol-builder`);
   results.protocol = await session.evaluate(`(() => {
     document.querySelector('.mobile-nav summary')?.click();
@@ -206,14 +232,16 @@ try {
   await screenshot(session, "protocol-mobile");
 
   const failed = [];
-  if (results.home.overflow || results.lab.overflow || results.protocol.overflow) failed.push("horizontal overflow detected");
+  if (results.home.overflow || results.homeMobile.overflow || results.lab.overflow || results.guide.overflow || results.protocol.overflow) failed.push("horizontal overflow detected");
   if (results.home.robots !== null || results.lab.robots !== null || results.protocol.robots !== null) failed.push("global meta noindex still present");
-  if (results.home.h1 !== "One question.Its useful edges." || !results.home.plannerPresent || !results.home.plannerDisabled || results.home.primaryAction !== "#planner") failed.push("homepage composition failed");
+  if (results.home.h1 !== "One question.More useful questions." || !results.home.plannerPresent || !results.home.plannerDisabled || results.home.primaryAction !== "#planner") failed.push("homepage composition failed");
+  if (results.homeMobile.h1 !== "One question.More useful questions." || !results.homeMobile.menuVisible || results.homeMobile.primaryAction !== "Try the free tool") failed.push("mobile homepage composition failed");
   if (results.lab.h1 !== "Compare what the answers show." || results.lab.observations !== 3 || !results.lab.resultsVisible) failed.push("lab demo interaction failed");
   if (results.lab.observationMetric !== "3" || results.lab.domainMetric !== "3" || results.lab.recurringMetric !== "2 / 3" || results.lab.coverageMetric !== "12 / 12") failed.push("lab measure contract failed");
   if (!/%$/.test(results.lab.overlapMetric ?? "") || results.lab.sourceRows !== 3 || results.lab.coverageRows !== 4 || results.lab.warnings < 3 || results.lab.localOnly !== "Local only") failed.push("lab output rendering failed");
-  if (results.library.references !== 13 || results.library.filters < 6 || results.library.pressed !== "true" || results.library.visible !== 4 || results.library.hidden !== 9) failed.push("library filter interaction failed");
-  if (results.protocol.h1 !== "Fix the method before the first run." || !results.protocol.menuOpen || !results.protocol.resultsVisible) failed.push("mobile protocol interaction failed");
+  if (results.library.references !== 21 || results.library.filters < 6 || results.library.pressed !== "true" || results.library.visible !== 4 || results.library.hidden !== 17) failed.push("library filter interaction failed");
+  if (results.guide.h1 !== "How does query fanout work?" || !results.guide.shortAnswer?.includes("starts with one broad question") || results.guide.sourcesHeading !== "Sources used" || results.guide.relatedHeading !== "Related guides") failed.push("plain-language guide rendering failed");
+  if (results.protocol.h1 !== "Plan the comparison before you start." || !results.protocol.menuOpen || !results.protocol.resultsVisible) failed.push("mobile protocol interaction failed");
   if (results.protocol.readinessSignals !== 8 || results.protocol.readySignals !== 5 || !results.protocol.previewHasName || results.protocol.exportButtons !== 2) failed.push("protocol output contract failed");
   if (consoleProblems.length) failed.push(...consoleProblems);
   if (failed.length) throw new Error(failed.join("; "));

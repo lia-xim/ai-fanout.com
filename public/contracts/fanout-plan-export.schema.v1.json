@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-fanout.com/contracts/fanout-plan-export.schema.v1.json",
+  "title": "AI Fanout Planner portable export",
+  "description": "A versioned handoff contract for planner-generated hypotheses. It never represents hidden provider queries, retrieval traces or model reasoning.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "kind", "question", "summary", "branches", "metadata", "notice"],
+  "properties": {
+    "schemaVersion": { "const": "ai-fanout.export/1.0" },
+    "kind": { "const": "planner_hypothesis_set" },
+    "question": { "type": "string", "minLength": 4, "maxLength": 120 },
+    "summary": { "type": "string", "minLength": 20, "maxLength": 320 },
+    "branches": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "query", "intent", "rationale", "sourceType", "assumption", "evidenceState"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^branch-[0-9]{2}$" },
+          "query": { "type": "string", "minLength": 4, "maxLength": 180 },
+          "intent": { "enum": ["learn", "compare", "evaluate", "implement", "troubleshoot", "verify"] },
+          "rationale": { "type": "string", "minLength": 12, "maxLength": 260 },
+          "sourceType": { "enum": ["primary documentation", "research paper", "expert guidance", "case study", "comparison data", "community evidence"] },
+          "assumption": { "type": "string", "minLength": 4, "maxLength": 220 },
+          "evidenceState": { "const": "hypothesis" }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["plannerVersion", "methodVersion", "modelId", "generatedAt", "locale", "reviewStatus", "producer"],
+      "properties": {
+        "plannerVersion": { "type": "string", "pattern": "^fanout-planner/[0-9]+\\.[0-9]+\\.[0-9]+$" },
+        "methodVersion": { "type": "string", "pattern": "^hypothetical-query-fanout/[0-9]+\\.[0-9]+$" },
+        "modelId": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "generatedAt": { "type": "string", "format": "date-time" },
+        "locale": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$" },
+        "reviewStatus": { "enum": ["unreviewed", "self_reviewed", "independently_reviewed"] },
+        "producer": { "const": "ai-fanout.com" }
+      }
+    },
+    "notice": { "const": "Planner-generated hypotheses — not internal queries, retrieval traces, or model reasoning." }
+  }
+}

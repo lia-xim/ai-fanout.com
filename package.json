@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Browser-local evidence tools and a gated research observatory for observable AI answers and visible sources.",
+  "description": "A free AI query fanout tool and plain-English learning hub for turning broad questions into useful research and content decisions.",
   "engines": {
     "node": "24.x"
   },
@@ -14,7 +14,7 @@
     "check": "astro check",
     "qa": "node scripts/qa.mjs",
     "verify": "pnpm build && pnpm qa",
-    "test:planner": "node --test scripts/planner.test.mjs",
+    "test:planner": "node --test scripts/planner.test.mjs scripts/export-contract.test.mjs",
     "qa:planner": "node scripts/planner-qa.mjs",
     "verify:planner": "pnpm build && pnpm test:planner && pnpm qa:planner"
   },

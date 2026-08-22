@@ -2,60 +2,61 @@
 import ArrowIcon from "../../components/ArrowIcon.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { libraryArticles, libraryGroups } from "../../data/library";
+const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method: "How to", "Data standard": "Data and exports", "Field guide": "Practical guides" } as const;
 ---
 
-<BaseLayout title="AI answer research library" canonicalPath="/library" description="Source-grounded definitions, methods, data standards and field guides for auditing public AI answers and their visible sources.">
+<BaseLayout title="Learn about AI query fanout" canonicalPath="/library" description="Plain-English guides to query fanout: how it works, how to check a plan, choose sources, compare methods, and decide what deserves a page.">
   <header class="library-hero">
-    <div class="library-kicker"><span>Research library</span><span>{libraryArticles.length} maintained references</span></div>
+    <div class="library-kicker"><span>Learn</span><span>{libraryArticles.length} practical guides</span></div>
     <div class="library-hero-grid">
-      <h1>Build the evidence before the trend.</h1>
+      <h1>Better questions lead to better answers.</h1>
       <div>
-        <p>Definitions, measurement contracts and field procedures for studying public AI answers without turning inference into fact.</p>
-        <p class="meta-line">Public maintained library · reviewed 22 Aug 2026</p>
+        <p>Start with the basics, see worked examples, and learn how to turn a broad question into research or content that genuinely helps.</p>
+        <p class="meta-line">Plain-English guides · reviewed 23 Aug 2026</p>
       </div>
     </div>
-    <div class="signal-legend" aria-label="Library evidence path">
-      <span><i aria-hidden="true"></i>Define</span><span><i aria-hidden="true"></i>Observe</span><span><i aria-hidden="true"></i>Compare</span><span><i aria-hidden="true"></i>Publish</span>
+    <div class="signal-legend" aria-label="Learning path">
+      <span><i aria-hidden="true"></i>Ask</span><span><i aria-hidden="true"></i>Understand</span><span><i aria-hidden="true"></i>Check</span><span><i aria-hidden="true"></i>Decide</span>
     </div>
   </header>
 
   <section class="library-index section-pad section-rule" aria-labelledby="library-index-title">
     <div class="index-heading">
-      <div><span class="section-number">01</span><h2 id="library-index-title" class="section-title">Reference index</h2></div>
-      <p>Each route owns one user job. Filters change this index only; every reference remains available as a normal link.</p>
+      <div><span class="section-number">01</span><h2 id="library-index-title" class="section-title">Choose your question</h2></div>
+      <p>Every guide answers one main question. Use the filters to find the kind of help you need.</p>
     </div>
-    <div class="library-filters" aria-label="Filter the reference index">
+    <div class="library-filters" aria-label="Filter the learning guides">
       <button type="button" data-filter="all" aria-pressed="true">All <span>{libraryArticles.length}</span></button>
-      {libraryGroups.map((group) => <button type="button" data-filter={group.category} aria-pressed="false">{group.category} <span>{group.articles.length}</span></button>)}
+      {libraryGroups.map((group) => <button type="button" data-filter={group.category} aria-pressed="false">{categoryLabels[group.category]} <span>{group.articles.length}</span></button>)}
     </div>
     <ol class="library-list" aria-live="polite">
       {libraryArticles.map((article) => (
         <li data-library-item data-category={article.category}>
           <a href={`/library/${article.slug}`}>
             <span class="entry-number">{article.number}</span>
-            <span class="entry-type">{article.category}</span>
+            <span class="entry-type">{categoryLabels[article.category]}</span>
             <span class="entry-main"><strong>{article.shortTitle}</strong><small>{article.primaryIntent}</small></span>
             <ArrowIcon />
           </a>
         </li>
       ))}
     </ol>
-    <p class="filter-empty" hidden data-filter-empty>No references match this filter.</p>
+    <p class="filter-empty" hidden data-filter-empty>No guides match this filter.</p>
   </section>
 
   <section class="library-map section-pad section-rule" aria-labelledby="map-title">
-    <div><span class="section-number">02</span><h2 id="map-title" class="section-title">Use the right layer</h2></div>
+    <div><span class="section-number">02</span><h2 id="map-title" class="section-title">From question to decision</h2></div>
     <ol>
-      <li><span>01</span><div><h3>Start with a concept</h3><p>Fix the meaning and evidence boundary before choosing a metric.</p></div></li>
-      <li><span>02</span><div><h3>Choose a measurement</h3><p>Name the observation unit, denominator and interpretation limits.</p></div></li>
-      <li><span>03</span><div><h3>Adopt a method</h3><p>Freeze sampling, controls, missingness and comparability rules.</p></div></li>
-      <li><span>04</span><div><h3>Package the record</h3><p>Keep provenance, rights and corrections attached to the result.</p></div></li>
+      <li><span>01</span><div><h3>Understand the idea</h3><p>Learn what query fanout is and what an outside tool cannot see.</p></div></li>
+      <li><span>02</span><div><h3>Check the suggested branches</h3><p>Remove repeats, weak assumptions, and questions that drift off topic.</p></div></li>
+      <li><span>03</span><div><h3>Choose the right evidence</h3><p>Match each important claim to a source that can actually support it.</p></div></li>
+      <li><span>04</span><div><h3>Make the smallest useful change</h3><p>Decide whether the branch needs a page, a section, more research, or no action.</p></div></li>
     </ol>
   </section>
 
   <section class="library-boundary section-pad">
-    <p>This library explains how a defensible observation program should work. It is not evidence that collection has started or that a public trend exists.</p>
-    <a class="text-action" href="/methodology">Inspect methodology v0.1 <ArrowIcon /></a>
+    <p>Need the short version? See the tool's steps, limits, and privacy rules.</p>
+    <a class="text-action" href="/methodology">See how the free tool works <ArrowIcon /></a>
   </section>
 
   <script>

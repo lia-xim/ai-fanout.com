@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-22.3",
+  "manifestVersion": "2026-08-23.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-08-22",
+  "reviewedAt": "2026-08-23",
   "domainOrigin": "fresh_registration",
   "defaultUnknownPathAction": "404",
   "catchAllRedirect": false,
@@ -23,8 +23,9 @@
   ],
   "notes": [
     "ai-fanout.com was newly registered by Matthias Ramahi for this project.",
-    "The canonical homepage role is the AI Fanout Planner; /lab remains the secondary browser-local Answer Evidence Lab.",
-    "/methodology documents the Planner contract; /research/methodology documents the separate Evidence Lab observation method.",
+    "The canonical homepage introduces two public areas: the fail-closed free fanout tool and the plain-English learning hub.",
+    "/library contains 21 canonical guides, with eight plain-language entry guides before the advanced research references.",
+    "/methodology explains the fanout-tool contract; /research/methodology documents the separate browser-local answer comparison.",
     "The sitemap is generated from Astro static routes and excludes noindex, error and API paths.",
     "The API is closed by default and may not be publicly enabled until all CAPTCHA, atomic quota, cost and provider secrets are configured and live-tested.",
     "Unknown paths return a real 404 and are not redirected to the homepage."

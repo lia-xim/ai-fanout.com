@@ -5,16 +5,16 @@ const initialObservations = [0, 1] as const;
 <section class="evidence-lab" data-evidence-lab aria-labelledby="lab-workspace-title">
   <div class="lab-command">
     <div>
-      <p class="lab-kicker">Browser-local evidence workbench · method 0.1</p>
-      <h2 id="lab-workspace-title">Build an observation package.</h2>
-      <p>Nothing entered here is sent to ai-fanout.com or an AI provider. The page analyzes only the text, metadata and visible source URLs you supply.</p>
+      <p class="lab-kicker">Compare in your browser · version 0.1</p>
+      <h2 id="lab-workspace-title">Add the answers you want to compare.</h2>
+      <p>Nothing entered here is sent to ai-fanout.com or an AI provider. This page compares only the text, details, and visible source links you add.</p>
     </div>
     <div class="privacy-mark" aria-label="Processing state: local only"><span aria-hidden="true"></span><strong>Local only</strong><small>No account · no upload</small></div>
   </div>
 
   <form class="lab-form" data-lab-form novalidate>
     <section class="question-panel" aria-labelledby="question-panel-title">
-      <div class="panel-index"><span>01</span><h3 id="question-panel-title">Define the comparison</h3></div>
+      <div class="panel-index"><span>01</span><h3 id="question-panel-title">What did you ask?</h3></div>
       <div class="field-grid">
         <label class="field-wide" for="lab-question"><span>Public user question <b>required</b></span><textarea id="lab-question" data-lab-question rows="3" maxlength="500" required placeholder="What question produced these public answers?"></textarea></label>
         <label class="field-wide" for="lab-criteria"><span>Coverage criteria <small>one observable phrase per line</small></span><textarea id="lab-criteria" data-lab-criteria rows="4" maxlength="1200" placeholder="pricing model&#10;data retention&#10;export format"></textarea></label>
@@ -23,11 +23,11 @@ const initialObservations = [0, 1] as const;
     </section>
 
     <section class="observation-panel" aria-labelledby="observation-panel-title">
-      <div class="panel-index"><span>02</span><h3 id="observation-panel-title">Record the visible observations</h3></div>
+      <div class="panel-index"><span>02</span><h3 id="observation-panel-title">Add the visible answers</h3></div>
       <div class="observation-stack" data-observation-stack>
         {initialObservations.map((index) => (
           <fieldset class="observation-card" data-observation data-index={index}>
-            <legend><span data-observation-number>{String(index + 1).padStart(2, "0")}</span><strong>Observation {index + 1}</strong><button type="button" class="remove-observation" data-remove-observation aria-label={`Remove observation ${index + 1}`}>Remove</button></legend>
+            <legend><span data-observation-number>{String(index + 1).padStart(2, "0")}</span><strong>Answer {index + 1}</strong><button type="button" class="remove-observation" data-remove-observation aria-label={`Remove answer ${index + 1}`}>Remove</button></legend>
             <div class="observation-fields">
               <label><span>Label <b>required</b></span><input data-field="label" type="text" maxlength="80" required placeholder={`Run ${index + 1}`} /></label>
               <label><span>Public surface</span><select data-field="surface"><option>ChatGPT Search</option><option>Google AI Mode</option><option>Google AI Overview</option><option>Perplexity</option><option>Gemini</option><option>Copilot</option><option>Other public surface</option></select></label>
@@ -58,17 +58,17 @@ const initialObservations = [0, 1] as const;
         </fieldset>
       </template>
 
-      <div class="observation-actions"><button type="button" class="secondary-button" data-add-observation>Add observation</button><span data-observation-count>2 of 5 observations</span></div>
+      <div class="observation-actions"><button type="button" class="secondary-button" data-add-observation>Add another answer</button><span data-observation-count>2 of 5 answers</span></div>
     </section>
 
     <div class="lab-submit">
       <div><p data-form-error role="alert"></p><small>Use the synthetic demo to inspect the method before entering your own material.</small></div>
-      <div><button type="button" class="secondary-button" data-load-sample>Load synthetic demo</button><button type="submit" class="button">Analyze observations</button></div>
+      <div><button type="button" class="secondary-button" data-load-sample>Load example</button><button type="submit" class="button">Compare answers</button></div>
     </div>
   </form>
 
   <section class="lab-results" data-lab-results aria-labelledby="lab-results-title" aria-live="polite" hidden>
-    <div class="result-head"><div><p class="lab-kicker">Generated locally · descriptive measures only</p><h2 id="lab-results-title">Evidence summary</h2><p data-result-summary></p></div><div class="result-actions"><button type="button" class="secondary-button" data-export-json>Export JSON</button><button type="button" class="secondary-button" data-export-csv>Export CSV</button><button type="button" class="text-button" data-clear-lab>Clear</button></div></div>
+    <div class="result-head"><div><p class="lab-kicker">Calculated in this browser · no accuracy score</p><h2 id="lab-results-title">Comparison summary</h2><p data-result-summary></p></div><div class="result-actions"><button type="button" class="secondary-button" data-export-json>Export JSON</button><button type="button" class="secondary-button" data-export-csv>Export CSV</button><button type="button" class="text-button" data-clear-lab>Clear</button></div></div>
 
     <dl class="metric-rail">
       <div><dt>Observations</dt><dd data-metric="observations">0</dd><small>included runs</small></div>
@@ -79,11 +79,11 @@ const initialObservations = [0, 1] as const;
     </dl>
 
     <div class="result-grid">
-      <section class="matrix-panel" aria-labelledby="source-matrix-title"><div class="matrix-heading"><span>03A</span><div><h3 id="source-matrix-title">Source recurrence</h3><p>Normalized visible host presence by observation.</p></div></div><div class="matrix-scroll"><table data-source-matrix><thead></thead><tbody></tbody></table></div></section>
-      <section class="matrix-panel" aria-labelledby="coverage-matrix-title"><div class="matrix-heading"><span>03B</span><div><h3 id="coverage-matrix-title">Literal coverage</h3><p>User-defined phrases found in each answer.</p></div></div><div class="matrix-scroll"><table data-coverage-matrix><thead></thead><tbody></tbody></table></div></section>
+      <section class="matrix-panel" aria-labelledby="source-matrix-title"><div class="matrix-heading"><span>03A</span><div><h3 id="source-matrix-title">Repeated source sites</h3><p>Which visible website hosts appear with each answer.</p></div></div><div class="matrix-scroll"><table data-source-matrix><thead></thead><tbody></tbody></table></div></section>
+      <section class="matrix-panel" aria-labelledby="coverage-matrix-title"><div class="matrix-heading"><span>03B</span><div><h3 id="coverage-matrix-title">Exact phrase check</h3><p>Which phrases you entered appear in each answer.</p></div></div><div class="matrix-scroll"><table data-coverage-matrix><thead></thead><tbody></tbody></table></div></section>
     </div>
 
-    <section class="warning-panel" aria-labelledby="warning-title"><div class="matrix-heading"><span>04</span><div><h3 id="warning-title">Comparability notes</h3><p>Differences that change what this package can support.</p></div></div><ul data-warning-list></ul></section>
+    <section class="warning-panel" aria-labelledby="warning-title"><div class="matrix-heading"><span>04</span><div><h3 id="warning-title">Limits to keep in mind</h3><p>Differences that can make the answers harder to compare fairly.</p></div></div><ul data-warning-list></ul></section>
     <p class="result-boundary">This report describes user-supplied public outputs. It does not verify factual accuracy, reconstruct hidden fan-out queries, expose private retrieval traces or establish causation.</p>
   </section>
 </section>

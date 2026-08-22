@@ -1,13 +1,14 @@
 # ai-fanout.com project brief
 
-Updated: 2026-08-22
+Updated: 2026-08-23
 
 ## Accepted purpose
 
-ai-fanout.com is a bounded AI Query Fanout Planner. A visitor enters one deliberately short question and receives four to eight planner-generated longtails or subquestions with intent, rationale, suggested source type, explicit assumption, model ID, method version and planner version.
+ai-fanout.com has two clear public areas. The first is a free AI query fanout tool: a visitor enters one short question and receives four to eight suggested follow-up questions with intent, reason, useful source type, an assumption to check, model ID, method version and tool version.
 
-The output is a planning hypothesis. It is never presented as an actual or recovered Google query, ChatGPT subquery, private retrieval trace, system prompt, ranking internal or chain of thought. The browser-local Answer Evidence Lab remains a useful secondary tool at `/lab`.
+The second is a large, maintained learning area. It answers practical questions about query fanout, reviewing a plan, choosing sources, comparing planning methods and deciding whether a branch needs a page, a section, more research or no action. The answer comparison at `/lab` and comparison planner at `/protocol-builder` remain useful browser-local tools.
 
+Tool output is a planning hypothesis. It is never presented as an actual or recovered Google query, ChatGPT subquery, private retrieval trace, system prompt, ranking internal or chain of thought.
 ## Audiences
 
 - Primary: SEO, AEO, editorial and research practitioners exploring a question before deciding what deserves evidence or content.
@@ -16,19 +17,18 @@ The output is a planning hypothesis. It is never presented as an actual or recov
 
 ## Visual thesis
 
-Controlled Signal is retained and sharpened into a question-to-branches composition: near-black work surfaces, cool-white type, cyan observable/planner states, restrained red boundaries, open ruled registers and a signature radial branch map. The tool is the homepage composition rather than a card in a marketing grid. Motion is limited to state and scroll transitions and respects reduced-motion preferences.
+Controlled Signal is retained without a visual redesign: near-black work surfaces, cool-white type, cyan states, restrained red boundaries, open ruled registers and the signature branch map. The content rewrite uses the existing composition, spacing, type, color and interaction system. Motion remains limited to state and scroll transitions and respects reduced-motion preferences.
 
 ## Page jobs
 
-- `/` is the primary Planner interface and product explanation.
-- `/methodology` is the exact Planner input, CAPTCHA, quota, budget, provider, output, privacy and responsibility contract.
-- `/lab` is the secondary browser-local Answer Evidence Lab.
-- `/protocol-builder` builds a browser-local evidence-observation protocol.
-- `/research/methodology` holds the separate Evidence Lab observation method.
-- `/library` and its maintained references explain fanout, observable evidence, methods and standards.
+- `/` introduces both public areas and contains the free tool.
+- `/library` is visibly named Learn and leads with eight plain-English, question-based guides before the advanced references.
+- `/methodology` explains the tool input, CAPTCHA, quota, budget, provider, output, privacy and responsibility contract in plain language.
+- `/lab` is visibly named Compare AI answers and remains browser-local.
+- `/protocol-builder` is visibly named Plan an answer comparison and remains browser-local.
+- `/research/methodology` documents the separate answer-comparison calculations.
 - `/research`, `/datasets` and noindex `/tracker` remain gated research surfaces and never imply a published benchmark.
 - `/transparency`, `/impressum` and `/datenschutz` disclose ownership, sources, rights, operator responsibility and actual data behavior.
-
 ## Server and cost contract
 
 - 4–120 Unicode code points and at most 256 UTF-8 bytes; no URLs, files, line breaks or additional request fields.
@@ -51,4 +51,4 @@ Controlled Signal is retained and sharpened into a question-to-branches composit
 
 The static public website remains indexable under the prior owner approval. The new Planner endpoint must not be enabled in production until OpenAI, Turnstile, high-entropy bucket salt and atomic Redis credentials exist and live adversarial QA proves CAPTCHA, the 24-hour and daily caps, parallel hard-budget enforcement, timeouts, provider failures, secret isolation and exact privacy behavior.
 
-If those gates are not met, the production site keeps its current public Evidence Lab release and the Planner stays a closed release candidate.
+If those gates are not met, the public website can publish the learning and browser-local tools, while the free fanout form stays disabled.

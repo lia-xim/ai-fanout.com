@@ -11,6 +11,10 @@ const slugs = [
   "citation-persistence", "sampling-ai-answers", "control-question-set", "comparability-breaks",
   "missing-data-ai-observations", "observation-schema", "reproducibility-package",
   "audit-ai-answer-sources", "compare-ai-answers-over-time",
+  "how-query-fanout-works", "how-to-check-a-fanout-plan",
+  "when-does-a-subtopic-need-its-own-page", "how-to-choose-sources-for-ai-content",
+  "query-fanout-vs-keyword-clustering", "query-fanout-vs-topic-clusters",
+  "can-tools-see-hidden-ai-queries", "query-fanout-examples",
 ];
 const libraryRoutes = slugs.map((slug) => `/library/${slug}`);
 const toolRoutes = ["/lab", "/protocol-builder"];
@@ -50,10 +54,10 @@ for (const route of routes) {
 }
 
 const home = htmlByRoute.get("/") ?? "";
-check(home.includes("One question.") && home.includes("Its useful edges."), "home: tool-first visual thesis missing");
+check(home.includes("One question.") && home.includes("More useful questions."), "home: tool-first visual thesis missing");
 check(home.includes('href="/lab"') && home.includes('href="/methodology"'), "home: primary tool paths missing");
-check(home.includes("Not provider-internal data") && home.includes("No raw storage"), "home: demo or privacy boundary missing");
-check(home.includes("Planner hypotheses") && home.includes("Not hidden provider queries"), "home: evidence output contract missing");
+check(home.includes("Suggestions, not hidden searches") && home.includes("No raw storage"), "home: demo or privacy boundary missing");
+check(home.includes("Useful follow-up questions") && home.includes("Suggestions to review, not hidden searches"), "home: evidence output contract missing");
 check(home.includes("<summary>Menu</summary>") && home.includes('class="skip-link"'), "site: mobile menu or skip link missing");
 
 const lab = htmlByRoute.get("/lab") ?? "";
@@ -65,7 +69,7 @@ check(lab.includes("does not verify factual accuracy") && lab.includes("hidden f
 
 const protocol = htmlByRoute.get("/protocol-builder") ?? "";
 check(protocol.includes("data-protocol-builder") && protocol.includes("data-protocol-form"), "protocol: builder missing");
-check(protocol.includes("data-protocol-readiness") && protocol.includes("not preregistered"), "protocol: readiness or draft boundary missing");
+check(protocol.includes("data-protocol-readiness") && protocol.includes("Downloadable draft plan"), "protocol: readiness or draft boundary missing");
 check(protocol.includes("data-export-protocol-json") && protocol.includes("data-export-protocol-markdown"), "protocol: exports missing");
 for (const name of ["questions", "surface", "route", "missingRule", "retention"]) check(protocol.includes(`data-protocol-field="${name}"`), `protocol: ${name} contract missing`);
 
@@ -81,7 +85,7 @@ check(globalCss.includes(":focus-visible") && globalCss.includes("outline: 2px s
 check(globalCss.includes("prefers-reduced-motion: reduce") && globalCss.includes("scroll-behavior: auto !important"), "accessibility: reduced-motion contract missing");
 
 const hub = htmlByRoute.get("/library") ?? "";
-check(hub.includes("Build the evidence before the trend."), "library: visual thesis missing");
+check(hub.includes("Better questions lead to better answers."), "library: visual thesis missing");
 check((hub.match(/<li data-library-item/g) ?? []).length === slugs.length, `library: expected ${slugs.length} references`);
 check((hub.match(/<button type="button" data-filter=/g) ?? []).length >= 6, "library: category filters missing");
 check(hub.includes('aria-live="polite"'), "library: accessible filtered region missing");
@@ -90,7 +94,7 @@ for (const route of libraryRoutes) {
   const html = htmlByRoute.get(route) ?? "";
   check(html.includes('class="direct-answer"'), `${route}: direct answer missing`);
   check(html.includes('class="article-rail"') && html.includes('class="source-notes"'), `${route}: evidence rail or source notes missing`);
-  check(html.includes("Source-grounded reference") && html.includes("Review owner</dt><dd>Matthias Ramahi"), `${route}: evidence or ownership disclosure missing`);
+  check(html.includes("Listed and explained below") && html.includes("Reviewed by</dt><dd>Matthias Ramahi"), `${route}: evidence or ownership disclosure missing`);
   check(html.includes('"@type":"TechArticle"'), `${route}: TechArticle data missing`);
   check((html.match(/class="article-section"/g) ?? []).length >= 4, `${route}: fewer than four substantive sections`);
   check(visibleLength(html) >= 3000, `${route}: substantive reference depth failed`);
@@ -107,7 +111,7 @@ check(datasets.includes("no ai-fanout.com observation release exists"), "dataset
 
 const imprint = htmlByRoute.get("/impressum") ?? "";
 check(imprint.includes("Matthias Ramahi") && imprint.includes("Kempener Straße 44") && imprint.includes("40699 Erkrath") && imprint.includes("info@matthiasramahi.de"), "imprint: verified operator details missing");
-check(imprint.includes("§ 5 DDG") && imprint.includes("§ 18 Abs. 2 MStV") && imprint.includes("ai-fanout.com — AI Fanout Planner"), "imprint: provider or responsibility scope missing");
+check(imprint.includes("§ 5 DDG") && imprint.includes("§ 18 Abs. 2 MStV") && imprint.includes("ai-fanout.com — AI Query Fanout"), "imprint: provider or responsibility scope missing");
 
 const privacy = htmlByRoute.get("/datenschutz") ?? "";
 for (const claim of ["Vercel", "ausschließlich im Arbeitsspeicher Ihres Browsers", "keine Analytics-", "af_device", "Systemschriften", "kein Kontaktformular", "Blob-URL"]) check(privacy.includes(claim), `privacy: exact behavior missing: ${claim}`);

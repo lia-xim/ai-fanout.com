@@ -4,12 +4,12 @@ const enabled = import.meta.env.PUBLIC_FANOUT_ENABLED === "true" && Boolean(site
 ---
 <section data-fanout-planner data-site-key={siteKey} data-enabled={String(enabled)}>
   <form data-planner-form>
-    <label for="fanout-question">Your question</label>
-    <textarea id="fanout-question" name="question" rows="2" maxlength="120" placeholder="How do I measure whether my content appears in AI answers?" required></textarea>
+    <label for="fanout-question">What do you want to explore?</label>
+    <textarea id="fanout-question" name="question" rows="2" maxlength="120" placeholder="How can I check whether my content appears in AI answers?" required></textarea>
     <output data-question-count>0 / 120</output>
     <div data-turnstile-slot aria-label="Human verification"></div>
-    <button type="submit" disabled={!enabled}>Build the fanout</button>
-    {!enabled && <p role="status">The secured planner endpoint is not enabled in this build. Provider, CAPTCHA, salted quota ledger and public-enable secrets are required.</p>}
+    <button type="submit" disabled={!enabled}>Show follow-up questions</button>
+    {!enabled && <p role="status">The free tool is not open yet. We are finishing the safeguards that keep it private, reliable, and within a fixed cost limit. The guides below are already available.</p>}
     <p data-form-status aria-live="polite"></p>
   </form>
   <section data-plan-output hidden aria-live="polite"><h2 data-plan-summary></h2><dl><div><dt>Model</dt><dd data-plan-model></dd></div><div><dt>Planner</dt><dd data-plan-version></dd></div><div><dt>Generated</dt><dd data-plan-date></dd></div></dl><ol data-plan-branches></ol><p data-plan-notice></p><aside><h3>Branches are not a content strategy yet.</h3><p>Use SEO Fanout to decide which branch deserves a page, a section, consolidation or no action. Use Contextter for the broader evidence-led workflow.</p><small>Ownership disclosure: ai-fanout.com, SEO Fanout and Contextter are operated by Matthias Ramahi. These links are not independent recommendations.</small><nav><a href="https://seo-fanout.com" rel="external">Evaluate in SEO Fanout</a><a href="https://contextter.com" rel="external">Continue in Contextter</a></nav></aside></section>
