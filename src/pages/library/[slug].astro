@@ -1,0 +1,84 @@
+---
+import ArrowIcon from "../../components/ArrowIcon.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { libraryArticles, type LibraryArticle } from "../../data/library";
+import "../../styles/library-article.css";
+import evidenceManifest from "../../../manifests/rights-and-sources.v1.json";
+
+export function getStaticPaths() {
+  return libraryArticles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+}
+
+interface Props { article: LibraryArticle; }
+const { article } = Astro.props;
+const allArticles: readonly LibraryArticle[] = libraryArticles;
+const sources = evidenceManifest.sources.filter((source) => article.sourceIds.includes(source.id));
+const related = article.relatedSlugs
+  .map((slug) => allArticles.find((candidate) => candidate.slug === slug))
+  .filter((item): item is LibraryArticle => item !== undefined);
+const canonicalPath = `/library/${article.slug}`;
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline: article.title,
+  description: article.description,
+  dateModified: article.reviewedAt,
+  inLanguage: "en",
+  mainEntityOfPage: `https://ai-fanout.com${canonicalPath}`,
+  isPartOf: { "@type": "CollectionPage", name: "AI answer research library", url: "https://ai-fanout.com/library" }
+};
+---
+
+<BaseLayout title={article.title} canonicalPath={canonicalPath} description={article.description} pageClass="library-article-page" structuredData={structuredData}>
+  <article>
+    <header class="article-hero">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/library">Research library</a><span aria-hidden="true">/</span><span aria-current="page">{article.shortTitle}</span></nav>
+      <div class="article-hero-grid">
+        <div><p class="article-code">{article.number} · {article.category}</p><h1>{article.title}</h1></div>
+        <dl>
+          <div><dt>Primary intent</dt><dd>{article.primaryIntent}</dd></div>
+          <div><dt>Evidence state</dt><dd>Source-grounded reference</dd></div>
+          <div><dt>Review owner</dt><dd>Not assigned</dd></div>
+          <div><dt>Last reviewed</dt><dd>{article.reviewedAt}</dd></div>
+        </dl>
+      </div>
+    </header>
+
+    <section class="direct-answer" aria-labelledby="direct-answer-title">
+      <div><span>Direct answer</span><i aria-hidden="true"></i></div>
+      <div><h2 id="direct-answer-title">{article.shortTitle}</h2><p>{article.answer}</p><small>{article.useWhen}</small></div>
+    </section>
+
+    <div class="article-grid">
+      <aside class="article-rail" aria-label="On this page">
+        <p>On this page</p>
+        <ol>{article.sections.map((section, index) => <li><a href={`#${section.id}`}><span>{String(index + 1).padStart(2, "0")}</span>{section.title}</a></li>)}</ol>
+        <a class="rail-back" href="/library"><ArrowIcon direction="left" /> All references</a>
+      </aside>
+
+      <div class="article-content">
+        {article.sections.map((section, index) => (
+          <section id={section.id} class="article-section" aria-labelledby={`${section.id}-title`}>
+            <div class="section-label"><span>{String(index + 1).padStart(2, "0")}</span><a href={`#${section.id}`} aria-label={`Link to ${section.title}`}>#</a></div>
+            <div>
+              <h2 id={`${section.id}-title`}>{section.title}</h2>
+              {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+              {section.points && <ul>{section.points.map((point) => <li>{point}</li>)}</ul>}
+            </div>
+          </section>
+        ))}
+
+        <section class="source-notes" aria-labelledby="source-notes-title">
+          <div><span class="section-number">S</span><h2 id="source-notes-title">Source notes</h2></div>
+          <p>These sources support the definitions, standards or project boundaries named in this reference. They do not prove that a public observation dataset exists.</p>
+          <ol>{sources.map((source) => <li><span>{source.id}</span><div><strong>{source.title}</strong><p>{source.supports}</p></div>{source.location.startsWith("https://") ? <a href={source.location} rel="external">Open <ArrowIcon size={15} /></a> : <small>Owner record</small>}</li>)}</ol>
+        </section>
+      </div>
+    </div>
+
+    <section class="related-references" aria-labelledby="related-title">
+      <div><span class="section-number">Next</span><h2 id="related-title">Continue the method</h2></div>
+      <ol>{related.map((item) => <li><a href={`/library/${item.slug}`}><span>{item.number}</span><strong>{item.shortTitle}</strong><small>{item.category}</small><ArrowIcon /></a></li>)}</ol>
+    </section>
+  </article>
+</BaseLayout>

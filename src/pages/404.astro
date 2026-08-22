@@ -1,24 +1,21 @@
 ---
-import { site } from "../data/site";
-import "../styles/global.css";
+import ArrowIcon from "../components/ArrowIcon.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<!doctype html>
-<html lang={site.language}>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="robots" content="noindex, nofollow, noarchive" />
-    <title>Not found | {site.domain}</title>
-  </head>
-  <body>
-    <main>
-      <div class="eyebrow">{site.domain}</div>
-      <h1>Page not found</h1>
-      <p class="purpose">Only the project setup page exists at the moment.</p>
-      <div class="actions"><a href="/">Return to the project setup</a></div>
-    </main>
-  </body>
-</html>
+<BaseLayout title="Not found" description="No ai-fanout.com record exists at this path.">
+  <section class="not-found">
+    <p class="error-code">404</p>
+    <h1>No record at this path.</h1>
+    <p>Unknown and unreviewed historical paths return a real 404. They are not redirected to the homepage.</p>
+    <a class="text-action" href="/">Return to the observation field <ArrowIcon /></a>
+  </section>
+</BaseLayout>
 
-
+<style>
+  .not-found { min-height: 65vh; padding: clamp(4rem, 10vw, 9rem) clamp(1rem, 4vw, 4.5rem); }
+  .error-code { margin: 0; color: var(--signal); font: 0.8rem/1 var(--font-mono); }
+  h1 { max-width: 12ch; margin: 1.5rem 0; font: 400 clamp(4rem, 10vw, 9rem)/0.88 var(--font-display); letter-spacing: -0.06em; }
+  .not-found > p:not(.error-code) { max-width: 44rem; font-size: 1.1rem; line-height: 1.6; }
+  .not-found .text-action { margin-top: 2rem; }
+</style>

@@ -1,0 +1,6 @@
+---
+interface Props { size?: number; direction?: "left" | "right"; }
+const { size = 20, direction = "right" } = Astro.props;
+---
+<svg class:list={[direction === "left" && "arrow-left"]} width={size} height={size} viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<style>.arrow-left { transform: rotate(180deg); }</style>

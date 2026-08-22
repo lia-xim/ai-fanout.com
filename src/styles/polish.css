@@ -1,0 +1,22 @@
+.home-page .home-hero-copy h1 {
+  max-width: none !important;
+  font-family: Bahnschrift, "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif !important;
+  font-stretch: 75%;
+}
+
+@media (min-width: 1121px) {
+  .home-page .home-hero {
+    grid-template-columns: minmax(31rem, 1fr) minmax(36rem, 1fr) !important;
+    min-height: min(44rem, calc(100vh - 17rem)) !important;
+  }
+
+  .home-page .home-hero-copy h1 {
+    font-size: clamp(4.15rem, 5.05vw, 4.75rem) !important;
+    line-height: 0.92 !important;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .home-page .field-index a:hover,
+  .home-page .gate-preview li:hover { background: rgba(39, 199, 244, 0.035); }
+}

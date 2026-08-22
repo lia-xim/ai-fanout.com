@@ -1,0 +1,75 @@
+---
+import ArrowIcon from "../components/ArrowIcon.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { launchGates, methodologySections, observationSchema } from "../data/research";
+---
+
+<BaseLayout title="Methodology v0.1" canonicalPath="/methodology" description="The draft preregistration scaffold for future ai-fanout.com public-output observations.">
+  <div class="document-layout">
+    <aside class="document-aside" aria-label="Protocol metadata">
+      <dl>
+        <div><dt>State</dt><dd>Draft</dd></div>
+        <div><dt>Owner</dt><dd>Not assigned</dd></div>
+        <div><dt>Protocol</dt><dd>Not frozen</dd></div>
+        <div><dt>Public batches</dt><dd>0</dd></div>
+      </dl>
+    </aside>
+
+    <article class="document-body">
+      <h1>Methodology v0.1</h1>
+      <p class="document-intro">A preregistration scaffold for repeatable observations. The protocol is not frozen and no public collection has started.</p>
+
+      <ol class="method-list">
+        {methodologySections.map((section) => (
+          <li id={section.id}>
+            <span>{section.number}</span><h2>{section.title}</h2><p>{section.body}</p><a href={`#${section.id}`} aria-label={`Link to ${section.title}`}><span aria-hidden="true">#</span></a>
+          </li>
+        ))}
+      </ol>
+
+      <section class="schema-specimen" aria-labelledby="schema-title">
+        <div><h2 id="schema-title">Observation schema</h2><p>labels only</p></div>
+        <pre aria-label="Observation schema labels"><code>{`{
+${observationSchema.map(([field]) => `  ${field}:`).join("\n")}
+}`}</code></pre>
+        <span>rev. 0.1</span>
+      </section>
+    </article>
+  </div>
+
+  <section class="method-gates section-pad section-rule" aria-labelledby="method-gates-title">
+    <span class="section-number">07</span>
+    <h2 id="method-gates-title" class="section-title">Launch gate tracker</h2>
+    <ol class="ruled-list">
+      {launchGates.slice(0, 6).map((gate, index) => (
+        <li class="gate-row"><span>{String(index + 1).padStart(2, "0")}</span><strong>{gate.label}</strong><span>{gate.id === "G-05" ? "0 / 3" : gate.state.replace("_", " ")}</span></li>
+      ))}
+    </ol>
+    <p class="noindex-note"><span aria-hidden="true">→</span> The website remains <strong>noindex</strong> while any gate is open.</p>
+    <a class="text-action" href="/tracker">Inspect every gate and its evidence <ArrowIcon /></a>
+  </section>
+</BaseLayout>
+
+<style>
+  .method-list { margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }
+  .method-list li { display: grid; grid-template-columns: 3rem minmax(10rem, 0.55fr) minmax(0, 1fr) 2rem; gap: 1rem; align-items: start; padding-block: 1.2rem; border-bottom: 1px solid var(--fine-rule); }
+  .method-list li > span { color: var(--signal); font: 1.1rem/1.2 var(--font-display); }
+  .method-list h2 { margin: 0; font-size: 1rem; line-height: 1.45; }
+  .method-list p { margin: 0; line-height: 1.5; }
+  .method-list a { display: grid; width: 2rem; height: 2rem; place-items: center; color: var(--signal); font: 1rem/1 var(--font-mono); text-decoration: none; }
+  .schema-specimen { position: relative; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+  .schema-specimen > div { display: flex; gap: 0.8rem; align-items: baseline; }
+  .schema-specimen h2 { margin: 0; font: 0.85rem/1.4 var(--font-mono); }
+  .schema-specimen p, .schema-specimen > span { color: var(--signal); font: 0.68rem/1.4 var(--font-mono); text-transform: uppercase; }
+  .schema-specimen pre { overflow-x: auto; margin: 1.5rem 0 0; font: 0.76rem/1.45 var(--font-mono); }
+  .schema-specimen > span { position: absolute; top: 4rem; right: 0; }
+  .method-gates { padding-inline: clamp(1rem, 4vw, 4.5rem); }
+  .method-gates .ruled-list { margin-top: 2.5rem; }
+  .gate-row { display: grid; grid-template-columns: 4rem 1fr auto; gap: 1rem; align-items: center; min-height: 3.3rem; }
+  .gate-row > span:first-child { font: 0.76rem/1 var(--font-mono); }
+  .gate-row > span:last-child { color: var(--signal); font: 0.76rem/1 var(--font-mono); text-transform: uppercase; }
+  .gate-row strong { font: 0.8rem/1.4 var(--font-mono); font-weight: 400; }
+  .noindex-note { display: flex; gap: 1rem; align-items: center; margin: 1.5rem 0; font-size: 1rem; }
+  .noindex-note > span { color: var(--signal); font: 1.5rem/1 var(--font-mono); }
+  @media (max-width: 700px) { .method-list li { grid-template-columns: 2.5rem minmax(0, 1fr) 2rem; } .method-list p { grid-column: 2 / -1; } .gate-row { grid-template-columns: 2.5rem minmax(0, 1fr); padding-block: 0.9rem; } .gate-row > span:last-child { grid-column: 2; } }
+</style>

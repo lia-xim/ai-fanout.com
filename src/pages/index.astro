@@ -1,40 +1,116 @@
 ---
-import { site } from "../data/site";
-import "../styles/global.css";
+import ArrowIcon from "../components/ArrowIcon.astro";
+import ObservationField from "../components/ObservationField.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { launchGates } from "../data/research";
+import evidenceManifest from "../../manifests/rights-and-sources.v1.json";
+
+const pageLinks = [
+  { number: "01", title: "Research", href: "/research", copy: "A registry for studies and their evidence state." },
+  { number: "02", title: "Datasets", href: "/datasets", copy: "Schema first; releases only after rights and quality review." },
+  { number: "03", title: "Methodology", href: "/methodology", copy: "Sampling, measurement and reproducibility rules." },
+  { number: "04", title: "Tracker", href: "/tracker", copy: "Launch gates and future observation windows." },
+] as const;
+const sourcePreview = evidenceManifest.sources.filter((source) => ["google-query-fanout", "rdap", "custom-domain-live", "vercel-preview"].includes(source.id));
 ---
 
-<!doctype html>
-<html lang={site.language}>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="robots" content="noindex, nofollow, noarchive" />
-    <meta name="description" content={site.description} />
-    <title>{site.title} | Project setup</title>
-  </head>
-  <body>
-    <main>
-      <div class="eyebrow">{site.domain} · Project setup</div>
-      <h1>{site.title}</h1>
-      <p class="purpose">{site.purpose}</p>
+<BaseLayout canonicalPath="/" pageClass="home-page">
+  <section class="home-hero">
+    <div class="home-hero-copy">
+      <h1>Observe the answer. Audit the evidence.</h1>
+      <p>A longitudinal research program for measuring source diversity and answer stability across public AI search surfaces—without pretending to see private retrieval traces.</p>
+      <div class="hero-actions"><a class="button" href="/methodology">Read the protocol <ArrowIcon /></a><a class="secondary-action" href="#launch-gates">Inspect launch gates <ArrowIcon /></a></div>
+    </div>
+    <div class="hero-field"><ObservationField /></div>
+  </section>
 
-      <section aria-labelledby="status-heading">
-        <h2 id="status-heading">Current status</h2>
-        <p>{site.status}</p>
-      </section>
+  <section id="launch-gates" class="protocol-band section-pad section-rule" aria-labelledby="protocol-title">
+    <div><span class="section-number">01</span><h2 id="protocol-title" class="section-title">A protocol before a publication</h2><p class="batch-state"><strong>0</strong> / 3 comparable batches</p></div>
+    <ol class="gate-preview">
+      {launchGates.slice(0, 4).map((gate) => <li><span class="gate-state" aria-hidden="true"></span><div><strong>{gate.label}</strong><p>{gate.explanation}</p></div><ArrowIcon size={16} /></li>)}
+    </ol>
+  </section>
 
-      <section aria-labelledby="boundary-heading">
-        <h2 id="boundary-heading">Hard boundary</h2>
-        <p>{site.boundary}</p>
-      </section>
+  <section class="field-index section-pad section-rule" aria-labelledby="field-index-title">
+    <div><span class="section-number">02</span><h2 id="field-index-title" class="section-title">Explore the research system</h2></div>
+    <ol>{pageLinks.map((item) => <li><a href={item.href}><span>{item.number}</span><strong>{item.title}</strong><p>{item.copy}</p><ArrowIcon /></a></li>)}</ol>
+  </section>
 
-      <div class="actions">
-        <a href={site.githubUrl}>View the public source repository</a>
-      </div>
+  <section class="limits-split section-rule" aria-label="Observation boundaries">
+    <div><span class="section-number">03A</span><h2>What we can observe</h2><ul><li>Public assistant answers as shown to users.</li><li>Cited or linked sources included in the response.</li><li>Dates, locale and public surface configuration.</li><li>Our sampling choices, exclusions and costs.</li></ul></div>
+    <div><span class="section-number">03B</span><h2>What we do not observe</h2><ul><li>Hidden queries or system prompts.</li><li>Private retrieval traces or ranking internals.</li><li>Model reasoning or intermediate steps.</li><li>Vendor-internal or other non-public data.</li></ul></div>
+  </section>
 
-      <p class="note">This temporary project page is deliberately excluded from indexing. The custom domain is not connected yet.</p>
-    </main>
-  </body>
-</html>
+  <section class="source-preview section-pad section-rule" aria-labelledby="source-preview-title">
+    <div class="source-heading"><div><span class="section-number">04</span><h2 id="source-preview-title">Source register</h2></div><p>Checked 22 Aug 2026</p></div>
+    <ol class="ruled-list">{sourcePreview.map((source) => <li class="record-row"><span class="record-id">{source.checkedAt}</span><strong class="record-title">{source.title}</strong><p class="record-copy">{source.supports}</p><span class="record-state">{source.status.replaceAll("_", " ")}</span></li>)}</ol>
+    <a class="text-action" href="/transparency">See all sources and rights <ArrowIcon /></a>
+  </section>
 
+  <section class="disclosure-band section-pad"><span class="section-number">05</span><h2>Disclosure</h2><p>Operated by the team behind Contextter. Common ownership is disclosed and never treated as independent corroboration.</p><p class="no-data">No public dataset yet.</p></section>
+</BaseLayout>
 
+<style>
+  .home-hero { display: grid; grid-template-columns: minmax(22rem, 0.8fr) minmax(36rem, 1.2fr); gap: clamp(2.5rem, 5vw, 5.5rem); align-items: center; min-height: calc(100vh - 5.25rem); padding: clamp(3.75rem, 6vw, 6.5rem) var(--gutter); border-bottom: 1px solid var(--rule); }
+  .home-hero-copy h1 { max-width: 8.5ch; margin: 0; font: 800 clamp(4.3rem, 6.4vw, 7.1rem)/0.9 var(--font-display); letter-spacing: -0.075em; text-wrap: balance; }
+  .home-hero-copy > p { max-width: 39ch; margin: 2rem 0 0; color: #b8c1c5; font-size: clamp(1rem, 1.35vw, 1.18rem); line-height: 1.65; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: 2.6rem; }
+  .secondary-action { display: inline-flex; min-height: 3.15rem; align-items: center; justify-content: center; gap: 0.75rem; padding: 0.95rem 1.25rem; border: 1px solid var(--rule); font-size: 0.8rem; font-weight: 650; text-decoration: none; transition: border-color 180ms ease, background-color 180ms ease, transform 180ms var(--ease-out); }
+  .secondary-action:hover { border-color: var(--source); background: var(--source-soft); transform: translateY(-2px); }
+  .hero-field { min-width: 0; }
+  .protocol-band, .field-index { display: grid; grid-template-columns: minmax(19rem, 0.7fr) minmax(0, 1.3fr); gap: clamp(2.5rem, 7vw, 8rem); }
+  .batch-state { margin: 2rem 0 0; color: var(--muted); font-size: 0.82rem; }
+  .batch-state strong { color: var(--source); font: 700 1.15rem/1 var(--font-mono); }
+  .gate-preview { margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }
+  .gate-preview li { display: grid; grid-template-columns: 1.25rem minmax(0, 1fr) 1rem; gap: 1rem; align-items: start; padding: 1.15rem 0.5rem; border-bottom: 1px solid var(--fine-rule); transition: background-color 180ms ease, transform 180ms var(--ease-out); }
+  .gate-preview li:hover { transform: translateX(0.25rem); }
+  .gate-state { width: 0.85rem; height: 0.85rem; margin-top: 0.1rem; border: 1px solid var(--signal); border-radius: 50%; }
+  .gate-preview strong { display: block; font-size: 0.88rem; }
+  .gate-preview p { margin: 0.45rem 0 0; color: var(--muted); font-size: 0.74rem; line-height: 1.55; }
+  .gate-preview svg { margin-top: 0.1rem; color: var(--muted); }
+  .field-index ol { margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }
+  .field-index li { border-bottom: 1px solid var(--fine-rule); }
+  .field-index a { display: grid; grid-template-columns: 3rem minmax(8rem, 0.42fr) minmax(0, 1fr) 2rem; gap: 1.25rem; align-items: center; min-height: 5rem; padding-inline: 0.5rem; text-decoration: none; transition: background-color 180ms ease, transform 180ms var(--ease-out); }
+  .field-index a:hover { transform: translateX(0.3rem); }
+  .field-index a > span { color: var(--source); font: 0.72rem/1 var(--font-mono); }
+  .field-index a > strong { font-size: 0.9rem; }
+  .field-index a > p { margin: 0; color: var(--muted); font-size: 0.86rem; }
+  .field-index a:hover svg { color: var(--source); transform: translateX(0.25rem); }
+  .field-index svg { transition: transform 180ms var(--ease-out); }
+  .limits-split { display: grid; grid-template-columns: 1fr 1fr; }
+  .limits-split > div { padding: clamp(4rem, 7vw, 7rem) var(--gutter); }
+  .limits-split > div + div { border-left: 1px solid var(--source); }
+  .limits-split h2 { max-width: 12ch; margin: 0 0 2.3rem; font: 720 clamp(2.5rem, 4.6vw, 4.7rem)/0.98 var(--font-display); letter-spacing: -0.055em; }
+  .limits-split ul { display: grid; gap: 0; max-width: 44rem; margin: 0; padding: 0; border-top: 1px solid var(--fine-rule); list-style: none; }
+  .limits-split li { position: relative; padding: 1rem 0 1rem 1.65rem; border-bottom: 1px solid var(--fine-rule); color: #c4cccf; font-size: 0.84rem; line-height: 1.55; }
+  .limits-split li::before { position: absolute; left: 0; color: var(--source); content: "✓"; }
+  .limits-split > div + div li::before { color: var(--signal); content: "×"; }
+  .source-heading { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2rem; }
+  .source-heading h2, .disclosure-band h2 { margin: 0; font: 700 clamp(2.3rem, 4vw, 4rem)/1 var(--font-display); letter-spacing: -0.05em; }
+  .source-heading p { color: var(--muted); font: 0.68rem/1.4 var(--font-mono); text-transform: uppercase; }
+  .source-preview > .text-action { margin-top: 1.5rem; }
+  .disclosure-band { display: grid; grid-template-columns: 3rem 0.45fr 1fr auto; gap: clamp(1.5rem, 4vw, 4rem); align-items: center; }
+  .disclosure-band .section-number { margin: 0; }
+  .disclosure-band .section-number::after { display: none; }
+  .disclosure-band p { max-width: 48ch; margin: 0; color: var(--muted); font-size: 0.85rem; line-height: 1.6; }
+  .disclosure-band .no-data { padding-left: 1.5rem; border-left: 1px solid var(--source); color: var(--ink); font: 0.72rem/1.4 var(--font-mono); text-transform: uppercase; }
+  @media (max-width: 1120px) { .home-hero { grid-template-columns: 1fr; min-height: auto; } .home-hero-copy { max-width: 50rem; } .hero-field { max-width: 60rem; } }
+  @media (max-width: 780px) {
+    .home-hero { display: block; padding-block: 3.75rem 1.5rem; }
+    .home-hero-copy h1 { max-width: 9ch; font-size: clamp(3.8rem, 15vw, 5.7rem); }
+    .hero-actions { display: grid; }
+    .hero-actions > * { width: 100%; min-height: 3.7rem; }
+    .hero-field { margin-top: 3rem; }
+    .protocol-band, .field-index { grid-template-columns: 1fr; }
+    .field-index a { grid-template-columns: 2.5rem minmax(0, 1fr) 1.5rem; padding-block: 1rem; }
+    .field-index a > p { grid-column: 2; }
+    .field-index a > svg { grid-column: 3; grid-row: 1 / span 2; }
+    .limits-split { grid-template-columns: 1fr; }
+    .limits-split > div + div { border-top: 1px solid var(--source); border-left: 0; }
+    .source-heading { align-items: start; flex-direction: column; }
+    .source-preview .record-row { grid-template-columns: 1fr; gap: 0.55rem; }
+    .source-preview .record-copy, .source-preview .record-state { grid-column: 1; }
+    .disclosure-band { grid-template-columns: 1fr; }
+    .disclosure-band .no-data { padding: 1rem 0 0; border-top: 1px solid var(--source); border-left: 0; }
+  }
+</style>

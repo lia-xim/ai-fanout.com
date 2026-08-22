@@ -1,0 +1,63 @@
+---
+import ArrowIcon from "../components/ArrowIcon.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { observationSchema } from "../data/research";
+---
+
+<BaseLayout title="Datasets" canonicalPath="/datasets" description="The ai-fanout.com observation data dictionary and truthful dataset availability state.">
+  <header class="page-head">
+    <h1>Datasets</h1>
+    <div class="page-head-copy">
+      <p>The schema is public before the data. No observation release exists, and no download is implied.</p>
+      <p class="meta-line">Release state · none · license not assigned</p>
+    </div>
+  </header>
+
+  <section class="section-pad section-rule" aria-labelledby="availability-title">
+    <span class="section-number">01</span>
+    <div class="empty-state">
+      <strong id="availability-title">No public release.</strong>
+      <div><p>Collection has not started. A release requires three comparable batches, a rights review, an inspectable denominator and explicit launch approval.</p><span class="unavailable" aria-disabled="true">Downloads unavailable</span></div>
+    </div>
+  </section>
+
+  <section class="section-pad section-rule" aria-labelledby="dictionary-title">
+    <span class="section-number">02</span>
+    <h2 id="dictionary-title" class="section-title">Observation dictionary</h2>
+    <p class="section-lede">Labels only. Fields do not contain example results, providers, sources or scores.</p>
+    <table class="data-table schema-table">
+      <thead><tr><th scope="col">Field</th><th scope="col">Purpose</th><th scope="col">Required rule</th></tr></thead>
+      <tbody>
+        {observationSchema.map(([field, purpose]) => (
+          <tr><th scope="row"><code>{field}</code></th><td>{purpose}</td><td>{field === "missing_reason" ? "Required when expected evidence is absent" : "Defined before collection"}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="release-contract section-pad section-rule" aria-labelledby="release-title">
+    <div><span class="section-number">03</span><h2 id="release-title" class="section-title">Release contract</h2></div>
+    <dl>
+      <div><dt>Provenance</dt><dd>Protocol version, timestamps, public surface, locale and collection route accompany every record.</dd></div>
+      <div><dt>Missingness</dt><dd>Unavailable answers or sources remain explicit; they are not silently dropped from denominators.</dd></div>
+      <div><dt>Rights</dt><dd>Provider terms and applicable rights decide whether raw text, hashes, excerpts or only aggregates may ship.</dd></div>
+      <div><dt>Corrections</dt><dd>Every release is versioned and can be superseded without erasing the original record.</dd></div>
+    </dl>
+  </section>
+
+  <section class="section-pad handoff"><p>Need the rules behind these fields?</p><a class="text-action" href="/methodology">Read methodology v0.1 <ArrowIcon /></a></section>
+</BaseLayout>
+
+<style>
+  .unavailable { display: inline-flex; min-height: 2.8rem; align-items: center; margin-top: 1.5rem; padding-inline: 1rem; border: 1px solid var(--rule); color: var(--muted); font: 0.72rem/1 var(--font-mono); text-transform: uppercase; }
+  .schema-table { margin-top: 3rem; }
+  .schema-table tbody th { text-align: left; font-weight: 400; }
+  .release-contract { display: grid; grid-template-columns: 0.65fr 1.35fr; gap: clamp(2rem, 7vw, 8rem); }
+  .release-contract dl { margin: 0; border-top: 1px solid var(--rule); }
+  .release-contract dl > div { display: grid; grid-template-columns: 8rem 1fr; gap: 1rem; padding-block: 1.2rem; border-bottom: 1px solid var(--fine-rule); }
+  .release-contract dt { color: var(--signal); font: 0.72rem/1.5 var(--font-mono); text-transform: uppercase; }
+  .release-contract dd { margin: 0; line-height: 1.55; }
+  .handoff { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+  .handoff p { margin: 0; font: 400 clamp(1.8rem, 4vw, 3.8rem)/1 var(--font-display); }
+  @media (max-width: 760px) { .release-contract { grid-template-columns: 1fr; } .handoff { align-items: flex-start; flex-direction: column; } }
+</style>

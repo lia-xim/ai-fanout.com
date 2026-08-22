@@ -1,0 +1,99 @@
+<section class="observation-field" data-observation-field aria-labelledby="observation-field-title">
+  <div class="field-head">
+    <h2 id="observation-field-title">Observation Field</h2>
+    <div class="field-tabs" role="tablist" aria-label="Observation field views">
+      <button id="protocol-tab" type="button" role="tab" aria-selected="true" aria-controls="protocol-panel" tabindex="0">Protocol view</button>
+      <button id="limits-tab" type="button" role="tab" aria-selected="false" aria-controls="limits-panel" tabindex="-1">Limits view</button>
+    </div>
+  </div>
+
+  <div id="protocol-panel" class="field-panel protocol-panel" role="tabpanel" aria-labelledby="protocol-tab">
+    <ol class="protocol-route">
+      <li><span class="step">01</span><div><strong>Public user question</strong><small>Visible to any user</small></div></li>
+      <li><span class="step">02</span><div><strong>Public surface</strong><small>Declared surface and configuration</small></div></li>
+      <li><span class="step">03</span><div><strong>Response</strong><small>Captured as presented, when permitted</small></div></li>
+      <li><span class="step">04</span><div><strong>Visible source set</strong><small>Only cited or linked sources</small></div></li>
+      <li><span class="step">05</span><div><strong>Repeat</strong><small>Same protocol across time and routes</small></div></li>
+    </ol>
+  </div>
+
+  <div id="limits-panel" class="field-panel limits-panel" role="tabpanel" aria-labelledby="limits-tab" hidden>
+    <div><h3>Observable</h3><ul><li>Public answers shown to users</li><li>Visible cited or linked sources</li><li>Dates, locale and public surface configuration</li><li>Our sampling choices, exclusions and costs</li></ul></div>
+    <div><h3>Not observed</h3><ul><li>Hidden queries or system prompts</li><li>Private retrieval traces or ranking internals</li><li>Model reasoning or intermediate steps</li><li>Vendor-internal or other non-public data</li></ul></div>
+  </div>
+
+  <div class="field-foot"><span>Protocol diagram — not results</span><span>rev. 0.1</span></div>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLElement>("[data-observation-field]").forEach((field) => {
+    const tabs = Array.from(field.querySelectorAll<HTMLButtonElement>("[role='tab']"));
+    const activate = (nextTab: HTMLButtonElement) => {
+      tabs.forEach((tab) => {
+        const selected = tab === nextTab;
+        tab.setAttribute("aria-selected", String(selected));
+        tab.tabIndex = selected ? 0 : -1;
+        const panelId = tab.getAttribute("aria-controls");
+        const panel = panelId ? field.querySelector<HTMLElement>(`#${panelId}`) : null;
+        if (panel) panel.hidden = !selected;
+      });
+    };
+    tabs.forEach((tab, index) => {
+      tab.addEventListener("click", () => activate(tab));
+      tab.addEventListener("keydown", (event) => {
+        if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+        event.preventDefault();
+        const offset = event.key === "ArrowRight" ? 1 : -1;
+        const next = tabs[(index + offset + tabs.length) % tabs.length];
+        activate(next);
+        next.focus();
+      });
+    });
+  });
+</script>
+
+<style>
+  .observation-field { position: relative; overflow: hidden; border: 1px solid var(--rule); background: linear-gradient(145deg, rgba(255,255,255,0.02), transparent 42%); color: var(--ink); }
+  .field-head, .field-foot { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 1.25rem; }
+  .field-head { border-bottom: 1px solid var(--fine-rule); }
+  .field-foot { border-top: 1px solid var(--fine-rule); color: var(--muted); font-size: 0.68rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  .field-head h2 { margin: 0; font-size: 1rem; font-weight: 650; letter-spacing: -0.02em; }
+  .field-tabs { display: flex; }
+  .field-tabs button { min-height: 2.75rem; padding: 0.55rem 1rem; border: 0; border-left: 1px solid var(--fine-rule); background: transparent; color: var(--muted); font-size: 0.73rem; font-weight: 580; cursor: pointer; transition: background-color 180ms ease, color 180ms ease; }
+  .field-tabs button[aria-selected="true"] { background: var(--source-soft); color: var(--source); box-shadow: inset 0 -1px var(--source); }
+  .field-panel { min-height: 28rem; }
+  .field-panel[hidden] { display: none; }
+  .protocol-panel { display: grid; align-items: center; padding: clamp(2rem, 4vw, 4rem) clamp(1.2rem, 3vw, 2.5rem); }
+  .protocol-route { position: relative; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; margin: 0; padding: 0; list-style: none; }
+  .protocol-route::before { position: absolute; z-index: 0; top: 2.1rem; right: 8%; left: 8%; height: 1px; background: var(--source); content: ""; box-shadow: 0 0 0.85rem rgba(39,199,244,0.18); }
+  .protocol-route li { position: relative; z-index: 1; display: grid; justify-items: center; min-width: 0; text-align: center; }
+  .step { display: grid; width: 4.2rem; height: 4.2rem; place-items: center; border: 1px solid var(--source); border-radius: 50%; background: var(--paper); color: var(--source); font: 0.74rem/1 var(--font-mono); transition: background-color 180ms ease, color 180ms ease, transform 180ms var(--ease-out); }
+  .protocol-route li:hover .step { background: var(--source); color: #041014; transform: translateY(-3px); }
+  .protocol-route strong { display: block; max-width: 10rem; margin-top: 1.35rem; font-size: 0.82rem; line-height: 1.3; }
+  .protocol-route small { display: block; max-width: 9rem; margin-top: 0.45rem; color: var(--muted); font-size: 0.68rem; line-height: 1.45; }
+  .limits-panel { display: grid; grid-template-columns: 1fr 1fr; padding: 0; }
+  .limits-panel > div { padding: clamp(2rem, 4vw, 3.5rem); }
+  .limits-panel > div + div { border-left: 1px solid var(--source); }
+  .limits-panel h3 { margin: 0 0 1.75rem; font-size: clamp(1.8rem, 3vw, 2.8rem); letter-spacing: -0.04em; }
+  .limits-panel ul { display: grid; gap: 1rem; margin: 0; padding: 0; list-style: none; }
+  .limits-panel li { position: relative; padding: 0 0 1rem 1.45rem; border-bottom: 1px solid var(--fine-rule); color: #c2cbce; font-size: 0.8rem; line-height: 1.5; }
+  .limits-panel li::before { position: absolute; left: 0; color: var(--source); content: "+"; }
+  .limits-panel > div + div li::before { color: var(--signal); content: "×"; }
+  @media (max-width: 760px) {
+    .field-head { align-items: stretch; flex-direction: column; }
+    .field-tabs { border-top: 1px solid var(--fine-rule); }
+    .field-tabs button { flex: 1; border-left: 0; }
+    .field-tabs button + button { border-left: 1px solid var(--fine-rule); }
+    .field-panel { min-height: 0; }
+    .protocol-panel { padding: 1.5rem 1rem 2rem; }
+    .protocol-route { grid-template-columns: 1fr; gap: 0; padding-left: 2.6rem; }
+    .protocol-route::before { top: 1.55rem; bottom: 1.55rem; left: 1.55rem; width: 1px; height: auto; }
+    .protocol-route li { grid-template-columns: 3.1rem 1fr; min-height: 5.65rem; align-items: center; justify-items: start; text-align: left; }
+    .step { position: absolute; left: -2.6rem; width: 3.1rem; height: 3.1rem; }
+    .protocol-route strong, .protocol-route small { max-width: none; margin-top: 0; }
+    .protocol-route small { margin-top: 0.35rem; }
+    .limits-panel { grid-template-columns: 1fr; }
+    .limits-panel > div + div { border-top: 1px solid var(--source); border-left: 0; }
+    .field-foot { align-items: flex-start; flex-direction: column; }
+  }
+</style>

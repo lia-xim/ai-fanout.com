@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "2026-08-22.1",
+  "domain": "ai-fanout.com",
+  "reviewedAt": "2026-08-22",
+  "evidenceSummary": "Fresh 2026 registration according to RDAP. No successful historical HTML URL was observed in the current bounded evidence, and the latest Wayback CDX request timed out. No paid backlink target sample was executed.",
+  "defaultAction": "404",
+  "catchAllRedirect": false,
+  "indexState": "noindex_200",
+  "records": [],
+  "notes": [
+    "There is no accepted legacy URL cohort to restore, redirect or retire with 410.",
+    "Unknown paths must return a real 404 and must not redirect to the homepage.",
+    "Add a complete URL-level record before changing any historical path response."
+  ]
+}
