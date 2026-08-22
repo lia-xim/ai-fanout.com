@@ -1,6 +1,7 @@
 ---
 import ArrowIcon from "../components/ArrowIcon.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { governance } from "../data/research";
 import { site } from "../data/site";
 import evidenceManifest from "../../manifests/rights-and-sources.v1.json";
 import routeManifest from "../../manifests/route-actions.v1.json";
@@ -22,7 +23,7 @@ const publicLocation = (location: string) => location.startsWith("https://") ? l
     <div>
       <p>{site.ownershipDisclosure}</p>
       <p><a href="https://contextter.com/" rel="external nofollow">Contextter</a> may consume future research in a real workflow, but shared ownership never turns this site into independent market validation. The research design must remain useful if every Contextter link is removed.</p>
-      <p>ai-fanout.com was newly registered by Matthias Ramahi for this project. The site and route system were created for the current Evidence Lab.</p>
+      <p>ai-fanout.com was newly registered by Matthias Ramahi for this project. Matthias is the operator and Research Owner: he versions protocols, records corrections and their comparability effects, and keeps reviewer status and cost boundaries explicit.</p><p>{governance.reviewerStatus} {governance.currentProviderApiBudget}</p>
     </div>
   </section>
 
@@ -53,8 +54,8 @@ const publicLocation = (location: string) => location.startsWith("https://") ? l
     <div><span class="section-number">04</span><h2 id="routes-title" class="section-title">Current route policy</h2></div>
     <div>
       <p>This is a fresh registration. The route manifest describes only the current product and normal unknown-path handling.</p>
-      <dl><div><dt>Canonical routes</dt><dd>{routeManifest.canonicalRoutes.length}</dd></div><div><dt>Unknown paths</dt><dd>{routeManifest.defaultUnknownPathAction}</dd></div><div><dt>Catch-all redirect</dt><dd>{routeManifest.catchAllRedirect ? "Enabled" : "Disabled"}</dd></div></dl>
-      <p>The public preview is crawlable through robots.txt while every page and response remains noindex. Unknown routes return a real 404.</p>
+      <dl><div><dt>Sitemap source</dt><dd>{routeManifest.sitemapMode.replaceAll("_", " ")}</dd></div><div><dt>Excluded routes</dt><dd>{routeManifest.excludedFromSitemap.join(", ")}</dd></div><div><dt>Unknown paths</dt><dd>{routeManifest.defaultUnknownPathAction}</dd></div><div><dt>Catch-all redirect</dt><dd>{routeManifest.catchAllRedirect ? "Enabled" : "Disabled"}</dd></div></dl>
+      <p>Canonical public 200 pages are indexable and discovered through an automatically generated sitemap. The operational tracker remains noindex, and unknown routes return a real 404.</p>
     </div>
   </section>
 

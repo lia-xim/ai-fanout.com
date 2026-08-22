@@ -1,7 +1,6 @@
 ---
 import ArrowIcon from "../components/ArrowIcon.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { launchGates } from "../data/research";
 
 const references = [
   { code: "M-01", href: "/library/source-diversity", title: "Source diversity", copy: "Count visible source domains with an explicit denominator." },
@@ -70,8 +69,8 @@ const demoRows = [
   </section>
 
   <section class="research-gate section-pad">
-    <div><p class="hero-eyebrow">Research observatory · still gated</p><h2>Useful tools now. Public benchmarks only after proof.</h2><p>No collection has started, no public dataset exists and {launchGates.filter((gate) => gate.state !== "open").length === 0 ? "every publication gate remains open" : "publication gates remain"}. The tools do not turn a draft protocol into a research finding.</p></div>
-    <div><p><strong>0</strong><span>of 3 comparable batches</span></p><a class="secondary-action" href="/tracker">Inspect launch status <ArrowIcon /></a></div>
+    <div><p class="hero-eyebrow">Public tools · research claims gated</p><h2>Useful tools now. Provider benchmarks only after proof.</h2><p>The website is indexable, but no provider collection has started and no public provider dataset exists. The tools and synthetic example do not turn a draft protocol into a research finding.</p></div>
+    <div><p><strong>0</strong><span>of 3 comparable batches</span></p><a class="secondary-action" href="/tracker">Inspect research status <ArrowIcon /></a></div>
   </section>
 </BaseLayout>
 

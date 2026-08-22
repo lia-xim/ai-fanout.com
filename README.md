@@ -1,71 +1,42 @@
 # ai-fanout.com
 
-Public source repository for the `ai-fanout.com` AI Answer Evidence Lab and gated research observatory.
+Public source repository for the indexable ai-fanout.com AI Answer Evidence Lab and its separately gated research program.
 
 ## Current state
 
-Implemented noindex evidence workbench with 24 canonical content routes: a browser-local Evidence Lab, a protocol builder, legal and privacy pages, the core research, dataset, methodology, tracker and transparency surfaces, plus a curated 13-page research library.
+The public site contains two browser-local tools, a 13-page research library, legal and transparency pages, and a dated reproducible synthetic example. Canonical public 200 pages are indexable. The operational /tracker and the 404 response remain noindex.
 
-The production deployment is available on the Vercel project alias and the custom domain. No public observation dataset or trend claim exists, and every route remains noindex. The public preview is crawlable so crawlers can see the noindex directive.
+No provider benchmark dataset or trend finding exists.
 
-## Standalone purpose
+## Purpose and hard boundary
 
-Help people compare observable AI answers and visible citations in their own browser, export the evidence, and build a repeatable protocol before making a trend or optimization claim.
+The site helps people compare user-supplied observable AI answers and visible citations in their own browser, export the evidence, and define a protocol before making a trend or optimization claim.
 
-## Hard boundary
+It does not access hidden queries, private retrieval traces, ranking internals or model reasoning. Browser-local inputs are not transmitted, stored or published by ai-fanout.com. Third-party screenshots, copied text, saved model outputs and future site-run research require verified provenance and applicable rights.
 
-The project observes public outputs and visible sources. It does not claim access to hidden queries, private retrieval traces, ranking internals or model reasoning. Every route stays `noindex, nofollow, noarchive` until explicit launch approval and verified production evidence.
+Matthias Ramahi is the operator and Research Owner. He owns protocol versioning, corrections and explicit reviewer/cost status. No independent reviewer is currently assigned. Current provider/API collection budget is EUR 0 because the public tools make no provider calls.
 
-Primary portfolio relationship: `Contextter (accepted)`. Common ownership is disclosed and never treated as independent corroboration.
+Common ownership with Contextter is disclosed and never treated as independent corroboration.
 
 ## Content system
 
-- `/lab` accepts one to five user-supplied public-answer observations and calculates transparent source, coverage, stability and comparability measures locally in browser memory.
-- `/protocol-builder` creates a versioned, exportable observation plan without storing or transmitting the inputs.
-- `/impressum` identifies Matthias Ramahi as the operator.
-- `/datenschutz` documents the actual hosting, local processing, export, analytics, font, form and storage behavior.
-- `src/data/library.ts` is the typed source for all maintained library references.
-- `/library` is the parent hub and category filter.
-- `/library/[slug]` builds one page per accepted, distinct user job.
-- Every reference includes a direct answer, primary intent, evidence state, review date, substantive sections, source IDs and related next steps.
-- `manifests/rights-and-sources.v1.json` controls source provenance and unresolved publication rights.
-- `manifests/route-actions.v1.json` records the current canonical routes and real-404 policy.
-- The site does not create pages for mere query or fan-out variations.
+- /lab analyzes one to five user-supplied observations in browser memory and exports JSON or CSV after an explicit action.
+- /protocol-builder creates a local, exportable draft protocol.
+- /protocols/example-2026-08-22 documents exact synthetic inputs, calculations, results and limitations.
+- /library and /library/[slug] form the maintained reference system.
+- /methodology, /research, /datasets and /tracker separate method, planned studies, releases and operational gates.
+- /transparency, /impressum and /datenschutz document ownership, sources, rights and actual data behavior.
+- manifests/rights-and-sources.v1.json records evidence and rights boundaries.
+- manifests/route-actions.v1.json records automatic sitemap, exclusions, redirect and 404 policy.
 
-## Local development
+## Local development and verification
 
-```bash
-corepack pnpm install
-corepack pnpm dev
-```
+Run corepack pnpm install, corepack pnpm dev and corepack pnpm verify.
 
-Production verification:
+Rendered QA against a running preview or production URL uses PREVIEW_URL and node scripts/browser-qa.mjs.
 
-```bash
-corepack pnpm verify
-```
+The build creates /sitemap-index.xml and its generated child sitemap from Astro's static route graph. /sitemap.xml is a permanent compatibility redirect in Vercel. robots.txt allows crawling and references the sitemap index. Sitemap membership is not maintained as a parallel hand-written page list.
 
-The suite validates all 24 canonical routes, the two tool contracts, unique titles and descriptions, substantive library depth, structured data, legal/privacy assertions, route status, canonicals, crawlable robots, empty noindex sitemap, broken links, evidence manifests, accessibility-critical markup and forbidden claims.
+## Rights and license
 
-Rendered browser QA uses local Chrome after a production preview is running:
-
-```powershell
-$env:PREVIEW_URL = "http://127.0.0.1:4322"
-node .\scripts\browser-qa.mjs
-```
-
-It verifies the Evidence Lab sample analysis, recurrence matrix, Protocol Builder output, library filter, mobile menu, desktop and mobile overflow, and Console/Runtime problems without adding a browser automation dependency.
-
-## Deployment
-
-Vercel project: `ai-fanout-com`.
-
-Every page carries a robots meta directive and the deployment adds a global `X-Robots-Tag`. `robots.txt` allows crawling so public crawlers can receive those noindex directives. Removing noindex and publishing an indexable sitemap remain separate, explicitly gated operations. No deployment or DNS change is performed by the local build workflow.
-
-## Rights and privacy
-
-Current code and copy are owner-created. External documentation and standards are linked and narrowly paraphrased. Third-party screenshots, copied text, stored model outputs, and future site-run observation data require verified provenance and applicable rights before publication.
-
-Lab and Protocol Builder inputs remain in browser memory. They are not transmitted by ai-fanout.com, are not stored in cookies or browser storage, and are included in local export files only after an explicit user action.
-
-This public repository grants no open-source license unless a later commit adds one explicitly.
+Current code and copy are owner-created. External documentation and standards are linked and narrowly paraphrased. This repository grants no open-source license unless a later commit adds one explicitly.

@@ -133,6 +133,7 @@ try {
     overflow: document.documentElement.scrollWidth > innerWidth,
     h1: document.querySelector('h1')?.textContent?.trim(),
     demoRows: document.querySelectorAll('.signal-grid .signal-row:not(.signal-head)').length,
+    robots: document.querySelector('meta[name="robots"]')?.content ?? null,
     primaryAction: document.querySelector('.hero-actions .button')?.getAttribute('href')
   }))()`);
   await screenshot(session, "home-desktop");
@@ -147,6 +148,7 @@ try {
       scrollWidth: document.documentElement.scrollWidth,
       overflow: document.documentElement.scrollWidth > innerWidth,
       h1: document.querySelector('h1')?.textContent?.trim(),
+      robots: document.querySelector('meta[name="robots"]')?.content ?? null,
       observations: document.querySelectorAll('[data-observation-stack] [data-observation]').length,
       resultsVisible: !document.querySelector('[data-lab-results]')?.hidden,
       observationMetric: metric('observations'),
@@ -189,6 +191,7 @@ try {
       scrollWidth: document.documentElement.scrollWidth,
       overflow: document.documentElement.scrollWidth > innerWidth,
       h1: document.querySelector('h1')?.textContent?.trim(),
+      robots: document.querySelector('meta[name="robots"]')?.content ?? null,
       menuOpen: document.querySelector('.mobile-nav')?.hasAttribute('open'),
       resultsVisible: !document.querySelector('[data-protocol-result]')?.hidden,
       readinessSignals: readiness.length,
@@ -203,6 +206,7 @@ try {
 
   const failed = [];
   if (results.home.overflow || results.lab.overflow || results.protocol.overflow) failed.push("horizontal overflow detected");
+  if (results.home.robots !== null || results.lab.robots !== null || results.protocol.robots !== null) failed.push("global meta noindex still present");
   if (results.home.h1 !== "Map what stays. Mark what changes." || results.home.demoRows !== 4 || results.home.primaryAction !== "/lab") failed.push("homepage composition failed");
   if (results.lab.h1 !== "Compare what the answers show." || results.lab.observations !== 3 || !results.lab.resultsVisible) failed.push("lab demo interaction failed");
   if (results.lab.observationMetric !== "3" || results.lab.domainMetric !== "3" || results.lab.recurringMetric !== "2 / 3" || results.lab.coverageMetric !== "12 / 12") failed.push("lab measure contract failed");
@@ -217,5 +221,5 @@ try {
   session.close();
   chrome.kill();
   await delay(200);
-  await rm(profile, { recursive: true, force: true });
+  await rm(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 200 });
 }

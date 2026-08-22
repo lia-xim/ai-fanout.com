@@ -10,10 +10,11 @@ interface Props {
   description?: string;
   canonicalPath?: string;
   pageClass?: string;
+  robots?: string;
   structuredData?: Record<string, unknown>;
 }
 
-const { title, description = site.description, canonicalPath, pageClass = "", structuredData } = Astro.props;
+const { title, description = site.description, canonicalPath, pageClass = "", robots, structuredData } = Astro.props;
 const pageTitle = title ? `${title} — ${site.domain}` : site.title;
 const canonical = canonicalPath === undefined ? undefined : new URL(canonicalPath, `${site.url}/`).toString();
 const currentPath = Astro.url.pathname;
@@ -26,7 +27,7 @@ const favicon = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content={site.indexing.directive} />
+    {robots && <meta name="robots" content={robots} />}
     <meta name="description" content={description} />
     <meta name="theme-color" content="#080b0d" />
     <link rel="icon" href={favicon} />

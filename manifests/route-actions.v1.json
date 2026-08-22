@@ -1,42 +1,29 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-22.1",
+  "manifestVersion": "2026-08-22.2",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-08-22",
   "domainOrigin": "fresh_registration",
   "defaultUnknownPathAction": "404",
   "catchAllRedirect": false,
-  "indexState": "noindex_200",
-  "canonicalRoutes": [
-    "/",
-    "/lab",
-    "/protocol-builder",
-    "/research",
-    "/library",
-    "/library/query-fan-out",
-    "/library/observable-ai-answer-evidence",
-    "/library/source-diversity",
-    "/library/answer-stability",
-    "/library/citation-persistence",
-    "/library/sampling-ai-answers",
-    "/library/control-question-set",
-    "/library/comparability-breaks",
-    "/library/missing-data-ai-observations",
-    "/library/observation-schema",
-    "/library/reproducibility-package",
-    "/library/audit-ai-answer-sources",
-    "/library/compare-ai-answers-over-time",
-    "/datasets",
-    "/methodology",
-    "/tracker",
-    "/transparency",
-    "/impressum",
-    "/datenschutz"
+  "indexState": "indexable_launch",
+  "sitemapMode": "astro_static_route_generation",
+  "sitemapPath": "/sitemap-index.xml",
+  "excludedFromSitemap": [
+    "/404",
+    "/tracker"
+  ],
+  "legacyCompatibilityRedirects": [
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
+      "status": 308
+    }
   ],
   "notes": [
     "ai-fanout.com was newly registered by Matthias Ramahi for this project.",
-    "The manifest covers only the routes implemented for the current product.",
-    "Unknown paths return a real 404 and are not redirected to the homepage.",
-    "The public preview is crawlable while page and response directives keep every route noindex."
+    "The sitemap is generated from Astro's static route graph rather than a manually maintained URL list.",
+    "Only canonical indexable 200 pages are emitted; the noindex tracker and 404 route are excluded.",
+    "Unknown paths return a real 404 and are not redirected to the homepage."
   ]
 }

@@ -1,0 +1,81 @@
+{
+  "schema_version": "0.1",
+  "method_version": "0.1",
+  "example_id": "AF-EX-2026-08-22",
+  "generated_at": "2026-08-22T12:00:00.000Z",
+  "question": "What should a small team record before comparing public AI answers over time?",
+  "criteria": [
+    "observation timestamp",
+    "public surface",
+    "visible source URLs",
+    "missing data rule"
+  ],
+  "observations": [
+    {
+      "label": "Demo A",
+      "surface": "Synthetic surface A",
+      "model": "Synthetic version A",
+      "locale": "en-US",
+      "observedAt": "2026-08-01T09:00",
+      "route": "Synthetic route A",
+      "answer": "Record an observation timestamp, the public surface, locale and visible source URLs. Keep a missing data rule beside the record.",
+      "sources": [
+        { "raw": "https://method.example/observation", "host": "method.example" },
+        { "raw": "https://schema.example/evidence", "host": "schema.example" }
+      ],
+      "invalidSources": []
+    },
+    {
+      "label": "Demo B",
+      "surface": "Synthetic surface B",
+      "model": "Synthetic version B",
+      "locale": "en-US",
+      "observedAt": "2026-08-08T09:00",
+      "route": "Synthetic route B",
+      "answer": "A repeatable record needs an observation timestamp, public surface, question and visible source URLs. State a missing data rule before comparison.",
+      "sources": [
+        { "raw": "https://method.example/observation", "host": "method.example" },
+        { "raw": "https://rights.example/retention", "host": "rights.example" }
+      ],
+      "invalidSources": []
+    },
+    {
+      "label": "Demo C",
+      "surface": "Synthetic surface C",
+      "model": "Synthetic version C",
+      "locale": "en-US",
+      "observedAt": "2026-08-15T09:00",
+      "route": "Synthetic route C",
+      "answer": "Record the public surface, locale, question, observation timestamp and any missing data rule. Preserve visible source URLs when retention is allowed.",
+      "sources": [
+        { "raw": "https://method.example/observation", "host": "method.example" },
+        { "raw": "https://schema.example/evidence", "host": "schema.example" }
+      ],
+      "invalidSources": []
+    }
+  ],
+  "metrics": {
+    "unique_source_domains": 3,
+    "recurring_source_domains": 2,
+    "mean_answer_token_jaccard": 0.6152046783625731,
+    "literal_coverage_matches": 12,
+    "literal_coverage_cells": 12
+  },
+  "source_presence": {
+    "method.example": [true, true, true],
+    "rights.example": [false, true, false],
+    "schema.example": [true, false, true]
+  },
+  "criterion_presence": {
+    "observation timestamp": [true, true, true],
+    "public surface": [true, true, true],
+    "visible source URLs": [true, true, true],
+    "missing data rule": [true, true, true]
+  },
+  "comparability_notes": [
+    "The three surface, version and route labels are deliberately synthetic and different.",
+    "Source presence measures recurrence only; it does not rate source quality, support, authorship or independence.",
+    "This fixture validates the calculation workflow and is not an independent provider benchmark."
+  ],
+  "boundary": "Synthetic owner-created inputs only. No provider output was collected, stored or published; no hidden queries, retrieval traces, ranking internals or model reasoning are represented."
+}

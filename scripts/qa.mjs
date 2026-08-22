@@ -14,7 +14,7 @@ const slugs = [
 ];
 const libraryRoutes = slugs.map((slug) => `/library/${slug}`);
 const toolRoutes = ["/lab", "/protocol-builder"];
-const routes = ["/", ...toolRoutes, "/research", "/library", ...libraryRoutes, "/datasets", "/methodology", "/tracker", "/transparency", "/impressum", "/datenschutz"];
+const routes = ["/", ...toolRoutes, "/research", "/library", ...libraryRoutes, "/datasets", "/methodology", "/protocols/example-2026-08-22", "/tracker", "/transparency", "/impressum", "/datenschutz"];
 const failures = [];
 const check = (condition, message) => { if (!condition) failures.push(message); };
 const pageFile = (route) => route === "/" ? join(dist, "index.html") : join(dist, route.slice(1), "index.html");
@@ -33,7 +33,7 @@ for (const route of routes) {
     htmlByRoute.set(route, html);
     const canonical = route === "/" ? `${host}/` : `${host}${route}`;
     check(html.includes(`rel="canonical" href="${canonical}"`), `${route}: canonical must be ${canonical}`);
-    check(html.includes('content="noindex, nofollow, noarchive"'), `${route}: noindex missing`);
+    check(route === "/tracker" ? html.includes('content="noindex, follow"') : !/<meta name="robots"/i.test(html), route + ": robots indexability policy failed");
     check((html.match(/<h1\b/gi) ?? []).length === 1, `${route}: exactly one h1 required`);
     check(/<main\b/i.test(html), `${route}: main landmark missing`);
     check(html.includes('href="/library"'), `${route}: primary library link missing`);
@@ -90,11 +90,16 @@ for (const route of libraryRoutes) {
   const html = htmlByRoute.get(route) ?? "";
   check(html.includes('class="direct-answer"'), `${route}: direct answer missing`);
   check(html.includes('class="article-rail"') && html.includes('class="source-notes"'), `${route}: evidence rail or source notes missing`);
-  check(html.includes("Source-grounded reference") && html.includes("Review owner</dt><dd>Not assigned"), `${route}: evidence or ownership disclosure missing`);
+  check(html.includes("Source-grounded reference") && html.includes("Review owner</dt><dd>Matthias Ramahi"), `${route}: evidence or ownership disclosure missing`);
   check(html.includes('"@type":"TechArticle"'), `${route}: TechArticle data missing`);
   check((html.match(/class="article-section"/g) ?? []).length >= 4, `${route}: fewer than four substantive sections`);
   check(visibleLength(html) >= 3000, `${route}: substantive reference depth failed`);
 }
+
+const example = htmlByRoute.get("/protocols/example-2026-08-22") ?? "";
+check(example.includes("A result you can reproduce—not a benchmark.") && example.includes("AF-EX-2026-08-22"), "example: identity or benchmark boundary missing");
+check(example.includes("EUR 0") && example.includes("No independent reviewer assigned"), "example: accountability missing");
+check(example.includes("62%"), "example: expected overlap missing");
 
 const datasets = htmlByRoute.get("/datasets") ?? "";
 for (const field of ["question", "answer_text", "source_urls", "coverage_criteria", "protocol_version"]) check(new RegExp(`<code[^>]*>${field}</code>`).test(datasets), `datasets: ${field} schema field missing`);
@@ -108,13 +113,20 @@ const privacy = htmlByRoute.get("/datenschutz") ?? "";
 for (const claim of ["Vercel", "ausschließlich im Arbeitsspeicher Ihres Browsers", "keine Analytics-", "keine eigenen Cookies", "Systemschriften", "Es gibt kein Kontaktformular", "lokale Blob-URL"]) check(privacy.includes(claim), `privacy: exact behavior missing: ${claim}`);
 check(privacy.includes("localStorage") && privacy.includes("sessionStorage") && privacy.includes("nicht an ai-fanout.com"), "privacy: local-storage or transmission boundary missing");
 const robots = await readFile(join(dist, "robots.txt"), "utf8");
-check(robots.includes("User-agent: *") && robots.includes("Allow: /") && !robots.includes("Disallow: /") && robots.includes(`Sitemap: ${host}/sitemap.xml`), "robots: crawlable noindex preview contract failed");
-const sitemap = await readFile(join(dist, "sitemap.xml"), "utf8");
-check(sitemap.includes("<urlset") && !/<url(?:\s|>)/i.test(sitemap), "sitemap: noindex sitemap must have zero URLs");
+check(robots.includes("User-agent: *") && robots.includes("Allow: /") && !robots.includes("Disallow: /") && robots.includes("Sitemap: https://ai-fanout.com/sitemap-index.xml"), "robots: indexable launch contract failed");
+const sitemapIndex = await readFile(join(dist, "sitemap-index.xml"), "utf8");
+const sitemapChild = await readFile(join(dist, "sitemap-0.xml"), "utf8");
+check(sitemapIndex.includes("<sitemapindex") && sitemapIndex.includes("/sitemap-0.xml"), "sitemap: generated index missing");
+check(sitemapChild.includes("<urlset") && sitemapChild.includes("<loc>https://ai-fanout.com</loc>"), "sitemap: generated canonical URLs missing");
+check(!sitemapChild.includes("/tracker</loc>") && !sitemapChild.includes("/404</loc>"), "sitemap: noindex or error route leaked");
+for (const route of routes.filter((route) => route !== "/tracker")) {
+  const loc = route === "/" ? "https://ai-fanout.com" : "https://ai-fanout.com" + route;
+  check(sitemapChild.includes("<loc>" + loc + "</loc>"), "sitemap: missing " + loc);
+}
 
 const vercel = JSON.parse(await readFile(join(root, "vercel.json"), "utf8"));
-const robotsHeader = vercel.headers?.flatMap((entry) => entry.headers ?? []).find((header) => header.key === "X-Robots-Tag");
-check(robotsHeader?.value === "noindex, nofollow, noarchive", "vercel: global X-Robots-Tag missing");
+check(!vercel.headers, "vercel: global noindex header must be absent");
+check(vercel.redirects?.some((entry) => entry.source === "/sitemap.xml" && entry.destination === "/sitemap-index.xml" && entry.permanent === true), "vercel: permanent sitemap compatibility redirect missing");
 
 const rights = JSON.parse(await readFile(join(root, "manifests", "rights-and-sources.v1.json"), "utf8"));
 const requiredSources = ["google-query-fanout", "google-ai-optimization", "google-helpful-content", "google-spam-policies", "nist-ai-rmf-genai", "w3c-prov-o", "rfc-3339", "fair-principles"];
@@ -123,17 +135,18 @@ check(Array.isArray(rights.sources) && rights.sources.length >= 16, "rights: exp
 check(rights.sources.every((source) => source.id && source.checkedAt && source.status && source.supports), "rights: incomplete source provenance");
 check(requiredSources.every((id) => rights.sources.some((source) => source.id === id && source.status === "verified")), "rights: required primary source missing");
 check(rights.sources.some((source) => source.id === "operator-imprint-live" && source.status === "verified"), "rights: verified operator source missing");
-check(rights.sources.some((source) => source.id === "custom-domain-live" && source.status === "verified_noindex_live"), "rights: custom-domain state stale");
+check(rights.sources.some((source) => source.id === "custom-domain-live" && ["launch_candidate_pending_live_verification", "verified_indexable_live"].includes(source.status)), "rights: custom-domain state stale");
 check(rights.rights?.some((record) => record.status === "provenance_and_rights_required_before_publication"), "rights: third-party publication boundary missing");
 check(rights.rights?.some((record) => record.status === "browser_local_user_controlled"), "rights: user-input boundary missing");
 
 const routeActions = JSON.parse(await readFile(join(root, "manifests", "route-actions.v1.json"), "utf8"));
 check(routeActions.schemaVersion === 1 && routeActions.domain === "ai-fanout.com" && routeActions.domainOrigin === "fresh_registration", "routes: identity or origin failed");
 check(routeActions.defaultUnknownPathAction === "404" && routeActions.catchAllRedirect === false, "routes: unknown-path policy failed");
-check(routeActions.canonicalRoutes?.length === routes.length && routes.every((route) => routeActions.canonicalRoutes.includes(route)), "routes: manifest and implementation differ");
+check(routeActions.indexState === "indexable_launch" && routeActions.sitemapMode === "astro_static_route_generation", "routes: launch or sitemap mode failed");
+check(routeActions.excludedFromSitemap?.includes("/tracker") && routeActions.excludedFromSitemap?.includes("/404"), "routes: sitemap exclusions missing");
 
 const routeExists = async (pathname) => {
-  if (pathname === "/" || routes.includes(pathname) || ["/robots.txt", "/sitemap.xml"].includes(pathname)) return true;
+  if (pathname === "/" || routes.includes(pathname) || ["/robots.txt", "/sitemap-index.xml", "/sitemap-0.xml", "/examples/evidence-lab-example-2026-08-22.json"].includes(pathname)) return true;
   try { await access(pathname.startsWith("/_astro/") ? join(dist, pathname.slice(1)) : pageFile(pathname)); return true; } catch { return false; }
 };
 for (const [route, html] of htmlByRoute) {
@@ -152,7 +165,7 @@ for (const stale of ["project setup", "temporary project page", "custom domain i
 const server = await preview({ root, logLevel: "silent", server: { host: "127.0.0.1", port: 0 } });
 const baseUrl = `http://${server.host}:${server.port}`;
 try {
-  for (const route of [...routes, "/robots.txt", "/sitemap.xml"]) {
+  for (const route of [...routes, "/robots.txt", "/sitemap-index.xml", "/sitemap-0.xml", "/examples/evidence-lab-example-2026-08-22.json"]) {
     const response = await fetch(`${baseUrl}${route}`, { redirect: "manual" });
     check(response.status === 200, `${route}: expected HTTP 200, received ${response.status}`);
   }
@@ -161,4 +174,4 @@ try {
 } finally { await server.stop(); }
 
 if (failures.length) { console.error(failures.join("\n")); process.exit(1); }
-console.log(`QA passed: ${routes.length} canonical pages, 2 browser-local tools, ${libraryRoutes.length} deep references; unique metadata, source depth, noindex, links, HTTP 200/404, manifests, local-processing and forbidden claims verified.`);
+console.log("QA passed: " + routes.length + " canonical pages, 2 browser-local tools, " + libraryRoutes.length + " deep references; indexability, automatic sitemap, unique metadata, source depth, links, HTTP 200/404, manifests, local processing and forbidden claims verified.");

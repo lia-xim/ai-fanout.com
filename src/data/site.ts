@@ -16,9 +16,9 @@ export type SiteConfig = {
   readonly ownershipDisclosure: string;
   readonly githubUrl: `https://${string}`;
   readonly indexing: {
-    readonly allowed: false;
-    readonly directive: "noindex, nofollow, noarchive";
-    readonly launchApproval: false;
+    readonly allowed: boolean;
+    readonly launchApproval: boolean;
+    readonly excludedRoutes: readonly string[];
   };
   readonly analytics: {
     readonly enabled: false;
@@ -34,15 +34,15 @@ export const site = {
   title: "AI Answer Evidence Lab",
   description: "A free, browser-local workbench for comparing observable AI answers, visible sources, coverage and stability without claiming access to private retrieval traces.",
   purpose: "Help people turn public AI answers and visible citations into a transparent, exportable evidence package before any trend or optimization claim is made.",
-  status: "Evidence Lab and protocol tools available noindex. Collection has not started and no public benchmark dataset or trend claim exists.",
-  boundary: "This project observes public outputs. It does not claim access to hidden queries, private retrieval traces or model reasoning.",
+  status: "Evidence Lab, protocol tools and a reproducible synthetic example are public. No provider benchmark dataset or trend claim exists.",
+  boundary: "This project observes user-supplied public outputs. It does not claim access to hidden queries, private retrieval traces or model reasoning.",
   primaryProject: "Contextter (accepted)",
-  ownershipDisclosure: "Operated by the team behind Contextter. Common ownership is disclosed and never treated as independent corroboration.",
+  ownershipDisclosure: "Operated by Matthias Ramahi, Research Owner. Common ownership with Contextter is disclosed and never treated as independent corroboration.",
   githubUrl: "https://github.com/lia-xim/ai-fanout.com",
   indexing: {
-    allowed: false,
-    directive: "noindex, nofollow, noarchive",
-    launchApproval: false,
+    allowed: true,
+    launchApproval: true,
+    excludedRoutes: ["/tracker", "/404"],
   },
   analytics: {
     enabled: false,

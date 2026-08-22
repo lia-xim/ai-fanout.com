@@ -1,23 +1,23 @@
 ---
 import ArrowIcon from "../components/ArrowIcon.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { launchGates, methodologySections, observationSchema } from "../data/research";
+import { governance, launchGates, methodologySections, observationSchema } from "../data/research";
 ---
 
 <BaseLayout title="Methodology v0.1" canonicalPath="/methodology" description="The draft preregistration scaffold for future ai-fanout.com public-output observations.">
   <div class="document-layout">
     <aside class="document-aside" aria-label="Protocol metadata">
       <dl>
-        <div><dt>State</dt><dd>Draft</dd></div>
-        <div><dt>Owner</dt><dd>Not assigned</dd></div>
-        <div><dt>Protocol</dt><dd>Not frozen</dd></div>
+        <div><dt>State</dt><dd>Public draft</dd></div>
+        <div><dt>Owner</dt><dd>{governance.researchOwner}</dd></div>
+        <div><dt>Protocol</dt><dd>0.1 · not frozen for provider collection</dd></div>
         <div><dt>Public batches</dt><dd>0</dd></div>
       </dl>
     </aside>
 
     <article class="document-body">
       <h1>Methodology v0.1</h1>
-      <p class="document-intro">A preregistration scaffold for repeatable research observations and the calculation contract behind the browser-local Lab. The protocol is not frozen and no public collection has started.</p>
+      <p class="document-intro">A preregistration scaffold for repeatable research observations and the calculation contract behind the browser-local Lab. The provider-collection protocol is not frozen and no provider collection has started. A <a href="/protocols/example-2026-08-22">dated synthetic example</a> makes the current local calculation contract reproducible.</p>
 
       <ol class="method-list">
         {methodologySections.map((section) => (
@@ -45,8 +45,8 @@ ${observationSchema.map(([field]) => `  ${field}:`).join("\n")}
         <li class="gate-row"><span>{String(index + 1).padStart(2, "0")}</span><strong>{gate.label}</strong><span>{gate.id === "G-05" ? "0 / 3" : gate.state.replace("_", " ")}</span></li>
       ))}
     </ol>
-    <p class="noindex-note"><span aria-hidden="true">→</span> The website remains <strong>noindex</strong> while any gate is open.</p>
-    <a class="text-action" href="/tracker">Inspect every gate and its evidence <ArrowIcon /></a>
+    <p class="noindex-note"><span aria-hidden="true">→</span> The public tools and reference pages are indexable. Open gates apply to future provider-output research and benchmark claims—not to the browser-local website.</p>
+    <a class="text-action" href="/tracker">Inspect research-publication gates <ArrowIcon /></a>
   </section>
 </BaseLayout>
 

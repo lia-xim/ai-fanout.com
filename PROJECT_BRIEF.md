@@ -4,82 +4,56 @@ Updated: 2026-08-22
 
 ## Accepted purpose
 
-`ai-fanout.com` is a free, browser-local AI Answer Evidence Lab backed by a gated international research observatory. It helps users compare one to five public AI-answer observations, visible source URLs, user-defined coverage criteria and comparability metadata, then export an inspectable evidence package.
+ai-fanout.com is a free, public AI Answer Evidence Lab. It helps practitioners and researchers turn user-supplied public answers, visible source URLs, literal criteria and comparability metadata into an inspectable browser-local package before making a trend or optimization claim.
 
-The tools are useful before a public dataset exists. Versioned observations, benchmarks, datasets and findings may appear only after the research launch gate passes. The website is not evidence that collection has begun or produced findings.
+The website and maintained reference library are indexable. Provider-output benchmarks, datasets and findings remain a separate gated research program.
 
 ## Audiences
 
-- Primary: AI-search, AEO and SEO practitioners who need to audit visible answers and cited sources.
-- Secondary: researchers and analysts who need repeatable cross-model or longitudinal observation packages.
-- Tertiary: publishers, site owners and reviewers checking coverage, source recurrence, provenance, rights and launch readiness.
-
-## Original evidence obligation
-
-Any future study must preregister its question set, locale, public model surface, available model/version identifier, observation date, sampling rules, exclusions, missing-data rules, cost and comparability breaks. Public claims require inspectable observations, denominators, calculation code where permitted and a correction log.
-
-Reference pages must be grounded in current primary documentation, standards or the accepted project protocol. They may explain a method, but may not imply that the method has been run or validated by unpublished results.
+- Primary: AI-search, AEO and SEO practitioners auditing visible answers and cited sources.
+- Secondary: researchers and analysts designing repeatable cross-surface or longitudinal observations.
+- Tertiary: publishers, site owners and reviewers checking provenance, rights and calculation limits.
 
 ## Visual thesis
 
-The visual system is **controlled signal**: a near-black research environment with high-discipline modern grotesk typography, cool-white content, cyan observable/source states and restrained red open/blocked states. Open bands, evidence rails and ruled indexes create authority through structure and whitespace.
+The system is controlled signal: near-black research surfaces, disciplined modern typography, cool-white copy, cyan observable/source states and restrained red uncertainty states. Ruled evidence registers, open bands and source matrices make the method legible. Motion communicates state and direction only; reduced motion is respected.
 
-The homepage signature is a source-recurrence composition that routes into the working **Evidence Lab**. The lab extends controlled signal into a dense but calm observation workspace with ruled inputs, a recurrence matrix, explicit warnings and export states. Motion is limited to state, direction and entrance; the site has no scroll hijacking or decorative continuous animation.
+## Page jobs
 
-## Information architecture and page jobs
+- / explains the observable-evidence promise and routes into the tools.
+- /lab compares one to five user-supplied observations locally.
+- /protocol-builder creates a repeatable plan before collection.
+- /protocols/example-2026-08-22 is the dated synthetic regression and teaching fixture.
+- /research registers planned or completed studies without implying findings.
+- /library and /library/<slug> provide one distinct reference job per URL.
+- /datasets states the schema and truthful release state.
+- /methodology publishes the governing scaffold and correction contract.
+- /tracker exposes operational research gates and remains noindex.
+- /transparency discloses ownership, sources, rights, routes and corrections.
+- /impressum and /datenschutz identify the operator and actual data behavior.
 
-- `/` — explain the observable-evidence promise and route directly into the tools.
-- `/lab` — compare one to five public AI-answer observations and export source, coverage, stability and comparability evidence.
-- `/protocol-builder` — create and export a repeatable observation plan before collection.
-- `/research` — register planned, active, completed, superseded or withdrawn studies without implying results.
-- `/library` — navigate the curated reference system by concept, measurement, method, data standard and field guide.
-- `/library/<slug>` — solve one distinct definition, measurement or procedure intent with a direct answer, evidence limits, sources and related next step.
-- `/datasets` — publish the data dictionary and truthful availability state; later host rights-safe releases.
-- `/methodology` — provide the governing preregistration scaffold and correction contract.
-- `/tracker` — show launch-gate and future observation-series readiness.
-- `/transparency` — disclose ownership, sources, rights, current route policy, corrections and contact paths.
-- `/impressum` — identify the operator and editorial responsibility.
-- `/datenschutz` — document actual hosting, tool, export, analytics, font, contact and storage behavior.
+## Evidence and rights boundaries
 
-## Library publishing contract
-
-- One URL owns one primary user job; no page-per-query-variation pattern.
-- Definition, method and field-guide pages may coexist only when their outcomes differ.
-- Every page has a unique title, description, direct answer, primary intent, review date, source set and internal next steps.
-- Pages are consolidated when search intent or content duty materially overlaps.
-- Current Google guidance, provider documentation and standards are rechecked during material review.
-- Review owner is currently unassigned; the library therefore remains noindex with the rest of the site.
-- Search demand, ranking potential and traffic are not claimed without Search Console or current keyword evidence.
-
-## Evidence boundaries
-
-- Observe only public outputs and public cited or linked sources.
+- Observe only user-supplied public outputs and visible public links.
 - Never claim access to hidden queries, private retrieval traces, system prompts, chain of thought, ranking internals or model reasoning.
-- Treat model/provider/interface changes as possible comparability breaks.
-- Do not publish output excerpts, datasets, screenshots or derived statistics until provenance and applicable provider, copyright and privacy rights permit it.
+- Browser-local inputs are not transmitted, stored or published by ai-fanout.com.
+- The dated example uses only owner-created synthetic text and reserved .example hosts; it is not an independent provider benchmark.
+- Third-party screenshots, copied text, stored provider outputs and future site-run datasets require verified provenance and applicable rights.
 - Common Contextter ownership is disclosed and never counted as independent corroboration.
-- ai-fanout.com is a fresh registration by Matthias Ramahi for this project.
-- Browser-local tool inputs are not transmitted by ai-fanout.com.
-
-## Non-goals
-
-- A fan-out query generator or practitioner content-planning tool; that job belongs to `seo-fanout.com`.
-- Automated production of hundreds of thin landing pages.
-- A marketing funnel, AI visibility score, provider leaderboard or unverified claims publication.
-- Authentication, billing, crawling, scheduled collection or model calls inside page requests.
+- ai-fanout.com is a fresh registration by Matthias Ramahi.
 
 ## Operating model
 
-- Research owner: not assigned.
-- Backup reviewer: not assigned.
-- Library review owner: not assigned.
-- Current cadence: source review during material implementation; private monthly batches only after protocol and lawful retention approval.
-- Operating burden: medium for browser-local tools; high only when automated collection or public benchmarks begin.
-- Cost ceiling: not assigned.
-- Stop condition: keep noindex when there is no named owner, cost ceiling, lawful observation set or three comparable batches; consolidate or retire stale library pages rather than maintaining empty authority signals.
+- Operator and Research Owner: Matthias Ramahi.
+- Protocol versions and corrections: assigned and recorded by Matthias Ramahi.
+- Independent reviewer: not assigned; independent review is not claimed.
+- Current provider/API collection ceiling: EUR 0 because current tools make no provider calls.
+- Future site-run collection: separate per-window ceiling and provider-rights review required.
+- Review cadence: quarterly; next governance review 2026-11-22.
+- Maintenance stop condition: keep useful tools and accurate references public; pause or remove affected research claims when protocol, rights, review or evidence cannot be maintained.
 
-## Launch gates
+## Launch and publication gates
 
-Research-publication gates remain open: fixed protocol; named owner and backup; cost ceiling and annual budget; provider-by-provider rights review for future site-run data; three comparable batches over at least 60 days; inspectable evidence package; content and source review; and explicit public launch approval with verified production evidence. Browser-local user tools may operate noindex without claiming that these gates have passed.
+Matthias explicitly approved indexation for an honest, legally clean and technically verified minimum viable website. Public canonical 200 pages may index. /tracker, 404s and utility/status paths remain excluded.
 
-Until every gate passes, every page remains `noindex, nofollow, noarchive` and the sitemap contains no URL entries. The public Vercel and custom-domain previews are crawlable through `robots.txt` so crawlers can receive the noindex directive; a confidential preview would require real access protection.
+This launch does not satisfy the provider-research gates. A frozen sampling protocol, independent reviewer status, future collection budget, provider-by-provider rights review, three comparable batches across at least 60 days and an inspectable provider evidence package remain required before benchmark or trend claims.

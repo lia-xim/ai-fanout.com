@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-22.5",
+  "manifestVersion": "2026-08-22.6",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-08-22",
   "sources": [
@@ -11,7 +11,7 @@
       "location": "C:\\Users\\matth\\Documents\\DomainPortfolio\\strategy\\domains\\ai-fanout.com.md",
       "checkedAt": "2026-08-22",
       "status": "accepted",
-      "supports": "Confirmed ownership, accepted Evidence Lab purpose, noindex research launch gate, operating model and portfolio relationship."
+      "supports": "Confirmed ownership, accepted public Evidence Lab purpose, named Research Owner, indexable website launch and separately gated provider research."
     },
     {
       "id": "ownership-record",
@@ -136,8 +136,8 @@
       "kind": "live_technical_check",
       "location": "https://ai-fanout.com/",
       "checkedAt": "2026-08-22",
-      "status": "verified_noindex_live",
-      "supports": "Custom domain serves the production deployment over HTTPS with canonical URLs and noindex directives."
+      "status": "launch_candidate_pending_live_verification",
+      "supports": "Custom domain is configured for the indexable production launch; post-deploy headers, canonicals and sitemap require live verification."
     },
     {
       "id": "vercel-preview",
@@ -145,8 +145,8 @@
       "kind": "live_technical_check",
       "location": "https://ai-fanout-com.vercel.app/",
       "checkedAt": "2026-08-22",
-      "status": "verified_noindex_preview",
-      "supports": "The Vercel project alias serves the same noindex deployment."
+      "status": "launch_candidate_pending_live_verification",
+      "supports": "Vercel project alias is configured to serve the same indexable launch candidate."
     },
     {
       "id": "browser-local-implementation",
@@ -165,6 +165,24 @@
       "checkedAt": "2026-08-22",
       "status": "verified",
       "supports": "Current code provenance and absence of a repository license file."
+    },
+    {
+      "id": "reproducible-synthetic-example",
+      "title": "Dated Evidence Lab synthetic fixture",
+      "kind": "implementation_evidence",
+      "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\public\\examples\\evidence-lab-example-2026-08-22.json",
+      "checkedAt": "2026-08-22",
+      "status": "owner_created_reproducible",
+      "supports": "Exact synthetic inputs, method version and deterministic expected results for the local calculation workflow; not an independent provider benchmark."
+    },
+    {
+      "id": "astro-sitemap-integration",
+      "title": "Astro sitemap integration",
+      "kind": "primary_documentation",
+      "location": "https://docs.astro.build/en/guides/integrations-guide/sitemap/",
+      "checkedAt": "2026-08-22",
+      "status": "verified",
+      "supports": "Automatic sitemap generation from statically generated Astro routes with route filtering."
     }
   ],
   "rights": [
@@ -201,7 +219,7 @@
   ],
   "unknowns": [
     "Provider-specific retention and redistribution rights for any future site-run observation dataset",
-    "Search Console manual-action, security and current index-state evidence",
-    "Named research owner, backup reviewer, cost ceiling and sustainable editorial maintenance owner"
+    "Independent reviewer assignment and future provider-collection cost ceiling",
+    "Google Search Console post-launch crawl and index state after sitemap discovery"
   ]
 }
