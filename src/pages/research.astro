@@ -4,19 +4,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { studyRegistry } from "../data/research";
 ---
 
-<BaseLayout title="Research register" canonicalPath="/research" description="A truthful registry of planned, active and completed ai-fanout.com studies and their evidence state.">
+<BaseLayout title="Planned checks" canonicalPath="/research" description="What ai-fanout.com plans to check, what has actually been done, and what remains unproven.">
   <header class="page-head">
-    <h1>Research register</h1>
+    <h1>What we plan to check</h1>
     <div class="page-head-copy">
-      <p>Every study earns a stable record before collection. Plans, observations, findings, corrections and withdrawals stay visibly separate.</p>
-      <p class="meta-line">Registry state · one planned pilot · collection not started</p>
+      <p>This page separates planned checks from work that has actually been completed. Nothing listed here is a result yet.</p>
+      <p class="meta-line">Current state · one check planned · not started</p>
     </div>
   </header>
 
   <section class="section-pad section-rule" aria-labelledby="studies-title">
     <span class="section-number">01</span>
-    <h2 id="studies-title" class="section-title">Registered studies</h2>
-    <p class="section-lede">A registration is a commitment to a method, not proof of data or a finding.</p>
+    <h2 id="studies-title" class="section-title">Planned checks</h2>
+    <p class="section-lede">A plan explains what we intend to do. It is not proof and it is not a result.</p>
     <ol class="study-list ruled-list">
       {studyRegistry.map((study) => (
         <li>
@@ -36,7 +36,7 @@ import { studyRegistry } from "../data/research";
   </section>
 
   <section class="research-contract section-pad section-rule" aria-labelledby="contract-title">
-    <div><span class="section-number">02</span><h2 id="contract-title" class="section-title">Study contract</h2></div>
+    <div><span class="section-number">02</span><h2 id="contract-title" class="section-title">Rules for every check</h2></div>
     <ol>
       <li><span>Plan</span><p>Freeze the question set, public surface, locale, route, timing, exclusions and cost ceiling.</p></li>
       <li><span>Observe</span><p>Record public outputs and visible sources with timestamps and missing-data reasons.</p></li>
@@ -46,8 +46,8 @@ import { studyRegistry } from "../data/research";
   </section>
 
   <section class="section-pad next-band">
-    <p>The next valid research action is to freeze the protocol—not to announce a result.</p>
-    <a class="text-action" href="/methodology">Inspect methodology v0.1 <ArrowIcon /></a>
+    <p>The next step is to write down the exact test before collecting anything.</p>
+    <a class="text-action" href="/methodology">See how the free tool works <ArrowIcon /></a>
   </section>
 </BaseLayout>
 

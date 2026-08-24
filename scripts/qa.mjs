@@ -107,7 +107,7 @@ check(example.includes("62%"), "example: expected overlap missing");
 
 const datasets = htmlByRoute.get("/datasets") ?? "";
 for (const field of ["question", "answer_text", "source_urls", "coverage_criteria", "protocol_version"]) check(new RegExp(`<code[^>]*>${field}</code>`).test(datasets), `datasets: ${field} schema field missing`);
-check(datasets.includes("no ai-fanout.com observation release exists"), "datasets: release boundary missing");
+check(datasets.includes("There is no public collection of AI answers to download"), "datasets: release boundary missing");
 
 const imprint = htmlByRoute.get("/impressum") ?? "";
 check(imprint.includes("Matthias Ramahi") && imprint.includes("Kempener Straße 44") && imprint.includes("40699 Erkrath") && imprint.includes("info@matthiasramahi.de"), "imprint: verified operator details missing");
