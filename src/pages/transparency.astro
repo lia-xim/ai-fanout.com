@@ -1,7 +1,6 @@
 ---
 import ArrowIcon from "../components/ArrowIcon.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { governance } from "../data/research";
 import { site } from "../data/site";
 import evidenceManifest from "../../manifests/rights-and-sources.v1.json";
 import routeManifest from "../../manifests/route-actions.v1.json";
@@ -22,8 +21,8 @@ const publicLocation = (location: string) => location.startsWith("https://") ? l
     <div><span class="section-number">01</span><h2 id="ownership-title" class="section-title">Ownership &amp; independence</h2></div>
     <div>
       <p>{site.ownershipDisclosure}</p>
-      <p><a href="https://contextter.com/" rel="external nofollow">Contextter</a> may consume future research in a real workflow, but shared ownership never turns this site into independent market validation. The research design must remain useful if every Contextter link is removed.</p>
-      <p>ai-fanout.com was newly registered by Matthias Ramahi for this project. Matthias is the operator and Research Owner: he versions protocols, records corrections and their comparability effects, and keeps reviewer status and cost boundaries explicit.</p><p>{governance.reviewerStatus} {governance.currentProviderApiBudget}</p>
+      <p>Contextter and SEO Fanout may later consume a user-controlled export, but shared ownership never turns either site into independent validation. ai-fanout.com must remain useful without those links.</p>
+      <p>ai-fanout.com was newly registered by Matthias Ramahi for this project. Matthias is the operator and Research Owner: he versions the tool and method, records corrections, states reviewer status and owns the EUR 25 soft / EUR 30 hard monthly cost envelope.</p><p>No independent reviewer or provider benchmark is claimed. The public endpoint remains disabled while provider query-field evidence and production safeguards are unproven.</p>
     </div>
   </section>
 
@@ -55,7 +54,7 @@ const publicLocation = (location: string) => location.startsWith("https://") ? l
     <div>
       <p>This is a fresh registration. The route manifest describes only the current product and normal unknown-path handling.</p>
       <dl><div><dt>Sitemap source</dt><dd>{routeManifest.sitemapMode.replaceAll("_", " ")}</dd></div><div><dt>Excluded routes</dt><dd>{routeManifest.excludedFromSitemap.join(", ")}</dd></div><div><dt>Unknown paths</dt><dd>{routeManifest.defaultUnknownPathAction}</dd></div><div><dt>Catch-all redirect</dt><dd>{routeManifest.catchAllRedirect ? "Enabled" : "Disabled"}</dd></div></dl>
-      <p>Canonical public 200 pages are indexable and discovered through an automatically generated sitemap. The operational tracker remains noindex, and unknown routes return a real 404.</p>
+      <p>Canonical English and German 200 pages are indexable and discovered through an automatically generated sitemap. The operational tracker remains noindex. Retired comparison and research routes, and all other unknown paths, return a real 404.</p>
     </div>
   </section>
 

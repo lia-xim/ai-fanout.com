@@ -1,0 +1,6 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HomePage from "../../components/HomePage.astro";
+const appSchema = { "@context": "https://schema.org", "@type": "WebApplication", name: "Kostenloses AI Query Fanout Tool", url: "https://ai-fanout.com/de", applicationCategory: "BusinessApplication", operatingSystem: "Any", inLanguage: "de", description: "Zeigt Suchanfragen und zitierte Quellen, die ein begrenzter OpenAI-Websuche-API-Lauf offenlegt.", offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" }, creator: { "@type": "Person", name: "Matthias Ramahi" } };
+---
+<BaseLayout lang="de" title="AI Query Fanout Tool" canonicalPath="/de" alternatePath="/" pageClass="planner-home" structuredData={appSchema} description="Ein Keyword eingeben und die Suchanfragen sowie Websites sehen, die ein OpenAI-Websuche-API-Lauf offenlegt."><HomePage locale="de"/></BaseLayout>

@@ -1,3 +1,21 @@
-export type NavigationItem={readonly href:`/${string}`;readonly label:string};
-export type SiteConfig={readonly domain:string;readonly url:`https://${string}`;readonly language:"en";readonly title:string;readonly description:string;readonly purpose:string;readonly status:string;readonly boundary:string;readonly primaryProject:string;readonly ownershipDisclosure:string;readonly githubUrl:`https://${string}`;readonly indexing:{readonly allowed:boolean;readonly launchApproval:boolean;readonly excludedRoutes:readonly string[]};readonly analytics:{readonly enabled:false;readonly provider:null};readonly navigation:readonly NavigationItem[]};
-export const site={domain:"ai-fanout.com",url:"https://ai-fanout.com",language:"en",title:"AI Query Fanout",description:"Turn one question into useful follow-up questions, then learn how to review the plan and choose the right sources and pages.",purpose:"Help researchers, editors and SEO teams break a broad question into useful parts before deciding what to research, update, publish or leave alone.",status:"The free fanout tool is being prepared for public use. The learning pages and browser-local comparison tools are available.",boundary:"The tool suggests useful branches. It does not reveal hidden queries, private retrieval traces, model reasoning or provider-internal data.",primaryProject:"Contextter (accepted)",ownershipDisclosure:"Operated by Matthias Ramahi. ai-fanout.com, Contextter and SEO Fanout share an owner; those sites are not independent recommendations.",githubUrl:"https://github.com/lia-xim/ai-fanout.com",indexing:{allowed:true,launchApproval:true,excludedRoutes:["/tracker","/404","/api"]},analytics:{enabled:false,provider:null},navigation:[{href:"/#planner",label:"Free tool"},{href:"/library",label:"Learn"},{href:"/library/query-fanout-examples",label:"Examples"},{href:"/methodology",label:"How it works"},{href:"/lab",label:"Compare answers"}]} as const satisfies SiteConfig;
+export type NavigationItem = { readonly href: `/${string}`; readonly label: string };
+export const site = {
+  domain: "ai-fanout.com",
+  url: "https://ai-fanout.com",
+  language: "en" as const,
+  title: "AI Query Fanout",
+  description: "See the web searches and cited websites exposed by one OpenAI web-search run for your keyword.",
+  purpose: "Help people inspect how one bounded AI web-search run expands a keyword into searches and sources.",
+  status: "The learning pages are live. The free tool remains closed until its provider and abuse-protection gates pass live verification.",
+  boundary: "The tool reports only provider-exposed API search actions. It does not inspect ChatGPT, reveal hidden reasoning or reconstruct missing queries.",
+  primaryProject: "Contextter (accepted)",
+  ownershipDisclosure: "Operated by Matthias Ramahi. ai-fanout.com, Contextter and SEO Fanout share an owner; those sites are not independent recommendations.",
+  githubUrl: "https://github.com/lia-xim/ai-fanout.com",
+  indexing: { allowed: true, launchApproval: true, excludedRoutes: ["/tracker", "/404", "/api", "/lab", "/protocol-builder", "/research", "/datasets", "/protocols"] },
+  analytics: { enabled: false, provider: null },
+  navigation: [
+    { href: "/#tool", label: "Free tool" },
+    { href: "/library", label: "Learn" },
+    { href: "/methodology", label: "How it works" },
+  ] satisfies readonly NavigationItem[],
+} as const;

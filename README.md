@@ -1,47 +1,35 @@
 # ai-fanout.com
 
-Source repository for the free AI query fanout tool, the plain-English learning area and the browser-local answer comparison tools.
+Bilingual Astro site for a free, bounded AI query fanout tool and a focused learning area.
 
-## Current state
+## Product
 
-The `codex/fanout-planner-v1` release candidate makes `/` a short-question fanout tool and overview of the two main site areas. `/library` is presented as Learn and contains 21 maintained guides, including eight plain-language entry guides for distinct search and user questions. `/methodology` explains how the free tool works.
+A visitor enters one keyword or short question and optionally chooses language and country. One allowlisted OpenAI web-search model is called through OpenRouter. The result contains only web-search query strings and source URLs explicitly exposed by that API response. If the response does not contain query strings, the tool returns `PROVIDER_QUERY_TRACE_UNAVAILABLE`; it never substitutes generated guesses.
 
-The serverless endpoint is intentionally fail-closed. It returns `503 PLANNER_NOT_CONFIGURED` unless every production safeguard and explicit public-enable flag is configured.
+The site does not inspect the ChatGPT browser interface, private network traffic, system prompts, chain of thought, or private retrieval traces. One run is a dated observation, not a benchmark, keyword-volume source, or ranking forecast.
 
-The current production site is not replaced by this branch. No open fanout endpoint has been deployed and no paid provider call was made.
-## Planner contract
+English lives at `/`, `/methodology`, and `/library/...`. German lives at `/de/`, `/de/methode`, and `/de/lernen/...`; paired pages publish reciprocal `hreflang` links. Earlier answer-comparison routes are noindex, absent from navigation, and excluded from the sitemap.
 
-- one short question, maximum 120 Unicode code points and 256 UTF-8 bytes;
-- no URLs, files, line breaks or extra request fields;
-- server-side Turnstile;
-- two attempts per salted 24-hour bucket and 40 global reservations per UTC day;
-- atomic EUR 0.02 reservation, EUR 25 soft and EUR 30 hard monthly stops;
-- exactly one allowlisted `gpt-5.4-nano` call, 700 maximum output tokens, 12-second timeout, no retry or fallback;
-- strict JSON Schema plus Zod validation;
-- no raw question or raw provider result stored by ai-fanout.com.
+## Security and cost boundary
 
-Required production variables are documented in `.env.example` and `docs/PLANNER_RELEASE_CANDIDATE.md`. Secrets are server-only and never use a `PUBLIC_` prefix. The static form additionally needs the public Turnstile site key and explicit public build flag.
+- keyword: 2–100 Unicode characters, at most 240 UTF-8 bytes;
+- no URLs, files, line breaks, or additional request fields;
+- Cloudflare Turnstile before budget reservation;
+- five attempts per salted IP bucket in 24 hours and 40 site-wide per UTC day;
+- EUR 0.15 reserved per request, EUR 25 soft and EUR 30 hard monthly limits;
+- exactly one `openai/gpt-5.2` OpenRouter Responses call, native web search, at most eight tool calls, 400 output tokens, 12-second timeout, no retry;
+- no raw keyword, provider response, search query, or source URL stored by ai-fanout.com;
+- server-only secrets and an explicit `FANOUT_PUBLIC_ENABLED=true` gate.
 
-## Product boundary
+The form and endpoint remain fail-closed until OpenRouter, Turnstile, Redis and salt secrets are configured and a live authorized response proves that the selected route preserves exact query strings.
 
-Planner results are hypotheses created by this tool. They do not reveal actual Google or ChatGPT queries, private retrieval traces, ranking internals, system prompts or chain of thought.
-
-SEO Fanout is linked only after a result for the separate page/section/merge/no-action decision. Contextter is linked for broader SEO workflow. Common ownership by Matthias Ramahi is disclosed beside those links and is not independent endorsement.
-
-The answer comparison and comparison-plan tools remain browser-local: their inputs are not transmitted or stored by ai-fanout.com. Third-party screenshots, copied text, saved model outputs and public examples require verified provenance and applicable rights.
-
-## Development and verification
+## Verify
 
 ```text
-corepack pnpm install
 corepack pnpm verify:planner
 corepack pnpm qa
-vercel build
 ```
 
-`verify:planner` builds the 35-page Astro site and tests input caps, strict requests, CAPTCHA, two-per-bucket and global caps, parallel hard-budget reservation, provider errors, timeout, exactly-one-call behavior, the versioned export contract and absence of raw storage. `scripts/browser-qa.mjs` checks desktop and mobile layout, the learning hub and guide, the answer comparison and the comparison-plan interaction.
+These commands build the static site, test the provider parser, strict input, CAPTCHA order, per-IP and global limits, parallel budget reservations, provider failures, timeout, secret isolation, bilingual canonicals/hreflang, sitemap exclusions, links and real 404 behavior.
 
-The Astro sitemap is generated from canonical static routes. `/tracker`, 404 and API paths are excluded. Security headers are defined in `vercel.json`.
-## Rights and license
-
-Current code and copy are owner-created. External documentation and standards are linked and narrowly paraphrased. This repository grants no open-source license unless a later commit adds one explicitly.
+Current code and copy are owner-created. Linked documentation is narrowly paraphrased. No open-source license is granted unless a later `LICENSE` file says otherwise.

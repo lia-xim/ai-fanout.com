@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-23.1",
+  "manifestVersion": "2026-08-24.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-08-23",
+  "reviewedAt": "2026-08-24",
   "domainOrigin": "fresh_registration",
   "defaultUnknownPathAction": "404",
   "catchAllRedirect": false,
@@ -12,7 +12,13 @@
   "excludedFromSitemap": [
     "/404",
     "/tracker",
-    "/api"
+    "/api",
+    "/lab",
+    "/protocol-builder",
+    "/research",
+    "/research/methodology",
+    "/datasets",
+    "/protocols/example-2026-08-22"
   ],
   "legacyCompatibilityRedirects": [
     {
@@ -23,9 +29,9 @@
   ],
   "notes": [
     "ai-fanout.com was newly registered by Matthias Ramahi for this project.",
-    "The canonical homepage introduces two public areas: the fail-closed free fanout tool and the plain-English learning hub.",
-    "/library contains 21 canonical guides, with eight plain-language entry guides before the advanced research references.",
-    "/methodology explains the fanout-tool contract; /research/methodology documents the separate browser-local answer comparison.",
+    "The canonical English and German homepages introduce the fail-closed observed-query tool and the focused learning hub.",
+    "/library and /de/lernen each contain eight intent-distinct, paired guides with reciprocal hreflang annotations.",
+    "/methodology and /de/methode explain the observed-query contract. Manual comparison and research routes are retired from public IA, noindex and excluded from the sitemap.",
     "The sitemap is generated from Astro static routes and excludes noindex, error and API paths.",
     "The API is closed by default and may not be publicly enabled until all CAPTCHA, atomic quota, cost and provider secrets are configured and live-tested.",
     "Unknown paths return a real 404 and are not redirected to the homepage."

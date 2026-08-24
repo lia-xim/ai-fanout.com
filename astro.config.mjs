@@ -7,7 +7,10 @@ export default defineConfig({
   trailingSlash: "never",
   integrations: [
     sitemap({
-      filter: (page) => !["/404", "/404.html", "/tracker"].includes(new URL(page).pathname.replace(/\/$/, "") || "/"),
+      filter: (page) => {
+        const path = new URL(page).pathname.replace(/\/$/, "") || "/";
+        return !["/404", "/404.html", "/tracker", "/lab", "/protocol-builder", "/research", "/research/methodology", "/datasets", "/protocols/example-2026-08-22"].includes(path);
+      },
     }),
   ],
 });

@@ -29,7 +29,7 @@ const structuredData = {
 };
 ---
 
-<BaseLayout title={article.title} canonicalPath={canonicalPath} description={article.description} pageClass="library-article-page" structuredData={structuredData}>
+<BaseLayout title={article.title} canonicalPath={canonicalPath} alternatePath={article.pairedSlug ? `/de/lernen/${article.pairedSlug}` : undefined} description={article.description} pageClass="library-article-page" structuredData={structuredData}>
   <article>
     <header class="article-hero">
       <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/library">Learn</a><span aria-hidden="true">/</span><span aria-current="page">{article.shortTitle}</span></nav>

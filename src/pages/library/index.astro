@@ -5,25 +5,25 @@ import { libraryArticles, libraryGroups } from "../../data/library";
 const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method: "How to", "Data standard": "Data and exports", "Field guide": "Practical guides" } as const;
 ---
 
-<BaseLayout title="Learn about AI query fanout" canonicalPath="/library" description="Plain-English guides to query fanout: how it works, how to check a plan, choose sources, compare methods, and decide what deserves a page.">
+<BaseLayout title="Learn about AI query fanout" canonicalPath="/library" alternatePath="/de/lernen" description="Clear guides to AI query fanout, OpenAI web search, citations, changing results and practical SEO use.">
   <header class="library-hero">
     <div class="library-kicker"><span>Learn</span><span>{libraryArticles.length} practical guides</span></div>
     <div class="library-hero-grid">
-      <h1>Better questions lead to better answers.</h1>
+      <h1>See what happens after the keyword.</h1>
       <div>
-        <p>Start with the basics, see worked examples, and learn how to turn a broad question into research or content that genuinely helps.</p>
+        <p>Learn what query fanout is, which searches an API can expose, what citations prove, and how to use the result without overclaiming.</p>
         <p class="meta-line">Plain-English guides · reviewed 23 Aug 2026</p>
       </div>
     </div>
     <div class="signal-legend" aria-label="Learning path">
-      <span><i aria-hidden="true"></i>Ask</span><span><i aria-hidden="true"></i>Understand</span><span><i aria-hidden="true"></i>Check</span><span><i aria-hidden="true"></i>Decide</span>
+      <span><i aria-hidden="true"></i>Keyword</span><span><i aria-hidden="true"></i>Queries</span><span><i aria-hidden="true"></i>Sources</span><span><i aria-hidden="true"></i>Action</span>
     </div>
   </header>
 
   <section class="library-index section-pad section-rule" aria-labelledby="library-index-title">
     <div class="index-heading">
       <div><span class="section-number">01</span><h2 id="library-index-title" class="section-title">Choose your question</h2></div>
-      <p>Every guide answers one main question. Use the filters to find the kind of help you need.</p>
+      <p>Every guide answers one distinct question about the tool, its evidence, or what to do with the result.</p>
     </div>
     <div class="library-filters" aria-label="Filter the learning guides">
       <button type="button" data-filter="all" aria-pressed="true">All <span>{libraryArticles.length}</span></button>

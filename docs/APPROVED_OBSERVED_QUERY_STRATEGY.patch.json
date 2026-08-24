@@ -1,0 +1,73 @@
+{
+  "identityDisclosure": "Identify Matthias Ramahi as operator and accountable product owner. The public tool may send one short keyword plus optional language and country through a server-side, CAPTCHA- and quota-protected OpenRouter request using one allowlisted OpenAI model. ai-fanout.com stores no raw keyword, final answer, provider response or observed query list. Results are called observed search queries only when the provider response contains the corresponding search-tool action. Never claim access to ChatGPT browser internals, private retrieval traces, system prompts, model reasoning or chain of thought.",
+  "standalonePurpose": "A free, tightly capped AI Query Fanout Explorer that shows the web-search queries and cited source URLs exposed by an allowlisted OpenAI web-search API run for one short keyword, language and country. If the provider does not return query strings, the tool says so and never substitutes generated guesses.",
+  "preferredStrategy": "Make the primary product a single-input observed-query utility. A visitor enters one short keyword, optionally selects language and country, completes abuse protection and receives only provider-exposed web-search queries plus cited source URLs, model, provider, timestamp and method version. Use OpenRouter initially with one allowlisted OpenAI model and its server-side web-search tool, hard tool-call and result limits, strict response parsing and a fail-closed unsupported state when query strings are absent. Remove the manual answer-comparison and protocol-builder tools from the public information architecture. Add a bilingual English/German learning hub with a small set of distinct pages about AI query fanout, OpenAI web search, citations, location effects, variability, SEO use and the limits of observation. Keep results useful without signup. Later model comparison is a separate product stage and must preserve provider-specific evidence labels.",
+  "originalEvidenceObligation": [
+    "Publish the exact request and response-field contract, country/language inputs, model/provider label, date and tool version",
+    "Label a query as observed only when the provider response exposes the corresponding search-tool action; otherwise show not available",
+    "Separate observed API tool calls from ChatGPT consumer-interface behavior, private retrieval traces, system prompts and chain of thought",
+    "Document cost, timeout, truncation, abuse, zero-search and missing-query behavior",
+    "Keep every run ephemeral and never auto-publish one indexable URL per returned query"
+  ],
+  "productAssets": [
+    "Captcha-protected short-keyword OpenAI query fanout explorer",
+    "Observed provider search-query list with cited source URLs and explicit evidence status",
+    "Optional language and country controls",
+    "Bilingual English/German learning hub and provider-method documentation",
+    "Future separate model-comparison tool only after provider-specific response contracts are proven"
+  ],
+  "informationArchitecture": [
+    {"path":"/","role":"English tool and overview","job":"Enter one keyword, optional country and language, then inspect provider-exposed OpenAI web-search queries and cited websites"},
+    {"path":"/de/","role":"German tool and overview","job":"Ein Keyword sowie optional Land und Sprache eingeben und die vom OpenAI-API-Response offengelegten Web-Suchanfragen und zitierten Websites prüfen"},
+    {"path":"/methodology/","role":"English method and limits","job":"Understand the exact OpenRouter/OpenAI request, observable fields, missing-query state, limits, privacy, cost and abuse controls"},
+    {"path":"/de/methode/","role":"German method and limits","job":"OpenRouter-/OpenAI-Aufruf, beobachtbare Felder, Grenzen, Datenschutz, Kosten und Missbrauchsschutz verstehen"},
+    {"path":"/library/","role":"English learning hub","job":"Learn AI query fanout, observed search queries, citations, location effects, variability and SEO use"},
+    {"path":"/de/lernen/","role":"German learning hub","job":"KI-Query-Fanout, beobachtbare Suchanfragen, Zitate, Standort-Effekte, Schwankungen und SEO-Nutzung verstehen"},
+    {"path":"/transparency/","role":"English source and rights disclosure","job":"Inspect operator, primary documentation, evidence labels, rights and known unknowns"},
+    {"path":"/impressum/","role":"German legal operator disclosure","job":"Betreiber und Verantwortlichkeit ausweisen"},
+    {"path":"/datenschutz/","role":"German behavior-specific privacy disclosure","job":"Hosting, OpenRouter/OpenAI, Turnstile, hashed rate limits, storage and rights explain"}
+  ],
+  "forbiddenShortcuts": [
+    "Calling generated suggestions, citations or source URLs observed search queries when no provider search action exposes those strings",
+    "Claiming access to ChatGPT browser internals, hidden Google queries, private retrieval traces, system prompts, chain of thought or model reasoning",
+    "Exposing an OpenRouter or other provider key in the browser",
+    "Operating without server-side input, output, CAPTCHA, rate, tool-call, daily and monthly budget caps",
+    "Creating one indexable URL for every returned query or keyword variation",
+    "Hiding the useful result behind signup or using commonly owned sites as independent proof"
+  ],
+  "rightsAndIdentityConstraints": [
+    "Keyword, language, country and CAPTCHA data may be transmitted only through the documented server-side route after Turnstile and atomic quota reservation; ai-fanout.com stores no raw keyword, final answer, provider response or query list.",
+    "Provider-exposed search queries and source URLs are returned ephemerally to the requesting browser and are not published as a retained benchmark or corpus.",
+    "Third-party screenshots, copied text, saved model outputs and public examples require verified provenance, attribution, applicable rights and explicit review.",
+    "The current stage authorizes an ephemeral single-provider tool, not a retained provider-output dataset, longitudinal benchmark or model-ranking claim."
+  ],
+  "risks": [
+    "OpenRouter may count search calls and return citations without preserving every concrete query string in a stable public response field",
+    "Observed API searches do not prove what the ChatGPT consumer product would do for the same keyword",
+    "Search queries and citations vary by model, provider route, date, language, country and stochastic behavior",
+    "Anonymous public web-search inference can exhaust budget or be abused without atomic server-side controls",
+    "Returned query lists can encourage low-value scaled pages if treated as a publication plan"
+  ],
+  "openQuestions": [
+    "Does the configured OpenRouter Responses route preserve OpenAI web_search_call query strings for the chosen allowlisted model in live fixtures?",
+    "Which OpenRouter and routed OpenAI processing and retention settings apply to the production account?",
+    "Who is the named backup reviewer for material method changes and public examples?"
+  ],
+  "roadmap": {
+    "days30": [
+      "Implement the fail-closed OpenRouter/OpenAI observed-query adapter, bilingual site, focused learning cluster and removal of obsolete manual tools from public navigation",
+      "Configure Turnstile, OpenRouter, high-entropy HMAC salt and atomic Redis only through owner-controlled Vercel secrets",
+      "Run live fixture and adversarial QA for query-field evidence, CAPTCHA, five-per-IP daily cap, global cap, parallel budget, timeout and provider failure before enabling the form"
+    ],
+    "days60": [
+      "Review at least 20 representative keyword runs for search-query visibility, zero-search behavior, citation usefulness, language/country effects and cost",
+      "Publish one rights-safe dated example using only fields authorized for public display and label it as one API run rather than a benchmark",
+      "Measure which bilingual learning pages attract relevant impressions before expanding the cluster"
+    ],
+    "days90": [
+      "Decide whether native Claude and Gemini adapters justify a separate model-comparison tool",
+      "Revise or disable the public route if OpenRouter does not expose stable query evidence or if cost, abuse, terms or usefulness fail",
+      "Do not build a paid batch service until retention, billing, account, provider-rights and workload-isolation contracts are separately approved"
+    ]
+  }
+}

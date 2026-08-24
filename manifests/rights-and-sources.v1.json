@@ -11,7 +11,7 @@
       "location": "C:\\Users\\matth\\Documents\\DomainPortfolio\\strategy\\domains\\ai-fanout.com.md",
       "checkedAt": "2026-08-22",
       "status": "accepted",
-      "supports": "Confirmed ownership and accepted primary AI Fanout Planner role, with the browser-local Evidence Lab retained as a secondary tool."
+      "supports": "Confirmed ownership and the accepted observed-query tool plus bilingual learning-hub role."
     },
     {
       "id": "ownership-record",
@@ -155,7 +155,7 @@
       "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\src\\scripts",
       "checkedAt": "2026-08-22",
       "status": "verified",
-      "supports": "Evidence Lab and Protocol Builder contain no fetch, XMLHttpRequest, sendBeacon, localStorage or sessionStorage path; exports use browser-created files after explicit actions."
+      "supports": "Historical local comparison utilities contained no transmission or browser storage path. Their public routes were retired on 2026-08-24 and now return 404."
     },
     {
       "id": "source-repository",
@@ -194,13 +194,31 @@
       "supports": "Supports one stateless Responses API call, store false, max output tokens and strict JSON Schema output."
     },
     {
+      "id": "openai-web-search",
+      "title": "OpenAI web search tool guide",
+      "kind": "primary_documentation",
+      "location": "https://developers.openai.com/api/docs/guides/tools-web-search",
+      "checkedAt": "2026-08-24",
+      "status": "verified",
+      "supports": "Documents web_search_call output and search actions that can include the query or queries searched. It does not expose chain of thought or guarantee that every route returns query strings."
+    },
+    {
+      "id": "openrouter-web-search",
+      "title": "OpenRouter web search server tool",
+      "kind": "primary_documentation",
+      "location": "https://openrouter.ai/docs/features/web-search",
+      "checkedAt": "2026-08-24",
+      "status": "verified_with_open_gate",
+      "supports": "Documents native web search, location hints and use limits. Exact query-string preservation for the chosen OpenAI route remains NOT PROVEN until a live response fixture is inspected."
+    },
+    {
       "id": "openai-gpt-5-4-nano",
       "title": "GPT-5.4 nano model documentation",
       "kind": "primary_documentation",
       "location": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
       "checkedAt": "2026-08-22",
-      "status": "verified",
-      "supports": "Current allowlisted low-cost planner model identity and published token pricing."
+      "status": "superseded_not_current",
+      "supports": "Historical planner model reference. It is not the current observed-query route."
     },
     {
       "id": "cloudflare-turnstile",
@@ -213,12 +231,12 @@
     },
     {
       "id": "planner-release-candidate",
-      "title": "AI Fanout Planner secured release candidate",
+      "title": "Observed AI fanout tool secured release candidate",
       "kind": "implementation_evidence",
       "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\src\\server\\fanout",
       "checkedAt": "2026-08-22",
       "status": "verified_closed_by_default",
-      "supports": "Strict input and output schemas, one allowlisted provider call, atomic quota and budget ledger, timeout, no raw application storage and fail-closed environment gate."
+      "supports": "Strict input and output schemas, one allowlisted OpenRouter-routed OpenAI web-search call, atomic quota and budget ledger, timeout, no raw application storage and fail-closed environment gate."
     }
   ],
   "rights": [
@@ -235,7 +253,7 @@
     {
       "assetClass": "AI provider outputs and source lists used in a future site-run dataset",
       "status": "single_transient_provider_call_no_application_archive",
-      "decision": "The secured planner sends one short question to the allowlisted OpenAI model with store false. ai-fanout.com does not store or publish raw provider outputs; any later examples or datasets require separate provenance, rights and review."
+      "decision": "The secured tool sends one short keyword plus locale choices through OpenRouter to an allowlisted OpenAI web-search model with store false. ai-fanout.com does not store or publish raw provider outputs; any later examples or datasets require separate provenance, rights and review."
     },
     {
       "assetClass": "Typography and production imagery",
@@ -248,13 +266,14 @@
       "decision": "Reference pages link to primary sources and paraphrase narrowly supported facts without republishing source documents or protected artwork."
     },
     {
-      "assetClass": "User-supplied answers, criteria, metadata and visible source URLs",
-      "status": "browser_local_user_controlled",
-      "decision": "Inputs are processed only in browser memory, are not transmitted by ai-fanout.com, and are exported only after an explicit user action."
+      "assetClass": "User keyword, language, country and transient observed-query result",
+      "status": "server_transient_no_application_archive",
+      "decision": "After activation, input is transmitted to the ai-fanout.com endpoint and routed through OpenRouter to OpenAI. The application stores no raw input, search query, source URL or provider response."
     }
   ],
   "unknowns": [
-    "OpenAI production API key and applicable processing terms are not yet configured for this Vercel project",
+    "OpenRouter production API key and applicable OpenRouter/OpenAI processing terms are not yet configured for this Vercel project",
+    "Exact provider-exposed query strings for the selected OpenRouter-routed OpenAI response shape remain NOT PROVEN by a live authorized fixture",
     "Cloudflare Turnstile production keys are not yet configured",
     "Upstash Redis production ledger credentials and a high-entropy bucket salt are not yet configured",
     "Google Search Console post-change crawl and index state after an eventual safe production release"

@@ -1,17 +1,33 @@
 ---
+interface Props { locale?: "en" | "de" }
+const { locale = "en" } = Astro.props;
 const siteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? "";
 const enabled = import.meta.env.PUBLIC_FANOUT_ENABLED === "true" && Boolean(siteKey);
+const copy = locale === "de" ? {
+  keyword: "Keyword oder kurze Frage", placeholder: "beste SEO Tools", country: "Land (optional)", language: "Sprache", auto: "Nicht festlegen", submit: "Fanout-Queries anzeigen", disabled: "Das kostenlose Tool ist vorbereitet, aber noch nicht freigeschaltet. Es bleibt geschlossen, bis CAPTCHA, Kostenlimit und der echte OpenRouter-Response-Test bestanden sind.", queries: "Beobachtete Suchanfragen", sources: "Verwendete Websites", model: "Modell", observed: "Zeitpunkt", status: "Nachweis", noSources: "Dieser Lauf hat keine auslesbaren Quellen zurückgegeben."
+} : {
+  keyword: "Keyword or short question", placeholder: "best SEO tools", country: "Country (optional)", language: "Language", auto: "Do not specify", submit: "Show fanout queries", disabled: "The free tool is prepared but not enabled yet. It stays closed until CAPTCHA, the cost limit, and a real OpenRouter response test have passed.", queries: "Observed search queries", sources: "Websites used", model: "Model", observed: "Observed", status: "Evidence", noSources: "This run returned no readable source URLs."
+};
 ---
-<section data-fanout-planner data-site-key={siteKey} data-enabled={String(enabled)}>
+<section data-fanout-planner data-site-key={siteKey} data-enabled={String(enabled)} data-locale={locale} data-no-sources={copy.noSources}>
   <form data-planner-form>
-    <label for="fanout-question">What do you want to explore?</label>
-    <textarea id="fanout-question" name="question" rows="2" maxlength="120" placeholder="How can I check whether my content appears in AI answers?" required></textarea>
-    <output data-question-count>0 / 120</output>
+    <label for={`fanout-keyword-${locale}`}>{copy.keyword}</label>
+    <input id={`fanout-keyword-${locale}`} name="keyword" maxlength="100" placeholder={copy.placeholder} required />
+    <output data-keyword-count>0 / 100</output>
+    <div class="tool-options">
+      <label>{copy.country}<select name="country"><option value="">{copy.auto}</option><option value="DE">Deutschland</option><option value="US">United States</option><option value="GB">United Kingdom</option><option value="AT">Österreich</option><option value="CH">Schweiz</option><option value="FR">France</option><option value="ES">España</option><option value="IT">Italia</option><option value="NL">Nederland</option></select></label>
+      <label>{copy.language}<select name="language"><option value="en" selected={locale === "en"}>English</option><option value="de" selected={locale === "de"}>Deutsch</option></select></label>
+    </div>
     <div data-turnstile-slot aria-label="Human verification"></div>
-    <button type="submit" disabled={!enabled}>Show follow-up questions</button>
-    {!enabled && <p role="status">The free tool is not open yet. We are finishing the safeguards that keep it private, reliable, and within a fixed cost limit. The guides below are already available.</p>}
+    <button type="submit" disabled={!enabled}>{copy.submit}</button>
+    {!enabled && <p role="status">{copy.disabled}</p>}
     <p data-form-status aria-live="polite"></p>
   </form>
-  <section data-plan-output hidden aria-live="polite"><h2 data-plan-summary></h2><dl><div><dt>Model</dt><dd data-plan-model></dd></div><div><dt>Planner</dt><dd data-plan-version></dd></div><div><dt>Generated</dt><dd data-plan-date></dd></div></dl><ol data-plan-branches></ol><p data-plan-notice></p><aside><h3>Branches are not a content strategy yet.</h3><p>Use SEO Fanout to decide which branch deserves a page, a section, consolidation or no action. Use Contextter for the broader evidence-led workflow.</p><small>Ownership disclosure: ai-fanout.com, SEO Fanout and Contextter are operated by Matthias Ramahi. These links are not independent recommendations.</small><nav><a href="https://seo-fanout.com" rel="external">Evaluate in SEO Fanout</a><a href="https://contextter.com" rel="external">Continue in Contextter</a></nav></aside></section>
+  <section data-plan-output hidden aria-live="polite">
+    <div class="result-head"><div><span>01</span><h2>{copy.queries}</h2></div><dl><div><dt>{copy.model}</dt><dd data-result-model></dd></div><div><dt>{copy.observed}</dt><dd data-result-date></dd></div><div><dt>{copy.status}</dt><dd data-result-evidence></dd></div></dl></div>
+    <ol data-result-queries></ol>
+    <div class="source-results"><h3>{copy.sources}</h3><ol data-result-sources></ol><p data-no-sources hidden>{copy.noSources}</p></div>
+    <p data-result-notice></p>
+  </section>
 </section>
 <script src="../scripts/fanout-planner.ts"></script>
