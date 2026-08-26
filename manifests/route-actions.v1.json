@@ -29,11 +29,11 @@
   ],
   "notes": [
     "ai-fanout.com was newly registered by Matthias Ramahi for this project.",
-    "The canonical English and German homepages introduce the fail-closed observed-query tool and the focused learning hub.",
+    "The canonical English and German homepages provide the live CAPTCHA-protected modelled-fanout tool and the focused learning hub.",
     "/library and /de/lernen each contain eight intent-distinct, paired guides with reciprocal hreflang annotations.",
-    "/methodology and /de/methode explain the observed-query contract. Manual comparison and research routes are retired from public IA, noindex and excluded from the sitemap.",
+    "/methodology and /de/methode explain the structured modelled-fanout contract. Manual comparison and research routes are retired from public IA, noindex and excluded from the sitemap.",
     "The sitemap is generated from Astro static routes and excludes noindex, error and API paths.",
-    "The API is closed by default and may not be publicly enabled until all CAPTCHA, atomic quota, cost and provider secrets are configured and live-tested.",
+    "The API is enabled only when CAPTCHA, atomic quota, cost and provider secrets plus both explicit public flags are configured.",
     "Unknown paths return a real 404 and are not redirected to the homepage."
   ]
 }

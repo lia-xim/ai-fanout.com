@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HomePage from "../components/HomePage.astro";
-const appSchema = { "@context": "https://schema.org", "@type": "WebApplication", name: "Free AI Query Fanout Tool", url: "https://ai-fanout.com/", applicationCategory: "BusinessApplication", operatingSystem: "Any", description: "Shows web-search queries and cited source URLs exposed by one bounded OpenAI web-search API run.", offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" }, creator: { "@type": "Person", name: "Matthias Ramahi" }, featureList: ["Observed provider-exposed web-search queries", "Visible cited source URLs", "Optional language and country"] };
+const appSchema = { "@context": "https://schema.org", "@type": "WebApplication", name: "Free AI Query Fanout Tool", url: "https://ai-fanout.com/", applicationCategory: "BusinessApplication", operatingSystem: "Any", description: "Creates ten modelled follow-up searches for one keyword with a user-selected AI model.", offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" }, creator: { "@type": "Person", name: "Matthias Ramahi" }, featureList: ["Ten modelled follow-up searches", "Choice of three allowlisted models", "Intent and rationale for every query", "Optional language and country"] };
 ---
 <BaseLayout canonicalPath="/" alternatePath="/de" pageClass="planner-home" structuredData={appSchema}><HomePage locale="en"/></BaseLayout>

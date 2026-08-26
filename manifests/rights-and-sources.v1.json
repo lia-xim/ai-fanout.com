@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-22.8",
+  "manifestVersion": "2026-08-26.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-08-22",
+  "reviewedAt": "2026-08-26",
   "sources": [
     {
       "id": "portfolio-dossier",
@@ -11,7 +11,7 @@
       "location": "C:\\Users\\matth\\Documents\\DomainPortfolio\\strategy\\domains\\ai-fanout.com.md",
       "checkedAt": "2026-08-22",
       "status": "accepted",
-      "supports": "Confirmed ownership and the accepted observed-query tool plus bilingual learning-hub role."
+      "supports": "Confirmed ownership and the owner-approved modelled-fanout tool plus bilingual learning-hub role."
     },
     {
       "id": "ownership-record",
@@ -185,6 +185,15 @@
       "supports": "Automatic sitemap generation from statically generated Astro routes with route filtering."
     },
     {
+      "id": "openrouter-model-catalog-2026-08-26",
+      "title": "OpenRouter model catalog",
+      "kind": "primary_provider_documentation",
+      "location": "https://openrouter.ai/api/v1/models",
+      "checkedAt": "2026-08-26",
+      "status": "verified_live",
+      "supports": "Confirms the pinned GPT-5.6 Luna, DeepSeek V4 Flash 0731 and Gemini 3.7 Flash model IDs, structured-output support and current token pricing used for the allowlist decision."
+    },
+    {
       "id": "openai-responses-api",
       "title": "OpenAI Responses API reference",
       "kind": "primary_documentation",
@@ -231,12 +240,12 @@
     },
     {
       "id": "planner-release-candidate",
-      "title": "Observed AI fanout tool secured release candidate",
+      "title": "Modelled AI fanout tool secured release candidate",
       "kind": "implementation_evidence",
       "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\src\\server\\fanout",
       "checkedAt": "2026-08-22",
       "status": "verified_closed_by_default",
-      "supports": "Strict input and output schemas, one allowlisted OpenRouter-routed OpenAI web-search call, atomic quota and budget ledger, timeout, no raw application storage and fail-closed environment gate."
+      "supports": "Strict input and ten-item output schemas, one selected allowlisted OpenRouter model call, atomic quota and budget ledger, timeout, no raw application storage and fail-closed environment gate."
     }
   ],
   "rights": [
@@ -253,7 +262,7 @@
     {
       "assetClass": "AI provider outputs and source lists used in a future site-run dataset",
       "status": "single_transient_provider_call_no_application_archive",
-      "decision": "The secured tool sends one short keyword plus locale choices through OpenRouter to an allowlisted OpenAI web-search model with store false. ai-fanout.com does not store or publish raw provider outputs; any later examples or datasets require separate provenance, rights and review."
+      "decision": "The secured tool sends one short keyword, selected model and locale choices through OpenRouter to one allowlisted model. ai-fanout.com does not store or publish raw provider outputs; any later examples or datasets require separate provenance, rights and review."
     },
     {
       "assetClass": "Typography and production imagery",
@@ -266,16 +275,14 @@
       "decision": "Reference pages link to primary sources and paraphrase narrowly supported facts without republishing source documents or protected artwork."
     },
     {
-      "assetClass": "User keyword, language, country and transient observed-query result",
+      "assetClass": "User keyword, selected model, language, country and transient modelled-fanout result",
       "status": "server_transient_no_application_archive",
-      "decision": "After activation, input is transmitted to the ai-fanout.com endpoint and routed through OpenRouter to OpenAI. The application stores no raw input, search query, source URL or provider response."
+      "decision": "Input is transmitted to the ai-fanout.com endpoint and routed through OpenRouter to the selected OpenAI, DeepSeek or Google model. The application stores no raw input or provider response."
     }
   ],
   "unknowns": [
-    "OpenRouter production API key and applicable OpenRouter/OpenAI processing terms are not yet configured for this Vercel project",
-    "Exact provider-exposed query strings for the selected OpenRouter-routed OpenAI response shape remain NOT PROVEN by a live authorized fixture",
-    "Cloudflare Turnstile production keys are not yet configured",
-    "Upstash Redis production ledger credentials and a high-entropy bucket salt are not yet configured",
+    "Provider terms for transient processing across OpenRouter, OpenAI, DeepSeek and Google require ongoing operator review",
+    "No public provider comparison benchmark or retained output corpus is authorized",
     "Google Search Console post-change crawl and index state after an eventual safe production release"
   ]
 }
