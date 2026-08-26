@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { MODEL_ID, REQUEST_RESERVE_MICRO_EUR, TOOL_VERSION, ToolError, validateKeyword } from "../src/server/fanout/contracts.mjs";
 import { OpenRouterObservedQueryProvider, extractObservedResult } from "../src/server/fanout/provider.mjs";
 import { MemoryQuotaLedger } from "../src/server/fanout/quota.mjs";
-import { createObservedQueryService } from "../src/server/fanout/service.mjs";
+import { createObservedQueryService, verifyTurnstile } from "../src/server/fanout/service.mjs";
 
 const result = { queries:[{query:"best SEO tools"},{query:"SEO software for agencies"}], sources:[{url:"https://example.com/guide",title:"Guide"}], searchCallCount:2 };
 const okProvider = { observe: async () => ({ result, inputTokens:100, outputTokens:20, actualCostMicroEur:1_000, latencyMs:20, model:MODEL_ID, provider:"openrouter" }) };
@@ -13,6 +13,13 @@ const body = { keyword:"SEO tools", language:"en", country:"DE", turnstileToken:
 test("validates Unicode, byte, URL, file and multiline limits",()=>{assert.equal(validateKeyword("  SEO tools  "),"SEO tools");assert.throws(()=>validateKeyword("x"),/KEYWORD_TOO_SHORT/);assert.throws(()=>validateKeyword("🙂".repeat(61)),/KEYWORD_TOO_LONG/);assert.throws(()=>validateKeyword("https://example.com"),/URL_NOT_ALLOWED/);assert.throws(()=>validateKeyword("upload report.pdf"),/FILES_NOT_ALLOWED/);assert.throws(()=>validateKeyword("seo\ntools"),/KEYWORD_MULTILINE/)});
 test("request object is strict before CAPTCHA",async()=>{const ctx=create();await assert.rejects(()=>ctx.service({body:{...body,extra:"no"},remoteIp:"1.2.3.4"}),/INVALID_REQUEST/);assert.equal(ctx.captchaCalls,0)});
 test("failed CAPTCHA does not reserve budget",async()=>{const ctx=create();await assert.rejects(()=>ctx.service({body:{...body,turnstileToken:"bad"},remoteIp:"1.2.3.4"}),/CAPTCHA_FAILED/);assert.equal(ctx.ledger.records.size,0)});
+test("Turnstile requires success, expected action and approved hostname",async()=>{
+  const expectedHostnames=new Set(["ai-fanout.com"]);
+  const verify=(result)=>verifyTurnstile({token:"valid",secret:"secret",remoteIp:"1.2.3.4",expectedAction:"fanout",expectedHostnames,fetchImpl:async()=>({ok:true,json:async()=>result})});
+  await assert.doesNotReject(()=>verify({success:true,action:"fanout",hostname:"ai-fanout.com"}));
+  await assert.rejects(()=>verify({success:true,action:"other",hostname:"ai-fanout.com"}),/CAPTCHA_FAILED/);
+  await assert.rejects(()=>verify({success:true,action:"fanout",hostname:"attacker.example"}),/CAPTCHA_FAILED/);
+});
 test("five runs per hashed IP bucket and sixth is blocked",async()=>{const ctx=create();for(let i=0;i<5;i++)await ctx.service({body:{...body,keyword:`SEO tools ${i}`},remoteIp:"1.2.3.4"});await assert.rejects(()=>ctx.service({body:{...body,keyword:"SEO tools six"},remoteIp:"1.2.3.4"}),/RATE_LIMIT/)});
 test("global daily limit blocks run 41",async()=>{const ctx=create();for(let i=0;i<40;i++)await ctx.service({body:{...body,keyword:`SEO topic ${i}`},remoteIp:`10.0.0.${i}`});await assert.rejects(()=>ctx.service({body:{...body,keyword:"last topic"},remoteIp:"10.0.1.1"}),/GLOBAL_LIMIT/)});
 test("parallel reservations cannot cross hard monthly budget",async()=>{const ledger=new MemoryQuotaLedger({spent:24_980_000});ledger.reserved=4_700_000;const calls=[1,2,3].map(i=>ledger.reserve({bucketHash:`b${i}`,reservationId:`r${i}`,questionHash:`q${i}`,model:MODEL_ID,plannerVersion:TOOL_VERSION}));const settled=await Promise.allSettled(calls);assert.equal(settled.filter(item=>item.status==="fulfilled").length,2);assert.equal(settled.filter(item=>item.status==="rejected"&&item.reason.code==="BUDGET_LIMIT").length,1);assert.equal(ledger.reserved,4_700_000+2*REQUEST_RESERVE_MICRO_EUR)});

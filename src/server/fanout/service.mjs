@@ -2,11 +2,16 @@ import { createHmac, randomUUID } from "node:crypto";
 import { METHOD_VERSION, MODEL_ID, PROVIDER_ID, TOOL_VERSION, ToolError, requestSchema, validateKeyword } from "./contracts.mjs";
 
 export function keyedHash(secret, value) { return createHmac("sha256", secret).update(value).digest("hex"); }
-export async function verifyTurnstile({ token, secret, remoteIp, fetchImpl = fetch }) {
+export async function verifyTurnstile({ token, secret, remoteIp, expectedAction, expectedHostnames, fetchImpl = fetch }) {
+  if (typeof token !== "string" || token.length === 0 || token.length > 2048 || !expectedAction || !(expectedHostnames instanceof Set) || expectedHostnames.size === 0) {
+    throw new ToolError("CAPTCHA_FAILED", 403);
+  }
   let response;
-  try { response = await fetchImpl("https://challenges.cloudflare.com/turnstile/v0/siteverify", { method: "POST", body: new URLSearchParams({ secret, response: token, remoteip: remoteIp ?? "" }), signal: AbortSignal.timeout(5000) }); }
+  try { response = await fetchImpl("https://challenges.cloudflare.com/turnstile/v0/siteverify", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: new URLSearchParams({ secret, response: token, remoteip: remoteIp ?? "" }), signal: AbortSignal.timeout(5000) }); }
   catch { throw new ToolError("CAPTCHA_UNAVAILABLE", 503); }
-  if (!response.ok || !(await response.json()).success) throw new ToolError("CAPTCHA_FAILED", 403);
+  if (!response.ok) throw new ToolError("CAPTCHA_FAILED", 403);
+  const result = await response.json();
+  if (!result.success || result.action !== expectedAction || !expectedHostnames.has(result.hostname)) throw new ToolError("CAPTCHA_FAILED", 403);
 }
 export function createObservedQueryService({ ledger, provider, captchaVerifier, bucketSalt, now = () => new Date() }) {
   return async function run({ body, remoteIp = "unknown" }) {
