@@ -1,26 +1,30 @@
 # ai-fanout.com
 
-Bilingual Astro site for a free, bounded AI query fanout tool and a focused learning area.
+Bilingual Astro site for a bounded native AI query-fanout tool and focused learning area.
 
 ## Product
 
-A visitor enters one keyword or short question, chooses GPT-5.6 Luna, DeepSeek V4 Flash or Gemini 3.7 Flash, and can optionally select language and country. One allowlisted model is called through OpenRouter. A strict JSON schema requires exactly ten distinct follow-up searches, each with an intent and short reason.
+Native Fanout is the primary mode. A visitor enters one short topic, chooses OpenAI or Gemini, and may select language and country. The server makes one direct provider API request with native web search enabled:
 
-The output is a modelled research plan. The site does not inspect ChatGPT, Google, browser network traffic, system prompts, chain of thought or private retrieval traces, and it never labels generated branches as real hidden provider queries.
+- OpenAI Responses API with GPT-5.6 Luna and the built-in `web_search` tool;
+- Gemini Interactions API with Gemini 3.7 Flash and `google_search`.
 
-English lives at `/`, `/methodology`, and `/library/...`. German lives at `/de/`, `/de/methode`, and `/de/lernen/...`; paired pages publish reciprocal `hreflang` links.
+The result contains only query strings and sources that the provider API exposes in that run. It is not a capture of the ChatGPT or Gemini consumer interface and never claims chain of thought or private retrieval traces.
+
+Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenRouter model to generate exactly ten modelled research directions without performing web search.
 
 ## Security and cost boundary
 
-- keyword: 2–100 Unicode characters, at most 240 UTF-8 bytes;
+- topic: 2–60 Unicode characters and at most 160 UTF-8 bytes;
 - no URLs, files, line breaks or additional request fields;
-- Cloudflare Turnstile before budget reservation;
+- server-side Cloudflare Turnstile before budget reservation;
 - five attempts per salted IP bucket in 24 hours and 40 site-wide per UTC day;
-- EUR 0.15 reserved per request, EUR 25 soft and EUR 30 hard monthly limits;
-- exactly one allowlisted OpenRouter call, 800 output tokens, 20-second timeout and no retry;
-- strict ten-item JSON output contract;
-- no raw keyword or provider response stored by ai-fanout.com;
-- server-only secrets and explicit public enable flags.
+- shared atomic EUR 25 soft / EUR 30 hard monthly ledger;
+- Native Fanout reserves EUR 0.50 per request; Search Ideas reserves EUR 0.15;
+- one direct provider request, 20-second timeout and no retry;
+- OpenAI is limited to eight web-search tool calls; Gemini is instructed to use no more than eight queries and remains disabled until a real cost run is approved;
+- no raw topic or provider response stored by ai-fanout.com;
+- provider keys stay server-only and every public mode has an explicit enable flag.
 
 ## Verify
 
@@ -29,6 +33,6 @@ corepack pnpm verify:planner
 corepack pnpm qa
 ```
 
-The checks cover strict input, model allowlisting, structured output, CAPTCHA order, IP/global limits, parallel budget reservations, provider errors, timeout, secret isolation, bilingual canonicals/hreflang, sitemap exclusions, internal links and real 404 behavior.
+The focused tests cover both provider parsers, zero-query honesty, strict input, model/provider allowlisting, CAPTCHA order, IP/global limits, parallel budget reservations, provider errors, timeout and secret isolation.
 
 Current code and copy are owner-created. Linked documentation is narrowly paraphrased. No open-source license is granted unless a later `LICENSE` file says otherwise.

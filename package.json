@@ -14,7 +14,7 @@
     "check": "astro check",
     "qa": "node scripts/qa.mjs",
     "verify": "pnpm build && pnpm qa",
-    "test:planner": "node --test scripts/planner.test.mjs scripts/export-contract.test.mjs",
+    "test:planner": "node --test scripts/planner.test.mjs scripts/native-fanout.test.mjs scripts/export-contract.test.mjs",
     "qa:planner": "node scripts/planner-qa.mjs",
     "verify:planner": "pnpm build && pnpm test:planner && pnpm qa:planner"
   },

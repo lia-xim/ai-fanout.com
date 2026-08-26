@@ -28,7 +28,7 @@ return {'OK'}
 `;
 
 export class RedisQuotaLedger {
-  constructor({ url, token, now = () => new Date() }) { this.url = url.replace(/\/$/, ""); this.token = token; this.now = now; }
+  constructor({ url, token, now = () => new Date(), reserveMicroEur = REQUEST_RESERVE_MICRO_EUR }) { this.url = url.replace(/\/$/, ""); this.token = token; this.now = now; this.reserveMicroEur = reserveMicroEur; }
   async command(parts) {
     const response = await fetch(this.url, { method: "POST", headers: { Authorization: `Bearer ${this.token}`, "Content-Type": "application/json" }, body: JSON.stringify(parts), signal: AbortSignal.timeout(4000) });
     if (!response.ok) throw new ToolError("LEDGER_UNAVAILABLE", 503);
@@ -44,7 +44,7 @@ export class RedisQuotaLedger {
   }
   async reserve({ bucketHash, reservationId, questionHash, model, plannerVersion }) {
     const now = this.now();
-    const args = [5, 40, 25_000_000, 30_000_000, REQUEST_RESERVE_MICRO_EUR, 86_400, 172_800, 3_456_000, questionHash, model, plannerVersion, now.toISOString()];
+    const args = [5, 40, 25_000_000, 30_000_000, this.reserveMicroEur, 86_400, 172_800, 3_456_000, questionHash, model, plannerVersion, now.toISOString()];
     const result = await this.command(["EVAL", RESERVE_SCRIPT, 4, ...this.keys(bucketHash, reservationId), ...args.map(String)]);
     const code = result?.[0];
     if (code === "RATE_LIMIT") throw new ToolError("RATE_LIMIT", 429);
@@ -60,9 +60,9 @@ export class RedisQuotaLedger {
 }
 
 export class MemoryQuotaLedger {
-  constructor({ now = () => new Date(), spent = 0 } = {}) { this.now = now; this.spent = spent; this.reserved = 0; this.buckets = new Map(); this.daily = 0; this.records = new Map(); this.lock = Promise.resolve(); }
+  constructor({ now = () => new Date(), spent = 0, reserveMicroEur = REQUEST_RESERVE_MICRO_EUR } = {}) { this.now = now; this.spent = spent; this.reserveMicroEur = reserveMicroEur; this.reserved = 0; this.buckets = new Map(); this.daily = 0; this.records = new Map(); this.lock = Promise.resolve(); }
   async atomic(fn) { const before = this.lock; let release; this.lock = new Promise((r) => { release = r; }); await before; try { return fn(); } finally { release(); } }
-  reserve(data) { return this.atomic(() => { const count = this.buckets.get(data.bucketHash) ?? 0; if (count >= 5) throw new ToolError("RATE_LIMIT", 429); if (this.daily >= 40) throw new ToolError("GLOBAL_LIMIT", 429); if (this.spent >= 25_000_000 || this.spent + this.reserved + REQUEST_RESERVE_MICRO_EUR > 30_000_000) throw new ToolError("BUDGET_LIMIT", 503); this.buckets.set(data.bucketHash, count + 1); this.daily++; this.reserved += REQUEST_RESERVE_MICRO_EUR; this.records.set(data.reservationId, { ...data, status: "reserved", amount: REQUEST_RESERVE_MICRO_EUR }); return { reservationId: data.reservationId }; }); }
+  reserve(data) { return this.atomic(() => { const count = this.buckets.get(data.bucketHash) ?? 0; if (count >= 5) throw new ToolError("RATE_LIMIT", 429); if (this.daily >= 40) throw new ToolError("GLOBAL_LIMIT", 429); if (this.spent >= 25_000_000 || this.spent + this.reserved + this.reserveMicroEur > 30_000_000) throw new ToolError("BUDGET_LIMIT", 503); this.buckets.set(data.bucketHash, count + 1); this.daily++; this.reserved += this.reserveMicroEur; this.records.set(data.reservationId, { ...data, status: "reserved", amount: this.reserveMicroEur }); return { reservationId: data.reservationId }; }); }
   settle(data) { return this.atomic(() => { const record = this.records.get(data.reservationId); if (!record || record.status !== "reserved") return ["ALREADY_SETTLED"]; this.reserved -= record.amount; this.spent += data.actualCostMicroEur; Object.assign(record, data); return ["OK"]; }); }
 }
 

@@ -31,7 +31,7 @@ export function validateKeyword(value) {
   const characters = [...keyword].length;
   const bytes = Buffer.byteLength(keyword, "utf8");
   if (characters < 2) throw new ToolError("KEYWORD_TOO_SHORT", 400);
-  if (characters > 100 || bytes > 240) throw new ToolError("KEYWORD_TOO_LONG", 400);
+  if (characters > 60 || bytes > 160) throw new ToolError("KEYWORD_TOO_LONG", 400);
   if (/\r|\n/.test(keyword)) throw new ToolError("KEYWORD_MULTILINE", 400);
   if (/(?:https?:\/\/|www\.|\b[a-z0-9-]+\.(?:com|de|org|net|io|ai|co)\b)/i.test(keyword)) throw new ToolError("URL_NOT_ALLOWED", 400);
   if (/(?:attach(?:ment)?|upload|file:\/\/|\.pdf\b|\.docx?\b|\.csv\b)/i.test(keyword)) throw new ToolError("FILES_NOT_ALLOWED", 400);

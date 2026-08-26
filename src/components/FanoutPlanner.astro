@@ -3,28 +3,38 @@ import { MODEL_OPTIONS } from "../server/fanout/contracts.mjs";
 interface Props { locale?: "en" | "de" }
 const { locale = "en" } = Astro.props;
 const siteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? "";
-const enabled = import.meta.env.PUBLIC_FANOUT_ENABLED === "true" && Boolean(siteKey);
+const modelledEnabled = import.meta.env.PUBLIC_FANOUT_ENABLED === "true" && Boolean(siteKey);
+const nativeEnabled = import.meta.env.PUBLIC_NATIVE_FANOUT_ENABLED === "true" && Boolean(siteKey);
+const enabled = modelledEnabled || nativeEnabled;
 const de = locale === "de";
 const copy = de ? {
-  keyword: "Keyword oder kurze Frage", placeholder: "beste SEO Tools", country: "Land", language: "Sprache", model: "Modell wählen", auto: "Alle Länder", submit: "Fanout erstellen", loading: "Fanout wird erstellt …", disabled: "Das kostenlose Tool ist vorübergehend nicht verfügbar.", resultCount: "10 weiterführende Suchanfragen", original: "Dein Keyword", locale: "Markt und Sprache", evidence: "Einordnung", evidenceValue: "Modellierter Fanout — keine versteckten Provider-Queries", intent: "Intent", why: "Warum", copyAll: "Alle kopieren", copied: "Kopiert", again: "Neues Keyword", close: "Schließen", notice: "Simulation auf Basis des gewählten Modells. Kein Protokoll versteckter Suchanfragen oder Gedankengänge."
+  keyword: "Keyword oder kurze Frage", placeholder: "beste SEO Tools", country: "Land", language: "Sprache", model: "Modell wählen", provider: "Anbieter wählen", auto: "Alle Länder", submit: "Suchanfragen anzeigen", loading: "Suche wird ausgeführt …", disabled: "Dieser Modus ist noch nicht freigeschaltet.", resultCount: "ausgeführte Suchanfragen", original: "Deine Eingabe", locale: "Markt und Sprache", evidence: "Was du siehst", intent: "Intent", why: "Warum", copyAll: "Alle kopieren", copied: "Kopiert", again: "Neue Eingabe", close: "Schließen", native: "Native Fanout", nativeHelp: "Echte Suchaktionen, die die Anbieter-API in diesem Lauf offenlegt.", modelled: "Suchideen", modelledHelp: "Zehn erzeugte Suchrichtungen. Keine Websuche.", sources: "Zitierte Quellen"
 } : {
-  keyword: "Keyword or short question", placeholder: "best SEO tools", country: "Country", language: "Language", model: "Choose a model", auto: "All countries", submit: "Build fanout", loading: "Building fanout …", disabled: "The free tool is temporarily unavailable.", resultCount: "10 follow-up searches", original: "Your keyword", locale: "Market and language", evidence: "Evidence", evidenceValue: "Modelled fanout — not hidden provider queries", intent: "Intent", why: "Why", copyAll: "Copy all", copied: "Copied", again: "New keyword", close: "Close", notice: "A simulation from the selected model. Not a log of hidden searches or chain of thought."
+  keyword: "Keyword or short question", placeholder: "best SEO tools", country: "Country", language: "Language", model: "Choose a model", provider: "Choose a provider", auto: "All countries", submit: "Show search queries", loading: "Running search …", disabled: "This mode is not enabled yet.", resultCount: "executed search queries", original: "Your input", locale: "Market and language", evidence: "What this shows", intent: "Intent", why: "Why", copyAll: "Copy all", copied: "Copied", again: "New input", close: "Close", native: "Native fanout", nativeHelp: "Real search actions exposed by the provider API in this run.", modelled: "Search ideas", modelledHelp: "Ten generated search directions. No web search.", sources: "Cited sources"
 };
 ---
-<section data-fanout-planner data-site-key={siteKey} data-enabled={String(enabled)} data-locale={locale} data-loading-label={copy.loading} data-submit-label={copy.submit} data-copied-label={copy.copied}>
+<section data-fanout-planner data-site-key={siteKey} data-enabled={String(enabled)} data-native-enabled={String(nativeEnabled)} data-modelled-enabled={String(modelledEnabled)} data-locale={locale} data-loading-label={copy.loading} data-submit-label={copy.submit} data-copied-label={copy.copied}>
   <form data-planner-form>
+    <fieldset class="mode-picker"><legend>{de ? "Modus" : "Mode"}</legend>
+      <label><input type="radio" name="mode" value="native" checked={nativeEnabled}/><span><strong>{copy.native}</strong><small>{copy.nativeHelp}</small></span></label>
+      <label><input type="radio" name="mode" value="modelled" checked={!nativeEnabled}/><span><strong>{copy.modelled}</strong><small>{copy.modelledHelp}</small></span></label>
+    </fieldset>
     <div class="query-line">
       <label for={`fanout-keyword-${locale}`}>{copy.keyword}</label>
-      <div><input id={`fanout-keyword-${locale}`} name="keyword" maxlength="100" placeholder={copy.placeholder} required autocomplete="off"/><output data-keyword-count>0 / 100</output></div>
+      <div><input id={`fanout-keyword-${locale}`} name="keyword" maxlength="60" placeholder={copy.placeholder} required autocomplete="off"/><output data-keyword-count>0 / 60</output></div>
       <button type="submit" disabled={!enabled}>{copy.submit}<span aria-hidden="true">→</span></button>
     </div>
-    <fieldset class="model-picker"><legend>{copy.model}</legend>{MODEL_OPTIONS.map((model, index) => <label><input type="radio" name="model" value={model.id} checked={index === 0}/><span><strong>{model.label}</strong><small>{model.provider}</small></span></label>)}</fieldset>
+    <fieldset class="model-picker native-picker" data-native-picker><legend>{copy.provider}</legend>
+      <label><input type="radio" name="provider" value="openai" checked/><span><strong>OpenAI</strong><small>GPT-5.6 Luna</small></span></label>
+      <label><input type="radio" name="provider" value="gemini"/><span><strong>Gemini</strong><small>Gemini 3.7 Flash</small></span></label>
+    </fieldset>
+    <fieldset class="model-picker" data-modelled-picker hidden><legend>{copy.model}</legend>{MODEL_OPTIONS.map((model, index) => <label><input type="radio" name="model" value={model.id} checked={index === 0}/><span><strong>{model.label}</strong><small>{model.provider}</small></span></label>)}</fieldset>
     <div class="tool-options">
       <label>{copy.country}<select name="country"><option value="">{copy.auto}</option><option value="DE">Deutschland</option><option value="US">United States</option><option value="GB">United Kingdom</option><option value="AT">Österreich</option><option value="CH">Schweiz</option><option value="FR">France</option><option value="ES">España</option><option value="IT">Italia</option><option value="NL">Nederland</option></select></label>
       <label>{copy.language}<select name="language"><option value="en" selected={!de}>English</option><option value="de" selected={de}>Deutsch</option></select></label>
       <div class="human-check"><span>{de ? "Missbrauchsschutz" : "Abuse protection"}</span><div data-turnstile-slot aria-label={de ? "Bestätigung, dass du ein Mensch bist" : "Human verification"}></div></div>
     </div>
-    {!enabled && <p role="status" class="tool-disabled">{copy.disabled}</p>}
+    <p role="status" class="tool-disabled" data-mode-availability hidden>{copy.disabled}</p>
     <p data-form-status aria-live="polite" class="form-status"></p>
   </form>
 
@@ -32,11 +42,27 @@ const copy = de ? {
     <div class="result-modal">
       <button class="modal-close" type="button" data-dialog-close aria-label={copy.close}><span aria-hidden="true">×</span><span>{copy.close}</span></button>
       <header class="result-title"><p>{copy.original}</p><h2 id={`fanout-result-title-${locale}`} data-result-keyword></h2><strong><span data-result-count>10</span> {copy.resultCount.replace(/^10 /, "")}</strong></header>
-      <div class="result-meta"><div><span>{de ? "Modell" : "Model"}</span><b data-result-model></b></div><div><span>{copy.locale}</span><b data-result-locale></b></div><div><span>{copy.evidence}</span><b>{copy.evidenceValue}</b></div></div>
+      <div class="result-meta"><div><span>{de ? "Modell" : "Model"}</span><b data-result-model></b></div><div><span>{copy.locale}</span><b data-result-locale></b></div><div><span>{copy.evidence}</span><b data-result-evidence></b></div></div>
       <div class="result-actions"><button type="button" data-copy-results>{copy.copyAll}</button><button type="button" data-new-keyword>{copy.again}</button></div>
       <ol data-result-queries aria-label={copy.resultCount}></ol>
-      <footer><p data-result-notice>{copy.notice}</p><span data-result-date></span></footer>
+      <section class="result-sources" data-result-sources-section hidden><h3>{copy.sources}</h3><ul data-result-sources></ul></section>
+      <footer><p data-result-notice></p><span data-result-date></span></footer>
     </div>
   </dialog>
 </section>
 <script src="../scripts/fanout-planner.ts"></script>
+<style>
+  [hidden]{display:none!important}
+  .mode-picker{display:grid;grid-template-columns:1fr 1fr;margin:0 0 1.25rem;padding:0;border:0}
+  .mode-picker legend{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .mode-picker label{position:relative}.mode-picker input{position:absolute;opacity:0}
+  .mode-picker span{display:grid;min-height:4.4rem;align-content:center;padding:.85rem 1rem;border:1px solid var(--rule);cursor:pointer}
+  .mode-picker label+label span{border-left:0}.mode-picker strong{font-size:.9rem}.mode-picker small{margin-top:.35rem;color:var(--muted);font-size:.68rem;line-height:1.35}
+  .mode-picker input:checked+span{border-color:var(--source);background:var(--source-soft);box-shadow:inset 0 -2px var(--source)}
+  .mode-picker input:focus-visible+span{outline:2px solid var(--focus);outline-offset:3px}
+  .native-picker{grid-template-columns:repeat(2,1fr)}
+  .result-sources{grid-column:1/-1;padding:1.25rem 0;border-bottom:1px solid var(--rule)}
+  .result-sources h3{margin:0 0 .85rem;color:var(--source);font:.65rem/1 var(--font-mono);text-transform:uppercase}
+  .result-sources ul{display:grid;gap:.5rem;margin:0;padding:0;list-style:none}.result-sources a{color:var(--ink);font-size:.78rem;overflow-wrap:anywhere}
+  @media(max-width:680px){.mode-picker{grid-template-columns:1fr}.mode-picker label+label span{border-top:0;border-left:1px solid var(--rule)}}
+</style>

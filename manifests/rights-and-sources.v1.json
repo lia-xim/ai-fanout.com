@@ -212,6 +212,24 @@
       "supports": "Documents web_search_call output and search actions that can include the query or queries searched. It does not expose chain of thought or guarantee that every route returns query strings."
     },
     {
+      "id": "openai-gpt-5-6-luna-2026-08-26",
+      "title": "GPT-5.6 Luna model documentation",
+      "kind": "primary_provider_documentation",
+      "location": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+      "checkedAt": "2026-08-26",
+      "status": "verified",
+      "supports": "Confirms the direct API model ID gpt-5.6-luna and Responses API web-search support."
+    },
+    {
+      "id": "gemini-google-search-2026-08-26",
+      "title": "Gemini grounding with Google Search",
+      "kind": "primary_provider_documentation",
+      "location": "https://ai.google.dev/gemini-api/docs/google-search",
+      "checkedAt": "2026-08-26",
+      "status": "verified",
+      "supports": "Documents Gemini 3.7 Flash Google Search, google_search_call arguments.queries, cited URL annotations and per-query billing."
+    },
+    {
       "id": "openrouter-web-search",
       "title": "OpenRouter web search server tool",
       "kind": "primary_documentation",
@@ -246,6 +264,15 @@
       "checkedAt": "2026-08-22",
       "status": "verified_closed_by_default",
       "supports": "Strict input and ten-item output schemas, one selected allowlisted OpenRouter model call, atomic quota and budget ledger, timeout, no raw application storage and fail-closed environment gate."
+    },
+    {
+      "id": "native-fanout-release-candidate-2026-08-26",
+      "title": "Direct OpenAI and Gemini native-fanout implementation",
+      "kind": "implementation_evidence",
+      "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\src\\server\\fanout\\native-provider.mjs",
+      "checkedAt": "2026-08-26",
+      "status": "verified_closed_by_default_live_fixture_pending",
+      "supports": "One direct provider request, strict provider allowlist, provider-exposed query/source parsing, honest zero-query output, CAPTCHA-first shared atomic quota and budget accounting, no raw application storage and separate fail-closed public flag."
     }
   ],
   "rights": [
@@ -262,7 +289,7 @@
     {
       "assetClass": "AI provider outputs and source lists used in a future site-run dataset",
       "status": "single_transient_provider_call_no_application_archive",
-      "decision": "The secured tool sends one short keyword, selected model and locale choices through OpenRouter to one allowlisted model. ai-fanout.com does not store or publish raw provider outputs; any later examples or datasets require separate provenance, rights and review."
+      "decision": "The secured modes make one transient direct OpenAI/Gemini native-search request or one OpenRouter modelled-ideas request. ai-fanout.com does not archive or auto-publish raw provider outputs; any later examples or datasets require separate provenance, rights and review."
     },
     {
       "assetClass": "Typography and production imagery",
@@ -275,12 +302,13 @@
       "decision": "Reference pages link to primary sources and paraphrase narrowly supported facts without republishing source documents or protected artwork."
     },
     {
-      "assetClass": "User keyword, selected model, language, country and transient modelled-fanout result",
+      "assetClass": "User topic, selected mode/provider, language, country and transient fanout result",
       "status": "server_transient_no_application_archive",
-      "decision": "Input is transmitted to the ai-fanout.com endpoint and routed through OpenRouter to the selected OpenAI, DeepSeek or Google model. The application stores no raw input or provider response."
+      "decision": "Input is transmitted to the ai-fanout.com endpoint and routed either directly to OpenAI or Google for native search, or through OpenRouter for modelled search ideas. The application stores no raw input or provider response."
     }
   ],
   "unknowns": [
+    "Direct OpenAI and Gemini native providers remain disabled until server keys, real response fixtures and billed-cost checks pass",
     "Provider terms for transient processing across OpenRouter, OpenAI, DeepSeek and Google require ongoing operator review",
     "No public provider comparison benchmark or retained output corpus is authorized",
     "Google Search Console post-change crawl and index state after an eventual safe production release"
