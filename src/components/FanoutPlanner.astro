@@ -28,7 +28,7 @@ const copy = de ? {
       <label><input type="radio" name="provider" value="openai" checked/><span><strong>OpenAI</strong><small>GPT-5.6 Luna</small></span></label>
       <label><input type="radio" name="provider" value="gemini"/><span><strong>Gemini</strong><small>Gemini 3.7 Flash</small></span></label>
     </fieldset>
-    <fieldset class="model-picker" data-modelled-picker hidden><legend>{copy.model}</legend>{MODEL_OPTIONS.map((model, index) => <label><input type="radio" name="model" value={model.id} checked={index === 0}/><span><strong>{model.label}</strong><small>{model.provider}</small></span></label>)}</fieldset>
+    <fieldset class="model-picker modelled-picker" data-modelled-picker hidden><legend>{copy.model}</legend>{MODEL_OPTIONS.map((model, index) => <label><input type="radio" name="model" value={model.id} checked={index === 0}/><span><strong>{model.label}</strong><small>{model.provider}</small></span></label>)}</fieldset>
     <div class="tool-options">
       <label>{copy.country}<select name="country"><option value="">{copy.auto}</option><option value="DE">Deutschland</option><option value="US">United States</option><option value="GB">United Kingdom</option><option value="AT">Österreich</option><option value="CH">Schweiz</option><option value="FR">France</option><option value="ES">España</option><option value="IT">Italia</option><option value="NL">Nederland</option></select></label>
       <label>{copy.language}<select name="language"><option value="en" selected={!de}>English</option><option value="de" selected={de}>Deutsch</option></select></label>
@@ -60,7 +60,7 @@ const copy = de ? {
   .mode-picker label+label span{border-left:0}.mode-picker strong{font-size:.9rem}.mode-picker small{margin-top:.35rem;color:var(--muted);font-size:.68rem;line-height:1.35}
   .mode-picker input:checked+span{border-color:var(--source);background:var(--source-soft);box-shadow:inset 0 -2px var(--source)}
   .mode-picker input:focus-visible+span{outline:2px solid var(--focus);outline-offset:3px}
-  .native-picker{grid-template-columns:repeat(2,1fr)}
+  .native-picker,.modelled-picker{grid-template-columns:repeat(2,1fr)}
   .result-sources{grid-column:1/-1;padding:1.25rem 0;border-bottom:1px solid var(--rule)}
   .result-sources h3{margin:0 0 .85rem;color:var(--source);font:.65rem/1 var(--font-mono);text-transform:uppercase}
   .result-sources ul{display:grid;gap:.5rem;margin:0;padding:0;list-style:none}.result-sources a{color:var(--ink);font-size:.78rem;overflow-wrap:anywhere}

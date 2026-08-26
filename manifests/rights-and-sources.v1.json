@@ -191,7 +191,7 @@
       "location": "https://openrouter.ai/api/v1/models",
       "checkedAt": "2026-08-26",
       "status": "verified_live",
-      "supports": "Confirms the pinned GPT-5.6 Luna, DeepSeek V4 Flash 0731 and Gemini 3.7 Flash model IDs, structured-output support and current token pricing used for the allowlist decision."
+      "supports": "Confirms the pinned GPT-5.6 Luna and Gemini 3.7 Flash OpenRouter model IDs and structured-output support used by the secondary Search Ideas allowlist."
     },
     {
       "id": "openai-responses-api",
@@ -309,7 +309,7 @@
   ],
   "unknowns": [
     "Direct OpenAI and Gemini native providers remain disabled until server keys, real response fixtures and billed-cost checks pass",
-    "Provider terms for transient processing across OpenRouter, OpenAI, DeepSeek and Google require ongoing operator review",
+    "Provider terms for transient processing across OpenRouter, OpenAI and Google require ongoing operator review",
     "No public provider comparison benchmark or retained output corpus is authorized",
     "Google Search Console post-change crawl and index state after an eventual safe production release"
   ]

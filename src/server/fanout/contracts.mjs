@@ -9,7 +9,6 @@ export const REQUEST_RESERVE_MICRO_EUR = 150_000;
 
 export const MODEL_OPTIONS = [
   { id: "openai/gpt-5.6-luna", label: "GPT-5.6 Luna", provider: "OpenAI" },
-  { id: "deepseek/deepseek-v4-flash-0731", label: "DeepSeek V4 Flash", provider: "DeepSeek" },
   { id: "google/gemini-3.7-flash", label: "Gemini 3.7 Flash", provider: "Google" },
 ];
 export const MODEL_IDS = MODEL_OPTIONS.map((model) => model.id);

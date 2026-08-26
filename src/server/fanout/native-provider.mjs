@@ -41,7 +41,7 @@ export class GeminiNativeProvider {
   async observe(input) {
     const started = Date.now();
     try {
-      const response = await this.fetchImpl("https://generativelanguage.googleapis.com/v1beta/interactions", { method: "POST", headers: { "x-goog-api-key": this.apiKey, "Content-Type": "application/json" }, signal: timeoutSignal(), body: JSON.stringify({ model: this.model, input: protocolInput(input), tools: [{ type: "google_search" }], generation_config: { max_output_tokens: 500 } }) });
+      const response = await this.fetchImpl("https://generativelanguage.googleapis.com/v1beta/interactions", { method: "POST", headers: { "x-goog-api-key": this.apiKey, "Content-Type": "application/json" }, signal: timeoutSignal(), body: JSON.stringify({ model: this.model, input: protocolInput(input), tools: [{ type: "google_search" }], generation_config: { max_output_tokens: 500 }, store: false }) });
       if (!response.ok) throw new ToolError("PROVIDER_UNAVAILABLE", 502);
       const data = await response.json();
       const searchCalls = (data.steps ?? []).filter((step) => step?.type === "google_search_call");

@@ -18,7 +18,7 @@ test("Gemini uses native Google Search and extracts executed queries and citatio
   let request;
   const provider=new GeminiNativeProvider({apiKey:"gemini-secret",fetchImpl:async(url,options)=>{request={url,options,body:JSON.parse(options.body)};return{ok:true,json:async()=>({model:"gemini-3.7-flash",steps:[{type:"google_search_call",arguments:{queries:["beste seo tools 2026","seo software vergleich"]}},{type:"model_output",content:[{type:"text",annotations:[{type:"url_citation",url:"https://example.org/source",title:"Source"}]}]}],usage:{total_input_tokens:10,total_output_tokens:20}})}}});
   const result=await provider.observe({...input,provider:"gemini"});
-  assert.equal(request.url,"https://generativelanguage.googleapis.com/v1beta/interactions");assert.deepEqual(request.body.tools,[{type:"google_search"}]);assert.equal(JSON.stringify(request.body).includes("gemini-secret"),false);assert.equal(request.options.headers["x-goog-api-key"],"gemini-secret");assert.deepEqual(result.queries,["beste seo tools 2026","seo software vergleich"]);assert.equal(result.sources[0].url,"https://example.org/source");
+  assert.equal(request.url,"https://generativelanguage.googleapis.com/v1beta/interactions");assert.deepEqual(request.body.tools,[{type:"google_search"}]);assert.equal(request.body.store,false);assert.equal(JSON.stringify(request.body).includes("gemini-secret"),false);assert.equal(request.options.headers["x-goog-api-key"],"gemini-secret");assert.deepEqual(result.queries,["beste seo tools 2026","seo software vergleich"]);assert.equal(result.sources[0].url,"https://example.org/source");
 });
 
 test("zero exposed query strings stays empty instead of inventing fanout",async()=>{

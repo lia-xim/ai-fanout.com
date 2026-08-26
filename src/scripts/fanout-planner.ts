@@ -75,6 +75,6 @@ for(const root of document.querySelectorAll<HTMLElement>("[data-fanout-planner]"
     const sourceSection=root.querySelector<HTMLElement>("[data-result-sources-section]")!,sources=root.querySelector<HTMLUListElement>("[data-result-sources]")!;sources.replaceChildren();sourceSection.hidden=!result.sources?.length;
     for(const source of result.sources??[]){const li=document.createElement("li"),link=document.createElement("a");link.href=source.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=source.title||new URL(source.url).hostname;li.append(link);sources.append(li)}
   }
-  function modelLabel(id:string){return id.includes("gpt-5.6-luna")?"GPT-5.6 Luna":id.includes("deepseek-v4-flash")?"DeepSeek V4 Flash":id.includes("gemini-3.7-flash")?"Gemini 3.7 Flash":id}
+  function modelLabel(id:string){return id.includes("gpt-5.6-luna")?"GPT-5.6 Luna":id.includes("gemini-3.7-flash")?"Gemini 3.7 Flash":id}
   function intentLabel(intent:string){const labels:Record<string,Record<string,string>>={de:{informational:"Information",comparison:"Vergleich",commercial:"Kommerziell",transactional:"Transaktion",local:"Lokal",troubleshooting:"Problemlösung"},en:{informational:"Informational",comparison:"Comparison",commercial:"Commercial",transactional:"Transactional",local:"Local",troubleshooting:"Troubleshooting"}};return labels[locale]?.[intent]??intent}
 }
