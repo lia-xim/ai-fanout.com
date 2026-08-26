@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-26.1",
+  "manifestVersion": "2026-08-27.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-08-26",
+  "reviewedAt": "2026-08-27",
   "sources": [
     {
       "id": "portfolio-dossier",
@@ -230,6 +230,15 @@
       "supports": "Documents Gemini 3.7 Flash Google Search, google_search_call arguments.queries, cited URL annotations and per-query billing."
     },
     {
+      "id": "gemini-zero-data-retention-2026-08-27",
+      "title": "Gemini Developer API zero data retention",
+      "kind": "primary_provider_documentation",
+      "location": "https://ai.google.dev/gemini-api/docs/zdr",
+      "checkedAt": "2026-08-27",
+      "status": "verified",
+      "supports": "Documents Interactions API store false and the unavoidable 30-day provider retention for prompts, context and output when Grounding with Google Search is used."
+    },
+    {
       "id": "openrouter-web-search",
       "title": "OpenRouter web search server tool",
       "kind": "primary_documentation",
@@ -263,7 +272,7 @@
       "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\src\\server\\fanout",
       "checkedAt": "2026-08-22",
       "status": "verified_closed_by_default",
-      "supports": "Strict input and ten-item output schemas, one selected allowlisted OpenRouter model call, atomic quota and budget ledger, timeout, no raw application storage and fail-closed environment gate."
+      "supports": "Strict input and ten-item output schemas, one selected allowlisted OpenRouter model call, atomic quota and budget ledger, timeout, no raw server archive and fail-closed environment gate."
     },
     {
       "id": "native-fanout-release-candidate-2026-08-26",
@@ -272,7 +281,16 @@
       "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\src\\server\\fanout\\native-provider.mjs",
       "checkedAt": "2026-08-26",
       "status": "verified_live",
-      "supports": "One direct provider request, strict provider allowlist, provider-exposed query/source parsing, honest zero-query output, CAPTCHA-first shared atomic quota and budget accounting, no raw application storage and separate public flag. Bounded live production fixtures passed for OpenAI and Gemini on 2026-08-26."
+      "supports": "One direct provider request, strict provider allowlist, provider-exposed query/source parsing, honest zero-query output, CAPTCHA-first shared atomic quota and budget accounting, no raw server archive and separate public flag. Bounded live production fixtures passed for OpenAI and Gemini on 2026-08-26."
+    },
+    {
+      "id": "browser-local-history-2026-08-27",
+      "title": "Opt-in browser-local result history",
+      "kind": "implementation_evidence",
+      "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\src\\scripts\\fanout-history.mjs",
+      "checkedAt": "2026-08-27",
+      "status": "verified_local_only",
+      "supports": "Explicit save action, IndexedDB-only storage, maximum 20 entries, 30-day expiry, individual deletion, clear-all and local JSON/CSV export without accounts or shared response caching."
     }
   ],
   "rights": [
@@ -303,8 +321,8 @@
     },
     {
       "assetClass": "User topic, selected mode/provider, language, country and transient fanout result",
-      "status": "server_transient_no_application_archive",
-      "decision": "Input is transmitted to the ai-fanout.com endpoint and routed either directly to OpenAI or Google for native search, or through OpenRouter for modelled search ideas. The application stores no raw input or provider response."
+      "status": "server_transient_optional_browser_local_copy",
+      "decision": "Input is transmitted to the ai-fanout.com endpoint and routed either directly to OpenAI or Google for native search, or through OpenRouter for modelled search ideas. The server stores no raw input or provider response. Only after an explicit save action may the visible result be retained in IndexedDB on that device for up to 30 days; it is not synchronized or reused as a shared cache."
     }
   ],
   "unknowns": [

@@ -8,9 +8,9 @@ const nativeEnabled = import.meta.env.PUBLIC_NATIVE_FANOUT_ENABLED === "true" &&
 const enabled = modelledEnabled || nativeEnabled;
 const de = locale === "de";
 const copy = de ? {
-  keyword: "Keyword oder kurze Frage", placeholder: "beste SEO Tools", country: "Land", language: "Sprache", model: "Modell wählen", provider: "Anbieter wählen", auto: "Alle Länder", submit: "Suchanfragen anzeigen", loading: "Suche wird ausgeführt …", disabled: "Dieser Modus ist noch nicht freigeschaltet.", resultCount: "ausgeführte Suchanfragen", original: "Deine Eingabe", locale: "Markt und Sprache", evidence: "Was du siehst", intent: "Intent", why: "Warum", copyAll: "Alle kopieren", copied: "Kopiert", again: "Neue Eingabe", close: "Schließen", native: "Native Fanout", nativeHelp: "Echte Suchaktionen, die die Anbieter-API in diesem Lauf offenlegt.", modelled: "Suchideen", modelledHelp: "Zehn erzeugte Suchrichtungen. Keine Websuche.", sources: "Zitierte Quellen"
+  keyword: "Keyword oder kurze Frage", placeholder: "beste SEO Tools", country: "Land", language: "Sprache", model: "Modell wählen", provider: "Anbieter wählen", auto: "Alle Länder", submit: "Suchanfragen anzeigen", loading: "Suche wird ausgeführt …", disabled: "Dieser Modus ist noch nicht freigeschaltet.", resultCount: "ausgeführte Suchanfragen", original: "Deine Eingabe", locale: "Markt und Sprache", evidence: "Was du siehst", intent: "Intent", why: "Warum", copyAll: "Alle kopieren", copied: "Kopiert", again: "Neue Eingabe", close: "Schließen", native: "Native Fanout", nativeHelp: "Echte Suchaktionen, die die Anbieter-API in diesem Lauf offenlegt.", modelled: "Suchideen", modelledHelp: "Zehn erzeugte Suchrichtungen. Keine Websuche.", sources: "Zitierte Quellen", save: "Auf diesem Gerät speichern", saved: "Gespeichert", downloadJson: "JSON laden", downloadCsv: "CSV laden", savedTitle: "Auf diesem Gerät gespeichert", savedHelp: "Nur in diesem Browser · maximal 20 Ergebnisse · automatische Löschung nach 30 Tagen", savedEmpty: "Noch keine Ergebnisse gespeichert.", openSaved: "Öffnen", deleteSaved: "Löschen", clearSaved: "Alle löschen", loadingTitle: "Die KI sucht gerade im Web", loadingHelp: "Ein nativer Lauf kann bis zu 20 Sekunden dauern.", loadingSteps: ["Sicherheitsprüfung abgeschlossen", "Anfrage an den Anbieter gesendet", "Warten auf die Anbieter-Antwort", "Suchanfragen und Quellen aufbereiten"]
 } : {
-  keyword: "Keyword or short question", placeholder: "best SEO tools", country: "Country", language: "Language", model: "Choose a model", provider: "Choose a provider", auto: "All countries", submit: "Show search queries", loading: "Running search …", disabled: "This mode is not enabled yet.", resultCount: "executed search queries", original: "Your input", locale: "Market and language", evidence: "What this shows", intent: "Intent", why: "Why", copyAll: "Copy all", copied: "Copied", again: "New input", close: "Close", native: "Native fanout", nativeHelp: "Real search actions exposed by the provider API in this run.", modelled: "Search ideas", modelledHelp: "Ten generated search directions. No web search.", sources: "Cited sources"
+  keyword: "Keyword or short question", placeholder: "best SEO tools", country: "Country", language: "Language", model: "Choose a model", provider: "Choose a provider", auto: "All countries", submit: "Show search queries", loading: "Running search …", disabled: "This mode is not enabled yet.", resultCount: "executed search queries", original: "Your input", locale: "Market and language", evidence: "What this shows", intent: "Intent", why: "Why", copyAll: "Copy all", copied: "Copied", again: "New input", close: "Close", native: "Native fanout", nativeHelp: "Real search actions exposed by the provider API in this run.", modelled: "Search ideas", modelledHelp: "Ten generated search directions. No web search.", sources: "Cited sources", save: "Save on this device", saved: "Saved", downloadJson: "Download JSON", downloadCsv: "Download CSV", savedTitle: "Saved on this device", savedHelp: "This browser only · up to 20 results · automatically deleted after 30 days", savedEmpty: "No saved results yet.", openSaved: "Open", deleteSaved: "Delete", clearSaved: "Clear all", loadingTitle: "The AI is searching the web", loadingHelp: "A native run can take up to 20 seconds.", loadingSteps: ["Human verification passed", "Request sent to the provider", "Waiting for the provider response", "Preparing queries and sources"]
 };
 ---
 <section data-fanout-planner data-site-key={siteKey} data-enabled={String(enabled)} data-native-enabled={String(nativeEnabled)} data-modelled-enabled={String(modelledEnabled)} data-locale={locale} data-loading-label={copy.loading} data-submit-label={copy.submit} data-copied-label={copy.copied}>
@@ -43,12 +43,28 @@ const copy = de ? {
       <button class="modal-close" type="button" data-dialog-close aria-label={copy.close}><span aria-hidden="true">×</span><span>{copy.close}</span></button>
       <header class="result-title"><p>{copy.original}</p><h2 id={`fanout-result-title-${locale}`} data-result-keyword></h2><strong><span data-result-count>10</span> {copy.resultCount.replace(/^10 /, "")}</strong></header>
       <div class="result-meta"><div><span>{de ? "Modell" : "Model"}</span><b data-result-model></b></div><div><span>{copy.locale}</span><b data-result-locale></b></div><div><span>{copy.evidence}</span><b data-result-evidence></b></div></div>
-      <div class="result-actions"><button type="button" data-copy-results>{copy.copyAll}</button><button type="button" data-new-keyword>{copy.again}</button></div>
+      <div class="result-actions"><button type="button" data-copy-results>{copy.copyAll}</button><button type="button" data-save-result>{copy.save}</button><button type="button" data-download-json>{copy.downloadJson}</button><button type="button" data-download-csv>{copy.downloadCsv}</button><button type="button" data-new-keyword>{copy.again}</button></div>
       <ol data-result-queries aria-label={copy.resultCount}></ol>
       <section class="result-sources" data-result-sources-section hidden><h3>{copy.sources}</h3><ul data-result-sources></ul></section>
       <footer><p data-result-notice></p><span data-result-date></span></footer>
     </div>
   </dialog>
+
+  <dialog class="loading-dialog" data-loading-dialog aria-labelledby={`fanout-loading-title-${locale}`}>
+    <div class="loading-panel" aria-live="polite" aria-busy="true">
+      <span class="loading-signal" aria-hidden="true"></span>
+      <p>{de ? "LIVE API-LAUF" : "LIVE API RUN"}</p>
+      <h2 id={`fanout-loading-title-${locale}`}>{copy.loadingTitle}</h2>
+      <p class="loading-help">{copy.loadingHelp} <strong><span data-loading-seconds>0</span> s</strong></p>
+      <ol>{copy.loadingSteps.map((step, index) => <li data-loading-step={index}><span>{String(index + 1).padStart(2, "0")}</span><strong>{step}</strong></li>)}</ol>
+    </div>
+  </dialog>
+
+  <section class="saved-history" data-saved-history aria-labelledby={`saved-history-title-${locale}`}>
+    <header><div><p>{de ? "LOKALE HISTORIE" : "LOCAL HISTORY"}</p><h2 id={`saved-history-title-${locale}`}>{copy.savedTitle}</h2><small>{copy.savedHelp}</small></div><button type="button" data-clear-history hidden>{copy.clearSaved}</button></header>
+    <p data-history-empty>{copy.savedEmpty}</p>
+    <ol data-history-list></ol>
+  </section>
 </section>
 <script src="../scripts/fanout-planner.ts"></script>
 <style>
@@ -64,5 +80,16 @@ const copy = de ? {
   .result-sources{grid-column:1/-1;padding:1.25rem 0;border-bottom:1px solid var(--rule)}
   .result-sources h3{margin:0 0 .85rem;color:var(--source);font:.65rem/1 var(--font-mono);text-transform:uppercase}
   .result-sources ul{display:grid;gap:.5rem;margin:0;padding:0;list-style:none}.result-sources a{color:var(--ink);font-size:.78rem;overflow-wrap:anywhere}
-  @media(max-width:680px){.mode-picker{grid-template-columns:1fr}.mode-picker label+label span{border-top:0;border-left:1px solid var(--rule)}}
+  .loading-dialog{width:100%;max-width:none;height:100%;max-height:none;margin:0;padding:1rem;border:0;background:rgba(3,5,6,.92);color:var(--ink)}
+  .loading-dialog::backdrop{background:rgba(3,5,6,.92)}
+  .loading-panel{width:min(42rem,100%);margin:auto;padding:clamp(1.5rem,4vw,3rem);border:1px solid var(--source);background:var(--surface)}
+  .loading-signal{display:block;width:1rem;height:1rem;margin-bottom:1.5rem;border-radius:50%;background:var(--source);box-shadow:0 0 0 .5rem var(--source-soft);animation:loading-pulse 1.2s ease-in-out infinite}
+  .loading-panel>p:first-of-type,.saved-history header p{margin:0;color:var(--source);font:.62rem/1 var(--font-mono);letter-spacing:.08em}
+  .loading-panel h2{margin:.75rem 0;font:730 clamp(2rem,5vw,3.6rem)/.95 var(--font-display);letter-spacing:-.04em}
+  .loading-help{display:flex;justify-content:space-between;gap:1rem;color:var(--muted);font-size:.8rem}.loading-help strong{color:var(--source);font-family:var(--font-mono)}
+  .loading-panel ol{margin:2rem 0 0;padding:0;border-top:1px solid var(--rule);list-style:none}.loading-panel li{display:grid;grid-template-columns:3rem 1fr;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--fine-rule);color:var(--muted);opacity:.45}.loading-panel li span{font:650 .72rem/1 var(--font-mono)}.loading-panel li strong{font-size:.82rem}.loading-panel li.is-active{color:var(--ink);opacity:1}.loading-panel li.is-active span{color:var(--source)}.loading-panel li.is-done{color:var(--muted);opacity:.8}.loading-panel li.is-done span{color:var(--source)}
+  .saved-history{margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--rule)}.saved-history header{display:flex;align-items:end;justify-content:space-between;gap:1rem}.saved-history h2{margin:.45rem 0;font-size:1.25rem}.saved-history small{color:var(--muted);line-height:1.5}.saved-history button{padding:.65rem .8rem;border:1px solid var(--rule);background:transparent;color:var(--ink);cursor:pointer}.saved-history>p{margin:1.25rem 0 0;color:var(--muted);font-size:.78rem}.saved-history ol{display:grid;margin:1.25rem 0 0;padding:0;border-top:1px solid var(--rule);list-style:none}.saved-history li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1rem;align-items:center;padding:1rem 0;border-bottom:1px solid var(--fine-rule)}.saved-history li strong{display:block;font-size:.9rem;overflow-wrap:anywhere}.saved-history li small{display:block;margin-top:.35rem;color:var(--muted);font: .65rem/1.4 var(--font-mono)}.saved-history li div:last-child{display:flex;gap:.5rem}
+  @keyframes loading-pulse{50%{opacity:.35;transform:scale(.75)}}
+  @media(prefers-reduced-motion:reduce){.loading-signal{animation:none}}
+  @media(max-width:680px){.mode-picker{grid-template-columns:1fr}.mode-picker label+label span{border-top:0;border-left:1px solid var(--rule)}.loading-dialog{padding:.5rem}.loading-panel{padding:1.25rem}.saved-history header,.saved-history li{align-items:start}.saved-history header{display:grid}.saved-history li{grid-template-columns:1fr}.saved-history li div:last-child{width:100%}.saved-history li button{flex:1}}
 </style>

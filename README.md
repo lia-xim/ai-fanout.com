@@ -23,7 +23,9 @@ Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenR
 - Native Fanout reserves EUR 0.50 per request; Search Ideas reserves EUR 0.15;
 - one direct provider request, 20-second timeout and no retry;
 - OpenAI is limited to eight web-search tool calls; Gemini is instructed to use no more than eight queries; both providers were enabled after bounded direct and production fixtures, with the conservative per-request reserve retained while billed cost is monitored;
-- no raw topic or provider response stored by ai-fanout.com;
+- no raw topic or provider response stored in the ai-fanout.com server database;
+- optional browser-local history stores at most 20 explicitly saved results in IndexedDB for up to 30 days, with open, delete, clear and JSON/CSV export controls;
+- no account, cross-device sync or shared response cache;
 - provider keys stay server-only and every public mode has an explicit enable flag.
 
 ## Verify
