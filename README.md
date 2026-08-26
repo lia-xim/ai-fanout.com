@@ -17,7 +17,7 @@ English lives at `/`, `/methodology`, and `/library/...`. German lives at `/de/`
 - Cloudflare Turnstile before budget reservation;
 - five attempts per salted IP bucket in 24 hours and 40 site-wide per UTC day;
 - EUR 0.15 reserved per request, EUR 25 soft and EUR 30 hard monthly limits;
-- exactly one allowlisted OpenRouter call, 800 output tokens, 12-second timeout and no retry;
+- exactly one allowlisted OpenRouter call, 800 output tokens, 20-second timeout and no retry;
 - strict ten-item JSON output contract;
 - no raw keyword or provider response stored by ai-fanout.com;
 - server-only secrets and explicit public enable flags.

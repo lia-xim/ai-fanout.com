@@ -33,7 +33,7 @@ export class OpenRouterFanoutProvider {
       response = await this.fetchImpl("https://openrouter.ai/api/v1/chat/completions", {
         method: "POST",
         headers: { Authorization: `Bearer ${this.apiKey}`, "Content-Type": "application/json", "HTTP-Referer": "https://ai-fanout.com", "X-Title": "AI Query Fanout" },
-        signal: AbortSignal.timeout(12_000),
+        signal: AbortSignal.timeout(20_000),
         body: JSON.stringify({
           model,
           max_tokens: MAX_OUTPUT_TOKENS,
