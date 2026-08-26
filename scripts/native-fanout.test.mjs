@@ -4,8 +4,22 @@ import { MAX_NATIVE_SEARCHES, NATIVE_RESERVE_MICRO_EUR } from "../src/server/fan
 import { GeminiNativeProvider, OpenAINativeProvider } from "../src/server/fanout/native-provider.mjs";
 import { createNativeFanoutService } from "../src/server/fanout/native-service.mjs";
 import { MemoryQuotaLedger } from "../src/server/fanout/quota.mjs";
+import { allowedRequestOrigins, expectedTurnstileHostnames } from "../src/server/fanout/request-origin.mjs";
 
 const input={keyword:"best SEO tools",provider:"openai",language:"en",country:"US",turnstileToken:"valid"};
+
+test("preview origins and Turnstile hostnames include only trusted Vercel system URLs",()=>{
+  const previewEnv={VERCEL_ENV:"preview",VERCEL_URL:"ai-fanout-build.vercel.app",VERCEL_BRANCH_URL:"https://ai-fanout-branch.vercel.app/path"};
+  const origins=allowedRequestOrigins(previewEnv);
+  assert.equal(origins.has("https://ai-fanout-build.vercel.app"),true);
+  assert.equal(origins.has("https://ai-fanout-branch.vercel.app"),true);
+  assert.equal(origins.has("http://localhost:4321"),true);
+  const hostnames=expectedTurnstileHostnames("ai-fanout.com",previewEnv);
+  assert.deepEqual([...hostnames],["ai-fanout.com","ai-fanout-build.vercel.app","ai-fanout-branch.vercel.app"]);
+  const production=allowedRequestOrigins({...previewEnv,VERCEL_ENV:"production"});
+  assert.equal(production.has("https://ai-fanout-build.vercel.app"),false);
+  assert.equal(production.has("http://localhost:4321"),false);
+});
 
 test("OpenAI uses one stateless native web-search call and extracts exposed queries and sources",async()=>{
   let request;

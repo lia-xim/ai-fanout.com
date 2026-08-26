@@ -4,10 +4,11 @@ import { NATIVE_RESERVE_MICRO_EUR, NATIVE_TOOL_VERSION } from "../src/server/fan
 import { GeminiNativeProvider, OpenAINativeProvider } from "../src/server/fanout/native-provider.mjs";
 import { createNativeFanoutService } from "../src/server/fanout/native-service.mjs";
 import { RedisQuotaLedger } from "../src/server/fanout/quota.mjs";
+import { allowedRequestOrigins, expectedTurnstileHostnames } from "../src/server/fanout/request-origin.mjs";
 import { verifyTurnstile } from "../src/server/fanout/service.mjs";
 
 const sharedRequired = ["TURNSTILE_SECRET_KEY", "TURNSTILE_HOSTNAMES", "FANOUT_BUCKET_SALT", "UPSTASH_REDIS_REST_URL", "UPSTASH_REDIS_REST_TOKEN"] as const;
-const allowedOrigins = new Set(["https://ai-fanout.com", "https://www.ai-fanout.com", "https://ai-fanout-com.vercel.app", ...(process.env.VERCEL_ENV !== "production" ? ["http://localhost:4321", "http://127.0.0.1:4321"] : [])]);
+const allowedOrigins = allowedRequestOrigins();
 const headers = { "Cache-Control": "no-store", "Content-Type": "application/json; charset=utf-8", "X-Content-Type-Options": "nosniff", "Referrer-Policy": "no-referrer" };
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -24,7 +25,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const requestedProvider = String(req.body?.provider ?? "");
     if (!providers[requestedProvider]) throw new ToolError("PROVIDER_NOT_CONFIGURED", 503);
     const ip = String(req.headers["x-forwarded-for"] ?? req.socket.remoteAddress ?? "unknown").split(",")[0].trim();
-    const expectedHostnames = new Set(process.env.TURNSTILE_HOSTNAMES!.split(",").map((value) => value.trim()).filter(Boolean));
+    const expectedHostnames = expectedTurnstileHostnames(process.env.TURNSTILE_HOSTNAMES);
     const service = createNativeFanoutService({ ledger: new RedisQuotaLedger({ url: process.env.UPSTASH_REDIS_REST_URL!, token: process.env.UPSTASH_REDIS_REST_TOKEN!, reserveMicroEur: NATIVE_RESERVE_MICRO_EUR }), providers, bucketSalt: process.env.FANOUT_BUCKET_SALT!, captchaVerifier: (token: string, remoteIp: string) => verifyTurnstile({ token, remoteIp, secret: process.env.TURNSTILE_SECRET_KEY!, expectedAction: "fanout", expectedHostnames }) });
     return res.status(200).json({ ok: true, requestId, data: await service({ body: req.body, remoteIp: ip }) });
   } catch (error) {
