@@ -22,7 +22,7 @@ Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenR
 - shared atomic EUR 25 soft / EUR 30 hard monthly ledger;
 - Native Fanout reserves EUR 0.50 per request; Search Ideas reserves EUR 0.15;
 - one direct provider request, 20-second timeout and no retry;
-- OpenAI is limited to eight web-search tool calls; Gemini is instructed to use no more than eight queries and remains disabled until a real cost run is approved;
+- OpenAI is limited to eight web-search tool calls; Gemini is instructed to use no more than eight queries; both providers were enabled after bounded direct and production fixtures, with the conservative per-request reserve retained while billed cost is monitored;
 - no raw topic or provider response stored by ai-fanout.com;
 - provider keys stay server-only and every public mode has an explicit enable flag.
 

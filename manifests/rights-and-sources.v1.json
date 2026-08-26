@@ -271,8 +271,8 @@
       "kind": "implementation_evidence",
       "location": "C:\\Users\\matth\\Documents\\ai-fanout.com\\src\\server\\fanout\\native-provider.mjs",
       "checkedAt": "2026-08-26",
-      "status": "verified_closed_by_default_live_fixture_pending",
-      "supports": "One direct provider request, strict provider allowlist, provider-exposed query/source parsing, honest zero-query output, CAPTCHA-first shared atomic quota and budget accounting, no raw application storage and separate fail-closed public flag."
+      "status": "verified_live",
+      "supports": "One direct provider request, strict provider allowlist, provider-exposed query/source parsing, honest zero-query output, CAPTCHA-first shared atomic quota and budget accounting, no raw application storage and separate public flag. Bounded live production fixtures passed for OpenAI and Gemini on 2026-08-26."
     }
   ],
   "rights": [
@@ -308,7 +308,7 @@
     }
   ],
   "unknowns": [
-    "Direct OpenAI and Gemini native providers remain disabled until server keys, real response fixtures and billed-cost checks pass",
+    "Exact billed cost per OpenAI and Gemini run remains subject to ongoing provider-dashboard review; the application retains a conservative EUR 0.50 reservation per Native Fanout request",
     "Provider terms for transient processing across OpenRouter, OpenAI and Google require ongoing operator review",
     "No public provider comparison benchmark or retained output corpus is authorized",
     "Google Search Console post-change crawl and index state after an eventual safe production release"

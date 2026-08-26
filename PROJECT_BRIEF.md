@@ -34,7 +34,7 @@ Keep the established Controlled Signal system: dark work surface, cool-white typ
 - strict 60-character / 160-byte input and request schemas;
 - shared five-per-bucket, 40/day, EUR 25 soft and EUR 30 hard limits;
 - one request, bounded output, timeout, no retry and no raw input/output storage;
-- live fixture for each provider proving query/source extraction and billed cost before enabling that provider;
+- live fixture for each provider proving query/source extraction before enabling that provider, plus conservative reservation and ongoing provider-dashboard review until actual billed-cost behaviour is established;
 - privacy and methodology copy kept aligned with provider processing and retention terms.
 
 Matthias Ramahi is operator and Research Owner. He owns method versions, corrections, reviewer status and the monthly cost envelope. Claude and Perplexity are explicitly outside the first native release.
