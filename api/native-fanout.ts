@@ -32,7 +32,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const status = error instanceof ToolError ? error.status : 500;
     const code = error instanceof ToolError ? error.code : "INTERNAL_ERROR";
     if (status === 405) res.setHeader("Allow", "POST");
-    const message = code === "PROVIDER_NOT_CONFIGURED" || code === "TOOL_NOT_CONFIGURED" ? "Native fanout is not configured for this provider yet." : code.startsWith("CAPTCHA") ? "The human verification could not be completed." : code.includes("LIMIT") ? "The free daily or cost limit has been reached." : code === "INVALID_REQUEST" || code.startsWith("KEYWORD") ? "Enter one short keyword or question." : "The native fanout run failed. No keyword or provider output was stored.";
-    return res.status(status).json({ ok: false, requestId, error: { code, message }, toolVersion: NATIVE_TOOL_VERSION });
+    const message = code === "PROVIDER_NOT_CONFIGURED" || code === "TOOL_NOT_CONFIGURED" ? "Native fanout is not configured for this provider yet." : code.startsWith("CAPTCHA") ? "The human verification could not be completed." : code === "RATE_LIMIT" ? "All free runs for this 24-hour window have been used." : code.includes("LIMIT") ? "The site-wide daily or cost limit has been reached." : code === "INVALID_REQUEST" || code.startsWith("KEYWORD") ? "Enter one short keyword or question." : "The native fanout run failed. No keyword or provider output was stored.";
+    const details = error instanceof ToolError ? error.details : undefined;
+    return res.status(status).json({ ok: false, requestId, error: { code, message, ...details }, toolVersion: NATIVE_TOOL_VERSION });
   }
 }

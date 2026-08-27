@@ -34,7 +34,7 @@ The server keeps no raw topic or provider response. A visitor may explicitly sav
 - direct server-only OpenAI and Gemini keys, pinned model IDs and separate public enable flags;
 - Turnstile, hostname allowlist, high-entropy salt and atomic Redis;
 - strict 60-character / 160-byte input and request schemas;
-- shared five-per-bucket, 40/day, EUR 25 soft and EUR 30 hard limits;
+- shared 20-per-bucket rolling 24-hour limit with visible remaining runs and reset time, 40/day site-wide limit, and EUR 25 soft / EUR 30 hard cost limits;
 - one request, bounded output, timeout, no retry and no raw input/output storage;
 - live fixture for each provider proving query/source extraction before enabling that provider, plus conservative reservation and ongoing provider-dashboard review until actual billed-cost behaviour is established;
 - privacy and methodology copy kept aligned with provider processing and retention terms.

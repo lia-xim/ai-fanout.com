@@ -2,7 +2,8 @@ import { clearSavedRuns, deleteSavedRun, loadSavedRuns, saveRun } from "./fanout
 
 type ModelledQuery={query:string;intent:string;reason:string};
 type Source={url:string;title:string};
-type FanoutResult={keyword:string;language:"en"|"de";country:string|null;queries:(ModelledQuery|string)[];sources?:Source[];modelId:string;providerId:string;generatedAt:string;evidenceStatus:string;notice:string};
+type Quota={limit:number;used:number;remaining:number;resetAt:string};
+type FanoutResult={keyword:string;language:"en"|"de";country:string|null;queries:(ModelledQuery|string)[];sources?:Source[];modelId:string;providerId:string;generatedAt:string;evidenceStatus:string;notice:string;quota?:Quota};
 
 const countryNames:Record<string,string>={DE:"Germany",US:"United States",GB:"United Kingdom",AT:"Austria",CH:"Switzerland",FR:"France",ES:"Spain",IT:"Italy",NL:"Netherlands"};
 
@@ -11,6 +12,7 @@ for(const root of document.querySelectorAll<HTMLElement>("[data-fanout-planner]"
   const keyword=root.querySelector<HTMLInputElement>("input[name='keyword']")!;
   const count=root.querySelector<HTMLOutputElement>("[data-keyword-count]")!;
   const status=root.querySelector<HTMLElement>("[data-form-status]")!;
+  const quotaStatus=root.querySelector<HTMLElement>("[data-quota-status]")!;
   const availability=root.querySelector<HTMLElement>("[data-mode-availability]")!;
   const dialog=root.querySelector<HTMLDialogElement>("[data-result-dialog]")!;
   const loadingDialog=root.querySelector<HTMLDialogElement>("[data-loading-dialog]")!;
@@ -25,7 +27,7 @@ for(const root of document.querySelectorAll<HTMLElement>("[data-fanout-planner]"
   const modelledPicker=root.querySelector<HTMLFieldSetElement>("[data-modelled-picker]")!;
   let turnstileToken="",widgetId:string|number|undefined,lastResult:FanoutResult|undefined,loadingTimer:number|undefined;
   const locale=root.dataset.locale==="de"?"de":"en";
-  const ui=locale==="de"?{save:"Auf diesem Gerät speichern",saved:"Gespeichert",open:"Öffnen",remove:"Löschen",empty:"Noch keine Ergebnisse gespeichert.",historyError:"Die lokale Historie ist in diesem Browser nicht verfügbar.",saveError:"Das Ergebnis konnte nicht lokal gespeichert werden."}:{save:"Save on this device",saved:"Saved",open:"Open",remove:"Delete",empty:"No saved results yet.",historyError:"Local history is not available in this browser.",saveError:"The result could not be saved locally."};
+  const ui=locale==="de"?{save:"Auf diesem Gerät speichern",saved:"Gespeichert",open:"Öffnen",remove:"Löschen",empty:"Noch keine Ergebnisse gespeichert.",historyError:"Die lokale Historie ist in diesem Browser nicht verfügbar.",saveError:"Das Ergebnis konnte nicht lokal gespeichert werden.",globalLimit:"Das kostenlose Gesamtkontingent der Website ist für heute aufgebraucht.",budgetLimit:"Das kostenlose Kostenbudget ist vorübergehend aufgebraucht."}:{save:"Save on this device",saved:"Saved",open:"Open",remove:"Delete",empty:"No saved results yet.",historyError:"Local history is not available in this browser.",saveError:"The result could not be saved locally.",globalLimit:"The site's free daily allowance has been used.",budgetLimit:"The free cost budget is temporarily unavailable."};
   const mode=()=>String(new FormData(form).get("mode")??"native");
   const modeEnabled=(value:string)=>value==="native"?root.dataset.nativeEnabled==="true":root.dataset.modelledEnabled==="true";
   const updateCount=()=>count.textContent=`${[...keyword.value.normalize("NFC")].length} / 60`;
@@ -63,8 +65,8 @@ for(const root of document.querySelectorAll<HTMLElement>("[data-fanout-planner]"
       const common={keyword:keyword.value,country:String(data.get("country")??""),language:String(data.get("language")??"en"),turnstileToken};
       const request=selectedMode==="native"?{...common,provider:String(data.get("provider")??"")}:{...common,model:String(data.get("model")??"")};
       const response=await fetch(selectedMode==="native"?"/api/native-fanout":"/api/fanout-plan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(request)});
-      const payload=await response.json();if(!response.ok)throw new Error(payload?.error?.message||"The fanout could not be generated.");
-      setLoadingStep(3);lastResult=payload.data;render(lastResult!);await new Promise(resolve=>window.setTimeout(resolve,180));stopLoading();dialog.showModal();
+      const payload=await response.json();if(!response.ok){if(payload?.error?.quota)renderQuota(payload.error.quota,true);throw new Error(publicError(payload?.error))}
+      setLoadingStep(3);lastResult=payload.data;if(lastResult?.quota)renderQuota(lastResult.quota);render(lastResult!);await new Promise(resolve=>window.setTimeout(resolve,180));stopLoading();dialog.showModal();
     }catch(error){stopLoading();status.textContent=error instanceof Error?error.message:"The fanout could not be generated."}
     finally{submit.disabled=!modeEnabled(mode());submit.firstChild!.textContent=root.dataset.submitLabel??"Show search queries";turnstileToken="";const turnstile=(window as any).turnstile;if(turnstile&&widgetId!==undefined)turnstile.reset(widgetId)}
   });
@@ -103,6 +105,17 @@ for(const root of document.querySelectorAll<HTMLElement>("[data-fanout-planner]"
     result.queries.forEach((item,index)=>{const li=document.createElement("li"),number=document.createElement("span"),title=document.createElement("strong");number.textContent=String(index+1).padStart(2,"0");title.textContent=typeof item==="string"?item:item.query;li.append(number,title);if(typeof item!=="string"){const meta=document.createElement("div"),intent=document.createElement("span"),reason=document.createElement("p");intent.textContent=`${locale==="de"?"Intent":"Intent"}: ${intentLabel(item.intent)}`;reason.textContent=`${locale==="de"?"Warum":"Why"}: ${item.reason}`;meta.append(intent,reason);li.append(meta)}queries.append(li)});
     const sourceSection=root.querySelector<HTMLElement>("[data-result-sources-section]")!,sources=root.querySelector<HTMLUListElement>("[data-result-sources]")!;sources.replaceChildren();sourceSection.hidden=!result.sources?.length;
     for(const source of result.sources??[]){let parsed:URL;try{parsed=new URL(source.url)}catch{continue}if(!["http:","https:"].includes(parsed.protocol))continue;const li=document.createElement("li"),link=document.createElement("a");link.href=parsed.href;link.target="_blank";link.rel="noopener noreferrer";link.textContent=source.title||parsed.hostname;li.append(link);sources.append(li)}
+  }
+  function renderQuota(quota:Quota,limited=false){
+    if(!quota||!Number.isFinite(quota.limit)||!Number.isFinite(quota.remaining))return;
+    const reset=new Date(quota.resetAt),validReset=!Number.isNaN(reset.getTime());
+    quotaStatus.dataset.state=limited||quota.remaining===0?"limited":"available";
+    if(locale==="de")quotaStatus.textContent=`${quota.remaining} von ${quota.limit} kostenlosen Läufen übrig${validReset?` · Reset ${reset.toLocaleString("de-DE",{dateStyle:"medium",timeStyle:"short"})}`:""}.`;
+    else quotaStatus.textContent=`${quota.remaining} of ${quota.limit} free runs remaining${validReset?` · resets ${reset.toLocaleString("en",{dateStyle:"medium",timeStyle:"short"})}`:""}.`;
+  }
+  function publicError(error:any){
+    if(error?.code==="RATE_LIMIT"&&error?.quota){const reset=new Date(error.quota.resetAt),when=Number.isNaN(reset.getTime())?"":reset.toLocaleString(locale==="de"?"de-DE":"en",{dateStyle:"medium",timeStyle:"short"});return locale==="de"?`${error.quota.limit} von ${error.quota.limit} kostenlosen Läufen verwendet.${when?` Wieder verfügbar am ${when}.`:""}`:`${error.quota.limit} of ${error.quota.limit} free runs used.${when?` Available again ${when}.`:""}`}
+    if(error?.code==="GLOBAL_LIMIT")return ui.globalLimit;if(error?.code==="BUDGET_LIMIT")return ui.budgetLimit;return error?.message||"The fanout could not be generated."
   }
   function fileStem(result:FanoutResult){return `ai-fanout-${result.keyword.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,40)||"result"}`}
   function download(name:string,content:string,type:string){const url=URL.createObjectURL(new Blob([content],{type})),link=document.createElement("a");link.href=url;link.download=name;link.hidden=true;document.body.append(link);link.click();link.remove();window.setTimeout(()=>URL.revokeObjectURL(url),1000)}

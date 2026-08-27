@@ -6,6 +6,9 @@ export const PROVIDER_ID = "openrouter";
 export const MAX_OUTPUT_TOKENS = 800;
 export const FANOUT_QUERY_COUNT = 10;
 export const REQUEST_RESERVE_MICRO_EUR = 150_000;
+export const BUCKET_RUN_LIMIT = 20;
+export const BUCKET_WINDOW_SECONDS = 86_400;
+export const GLOBAL_DAILY_LIMIT = 40;
 
 export const MODEL_OPTIONS = [
   { id: "openai/gpt-5.6-luna", label: "GPT-5.6 Luna", provider: "OpenAI" },
@@ -37,4 +40,4 @@ export function validateKeyword(value) {
   return keyword;
 }
 
-export class ToolError extends Error { constructor(code, status = 500) { super(code); this.code = code; this.status = status; } }
+export class ToolError extends Error { constructor(code, status = 500, details = undefined) { super(code); this.code = code; this.status = status; this.details = details; } }

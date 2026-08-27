@@ -21,11 +21,11 @@ export function createFanoutService({ ledger, provider, captchaVerifier, bucketS
     const bucketHash = keyedHash(bucketSalt, remoteIp);
     const questionHash = keyedHash(bucketSalt, `${keyword}|${parsed.data.model}|${parsed.data.language}|${parsed.data.country}`);
     const reservationId = randomUUID();
-    await ledger.reserve({ bucketHash, reservationId, questionHash, model: parsed.data.model, plannerVersion: TOOL_VERSION });
+    const reservation = await ledger.reserve({ bucketHash, reservationId, questionHash, model: parsed.data.model, plannerVersion: TOOL_VERSION });
     try {
       const generated = await provider.generate({ keyword, model: parsed.data.model, language: parsed.data.language, country: parsed.data.country });
       await ledger.settle({ bucketHash, reservationId, actualCostMicroEur: generated.actualCostMicroEur, status: "completed", inputTokens: generated.inputTokens, outputTokens: generated.outputTokens, latencyMs: generated.latencyMs });
-      return { keyword, language: parsed.data.language, country: parsed.data.country || null, queries: generated.result.queries, modelId: generated.model, providerId: generated.provider || PROVIDER_ID, toolVersion: TOOL_VERSION, methodVersion: METHOD_VERSION, generatedAt: now().toISOString(), evidenceStatus: "modelled_fanout", notice: "A modelled research plan from the selected model — not hidden provider queries, retrieval traces, or chain of thought." };
+      return { keyword, language: parsed.data.language, country: parsed.data.country || null, queries: generated.result.queries, modelId: generated.model, providerId: generated.provider || PROVIDER_ID, toolVersion: TOOL_VERSION, methodVersion: METHOD_VERSION, generatedAt: now().toISOString(), evidenceStatus: "modelled_fanout", notice: "A modelled research plan from the selected model — not hidden provider queries, retrieval traces, or chain of thought.", quota: reservation.quota };
     } catch (error) {
       await ledger.settle({ bucketHash, reservationId, actualCostMicroEur: 0, status: error?.code === "PROVIDER_TIMEOUT" ? "timeout" : "failed" });
       throw error;

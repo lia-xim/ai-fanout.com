@@ -28,7 +28,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const status = error instanceof ToolError ? error.status : 500;
     const code = error instanceof ToolError ? error.code : "INTERNAL_ERROR";
     if (status === 405) res.setHeader("Allow", "POST");
-    return res.status(status).json({ ok: false, requestId, error: { code, message: publicMessage(code) }, toolVersion: TOOL_VERSION, modelId: DEFAULT_MODEL_ID });
+    const details = error instanceof ToolError ? error.details : undefined;
+    return res.status(status).json({ ok: false, requestId, error: { code, message: publicMessage(code), ...details }, toolVersion: TOOL_VERSION, modelId: DEFAULT_MODEL_ID });
   }
 }
 function publicMessage(code: string) {

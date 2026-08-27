@@ -18,7 +18,7 @@ Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenR
 - topic: 2–60 Unicode characters and at most 160 UTF-8 bytes;
 - no URLs, files, line breaks or additional request fields;
 - server-side Cloudflare Turnstile before budget reservation;
-- five attempts per salted IP bucket in 24 hours and 40 site-wide per UTC day;
+- 20 attempts per salted IP bucket in a rolling 24-hour window, with remaining runs and reset time shown after use, plus 40 site-wide per UTC day;
 - shared atomic EUR 25 soft / EUR 30 hard monthly ledger;
 - Native Fanout reserves EUR 0.50 per request; Search Ideas reserves EUR 0.15;
 - one direct provider request, 20-second timeout and no retry;
