@@ -24,7 +24,7 @@ Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenR
 - one direct provider request, 20-second timeout and no retry;
 - OpenAI is limited to eight web-search tool calls; Gemini is instructed to use no more than eight queries; both provider outputs are capped at 500 tokens, and OpenAI uses low search context. The safety reserve was reduced after the first billed-cost check;
 - no raw topic or provider response stored in the ai-fanout.com server database;
-- optional browser-local history stores at most 20 explicitly saved results in IndexedDB for up to 30 days, with multi-select comparison and combined JSON/CSV export controls;
+- optional browser-local history stores at most 20 explicitly saved results in IndexedDB for up to 30 days, requests persistent browser storage after an explicit save, and supports multi-select comparison plus combined JSON/CSV export; origins such as ai-fanout.com and its Vercel preview never share this history;
 - Gemini local saves remove Google Grounded Results and Search Suggestions before retaining query strings and run metadata;
 - no account, cross-device sync or shared response cache;
 - provider keys stay server-only and every public mode has an explicit enable flag.

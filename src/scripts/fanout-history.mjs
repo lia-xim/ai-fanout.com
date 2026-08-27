@@ -4,6 +4,25 @@ export const HISTORY_LIMIT = 20;
 const DB_NAME = "ai-fanout-local-history";
 const STORE_NAME = "saved-runs";
 
+export async function historyStorageState(storageManager = globalThis.navigator?.storage) {
+  if (typeof storageManager?.persisted !== "function") return { supported: false, persistent: false };
+  try {
+    return { supported: true, persistent: Boolean(await storageManager.persisted()) };
+  } catch {
+    return { supported: true, persistent: false };
+  }
+}
+
+export async function requestPersistentHistoryStorage(storageManager = globalThis.navigator?.storage) {
+  const current = await historyStorageState(storageManager);
+  if (current.persistent || typeof storageManager?.persist !== "function") return current;
+  try {
+    return { supported: true, persistent: Boolean(await storageManager.persist()) };
+  } catch {
+    return current;
+  }
+}
+
 export function pruneHistory(entries, now = Date.now()) {
   return entries
     .filter((entry) => Number(entry.expiresAt) > now)

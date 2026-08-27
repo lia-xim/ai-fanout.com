@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { HISTORY_LIMIT, HISTORY_TTL_MS, prepareResultForLocalStorage, pruneHistory } from "../src/scripts/fanout-history.mjs";
+import { HISTORY_LIMIT, HISTORY_TTL_MS, historyStorageState, prepareResultForLocalStorage, pruneHistory, requestPersistentHistoryStorage } from "../src/scripts/fanout-history.mjs";
 import { analyzeFanout } from "../src/scripts/fanout-analysis.mjs";
 import { compareFanoutRuns, comparisonCsv } from "../src/scripts/fanout-comparison.mjs";
 
@@ -21,6 +21,21 @@ test("local history expires after 30 days, sorts newest first and keeps 20", () 
 test("Gemini local history keeps queries but strips Google grounded sources",()=>{
   const stored=prepareResultForLocalStorage({providerId:"gemini",queries:["beste seo tools"],sources:[{url:"https://example.com",title:"Example"}],searchActions:[{id:"1",queries:["beste seo tools"],sources:[{url:"https://example.com",title:"Example"}],sourceScope:"exact_query"}]});
   assert.deepEqual(stored.queries,["beste seo tools"]);assert.deepEqual(stored.sources,[]);assert.deepEqual(stored.searchActions[0].sources,[]);assert.equal(stored.sourceEvidenceScope,"not_stored_google_grounded_results");
+});
+
+test("persistent browser storage is requested only when an explicit save needs it",async()=>{
+  let requests=0;
+  const alreadyPersistent={persisted:async()=>true,persist:async()=>{requests++;return true}};
+  assert.deepEqual(await requestPersistentHistoryStorage(alreadyPersistent),{supported:true,persistent:true});
+  assert.equal(requests,0);
+  const bestEffort={persisted:async()=>false,persist:async()=>{requests++;return true}};
+  assert.deepEqual(await requestPersistentHistoryStorage(bestEffort),{supported:true,persistent:true});
+  assert.equal(requests,1);
+});
+
+test("storage status fails safely when the browser does not expose persistence",async()=>{
+  assert.deepEqual(await historyStorageState(undefined),{supported:false,persistent:false});
+  assert.deepEqual(await requestPersistentHistoryStorage({persisted:async()=>{throw new Error("blocked")}}),{supported:true,persistent:false});
 });
 
 test("result summary keeps only observed query and source counts",()=>{
