@@ -1,4 +1,4 @@
-import { MAX_NATIVE_SEARCHES, NATIVE_RESERVE_MICRO_EUR } from "./native-contracts.mjs";
+import { MAX_NATIVE_SEARCHES, NATIVE_MAX_OUTPUT_TOKENS } from "./native-contracts.mjs";
 import { ToolError } from "./contracts.mjs";
 
 const timeoutSignal = () => AbortSignal.timeout(20_000);
@@ -24,14 +24,14 @@ export class OpenAINativeProvider {
   async observe(input) {
     const started = Date.now();
     try {
-      const response = await this.fetchImpl("https://api.openai.com/v1/responses", { method: "POST", headers: { Authorization: `Bearer ${this.apiKey}`, "Content-Type": "application/json" }, signal: timeoutSignal(), body: JSON.stringify({ model: this.model, input: protocolInput(input), tools: [{ type: "web_search" }], tool_choice: "required", max_tool_calls: MAX_NATIVE_SEARCHES, max_output_tokens: 500, reasoning: { effort: "none" }, include: ["web_search_call.action.sources"], store: false }) });
+      const response = await this.fetchImpl("https://api.openai.com/v1/responses", { method: "POST", headers: { Authorization: `Bearer ${this.apiKey}`, "Content-Type": "application/json" }, signal: timeoutSignal(), body: JSON.stringify({ model: this.model, input: protocolInput(input), tools: [{ type: "web_search", search_context_size: "low" }], tool_choice: "required", max_tool_calls: MAX_NATIVE_SEARCHES, max_output_tokens: NATIVE_MAX_OUTPUT_TOKENS, reasoning: { effort: "none" }, include: ["web_search_call.action.sources"], store: false }) });
       if (!response.ok) throw new ToolError("PROVIDER_UNAVAILABLE", 502);
       const data = await response.json();
       const searchCalls = (data.output ?? []).filter((item) => item?.type === "web_search_call");
       const queries = cleanQueries(searchCalls.map((item) => item.action?.queries ?? item.action?.query ?? []));
       const sourceValues = searchCalls.map((item) => item.action?.sources ?? []);
       for (const item of data.output ?? []) for (const block of item?.content ?? []) for (const annotation of block?.annotations ?? []) if (annotation?.type === "url_citation") sourceValues.push(annotation);
-      return { queries, sources: cleanSources(sourceValues), searchActionCount: searchCalls.length, model: data.model ?? this.model, provider: "openai", inputTokens: Number(data.usage?.input_tokens ?? 0), outputTokens: Number(data.usage?.output_tokens ?? 0), actualCostMicroEur: NATIVE_RESERVE_MICRO_EUR, latencyMs: Date.now() - started };
+      return { queries, sources: cleanSources(sourceValues), searchActionCount: searchCalls.length, model: data.model ?? this.model, provider: "openai", inputTokens: Number(data.usage?.input_tokens ?? 0), outputTokens: Number(data.usage?.output_tokens ?? 0), latencyMs: Date.now() - started };
     } catch (error) { providerFailure(error); }
   }
 }
@@ -41,14 +41,14 @@ export class GeminiNativeProvider {
   async observe(input) {
     const started = Date.now();
     try {
-      const response = await this.fetchImpl("https://generativelanguage.googleapis.com/v1beta/interactions", { method: "POST", headers: { "x-goog-api-key": this.apiKey, "Content-Type": "application/json" }, signal: timeoutSignal(), body: JSON.stringify({ model: this.model, input: protocolInput(input), tools: [{ type: "google_search" }], generation_config: { max_output_tokens: 500 }, store: false }) });
+      const response = await this.fetchImpl("https://generativelanguage.googleapis.com/v1beta/interactions", { method: "POST", headers: { "x-goog-api-key": this.apiKey, "Content-Type": "application/json" }, signal: timeoutSignal(), body: JSON.stringify({ model: this.model, input: protocolInput(input), tools: [{ type: "google_search" }], generation_config: { max_output_tokens: NATIVE_MAX_OUTPUT_TOKENS }, store: false }) });
       if (!response.ok) throw new ToolError("PROVIDER_UNAVAILABLE", 502);
       const data = await response.json();
       const searchCalls = (data.steps ?? []).filter((step) => step?.type === "google_search_call");
       const queries = cleanQueries(searchCalls.map((step) => step.arguments?.queries ?? []));
       const sourceValues = [];
       for (const step of data.steps ?? []) if (step?.type === "model_output") for (const block of step.content ?? []) for (const annotation of block.annotations ?? []) if (annotation?.type === "url_citation") sourceValues.push(annotation);
-      return { queries, sources: cleanSources(sourceValues), searchActionCount: searchCalls.length, model: data.model ?? this.model, provider: "gemini", inputTokens: Number(data.usage?.total_input_tokens ?? 0), outputTokens: Number(data.usage?.total_output_tokens ?? 0), actualCostMicroEur: NATIVE_RESERVE_MICRO_EUR, latencyMs: Date.now() - started };
+      return { queries, sources: cleanSources(sourceValues), searchActionCount: searchCalls.length, model: data.model ?? this.model, provider: "gemini", inputTokens: Number(data.usage?.total_input_tokens ?? 0), outputTokens: Number(data.usage?.total_output_tokens ?? 0), latencyMs: Date.now() - started };
     } catch (error) { providerFailure(error); }
   }
 }
