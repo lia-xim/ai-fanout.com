@@ -40,6 +40,11 @@ test("zero exposed query strings stays empty instead of inventing fanout",async(
   const result=await provider.observe(input);assert.deepEqual(result.queries,[]);assert.equal(result.searchActionCount,0);
 });
 
+test("OpenAI incomplete output is surfaced instead of looking like an empty success",async()=>{
+  const provider=new OpenAINativeProvider({apiKey:"x",fetchImpl:async()=>({ok:true,json:async()=>({status:"incomplete",incomplete_details:{reason:"max_output_tokens"},output:[]})})});
+  await assert.rejects(()=>provider.observe(input),error=>error?.code==="PROVIDER_INCOMPLETE"&&error?.status===502);
+});
+
 test("native service is strict, CAPTCHA-first, separately bucketed, and stores no raw input",async()=>{
   const ledger=new MemoryQuotaLedger({reserveMicroEur:NATIVE_RESERVE_MICRO_EUR});let captchaCalls=0;
   const providers={openai:{observe:async()=>({queries:["seo tools"],sources:[],searchActionCount:1,model:"gpt-5.6-luna",provider:"openai",inputTokens:1,outputTokens:2,latencyMs:3})}};

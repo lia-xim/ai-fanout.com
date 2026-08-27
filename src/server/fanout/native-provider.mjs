@@ -27,6 +27,7 @@ export class OpenAINativeProvider {
       const response = await this.fetchImpl("https://api.openai.com/v1/responses", { method: "POST", headers: { Authorization: `Bearer ${this.apiKey}`, "Content-Type": "application/json" }, signal: timeoutSignal(), body: JSON.stringify({ model: this.model, input: protocolInput(input), tools: [{ type: "web_search", search_context_size: "low" }], tool_choice: "required", max_tool_calls: MAX_NATIVE_SEARCHES, max_output_tokens: NATIVE_MAX_OUTPUT_TOKENS, reasoning: { effort: "none" }, include: ["web_search_call.action.sources"], store: false }) });
       if (!response.ok) throw new ToolError("PROVIDER_UNAVAILABLE", 502);
       const data = await response.json();
+      if (data.status === "incomplete") throw new ToolError("PROVIDER_INCOMPLETE", 502);
       const searchCalls = (data.output ?? []).filter((item) => item?.type === "web_search_call");
       const queries = cleanQueries(searchCalls.map((item) => item.action?.queries ?? item.action?.query ?? []));
       const sourceValues = searchCalls.map((item) => item.action?.sources ?? []);
