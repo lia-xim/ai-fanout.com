@@ -17,6 +17,8 @@ ai-fanout.com shows which web-search queries a provider API exposes during one b
 
 Keep the established Controlled Signal system: dark work surface, cool-white typography, cyan observed-output states, restrained coral limits, ruled registers and the branch-map composition. The first viewport remains the working tool. Do not restart the visual direction.
 
+The homepage is the complete product explanation, not a short gateway. After the tool it must explain the output, run sequence, query/source/action vocabulary, rules-based quick reading, SEO decisions, provider comparison, locale effects, repeat variability, cost, privacy and the next learning path in plain English and German. Dated examples remain indexable proof pages but are linked contextually instead of taking a permanent top-navigation slot.
+
 ## Product modes
 
 - **Native Fanout, primary:** one direct OpenAI Responses or Gemini Interactions API run with provider-native web search. Show only provider-exposed query strings and cited URLs. Link sources to a query only when the provider response carries that link; otherwise keep them at search-action or run level. Zero exposed queries stays zero.
