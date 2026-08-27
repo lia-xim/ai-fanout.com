@@ -4,7 +4,21 @@
   "installCommand":"corepack pnpm install --frozen-lockfile",
   "buildCommand":"corepack pnpm build",
   "outputDirectory":"dist",
-  "redirects":[{"source":"/sitemap.xml","destination":"/sitemap-index.xml","permanent":true}],
+  "redirects":[
+    {"source":"/sitemap.xml","destination":"/sitemap-index.xml","permanent":true},
+    {"source":"/library/openai-web-search-queries","destination":"/library/how-to-see-openai-search-queries","permanent":true},
+    {"source":"/library/ai-citations","destination":"/library/how-to-see-openai-search-queries","permanent":true},
+    {"source":"/library/gemini-search-queries","destination":"/library/how-to-see-openai-search-queries","permanent":true},
+    {"source":"/library/content-gap-analysis-with-fanout","destination":"/library/ai-query-fanout-for-seo","permanent":true},
+    {"source":"/library/country-language-ai-search","destination":"/library/why-ai-fanout-results-change","permanent":true},
+    {"source":"/library/no-fanout-query-visible","destination":"/library/compare-ai-model-searches","permanent":true},
+    {"source":"/de/lernen/openai-websuche","destination":"/de/lernen/openai-suchanfragen-sehen","permanent":true},
+    {"source":"/de/lernen/ki-zitate-und-quellen","destination":"/de/lernen/openai-suchanfragen-sehen","permanent":true},
+    {"source":"/de/lernen/gemini-suchanfragen","destination":"/de/lernen/openai-suchanfragen-sehen","permanent":true},
+    {"source":"/de/lernen/content-luecken-mit-fanout","destination":"/de/lernen/query-fanout-fuer-seo","permanent":true},
+    {"source":"/de/lernen/land-und-sprache-ki-suche","destination":"/de/lernen/warum-fanout-ergebnisse-schwanken","permanent":true},
+    {"source":"/de/lernen/keine-fanout-query-sichtbar","destination":"/de/lernen/ki-modelle-vergleichen","permanent":true}
+  ],
   "headers":[{"source":"/(.*)","headers":[
     {"key":"Content-Security-Policy","value":"default-src 'self'; script-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"},
     {"key":"X-Content-Type-Options","value":"nosniff"},

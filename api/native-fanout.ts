@@ -6,6 +6,7 @@ import { createNativeFanoutService } from "../src/server/fanout/native-service.m
 import { RedisQuotaLedger } from "../src/server/fanout/quota.mjs";
 import { allowedRequestOrigins, expectedTurnstileHostnames } from "../src/server/fanout/request-origin.mjs";
 import { verifyTurnstile } from "../src/server/fanout/service.mjs";
+import { incrementMetric } from "../src/server/metrics.mjs";
 
 const sharedRequired = ["TURNSTILE_SECRET_KEY", "TURNSTILE_HOSTNAMES", "FANOUT_BUCKET_SALT", "UPSTASH_REDIS_REST_URL", "UPSTASH_REDIS_REST_TOKEN"] as const;
 const allowedOrigins = allowedRequestOrigins();
@@ -27,7 +28,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const ip = String(req.headers["x-forwarded-for"] ?? req.socket.remoteAddress ?? "unknown").split(",")[0].trim();
     const expectedHostnames = expectedTurnstileHostnames(process.env.TURNSTILE_HOSTNAMES);
     const service = createNativeFanoutService({ ledger: new RedisQuotaLedger({ url: process.env.UPSTASH_REDIS_REST_URL!, token: process.env.UPSTASH_REDIS_REST_TOKEN!, reserveMicroEur: NATIVE_RESERVE_MICRO_EUR }), providers, bucketSalt: process.env.FANOUT_BUCKET_SALT!, captchaVerifier: (token: string, remoteIp: string) => verifyTurnstile({ token, remoteIp, secret: process.env.TURNSTILE_SECRET_KEY!, expectedAction: "fanout", expectedHostnames }) });
-    return res.status(200).json({ ok: true, requestId, data: await service({ body: req.body, remoteIp: ip }) });
+    await incrementMetric("run_started",{provider:requestedProvider});
+    const data=await service({ body:req.body,remoteIp:ip });
+    await incrementMetric(data.queries.length?"run_succeeded":"run_zero_query",{provider:requestedProvider});
+    return res.status(200).json({ ok: true, requestId, data });
   } catch (error) {
     const status = error instanceof ToolError ? error.status : 500;
     const code = error instanceof ToolError ? error.code : "INTERNAL_ERROR";

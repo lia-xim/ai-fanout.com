@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-27.2",
+  "manifestVersion": "2026-08-27.3",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-08-27",
   "domainOrigin": "fresh_registration",
@@ -27,12 +27,26 @@
       "status": 308
     }
   ],
+  "contentConsolidationRedirects": [
+    {"source":"/library/openai-web-search-queries","destination":"/library/how-to-see-openai-search-queries","status":308},
+    {"source":"/library/ai-citations","destination":"/library/how-to-see-openai-search-queries","status":308},
+    {"source":"/library/gemini-search-queries","destination":"/library/how-to-see-openai-search-queries","status":308},
+    {"source":"/library/content-gap-analysis-with-fanout","destination":"/library/ai-query-fanout-for-seo","status":308},
+    {"source":"/library/country-language-ai-search","destination":"/library/why-ai-fanout-results-change","status":308},
+    {"source":"/library/no-fanout-query-visible","destination":"/library/compare-ai-model-searches","status":308},
+    {"source":"/de/lernen/openai-websuche","destination":"/de/lernen/openai-suchanfragen-sehen","status":308},
+    {"source":"/de/lernen/ki-zitate-und-quellen","destination":"/de/lernen/openai-suchanfragen-sehen","status":308},
+    {"source":"/de/lernen/gemini-suchanfragen","destination":"/de/lernen/openai-suchanfragen-sehen","status":308},
+    {"source":"/de/lernen/content-luecken-mit-fanout","destination":"/de/lernen/query-fanout-fuer-seo","status":308},
+    {"source":"/de/lernen/land-und-sprache-ki-suche","destination":"/de/lernen/warum-fanout-ergebnisse-schwanken","status":308},
+    {"source":"/de/lernen/keine-fanout-query-sichtbar","destination":"/de/lernen/ki-modelle-vergleichen","status":308}
+  ],
   "notes": [
     "ai-fanout.com was newly registered by Matthias Ramahi for this project.",
     "The canonical English and German homepages present Native Fanout as the primary mode and the live modelled Search Ideas generator as a clearly separate secondary mode.",
-    "/library and /de/lernen each contain eleven intent-distinct, paired guides with reciprocal hreflang annotations.",
+    "/library and /de/lernen each contain five comprehensive, paired guides with reciprocal hreflang annotations. Six narrower routes per language permanently redirect to their intent-equivalent guide.",
     "/methodology and /de/methode explain the direct OpenAI/Gemini native-search contract and the separate modelled-ideas boundary. Manual comparison and research routes are retired from public IA, noindex and excluded from the sitemap.",
-    "/examples and /de/beispiele contain four paired, dated example pages backed by one normalized OpenAI observation fixture. The OpenAI-vs-Gemini page is a local comparison protocol and does not publish retained Gemini Grounded Results.",
+    "/examples and /de/beispiele contain four paired, dated evidence pages backed by one normalized OpenAI observation fixture. The former OpenAI-vs-Gemini promise is now titled as a local comparison protocol and does not publish retained Gemini Grounded Results.",
     "The sitemap is generated from Astro static routes and excludes noindex, error and API paths.",
     "The API is enabled only when CAPTCHA, atomic quota, cost and provider secrets plus both explicit public flags are configured.",
     "Unknown paths return a real 404 and are not redirected to the homepage."

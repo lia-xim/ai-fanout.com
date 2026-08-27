@@ -76,3 +76,4 @@
   .related-references a small { grid-column: 2; }
   .related-references a svg { grid-column: 3; grid-row: 1 / span 2; }
 }
+.article-visual{max-width:calc(100% - 2 * var(--gutter));margin:0 var(--gutter) clamp(3rem,7vw,7rem);border:1px solid var(--rule);background:var(--surface);overflow:hidden}.article-visual img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}

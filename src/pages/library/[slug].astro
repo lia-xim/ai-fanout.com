@@ -51,6 +51,8 @@ const structuredData = {
       <div><h2 id="direct-answer-title">{article.shortTitle}</h2><p>{article.answer}</p><small>{article.useWhen}</small></div>
     </section>
 
+    {article.image && <figure class="article-visual"><img src={article.image} alt={article.imageAlt ?? ""} width="1600" height="900" loading="eager" decoding="async" /></figure>}
+
     <div class="article-grid">
       <aside class="article-rail" aria-label="On this page">
         <p>On this page</p>

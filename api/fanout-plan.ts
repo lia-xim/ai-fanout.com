@@ -4,6 +4,7 @@ import { OpenRouterFanoutProvider } from "../src/server/fanout/provider.mjs";
 import { RedisQuotaLedger } from "../src/server/fanout/quota.mjs";
 import { allowedRequestOrigins, expectedTurnstileHostnames } from "../src/server/fanout/request-origin.mjs";
 import { createFanoutService, verifyTurnstile } from "../src/server/fanout/service.mjs";
+import { incrementMetric } from "../src/server/metrics.mjs";
 
 const required = ["OPENROUTER_API_KEY", "TURNSTILE_SECRET_KEY", "TURNSTILE_HOSTNAMES", "FANOUT_BUCKET_SALT", "UPSTASH_REDIS_REST_URL", "UPSTASH_REDIS_REST_TOKEN"] as const;
 const safeHeaders = { "Cache-Control": "no-store", "Content-Type": "application/json; charset=utf-8", "X-Content-Type-Options": "nosniff", "Referrer-Policy": "no-referrer" };
@@ -22,7 +23,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const provider = new OpenRouterFanoutProvider({ apiKey: process.env.OPENROUTER_API_KEY! });
     const expectedHostnames = expectedTurnstileHostnames(process.env.TURNSTILE_HOSTNAMES);
     const service = createFanoutService({ ledger, provider, bucketSalt: process.env.FANOUT_BUCKET_SALT!, captchaVerifier: (token: string, remoteIp: string) => verifyTurnstile({ token, remoteIp, secret: process.env.TURNSTILE_SECRET_KEY!, expectedAction: "fanout", expectedHostnames }) });
+    await incrementMetric("run_started",{provider:"modelled"});
     const data = await service({ body: req.body, remoteIp: ip });
+    await incrementMetric(data.queries.length?"run_succeeded":"run_zero_query",{provider:"modelled"});
     return res.status(200).json({ ok: true, requestId, data });
   } catch (error) {
     const status = error instanceof ToolError ? error.status : 500;

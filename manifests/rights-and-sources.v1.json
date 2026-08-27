@@ -356,8 +356,8 @@
     },
     {
       "assetClass": "Typography and production imagery",
-      "status": "no_bundled_third_party_assets",
-      "decision": "The public website uses system font fallbacks and code-native graphics; it loads no third-party font or production image asset."
+      "status": "system_fonts_and_owner_commissioned_ai_images",
+      "decision": "The website uses system font fallbacks. Five text-free guide illustrations were commissioned by the owner through Higgsfield on 2026-08-27, generated with nano_banana_2 after the requested model was adjusted by the service, and stored locally under public/images/guides. They contain no copied third-party logos, screenshots or artwork."
     },
     {
       "assetClass": "External standards and documentation",
