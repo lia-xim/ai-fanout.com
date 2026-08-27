@@ -19,6 +19,8 @@ Keep the established Controlled Signal system: dark work surface, cool-white typ
 
 The homepage is the complete product explanation, not a short gateway. After the tool it must explain the output, run sequence, query/source/action vocabulary, SEO decisions, provider comparison, locale effects, repeat variability, cost, privacy and the next learning path in plain English and German. The result summary stays with provider-grounded counts and adds no automatic topic labels. Dated examples remain indexable proof pages but are linked contextually instead of taking a permanent top-navigation slot.
 
+The learning guides use a restrained editorial article system: the illustration belongs to the hero, headings stay at normal publication scale, body copy sits in a narrow reading column, and a small sticky contents list supports navigation. Do not reintroduce numbered report labels, oversized section headlines, or one-heading-per-paragraph composition. Each guide should have two to four substantial chapters followed by the retained source register.
+
 ## Product modes
 
 - **Native Fanout, primary:** one direct OpenAI Responses or Gemini Interactions API run with provider-native web search. Show only provider-exposed query strings and cited URLs. Link sources to a query only when the provider response carries that link; otherwise keep them at search-action or run level. Zero exposed queries stays zero.

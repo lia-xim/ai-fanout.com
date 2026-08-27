@@ -18,7 +18,16 @@ function consolidate(source:readonly LibraryArticle[],german=false):LibraryArtic
     const keepSlug=german?deSlug[plan.keep]:plan.keep;
     const article=source.find(item=>item.slug===keepSlug)!;
     const merged=plan.merge.map(slug=>source.find(item=>item.slug===(german?deSlug[slug]:slug))).filter((item):item is LibraryArticle=>Boolean(item));
-    const sections=[...article.sections,...merged.flatMap(item=>item.sections.map(section=>({...section,id:`${item.slug}-${section.id}`})))];
+    const sourceArticles=[article,...merged];
+    const sections=sourceArticles.flatMap((item)=>{
+      const chunks=sourceArticles.length===1&&item.sections.length>3?[item.sections.slice(0,3),item.sections.slice(3)]:[item.sections];
+      return chunks.filter(chunk=>chunk.length).map((chunk,chunkIndex)=>({
+        id:chunkIndex===0?item.slug:`${item.slug}-${chunkIndex+1}`,
+        title:chunk[0].title,
+        paragraphs:chunk.flatMap(section=>section.paragraphs),
+        points:[...new Set(chunk.flatMap(section=>section.points??[]))]
+      }));
+    });
     const sourceIds=[...new Set([ ...article.sourceIds,...merged.flatMap(item=>item.sourceIds)])];
     const combined=plan.keep==="how-to-see-openai-search-queries"?(german?{title:"Wie sieht man OpenAI- und Gemini-Suchanfragen?",shortTitle:"OpenAI- und Gemini-Suchanfragen",description:"So prüfst du Suchanfragen und Quellen, die OpenAI oder Gemini in einem API-Lauf sichtbar machen – mit klaren Grenzen für Zuordnung und Speicherung.",primaryIntent:"Von OpenAI oder Gemini offengelegte Suchaktionen über dokumentierte APIs prüfen.",answer:"Starte einen API-Lauf mit der nativen Websuche des gewählten Anbieters und prüfe ausschließlich die zurückgegebenen Suchaktionen. Nur Query-Strings, die OpenAI oder Gemini im Response offenlegen, sind beobachtete Suchanfragen.",useWhen:"Lies diese Anleitung, bevor du Browser-Tricks, Screenshots oder Vermutungen über ChatGPT- oder Gemini-Suchen verwendest."}:{title:"How to see OpenAI and Gemini search queries",shortTitle:"OpenAI and Gemini search queries",description:"How to inspect search queries and sources exposed by an OpenAI or Gemini API run, with clear attribution and storage limits.",primaryIntent:"Inspect provider-exposed OpenAI or Gemini search actions through documented APIs.",answer:"Run the selected provider's native web-search API and inspect only the returned search-action fields. A query is observed only when OpenAI or Gemini exposes that query string in the response.",useWhen:"Read this before relying on browser tricks, screenshots or generated guesses about what ChatGPT or Gemini searched."}):{};
     return {...article,...combined,number:String(index+1).padStart(2,"0"),sections,sourceIds,image:plan.image,imageAlt:german?plan.altDe:plan.altEn};

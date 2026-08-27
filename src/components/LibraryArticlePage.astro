@@ -1,0 +1,70 @@
+---
+import ArrowIcon from "./ArrowIcon.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { LibraryArticle } from "../data/library";
+import evidenceManifest from "../../manifests/rights-and-sources.v1.json";
+import "../styles/library-article.css";
+
+interface Props { article:LibraryArticle; articles:readonly LibraryArticle[]; locale:"en"|"de" }
+const {article,articles,locale}=Astro.props;
+const de=locale==="de";
+const hub=de?"/de/lernen":"/library";
+const canonicalPath=`${hub}/${article.slug}`;
+const alternatePath=article.pairedSlug?(de?`/library/${article.pairedSlug}`:`/de/lernen/${article.pairedSlug}`):undefined;
+const sources=evidenceManifest.sources.filter(source=>article.sourceIds.includes(source.id));
+const related=article.relatedSlugs.map(slug=>articles.find(item=>item.slug===slug)).filter((item):item is LibraryArticle=>Boolean(item));
+const words=[article.answer,article.useWhen,...article.sections.flatMap(section=>section.paragraphs)].join(" ").trim().split(/\s+/).length;
+const readingMinutes=Math.max(4,Math.ceil(words/190));
+const date=new Intl.DateTimeFormat(de?"de-DE":"en-GB",{day:"2-digit",month:"long",year:"numeric"}).format(new Date(`${article.reviewedAt}T12:00:00Z`));
+const schema={"@context":"https://schema.org","@type":"TechArticle",headline:article.title,description:article.description,dateModified:article.reviewedAt,inLanguage:locale,image:article.image?`https://ai-fanout.com${article.image}`:undefined,author:{"@type":"Person",name:"Matthias Ramahi",url:"https://ai-fanout.com/transparency"},publisher:{"@type":"Organization",name:"ai-fanout.com",url:"https://ai-fanout.com"},mainEntityOfPage:`https://ai-fanout.com${canonicalPath}`,isPartOf:{"@type":"CollectionPage",name:de?"AI Query Fanout verstehen":"Learn about AI query fanout",url:`https://ai-fanout.com${hub}`}};
+---
+<BaseLayout lang={locale} title={article.title} canonicalPath={canonicalPath} alternatePath={alternatePath} description={article.description} pageClass="library-article-page" structuredData={schema} ogType="article" socialImagePath={article.image} socialImageAlt={article.imageAlt}>
+  <article>
+    <header class="editorial-hero">
+      {article.image&&<img class="editorial-hero-image" src={article.image} alt="" width="1600" height="900" loading="eager" decoding="async"/>}
+      <div class="editorial-hero-shade" aria-hidden="true"></div>
+      <div class="editorial-hero-inner">
+        <h1>{article.title}</h1>
+        <div class="editorial-hero-footer">
+          <p>{article.description}</p>
+          <dl>
+            <div><dt>{de?"Autor":"Author"}</dt><dd>Matthias Ramahi</dd></div>
+            <div><dt>{de?"Lesezeit":"Reading time"}</dt><dd>{readingMinutes} {de?"Minuten":"minutes"}</dd></div>
+            <div><dt>{de?"Aktualisiert":"Updated"}</dt><dd>{date}</dd></div>
+          </dl>
+        </div>
+      </div>
+    </header>
+
+    <nav class="article-breadcrumb" aria-label={de?"Brotkrumen":"Breadcrumb"}><a href={hub}>{de?"Lernen":"Learn"}</a><span aria-hidden="true">/</span><span aria-current="page">{article.shortTitle}</span></nav>
+
+    <div class="editorial-layout">
+      <main class="editorial-content">
+        <section class="article-intro">
+          <p class="article-lead">{article.answer}</p>
+          <p>{article.useWhen}</p>
+        </section>
+
+        {article.sections.map(section=><section id={section.id} class="article-chapter" aria-labelledby={`${section.id}-title`}>
+          <h2 id={`${section.id}-title`}>{section.title}</h2>
+          {section.paragraphs.map(paragraph=><p>{paragraph}</p>)}
+          {section.points&&section.points.length>0&&<ul>{section.points.map(point=><li>{point}</li>)}</ul>}
+        </section>)}
+
+        <section class="source-notes" aria-labelledby="sources-title">
+          <h2 id="sources-title">{de?"Verwendete Quellen":"Sources used"}</h2>
+          <p>{de?"Diese Quellen stützen die beschriebenen Funktionen und Grenzen. Sie belegen keine darüber hinausgehenden Aussagen.":"These sources support the functions and limits described here. They do not prove claims beyond that scope."}</p>
+          <ol>{sources.map(source=><li><div><strong>{source.title}</strong><p>{source.supports}</p></div>{source.location.startsWith("https://")?<a href={source.location} rel="external">{de?"Quelle öffnen":"Open source"} <ArrowIcon size={15}/></a>:<small>{de?"Interner Eigentümer-Nachweis":"Owner record"}</small>}</li>)}</ol>
+        </section>
+      </main>
+
+      <aside class="article-toc" aria-label={de?"Auf dieser Seite":"On this page"}>
+        <p>{de?"Auf dieser Seite":"On this page"}</p>
+        <nav>{article.sections.map(section=><a href={`#${section.id}`}>{section.title}</a>)}</nav>
+        <a class="toc-back" href={hub}><ArrowIcon direction="left"/>{de?"Alle Artikel":"All guides"}</a>
+      </aside>
+    </div>
+
+    {related.length>0&&<section class="related-articles" aria-labelledby="related-title"><header><h2 id="related-title">{de?"Weiterlesen":"Keep reading"}</h2><p>{de?"Weitere klare Erklärungen zum Tool und seinen Grenzen.":"More practical explanations of the tool and its limits."}</p></header><div>{related.map(item=><a href={`${hub}/${item.slug}`}><strong>{item.shortTitle}</strong><span>{de?"Artikel lesen":"Read guide"}<ArrowIcon/></span></a>)}</div></section>}
+  </article>
+</BaseLayout>
