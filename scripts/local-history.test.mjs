@@ -23,9 +23,9 @@ test("Gemini local history keeps queries but strips Google grounded sources",()=
   assert.deepEqual(stored.queries,["beste seo tools"]);assert.deepEqual(stored.sources,[]);assert.deepEqual(stored.searchActions[0].sources,[]);assert.equal(stored.sourceEvidenceScope,"not_stored_google_grounded_results");
 });
 
-test("rules-based reading separates observed counts from derived categories",()=>{
+test("result summary keeps only observed query and source counts",()=>{
   const result=analyzeFanout({language:"de",queries:["beste SEO Tools im Vergleich","SEO Tools Preise","SEO Tools für KMU"],sources:[{url:"https://www.ahrefs.com/a"},{url:"https://semrush.com/b"},{url:"https://ahrefs.com/c"}]});
-  assert.equal(result.evidenceState,"derived");assert.equal(result.observedQueryCount,3);assert.equal(result.comparisonQuestionCount,1);assert.equal(result.priceQuestionCount,1);assert.equal(result.distinctSourceDomainCount,2);assert.equal(result.recurringThemes[0].term,"seo");
+  assert.equal(result.evidenceState,"observed_summary");assert.equal(result.observedQueryCount,3);assert.equal(result.distinctSourceDomainCount,2);assert.deepEqual(result.sourceDomains,["ahrefs.com","semrush.com"]);assert.equal("comparisonQuestionCount" in result,false);assert.equal("recurringThemes" in result,false);
 });
 
 test("browser-local comparison finds exact overlaps and exports all runs",()=>{

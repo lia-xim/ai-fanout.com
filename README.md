@@ -9,7 +9,7 @@ Native Fanout is the primary mode. A visitor enters one short topic, chooses Ope
 - OpenAI Responses API with GPT-5.6 Luna and the built-in `web_search` tool;
 - Gemini Interactions API with Gemini 3.7 Flash and `google_search`.
 
-The result contains only query strings and sources that the provider API exposes in that run. Query-to-source links appear only when the same provider search action supports the relationship. Counts taken from the response stay visually separate from deterministic post-run categories such as comparison or price questions. Provider usage fields drive a dated list-price estimate; provider billing remains authoritative.
+The result contains only query strings and sources that the provider API exposes in that run. Query-to-source links appear only when the same provider search action supports the relationship. The summary repeats provider-grounded counts and adds no automatic topic categories. Provider usage fields drive a dated list-price estimate; provider billing remains authoritative.
 
 Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenRouter model to generate exactly ten modelled research directions without performing web search.
 

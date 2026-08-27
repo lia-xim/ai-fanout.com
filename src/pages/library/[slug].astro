@@ -24,6 +24,8 @@ const structuredData = {
   description: article.description,
   dateModified: article.reviewedAt,
   inLanguage: "en",
+  author: { "@type": "Person", name: "Matthias Ramahi", url: "https://ai-fanout.com/transparency" },
+  publisher: { "@type": "Organization", name: "ai-fanout.com", url: "https://ai-fanout.com" },
   mainEntityOfPage: `https://ai-fanout.com${canonicalPath}`,
   isPartOf: { "@type": "CollectionPage", name: "Learn about AI query fanout", url: "https://ai-fanout.com/library" }
 };
