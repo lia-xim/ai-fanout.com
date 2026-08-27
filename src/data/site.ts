@@ -16,6 +16,7 @@ export const site = {
   navigation: [
     { href: "/#tool", label: "Free tool" },
     { href: "/library", label: "Learn" },
+    { href: "/examples", label: "Examples" },
     { href: "/methodology", label: "How it works" },
   ] satisfies readonly NavigationItem[],
 } as const;

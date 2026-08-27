@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "ai-fanout.example-observations/1.0",
+  "publishedAt": "2026-08-27",
+  "provider": "openai",
+  "model": "gpt-5.6-luna",
+  "toolVersion": "native-fanout-tool/1.0.0",
+  "methodVersion": "provider-native-search/1.0",
+  "protocol": {
+    "tool": "web_search",
+    "searchContextSize": "low",
+    "maxSearches": 8,
+    "maxOutputTokens": 500,
+    "store": false
+  },
+  "observations": [
+    {
+      "id": "best-seo-tools-us",
+      "observedAt": "2026-08-27T13:13:23.681Z",
+      "input": { "keyword": "best SEO tools", "language": "en", "country": "US" },
+      "providerResponseStatus": "incomplete",
+      "queries": ["best SEO tools 2026 US market SEO software comparisons official pricing features", "Semrush SEO toolkit official features pricing", "Ahrefs SEO tools official features pricing", "Google Search Console official SEO tools"],
+      "sourceDomains": ["ahrefs.com", "semrush.com", "help.ahrefs.com", "support.google.com", "semrush.ebundletools.com", "static.semrush.com", "images.g2crowd.com", "searchenginejournal.s3.us-west-1.amazonaws.com", "reddit.com", "youtube.com", "seo.com"],
+      "usage": { "inputTokens": 12905, "outputTokens": 500, "searchActions": 1, "estimatedCostUsd": 0.013181 }
+    },
+    {
+      "id": "best-seo-tools-de",
+      "observedAt": "2026-08-27T13:13:32.969Z",
+      "input": { "keyword": "best SEO tools", "language": "en", "country": "DE" },
+      "providerResponseStatus": "incomplete",
+      "queries": ["best SEO tools 2026 comparison Semrush Ahrefs Sistrix Screaming Frog Google Search Console Germany DE market", "official Semrush SEO toolkit features pricing 2026", "official Ahrefs SEO tools features pricing 2026", "SISTRIX official SEO tool features Germany pricing"],
+      "sourceDomains": ["sistrix.de", "semrush.com", "sistrix.com", "help.ahrefs.com", "ahrefs.com", "gemprogrammers.com", "static.semrush.com", "images.g2crowd.com", "reddit.com", "searchenginejournal.s3.us-west-1.amazonaws.com", "youtube.com"],
+      "usage": { "inputTokens": 12797, "outputTokens": 500, "searchActions": 1, "estimatedCostUsd": 0.013159 }
+    },
+    {
+      "id": "best-seo-tools-repeat",
+      "observedAt": "2026-08-27T13:13:45.771Z",
+      "input": { "keyword": "best SEO tools", "language": "en", "country": "US" },
+      "providerResponseStatus": "incomplete",
+      "queries": ["best SEO tools 2026 US market comparison official pricing features", "Semrush SEO toolkit official features pricing", "Ahrefs official SEO tools features pricing", "Google Search Console official features SEO"],
+      "sourceDomains": ["ahrefs.com", "semrush.com", "help.ahrefs.com", "support.google.com", "developers.google.com", "static.semrush.com", "images.g2crowd.com", "reddit.com", "searchenginejournal.s3.us-west-1.amazonaws.com", "youtube.com"],
+      "usage": { "inputTokens": 12876, "outputTokens": 500, "searchActions": 1, "estimatedCostUsd": 0.013175 }
+    },
+    {
+      "id": "seo-tools-comparison-sources",
+      "observedAt": "2026-08-27T13:13:59.201Z",
+      "input": { "keyword": "Ahrefs vs Semrush for small business", "language": "en", "country": "US" },
+      "providerResponseStatus": "completed",
+      "queries": ["Ahrefs vs Semrush small business pricing features 2026", "Ahrefs pricing official", "Semrush pricing official", "Ahrefs Semrush review small business SEO comparison"],
+      "sourceDomains": ["ahrefs.com", "semrush.com", "help.ahrefs.com", "stackcompare.net", "formativedigital.com", "insidepro360.com", "softoraguide.com", "angletutoring.com", "static.semrush.com", "sec.gov", "youtube.com", "reddit.com", "cdnc.heyzine.com"],
+      "usage": { "inputTokens": 12876, "outputTokens": 475, "searchActions": 1, "estimatedCostUsd": 0.013145 }
+    }
+  ],
+  "notice": "Owner-run OpenAI API observations under one published protocol. Source domains are normalized from the source URLs returned for each search action. Three runs completed the search action but reached the final-answer token cap. This is not an independent provider benchmark or a capture of the ChatGPT consumer interface. No Gemini Grounded Results or Search Suggestions are published."
+}

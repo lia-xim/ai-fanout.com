@@ -1,0 +1,6 @@
+---
+import ExamplePage from "../../../components/ExamplePage.astro";
+import { germanExamples,type ExamplePage as ExamplePageData } from "../../../data/examples";
+export function getStaticPaths(){return germanExamples.map(page=>({params:{slug:page.slug},props:{page}}))}interface Props{page:ExamplePageData}const{page}=Astro.props;
+---
+<ExamplePage page={page} lang="de" />

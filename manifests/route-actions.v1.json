@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-24.1",
+  "manifestVersion": "2026-08-27.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-08-24",
+  "reviewedAt": "2026-08-27",
   "domainOrigin": "fresh_registration",
   "defaultUnknownPathAction": "404",
   "catchAllRedirect": false,
@@ -32,6 +32,7 @@
     "The canonical English and German homepages present Native Fanout as the primary mode and the live modelled Search Ideas generator as a clearly separate secondary mode.",
     "/library and /de/lernen each contain eight intent-distinct, paired guides with reciprocal hreflang annotations.",
     "/methodology and /de/methode explain the direct OpenAI/Gemini native-search contract and the separate modelled-ideas boundary. Manual comparison and research routes are retired from public IA, noindex and excluded from the sitemap.",
+    "/examples and /de/beispiele contain four paired, dated example pages backed by one normalized OpenAI observation fixture. The OpenAI-vs-Gemini page is a local comparison protocol and does not publish retained Gemini Grounded Results.",
     "The sitemap is generated from Astro static routes and excludes noindex, error and API paths.",
     "The API is enabled only when CAPTCHA, atomic quota, cost and provider secrets plus both explicit public flags are configured.",
     "Unknown paths return a real 404 and are not redirected to the homepage."

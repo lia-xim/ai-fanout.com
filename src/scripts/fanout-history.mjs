@@ -11,6 +11,17 @@ export function pruneHistory(entries, now = Date.now()) {
     .slice(0, HISTORY_LIMIT);
 }
 
+export function prepareResultForLocalStorage(result) {
+  if (result?.providerId !== "gemini") return structuredClone(result);
+  return {
+    ...structuredClone(result),
+    sources: [],
+    searchActions: (result.searchActions ?? []).map((action) => ({ ...action, sources: [], sourceScope: "not_stored" })),
+    sourceEvidenceScope: "not_stored_google_grounded_results",
+    storageNotice: "Gemini Grounded Results and Search Suggestions are not stored. Only provider-exposed query strings and run metadata remain on this device.",
+  };
+}
+
 function openHistoryDb() {
   return new Promise((resolve, reject) => {
     const request = indexedDB.open(DB_NAME, 1);
@@ -47,11 +58,12 @@ export async function loadSavedRuns(now = Date.now()) {
 }
 
 export async function saveRun(result, now = Date.now()) {
+  const storedResult = prepareResultForLocalStorage(result);
   const entry = {
     id: `${result.generatedAt}:${result.modelId}`,
     savedAt: now,
     expiresAt: now + HISTORY_TTL_MS,
-    result,
+    result: storedResult,
   };
   await transaction("readwrite", (store) => store.put(entry));
   const entries = await loadSavedRuns(now);

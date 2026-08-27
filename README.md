@@ -9,7 +9,7 @@ Native Fanout is the primary mode. A visitor enters one short topic, chooses Ope
 - OpenAI Responses API with GPT-5.6 Luna and the built-in `web_search` tool;
 - Gemini Interactions API with Gemini 3.7 Flash and `google_search`.
 
-The result contains only query strings and sources that the provider API exposes in that run. It is not a capture of the ChatGPT or Gemini consumer interface and never claims chain of thought or private retrieval traces.
+The result contains only query strings and sources that the provider API exposes in that run. Query-to-source links appear only when the same provider search action supports the relationship. Counts taken from the response stay visually separate from deterministic post-run categories such as comparison or price questions. Provider usage fields drive a dated list-price estimate; provider billing remains authoritative.
 
 Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenRouter model to generate exactly ten modelled research directions without performing web search.
 
@@ -24,7 +24,8 @@ Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenR
 - one direct provider request, 20-second timeout and no retry;
 - OpenAI is limited to eight web-search tool calls; Gemini is instructed to use no more than eight queries; both provider outputs are capped at 500 tokens, and OpenAI uses low search context. The safety reserve was reduced after the first billed-cost check;
 - no raw topic or provider response stored in the ai-fanout.com server database;
-- optional browser-local history stores at most 20 explicitly saved results in IndexedDB for up to 30 days, with open, delete, clear and JSON/CSV export controls;
+- optional browser-local history stores at most 20 explicitly saved results in IndexedDB for up to 30 days, with multi-select comparison and combined JSON/CSV export controls;
+- Gemini local saves remove Google Grounded Results and Search Suggestions before retaining query strings and run metadata;
 - no account, cross-device sync or shared response cache;
 - provider keys stay server-only and every public mode has an explicit enable flag.
 
@@ -36,5 +37,7 @@ corepack pnpm qa
 ```
 
 The focused tests cover both provider parsers, zero-query honesty, strict input, model/provider allowlisting, CAPTCHA order, IP/global limits, parallel budget reservations, provider errors, timeout and secret isolation.
+
+The bilingual `/examples` and `/de/beispiele` sections use a dated OpenAI observation fixture for country, repeat-run and comparison-source examples. The OpenAI-vs-Gemini page is a local comparison protocol rather than a published Gemini transcript.
 
 Current code and copy are owner-created. Linked documentation is narrowly paraphrased. No open-source license is granted unless a later `LICENSE` file says otherwise.

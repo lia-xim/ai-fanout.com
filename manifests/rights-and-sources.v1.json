@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-27.1",
+  "manifestVersion": "2026-08-27.2",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-08-27",
   "sources": [
@@ -221,6 +221,24 @@
       "supports": "Confirms the direct API model ID gpt-5.6-luna and Responses API web-search support."
     },
     {
+      "id": "openai-gpt-5-6-luna-pricing-2026-08-27",
+      "title": "GPT-5.6 Luna model pricing",
+      "kind": "primary_provider_documentation",
+      "location": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+      "checkedAt": "2026-08-27",
+      "status": "verified",
+      "supports": "Lists USD 0.20 per million input tokens and USD 1.20 per million output tokens used by the dated per-run estimate."
+    },
+    {
+      "id": "openai-web-search-pricing-2026-08-27",
+      "title": "OpenAI web-search pricing",
+      "kind": "primary_provider_documentation",
+      "location": "https://developers.openai.com/api/docs/pricing",
+      "checkedAt": "2026-08-27",
+      "status": "verified",
+      "supports": "Lists the standard web_search tool at USD 10 per 1,000 calls plus search-content tokens at model rates."
+    },
+    {
       "id": "gemini-google-search-2026-08-26",
       "title": "Gemini grounding with Google Search",
       "kind": "primary_provider_documentation",
@@ -237,6 +255,24 @@
       "checkedAt": "2026-08-27",
       "status": "verified",
       "supports": "Documents Interactions API store false and the unavoidable 30-day provider retention for prompts, context and output when Grounding with Google Search is used."
+    },
+    {
+      "id": "gemini-pricing-2026-08-27",
+      "title": "Gemini Developer API pricing",
+      "kind": "primary_provider_documentation",
+      "location": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checkedAt": "2026-08-27",
+      "status": "verified",
+      "supports": "Lists Gemini 3.7 Flash token prices through 2026 and the 5,000 monthly Search-grounding allowance followed by USD 14 per 1,000 search queries."
+    },
+    {
+      "id": "gemini-api-terms-2026-08-27",
+      "title": "Gemini API Additional Terms",
+      "kind": "primary_provider_terms",
+      "location": "https://ai.google.dev/gemini-api/terms",
+      "checkedAt": "2026-08-27",
+      "status": "verified_restrictive",
+      "supports": "Restricts caching, syndication, analysis and reuse of Google Grounded Results and Search Suggestions; drives the Gemini local-save redaction and public-example boundary."
     },
     {
       "id": "openrouter-web-search",
@@ -291,6 +327,15 @@
       "checkedAt": "2026-08-27",
       "status": "verified_local_only",
       "supports": "Explicit save action, IndexedDB-only storage, maximum 20 entries, 30-day expiry, individual deletion, clear-all and local JSON/CSV export without accounts or shared response caching."
+    },
+    {
+      "id": "openai-example-observations-2026-08-27",
+      "title": "Dated OpenAI fanout example observations",
+      "kind": "owner_run_provider_observation",
+      "location": "https://ai-fanout.com/examples/openai-observations-2026-08-27.json",
+      "checkedAt": "2026-08-27",
+      "status": "verified_reproducible",
+      "supports": "Four owner-run OpenAI API observations record exact inputs, timestamps, exposed query strings, normalized source domains, usage, method versions and response status. They are not an independent benchmark."
     }
   ],
   "rights": [
@@ -306,8 +351,8 @@
     },
     {
       "assetClass": "AI provider outputs and source lists used in a future site-run dataset",
-      "status": "single_transient_provider_call_no_application_archive",
-      "decision": "The secured modes make one transient direct OpenAI/Gemini native-search request or one OpenRouter modelled-ideas request. ai-fanout.com does not archive or auto-publish raw provider outputs; any later examples or datasets require separate provenance, rights and review."
+      "status": "provider_specific_publication_boundary",
+      "decision": "The live endpoint makes one transient provider request and keeps no raw server archive. Four reviewed OpenAI observations are published as a normalized owner-run fixture under OpenAI's customer-output rights. Google Grounded Results and Search Suggestions are not stored or published; Gemini local saves strip them before retaining query strings and run metadata."
     },
     {
       "assetClass": "Typography and production imagery",
@@ -326,9 +371,9 @@
     }
   ],
   "unknowns": [
-    "Exact billed cost per OpenAI and Gemini run remains subject to ongoing provider-dashboard review; the application retains a conservative EUR 0.50 reservation per Native Fanout request",
+    "Exact billed cost per OpenAI and Gemini run remains subject to provider-dashboard review; the UI shows a dated list-price estimate and the ledger retains a conservative EUR 0.10 reservation per Native Fanout request",
     "Provider terms for transient processing across OpenRouter, OpenAI and Google require ongoing operator review",
-    "No public provider comparison benchmark or retained output corpus is authorized",
+    "No public Gemini Grounded Result corpus or independent provider benchmark is authorized; the OpenAI-vs-Gemini page remains a local comparison protocol",
     "Google Search Console post-change crawl and index state after an eventual safe production release"
   ]
 }

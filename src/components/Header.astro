@@ -2,7 +2,7 @@
 import { site } from "../data/site";
 interface Props { currentPath: string; lang: "en" | "de"; alternatePath?: string }
 const { currentPath, lang, alternatePath } = Astro.props;
-const items = lang === "de" ? [{ href: "/de#tool", label: "Kostenloses Tool" }, { href: "/de/lernen", label: "Lernen" }, { href: "/de/methode", label: "So funktioniert es" }] : site.navigation;
+const items = lang === "de" ? [{ href: "/de#tool", label: "Kostenloses Tool" }, { href: "/de/lernen", label: "Lernen" }, { href: "/de/beispiele", label: "Beispiele" }, { href: "/de/methode", label: "So funktioniert es" }] : site.navigation;
 const home = lang === "de" ? "/de" : "/";
 const switchPath = alternatePath ?? (lang === "de" ? "/" : "/de");
 const isCurrent = (href: string) => href === home ? currentPath === home : currentPath === href || currentPath.startsWith(`${href}/`);
