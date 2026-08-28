@@ -1,0 +1,168 @@
+---
+import ArrowIcon from "./ArrowIcon.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { englishExamples, exampleObservations, germanExamples } from "../data/examples";
+
+interface Props { lang: "en" | "de" }
+const { lang } = Astro.props;
+const isGerman = lang === "de";
+const examples = isGerman ? germanExamples : englishExamples;
+const totalQueries = exampleObservations.reduce((sum, observation) => sum + observation.queries.length, 0);
+const copy = isGerman ? {
+  title: "Beispiele für AI Query Fanout",
+  canonicalPath: "/de/beispiele",
+  alternatePath: "/examples",
+  description: "Vier datierte OpenAI-Fanout-Beobachtungen mit Query-Strings, Quellen, Protokoll, Rohdaten und klaren Grenzen.",
+  kicker: "Belege statt Behauptungen",
+  heading: "AI-Fanout-Beispiele, die du selbst prüfen kannst.",
+  intro: "Diese Beispiele zeigen, welche Websuchanfragen die OpenAI-API in vier konkreten Läufen offengelegt hat. Jeder Fall enthält Eingabe, Modell, Locale, Query-Strings, Quellen, Tokenverbrauch und Grenzen.",
+  meta: "Erhoben am 27. August 2026 · Owner-Läufe · kein unabhängiger Modellbenchmark",
+  observed: "Beobachtet",
+  runs: "OpenAI-Läufe",
+  queries: "offengelegte Queries",
+  protocol: "festes Protokoll",
+  readTitle: "So liest du die Beispiele",
+  readIntro: "Ein einzelner Lauf ist eine datierte Beobachtung. Die Seiten trennen deshalb drei Ebenen, damit aus einem Ergebnis keine größere Aussage wird, als die Daten tragen.",
+  layers: [
+    ["Vom Anbieter geliefert", "Exakte Query-Strings, Quellen auf Ebene der Suchaktion, Modell, Locale, Status und Nutzung."],
+    ["Von uns eingeordnet", "Ein Vergleich der sichtbaren Daten: Was blieb gleich, was änderte sich und welche Nutzerfrage steckt dahinter?"],
+    ["Nicht belegt", "Keine Aussage über versteckte ChatGPT-Suchen, interne Gedankengänge, allgemeine Modellqualität oder künftige Läufe."],
+  ],
+  chooseTitle: "Wähle die Frage, die du untersuchen willst",
+  chooseIntro: "Die vier Fälle erfüllen unterschiedliche Aufgaben. Sie sind keine austauschbaren SEO-Seiten.",
+  dataTitle: "Rohdaten und Methode herunterladen",
+  dataCopy: "Die normalisierten OpenAI-Beobachtungen stehen als JSON und CSV bereit. Das Schema macht Felder und Versionen nachvollziehbar. Quellen gehören jeweils zur gesamten Suchaktion; der Anbieter ordnet sie nicht zwingend einer einzelnen Query innerhalb dieser Aktion zu.",
+  json: "Beobachtungen als JSON",
+  csv: "Beobachtungen als CSV",
+  schema: "Datenschema v1",
+  planTitle: "Als Nächstes: dieselben Themen regelmäßig wiederholen",
+  planCopy: "Ein vorab festgelegter Katalog mit zwölf Informations-, Vergleichs-, Kauf-, Fehler-, Umsetzungs- und lokalen Fragen soll monatlich wiederholt werden. Erst abgeschlossene, überprüfte Läufe werden als Ergebnisse veröffentlicht. Der Plan selbst ist noch kein Ergebnis.",
+  planLink: "Beobachtungsplan öffnen",
+  toolTitle: "Prüfe ein eigenes Thema",
+  toolCopy: "Starte einen kostenlosen Lauf mit OpenAI oder Gemini. Dein Ergebnis bleibt zunächst in diesem Browser und kann dort gespeichert, verglichen oder exportiert werden.",
+  toolLink: "AI Fanout Tool öffnen",
+} : {
+  title: "AI query fanout examples",
+  canonicalPath: "/examples",
+  alternatePath: "/de/beispiele",
+  description: "Four dated OpenAI fanout observations with query strings, sources, protocol, raw data and explicit limits.",
+  kicker: "Evidence, not claims",
+  heading: "AI fanout examples you can inspect yourself.",
+  intro: "These examples show which web searches the OpenAI API exposed in four specific runs. Each case keeps the input, model, locale, query strings, sources, token use and limits together.",
+  meta: "Collected 27 Aug 2026 · owner-run · not an independent model benchmark",
+  observed: "Observed",
+  runs: "OpenAI runs",
+  queries: "exposed queries",
+  protocol: "fixed protocol",
+  readTitle: "How to read the examples",
+  readIntro: "A single run is a dated observation. The pages separate three layers so that the conclusion never grows beyond the evidence.",
+  layers: [
+    ["Returned by the provider", "Exact query strings, search-action sources, model, locale, status and usage."],
+    ["Interpreted by us", "A comparison of the visible data: what stayed stable, what changed and which reader job the branch serves."],
+    ["Not established", "No claim about hidden ChatGPT searches, private reasoning, overall model quality or future runs."],
+  ],
+  chooseTitle: "Choose the question you want to investigate",
+  chooseIntro: "The four cases serve distinct jobs. They are not interchangeable SEO pages.",
+  dataTitle: "Download the data and method",
+  dataCopy: "The normalized OpenAI observations are available as JSON and CSV. The schema records the fields and versions. Sources belong to the full search action; the provider does not necessarily map them to one query inside that action.",
+  json: "Observations as JSON",
+  csv: "Observations as CSV",
+  schema: "Data schema v1",
+  planTitle: "Next: repeat the same topics over time",
+  planCopy: "A preregistered set of twelve informational, comparison, commercial, troubleshooting, implementation and local questions is planned for monthly repetition. Only completed, reviewed runs become published results. The plan itself is not a result.",
+  planLink: "Open the observation plan",
+  toolTitle: "Test your own topic",
+  toolCopy: "Run a free observation with OpenAI or Gemini. Your result starts in this browser, where you can save, compare or export it.",
+  toolLink: "Open the AI Fanout Tool",
+};
+---
+
+<BaseLayout lang={lang} title={copy.title} canonicalPath={copy.canonicalPath} alternatePath={copy.alternatePath} description={copy.description}>
+  <header class="evidence-hero">
+    <p class="eyebrow">{copy.kicker}</p>
+    <div class="hero-grid">
+      <h1>{copy.heading}</h1>
+      <div>
+        <p>{copy.intro}</p>
+        <p class="meta-line">{copy.meta}</p>
+      </div>
+    </div>
+    <dl class="evidence-counts" aria-label={copy.observed}>
+      <div><dt>{exampleObservations.length}</dt><dd>{copy.runs}</dd></div>
+      <div><dt>{totalQueries}</dt><dd>{copy.queries}</dd></div>
+      <div><dt>1</dt><dd>{copy.protocol}</dd></div>
+    </dl>
+  </header>
+
+  <section class="reading-guide section-pad section-rule" aria-labelledby="reading-title">
+    <div><p class="eyebrow">{copy.observed}</p><h2 id="reading-title">{copy.readTitle}</h2><p>{copy.readIntro}</p></div>
+    <ol>{copy.layers.map(([title, text], index) => <li><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{title}</h3><p>{text}</p></div></li>)}</ol>
+  </section>
+
+  <section class="example-section section-pad section-rule" aria-labelledby="example-title">
+    <div class="section-intro"><h2 id="example-title">{copy.chooseTitle}</h2><p>{copy.chooseIntro}</p></div>
+    <ol class="example-index">
+      {examples.map((page, index) => <li><a href={`${isGerman ? "/de/beispiele" : "/examples"}/${page.slug}`}><span>{String(index + 1).padStart(2, "0")}</span><div><strong>{page.title}</strong><p>{page.question}</p></div><ArrowIcon /></a></li>)}
+    </ol>
+  </section>
+
+  <section class="download-section section-pad section-rule" aria-labelledby="download-title">
+    <div><p class="eyebrow">JSON · CSV · SCHEMA</p><h2 id="download-title">{copy.dataTitle}</h2></div>
+    <div><p>{copy.dataCopy}</p><nav><a href="/examples/openai-observations-2026-08-27.json">{copy.json}</a><a href="/examples/openai-observations-2026-08-27.csv">{copy.csv}</a><a href="/contracts/example-observation.schema.v1.json">{copy.schema}</a></nav></div>
+  </section>
+
+  <section class="plan-section section-pad section-rule" aria-labelledby="plan-title">
+    <h2 id="plan-title">{copy.planTitle}</h2>
+    <div><p>{copy.planCopy}</p><a class="text-action" href="/examples/monthly-observation-plan.v1.json">{copy.planLink} <ArrowIcon /></a></div>
+  </section>
+
+  <section class="tool-cta section-pad section-rule">
+    <div><h2>{copy.toolTitle}</h2><p>{copy.toolCopy}</p></div>
+    <a class="text-action" href={isGerman ? "/de#tool" : "/#tool"}>{copy.toolLink} <ArrowIcon /></a>
+  </section>
+</BaseLayout>
+
+<style>
+  .evidence-hero { padding: clamp(3.5rem, 7vw, 6.5rem) var(--gutter) 0; border-bottom: 1px solid var(--rule); }
+  .eyebrow { margin: 0 0 1rem; color: var(--source); font: 0.68rem/1.4 var(--font-mono); letter-spacing: 0.04em; text-transform: uppercase; }
+  .hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.65fr); gap: clamp(3rem, 8vw, 8rem); align-items: end; padding-bottom: clamp(3rem, 6vw, 5.5rem); }
+  .hero-grid h1 { max-width: 15ch; margin: 0; font-size: clamp(3rem, 6vw, 6.2rem); line-height: 0.96; letter-spacing: -0.06em; text-wrap: balance; }
+  .hero-grid > div > p:first-child { margin: 0; color: #c5cdd0; font-size: clamp(1rem, 1.45vw, 1.25rem); line-height: 1.65; }
+  .evidence-counts { display: grid; grid-template-columns: repeat(3, 1fr); margin: 0; border-top: 1px solid var(--rule); }
+  .evidence-counts div { min-height: 7.5rem; padding: 1.5rem 0; }
+  .evidence-counts div + div { padding-left: 1.5rem; border-left: 1px solid var(--fine-rule); }
+  .evidence-counts dt { font: 600 clamp(2rem, 4vw, 3.5rem)/1 var(--font-display); }
+  .evidence-counts dd { margin: 0.6rem 0 0; color: var(--muted); font-size: 0.78rem; }
+  .reading-guide, .download-section, .plan-section { display: grid; grid-template-columns: minmax(16rem, 0.7fr) minmax(0, 1.3fr); gap: clamp(3rem, 8vw, 8rem); }
+  .reading-guide h2, .section-intro h2, .download-section h2, .plan-section h2, .tool-cta h2 { max-width: 18ch; margin: 0; font-size: clamp(2rem, 4vw, 3.6rem); line-height: 1.02; letter-spacing: -0.045em; }
+  .reading-guide > div > p:last-child, .section-intro p, .download-section > div:last-child > p, .plan-section p, .tool-cta p { max-width: 58ch; color: var(--muted); line-height: 1.7; }
+  .reading-guide ol, .example-index { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--rule); }
+  .reading-guide li { display: grid; grid-template-columns: 3.5rem 1fr; gap: 1.25rem; padding: 1.4rem 0; border-bottom: 1px solid var(--fine-rule); }
+  .reading-guide li > span, .example-index a > span { color: var(--source); font: 0.7rem/1.4 var(--font-mono); }
+  .reading-guide h3 { margin: 0; font-size: 1rem; }
+  .reading-guide li p { margin: 0.45rem 0 0; color: var(--muted); font-size: 0.88rem; line-height: 1.6; }
+  .section-intro { display: flex; justify-content: space-between; gap: 3rem; align-items: end; margin-bottom: 2rem; }
+  .section-intro p { margin: 0; }
+  .example-index li { border-bottom: 1px solid var(--fine-rule); }
+  .example-index a { display: grid; grid-template-columns: 4rem minmax(0, 1fr) 1.5rem; gap: 1.25rem; align-items: center; min-height: 7rem; padding: 1.1rem 0.5rem; text-decoration: none; transition: background-color 180ms ease, transform 180ms var(--ease-out); }
+  .example-index a:hover { background: rgba(39, 199, 244, 0.035); transform: translateX(0.3rem); }
+  .example-index strong { font-size: clamp(1.05rem, 1.7vw, 1.35rem); }
+  .example-index p { max-width: 70ch; margin: 0.5rem 0 0; color: var(--muted); line-height: 1.5; }
+  .download-section nav { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin-top: 2rem; }
+  .download-section nav a { color: var(--source); }
+  .plan-section > div { padding-top: 0.25rem; }
+  .tool-cta { display: flex; justify-content: space-between; gap: 3rem; align-items: center; }
+  .tool-cta p { margin-bottom: 0; }
+  @media (max-width: 800px) {
+    .hero-grid, .reading-guide, .download-section, .plan-section { grid-template-columns: 1fr; }
+    .section-intro, .tool-cta { align-items: flex-start; flex-direction: column; }
+  }
+  @media (max-width: 520px) {
+    .evidence-hero { padding-top: 2.5rem; }
+    .hero-grid h1 { font-size: clamp(2.8rem, 14vw, 4.3rem); }
+    .evidence-counts { grid-template-columns: 1fr; }
+    .evidence-counts div { min-height: auto; }
+    .evidence-counts div + div { padding-left: 0; border-top: 1px solid var(--fine-rule); border-left: 0; }
+    .example-index a { grid-template-columns: 2.5rem minmax(0, 1fr) 1rem; }
+  }
+</style>

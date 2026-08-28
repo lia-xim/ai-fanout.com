@@ -20,6 +20,20 @@ const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method
     </div>
   </header>
 
+  <section class="question-paths section-pad section-rule" aria-labelledby="path-title">
+    <div class="path-intro">
+      <p class="section-number">Start here</p>
+      <h2 id="path-title">Pick the question you actually need answered.</h2>
+      <p>AI query fanout starts when a broad topic becomes several narrower web searches. Those branches can reveal comparison criteria, practical problems, local context and source types that the original keyword hides. The useful next step depends on what you are trying to decide.</p>
+    </div>
+    <nav aria-label="Recommended learning paths">
+      <a href="/library/what-is-ai-query-fanout"><span>New to fanout</span><strong>Understand what AI query fanout means</strong><ArrowIcon /></a>
+      <a href="/library/how-to-see-openai-search-queries"><span>Inspect a run</span><strong>See which OpenAI searches were exposed</strong><ArrowIcon /></a>
+      <a href="/library/ai-query-fanout-for-seo"><span>Plan content</span><strong>Turn branches into careful SEO decisions</strong><ArrowIcon /></a>
+      <a href="/library/compare-ai-model-searches"><span>Compare results</span><strong>Compare OpenAI and Gemini locally</strong><ArrowIcon /></a>
+    </nav>
+  </section>
+
   <section class="library-index section-pad section-rule" aria-labelledby="library-index-title">
     <div class="index-heading">
       <div><span class="section-number">01</span><h2 id="library-index-title" class="section-title">Choose your question</h2></div>
@@ -54,6 +68,20 @@ const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method
     </ol>
   </section>
 
+  <section class="result-boundaries section-pad section-rule" aria-labelledby="boundaries-title">
+    <div><span class="section-number">03</span><h2 id="boundaries-title">What the result can—and cannot—tell you</h2></div>
+    <div class="boundary-grid">
+      <article><h3>Observed in the API response</h3><p>Exact query strings, the selected model and locale, and sources returned for a search action. These are the strongest fields because the provider actually supplied them.</p></article>
+      <article><h3>Compared on your device</h3><p>Exact query overlap, shared source domains and changes between saved runs. This comparison is calculated locally and does not trigger another provider request.</p></article>
+      <article><h3>Needs another source</h3><p>Search demand, ranking difficulty, business value and whether a new page is justified. Fanout can expose a question; it cannot prove that the question deserves a URL.</p></article>
+    </div>
+  </section>
+
+  <section class="library-maintenance section-pad section-rule">
+    <div><p class="section-number">Maintained reference</p><h2>A small library built around the tool.</h2></div>
+    <div><p>These guides are updated when the tool, provider documentation or public evidence changes. New pages are added only when they answer a distinct question that the current guides cannot answer well.</p><nav><a href="/examples">Inspect dated examples</a><a href="/#tool">Run the free tool</a></nav></div>
+  </section>
+
   <section class="library-boundary section-pad">
     <p>Need the short version? See the tool's steps, limits, and privacy rules.</p>
     <a class="text-action" href="/methodology">See how the free tool works <ArrowIcon /></a>
@@ -85,7 +113,7 @@ const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method
   .library-kicker { display: flex; justify-content: space-between; gap: 2rem; padding-bottom: 1.15rem; border-bottom: 1px solid var(--fine-rule); color: var(--muted); font: 0.68rem/1.4 var(--font-mono); letter-spacing: 0.04em; text-transform: uppercase; }
   .library-kicker span:first-child { color: var(--source); }
   .library-hero-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(19rem, 0.7fr); gap: clamp(2.5rem, 8vw, 9rem); align-items: end; padding-block: clamp(3.2rem, 6vw, 6rem); }
-  .library-hero h1 { max-width: 10ch; margin: 0; font: 790 clamp(4rem, 8vw, 8.5rem)/0.88 var(--font-display); letter-spacing: -0.075em; text-wrap: balance; }
+  .library-hero h1 { max-width: 11ch; margin: 0; font: 790 clamp(3.5rem, 7vw, 7rem)/0.92 var(--font-display); letter-spacing: -0.065em; text-wrap: balance; }
   .library-hero-grid p:first-child { max-width: 38ch; margin: 0; color: #c5cdd0; font-size: clamp(1.08rem, 1.6vw, 1.38rem); line-height: 1.6; }
   .signal-legend { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--rule); }
   .signal-legend span { display: flex; min-height: 4.25rem; align-items: center; gap: 0.8rem; color: var(--muted); font: 0.7rem/1.4 var(--font-mono); text-transform: uppercase; }
@@ -120,8 +148,22 @@ const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method
   .library-map p { max-width: 48ch; margin: 0.45rem 0 0; color: var(--muted); font-size: 0.86rem; line-height: 1.55; }
   .library-boundary { display: flex; justify-content: space-between; gap: 3rem; align-items: center; }
   .library-boundary > p { max-width: 28ch; margin: 0; font: 450 clamp(2rem, 4vw, 4rem)/1.04 var(--font-display); letter-spacing: -0.045em; }
+  .question-paths, .result-boundaries, .library-maintenance { display: grid; grid-template-columns: minmax(17rem, 0.72fr) minmax(0, 1.28fr); gap: clamp(3rem, 8vw, 8rem); }
+  .path-intro h2, .result-boundaries h2, .library-maintenance h2 { max-width: 18ch; margin: 0; font-size: clamp(2rem, 4vw, 3.7rem); line-height: 1.02; letter-spacing: -0.045em; }
+  .path-intro > p:last-child, .library-maintenance > div:last-child > p { max-width: 58ch; color: var(--muted); line-height: 1.7; }
+  .question-paths nav { border-top: 1px solid var(--rule); }
+  .question-paths nav a { display: grid; grid-template-columns: 8rem minmax(0, 1fr) 1.25rem; gap: 1rem; align-items: center; min-height: 5.5rem; padding: 1rem 0.4rem; border-bottom: 1px solid var(--fine-rule); text-decoration: none; }
+  .question-paths nav span { color: var(--source); font: 0.68rem/1.4 var(--font-mono); text-transform: uppercase; }
+  .question-paths nav strong { font-size: 1rem; }
+  .boundary-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); }
+  .boundary-grid article { padding: 1.5rem; border-bottom: 1px solid var(--fine-rule); }
+  .boundary-grid article + article { border-left: 1px solid var(--fine-rule); }
+  .boundary-grid h3 { margin: 0; font-size: 1rem; }
+  .boundary-grid p { margin: 0.75rem 0 0; color: var(--muted); font-size: 0.86rem; line-height: 1.65; }
+  .library-maintenance nav { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.75rem; }
+  .library-maintenance nav a { color: var(--source); }
   @media (max-width: 820px) {
-    .library-hero-grid, .index-heading, .library-map { grid-template-columns: 1fr; }
+    .library-hero-grid, .index-heading, .library-map, .question-paths, .result-boundaries, .library-maintenance { grid-template-columns: 1fr; }
     .library-hero-grid { gap: 2.5rem; }
     .signal-legend { grid-template-columns: 1fr 1fr; }
     .signal-legend span:nth-child(3) { border-left: 0; }
@@ -131,14 +173,20 @@ const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method
     .entry-main { grid-column: 2; grid-template-columns: 1fr; gap: 0.5rem; }
     .library-list svg { grid-column: 3; grid-row: 1 / span 2; }
     .library-boundary { align-items: flex-start; flex-direction: column; }
+    .boundary-grid { grid-template-columns: 1fr; }
+    .boundary-grid article + article { border-left: 0; }
   }
   @media (max-width: 520px) {
     .library-hero { padding-top: 2.5rem; }
     .library-kicker { align-items: flex-start; flex-direction: column; gap: 0.45rem; }
-    .library-hero h1 { font-size: clamp(3.5rem, 18vw, 5.4rem); }
+    .library-hero h1 { font-size: clamp(3.1rem, 16vw, 4.8rem); }
     .library-filters { display: grid; grid-template-columns: 1fr 1fr; }
     .library-filters button { text-align: left; }
     .library-list a { grid-template-columns: 3rem minmax(0, 1fr) 1rem; padding-inline: 0; }
     .entry-type { justify-self: start; }
+    .question-paths nav a { grid-template-columns: 1fr 1.25rem; }
+    .question-paths nav span { grid-column: 1; }
+    .question-paths nav strong { grid-column: 1; }
+    .question-paths nav svg { grid-column: 2; grid-row: 1 / span 2; }
   }
 </style>

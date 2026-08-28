@@ -3,12 +3,136 @@ import ArrowIcon from "../../../components/ArrowIcon.astro";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { germanArticles, groupsFor } from "../../../data/observed-query-articles";
 const groups = groupsFor(germanArticles);
-const labels = { Concept:"Grundlagen", Measurement:"Ergebnisse prüfen", Method:"Funktionsweise", "Data standard":"Daten", "Field guide":"SEO-Praxis" } as const;
+const labels = { Concept: "Grundlagen", Measurement: "Ergebnisse prüfen", Method: "Funktionsweise", "Data standard": "Daten", "Field guide": "SEO-Praxis" } as const;
 ---
-<BaseLayout lang="de" title="AI Query Fanout verstehen" canonicalPath="/de/lernen" alternatePath="/library" description="Klare Erklärungen zu AI Query Fanout, OpenAI-Websuche, Zitaten, schwankenden Ergebnissen und SEO-Nutzung.">
-  <header class="page-head"><h1>Was nach dem Keyword passiert.</h1><div class="page-head-copy"><p>{germanArticles.length} klare Erklärungen zu Query Fanout, OpenAI, Gemini, Quellen, Schwankungen und sinnvoller SEO-Nutzung.</p><p class="meta-line">Wissensbereich · geprüft am 27. August 2026</p></div></header>
-  <section class="section-pad section-rule"><div class="library-filters" aria-label="Themen filtern"><button type="button" data-filter="all" aria-pressed="true">Alle <span>{germanArticles.length}</span></button>{groups.map(group => <button type="button" data-filter={group.category} aria-pressed="false">{labels[group.category]} <span>{group.articles.length}</span></button>)}</div><ol class="library-list" aria-live="polite">{germanArticles.map(article => <li data-library-item data-category={article.category}><a href={`/de/lernen/${article.slug}`}><span class="entry-number">{article.number}</span><span class="entry-type">{labels[article.category]}</span><span class="entry-main"><strong>{article.shortTitle}</strong><small>{article.primaryIntent}</small></span><ArrowIcon/></a></li>)}</ol></section>
-  <script>const buttons=[...document.querySelectorAll<HTMLButtonElement>("[data-filter]")],items=[...document.querySelectorAll<HTMLElement>("[data-library-item]")];for(const button of buttons)button.addEventListener("click",()=>{const filter=button.dataset.filter??"all";buttons.forEach(item=>item.setAttribute("aria-pressed",String(item===button)));items.forEach(item=>item.hidden=filter!=="all"&&item.dataset.category!==filter)})</script>
+
+<BaseLayout lang="de" title="AI Query Fanout verstehen" canonicalPath="/de/lernen" alternatePath="/library" description="Klare Erklärungen zu AI Query Fanout, OpenAI-Websuche, Quellen, schwankenden Ergebnissen und sinnvoller SEO-Nutzung.">
+  <header class="library-hero">
+    <div class="library-kicker"><span>Lernen</span><span>{germanArticles.length} praktische Erklärungen</span></div>
+    <div class="library-hero-grid"><h1>Was nach dem Keyword passiert.</h1><div><p>Verstehe, wie aus einem Thema mehrere KI-Suchanfragen entstehen, welche Daten eine API wirklich zeigt und wie du daraus eine sinnvolle Entscheidung ableitest.</p><p class="meta-line">Einfach erklärt · geprüft am 28. August 2026</p></div></div>
+    <div class="signal-legend" aria-label="Lernweg"><span><i aria-hidden="true"></i>Keyword</span><span><i aria-hidden="true"></i>Queries</span><span><i aria-hidden="true"></i>Quellen</span><span><i aria-hidden="true"></i>Entscheidung</span></div>
+  </header>
+
+  <section class="question-paths section-pad section-rule" aria-labelledby="path-title">
+    <div class="path-intro"><p class="section-number">Hier starten</p><h2 id="path-title">Wähle die Frage, die du wirklich beantworten willst.</h2><p>Beim AI Query Fanout wird aus einem breiten Thema eine Reihe genauerer Websuchen. Diese Zweige können Vergleiche, praktische Probleme, lokale Unterschiede und relevante Quellentypen sichtbar machen. Welcher Guide dir hilft, hängt davon ab, was du anschließend entscheiden möchtest.</p></div>
+    <nav aria-label="Empfohlene Lernwege">
+      <a href="/de/lernen/was-ist-ai-query-fanout"><span>Neu beim Thema</span><strong>Verstehen, was AI Query Fanout bedeutet</strong><ArrowIcon /></a>
+      <a href="/de/lernen/openai-suchanfragen-sehen"><span>Lauf prüfen</span><strong>Sichtbare OpenAI-Suchanfragen lesen</strong><ArrowIcon /></a>
+      <a href="/de/lernen/query-fanout-fuer-seo"><span>Inhalte planen</span><strong>Fanout für saubere SEO-Entscheidungen nutzen</strong><ArrowIcon /></a>
+      <a href="/de/lernen/ki-modelle-vergleichen"><span>Ergebnisse vergleichen</span><strong>OpenAI und Gemini lokal vergleichen</strong><ArrowIcon /></a>
+    </nav>
+  </section>
+
+  <section class="library-index section-pad section-rule" aria-labelledby="guide-title">
+    <div class="index-heading"><div><span class="section-number">01</span><h2 id="guide-title">Alle Erklärungen</h2></div><p>Jeder Guide beantwortet eine eigene Frage zum Tool, zu den sichtbaren Daten oder zum sinnvollen nächsten Schritt.</p></div>
+    <div class="library-filters" aria-label="Themen filtern"><button type="button" data-filter="all" aria-pressed="true">Alle <span>{germanArticles.length}</span></button>{groups.map(group => <button type="button" data-filter={group.category} aria-pressed="false">{labels[group.category]} <span>{group.articles.length}</span></button>)}</div>
+    <ol class="library-list" aria-live="polite">{germanArticles.map(article => <li data-library-item data-category={article.category}><a href={`/de/lernen/${article.slug}`}><span class="entry-number">{article.number}</span><span class="entry-type">{labels[article.category]}</span><span class="entry-main"><strong>{article.shortTitle}</strong><small>{article.primaryIntent}</small></span><ArrowIcon /></a></li>)}</ol>
+    <p class="filter-empty" hidden data-filter-empty>Für diesen Filter gibt es keinen Guide.</p>
+  </section>
+
+  <section class="library-map section-pad section-rule" aria-labelledby="map-title">
+    <div><span class="section-number">02</span><h2 id="map-title">Von der Query zur Seitenentscheidung</h2></div>
+    <ol>
+      <li><span>01</span><div><h3>Beobachtung verstehen</h3><p>Prüfe zuerst, was der Provider wirklich geliefert hat und was ein externes Tool nicht sehen kann.</p></div></li>
+      <li><span>02</span><div><h3>Queries nach Nutzeraufgabe bündeln</h3><p>Fasse Formulierungen zusammen, die dieselbe Frage oder Entscheidung des Lesers bedienen.</p></div></li>
+      <li><span>03</span><div><h3>Vorhandene Inhalte prüfen</h3><p>Ergänze eine bestehende Seite, wenn das Thema dort sinnvoll beantwortet werden kann.</p></div></li>
+      <li><span>04</span><div><h3>Neue Seite nur bei eigenem Nutzen</h3><p>Eine Query rechtfertigt erst dann eine URL, wenn Suchnachfrage, Nutzerjob und eigene Substanz zusammenpassen.</p></div></li>
+    </ol>
+  </section>
+
+  <section class="result-boundaries section-pad section-rule" aria-labelledby="boundaries-title">
+    <div><span class="section-number">03</span><h2 id="boundaries-title">Was ein Ergebnis zeigt – und was nicht</h2></div>
+    <div class="boundary-grid">
+      <article><h3>In der API-Antwort beobachtet</h3><p>Exakte Query-Strings, gewähltes Modell, Locale und Quellen einer Suchaktion. Diese Angaben hat der Provider tatsächlich geliefert.</p></article>
+      <article><h3>Auf deinem Gerät verglichen</h3><p>Gleiche Queries, gemeinsame Quellendomains und Veränderungen zwischen gespeicherten Läufen. Dafür wird keine neue API-Anfrage ausgelöst.</p></article>
+      <article><h3>Mit anderen Daten prüfen</h3><p>Suchvolumen, Wettbewerb, Geschäftswert und die Frage, ob eine neue Seite nötig ist. Fanout zeigt eine mögliche Nutzerfrage, aber nicht automatisch ihre Priorität.</p></article>
+    </div>
+  </section>
+
+  <section class="library-maintenance section-pad section-rule">
+    <div><p class="section-number">Gepflegtes Nachschlagewerk</p><h2>Ein kleiner Wissensbereich rund um das Tool.</h2></div>
+    <div><p>Die Guides werden aktualisiert, wenn sich Tool, Provider-Dokumentation oder öffentliche Belege ändern. Neue Seiten entstehen nur für eigenständige Fragen, die hier noch nicht gut beantwortet sind.</p><nav><a href="/de/beispiele">Datierte Beispiele prüfen</a><a href="/de#tool">Kostenloses Tool starten</a></nav></div>
+  </section>
+
+  <section class="library-boundary section-pad"><p>Du willst nur wissen, wie der kostenlose Lauf funktioniert?</p><a class="text-action" href="/de/methode">Methode, Grenzen und Datenschutz ansehen <ArrowIcon /></a></section>
+
+  <script>
+    const buttons = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-filter]"));
+    const items = Array.from(document.querySelectorAll<HTMLElement>("[data-library-item]"));
+    const emptyState = document.querySelector<HTMLElement>("[data-filter-empty]");
+    for (const button of buttons) button.addEventListener("click", () => {
+      const filter = button.dataset.filter ?? "all";
+      buttons.forEach(item => item.setAttribute("aria-pressed", String(item === button)));
+      let visible = 0;
+      items.forEach(item => { const show = filter === "all" || item.dataset.category === filter; item.hidden = !show; if (show) visible += 1; });
+      if (emptyState) emptyState.hidden = visible !== 0;
+    });
+  </script>
 </BaseLayout>
-<style>.library-filters{display:flex;flex-wrap:wrap;border-block:1px solid var(--rule)}.library-filters button{min-height:3.3rem;padding:.8rem 1rem;border:0;border-right:1px solid var(--fine-rule);background:transparent;color:var(--muted);font:.72rem/1.3 var(--font-mono);cursor:pointer}.library-filters button[aria-pressed="true"]{background:var(--source);color:#041014}.library-list{margin:2rem 0 0;padding:0;list-style:none}.library-list li{border-bottom:1px solid var(--fine-rule)}.library-list li[hidden]{display:none}.library-list a{display:grid;grid-template-columns:4rem 9rem minmax(0,1fr) 1.5rem;gap:1.2rem;align-items:center;min-height:6.2rem;padding:1rem;text-decoration:none}.entry-number,.entry-type{color:var(--muted);font:.7rem/1.4 var(--font-mono);text-transform:uppercase}.entry-type{color:var(--source)}.entry-main{display:grid;grid-template-columns:minmax(12rem,.55fr) minmax(0,1fr);gap:2rem}.entry-main small{color:var(--muted);line-height:1.5}@media(max-width:700px){.library-list a{grid-template-columns:3rem 1fr 1rem}.entry-type{grid-column:2}.entry-main{grid-column:2;grid-template-columns:1fr;gap:.4rem}.library-list svg{grid-column:3;grid-row:1/span 2}}
+
+<style>
+  .library-hero { padding: clamp(3.5rem, 7vw, 6.5rem) var(--gutter) 0; border-bottom: 1px solid var(--rule); }
+  .library-kicker { display: flex; justify-content: space-between; gap: 2rem; padding-bottom: 1.15rem; border-bottom: 1px solid var(--fine-rule); color: var(--muted); font: 0.68rem/1.4 var(--font-mono); letter-spacing: 0.04em; text-transform: uppercase; }
+  .library-kicker span:first-child { color: var(--source); }
+  .library-hero-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(18rem, 0.7fr); gap: clamp(2.5rem, 8vw, 8rem); align-items: end; padding-block: clamp(3rem, 6vw, 5.5rem); }
+  .library-hero h1 { max-width: 11ch; margin: 0; font: 790 clamp(3.5rem, 7vw, 7rem)/0.92 var(--font-display); letter-spacing: -0.065em; text-wrap: balance; }
+  .library-hero-grid p:first-child { max-width: 40ch; margin: 0; color: #c5cdd0; font-size: clamp(1.05rem, 1.5vw, 1.3rem); line-height: 1.65; }
+  .signal-legend { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--rule); }
+  .signal-legend span { display: flex; min-height: 4.25rem; align-items: center; gap: 0.8rem; color: var(--muted); font: 0.7rem/1.4 var(--font-mono); text-transform: uppercase; }
+  .signal-legend span + span { padding-left: 1rem; border-left: 1px solid var(--fine-rule); }
+  .signal-legend i { width: 0.65rem; height: 0.65rem; border: 1px solid var(--source); border-radius: 50%; }
+  .question-paths, .library-map, .result-boundaries, .library-maintenance { display: grid; grid-template-columns: minmax(17rem, 0.72fr) minmax(0, 1.28fr); gap: clamp(3rem, 8vw, 8rem); }
+  .path-intro h2, .library-map h2, .result-boundaries h2, .library-maintenance h2, .index-heading h2 { max-width: 18ch; margin: 0; font-size: clamp(2rem, 4vw, 3.7rem); line-height: 1.02; letter-spacing: -0.045em; }
+  .path-intro > p:last-child, .library-maintenance > div:last-child > p { max-width: 58ch; color: var(--muted); line-height: 1.7; }
+  .question-paths nav, .library-map ol { margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }
+  .question-paths nav a { display: grid; grid-template-columns: 9rem minmax(0, 1fr) 1.25rem; gap: 1rem; align-items: center; min-height: 5.5rem; padding: 1rem 0.4rem; border-bottom: 1px solid var(--fine-rule); text-decoration: none; }
+  .question-paths nav span { color: var(--source); font: 0.68rem/1.4 var(--font-mono); text-transform: uppercase; }
+  .index-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.5fr); gap: 3rem; align-items: end; }
+  .index-heading > p { max-width: 48ch; margin: 0; color: var(--muted); line-height: 1.6; }
+  .library-filters { display: flex; flex-wrap: wrap; margin-top: 3rem; border-block: 1px solid var(--rule); }
+  .library-filters button { min-height: 3.3rem; padding: 0.8rem 1rem; border: 0; border-right: 1px solid var(--fine-rule); background: transparent; color: var(--muted); font: 0.72rem/1.3 var(--font-mono); cursor: pointer; }
+  .library-filters button[aria-pressed="true"] { background: var(--source); color: #041014; }
+  .library-list { margin: 0; padding: 0; list-style: none; }
+  .library-list li { border-bottom: 1px solid var(--fine-rule); }
+  .library-list li[hidden] { display: none; }
+  .library-list a { display: grid; grid-template-columns: 5rem 9rem minmax(0, 1fr) 1.5rem; gap: 1.25rem; align-items: center; min-height: 6.1rem; padding: 1rem 0.65rem; text-decoration: none; }
+  .entry-number, .entry-type { color: var(--muted); font: 0.7rem/1.4 var(--font-mono); text-transform: uppercase; }
+  .entry-type { color: var(--source); }
+  .entry-main { display: grid; grid-template-columns: minmax(12rem, 0.55fr) minmax(0, 1fr); gap: 2rem; align-items: baseline; }
+  .entry-main strong { font-size: clamp(1.05rem, 1.6vw, 1.35rem); }
+  .entry-main small { color: var(--muted); line-height: 1.55; }
+  .library-map li { display: grid; grid-template-columns: 4rem 1fr; gap: 1.5rem; padding: 1.4rem 0; border-bottom: 1px solid var(--fine-rule); }
+  .library-map li > span { color: var(--source); font: 0.72rem/1.5 var(--font-mono); }
+  .library-map h3, .boundary-grid h3 { margin: 0; font-size: 1rem; }
+  .library-map li p, .boundary-grid p { margin: 0.45rem 0 0; color: var(--muted); font-size: 0.86rem; line-height: 1.65; }
+  .boundary-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); }
+  .boundary-grid article { padding: 1.5rem; border-bottom: 1px solid var(--fine-rule); }
+  .boundary-grid article + article { border-left: 1px solid var(--fine-rule); }
+  .library-maintenance nav { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.75rem; }
+  .library-maintenance nav a { color: var(--source); }
+  .library-boundary { display: flex; justify-content: space-between; gap: 3rem; align-items: center; }
+  .library-boundary > p { max-width: 28ch; margin: 0; font: 450 clamp(2rem, 4vw, 3.7rem)/1.04 var(--font-display); letter-spacing: -0.045em; }
+  @media (max-width: 820px) {
+    .library-hero-grid, .question-paths, .index-heading, .library-map, .result-boundaries, .library-maintenance { grid-template-columns: 1fr; }
+    .signal-legend { grid-template-columns: 1fr 1fr; }
+    .signal-legend span:nth-child(3) { border-left: 0; }
+    .signal-legend span:nth-child(n+3) { border-top: 1px solid var(--fine-rule); }
+    .library-list a { grid-template-columns: 3.5rem minmax(0, 1fr) 1.5rem; }
+    .entry-type { grid-column: 2; grid-row: 1; justify-self: end; }
+    .entry-main { grid-column: 2; grid-template-columns: 1fr; gap: 0.5rem; }
+    .library-list svg { grid-column: 3; grid-row: 1 / span 2; }
+    .boundary-grid { grid-template-columns: 1fr; }
+    .boundary-grid article + article { border-left: 0; }
+    .library-boundary { align-items: flex-start; flex-direction: column; }
+  }
+  @media (max-width: 520px) {
+    .library-hero { padding-top: 2.5rem; }
+    .library-kicker { align-items: flex-start; flex-direction: column; gap: 0.45rem; }
+    .library-hero h1 { font-size: clamp(3.1rem, 16vw, 4.8rem); }
+    .library-filters { display: grid; grid-template-columns: 1fr 1fr; }
+    .library-filters button { text-align: left; }
+    .question-paths nav a { grid-template-columns: 1fr 1.25rem; }
+    .question-paths nav span, .question-paths nav strong { grid-column: 1; }
+    .question-paths nav svg { grid-column: 2; grid-row: 1 / span 2; }
+  }
 </style>
