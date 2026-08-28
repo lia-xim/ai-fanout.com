@@ -75,7 +75,7 @@ const copy = de ? {
 
   <section class="saved-history" data-saved-history aria-labelledby={`saved-history-title-${locale}`}>
     <header><div><p>{de ? "LOKALE HISTORIE" : "LOCAL HISTORY"}</p><h2 id={`saved-history-title-${locale}`}>{copy.savedTitle}</h2><small>{copy.savedHelp}</small></div><button type="button" data-clear-history hidden>{copy.clearSaved}</button></header>
-    <p class="storage-status" data-storage-status>{de ? "Auf ai-fanout.com bleibt die Historie auch nach dem Schließen verfügbar. Andere Domains, Browser, Geräte und der Privatmodus haben einen getrennten Speicher." : "On ai-fanout.com, history remains available after closing the browser. Other domains, browsers, devices and private mode use separate storage."}</p>
+    <p class="storage-status" data-storage-status>{de ? "Gespeicherte Ergebnisse bleiben auf diesem Gerät verfügbar, bis du sie löschst oder sie nach spätestens 30 Tagen automatisch entfernt werden." : "Saved results remain available on this device until you delete them or they are automatically removed after no more than 30 days."}</p>
     <p data-history-empty>{copy.savedEmpty}</p>
     <div class="history-tools" data-history-tools hidden><p><strong data-selected-count>0</strong> {de ? "Läufe ausgewählt" : "runs selected"}</p><div><button type="button" data-compare-runs disabled>{de ? "Vergleichen" : "Compare"}</button><button type="button" data-export-runs-json disabled>JSON</button><button type="button" data-export-runs-csv disabled>CSV</button></div></div>
     <ol data-history-list></ol>
