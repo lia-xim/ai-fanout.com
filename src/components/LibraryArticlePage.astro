@@ -55,6 +55,12 @@ const schema={"@context":"https://schema.org","@type":"TechArticle",headline:art
           {section.points&&section.points.length>0&&<ul>{section.points.map(point=><li>{point}</li>)}</ul>}
         </section>)}
 
+        {article.readerQuestions&&<section class="reader-questions" aria-labelledby="reader-questions-title">
+          <h2 id="reader-questions-title">{de?"Fragen nach dem ersten Tool-Lauf":"Questions after the first tool run"}</h2>
+          <p>{de?"Diese Fragen stammen aus der praktischen Nutzung des Tools. Sie sind keine behaupteten Suchvolumen-Daten.":"These questions come from practical tool use. They are not claimed search-volume data."}</p>
+          <dl>{article.readerQuestions.map(item=><div><dt>{item.question}</dt><dd>{item.answer}</dd></div>)}</dl>
+        </section>}
+
         <section class="source-notes" aria-labelledby="sources-title">
           <h2 id="sources-title">{de?"Verwendete Quellen":"Sources used"}</h2>
           <p>{de?"Diese Quellen stützen die beschriebenen Funktionen und Grenzen. Sie belegen keine darüber hinausgehenden Aussagen.":"These sources support the functions and limits described here. They do not prove claims beyond that scope."}</p>

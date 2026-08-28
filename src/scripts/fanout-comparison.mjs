@@ -14,10 +14,14 @@ export function compareFanoutRuns(entries) {
       if (!domainOwners.has(domain)) domainOwners.set(domain, new Set()); domainOwners.get(domain).add(run.id);
     }
   }
+  const providers = new Set(runs.map((run) => run.providerId));
+  const topics = new Set(runs.map((run) => normalize(run.keyword)));
+  const comparisonType = topics.size === 1 && providers.size > 1 ? "provider" : topics.size === 1 && providers.size === 1 ? "date" : "mixed";
   return {
     schemaVersion: "ai-fanout.local-comparison/1.0",
     createdAt: new Date().toISOString(),
     runCount: runs.length,
+    comparisonType,
     runs,
     sharedQueries: [...queryOwners].filter(([, owners]) => owners.size > 1).map(([query]) => query),
     sharedSourceDomains: [...domainOwners].filter(([, owners]) => owners.size > 1).map(([domain]) => domain),

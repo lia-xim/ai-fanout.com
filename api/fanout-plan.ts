@@ -13,6 +13,7 @@ const allowedOrigins = allowedRequestOrigins();
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   Object.entries(safeHeaders).forEach(([key, value]) => res.setHeader(key, value));
   const requestId = crypto.randomUUID();
+  let metricStarted = false;
   try {
     if (req.method !== "POST") throw new ToolError("METHOD_NOT_ALLOWED", 405);
     if (process.env.FANOUT_PUBLIC_ENABLED !== "true" || required.some((name) => !process.env[name])) throw new ToolError("TOOL_NOT_CONFIGURED", 503);
@@ -24,12 +25,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const expectedHostnames = expectedTurnstileHostnames(process.env.TURNSTILE_HOSTNAMES);
     const service = createFanoutService({ ledger, provider, bucketSalt: process.env.FANOUT_BUCKET_SALT!, captchaVerifier: (token: string, remoteIp: string) => verifyTurnstile({ token, remoteIp, secret: process.env.TURNSTILE_SECRET_KEY!, expectedAction: "fanout", expectedHostnames }) });
     await incrementMetric("run_started",{provider:"modelled"});
+    metricStarted = true;
     const data = await service({ body: req.body, remoteIp: ip });
     await incrementMetric(data.queries.length?"run_succeeded":"run_zero_query",{provider:"modelled"});
     return res.status(200).json({ ok: true, requestId, data });
   } catch (error) {
     const status = error instanceof ToolError ? error.status : 500;
     const code = error instanceof ToolError ? error.code : "INTERNAL_ERROR";
+    if (metricStarted) await incrementMetric(code === "PROVIDER_TIMEOUT" ? "run_timeout" : "run_failed", { provider: "modelled" });
     if (status === 405) res.setHeader("Allow", "POST");
     const details = error instanceof ToolError ? error.details : undefined;
     return res.status(status).json({ ok: false, requestId, error: { code, message: publicMessage(code), ...details }, toolVersion: TOOL_VERSION, modelId: DEFAULT_MODEL_ID });

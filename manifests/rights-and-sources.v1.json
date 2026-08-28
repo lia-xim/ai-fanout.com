@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-27.3",
+  "manifestVersion": "2026-08-28.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-08-27",
+  "reviewedAt": "2026-08-28",
   "sources": [
     {
       "id": "portfolio-dossier",
@@ -225,7 +225,7 @@
       "title": "GPT-5.6 Luna model pricing",
       "kind": "primary_provider_documentation",
       "location": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
-      "checkedAt": "2026-08-27",
+      "checkedAt": "2026-08-28",
       "status": "verified",
       "supports": "Lists USD 0.20 per million input tokens and USD 1.20 per million output tokens used by the dated per-run estimate."
     },
@@ -335,7 +335,16 @@
       "location": "https://ai-fanout.com/examples/openai-observations-2026-08-27.json",
       "checkedAt": "2026-08-27",
       "status": "verified_reproducible",
-      "supports": "Four owner-run OpenAI API observations record exact inputs, timestamps, exposed query strings, normalized source domains, usage, method versions and response status. They are not an independent benchmark."
+      "supports": "Four owner-run OpenAI API observations record exact inputs, timestamps, exposed query strings, search-action source domains, usage, method versions and response status. Versioned JSON, normalized CSV and a JSON Schema are published. They are not an independent benchmark."
+    },
+    {
+      "id": "monthly-observation-plan-2026-08-28",
+      "title": "Bounded monthly observation plan",
+      "kind": "owner_research_plan",
+      "location": "https://ai-fanout.com/examples/monthly-observation-plan.v1.json",
+      "checkedAt": "2026-08-28",
+      "status": "planned_not_results",
+      "supports": "Defines 12 repeat topics, fixed run controls, ownership and publication boundaries. It is a plan and contains no claimed monthly results."
     }
   ],
   "rights": [

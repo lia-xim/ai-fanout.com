@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "ai-fanout.observation-plan/1.0",
+  "status": "planned_not_results",
+  "createdAt": "2026-08-28",
+  "researchOwner": "Matthias Ramahi",
+  "cadence": "monthly",
+  "protocol": { "tool": "provider-native web search", "sameInputPerTopic": true, "recordModelLocaleAndStatus": true },
+  "publicationBoundary": "Owner-run OpenAI observations may be published after review. Gemini Grounded Results and Search Suggestions remain browser-local and are not part of the public evidence corpus.",
+  "topics": [
+    {"id":"fanout-definition","job":"informational","input":"what is AI query fanout","language":"en","country":"US","state":"planned"},
+    {"id":"best-seo-tools","job":"comparison","input":"best SEO tools","language":"en","country":"US","state":"planned"},
+    {"id":"ahrefs-vs-semrush","job":"comparison","input":"Ahrefs vs Semrush for small business","language":"en","country":"US","state":"planned"},
+    {"id":"seo-pricing","job":"commercial","input":"SEO software pricing for small teams","language":"en","country":"US","state":"planned"},
+    {"id":"pages-not-indexed","job":"troubleshooting","input":"Seiten werden nicht indexiert","language":"de","country":"DE","state":"planned"},
+    {"id":"technical-audit","job":"informational","input":"technical SEO audit checklist","language":"en","country":"US","state":"planned"},
+    {"id":"ecommerce-links","job":"implementation","input":"interne Verlinkung Onlineshop","language":"de","country":"DE","state":"planned"},
+    {"id":"local-dentists","job":"local","input":"local SEO für Zahnärzte Berlin","language":"de","country":"DE","state":"planned"},
+    {"id":"b2b-keywords","job":"implementation","input":"keyword research for B2B SaaS","language":"en","country":"US","state":"planned"},
+    {"id":"ai-citations","job":"informational","input":"AI search citations","language":"en","country":"US","state":"planned"},
+    {"id":"content-gaps","job":"implementation","input":"Content Gap Analyse","language":"de","country":"DE","state":"planned"},
+    {"id":"rank-tracking","job":"comparison","input":"rank tracking alternatives","language":"en","country":"US","state":"planned"}
+  ]
+}

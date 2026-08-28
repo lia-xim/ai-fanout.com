@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { HISTORY_LIMIT, HISTORY_TTL_MS, historyStorageState, prepareResultForLocalStorage, pruneHistory, requestPersistentHistoryStorage } from "../src/scripts/fanout-history.mjs";
 import { analyzeFanout } from "../src/scripts/fanout-analysis.mjs";
 import { compareFanoutRuns, comparisonCsv } from "../src/scripts/fanout-comparison.mjs";
+import { selectedQueryExport, selectedQueriesCsv } from "../src/scripts/fanout-selection.mjs";
 
 test("local history expires after 30 days, sorts newest first and keeps 20", () => {
   const now = Date.UTC(2026, 7, 27);
@@ -45,5 +46,15 @@ test("result summary keeps only observed query and source counts",()=>{
 
 test("browser-local comparison finds exact overlaps and exports all runs",()=>{
   const entries=[{id:"a",savedAt:1,result:{providerId:"openai",modelId:"gpt",keyword:"SEO",language:"en",country:null,queries:["best seo tools","seo pricing"],sources:[{url:"https://ahrefs.com/a"}]}},{id:"b",savedAt:2,result:{providerId:"gemini",modelId:"gemini",keyword:"SEO",language:"en",country:null,queries:["best seo tools","seo for small business"],sources:[{url:"https://ahrefs.com/b"}]}}];
-  const compared=compareFanoutRuns(entries);assert.deepEqual(compared.sharedQueries,["best seo tools"]);assert.deepEqual(compared.sharedSourceDomains,["ahrefs.com"]);assert.match(comparisonCsv(compared),/best seo tools/);assert.match(comparisonCsv(compared),/openai/);
+  const compared=compareFanoutRuns(entries);assert.equal(compared.comparisonType,"provider");assert.deepEqual(compared.sharedQueries,["best seo tools"]);assert.deepEqual(compared.sharedSourceDomains,["ahrefs.com"]);assert.match(comparisonCsv(compared),/best seo tools/);assert.match(comparisonCsv(compared),/openai/);
+});
+
+test("same topic and provider on different dates is labelled as a date comparison",()=>{
+  const result={providerId:"openai",modelId:"gpt",keyword:"SEO",language:"en",queries:["best seo tools"],sources:[]};
+  assert.equal(compareFanoutRuns([{id:"a",savedAt:1,result},{id:"b",savedAt:2,result}]).comparisonType,"date");
+});
+
+test("selected query export contains only selected rows and adds no source relation",()=>{
+  const selection=selectedQueryExport({keyword:"SEO",providerId:"openai",modelId:"gpt",generatedAt:"2026-08-28T10:00:00Z",country:"DE",language:"de",evidenceStatus:"provider_observed",queries:["erste Query","zweite Query"],sources:[{url:"https://example.com"}]},new Set([1]));
+  assert.equal(selection.selectedQueryCount,1);assert.equal(selection.queries[0].query,"zweite Query");assert.equal("sources" in selection,false);assert.doesNotMatch(selectedQueriesCsv(selection),/erste Query|example\.com/);assert.match(selectedQueriesCsv(selection),/zweite Query/);
 });

@@ -17,17 +17,17 @@ const pair = (en, de, lastmod, role) => [
 const pairedRoutes = [
   ...pair("/", "/de", "2026-08-28", "tool-homepage"),
   ...pair("/library", "/de/lernen", "2026-08-27", "learning-hub"),
-  ...pair("/examples", "/de/beispiele", "2026-08-27", "evidence-hub"),
+  ...pair("/examples", "/de/beispiele", "2026-08-28", "evidence-hub"),
   ...pair("/methodology", "/de/methode", "2026-08-27", "methodology"),
   ...pair("/library/what-is-ai-query-fanout", "/de/lernen/was-ist-ai-query-fanout", "2026-08-28", "guide"),
   ...pair("/library/how-to-see-openai-search-queries", "/de/lernen/openai-suchanfragen-sehen", "2026-08-28", "guide"),
   ...pair("/library/ai-query-fanout-for-seo", "/de/lernen/query-fanout-fuer-seo", "2026-08-28", "guide"),
   ...pair("/library/why-ai-fanout-results-change", "/de/lernen/warum-fanout-ergebnisse-schwanken", "2026-08-28", "guide"),
   ...pair("/library/compare-ai-model-searches", "/de/lernen/ki-modelle-vergleichen", "2026-08-28", "guide"),
-  ...pair("/examples/best-seo-tools-openai-vs-gemini", "/de/beispiele/beste-seo-tools-openai-vs-gemini", "2026-08-27", "evidence-example"),
-  ...pair("/examples/country-changes-fanout-queries", "/de/beispiele/land-veraendert-fanout-queries", "2026-08-27", "evidence-example"),
-  ...pair("/examples/why-same-keyword-changes", "/de/beispiele/warum-gleiches-keyword-andere-queries", "2026-08-27", "evidence-example"),
-  ...pair("/examples/sources-for-comparison-questions", "/de/beispiele/quellen-bei-vergleichsfragen", "2026-08-27", "evidence-example"),
+  ...pair("/examples/best-seo-tools-openai-vs-gemini", "/de/beispiele/beste-seo-tools-openai-vs-gemini", "2026-08-28", "evidence-example"),
+  ...pair("/examples/country-changes-fanout-queries", "/de/beispiele/land-veraendert-fanout-queries", "2026-08-28", "evidence-example"),
+  ...pair("/examples/why-same-keyword-changes", "/de/beispiele/warum-gleiches-keyword-andere-queries", "2026-08-28", "evidence-example"),
+  ...pair("/examples/sources-for-comparison-questions", "/de/beispiele/quellen-bei-vergleichsfragen", "2026-08-28", "evidence-example"),
 ];
 
 const singleRoutes = [

@@ -36,6 +36,7 @@
 .article-toc nav a:hover,.article-toc nav a:focus-visible{color:var(--source)}
 .toc-back{display:flex;gap:.55rem;align-items:center;margin-top:1.4rem;color:#d4dade;font-size:.75rem;text-decoration:none}
 .source-notes{padding-top:clamp(3.8rem,7vw,5.8rem);border-top:1px solid var(--rule)}
+.reader-questions{margin-bottom:clamp(3.8rem,7vw,5.8rem);padding-top:clamp(3.8rem,7vw,5.8rem);border-top:1px solid var(--rule)}.reader-questions h2{margin:0;font:700 clamp(1.8rem,2.25vw,2.25rem)/1.16 var(--font-display);letter-spacing:-.028em}.reader-questions>p{max-width:62ch;margin:1rem 0 2rem;color:var(--muted);line-height:1.7}.reader-questions dl{margin:0;border-top:1px solid var(--fine-rule)}.reader-questions dl>div{padding:1.4rem 0;border-bottom:1px solid var(--fine-rule)}.reader-questions dt{color:var(--ink);font-weight:700;line-height:1.5}.reader-questions dd{max-width:67ch;margin:.65rem 0 0;color:#c9d0d2;font-size:1.03rem;line-height:1.72}
 .source-notes h2{margin:0;font:700 clamp(1.8rem,2.25vw,2.25rem)/1.16 var(--font-display);letter-spacing:-.028em}
 .source-notes>p{max-width:60ch;margin:1rem 0 2rem;color:var(--muted);font-size:1rem;line-height:1.7}
 .source-notes ol{margin:0;padding:0;border-top:1px solid var(--rule);list-style:none}

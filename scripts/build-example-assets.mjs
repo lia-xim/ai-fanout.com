@@ -1,0 +1,10 @@
+import { readFile, writeFile } from "node:fs/promises";
+const sourceUrl=new URL("../public/examples/openai-observations-2026-08-27.json",import.meta.url);
+const outputUrl=new URL("../public/examples/openai-observations-2026-08-27.csv",import.meta.url);
+const fixture=JSON.parse(await readFile(sourceUrl,"utf8"));
+const columns=["observed_at","provider","model","tool_version","method_version","keyword","country","language","response_status","query_index","query","search_action_source_domains","input_tokens","output_tokens","search_actions","estimated_cost_usd"];
+const escape=value=>`"${String(value??"").replaceAll('"','""')}"`;
+const rows=[columns.join(",")];
+for(const run of fixture.observations)run.queries.forEach((query,index)=>rows.push([run.observedAt,fixture.provider,fixture.model,fixture.toolVersion,fixture.methodVersion,run.input.keyword,run.input.country,run.input.language,run.providerResponseStatus,index+1,query,run.sourceDomains.join("|"),run.usage.inputTokens,run.usage.outputTokens,run.usage.searchActions,run.usage.estimatedCostUsd].map(escape).join(",")));
+await writeFile(outputUrl,`${rows.join("\n")}\n`,"utf8");
+console.log(`Wrote ${rows.length-1} normalized query rows`);
