@@ -1,3 +1,5 @@
+import { canonicalUrlForPath, sitemapRouteByPath, sitemapRoutes } from "../src/data/sitemap-registry.mjs";
+
 const origin = (process.env.AUDIT_ORIGIN ?? "https://ai-fanout.com").replace(/\/$/, "");
 const failures = [];
 const warnings = [];
@@ -21,8 +23,43 @@ const childUrl = capture(sitemapIndex.body, /<loc>([^<]+)<\/loc>/i);
 check(Boolean(childUrl), "sitemap child missing");
 const child = childUrl ? await timedFetch(childUrl, { redirect: "manual" }) : { response: { status: 0 }, body: "", ms: 0, bytes: 0 };
 check(child.response.status === 200 && child.body.includes("<urlset"), "sitemap child invalid");
-const urls = [...child.body.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+check(child.body.includes('xmlns:xhtml="http://www.w3.org/1999/xhtml"'), "sitemap: xhtml namespace missing");
+for (const namespace of ["xmlns:news=", "xmlns:image=", "xmlns:video="]) check(!child.body.includes(namespace), `sitemap: unused namespace ${namespace}`);
+const normalizeUrl = (url) => {
+  const parsed = new URL(url);
+  return parsed.pathname === "/" ? `${parsed.origin}/` : url;
+};
+const sitemapItems = [...child.body.matchAll(/<url>([\s\S]*?)<\/url>/g)].map((match) => {
+  const block = match[1];
+  return {
+    loc: capture(block, /<loc>([^<]+)<\/loc>/i),
+    lastmod: capture(block, /<lastmod>([^<]+)<\/lastmod>/i),
+    links: [...block.matchAll(/<xhtml:link\b([^>]+?)\/?>(?:<\/xhtml:link>)?/g)].map((link) => ({
+      lang: capture(link[1], /hreflang="([^"]+)"/i),
+      url: capture(link[1], /href="([^"]+)"/i)
+    }))
+  };
+});
+const urls = sitemapItems.map((item) => item.loc);
 check(urls.length > 0 && new Set(urls).size === urls.length, "sitemap: empty or duplicate URLs");
+check(sitemapItems.length === sitemapRoutes.length, `sitemap: expected ${sitemapRoutes.length} URLs, found ${sitemapItems.length}`);
+for (const route of sitemapRoutes) {
+  const expectedUrl = canonicalUrlForPath(route.path);
+  const item = sitemapItems.find((candidate) => candidate.loc && normalizeUrl(candidate.loc) === expectedUrl);
+  check(Boolean(item), `sitemap: missing registered route ${route.path}`);
+  if (!item) continue;
+  check(item.lastmod?.slice(0, 10) === route.lastmod, `sitemap: ${route.path} lastmod ${item.lastmod} does not match ${route.lastmod}`);
+  check(Number.isFinite(Date.parse(item.lastmod)) && Date.parse(item.lastmod) <= Date.now() + 86_400_000, `sitemap: ${route.path} lastmod invalid or future-dated`);
+  const expectedLinks = route.alternates
+    ? Object.entries(route.alternates).map(([lang, path]) => `${lang}|${canonicalUrlForPath(path)}`).sort()
+    : [];
+  const actualLinks = item.links.map((link) => `${link.lang}|${normalizeUrl(link.url)}`).sort();
+  check(JSON.stringify(actualLinks) === JSON.stringify(expectedLinks), `sitemap: ${route.path} hreflang mismatch`);
+}
+for (const url of urls) {
+  const path = new URL(url).pathname.replace(/\/$/, "") || "/";
+  check(sitemapRouteByPath.has(path), `sitemap: unregistered URL ${url}`);
+}
 
 const titles = new Map();
 const descriptions = new Map();
@@ -51,7 +88,7 @@ for (const url of urls) {
   pages.push({ route, status: item.response.status, ms: item.ms, bytes: item.bytes, title, h1Count });
 }
 
-const sitemapRoutes = new Set(urls.map((url) => new URL(url).pathname || "/"));
+const sitemapUrlRoutes = new Set(urls.map((url) => new URL(url).pathname || "/"));
 for (const [route, routeLinks] of links) {
   for (const target of routeLinks) {
     if (target.startsWith("/_astro/") || target === "/tracker" || target === "/404") continue;
@@ -59,7 +96,7 @@ for (const [route, routeLinks] of links) {
     check(response.status === 200 || [301, 302, 307, 308].includes(response.status), `${route}: broken internal link ${target} (${response.status})`);
   }
 }
-for (const route of sitemapRoutes) {
+for (const route of sitemapUrlRoutes) {
   if (route === "/") continue;
   const inbound = [...links.entries()].filter(([source, targets]) => source !== route && targets.includes(route)).length;
   if (inbound === 0) warnings.push(`${route}: no inbound link found from another sitemap page`);

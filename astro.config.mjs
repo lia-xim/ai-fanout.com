@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
+import { includeInSitemap, serializeSitemapItem } from "./src/data/sitemap-registry.mjs";
 
 export default defineConfig({
   site: "https://ai-fanout.com/",
@@ -12,9 +13,13 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      filter: (page) => {
-        const path = new URL(page).pathname.replace(/\/$/, "") || "/";
-        return !["/404", "/404.html", "/tracker", "/lab", "/protocol-builder", "/research", "/research/methodology", "/datasets", "/protocols/example-2026-08-22"].includes(path);
+      filter: includeInSitemap,
+      serialize: serializeSitemapItem,
+      namespaces: {
+        news: false,
+        image: false,
+        video: false,
+        xhtml: true,
       },
     }),
   ],

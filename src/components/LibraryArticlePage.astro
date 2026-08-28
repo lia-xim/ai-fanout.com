@@ -43,6 +43,10 @@ const schema={"@context":"https://schema.org","@type":"TechArticle",headline:art
         <section class="article-intro">
           <p class="article-lead">{article.answer}</p>
           <p>{article.useWhen}</p>
+          {article.toolCta&&<a class="article-tool-cta" href={de?"/de#tool":"/#tool"}>
+            <span><strong>{article.toolCta.title}</strong><small>{article.toolCta.copy}</small></span>
+            <b>{article.toolCta.button}<ArrowIcon size={16}/></b>
+          </a>}
         </section>
 
         {article.sections.map(section=><section id={section.id} class="article-chapter" aria-labelledby={`${section.id}-title`}>

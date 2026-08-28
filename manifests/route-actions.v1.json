@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-27.3",
+  "manifestVersion": "2026-08-28.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-08-27",
+  "reviewedAt": "2026-08-28",
   "domainOrigin": "fresh_registration",
   "defaultUnknownPathAction": "404",
   "catchAllRedirect": false,
   "indexState": "indexable_launch",
-  "sitemapMode": "astro_static_route_generation",
+  "sitemapMode": "central_allowlist_with_editorial_lastmod_and_hreflang",
   "sitemapPath": "/sitemap-index.xml",
   "excludedFromSitemap": [
     "/404",
@@ -47,7 +47,7 @@
     "/library and /de/lernen each contain five comprehensive, paired guides with reciprocal hreflang annotations. Six narrower routes per language permanently redirect to their intent-equivalent guide.",
     "/methodology and /de/methode explain the direct OpenAI/Gemini native-search contract and the separate modelled-ideas boundary. Manual comparison and research routes are retired from public IA, noindex and excluded from the sitemap.",
     "/examples and /de/beispiele contain four paired, dated evidence pages backed by one normalized OpenAI observation fixture. The former OpenAI-vs-Gemini promise is now titled as a local comparison protocol and does not publish retained Gemini Grounded Results.",
-    "The sitemap is generated from Astro static routes and excludes noindex, error and API paths.",
+    "The sitemap is generated from the validated central route registry. It includes only canonical indexable 200 routes, uses explicit EN/DE/x-default alternates, and assigns editorial lastmod dates only after meaningful page changes. Build or deploy time is never used as a page lastmod.",
     "The API is enabled only when CAPTCHA, atomic quota, cost and provider secrets plus both explicit public flags are configured.",
     "Unknown paths return a real 404 and are not redirected to the homepage."
   ]
