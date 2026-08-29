@@ -15,14 +15,11 @@ const timedFetch = async (url, init) => {
 const robots = await timedFetch(`${origin}/robots.txt`, { redirect: "manual" });
 check(robots.response.status === 200, `robots: ${robots.response.status}`);
 check(robots.body.includes("Allow: /") && !robots.body.includes("Disallow: /"), "robots: crawl policy failed");
-check(robots.body.includes(`Sitemap: ${origin}/sitemap-index.xml`), "robots: canonical sitemap reference missing");
+check(robots.body.includes(`Sitemap: ${origin}/sitemap.xml`), "robots: canonical sitemap reference missing");
 
-const sitemapIndex = await timedFetch(`${origin}/sitemap-index.xml`, { redirect: "manual" });
-check(sitemapIndex.response.status === 200 && sitemapIndex.body.includes("<sitemapindex"), "sitemap index invalid");
-const childUrl = capture(sitemapIndex.body, /<loc>([^<]+)<\/loc>/i);
-check(Boolean(childUrl), "sitemap child missing");
-const child = childUrl ? await timedFetch(childUrl, { redirect: "manual" }) : { response: { status: 0 }, body: "", ms: 0, bytes: 0 };
-check(child.response.status === 200 && child.body.includes("<urlset"), "sitemap child invalid");
+const child = await timedFetch(`${origin}/sitemap.xml`, { redirect: "manual" });
+check(child.response.status === 200 && child.body.includes("<urlset"), "sitemap invalid");
+check(child.body.includes('<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>'), "sitemap stylesheet declaration missing");
 check(child.body.includes('xmlns:xhtml="http://www.w3.org/1999/xhtml"'), "sitemap: xhtml namespace missing");
 for (const namespace of ["xmlns:news=", "xmlns:image=", "xmlns:video="]) check(!child.body.includes(namespace), `sitemap: unused namespace ${namespace}`);
 const normalizeUrl = (url) => {
@@ -108,6 +105,10 @@ const http = await fetch(`http://${new URL(origin).host}/audit-path?keep=1`, { r
 check(http.status === 308 && http.headers.get("location") === `${origin}/audit-path?keep=1`, "HTTP redirect must be permanent and preserve path/query");
 const www = await fetch(`https://www.${new URL(origin).host}/audit-path?keep=1`, { redirect: "manual" });
 check(www.status === 308 && www.headers.get("location") === `${origin}/audit-path?keep=1`, "www redirect must be permanent and preserve path/query");
+for (const legacySitemap of ["/sitemap-index.xml", "/sitemap-0.xml"]) {
+  const response = await fetch(`${origin}${legacySitemap}`, { redirect: "manual" });
+  check(response.status === 308 && response.headers.get("location") === `${origin}/sitemap.xml`, `${legacySitemap}: expected permanent redirect to canonical sitemap`);
+}
 const tracker = await timedFetch(`${origin}/tracker`, { redirect: "manual" });
 check(tracker.response.status === 200 && /<meta name="robots" content="noindex, follow"/i.test(tracker.body), "tracker must remain useful 200 noindex");
 check(!urls.includes(`${origin}/tracker`), "tracker leaked into sitemap");

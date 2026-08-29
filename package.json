@@ -23,7 +23,6 @@
     "verify:planner": "pnpm build && pnpm test:planner && pnpm qa:planner"
   },
   "dependencies": {
-    "@astrojs/sitemap": "3.7.3",
     "astro": "7.2.1",
     "zod": "^4.4.3"
   },

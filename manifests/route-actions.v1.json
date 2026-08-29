@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-28.1",
+  "manifestVersion": "2026-08-29.1",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-08-28",
   "domainOrigin": "fresh_registration",
@@ -8,7 +8,7 @@
   "catchAllRedirect": false,
   "indexState": "indexable_launch",
   "sitemapMode": "central_allowlist_with_editorial_lastmod_and_hreflang",
-  "sitemapPath": "/sitemap-index.xml",
+  "sitemapPath": "/sitemap.xml",
   "excludedFromSitemap": [
     "/404",
     "/tracker",
@@ -22,8 +22,13 @@
   ],
   "legacyCompatibilityRedirects": [
     {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap-index.xml",
+      "source": "/sitemap-index.xml",
+      "destination": "/sitemap.xml",
+      "status": 308
+    },
+    {
+      "source": "/sitemap-0.xml",
+      "destination": "/sitemap.xml",
       "status": 308
     }
   ],

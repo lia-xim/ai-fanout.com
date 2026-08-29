@@ -6,7 +6,8 @@
   "outputDirectory":"dist",
   "redirects":[
     {"source":"/:path*","has":[{"type":"host","value":"ai-fanout-com.vercel.app"}],"destination":"https://ai-fanout.com/:path*","permanent":true},
-    {"source":"/sitemap.xml","destination":"/sitemap-index.xml","permanent":true},
+    {"source":"/sitemap-index.xml","destination":"/sitemap.xml","permanent":true},
+    {"source":"/sitemap-0.xml","destination":"/sitemap.xml","permanent":true},
     {"source":"/library/openai-web-search-queries","destination":"/library/how-to-see-openai-search-queries","permanent":true},
     {"source":"/library/ai-citations","destination":"/library/how-to-see-openai-search-queries","permanent":true},
     {"source":"/library/gemini-search-queries","destination":"/library/how-to-see-openai-search-queries","permanent":true},

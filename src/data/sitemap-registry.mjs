@@ -7,7 +7,7 @@
  * change.
  */
 
-export const sitemapRegistryVersion = "2026-08-28.2";
+export const sitemapRegistryVersion = "2026-08-29.1";
 
 const pair = (en, de, lastmod, role) => [
   { path: en, lang: "en", lastmod, role, alternates: { en, de, "x-default": en } },
@@ -74,16 +74,3 @@ for (const route of sitemapRoutes) {
     }
   }
 }
-
-export const includeInSitemap = (page) => sitemapRouteByPath.has(normalizeRoutePath(new URL(page).pathname));
-
-export const serializeSitemapItem = (item) => {
-  const route = sitemapRouteByPath.get(normalizeRoutePath(new URL(item.url).pathname));
-  if (!route) return undefined;
-  item.url = canonicalUrlForPath(route.path);
-  item.lastmod = route.lastmod;
-  if (route.alternates) {
-    item.links = Object.entries(route.alternates).map(([lang, path]) => ({ lang, url: canonicalUrlForPath(path) }));
-  }
-  return item;
-};
