@@ -107,7 +107,8 @@ const www = await fetch(`https://www.${new URL(origin).host}/audit-path?keep=1`,
 check(www.status === 308 && www.headers.get("location") === `${origin}/audit-path?keep=1`, "www redirect must be permanent and preserve path/query");
 for (const legacySitemap of ["/sitemap-index.xml", "/sitemap-0.xml"]) {
   const response = await fetch(`${origin}${legacySitemap}`, { redirect: "manual" });
-  check(response.status === 308 && response.headers.get("location") === `${origin}/sitemap.xml`, `${legacySitemap}: expected permanent redirect to canonical sitemap`);
+  const destination = new URL(response.headers.get("location") ?? "/invalid-sitemap-redirect", origin).href;
+  check(response.status === 308 && destination === `${origin}/sitemap.xml`, `${legacySitemap}: expected permanent redirect to canonical sitemap`);
 }
 const tracker = await timedFetch(`${origin}/tracker`, { redirect: "manual" });
 check(tracker.response.status === 200 && /<meta name="robots" content="noindex, follow"/i.test(tracker.body), "tracker must remain useful 200 noindex");
