@@ -6,8 +6,18 @@ test("product analytics exposes the expected bounded event vocabulary", () => {
   assert.deepEqual(productAnalyticsEvents, [
     "tool_mode_selected", "tool_run_blocked", "tool_run_started", "tool_run_succeeded",
     "tool_run_zero_query", "tool_run_failed", "result_saved", "result_copied",
-    "result_exported", "runs_compared", "result_source_clicked", "handoff_clicked",
+    "result_feedback", "result_workflow_advanced", "result_exported", "runs_compared",
+    "model_comparison_requested", "model_comparison_completed", "result_source_clicked", "handoff_clicked",
   ]);
+});
+
+test("feedback and provider comparison events cannot carry tool content", () => {
+  assert.deepEqual(sanitizeProductEvent("result_feedback", {
+    mode: "native", provider: "gemini", rating: "helpful", keyword: "private", query: "private",
+  }), { name: "result_feedback", data: { mode: "native", provider: "gemini", rating: "helpful" } });
+  assert.deepEqual(sanitizeProductEvent("model_comparison_completed", {
+    direction: "openai_to_gemini", keyword: "private", country: "DE",
+  }), { name: "model_comparison_completed", data: { direction: "openai_to_gemini" } });
 });
 
 test("successful run keeps only allowlisted aggregate dimensions", () => {

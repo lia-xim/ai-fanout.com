@@ -45,5 +45,6 @@ Dated public example pages use reviewed, owner-run OpenAI observations with exac
 - live fixture for each provider proving query/source extraction before enabling that provider, plus conservative reservation and ongoing provider-dashboard review until actual billed-cost behaviour is established;
 - privacy and methodology copy kept aligned with provider processing and retention terms.
 - owner-operated Umami measurement is limited to live-domain page analytics, Core Web Vitals and a tested product-event allowlist; URL search/hash values and raw tool content are forbidden.
+- Umami data for this site is limited to six months under the owner-run, exact-website reset procedure in `docs/analytics-retention.md`; the public runtime has no analytics-admin credential.
 
 Matthias Ramahi is operator and Research Owner. He owns method versions, corrections, reviewer status and the monthly cost envelope. Claude and Perplexity are explicitly outside the first native release.

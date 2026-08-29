@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "ai-fanout.umami-reports/1.0",
+  "websiteId": "3daeb0a6-f2e9-4a0f-8c90-8eb6763b659c",
+  "reports": [
+    {
+      "type": "funnel",
+      "name": "AI Fanout EN - complete result workflow",
+      "description": "English landing page to protected run, successful result, save or export, and contextual handoff.",
+      "parameters": {
+        "steps": [
+          { "type": "path", "value": "/" },
+          { "type": "event", "value": "tool_run_started" },
+          { "type": "event", "value": "tool_run_succeeded" },
+          { "type": "event", "value": "result_workflow_advanced" },
+          { "type": "event", "value": "handoff_clicked" }
+        ],
+        "window": 60
+      }
+    },
+    {
+      "type": "funnel",
+      "name": "AI Fanout DE - complete result workflow",
+      "description": "German landing page to protected run, successful result, save or export, and contextual handoff.",
+      "parameters": {
+        "steps": [
+          { "type": "path", "value": "/de" },
+          { "type": "event", "value": "tool_run_started" },
+          { "type": "event", "value": "tool_run_succeeded" },
+          { "type": "event", "value": "result_workflow_advanced" },
+          { "type": "event", "value": "handoff_clicked" }
+        ],
+        "window": 60
+      }
+    },
+    {
+      "type": "goal",
+      "name": "AI Fanout - successful result",
+      "description": "A protected provider or modelled run returned a usable response.",
+      "parameters": { "type": "event", "value": "tool_run_succeeded" }
+    },
+    {
+      "type": "goal",
+      "name": "AI Fanout - zero visible query",
+      "description": "A successful native response exposed no query string.",
+      "parameters": { "type": "event", "value": "tool_run_zero_query" }
+    },
+    {
+      "type": "goal",
+      "name": "AI Fanout - result exported",
+      "description": "A visitor exported a full, selected, comparison or Contextter file.",
+      "parameters": { "type": "event", "value": "result_exported" }
+    },
+    {
+      "type": "goal",
+      "name": "AI Fanout - provider comparison completed",
+      "description": "The direct same-input OpenAI/Gemini comparison completed its second protected run.",
+      "parameters": { "type": "event", "value": "model_comparison_completed" }
+    },
+    {
+      "type": "goal",
+      "name": "AI Fanout - contextual handoff",
+      "description": "A visitor continued to SEO Fanout or Contextter from the result workflow.",
+      "parameters": { "type": "event", "value": "handoff_clicked" }
+    }
+  ]
+}

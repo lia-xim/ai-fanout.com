@@ -7,8 +7,12 @@ const EVENT_SCHEMAS = Object.freeze({
   tool_run_failed: { mode: ["native", "modelled"], provider: ["openai", "gemini"], reason: ["validation", "captcha", "rate_limit", "global_limit", "budget_limit", "timeout", "provider", "unavailable", "unknown"] },
   result_saved: { mode: ["native", "modelled"], provider: ["openai", "gemini"], query_count: "count" },
   result_copied: { mode: ["native", "modelled"], provider: ["openai", "gemini"], query_count: "count" },
+  result_feedback: { mode: ["native", "modelled"], provider: ["openai", "gemini"], rating: ["helpful", "not_helpful"] },
+  result_workflow_advanced: { provider: ["openai", "gemini", "mixed"], action: ["save", "export"] },
   result_exported: { provider: ["openai", "gemini", "mixed"], format: ["json", "csv"], scope: ["full", "selected", "comparison", "contextter"], item_count: "count" },
   runs_compared: { comparison_type: ["provider", "date", "mixed"], run_count: "count" },
+  model_comparison_requested: { direction: ["openai_to_gemini", "gemini_to_openai"] },
+  model_comparison_completed: { direction: ["openai_to_gemini", "gemini_to_openai"] },
   result_source_clicked: { provider: ["openai", "gemini"] },
   handoff_clicked: { destination: ["seo_fanout", "contextter"] },
 });
