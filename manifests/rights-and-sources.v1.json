@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-28.1",
+  "manifestVersion": "2026-08-29.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-08-28",
+  "reviewedAt": "2026-08-29",
   "sources": [
     {
       "id": "portfolio-dossier",
@@ -48,6 +48,24 @@
       "checkedAt": "2026-08-22",
       "status": "verified",
       "supports": "Hosting-provider disclosures about end-user request data, retention, providers and international transfers used in the site-specific privacy notice."
+    },
+    {
+      "id": "umami-tracker-configuration-2026-08-29",
+      "title": "Umami tracker configuration",
+      "kind": "primary_documentation",
+      "location": "https://docs.umami.is/docs/tracker-configuration",
+      "checkedAt": "2026-08-29",
+      "status": "verified_live",
+      "supports": "Documents domain restriction, Do Not Track support, exclusion of URL search and hash values, and performance measurement used by the site tracker."
+    },
+    {
+      "id": "umami-tracker-functions-and-sessions-2026-08-29",
+      "title": "Umami tracker functions, event data and sessions",
+      "kind": "primary_documentation",
+      "location": "https://docs.umami.is/docs/tracker-functions",
+      "checkedAt": "2026-08-29",
+      "status": "verified_live",
+      "supports": "Documents custom event calls and session derivation. The implementation adds a strict local allowlist that excludes raw tool inputs, outputs, source addresses and user identifiers."
     },
     {
       "id": "google-query-fanout",
@@ -377,6 +395,11 @@
       "assetClass": "User topic, selected mode/provider, language, country and transient fanout result",
       "status": "server_transient_optional_browser_local_copy",
       "decision": "Input is transmitted to the ai-fanout.com endpoint and routed either directly to OpenAI or Google for native search, or through OpenRouter for modelled search ideas. The server stores no raw input or provider response. Only after an explicit save action may the visible result be retained in IndexedDB on that device for up to 30 days; it is not synchronized or reused as a shared cache."
+    },
+    {
+      "assetClass": "Umami page and product analytics",
+      "status": "privacy_minimized_first_party_measurement",
+      "decision": "The owner-operated Umami endpoint receives page analytics and only allowlisted product-event categories and bounded counts. URL search/hash values, raw keywords, provider outputs, query strings, source addresses, local-history content and user identifiers are excluded."
     }
   ],
   "unknowns": [

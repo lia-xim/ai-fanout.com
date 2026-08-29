@@ -14,7 +14,7 @@
     "check": "astro check",
     "qa": "node scripts/qa.mjs",
     "verify": "pnpm build && pnpm qa",
-    "test:planner": "node --test scripts/planner.test.mjs scripts/native-fanout.test.mjs scripts/export-contract.test.mjs scripts/local-history.test.mjs scripts/metrics.test.mjs scripts/example-evidence.test.mjs",
+    "test:planner": "node --test scripts/planner.test.mjs scripts/native-fanout.test.mjs scripts/export-contract.test.mjs scripts/local-history.test.mjs scripts/metrics.test.mjs scripts/product-analytics.test.mjs scripts/example-evidence.test.mjs",
     "examples:build": "node scripts/build-example-assets.mjs",
     "metrics:summary": "node --env-file=.env.local scripts/read-metrics.mjs",
     "qa:planner": "node scripts/planner-qa.mjs",

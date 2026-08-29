@@ -29,6 +29,10 @@ Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenR
 - no account, cross-device sync or shared response cache;
 - provider keys stay server-only and every public mode has an explicit enable flag.
 
+## Analytics boundary
+
+The live custom domain uses the owner-operated Umami instance for page views, Core Web Vitals and a strict product-event allowlist. Search parameters and URL fragments are excluded and browser Do Not Track is respected. Custom events contain only provider/mode categories, bounded counts and action types; raw topics, query strings, provider output, source addresses, local-history content and user identifiers are forbidden. The exact contract lives in `docs/analytics-events.md`.
+
 ## Verify
 
 ```text

@@ -12,7 +12,16 @@ export const site = {
   ownershipDisclosure: "Operated by Matthias Ramahi. ai-fanout.com, Contextter and SEO Fanout share an owner; those sites are not independent recommendations.",
   githubUrl: "https://github.com/lia-xim/ai-fanout.com",
   indexing: { allowed: true, launchApproval: true, excludedRoutes: ["/tracker", "/404", "/api", "/lab", "/protocol-builder", "/research", "/datasets", "/protocols"] },
-  analytics: { enabled: false, provider: null },
+  analytics: {
+    enabled: true,
+    provider: "Umami",
+    scriptUrl: "https://analytics.contextter.com/script.js",
+    websiteId: "3daeb0a6-f2e9-4a0f-8c90-8eb6763b659c",
+    domains: "ai-fanout.com,www.ai-fanout.com",
+    respectsDoNotTrack: true,
+    excludesSearchAndHash: true,
+    performanceMetrics: true,
+  },
   navigation: [
     { href: "/#tool", label: "Free tool" },
     { href: "/library", label: "Learn" },
