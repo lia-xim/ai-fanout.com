@@ -21,7 +21,7 @@ export const site = {
     respectsDoNotTrack: true,
     excludesSearchAndHash: true,
     performanceMetrics: true,
-    retentionMonths: 6,
+    retentionMonths: 24,
     retentionPolicy: "/docs/analytics-retention.md",
   },
   navigation: [

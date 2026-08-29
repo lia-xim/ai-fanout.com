@@ -39,4 +39,4 @@ The core funnel is split by landing-page language and measures: landing page, to
 
 ## Retention
 
-The operator policy is a maximum six-month retention period for this website's Umami records. The enforcement procedure and deletion calendar are defined in `docs/analytics-retention.md`. Self-hosted Umami does not expire records automatically, so the documented reset remains an owner-operated task rather than a website-runtime claim.
+The operator policy is a maximum 24-month retention period for this website's Umami records, with an annual necessity review. The enforcement procedure and deletion calendar are defined in `docs/analytics-retention.md`. Self-hosted Umami does not expire records automatically, so the documented reset remains an owner-operated task rather than a website-runtime claim.

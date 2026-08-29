@@ -33,7 +33,7 @@ Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenR
 
 The live custom domain uses the owner-operated Umami instance for page views, Core Web Vitals and a strict product-event allowlist. Search parameters and URL fragments are excluded and browser Do Not Track is respected. Custom events contain only provider/mode categories, bounded counts and action types; raw topics, query strings, provider output, source addresses, local-history content and user identifiers are forbidden. The exact contract lives in `docs/analytics-events.md`.
 
-Saved product funnels and goals are versioned in `config/umami-reports.v1.json`. Analytics records for this website have a six-month maximum retention policy with an explicit owner-run reset procedure in `docs/analytics-retention.md`; no analytics admin credential is used by the public website runtime.
+Saved product funnels and goals are versioned in `config/umami-reports.v1.json`. Analytics records for this website have a 24-month maximum retention policy with an explicit annual necessity review and owner-run reset procedure in `docs/analytics-retention.md`; no analytics admin credential is used by the public website runtime.
 
 ## Verify
 
