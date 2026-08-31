@@ -1,11 +1,22 @@
 # Contextter MCP / Keyword-Research-Probleme
 
-Stand: 2026-08-31
+Stand: 2026-08-31 (achtteilige authentifizierte Public-Regression abgeschlossen)
+
+## Live Paid/Fresh-Nutzung fuer ai-fanout.com am 2026-08-31
+
+- Der tatsaechlich verwendete OAuth-Client ist `apc_lz0gm0pqv6ts`. Ihm wurden gezielt `actions:approve` und `actions:execute` hinzugefuegt; andere Write-Scopes blieben aus.
+- `seo_get_account_status` bestaetigt `policy: bounded_auto`, `automaticExecutionEnabled: true` sowie Limits von jeweils 385 EUR-Cent pro Aktion, UTC-Tag und UTC-Monat.
+- Ein US/EN-Domain-Snapshot wurde fuer 21 Cent erfolgreich abgeschlossen (`aop_4v068lf1uaje`, `snap_4hzhzbljkrrz`). Die Detailprojektionen fuer Rankings, Seiten, Wettbewerber und Opportunity Signals sind leer; das Profile-Read bleibt bei `DOMAIN_PROFILE_NOT_FOUND`.
+- Eine US/EN-Summary-Comparison gegen `queryfanout.io` und `lumina-seo.com` erzeugte fuer 45 Cent den abgeschlossenen Source-Vergleich `cmp_0zirnk4njxzj`. Der gespeicherte Vergleich enthaelt null organische Ergebniszeilen. Die zugehoerige Operation `aop_429q06zhus48` blieb im letzten Read trotzdem bei `running` / `settlement:pending`, obwohl Kontostand und Cost-Breakdown die 45 Cent bereits verbucht und keine Holds mehr ausgewiesen haben.
+- Offener P1-Befund: Aktive One-time-Grants wurden vor Aktivierung von `bounded_auto` nicht fuer den Domain-Quote akzeptiert. Bereits erzeugte Quotes behielten danach ihren gecachten `ACTION_HUMAN_APPROVAL_REQUIRED`-Status; erst ein neuer Idempotency-Key nach der Policy-Aenderung lief automatisch an.
+- Offener P2-Befund: Die Operation blieb zeitweise `running`, obwohl der Source-Snapshot bereits `completed` war. Spaeter wurde sie korrekt als `succeeded` und `settled` projiziert. Agenten muessen Source- und Operationsstatus deshalb bis zur terminalen Settlement-Projektion getrennt behandeln.
+- Budgetstand nach beiden Laeufen: `totalSpent: 181`, `balance: 4919`, `heldBalance: 0`, `activeHolds: 0`. Vom auf 500 Cent begrenzten SEO-Auftrag bleiben 319 Cent ungenutzt.
 
 ## Produktionsabschluss der Stored-Read-Reparatur vom 2026-08-31
 
 - Gesamtstatus: **PASS** fuer den oeffentlichen, workspacegebundenen MCP-Endpoint `https://app.contextter.com/api/mcp` und Workspace `ws_g1h1padb4chj`. Die acht vereinbarten Pruefbloecke wurden nach dem finalen Convex- und Vercel-Deploy ausschliesslich mit kostenlosen Stored Reads ausgefuehrt. Es blieben keine reproduzierten HTTP-500-, falschen retryable-503- oder Schemawidersprueche in diesem Abnahmeumfang.
 - Finaler Code: Commit `2c1ff1017ff83736444959d6f9e54f57df986575` (`test(agent-platform): cover keyword taxonomy projection`) ist identisch mit `origin/main`. Der Fix baut auf den isolierten Commits `aa49e829b59100b6b0f51e973c8c4ba95613caf6`, `5cec3cb3122c233b9f1327f9d19620fba5ba23fb`, `01581fb81d09ae05f0d178166ebb0395491f1de1` und `1a6967290cacc99ceab7c89e7d2eb5eec46d6ea0` auf.
+- Authentifizierter Runtime-Beleg: Die vollstaendige achtteilige Public-Regression bestand bereits auf Runtime-Commit `1a6967290cacc99ceab7c89e7d2eb5eec46d6ea0` und Vercel-Production-Deployment `dpl_2MCNQzDjX2ti6whsGmoCRAEPdvZm`. Der nachfolgende Commit `2c1ff1017ff83736444959d6f9e54f57df986575` ergaenzt den Regressionstest fuer die Keyword-Taxonomie und aendert den abgenommenen Runtime-Vertrag nicht.
 - Convex-Deployment: Die finalen Funktionen und das validierte Schema wurden aus dem finalen SHA auf das kanonische Self-hosted-Production-Ziel `https://convex.contextter.com` deployed; der CLI-Lauf endete mit `Deployed Convex functions`. Dieser Deployment-Pfad vergibt keine separate Convex-Deployment-ID.
 - Vercel-Deployment: `dpl_AMgEpZYTfDE5qftX59HZfcXpmHcN`, Status `READY`, Target `production`, Deployment-URL `https://contextter-main-56jf4ca4d-lia-xims-projects.vercel.app`, Alias `https://app.contextter.com`.
 
@@ -30,20 +41,21 @@ Stand: 2026-08-31
 
 ### Oeffentliche Production-Abnahme
 
-1. **PASS - Capabilities:** `authorization_get_capabilities` antwortet erfolgreich. Alle Fresh-/Paid-Aktionen bleiben `enabled:false` mit dem tatsaechlichen Grund `AGENT_PLATFORM_PAID_EXECUTION_DISABLED`; Katalog und Runtime widersprechen sich fuer den getesteten Umfang nicht.
+1. **PASS - Capabilities:** `authorization_get_capabilities` antwortet erfolgreich. Die sechs Fresh-/Paid-Familien `action.keyword-research.run`, `action.keyword-data.refresh`, `action.competitive-research.run`, `action.ai-visibility.analyze`, `action.domain-snapshot.refresh` und `action.site-audit.run` bleiben `enabled:false` mit dem tatsaechlichen Grund `AGENT_PLATFORM_PAID_EXECUTION_DISABLED`; Katalog und Runtime widersprechen sich fuer den getesteten Umfang nicht.
 2. **PASS - Domain Profile:** Stored Profile fuer `ai-fanout.com` liefert sowohl US (`2840/en`) als auch DE (`2276/de`) erfolgreich und kostenfrei `availability:notAvailable`, Grund `DOMAIN_PROFILE_NOT_FOUND`.
-3. **PASS - Opportunities:** Erfolgreiche Antwort `CTX-AGP-200-EVIDENCE_OPPORTUNITIES_ANALYZE`, `status:notAvailable`, keine Recommendations, Data-Gap `PROJECTION_MANIFEST_INCOMPLETE`, Billing `freeStoredRead`; kein retryable 503.
-4. **PASS - Work Overview:** Erfolgreiche Antwort `CTX-AGP-200-WORK_MEMORY_OVERVIEW`, leere gespeicherte Decisions/Work-Items, `includedTerminal:true`, `truncated:false`, Billing `included`; weder Idempotency-Fehler noch HTTP 500.
+3. **PASS - Opportunities:** Zwei Aufrufe mit demselben Key `final-stored-opportunities-20260831` liefern identisch `CTX-AGP-200-EVIDENCE_OPPORTUNITIES_ANALYZE`, `status:notAvailable`, keine Recommendations, `truncated:false`, Data-Gap `PROJECTION_MANIFEST_INCOMPLETE` und Billing `freeStoredRead`; kein retryable 503. Der deterministische Beleg lautet `id:ana_v1_04c8f33d6d41fc9cddafd2837b7e0dc3`, `sourceSnapshotId:snap_v1_a7e05fde2854d104ff632f5ae6215236`, `sourceVersion:3.0.1`, `engineVersion:opportunity-engine-v3` und `policyVersion:stored-read-not-available-v1`.
+4. **PASS - Work Overview:** Ein Aufruf mit dem top-level Key `final-work-overview-20260831` und ein Aufruf ohne Key liefern jeweils `CTX-AGP-200-WORK_MEMORY_OVERVIEW`, `toolId:workMemory.overview`, leere gespeicherte Decisions/Work-Items, `includedTerminal:true`, `truncated.decisions:false`, `truncated.workItems:false`, keine Data-Gaps und Billing `included`; weder Idempotency-Fehler noch HTTP 500.
 5. **PASS - Keyword Research:** Detail fuer `kwd_kayg16szw0js` / `seo for ai search` liefert `countryCode:us`, `category:googleAdsTaxonomy:10004`, `searchVolume:10 count` und `competition:0.29 ratio`. Die History liefert zwei normalisierte Punkte mit Volume 10 und Competition 0.29. Die Keyword-Liste liefert 47/47 mit `hasMore:false`; die DE-Liste `kwl_hm0cj18c1oep` liefert 16 aktive DE-Mitglieder, `hasMore:false`, und meldet zwei verwaiste Mitgliedschaften ehrlich als Warning. `missingData` liefert 47 Eintraege mit feldgenauen Luecken und `hasMore:false`.
 6. **PASS - Rankings:** `section=rankings`, `limit=50` liefert 10/10 gespeicherte Eintraege, `hasMore:false`, Coverage `ready`, `truncated:false`, Domain `ai-fanout.com`, Markt `2276/de`, Device `desktop` und SERP-Features. Nicht gespeicherte Positionen und URLs werden als `null` plus explizite Data-Gaps statt als erfundene Werte ausgegeben. Weil `hasMore:false`, war keine Cursor-Folgeseite vorhanden.
 7. **PASS - AI Visibility:** `section=runs`, `limit=20` liefert erfolgreich `CTX-AGP-200-AI_VISIBILITY_RUN_LIST`, Zustand `empty`, 0 Runs, `hasMore:false`, Billing `freeStoredRead`. Eine direkte read-only Tabellenpruefung bestaetigte, dass `agentAiVisibilityRuns` keine Dokumente enthaelt; daher existierte keine echte `runId` fuer den bedingten Mentions-Folgeread. Das oeffentliche Stored-Mentions-Routing wurde zusaetzlich mit einer syntaktisch gueltigen, nicht vorhandenen ID geprueft und liefert erfolgreich `availability:notAvailable` / `AI_VISIBILITY_RUN_NOT_FOUND_OR_UNAVAILABLE`, nicht einen Schema- oder Runtimefehler. Es wurde kein kostenpflichtiger Run erzeugt.
-8. **PASS - Billing und Mandate:** `seo_get_account_status` bleibt vor/nach der Abnahme bei `totalSpent:115`, `heldBalance:0`, `activeHolds:0`, `availableBalance:4985`, Billing `freeStoredRead`. `authorization_list_grants` liefert weiterhin `[]`; deshalb gibt es keine reale Grant-ID und keinen Mandat-Datensatz fuer einen zulaessigen `billing_get_mandate_status`-Read. Es wurde keine Grant-Anfrage erstellt.
+8. **PASS - Billing und Mandate:** `seo_get_account_status` bleibt vor/nach der Abnahme bei `totalSpent:115`, `heldBalance:0`, `activeHolds:0`, `balance:4985`, `availableBalance:4985`, `totalDeposited:5100`, Billing `freeStoredRead`, Execution-Policy `approval_required` und `automaticExecutionEnabled:false`. `authorization_list_grants` liefert weiterhin `[]`; deshalb gibt es keine reale Grant-ID und keinen Mandat-Datensatz fuer einen zulaessigen `billing_get_mandate_status`-Read. Es wurde keine Grant-Anfrage erstellt.
 
 ### Verbleibende Einschraenkungen
 
 - Eine Mentions-Antwort fuer eine reale AI-Visibility-Run-ID ist in diesem Workspace nicht nachweisbar, weil der kanonische Stored-Run-Bestand leer ist. Die oeffentliche Run-Liste und der strukturierte Not-Available-Pfad sind belegt; das Erzeugen eines Runs waere kostenpflichtig und war ausdruecklich verboten.
 - Die zwei verwaisten Mitgliedschaften der DE-Keyword-Liste bleiben ein gespeicherter Datenqualitaetsbefund. Der Read verschweigt sie nicht und liefert die 16 vorhandenen Keywords korrekt.
 - Ranking-Position und Ranking-URL sind in den vorhandenen gespeicherten Zeilen nicht vorhanden. Der Vertrag liefert die restlichen Kernfelder und markiert diese beiden Luecken explizit; er erzeugt keine scheinbar vollstaendigen Daten.
+- Die separat reproduzierte GSC-Bulk-Inspection mit HTTP 504, serverseitig weiterlaufender Teilmutation und doppeltem Tagesquotenverbrauch bei Retry gehoert nicht zum reparierten MCP-Stored-Read-Slice. Sie bleibt als eigener P1-Befund offen; dieser Abschluss behauptet dafuer keine Loesung.
 - Hosted CI konnte wegen des GitHub-Account-Billing-/Spending-Limit-Blockers nicht laufen. Fokussierte lokale Gates, Convex-Deployment, Vercel-Production-Build und die authentifizierte oeffentliche Abnahme sind davon getrennt belegt.
 
 Diese Datei sammelt reproduzierbare Probleme, die waehrend der Live-Keyword-Recherche fuer `ai-fanout.com` auffallen. Sie wird im laufenden Durchgang ergaenzt. Die Bezeichnung "MCP" folgt dem Arbeitsauftrag; wo kein Contextter-MCP-Werkzeug erreichbar ist, wird das ausdruecklich von UI-Problemen getrennt.
@@ -385,3 +397,41 @@ Noch keine P0-Befunde.
 
 - Die Activity-Seite meldete fuer den 90-Tage-Zeitraum zwei erfolgreiche Keyword-Imports, null laufende, null partielle und null fehlgeschlagene Jobs.
 - Der Dialog zeigt vor dem Start eine Kostenaufschluesselung und den prognostizierten Kontostand.
+
+## MCP Paid/Fresh Capability-Aktivierung (2026-08-31)
+
+### Endstatus: serverseitig behoben und oeffentlich verifiziert
+
+- Production-Endpoint: `https://app.contextter.com/api/mcp`
+- Verifizierter Workspace: `ws_g1h1padb4chj`
+- Fix-Commit: `76959072d67d7bae9d287bc1aecf1d17a0dfc065`
+- Vercel Production: `dpl_CA5gCpdkY7qXa59EVLP8XL697qLu`, Status `READY`, Alias `app.contextter.com`
+- Convex Production: Funktionen erfolgreich nach `https://convex.contextter.com` deployed. Self-hosted Convex liefert fuer diesen Pfad keine separate Deployment-ID.
+
+### Endgueltige Ursache
+
+Die sechs Paid/Fresh-Familien waren im serverseitigen Feature-Control-Katalog dauerhaft mit deaktivierten Defaults ausgeliefert. Zusaetzlich enthielten Authorization-Policy, `authorizationIssuable` und das MCP-Eingabeschema nur die fruehe Keyword-Teilmenge. Deshalb waren die Tools zwar sichtbar, aber `executionAvailability` meldete korrekt `AGENT_PLATFORM_PAID_EXECUTION_DISABLED`; insbesondere `action.domain-snapshot.refresh` konnte nicht einmal in einem begrenzten Authorization Request angegeben werden.
+
+Nach dem Production-Deploy zeigte ein bereits laufender Codex-Task weiterhin das alte `authorization_request`-Schema. Ein frischer ephemerer Codex-MCP-Handshake mit derselben oeffentlichen URL lud dagegen sofort das neue Schema. Damit ist diese letzte Abweichung als tasklokales `CLIENT_TOOL_INVENTORY_STALE` bewiesen und kein verbleibender Server- oder OAuth-Fehler. Bestehende Tasks muessen fuer neue Toolschemas einen neuen MCP-Handshake beziehungsweise Neustart erhalten.
+
+### Implementierte Korrektur
+
+- Dauerhaft aktiviert wurden ausschliesslich die sechs MCP-Paid-Execution-Controls: `agent-platform-paid-execution`, `agent-platform-site-audit-execution`, `agent-platform-site-audit-provider-route`, `agent-platform-keyword-provider-route`, `agent-platform-domain-provider-route` und `agent-platform-ai-visibility-provider-route`.
+- Die sechs Capability-IDs sind jetzt konsistent in Feature-Control, Runtime-Gate, Authorization-Policy, `authorizationIssuable` und `authorization_request.requestedCapabilityIds` registriert:
+  - `action.keyword-research.run`
+  - `action.keyword-data.refresh`
+  - `action.competitive-research.run`
+  - `action.ai-visibility.analyze`
+  - `action.domain-snapshot.refresh`
+  - `action.site-audit.run`
+- Kill-Switches, Quellentitlements und die nicht angeforderten Provider-Routen blieben unveraendert.
+- Schutzvertrag unveraendert: capability-spezifische Grants, `maximumSpendEurCents`, `server_atomic_reservation`, Settlement/Release, Idempotenz, `persistentGrantsIssuable=false`, `execution.policy=approval_required` und `automaticExecutionEnabled=false`.
+
+### Oeffentlicher Abnahmebeleg
+
+- `authorization_get_capabilities`: alle sechs Eintraege `enabled=true`, ohne `AGENT_PLATFORM_PAID_EXECUTION_DISABLED`; alle sechs in `authorizationIssuable`, jeweils `paid=true` und Scope `actions:execute`.
+- Frisch geladener MCP-Katalog: `authorization_request.requestedCapabilityIds` akzeptiert alle sechs IDs; `keywordResearch.candidates.import` bleibt zusaetzlich als kostenlose Import-Capability registriert.
+- Account: `approval_required`, `automaticExecutionEnabled=false`.
+- Grants: leer, auch mit `includeInactive=true`.
+- Billing vor und nach der Aktivierung unveraendert: `totalSpent=115` EUR-Cent, `heldBalance=0`, `activeHolds=0`, `balance=4985`, `availableBalance=4985`.
+- Es wurde weder eine Paid-/Fresh-/Refresh-/Run-/Import-/Write-Aktion noch `authorization_request` oder ein Grant ausgefuehrt. Die Aktivierung selbst verursachte keinen Budgetverbrauch.

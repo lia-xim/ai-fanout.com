@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "model": "gemini-3-pro-image",
+  "tier": "standard",
+  "size": "2K",
+  "aspect_ratio": "16:9",
+  "mime_type": "image/jpeg",
+  "thinking_level": "high",
+  "prompt_characters": 1237,
+  "reference_files": [],
+  "output": "C:\\Users\\matth\\Documents\\ai-fanout.com\\public\\images\\guides\\openai-search-queries.jpg",
+  "approx_image_output_usd": 0.134,
+  "note": "Prompt, thinking, and reference-image input tokens are additional.",
+  "width": 2752,
+  "height": 1536,
+  "response_mime_type": "image/jpeg",
+  "interaction_id": "v1_Chc0NjZWYXE3RklidUxrZFVQbjZLSWtRMBIXNDY2VmFxN0ZJYnVMa2RVUG42S0lrUTA",
+  "usage": {
+    "total_tokens": 2103,
+    "total_input_tokens": 249,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 249
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 1474,
+    "output_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1120
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 380,
+    "raw_prompt_token": 695
+  }
+}

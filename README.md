@@ -27,6 +27,7 @@ Search Ideas is a clearly separate secondary mode. It uses one allowlisted OpenR
 - optional browser-local history stores at most 20 explicitly saved results in IndexedDB for up to 30 days, requests persistent browser storage after an explicit save, and supports multi-select comparison plus combined JSON/CSV export; origins such as ai-fanout.com and its Vercel preview never share this history;
 - Gemini local saves remove Google Grounded Results and Search Suggestions before retaining query strings and run metadata;
 - no account, cross-device sync or shared response cache;
+- an explicit SEO-research action can transfer only the currently visible, selected result fields to seo-fanout.com in a versioned URL fragment; the destination removes the fragment immediately and performs no second provider request;
 - provider keys stay server-only and every public mode has an explicit enable flag.
 
 ## Analytics boundary

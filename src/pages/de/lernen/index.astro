@@ -6,10 +6,10 @@ const groups = groupsFor(germanArticles);
 const labels = { Concept: "Grundlagen", Measurement: "Ergebnisse prüfen", Method: "Funktionsweise", "Data standard": "Daten", "Field guide": "SEO-Praxis" } as const;
 ---
 
-<BaseLayout lang="de" title="AI Query Fanout verstehen" canonicalPath="/de/lernen" alternatePath="/library" description="Klare Erklärungen zu AI Query Fanout, OpenAI-Websuche, Quellen, schwankenden Ergebnissen und sinnvoller SEO-Nutzung.">
+<BaseLayout lang="de" title="AI Query Fanout lernen: Guides für KI-Suche" canonicalPath="/de/lernen" alternatePath="/library" description="Belegte Guides zu AI Query Fanout, OpenAI- und Gemini-Suchanfragen, Zitaten und praktischem SEO für KI-Suche.">
   <header class="library-hero">
-    <div class="library-kicker"><span>Lernen</span><span>{germanArticles.length} praktische Erklärungen</span></div>
-    <div class="library-hero-grid"><h1>Was nach dem Keyword passiert.</h1><div><p>Verstehe, wie aus einem Thema mehrere KI-Suchanfragen entstehen, welche Daten eine API wirklich zeigt und wie du daraus eine sinnvolle Entscheidung ableitest.</p><p class="meta-line">Einfach erklärt · geprüft am 28. August 2026</p></div></div>
+    <div class="library-kicker"><span>Lernen</span><span>{germanArticles.length} praktische Guides</span></div>
+    <div class="library-hero-grid"><h1>Was nach dem Keyword passiert.</h1><div><p>Verstehe, wie aus einem Thema mehrere KI-Suchanfragen entstehen, welche Daten eine API wirklich zeigt und wie du daraus eine sinnvolle Entscheidung ableitest.</p><p class="meta-line">Einfach erklärt · geprüft am 31. August 2026</p></div></div>
     <div class="signal-legend" aria-label="Lernweg"><span><i aria-hidden="true"></i>Keyword</span><span><i aria-hidden="true"></i>Queries</span><span><i aria-hidden="true"></i>Quellen</span><span><i aria-hidden="true"></i>Entscheidung</span></div>
   </header>
 
@@ -18,13 +18,16 @@ const labels = { Concept: "Grundlagen", Measurement: "Ergebnisse prüfen", Metho
     <nav aria-label="Empfohlene Lernwege">
       <a href="/de/lernen/was-ist-ai-query-fanout"><span>Neu beim Thema</span><strong>Verstehen, was AI Query Fanout bedeutet</strong><ArrowIcon /></a>
       <a href="/de/lernen/openai-suchanfragen-sehen"><span>Lauf prüfen</span><strong>Sichtbare OpenAI-Suchanfragen lesen</strong><ArrowIcon /></a>
+      <a href="/de/lernen/gemini-suchanfragen"><span>Gemini nutzen</span><strong>Gemini-Suchanfragen über die API einordnen</strong><ArrowIcon /></a>
+      <a href="/de/lernen/ki-zitate-und-quellen"><span>Quellen prüfen</span><strong>Verstehen, was ein Zitat in der KI-Suche belegt</strong><ArrowIcon /></a>
       <a href="/de/lernen/query-fanout-fuer-seo"><span>Inhalte planen</span><strong>Fanout für saubere SEO-Entscheidungen nutzen</strong><ArrowIcon /></a>
+      <a href="/de/lernen/seo-fuer-ki-suche"><span>Sichtbarkeit verbessern</span><strong>Einen belegten SEO-Plan für KI-Suche entwickeln</strong><ArrowIcon /></a>
       <a href="/de/lernen/ki-modelle-vergleichen"><span>Ergebnisse vergleichen</span><strong>OpenAI und Gemini lokal vergleichen</strong><ArrowIcon /></a>
     </nav>
   </section>
 
   <section class="library-index section-pad section-rule" aria-labelledby="guide-title">
-    <div class="index-heading"><div><span class="section-number">01</span><h2 id="guide-title">Alle Erklärungen</h2></div><p>Jeder Guide beantwortet eine eigene Frage zum Tool, zu den sichtbaren Daten oder zum sinnvollen nächsten Schritt.</p></div>
+    <div class="index-heading"><div><span class="section-number">01</span><h2 id="guide-title">Alle Guides</h2></div><p>Jeder Guide beantwortet eine eigene Frage zum Tool, zu den sichtbaren Daten oder zum sinnvollen nächsten Schritt.</p></div>
     <div class="library-filters" aria-label="Themen filtern"><button type="button" data-filter="all" aria-pressed="true">Alle <span>{germanArticles.length}</span></button>{groups.map(group => <button type="button" data-filter={group.category} aria-pressed="false">{labels[group.category]} <span>{group.articles.length}</span></button>)}</div>
     <ol class="library-list" aria-live="polite">{germanArticles.map(article => <li data-library-item data-category={article.category}><a href={`/de/lernen/${article.slug}`}><span class="entry-number">{article.number}</span><span class="entry-type">{labels[article.category]}</span><span class="entry-main"><strong>{article.shortTitle}</strong><small>{article.primaryIntent}</small></span><ArrowIcon /></a></li>)}</ol>
     <p class="filter-empty" hidden data-filter-empty>Für diesen Filter gibt es keinen Guide.</p>
@@ -50,8 +53,8 @@ const labels = { Concept: "Grundlagen", Measurement: "Ergebnisse prüfen", Metho
   </section>
 
   <section class="library-maintenance section-pad section-rule">
-    <div><p class="section-number">Gepflegtes Nachschlagewerk</p><h2>Ein kleiner Wissensbereich rund um das Tool.</h2></div>
-    <div><p>Die Guides werden aktualisiert, wenn sich Tool, Provider-Dokumentation oder öffentliche Belege ändern. Neue Seiten entstehen nur für eigenständige Fragen, die hier noch nicht gut beantwortet sind.</p><nav><a href="/de/beispiele">Datierte Beispiele prüfen</a><a href="/de#tool">Kostenloses Tool starten</a></nav></div>
+    <div><p class="section-number">Redaktioneller Standard</p><h2>Ein guter Guide braucht mehr als das richtige Keyword.</h2></div>
+    <div><p>Jeder Guide beantwortet eine eigenständige Frage, nennt Prüfdatum und Primärquellen, trennt beobachtete Providerdaten von Einordnung und sagt klar, was die Belege nicht zeigen. Eine neue Seite entsteht nur mit eigenen Beispielen, eigener Methode oder konkreter Entscheidungshilfe; reine Formulierungsvarianten bleiben zusammen.</p><nav><a href="/de/beispiele">Datierte Beispiele prüfen</a><a href="/transparency">Quellen und Korrekturen prüfen</a><a href="/de#tool">Kostenloses Tool starten</a></nav></div>
   </section>
 
   <section class="library-boundary section-pad"><p>Du willst nur wissen, wie der kostenlose Lauf funktioniert?</p><a class="text-action" href="/de/methode">Methode, Grenzen und Datenschutz ansehen <ArrowIcon /></a></section>

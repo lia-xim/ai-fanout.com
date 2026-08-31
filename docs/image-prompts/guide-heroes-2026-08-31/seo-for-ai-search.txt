@@ -1,0 +1,9 @@
+REVISION REQUIREMENT: remove every visible word, letter, number, label, icon caption, pseudo-label and line of fake text from the image. Keep the architecture and signal flow, but communicate every concept through shape, containment, colour and direction only. There must be zero readable or simulated typography anywhere.
+
+Create a premium editorial technical illustration for a long-form guide about SEO for AI search.
+
+Visual story: a strong crawlable web page foundation sits at the bottom with clear structural layers. Above it, original evidence modules and internal links feed several retrieval paths: conventional search discovery, an AI-search fanout, and cited-source selection. At the far right, a compact measurement loop returns to the page, suggesting iterative improvement. The illustration should say that technical access, useful evidence, clear structure, and measurement come before AI-search tactics.
+
+Art direction: high-end data-journalism illustration, dark graphite background, luminous cyan paths, warm off-white page and evidence modules, restrained coral measurement accents, subtle depth, crisp architectural geometry with tactile print grain. Use a rising architectural composition rather than a branching tree. Keep generous dark negative space across the left third and lower edge for overlaid article text. Wide cinematic composition, 16:9.
+
+Hard constraints: no words, no letters, no numbers, no logos, no trademarks, no browser screenshot, no magnifying-glass cliché, no chatbot face, no humanoid robot, no generic glowing brain, no fake dashboard labels. The image must read clearly at desktop hero size and in a small article card crop.

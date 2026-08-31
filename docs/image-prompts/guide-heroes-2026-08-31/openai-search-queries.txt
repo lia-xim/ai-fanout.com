@@ -1,0 +1,7 @@
+Create a premium editorial technical illustration for a long-form guide about provider-exposed OpenAI web-search queries.
+
+Visual story: one bounded API response enters from the left as a precise, translucent rectangular frame. Inside it, a single web-search action branches into several distinct query traces and a separate group of source cards. Keep query traces and source cards visibly related to the same response without implying a false one-to-one mapping. Add a small metering trail for model, locale, time, and usage as abstract ticks only.
+
+Art direction: sophisticated data-journalism illustration, dark graphite background, luminous cyan signal paths, warm off-white document shapes, restrained coral status accents, subtle depth, crisp vector-like geometry with a tactile print texture. Leave generous dark negative space on the left and lower edge so white article text can sit over the image. Wide cinematic composition, 16:9.
+
+Hard constraints: no words, no letters, no numbers, no logos, no trademarks, no brand marks, no browser screenshot, no chatbot face, no humanoid robot, no generic glowing brain, no fake user-interface labels. The image must read clearly at both desktop hero size and a small article card crop.

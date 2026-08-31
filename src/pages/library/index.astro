@@ -5,14 +5,14 @@ import { libraryArticles, libraryGroups } from "../../data/library";
 const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method: "How to", "Data standard": "Data and exports", "Field guide": "Practical guides" } as const;
 ---
 
-<BaseLayout title="Learn about AI query fanout" canonicalPath="/library" alternatePath="/de/lernen" description="Clear guides to AI query fanout, OpenAI web search, citations, changing results and practical SEO use.">
+<BaseLayout title="AI Query Fanout Guides and AI Search SEO" canonicalPath="/library" alternatePath="/de/lernen" description="Evidence-led guides to AI query fanout, OpenAI and Gemini search queries, AI citations and practical SEO for AI search.">
   <header class="library-hero">
-    <div class="library-kicker"><span>Learn</span><span>{libraryArticles.length} practical guides</span></div>
+    <div class="library-kicker"><span>Guides</span><span>{libraryArticles.length} practical guides</span></div>
     <div class="library-hero-grid">
       <h1>See what happens after the keyword.</h1>
       <div>
         <p>Learn what query fanout is, which searches an API can expose, what citations prove, and how to use the result without overclaiming.</p>
-        <p class="meta-line">Plain-English guides · reviewed 27 Aug 2026</p>
+        <p class="meta-line">Plain-English guides · reviewed 31 Aug 2026</p>
       </div>
     </div>
     <div class="signal-legend" aria-label="Learning path">
@@ -29,7 +29,10 @@ const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method
     <nav aria-label="Recommended learning paths">
       <a href="/library/what-is-ai-query-fanout"><span>New to fanout</span><strong>Understand what AI query fanout means</strong><ArrowIcon /></a>
       <a href="/library/how-to-see-openai-search-queries"><span>Inspect a run</span><strong>See which OpenAI searches were exposed</strong><ArrowIcon /></a>
+      <a href="/library/gemini-search-queries"><span>Use Gemini</span><strong>Interpret Gemini search queries through the API</strong><ArrowIcon /></a>
+      <a href="/library/ai-citations"><span>Review sources</span><strong>Understand what an AI search citation proves</strong><ArrowIcon /></a>
       <a href="/library/ai-query-fanout-for-seo"><span>Plan content</span><strong>Turn branches into careful SEO decisions</strong><ArrowIcon /></a>
+      <a href="/library/seo-for-ai-search"><span>Improve visibility</span><strong>Build an evidence-led SEO plan for AI search</strong><ArrowIcon /></a>
       <a href="/library/compare-ai-model-searches"><span>Compare results</span><strong>Compare OpenAI and Gemini locally</strong><ArrowIcon /></a>
     </nav>
   </section>
@@ -78,8 +81,8 @@ const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method
   </section>
 
   <section class="library-maintenance section-pad section-rule">
-    <div><p class="section-number">Maintained reference</p><h2>A small library built around the tool.</h2></div>
-    <div><p>These guides are updated when the tool, provider documentation or public evidence changes. New pages are added only when they answer a distinct question that the current guides cannot answer well.</p><nav><a href="/examples">Inspect dated examples</a><a href="/#tool">Run the free tool</a></nav></div>
+    <div><p class="section-number">Editorial standard</p><h2>Useful guides need more than the right keyword.</h2></div>
+    <div><p>Every guide must answer one distinct question, name its reviewed date and primary sources, separate observed provider data from interpretation, and state what the evidence cannot prove. We add a page only when it brings its own examples, method or decision support; wording variants stay together.</p><nav><a href="/examples">Inspect dated examples</a><a href="/transparency">Review sources and corrections</a><a href="/#tool">Run the free tool</a></nav></div>
   </section>
 
   <section class="library-boundary section-pad">

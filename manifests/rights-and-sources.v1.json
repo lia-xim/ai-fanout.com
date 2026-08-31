@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-29.1",
+  "manifestVersion": "2026-08-31.2",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-08-29",
+  "reviewedAt": "2026-08-31",
   "sources": [
     {
       "id": "portfolio-dossier",
@@ -75,6 +75,15 @@
       "checkedAt": "2026-08-22",
       "status": "verified",
       "supports": "Google describes query fan-out publicly without exposing a general private-query inspection interface."
+    },
+    {
+      "id": "google-ai-mode-query-fanout-2026-08-31",
+      "title": "AI Mode in Google Search: updates from Google I/O 2025",
+      "kind": "primary_provider_documentation",
+      "location": "https://blog.google/products-and-platforms/products/search/google-search-ai-mode-update/",
+      "checkedAt": "2026-08-31",
+      "status": "verified_live",
+      "supports": "Google states that AI Mode uses query fan-out to break a question into subtopics and issue multiple searches; it does not provide ai-fanout.com with a private AI Mode query trace."
     },
     {
       "id": "google-ai-optimization",
@@ -384,7 +393,7 @@
     {
       "assetClass": "Typography and production imagery",
       "status": "system_fonts_and_owner_commissioned_ai_images",
-      "decision": "The website uses system font fallbacks. Five text-free guide illustrations were commissioned by the owner through Higgsfield on 2026-08-27, generated with nano_banana_2 after the requested model was adjusted by the service, and stored locally under public/images/guides. They contain no copied third-party logos, screenshots or artwork."
+      "decision": "The website uses system font fallbacks. Five text-free guide illustrations were commissioned by the owner through Higgsfield on 2026-08-27 and generated with nano_banana_2 after the requested model was adjusted by the service. Four additional topic-specific guide illustrations were commissioned directly by the owner through Google's gemini-3-pro-image model at native 2K on 2026-08-31; their prompts and generation metadata are stored with the project documentation. All nine illustrations are delivered locally as WebP files under public/images/guides and contain no copied third-party logos, screenshots or artwork."
     },
     {
       "assetClass": "External standards and documentation",

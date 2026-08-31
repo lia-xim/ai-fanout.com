@@ -1,10 +1,10 @@
 # Content and SEO map
 
-Updated: 2026-08-28
+Updated: 2026-08-30
 
 ## One product job
 
-Show the web-search queries and cited websites exposed by one bounded OpenAI API run for a keyword. Explain exactly what that observation means and how a reader can use it.
+Show the web-search queries and cited websites exposed by one bounded OpenAI or Gemini API run for a short topic. Explain exactly what that observation means and how a reader can use it.
 
 ## Canonical public routes
 
@@ -12,14 +12,17 @@ Show the web-search queries and cited websites exposed by one bounded OpenAI API
 | --- | --- | --- |
 | `/` | `/de` | Explain the product and contain the free tool. |
 | `/methodology` | `/de/methode` | Document input, provider route, evidence, privacy and cost limits. |
-| `/library` | `/de/lernen` | Lead into five complete learning questions. |
-| `/library/what-is-ai-query-fanout` | `/de/lernen/was-ist-ai-query-fanout` | Define query fanout. |
-| `/library/how-to-see-openai-search-queries` | `/de/lernen/openai-suchanfragen-sehen` | Explain OpenAI and Gemini API observation, search flow, sources and storage boundaries. |
+| `/library` | `/de/lernen` | Lead into eight complete learning questions. |
+| `/library/what-is-ai-query-fanout` | `/de/lernen/was-ist-ai-query-fanout` | Define query fanout in AI search and explain the documented Google AI Mode meaning without claiming a private trace. |
+| `/library/how-to-see-openai-search-queries` | `/de/lernen/openai-suchanfragen-sehen` | Target ChatGPT search-query interest through the observable OpenAI API route while rejecting hidden-history claims. |
+| `/library/gemini-search-queries` | `/de/lernen/gemini-suchanfragen` | Explain Gemini API search-query fields and distinguish them from Google AI Mode query fan-out. |
+| `/library/ai-citations` | `/de/lernen/ki-zitate-und-quellen` | Interpret ChatGPT, OpenAI API and Gemini citations without turning them into rankings or interchangeable evidence. |
 | `/library/ai-query-fanout-for-seo` | `/de/lernen/query-fanout-fuer-seo` | Turn observations into careful SEO decisions. |
+| `/library/seo-for-ai-search` | `/de/lernen/seo-fuer-ki-suche` | Connect technical SEO, useful evidence, fanout coverage and measurement for AI search. |
 | `/library/why-ai-fanout-results-change` | `/de/lernen/warum-fanout-ergebnisse-schwanken` | Explain repeat, model, country and language variability. |
 | `/library/compare-ai-model-searches` | `/de/lernen/ki-modelle-vergleichen` | Compare providers responsibly and interpret zero-query results. |
 
-Each pair uses reciprocal `hreflang`; each URL has one primary job. Six narrower guides per language were merged into these five hubs and now use intent-equivalent permanent redirects. The four dated example pages remain a separate evidence log, not generic blog content. Manual answer comparison, protocol planning, research and dataset routes are retired to real 404s.
+Each pair uses reciprocal `hreflang`; each URL has one primary job. Four narrower guides per language remain consolidated through intent-equivalent permanent redirects: OpenAI web-search mechanics, content-gap analysis, locale effects and zero-query interpretation. Gemini, citations and broad AI-search SEO became separate pages only after keyword and live-SERP review showed distinct reader jobs. The four dated example pages remain a separate evidence log, not generic blog content. Manual answer comparison, protocol planning, research and dataset routes are retired to real 404s.
 
 ## Result workflow
 
@@ -31,4 +34,4 @@ The initial four owner-run OpenAI observations are published as versioned JSON, 
 
 ## Measurement boundary
 
-Daily operational counters cover run starts, success, zero-query results, failures, timeouts, saves, comparisons, exports and labelled handoff clicks by allowlisted provider. No keyword text, provider output, URL, user identifier or IP address enters these counters. Guide expansion or pruning should later use verified GSC and product-action evidence, not speculative keyword variants.
+Daily operational counters cover run starts, success, zero-query results, failures, timeouts, saves, comparisons, exports and labelled handoff clicks by allowlisted provider. No keyword text, provider output, URL, user identifier or IP address enters these counters. Guide expansion or pruning uses verified GSC and product-action evidence when available. Until a new domain has those signals, externally supplied search metrics, current SERP review and primary documentation may support a bounded experiment; keyword wording alone does not justify a route.

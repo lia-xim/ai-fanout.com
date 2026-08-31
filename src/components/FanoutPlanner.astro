@@ -12,6 +12,9 @@ const copy = de ? {
 } : {
   keyword: "Keyword or short question", placeholder: "best SEO tools", country: "Country", language: "Language", model: "Choose a model", provider: "Choose a provider", auto: "All countries", submit: "Show search queries", loading: "Running search …", disabled: "This mode is not enabled yet.", resultCount: "executed search queries", original: "Your input", locale: "Market and language", evidence: "What this shows", intent: "Intent", why: "Why", copyAll: "Copy all", copied: "Copied", again: "New input", close: "Close", native: "Native fanout", nativeHelp: "Actual web searches from OpenAI or Gemini in this run.", modelled: "Search ideas", modelledHelp: "Ten possible search directions without web search.", sources: "Cited sources", save: "Save on this device", saved: "Saved", downloadJson: "Download JSON", downloadCsv: "Download CSV", savedTitle: "Saved on this device", savedHelp: "This browser only · up to 20 results · automatically deleted after 30 days", savedEmpty: "No saved results yet.", openSaved: "Open", deleteSaved: "Delete", clearSaved: "Clear all", loadingTitle: "The AI is searching the web", loadingHelp: "A native run can take up to 20 seconds. The bar shows activity, not a percentage.", quota: "20 free runs within 24 hours per internet connection.", loadingSteps: ["Human verification passed", "Request sent to the provider", "Waiting for the provider response", "Preparing queries and sources"]
 };
+const exampleTopics = de
+  ? ["KI-Suche SEO", "ChatGPT Suchanfragen", "KI-Zitate"]
+  : ["SEO for AI search", "ChatGPT search queries", "AI search citations"];
 ---
 <section data-fanout-planner data-site-key={siteKey} data-enabled={String(enabled)} data-native-enabled={String(nativeEnabled)} data-modelled-enabled={String(modelledEnabled)} data-locale={locale} data-loading-label={copy.loading} data-submit-label={copy.submit} data-copied-label={copy.copied}>
   <form data-planner-form>
@@ -23,6 +26,10 @@ const copy = de ? {
       <label for={`fanout-keyword-${locale}`}>{copy.keyword}</label>
       <div><input id={`fanout-keyword-${locale}`} name="keyword" maxlength="60" placeholder={copy.placeholder} required autocomplete="off"/><output data-keyword-count>0 / 60</output></div>
       <button type="submit" disabled={!enabled}>{copy.submit}<span aria-hidden="true">→</span></button>
+    </div>
+    <div class="example-topics" aria-label={de ? "Beispielthemen einsetzen" : "Use an example topic"}>
+      <span>{de ? "Beispiele" : "Try an example"}</span>
+      {exampleTopics.map(topic => <button type="button" data-example-topic={topic}>{topic}</button>)}
     </div>
     <fieldset class="model-picker native-picker" data-native-picker><legend>{copy.provider}</legend>
       <label><input type="radio" name="provider" value="openai" checked/><span><strong>OpenAI</strong><small>GPT-5.6 Luna</small></span></label>
@@ -104,6 +111,7 @@ const copy = de ? {
   .mode-picker label+label span{border-left:0}.mode-picker strong{font-size:.9rem}.mode-picker small{margin-top:.35rem;color:var(--muted);font-size:.68rem;line-height:1.35}
   .mode-picker input:checked+span{border-color:var(--source);background:var(--source-soft);box-shadow:inset 0 -2px var(--source)}
   .mode-picker input:focus-visible+span{outline:2px solid var(--focus);outline-offset:3px}
+  .example-topics{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin:.85rem 0 0}.example-topics>span{margin-right:.25rem;color:var(--muted);font:.61rem/1 var(--font-mono);text-transform:uppercase}.example-topics button{min-height:2.15rem;padding:.45rem .7rem;border:1px solid var(--fine-rule);background:transparent;color:var(--ink);font-size:.7rem;cursor:pointer}.example-topics button:hover,.example-topics button:focus-visible{border-color:var(--source);background:var(--source-soft);color:var(--source)}
   .native-picker,.modelled-picker{grid-template-columns:repeat(2,1fr)}
   .result-sources{grid-column:1/-1;padding:1.25rem 0;border-bottom:1px solid var(--rule)}
   .result-sources h3{margin:0 0 .85rem;color:var(--source);font:.65rem/1 var(--font-mono);text-transform:uppercase}

@@ -33,6 +33,8 @@ The learning guides use a restrained editorial article system: the illustration 
 
 The server keeps no raw topic or provider response. A visitor may explicitly save a visible result in IndexedDB on that device for up to 30 days, select several runs, compare them locally and export them together. After an explicit save the site asks supporting browsers for persistent storage; the browser retains final control and clearing site data can still remove the history. Local history is limited to 20 entries, is isolated by exact origin, is never synchronized to an account, can be deleted by the visitor and is not reused as a shared response cache. The custom domain, a Vercel preview, another browser or device therefore never share a history. Gemini local saves strip Google Grounded Results and Search Suggestions before retaining query strings and metadata.
 
+A visitor may also open a deeper SEO research view for the current result. The browser transfers a versioned, size-limited copy of the selected visible query strings, visible source scope and run labels to seo-fanout.com in the URL fragment. It excludes secrets, CAPTCHA data, hidden prompts, final-answer text and unrelated local history. The destination removes the fragment immediately and performs deterministic local analysis without a second provider request or server-side result store.
+
 Dated public example pages use reviewed, owner-run OpenAI observations with exact inputs, protocol versions, query strings, normalized source domains, usage and limits. They are not independent benchmarks. Gemini comparisons remain browser-local because Google applies additional restrictions to Search-grounded results.
 
 ## Launch gates

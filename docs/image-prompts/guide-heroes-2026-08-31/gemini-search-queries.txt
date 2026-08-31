@@ -1,0 +1,9 @@
+REVISION REQUIREMENT: remove every visible word, letter, number, label, pseudo-label, typographic mark and line of fake text from the image. Replace any writing on panels or documents with completely blank geometric surfaces or non-linguistic dots. There must be zero readable or simulated typography anywhere.
+
+Create a premium editorial technical illustration for a long-form guide about query strings exposed by a Gemini API interaction with Google Search.
+
+Visual story: a layered grounding interaction travels through a faceted prism-like API boundary into several search-query paths and a field of source annotations. Place a clear privacy and retention boundary between the live response layer and a much smaller local-save capsule; restricted grounding material visibly stops at that boundary while allowed run metadata continues. The composition should communicate that an API observation is not a private consumer-product trace.
+
+Art direction: sophisticated data-journalism illustration, dark graphite background, luminous cyan and pale teal signal paths, warm off-white evidence cards, restrained coral boundary accents, subtle depth, crisp vector-like geometry with a tactile print texture. Give the composition a different silhouette from the OpenAI image: layered vertical planes and a diagonal flow rather than a horizontal branching tree. Leave generous dark negative space on the left and lower edge for overlaid article text. Wide cinematic composition, 16:9.
+
+Hard constraints: no words, no letters, no numbers, no logos, no trademarks, no recognizable Google or Gemini symbols, no browser screenshot, no chatbot face, no humanoid robot, no generic glowing brain, no fake user-interface labels. The image must read clearly at desktop hero size and in a small card crop.

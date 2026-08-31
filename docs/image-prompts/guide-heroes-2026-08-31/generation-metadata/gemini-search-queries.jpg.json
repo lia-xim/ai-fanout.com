@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "model": "gemini-3-pro-image",
+  "tier": "standard",
+  "size": "2K",
+  "aspect_ratio": "16:9",
+  "mime_type": "image/jpeg",
+  "thinking_level": "high",
+  "prompt_characters": 1789,
+  "reference_files": [
+    "C:\\Users\\matth\\Documents\\ai-fanout.com\\public\\images\\guides\\gemini-search-queries.jpg"
+  ],
+  "output": "C:\\Users\\matth\\Documents\\ai-fanout.com\\public\\images\\guides\\gemini-search-queries.jpg",
+  "approx_image_output_usd": 0.134,
+  "note": "Prompt, thinking, and reference-image input tokens are additional.",
+  "width": 2752,
+  "height": 1536,
+  "response_mime_type": "image/jpeg",
+  "interaction_id": "v1_ChdLN0NWYXZhdEhvS2Nuc0VQc09pWTRROBIXSzdDVmF2YXRIb0tjbnNFUHNPaVk0UTg",
+  "usage": {
+    "total_tokens": 2060,
+    "total_input_tokens": 593,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 335
+      },
+      {
+        "modality": "image",
+        "tokens": 258
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 1280,
+    "output_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1120
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 187,
+    "raw_prompt_token": 1352
+  }
+}

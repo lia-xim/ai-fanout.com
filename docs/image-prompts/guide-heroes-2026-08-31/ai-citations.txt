@@ -1,0 +1,7 @@
+Create a premium editorial technical illustration for a long-form guide about AI-search citations and evidence scope.
+
+Visual story: show three nested evidence scopes: a single query, a multi-query search action, and the full run. Source cards attach only to the scope that actually supports them. One clean connection may link a source to a single query, while a larger source cluster stays attached to the broader action and another citation stays at run level. Use spacing and containment to make the evidence boundary obvious without explanatory text. The central idea is disciplined attribution, not ranking.
+
+Art direction: sophisticated editorial diagram, dark graphite background, luminous cyan scope lines, warm off-white page cards, restrained coral markers for unsupported leaps, subtle depth, crisp geometry, tactile print grain. Build a radial nested composition that is visually distinct from a branching-tree diagram. Leave broad dark negative space on the left for the article title. Wide cinematic composition, 16:9.
+
+Hard constraints: no words, no letters, no numbers, no logos, no trademarks, no browser screenshot, no trophy, no podium, no ranking chart, no chatbot face, no humanoid robot, no generic glowing brain. Do not draw false one-to-one arrows between every query and every source. The image must remain legible in a small article card crop.

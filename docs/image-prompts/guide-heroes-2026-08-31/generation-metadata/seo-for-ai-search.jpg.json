@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "model": "gemini-3-pro-image",
+  "tier": "standard",
+  "size": "2K",
+  "aspect_ratio": "16:9",
+  "mime_type": "image/jpeg",
+  "thinking_level": "high",
+  "prompt_characters": 1672,
+  "reference_files": [
+    "C:\\Users\\matth\\Documents\\ai-fanout.com\\public\\images\\guides\\seo-for-ai-search.jpg"
+  ],
+  "output": "C:\\Users\\matth\\Documents\\ai-fanout.com\\public\\images\\guides\\seo-for-ai-search.jpg",
+  "approx_image_output_usd": 0.134,
+  "note": "Prompt, thinking, and reference-image input tokens are additional.",
+  "width": 2752,
+  "height": 1536,
+  "response_mime_type": "image/jpeg",
+  "interaction_id": "v1_ChdfYkNWYXEzVkQ0NzF4TjhQMjZibDhBOBIXX2JDVmFxM1ZENDcxeE44UDI2Ymw4QTg",
+  "usage": {
+    "total_tokens": 2114,
+    "total_input_tokens": 580,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 322
+      },
+      {
+        "modality": "image",
+        "tokens": 258
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 1358,
+    "output_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1120
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 176,
+    "raw_prompt_token": 1339
+  }
+}
