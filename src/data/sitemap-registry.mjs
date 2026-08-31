@@ -7,7 +7,7 @@
  * change.
  */
 
-export const sitemapRegistryVersion = "2026-08-31.1";
+export const sitemapRegistryVersion = "2026-08-31.2";
 
 const pair = (en, de, lastmod, role) => [
   { path: en, lang: "en", lastmod, role, alternates: { en, de, "x-default": en } },
@@ -15,7 +15,7 @@ const pair = (en, de, lastmod, role) => [
 ];
 
 const pairedRoutes = [
-  ...pair("/", "/de", "2026-08-30", "tool-homepage"),
+  ...pair("/", "/de", "2026-08-31", "tool-homepage"),
   ...pair("/library", "/de/lernen", "2026-08-31", "learning-hub"),
   ...pair("/examples", "/de/beispiele", "2026-08-28", "evidence-hub"),
   ...pair("/methodology", "/de/methode", "2026-08-31", "methodology"),

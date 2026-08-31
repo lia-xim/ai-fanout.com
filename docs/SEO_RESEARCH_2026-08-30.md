@@ -54,6 +54,16 @@ The public web check did not return an indexed `ai-fanout.com` result on 2026-08
 - **Search Console access:** the currently signed-in Google account has no access to the `ai-fanout.com` property. No access request or ownership change was made. The last stored inspection evidence therefore remains the current GSC baseline.
 - **Decision:** spend no more budget now. Release and measure the existing homepage and eight bilingual guide roles; do not add generator, simulator, BYOK, tracking or one-page-per-query URLs without distinct demand, ranking or user evidence.
 
+## Final stored-data and SERP review on 2026-08-31
+
+- **Correct workspace verified:** free stored reads were executed against `ws_g1h1padb4chj` (`ai-fanout.com`). A differently named MCP connection pointed at another workspace and was rejected before any paid action. No paid or write action was run in this pass.
+- **Keyword inventory:** the stored keyword page returned 47 records. The strongest available measurements remain `chatgpt citations` at volume 20 and `what is query fan out in ai search`, `ai mode query fan out`, `google ai mode query fan out`, `seo for ai search`, `chatgpt search queries`, `chatgpt query fanout`, `gemini citations`, `ai search citations`, `how ai search works` and `query fan out ai coverage tool` at volume 10 where stored. Missing KD, CPC, intent, category, competition and volume fields remain unknown rather than zero.
+- **Domain and rankings:** the completed US/English snapshot still contains zero ranking rows, zero pages, zero domain competitors and zero opportunity signals. The stored tracking projection contains ten selected keywords but every position and ranking URL is `null`; this is evidence of no stored position, not proof that the domain can never rank.
+- **Competitors:** the stored comparison records `queryfanout.io` and `lumina-seo.com`, but its results projection contains zero rows. Current live results additionally surfaced Ahrefs, Search Engine Land, QueryFanOuts, Quadrant, Ranketta, Georion and other specialist surfaces. Their result pages confirm distinct tool, definition and workflow intents; they do not supply a reliable organic-keyword export for this domain.
+- **Search performance:** there is no current stored Search Console snapshot in Contextter. Existing point-in-time Search Console evidence elsewhere in this record remains the only first-party search-performance baseline.
+- **Page decision:** all supported longtails map cleanly to the eight canonical bilingual guide roles. `Google AI Mode query fan out` belongs to the general definition, ChatGPT/OpenAI query phrases to the OpenAI method, citation phrases to the citation guide, and SEO/longtail planning to the two existing SEO guides. No new URL passed the distinct-job test.
+- **Implementation:** expanded visible common-question answers for the definition, OpenAI-query, citation and AI-search SEO guides; added a verified OpenAI Search help source; strengthened exact internal anchors from both homepages and learning hubs; and improved titles for query-fanout SEO, result variation and OpenAI-versus-Gemini comparison pages.
+
 ## Prioritized keyword and URL map
 
 `n/a` means the provider did not return the field. Volumes shown for English phrases came from a German SERP/data context and are explicitly marked as such.

@@ -1,6 +1,6 @@
 # Content and SEO map
 
-Updated: 2026-08-30
+Updated: 2026-08-31
 
 ## One product job
 
@@ -23,6 +23,8 @@ Show the web-search queries and cited websites exposed by one bounded OpenAI or 
 | `/library/compare-ai-model-searches` | `/de/lernen/ki-modelle-vergleichen` | Compare providers responsibly and interpret zero-query results. |
 
 Each pair uses reciprocal `hreflang`; each URL has one primary job. Four narrower guides per language remain consolidated through intent-equivalent permanent redirects: OpenAI web-search mechanics, content-gap analysis, locale effects and zero-query interpretation. Gemini, citations and broad AI-search SEO became separate pages only after keyword and live-SERP review showed distinct reader jobs. The four dated example pages remain a separate evidence log, not generic blog content. Manual answer comparison, protocol planning, research and dataset routes are retired to real 404s.
+
+The 2026-08-31 longtail review kept this eight-role architecture. Stored keyword evidence supports Google AI Mode query fan-out, ChatGPT and OpenAI search queries, ChatGPT and Gemini citations, query fanout for SEO, AI-search SEO and provider comparison. Those phrases now receive clearer titles, internal anchors and concise common-question answers on their existing owner pages. No additional URL was created because every retained phrase maps to an existing reader job; a separate exact-match variant would duplicate intent rather than add a new method, example or decision.
 
 ## Result workflow
 

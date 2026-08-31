@@ -239,6 +239,15 @@
       "supports": "Documents web_search_call output and search actions that can include the query or queries searched. It does not expose chain of thought or guarantee that every route returns query strings."
     },
     {
+      "id": "openai-chatgpt-search-help-2026-08-31",
+      "title": "Searching the web with ChatGPT",
+      "kind": "primary_provider_documentation",
+      "location": "https://help.openai.com/en/articles/9237897",
+      "checkedAt": "2026-08-31",
+      "status": "verified_live",
+      "supports": "OpenAI explains that ChatGPT Search can rewrite a question into one or more targeted queries and can issue more specific follow-up searches; this description does not expose a private ChatGPT search history to ai-fanout.com."
+    },
+    {
       "id": "openai-gpt-5-6-luna-2026-08-26",
       "title": "GPT-5.6 Luna model documentation",
       "kind": "primary_provider_documentation",
