@@ -7,7 +7,7 @@
  * change.
  */
 
-export const sitemapRegistryVersion = "2026-08-31.2";
+export const sitemapRegistryVersion = "2026-09-01.1";
 
 const pair = (en, de, lastmod, role) => [
   { path: en, lang: "en", lastmod, role, alternates: { en, de, "x-default": en } },
@@ -15,18 +15,18 @@ const pair = (en, de, lastmod, role) => [
 ];
 
 const pairedRoutes = [
-  ...pair("/", "/de", "2026-08-31", "tool-homepage"),
+  ...pair("/", "/de", "2026-09-01", "tool-homepage"),
   ...pair("/library", "/de/lernen", "2026-08-31", "learning-hub"),
   ...pair("/examples", "/de/beispiele", "2026-08-28", "evidence-hub"),
   ...pair("/methodology", "/de/methode", "2026-08-31", "methodology"),
-  ...pair("/library/what-is-ai-query-fanout", "/de/lernen/was-ist-ai-query-fanout", "2026-08-31", "guide"),
-  ...pair("/library/how-to-see-openai-search-queries", "/de/lernen/openai-suchanfragen-sehen", "2026-08-31", "guide"),
-  ...pair("/library/gemini-search-queries", "/de/lernen/gemini-suchanfragen", "2026-08-31", "guide"),
-  ...pair("/library/ai-citations", "/de/lernen/ki-zitate-und-quellen", "2026-08-31", "guide"),
-  ...pair("/library/ai-query-fanout-for-seo", "/de/lernen/query-fanout-fuer-seo", "2026-08-31", "guide"),
-  ...pair("/library/seo-for-ai-search", "/de/lernen/seo-fuer-ki-suche", "2026-08-31", "guide"),
-  ...pair("/library/why-ai-fanout-results-change", "/de/lernen/warum-fanout-ergebnisse-schwanken", "2026-08-31", "guide"),
-  ...pair("/library/compare-ai-model-searches", "/de/lernen/ki-modelle-vergleichen", "2026-08-31", "guide"),
+  ...pair("/library/what-is-ai-query-fanout", "/de/lernen/was-ist-ai-query-fanout", "2026-09-01", "guide"),
+  ...pair("/library/how-to-see-openai-search-queries", "/de/lernen/openai-suchanfragen-sehen", "2026-09-01", "guide"),
+  ...pair("/library/gemini-search-queries", "/de/lernen/gemini-suchanfragen", "2026-09-01", "guide"),
+  ...pair("/library/ai-citations", "/de/lernen/ki-zitate-und-quellen", "2026-09-01", "guide"),
+  ...pair("/library/ai-query-fanout-for-seo", "/de/lernen/query-fanout-fuer-seo", "2026-09-01", "guide"),
+  ...pair("/library/seo-for-ai-search", "/de/lernen/seo-fuer-ki-suche", "2026-09-01", "guide"),
+  ...pair("/library/why-ai-fanout-results-change", "/de/lernen/warum-fanout-ergebnisse-schwanken", "2026-09-01", "guide"),
+  ...pair("/library/compare-ai-model-searches", "/de/lernen/ki-modelle-vergleichen", "2026-09-01", "guide"),
   ...pair("/examples/best-seo-tools-openai-vs-gemini", "/de/beispiele/beste-seo-tools-openai-vs-gemini", "2026-08-28", "evidence-example"),
   ...pair("/examples/country-changes-fanout-queries", "/de/beispiele/land-veraendert-fanout-queries", "2026-08-28", "evidence-example"),
   ...pair("/examples/why-same-keyword-changes", "/de/beispiele/warum-gleiches-keyword-andere-queries", "2026-08-28", "evidence-example"),

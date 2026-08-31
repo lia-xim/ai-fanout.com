@@ -158,8 +158,8 @@ try {
   const failures = [];
   for (const [label, result] of [["desktop", desktop], ["mobile", mobile]]) {
     if (result.h1 !== "Wie vergleicht man OpenAI und Gemini Fanout?") failures.push(`${label}: wrong H1`);
-    if (result.chapters !== 2 || result.paragraphs < 8) failures.push(`${label}: article is still fragmented or thin`);
-    if (result.sources < 4 || result.tocLinks !== result.chapters) failures.push(`${label}: sources or TOC missing`);
+    if (result.chapters < 4 || result.paragraphs < 8) failures.push(`${label}: article is still fragmented or thin`);
+    if (result.sources < 4 || result.tocLinks < result.chapters + 1) failures.push(`${label}: sources or TOC missing`);
     if (!result.heroImage || result.legacyMarkers !== 0) failures.push(`${label}: editorial composition failed`);
     if (result.overflow) failures.push(`${label}: horizontal overflow (${result.scrollWidth}/${result.width})`);
   }
@@ -167,7 +167,7 @@ try {
   if (mobile.h1Size > 54 || mobile.h2Sizes.some((size) => size > 40)) failures.push("mobile: headings are oversized");
   for (const [label, result] of [["home desktop", homeDesktop], ["home mobile", homeMobile]]) {
     if (result.h1 !== "Free AI Query Fanout Tool") failures.push(`${label}: free-tool H1 missing`);
-    if (result.title !== "Free AI Fanout Tool for OpenAI & Gemini — ai-fanout.com") failures.push(`${label}: SEO title mismatch`);
+    if (result.title !== "Free AI Query Fanout Tool: OpenAI & Gemini — ai-fanout.com") failures.push(`${label}: SEO title mismatch`);
     if (!result.description?.includes("free AI query fanout tool") || result.ogTitle !== result.title || !result.schemaFree) failures.push(`${label}: metadata mismatch`);
     if (result.overflow) failures.push(`${label}: horizontal overflow (${result.scrollWidth}/${result.width})`);
   }
