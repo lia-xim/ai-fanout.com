@@ -113,4 +113,27 @@ const evidenceSection = de ? {
 
 @media(max-width:1050px){.process header,.reading,.evidence-types,.decision-workspace,.comparison-landscape,.model,.limits,.learn{grid-template-columns:1fr}.process header{grid-template-areas:"label" "title" "copy"}.process-map{min-height:27rem}.process ol{min-height:27rem}.reading header,.reading dl,.evidence-types nav{grid-column:auto;grid-row:auto}.reading header{order:1}.reading dl{order:2}.evidence-types>div{margin-top:0}.decision-workspace .section-pad,.comparison-landscape .section-pad{padding-inline:var(--gutter)}.seo-use>div{grid-template-columns:1fr}.seo-use>div .section-number,.seo-use>div .section-title,.seo-use>div>p,.seo-use>div>.text-action{grid-column:auto;grid-row:auto}.handoff,.model{border-top:1px solid var(--rule);border-left:0}.comparison-landscape{display:block}.model{display:grid;grid-template-columns:1fr}.model-lines{margin-top:2rem}.locale-panel{border-top:1px solid var(--rule)}.repeat-panel{grid-template-columns:1fr}.limits .privacy-note{grid-column:auto;margin-top:0}.limit-grid{grid-template-columns:1fr 1fr}.limit-grid div:nth-child(3){border-left:0}.limit-grid div:nth-child(n+3){border-top:1px solid var(--fine-rule)}}
 @media(max-width:680px){.process-map,.process ol{min-height:0}.process-map svg{display:none}.process ol{display:grid;gap:2.5rem}.process li,.process li.step-2,.process li.step-3,.process li.step-4{display:grid;grid-template-columns:4.5rem 1fr;gap:1rem;align-items:start;padding:0;transform:none}.process li>span{font-size:3rem}.process li>span::after{display:none}.process li>div{min-height:0}.reading dl>div{grid-template-columns:1fr}.reading dd{padding:1rem 0 0;border-top:1px solid var(--fine-rule);border-left:0}.evidence-types .evidence-scope-1,.evidence-types .evidence-scope-2,.evidence-types .evidence-scope-3{width:auto;margin-left:0}.evidence-types nav{display:grid}.seo-use ol{grid-template-columns:1fr;padding-left:2rem}.seo-use li{min-height:0}.seo-use li::before{width:1rem}.handoff nav a{gap:1rem}.model-lines{grid-template-columns:1fr 2.5rem 1fr;min-height:14rem}.provider-map{padding-inline:0}.provider-map span{font-size:.56rem}.model-lines>b{width:2.5rem;height:2.5rem}.locale-panel{grid-template-columns:2.6rem 1fr}.repeat-track{min-height:7rem}.limit-grid,.learn nav{grid-template-columns:1fr}.limit-grid div+div,.limit-grid div:nth-child(3),.learn nav a:nth-child(odd){border-top:1px solid var(--fine-rule);border-left:0;border-right:0}.limit-grid div{min-height:0}.learn nav a{min-height:0}}
+/* Feedback pass: keep long-form chapters inside the site's centered reading measure. */
+.process-map{width:min(100%,74rem);margin-right:auto;margin-left:auto}
+.process li>div{z-index:1;padding-top:.55rem;padding-bottom:.7rem;background:#06090b;box-shadow:0 0 0 .8rem #06090b}
+.decision-workspace,.comparison-landscape{display:block;background:transparent}
+.decision-workspace .section-pad,.comparison-landscape .section-pad{width:min(100%,74rem);margin-inline:auto;padding-inline:var(--gutter)}
+.seo-use>div{display:block}
+.seo-use>div>p{max-width:58ch;margin-top:1.5rem}
+.seo-use ol{grid-template-columns:1fr;max-width:52rem}
+.seo-use li{min-height:0}
+.handoff{display:block;border-top:1px solid var(--rule);border-left:0}
+.handoff>div{max-width:52rem}
+.handoff nav{max-width:52rem;margin-top:clamp(2rem,4vw,4rem)}
+.handoff .ownership-note{max-width:52rem;margin-top:2rem}
+.model{border-right:0}
+.locale-panel{border-top:1px solid var(--rule)}
+.locale-axis{position:relative}
+.locale-panel h2{max-width:15ch}
+
+@media(max-width:680px){
+  .process li>div{padding-top:0;padding-bottom:0;box-shadow:none}
+  .decision-workspace .section-pad,.comparison-landscape .section-pad{padding-inline:var(--gutter)}
+  .seo-use ol{padding-left:2rem}
+}
 </style>
