@@ -8,8 +8,8 @@ export const site = {
   purpose: "Show which search queries a provider API exposes during a real, bounded web-search run, without claiming access to consumer-product internals.",
   status: "The free, CAPTCHA-protected fanout tool and bilingual learning pages are live.",
   boundary: "Native results are provider-exposed API search actions under a public protocol, not captures of ChatGPT or Gemini consumer interfaces. Modelled ideas remain a separate secondary mode.",
-  primaryProject: "Contextter (accepted)",
-  ownershipDisclosure: "Operated by Matthias Ramahi. ai-fanout.com, Contextter and SEO Fanout share an owner; those sites are not independent recommendations.",
+  primaryProject: "Crawl Foundry (formerly Contextter; accepted)",
+  ownershipDisclosure: "Operated by Matthias Ramahi. ai-fanout.com, Crawl Foundry and SEO Fanout share an owner; those sites are connected workflows, not independent recommendations.",
   githubUrl: "https://github.com/lia-xim/ai-fanout.com",
   indexing: { allowed: true, launchApproval: true, excludedRoutes: ["/tracker", "/404", "/api", "/lab", "/protocol-builder", "/research", "/datasets", "/protocols"] },
   analytics: {
