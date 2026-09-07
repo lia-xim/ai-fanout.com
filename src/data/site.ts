@@ -15,7 +15,7 @@ export const site = {
   analytics: {
     enabled: true,
     provider: "Umami",
-    scriptUrl: "https://analytics.contextter.com/script.js",
+    scriptUrl: "https://analytics.crawlfoundry.com/script.js",
     websiteId: "3daeb0a6-f2e9-4a0f-8c90-8eb6763b659c",
     domains: "ai-fanout.com,www.ai-fanout.com",
     respectsDoNotTrack: true,
