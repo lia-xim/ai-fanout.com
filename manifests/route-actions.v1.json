@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-09.1",
+  "manifestVersion": "2026-10-09.2",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-09",
   "domainOrigin": "fresh_registration",
@@ -43,6 +43,7 @@
     {"source":"/de/lernen/keine-fanout-query-sichtbar","destination":"/de/lernen/ki-modelle-vergleichen","status":308}
   ],
   "notes": [
+    "The second 2026-10-09 improvement adds curated chapter references across all eight paired guides, decision tables for four guide pairs, and reader/reproduction paths on the four paired dated examples. Learning and evidence hubs link in context. The 35-URL indexable inventory, redirects and exclusions are unchanged; lastmod changes only on materially updated content.",
     "Local SEO update on 2026-10-09 strengthens the existing EN/DE homepages, learning hubs and definition/OpenAI/Gemini guide pairs. No canonical URL, redirect or indexability change; ten routes receive editorial lastmod updates. Provider guide links can preselect an allowlisted provider without starting a run. Production publication remains separately recorded.",
     "ai-fanout.com was newly registered by Matthias Ramahi for this project.",
     "The canonical English and German homepages present Native Fanout as the primary mode and the live modelled Search Ideas generator as a clearly separate secondary mode.",

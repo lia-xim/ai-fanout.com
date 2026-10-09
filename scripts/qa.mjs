@@ -30,6 +30,24 @@ const longtailChecks=[
   ["/de/lernen/openai-suchanfragen-sehen",["Formuliert ChatGPT Search eine Eingabe in gezielte Suchen um?","Kann die OpenAI API die tatsächlichen Suchqueries eines Laufs offenlegen?"]],
 ];
 for(const [route,needles] of longtailChecks){const html=htmls.get(route)??"";for(const needle of needles)check(html.includes(needle),`${route}: missing longtail answer or source ${needle}`)}
+// Delivered reader journeys: canonical same-language references inside guide chapters,
+// and an interpretive path out of each evidence example (downloads alone are insufficient).
+for(const route of sitemapRoutes.filter(item=>item.role==="guide")){
+  const html=htmls.get(route.path)??"";
+  const references=[...html.matchAll(/<p\b[^>]*class="chapter-reference"[^>]*>([\s\S]*?)<\/p>/g)];
+  check(references.length>0,`${route.path}: no contextual chapter references`);
+  for(const reference of references)for(const link of reference[1].matchAll(/href="([^"]+)"/g)){
+    const target=sitemapRouteByPath.get(link[1]);
+    check(Boolean(target)&&target.lang===route.lang&&target.path!==route.path,`${route.path}: reference must resolve to another canonical page in ${route.lang}: ${link[1]}`);
+  }
+}
+for(const route of sitemapRoutes.filter(item=>item.role==="evidence-example")){
+  const html=htmls.get(route.path)??"";
+  const guide=html.match(/<p\b[^>]*class="example-guide-link"[^>]*>[\s\S]*?href="([^"]+)"/)?.[1];
+  const target=sitemapRouteByPath.get(guide);
+  check(target?.role==="guide"&&target.lang===route.lang,`${route.path}: example needs a same-language interpretation guide`);
+  check(html.includes('class="reproduce"')&&html.includes('"@type":"BreadcrumbList"'),`${route.path}: reproduction path or breadcrumb missing`);
+}
 const routeExists=async path=>{if(path==="/"||[...indexable,...noindex,"/robots.txt","/sitemap.xml","/sitemap.xsl"].includes(path))return true;try{if(path.startsWith("/_astro/")||path.startsWith("/brand/")||path.startsWith("/examples/")||path.startsWith("/contracts/")){await access(join(dist,path.slice(1)));return true}await access(pageFile(path));return true}catch{return false}};for(const [route,html] of htmls)for(const match of html.matchAll(/href="([^"]+)"/g)){const href=match[1];if(!href.startsWith("/")||href.startsWith("//"))continue;const path=href.split(/[?#]/)[0];if(path)check(await routeExists(path),`${route}: broken link ${href}`)}
 const all=[...htmls.values()].join("\n").toLowerCase();for(const claim of ["reveals chain of thought","accesses private retrieval traces","guaranteed rankings","independently verified by contextter"])check(!all.includes(claim),`forbidden claim: ${claim}`);
 const server=await preview({root,logLevel:"silent",server:{host:"127.0.0.1",port:0}});try{for(const route of [...indexable,...noindex,"/robots.txt","/sitemap.xml","/sitemap.xsl"]){const requestPath=route!=="/"?route.replace(/\/$/,""):route;const response=await fetch(`http://${server.host}:${server.port}${requestPath}`,{redirect:"manual"});check(response.status===200,`${route}: HTTP ${response.status}`)}for(const route of [...retired,"/not-a-real-page"]){const response=await fetch(`http://${server.host}:${server.port}${route}`,{redirect:"manual"});check(response.status===404&&!response.headers.has("location"),`${route}: real 404`)} }finally{await server.stop()}

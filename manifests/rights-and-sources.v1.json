@@ -1,9 +1,18 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-09.1",
+  "manifestVersion": "2026-10-09.2",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-09",
   "sources": [
+    {
+      "id": "owner-internal-link-review-2026-10-09",
+      "title": "Owner full-inventory link and reader-path review",
+      "kind": "owner_measurement",
+      "location": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-09\\next-potentials\\links-before.json",
+      "checkedAt": "2026-10-09",
+      "status": "verified_http_and_html_not_ranking_prediction",
+      "supports": "A complete 35-URL same-origin sitemap crawl found no orphan URLs, but guide chapters did not directly connect to their dated proof pages and example bodies offered downloads without interpretive guide paths. Added tables and reproduction instructions are owner-created editorial material; published provider fixtures and observation dates are unchanged."
+    },
     {
       "id": "owner-gsc-seo-review-2026-10-09",
       "title": "Owner Search Console and Crawl Foundry SEO review",

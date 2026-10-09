@@ -95,7 +95,7 @@ const copy = isGerman ? {
   </header>
 
   <section class="reading-guide section-pad section-rule" aria-labelledby="reading-title">
-    <div><p class="eyebrow">{copy.observed}</p><h2 id="reading-title">{copy.readTitle}</h2><p>{copy.readIntro}</p></div>
+    <div><p class="eyebrow">{copy.observed}</p><h2 id="reading-title">{copy.readTitle}</h2><p>{copy.readIntro}</p><p>{isGerman?"Für die Begriffe und Beziehungen zwischen Queries, Suchaktionen und Quellen:":"For the terms and relationships between queries, search actions and sources:"} <a href={isGerman?"/de/lernen/ki-zitate-und-quellen":"/library/ai-citations"}>{isGerman?"KI-Zitate und ihren Umfang verstehen":"Understand AI citations and their scope"}</a>.</p></div>
     <ol>{copy.layers.map(([title, text], index) => <li><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{title}</h3><p>{text}</p></div></li>)}</ol>
   </section>
 

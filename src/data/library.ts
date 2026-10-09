@@ -1,6 +1,8 @@
 export const libraryCategories = ["Concept", "Measurement", "Method", "Data standard", "Field guide"] as const;
 export type LibraryCategory = typeof libraryCategories[number];
-export type LibrarySection = { readonly id:string; readonly title:string; readonly paragraphs:readonly string[]; readonly points?:readonly string[] };
+export type LibraryReference = { readonly afterParagraph:number; readonly before:string; readonly label:string; readonly href:`/${string}`; readonly after?:string };
+export type LibraryDecisionTable = { readonly title:string; readonly caption:string; readonly headings:readonly [string,string,string]; readonly rows:readonly (readonly [string,string,string])[] };
+export type LibrarySection = { readonly id:string; readonly title:string; readonly paragraphs:readonly string[]; readonly points?:readonly string[]; readonly references?:readonly LibraryReference[]; readonly decisionTable?:LibraryDecisionTable };
 export type LibraryToolCta = { readonly title:string; readonly copy:string; readonly button:string };
 export type LibraryReaderQuestion = { readonly question:string; readonly answer:string };
 export type LibraryQuickStart = { readonly title:string; readonly steps:readonly {readonly title:string;readonly copy:string}[] };
