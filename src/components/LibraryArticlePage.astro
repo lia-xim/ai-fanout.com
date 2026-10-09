@@ -13,7 +13,7 @@ const canonicalPath=`${hub}/${article.slug}`;
 const alternatePath=article.pairedSlug?(de?`/library/${article.pairedSlug}`:`/de/lernen/${article.pairedSlug}`):undefined;
 const sources=evidenceManifest.sources.filter(source=>article.sourceIds.includes(source.id));
 const related=article.relatedSlugs.map(slug=>articles.find(item=>item.slug===slug)).filter((item):item is LibraryArticle=>Boolean(item));
-const words=[article.answer,article.useWhen,...(article.quickStart?.steps??[]).flatMap(step=>[step.title,step.copy]),...article.sections.flatMap(section=>[...section.paragraphs,...(section.points??[]),...(section.references??[]).flatMap(ref=>[ref.before,ref.label,ref.after??""]),...(section.decisionTable?[section.decisionTable.title,section.decisionTable.caption,...section.decisionTable.headings,...section.decisionTable.rows.flat()]:[])]),...(article.readerQuestions??[]).flatMap(item=>[item.question,item.answer])].join(" ").trim().split(/\s+/).length;
+const words=[article.answer,article.useWhen,...(article.quickStart?.steps??[]).flatMap(step=>[step.title,step.copy]),...article.sections.flatMap(section=>[...section.paragraphs,...(section.points??[]),...(section.references??[]).flatMap(ref=>[ref.before,ref.label,ref.after??""]),...(section.codeSample?[section.codeSample.label,section.codeSample.text]:[]),...(section.decisionTable?[section.decisionTable.title,section.decisionTable.caption,...section.decisionTable.headings,...section.decisionTable.rows.flat()]:[])]),...(article.readerQuestions??[]).flatMap(item=>[item.question,item.answer])].join(" ").trim().split(/\s+/).length;
 const readingMinutes=Math.max(4,Math.ceil(words/190));
 const date=new Intl.DateTimeFormat(de?"de-DE":"en-GB",{day:"2-digit",month:"long",year:"numeric"}).format(new Date(`${article.reviewedAt}T12:00:00Z`));
 const pageUrl=`https://ai-fanout.com${canonicalPath}`;
@@ -64,6 +64,7 @@ const schema={"@context":"https://schema.org","@graph":[
             <p>{paragraph}</p>
             {section.references?.filter(reference=>reference.afterParagraph===paragraphIndex).map(reference=><p class="chapter-reference">{reference.before} <a href={reference.href}>{reference.label}</a>{reference.after??"."}</p>)}
           </>)}
+          {section.codeSample&&<figure class="chapter-sample"><figcaption>{section.codeSample.label}</figcaption><pre><code>{section.codeSample.text}</code></pre></figure>}
           {section.decisionTable&&<div class="chapter-decision" id={`${section.id}-decision`}>
             <h3>{section.decisionTable.title}</h3>
             <p>{section.decisionTable.caption}</p>

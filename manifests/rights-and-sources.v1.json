@@ -1,9 +1,36 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-09.2",
+  "manifestVersion": "2026-10-09.3",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-09",
   "sources": [
+    {
+      "id": "owner-query-workflows-2026-10-09",
+      "title": "ai-fanout.com input, selection export and local-history implementation",
+      "kind": "owner_implementation",
+      "location": "https://github.com/lia-xim/ai-fanout.com/tree/codex/fanout-planner-v1/src/scripts",
+      "checkedAt": "2026-10-09",
+      "status": "verified_source_and_regression_contract",
+      "supports": "The input controls, separate native/modelled modes, three export scopes, query-selection CSV fields, and browser-local history are described from the site's actual implementation. The planning prompt and input examples are original editorial instructions, not provider output or measured keyword demand."
+    },
+    {
+      "id": "mdn-indexeddb-2026-10-09",
+      "title": "MDN: IndexedDB API",
+      "kind": "primary_documentation",
+      "location": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
+      "checkedAt": "2026-10-09",
+      "status": "verified",
+      "supports": "Explains browser-side structured storage and its origin boundary. The site's twenty-entry and thirty-day limits come from its own implementation, not from a universal browser quota."
+    },
+    {
+      "id": "stanford-query-expansion-2026-10-09",
+      "title": "Introduction to Information Retrieval: query expansion",
+      "kind": "primary_textbook",
+      "location": "https://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-query-expansion-1.html",
+      "checkedAt": "2026-10-09",
+      "status": "verified",
+      "supports": "Supports the vocabulary-expansion distinction. It does not document the internals or exact queries of a current consumer AI search session."
+    },
     {
       "id": "owner-internal-link-review-2026-10-09",
       "title": "Owner full-inventory link and reader-path review",

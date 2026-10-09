@@ -16,6 +16,7 @@ const references:Record<string,readonly Reference[]>={
   "what-is-ai-query-fanout":[
     {section:0,paragraph:3,target:sourceExample,en:["See how one comparison question split into narrower searches in the","dated Ahrefs–Semrush example"],de:["Wie sich eine Vergleichsfrage in genauere Suchen aufteilt, zeigt das","datierte Ahrefs-Semrush-Beispiel"]},
     {section:2,paragraph:1,target:decisions,en:["For the next page decision, follow the","query fanout content workflow"],de:["Für die nächste Seitenentscheidung nutze den","Content-Workflow mit Query Fanout"]},
+    {section:2,paragraph:0,target:["/library/query-fanout-prompt","/de/lernen/query-fanout-prompt"],en:["If you want to plan possible questions before observing a run, use the","query fanout prompt template"],de:["Wenn du mögliche Fragen vor einem beobachteten Lauf planen willst, nutze die","Query-Fanout-Prompt-Vorlage"]},
   ],
   "how-to-see-openai-search-queries":[
     {section:0,paragraph:5,target:sourceExample,en:["Inspect the input, returned query strings and action-level source domains in the","published OpenAI comparison run"],de:["Eingabe, offengelegte Queries und Quellendomains auf Aktionsebene findest du im","veröffentlichten OpenAI-Vergleichslauf"]},
@@ -32,6 +33,7 @@ const references:Record<string,readonly Reference[]>={
   "ai-query-fanout-for-seo":[
     {section:0,paragraph:1,target:definition,en:["If the distinction between a generated idea and an observed search is unclear, start with the","query fanout definition"],de:["Wenn erzeugte Suchideen und beobachtete Suchen noch unklar sind, beginne mit der","Definition von Query Fanout"]},
     {section:1,paragraph:0,target:sourceExample,en:["The","comparison-source example", " shows why a research branch can need pricing evidence rather than another keyword-variant page."],de:["Das","Beispiel zu Vergleichsquellen", " zeigt, warum ein Suchzweig Preisbelege statt einer weiteren Keyword-Varianten-Seite brauchen kann."]},
+    {section:3,paragraph:1,target:["/library/export-fanout-queries","/de/lernen/fanout-queries-exportieren"],en:["Keep the selected questions and run metadata together using the","fanout CSV and JSON export workflow"],de:["Erhalte ausgewählte Fragen und Laufdaten zusammen mit dem","CSV- und JSON-Export-Workflow für Fanout"]},
   ],
   "seo-for-ai-search":[
     {section:1,paragraph:1,target:decisions,en:["Apply the","query fanout page-decision workflow", " when a coverage check reveals a missing reader question."],de:["Nutze den","Workflow für Seitenentscheidungen mit Query Fanout", ", wenn beim Abgleich eine Leserfrage fehlt."]},
@@ -48,6 +50,19 @@ const references:Record<string,readonly Reference[]>={
 };
 
 const tables:Record<string,{section:number;en:LibraryDecisionTable;de:LibraryDecisionTable}>={
+  "what-is-ai-query-fanout":{section:0,
+    en:{title:"Query fanout, expansion and rewriting",caption:"The terms describe related operations, not identical evidence. Google documents fan-out; query expansion adds related terms; OpenAI describes rewriting into one or more targeted queries.",headings:["Term","Useful distinction","What it does not establish"],rows:[
+      ["Query fanout","Several related retrieval queries address parts of one information need.","A private, complete list of queries from a consumer session."],
+      ["Query expansion","Related terms or synonyms broaden a query's vocabulary.","That a system executed several separate web searches."],
+      ["Query rewriting","The request is reformulated for retrieval; OpenAI describes one or more targeted searches.","A universal one-query-only rule or the response fields of another product."],
+      ["Prompt-generated search ideas","A model suggests questions for a research plan.","Executed searches, human search demand or a guaranteed citation."]
+    ]},
+    de:{title:"Query Fanout, Erweiterung und Umformulierung",caption:"Die Begriffe beschreiben verwandte Vorgänge mit unterschiedlichen Belegen. Google dokumentiert Fan-out, Query Expansion ergänzt Begriffe und OpenAI beschreibt eine Umformulierung in eine oder mehrere gezielte Queries.",headings:["Begriff","Nützliche Unterscheidung","Was er nicht belegt"],rows:[
+      ["Query Fanout","Mehrere verwandte Retrieval-Queries beantworten Teile eines Informationsbedarfs.","Eine private, vollständige Query-Liste einer Endnutzer-Sitzung."],
+      ["Query Expansion","Verwandte Begriffe oder Synonyme erweitern das Vokabular einer Query.","Dass mehrere getrennte Websuchen ausgeführt wurden."],
+      ["Query Rewriting","Die Anfrage wird für Retrieval umformuliert; OpenAI beschreibt eine oder mehrere gezielte Suchen.","Eine allgemeine Ein-Query-Regel oder die Response-Felder eines anderen Produkts."],
+      ["Prompt-generierte Suchideen","Ein Modell schlägt Fragen für einen Rechercheplan vor.","Ausgeführte Suchen, menschliche Nachfrage oder garantierte Zitierungen."]
+    ]}},
   "ai-query-fanout-for-seo":{section:1,
     en:{title:"Which content change does the branch justify?",caption:"Editorial decision examples for a page about choosing SEO tools. These are illustrative reader jobs, not new provider output or measured keyword demand.",headings:["Reader question","Smallest useful action","Evidence to check"],rows:[
       ["What does the tool cost?","Update the pricing section on the existing comparison page.","Current official pricing, currency and review date."],
