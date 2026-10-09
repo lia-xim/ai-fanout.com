@@ -1,0 +1,140 @@
+name,family,meaning
+Fetchlens,on-demand,fetched visibility
+Fetchview,on-demand,fetched overview
+Fetchmap,on-demand,fetched map
+Fetchbase,on-demand,fetched data base
+Fetchops,on-demand,fetched operations
+Fetchstack,on-demand,fetched suite
+Fetchflow,on-demand,fetched workflow
+Fetchboard,on-demand,fetched dashboard
+Fetchsuite,on-demand,fetched suite
+Fetchwise,on-demand,fetched intelligence
+Fetchpath,on-demand,fetched path
+Fetchradar,on-demand,fetched monitoring
+Fetchatlas,on-demand,fetched map
+Fetchhub,on-demand,fetched workspace
+Fetchlab,on-demand,fetched research
+Fetchbox,on-demand,fetched toolkit
+Queryshift,change,query change
+Querydrift,change,query movement
+Queryflux,change,query movement
+Querydiff,change,query difference
+Querywatch,monitoring,query monitoring
+Querymark,benchmark,query benchmark
+Querylens,visibility,query visibility
+Queryradar,monitoring,query monitoring
+Querypath,workflow,query workflow
+Querybase,data,query database
+Queryops,workflow,query operations
+Queryflow,workflow,query workflow
+Queryview,visibility,query overview
+Querywise,intelligence,query intelligence
+Querystack,suite,query suite
+Searchshift,change,search change
+Searchdrift,change,search movement
+Searchflux,change,search movement
+Searchdiff,change,search difference
+Searchwatch,monitoring,search monitoring
+Searchmark,benchmark,search benchmark
+Searchlens,visibility,search visibility
+Searchradar,monitoring,search monitoring
+Searchpath,workflow,search workflow
+Searchbase,data,search database
+Searchops,workflow,search operations
+Searchflow,workflow,search workflow
+Searchview,visibility,search overview
+Searchwise,intelligence,search intelligence
+Searchstack,suite,search suite
+Rankshift,change,ranking change
+Rankdrift,change,ranking movement
+Rankflux,change,ranking movement
+Rankdiff,change,ranking difference
+Rankwatch,monitoring,ranking monitoring
+Rankmark,benchmark,ranking benchmark
+Ranklens,visibility,ranking visibility
+Rankradar,monitoring,ranking monitoring
+Rankpath,workflow,ranking workflow
+Rankbase,data,ranking database
+Rankops,workflow,ranking operations
+Rankflow,workflow,ranking workflow
+Rankview,visibility,ranking overview
+Rankwise,intelligence,ranking intelligence
+Rankstack,suite,ranking suite
+Serpshift,change,SERP change
+Serpdrift,change,SERP movement
+Serpflux,change,SERP movement
+Serpdiff,change,SERP difference
+Serpwatch,monitoring,SERP monitoring
+Serpmark,benchmark,SERP benchmark
+Serplens,visibility,SERP visibility
+Serpradar,monitoring,SERP monitoring
+Serppath,workflow,SERP workflow
+Serpbase,data,SERP database
+Serpops,workflow,SERP operations
+Serpflow,workflow,SERP workflow
+Serpview,visibility,SERP overview
+Serpwise,intelligence,SERP intelligence
+Serpstack,suite,SERP suite
+Crawlshift,change,crawl change
+Crawldrift,change,crawl movement
+Crawlflux,change,crawl movement
+Crawldiff,change,crawl difference
+Crawlwatch,monitoring,crawl monitoring
+Crawlmark,benchmark,crawl benchmark
+Crawllens,visibility,crawl visibility
+Crawlradar,monitoring,crawl monitoring
+Crawlpath,workflow,crawl workflow
+Crawlbase,data,crawl database
+Crawlops,workflow,crawl operations
+Crawlflow,workflow,crawl workflow
+Crawlview,visibility,crawl overview
+Crawlwise,intelligence,crawl intelligence
+Crawlstack,suite,crawl suite
+Searchmetry,measurement,search measurement
+Rankmetry,measurement,ranking measurement
+Serpmetry,measurement,SERP measurement
+Crawlmetry,measurement,crawl measurement
+Querymetry,measurement,query measurement
+Seometry,measurement,SEO measurement
+Indexmetra,measurement,index measurement
+Searchmetra,measurement,search measurement
+Rankmetra,measurement,ranking measurement
+Serpmetra,measurement,SERP measurement
+Crawlmetra,measurement,crawl measurement
+Querymetra,measurement,query measurement
+Seometra,measurement,SEO measurement
+Optmetry,measurement,optimization measurement
+Optimetry,measurement,optimization measurement
+Callseo,on-demand,SEO on request
+Callrank,on-demand,rankings on request
+Callcrawl,on-demand,crawl on request
+Callquery,on-demand,queries on request
+Callserp,on-demand,SERPs on request
+Callmetric,on-demand,metrics on request
+Callscope,on-demand,visibility on request
+Calltrace,on-demand,evidence on request
+Callgrid,on-demand,data on request
+Callpulse,on-demand,monitoring on request
+Callsignal,on-demand,signals on request
+Askseo,on-demand,SEO on request
+Askrank,on-demand,rankings on request
+Askcrawl,on-demand,crawl on request
+Askquery,on-demand,queries on request
+Askserp,on-demand,SERPs on request
+Askmetric,on-demand,metrics on request
+Askscope,on-demand,visibility on request
+Asktrace,on-demand,evidence on request
+Askgrid,on-demand,data on request
+Askpulse,on-demand,monitoring on request
+Asksignal,on-demand,signals on request
+Nowseo,on-demand,SEO now
+Nowrank,on-demand,rankings now
+Nowcrawl,on-demand,crawl now
+Nowquery,on-demand,queries now
+Nowserp,on-demand,SERPs now
+Nowmetric,on-demand,metrics now
+Nowscope,on-demand,visibility now
+Nowtrace,on-demand,evidence now
+Nowgrid,on-demand,data now
+Nowpulse,on-demand,monitoring now
+Nowsignal,on-demand,signals now

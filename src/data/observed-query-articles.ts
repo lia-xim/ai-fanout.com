@@ -1,6 +1,7 @@
 import type { LibraryArticle, LibraryCategory, LibraryReaderQuestion } from "./library";
 import { englishArticles as englishSource } from "./observed-query-articles.en";
 import { germanArticles as germanSource } from "./observed-query-articles.de";
+import { searchEntryFor } from "./search-entry-guides";
 
 type ToolCta={title:string;copy:string;button:string};
 type MergePlan={keep:string;merge:readonly string[];image:string;altEn:string;altDe:string;ctaEn:ToolCta;ctaDe:ToolCta};
@@ -60,7 +61,7 @@ function consolidate(source:readonly LibraryArticle[],german=false):LibraryArtic
       }));
     });
     const sourceIds=[...new Set([ ...article.sourceIds,...merged.flatMap(item=>item.sourceIds)])];
-    return {...article,number:String(index+1).padStart(2,"0"),reviewedAt:"2026-08-31",sections,sourceIds,image:plan.image,imageAlt:german?plan.altDe:plan.altEn,toolCta:german?plan.ctaDe:plan.ctaEn,readerQuestions:questions[plan.keep][german?"de":"en"]};
+    return {...article,number:String(index+1).padStart(2,"0"),reviewedAt:"2026-08-31",sections,sourceIds,image:plan.image,imageAlt:german?plan.altDe:plan.altEn,toolCta:german?plan.ctaDe:plan.ctaEn,readerQuestions:questions[plan.keep][german?"de":"en"],...searchEntryFor(plan.keep,german)};
   }).map((article,_,all)=>({...article,relatedSlugs:article.relatedSlugs.filter(slug=>all.some(item=>item.slug===slug)).slice(0,3)}));
 }
 export const englishArticles=consolidate(englishSource);

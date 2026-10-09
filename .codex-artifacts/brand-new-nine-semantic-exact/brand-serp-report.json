@@ -1,0 +1,1178 @@
+{
+  "generatedAt": "2026-09-01T17:46:43.840Z",
+  "methodology": {
+    "endpoint": "serp/google/organic/live/advanced",
+    "markets": [
+      {
+        "id": "de",
+        "locationCode": 2276,
+        "languageCode": "de"
+      },
+      {
+        "id": "us",
+        "locationCode": 2840,
+        "languageCode": "en"
+      }
+    ],
+    "depth": 10,
+    "paidAddOns": false,
+    "estimatedCostUsd": 0.028,
+    "actualCostUsd": 0.02800000000000001,
+    "note": "Evidence export only. No automatic score, grade, or recommendation."
+  },
+  "combined": [
+    {
+      "name": "\"Indicra\"",
+      "markets": [
+        {
+          "name": "\"Indicra\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Indica\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1520,
+          "checkUrl": "https://www.google.com/search?q=%22Indicra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:40 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Indicra",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/popular/indicra/",
+              "description": "Watch reels about indicra from people around the world. Add a royal touch to your memories with this beautifully laser-cut engraved metal photo ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Companies list - INDICRA",
+              "domain": "www.zaubacorp.com",
+              "url": "https://www.zaubacorp.com/companies-INDICRA",
+              "description": "Companies with names starting with INDICRA · INDICRAFT COMMUNICATIONS INDIA PRIVATE LIMITED · INDICRAFT ENERGY & PROJECTS PRIVATE LIMITED · INDICRAFT EXPORTS LLP."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "RephKind in oxideav_scribe::shaping::indic - Rust",
+              "domain": "docs.rs",
+              "url": "https://docs.rs/oxideav-scribe/latest/oxideav_scribe/shaping/indic/enum.RephKind.html",
+              "description": "IndicRA. Indic-style reph: RA + halant + consonant — three characters, the standard Devanagari / Bengali / Telugu / Kannada / Gurmukhi / Gujarati / Oriya ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "jinyudao 1 par de piscas de scooter elétrica luz indicra ...",
+              "domain": "www.amazon.com.br",
+              "url": "https://www.amazon.com.br/jinyudao-scooter-el%C3%A9trica-indicra-substitui%C3%A7%C3%A3o/dp/B0DP44RP2Y",
+              "description": "(8)(1)A luz indicra da scooter elétrica é à prova de choque e à prova d'água, para que você não tenha medo da cha."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Indicrafts - A celebration of India's soul. From block printed ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/indicraftssa/videos/indicrafts-a-celebration-of-indias-soul-from-block-printed-dreams-to-handcrafted/24342176315375722/",
+              "description": "From block printed dreams to handcrafted treasures, we bring the magic of Indian festivals, bazaars, and traditions in to your home. At ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Diwali Hamper - IndiCra | Indian Festival Supplies UK",
+              "domain": "www.indicrate.co.uk",
+              "url": "https://www.indicrate.co.uk/product/diwali-hamper-indicrate-silver-package-1499?srsltid=AfmBOooV00nkBbOaTVPakRDBOJYJuKO6oyhpnb0B6SI_P4eRovV87pzY",
+              "description": "Buy Diwali Hamper - IndiCrate Silver Package - £14.99 online in the UK. Everything you need for Indian festivals – decorations, supplies, and more."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "SOLD",
+              "domain": "www.dominicwinter.co.uk",
+              "url": "https://www.dominicwinter.co.uk/Auction/Search/?so=0&st=&sto=0&au=781&ef=&et=&ic=False&sd=1&pp=24&pn=12&g=1",
+              "description": "Lot 271 - Vavesseur (Francois). De Indicra dictione..., Leipzig · Lot 271 - Vavesseur (Francois). De Indicra dictione..., Leipzig: Ioannis Christiani Martini, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Get a 2nd Day FREE",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/UniversalStudiosHollywood/videos/get-a-2nd-day-free/1545555910505390/",
+              "description": "More videos you may like."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Beautifully done for my beautiful yummy 🥰🥰 #Color",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/sandra.ampomah.58/videos/beautifully-done-for-my-beautiful-yummy-color-off-white-beauty-sandlartisan-blac/1410468097626097/",
+              "description": "Last viewed on: Aug 23, 2026. More videos you may like. One of our best selling design 🦋off to Volta 🥰💃 Thanks for choosing Sandy."
+            }
+          ]
+        },
+        {
+          "name": "\"Indicra\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Indica\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1450,
+          "checkUrl": "https://www.google.com/search?q=%22Indicra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:43 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Indicra",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/popular/indicra/",
+              "description": "Watch reels about indicra from people around the world. Add a royal touch to your memories with this beautifully laser-cut engraved metal photo ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Companies list - INDICRA",
+              "domain": "www.zaubacorp.com",
+              "url": "https://www.zaubacorp.com/companies-INDICRA",
+              "description": "Companies with names starting with INDICRA · INDICRAFT COMMUNICATIONS INDIA PRIVATE LIMITED · INDICRAFT ENERGY & PROJECTS PRIVATE LIMITED · INDICRAFT EXPORTS LLP."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Indicrafts - A celebration of India's soul. From block printed ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/indicraftssa/videos/indicrafts-a-celebration-of-indias-soul-from-block-printed-dreams-to-handcrafted/24342176315375722/",
+              "description": "From block printed dreams to handcrafted treasures, we bring the magic of Indian festivals, bazaars, and traditions in to your home."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "RephKind in oxideav_scribe::shaping::indic - Rust",
+              "domain": "docs.rs",
+              "url": "https://docs.rs/oxideav-scribe/latest/oxideav_scribe/shaping/indic/enum.RephKind.html",
+              "description": "IndicRA. Indic-style reph: RA + halant + consonant — three characters, the standard Devanagari / Bengali / Telugu / Kannada / Gurmukhi / Gujarati / Oriya ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "jinyudao 1 par de piscas de scooter elétrica luz indicra ...",
+              "domain": "www.amazon.com.br",
+              "url": "https://www.amazon.com.br/jinyudao-scooter-el%C3%A9trica-indicra-substitui%C3%A7%C3%A3o/dp/B0DP44RP2Y",
+              "description": "(8)(1)A luz indicra da scooter elétrica é à prova de choque e à prova d'água, para que você não tenha medo da cha."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Get a 2nd Day FREE",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/UniversalStudiosHollywood/videos/get-a-2nd-day-free/1545555910505390/",
+              "description": "More videos you may like. Tuna. On white. No crust. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Diwali Hamper - IndiCra | Indian Festival Supplies UK",
+              "domain": "www.indicrate.co.uk",
+              "url": "https://www.indicrate.co.uk/product/diwali-hamper-indicrate-silver-package-1499?srsltid=AfmBOoqk_2_RJpwLx-bVgHegiHw7Z2aaq4WCwrkoeF-9VvGRlce6JjrY",
+              "description": "Buy Diwali Hamper - IndiCrate Silver Package - £14.99 online in the UK. Everything you need for Indian festivals – decorations, supplies, and more."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "13 Oct 1913 - \"WHY MEN LOVE WOMEN.\" - Trove",
+              "domain": "trove.nla.gov.au",
+              "url": "https://trove.nla.gov.au/newspaper/article/226794924",
+              "description": "Abstract. For a drama marked with tragic situations, weird scones, and indicra[?]ry relieved with humor, \"Why Men Love Women\" as staged at the Royal Princess."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Beautifully done for my beautiful yummy 🥰🥰 #Color",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/sandra.ampomah.58/videos/beautifully-done-for-my-beautiful-yummy-color-off-white-beauty-sandlartisan-blac/1410468097626097/",
+              "description": "Last viewed on: Aug 23, 2026. More videos you may like. One of our best selling design 🦋off to Volta 🥰💃 Thanks for choosing Sandy. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"IndiMetra\"",
+      "markets": [
+        {
+          "name": "\"IndiMetra\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 27,
+          "checkUrl": "https://www.google.com/search?q=%22IndiMetra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:29 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Publicación de Diego Arnanz Lozano",
+              "domain": "es.linkedin.com",
+              "url": "https://es.linkedin.com/posts/diegodev96_hoy-quiero-presentar-indimetra-el-proyecto-activity-7336305323760046080-aCd3",
+              "description": "Indimetra nace como una alternativa para dar voz y espacio al cine independiente, especialmente a cortometrajes que muchas veces quedan ocultos ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "DiegoDev diegoarnanz-maker",
+              "domain": "github.com",
+              "url": "https://github.com/diegoarnanz-maker",
+              "description": "Creator of Indimetra — a smart platform for indie short films. ... Incluye autenticación JWT, gestión de usuarios, proyectos, logros, notificac… Java."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Заказали систему отопления в частный дом - Куплю/продам ...",
+              "domain": "forum.l2r.ru",
+              "url": "https://forum.l2r.ru/index.php?/topic/77354-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D0%B8-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%83-%D0%BE%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2-%D1%87%D0%B0%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BE%D0%BC/",
+              "description": "Так как хотим жить в нем круглогодично, озаботились установкой отопления. Заказали в строительной компании http://indimetra.ru/. Не так уж и дорого, зато ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Канализация для састного домика - valera_2536 | Ответы Mail",
+              "domain": "otvet.mail.ru",
+              "url": "https://otvet.mail.ru/question/78508305",
+              "description": "... . . http://indimetra.ru. Источник: <noindex><a rel=\"nofollow\" href=\"http://indimetra.ru\" target=\"_blank\">http://indimetra.ru</a></noindex>. 00. Ответить."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Заказали систему отопления в частный дом - konturstroy",
+              "domain": "www.konturstroy.ru",
+              "url": "http://www.konturstroy.ru/forums/viewtopic.php?t=1588",
+              "description": "Так как хотим жить в нем круглогодично, озаботились установкой отопления. Заказали в строительной компании http://indimetra.ru/ Не так уж и дорого, зато ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Wszystko o jail + Komendy - Minecraft - Poradniki",
+              "domain": "www.mpcforum.pl",
+              "url": "https://www.mpcforum.pl/topic/591858-wszystko-o-jail-komendy/",
+              "description": "26.03.2012 — Так как хотим жить в нем круглогодично, озаботились установкой отопления. Заказали в строительной компании http://indimetra.ru/. Не так уж и ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Скидка 40% Распродажа Кондиционеры DAIKIN",
+              "domain": "www.shveller.ru",
+              "url": "http://www.shveller.ru/ob482118.html",
+              "description": "8 (964) 784-88-44. E-mail: Написать письмо. Сайт: http://indimetra.ru/ << Назад. Другие объявления из этой категории: Куплю УЧК 1220, УЧК 1420 · Продаем ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Diego Arnanz Lozano - Fullstack Developer | Spring Boot, . ...",
+              "domain": "es.linkedin.com",
+              "url": "https://es.linkedin.com/in/diegodev96",
+              "description": "En el proyecto Indimetra desarrollé una API segura y modular con lógica de roles, filtros y soft delete. En el entorno profesional, formé parte del equipo ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Ohne Titel",
+              "domain": "sharks.ucoz.net",
+              "url": "https://sharks.ucoz.net/forum/15-83-14902-16-1374123194",
+              "description": "http://indimetra.ru/ Хотелось бы, чтобы и быстро и качественно и не очень дорого! Ужас, сколько требований! Z3p48VLVi1h, Дата: Четверг, 18.07.2013, 11:53 ..."
+            }
+          ]
+        },
+        {
+          "name": "\"IndiMetra\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 25,
+          "checkUrl": "https://www.google.com/search?q=%22IndiMetra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:38 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Publicación de Diego Arnanz Lozano",
+              "domain": "es.linkedin.com",
+              "url": "https://es.linkedin.com/posts/diegodev96_hoy-quiero-presentar-indimetra-el-proyecto-activity-7336305323760046080-aCd3",
+              "description": "Indimetra nace como una alternativa para dar voz y espacio al cine independiente, especialmente a cortometrajes que muchas veces quedan ocultos ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "DiegoDev diegoarnanz-maker",
+              "domain": "github.com",
+              "url": "https://github.com/diegoarnanz-maker",
+              "description": "Creator of Indimetra — a smart platform for indie short films. ... Incluye autenticación JWT, gestión de usuarios, proyectos, logros, notificac… Java. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Заказали систему отопления в частный дом - Куплю/продам ...",
+              "domain": "forum.l2r.ru",
+              "url": "https://forum.l2r.ru/index.php?/topic/77354-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D0%B8-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%83-%D0%BE%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2-%D1%87%D0%B0%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BE%D0%BC/",
+              "description": "Так как хотим жить в нем круглогодично, озаботились установкой отопления. Заказали в строительной компании http://indimetra.ru/. Не так уж и дорого, зато ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Канализация для састного домика - valera_2536 | Ответы Mail",
+              "domain": "otvet.mail.ru",
+              "url": "https://otvet.mail.ru/question/78508305",
+              "description": "... . . http://indimetra.ru. Источник: <noindex><a rel=\"nofollow\" href=\"http://indimetra.ru\" target=\"_blank\">http://indimetra.ru</a></noindex>. 00. Ответить."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Заказали систему отопления в частный дом - konturstroy",
+              "domain": "www.konturstroy.ru",
+              "url": "http://www.konturstroy.ru/forums/viewtopic.php?t=1588",
+              "description": "Так как хотим жить в нем круглогодично, озаботились установкой отопления. Заказали в строительной компании http://indimetra.ru/ Не так уж и дорого, зато ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Wszystko o jail + Komendy - Minecraft - Poradniki",
+              "domain": "www.mpcforum.pl",
+              "url": "https://www.mpcforum.pl/topic/591858-wszystko-o-jail-komendy/",
+              "description": "Mar 26, 2012 — Так как хотим жить в нем круглогодично, озаботились установкой отопления. Заказали в строительной компании http://indimetra.ru/. Не так уж и ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Diego Arnanz Lozano - Fullstack Developer | Spring Boot, . ...",
+              "domain": "es.linkedin.com",
+              "url": "https://es.linkedin.com/in/diegodev96",
+              "description": "En el proyecto Indimetra desarrollé una API segura y modular con lógica de roles, filtros y soft delete. En el entorno profesional, formé parte del equipo ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Скидка 40% Распродажа Кондиционеры DAIKIN",
+              "domain": "www.shveller.ru",
+              "url": "http://www.shveller.ru/ob482118.html",
+              "description": "8 (964) 784-88-44. E-mail: Написать письмо. Сайт: http://indimetra.ru/ << Назад. Другие объявления из этой категории: Куплю УЧК 1220, УЧК 1420 · Продаем ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Untitled",
+              "domain": "sharks.ucoz.net",
+              "url": "https://sharks.ucoz.net/forum/15-83-14902-16-1374123194",
+              "description": "http://indimetra.ru/ Хотелось бы, чтобы и быстро и качественно и не очень дорого! Ужас, сколько требований! Z3p48VLVi1h, Дата: Четверг, 18.07.2013, 11:53 ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"LexiMetra\"",
+      "markets": [
+        {
+          "name": "\"LexiMetra\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 6,
+          "checkUrl": "https://www.google.com/search?q=%22LexiMetra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:16 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Evaluación del Test CUMANES en Niños | PDF | Aprendizaje",
+              "domain": "de.scribd.com",
+              "url": "https://de.scribd.com/doc/244510972/TEST-CUMANES-txt",
+              "description": "- Leximetra (Comprensin y velocidad lectoras) - Escritura Audiognsica - Visopercepcin - Funcin ejecutiva (tiempo y errores) - Memoria Verbal - Memoria ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Evaluación del Test CUMANES en Niños | PDF | Aprendizaje",
+              "domain": "ru.scribd.com",
+              "url": "https://ru.scribd.com/doc/244510972/TEST-CUMANES-txt",
+              "description": "- Leximetra (Comprensin y velocidad lectoras) - Escritura Audiognsica - Visopercepcin - Funcin ejecutiva (tiempo y errores) - Memoria Verbal - Memoria Visual - ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Fluidez Verbal y Funciones Ejecutivas | PDF",
+              "domain": "es.scribd.com",
+              "url": "https://es.scribd.com/presentation/280341368/CLASE-de-Neuropsicologia-y-Fluidez-Verbal",
+              "description": "LEXIMETRA. FLUIDEZ VERBAL La generacin verbal se considera una funcin ejecutiva que se evala mediante pruebas de fluidez que piden la produccin de palabras ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Puntuaciones Bajas en CUMANES: Análisis | PDF",
+              "domain": "es.scribd.com",
+              "url": "https://es.scribd.com/presentation/332611081/cumanes",
+              "description": "Leximetra zonas PRERROLNDICAS Y. POSTROLANDICAS del hemisferio Izquierdo retraso lector o la existencia de un cuadro dislxico. HEMISFERIO IZQUIERDO."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Neuroeducación para Educadores - Niripil | PDF",
+              "domain": "es.scribd.com",
+              "url": "https://es.scribd.com/document/481873093/Neuroeducacion-para-educadores-Niripil",
+              "description": "... leximetra esta ténica que permite afirmar, de man objetiva,cuantitative, ef grado dedifteultadlectoa ene racidn con la poblaciéa normal. La aplicacin de est ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Cumanes PDF",
+              "domain": "www.scribd.com",
+              "url": "https://www.scribd.com/document/469216566/CUMANES-pdf",
+              "description": "... Leximetra las de Lateralidad, yen al célculo del IDN. Una vez disponga de las puntuaciones de 2 célculo: transformacién de cada prueba deberd realizar el ..."
+            }
+          ]
+        },
+        {
+          "name": "\"LexiMetra\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 6,
+          "checkUrl": "https://www.google.com/search?q=%22LexiMetra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:29 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Evaluación del Test CUMANES en Niños | PDF | Aprendizaje",
+              "domain": "ru.scribd.com",
+              "url": "https://ru.scribd.com/doc/244510972/TEST-CUMANES-txt",
+              "description": "- Leximetra (Comprensin y velocidad lectoras) - Escritura Audiognsica - Visopercepcin - Funcin ejecutiva (tiempo y errores) - Memoria Verbal - Memoria Visual - ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Evaluación del Test CUMANES en Niños | PDF | Aprendizaje",
+              "domain": "de.scribd.com",
+              "url": "https://de.scribd.com/doc/244510972/TEST-CUMANES-txt",
+              "description": "- Leximetra (Comprensin y velocidad lectoras) - Escritura Audiognsica - Visopercepcin - Funcin ejecutiva (tiempo y errores) - Memoria Verbal - Memoria ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Puntuaciones Bajas en CUMANES: Análisis | PDF",
+              "domain": "es.scribd.com",
+              "url": "https://es.scribd.com/presentation/332611081/cumanes",
+              "description": "Leximetra zonas PRERROLNDICAS Y. POSTROLANDICAS del hemisferio Izquierdo retraso lector o la existencia de un cuadro dislxico. HEMISFERIO IZQUIERDO. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Fluidez Verbal y Funciones Ejecutivas | PDF",
+              "domain": "es.scribd.com",
+              "url": "https://es.scribd.com/presentation/280341368/CLASE-de-Neuropsicologia-y-Fluidez-Verbal",
+              "description": "LEXIMETRA. FLUIDEZ VERBAL La generacin verbal se considera una funcin ejecutiva que se evala mediante pruebas de fluidez que piden la produccin de palabras ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Neuroeducación para Educadores - Niripil | PDF",
+              "domain": "es.scribd.com",
+              "url": "https://es.scribd.com/document/481873093/Neuroeducacion-para-educadores-Niripil",
+              "description": "... leximetra esta ténica que permite afirmar, de man objetiva,cuantitative, ef grado dedifteultadlectoa ene racidn con la poblaciéa normal. La aplicacin de est ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Cumanes PDF",
+              "domain": "www.scribd.com",
+              "url": "https://www.scribd.com/document/469216566/CUMANES-pdf",
+              "description": "... Leximetra las de Lateralidad, yen al célculo del IDN. Una vez disponga de las puntuaciones de 2 célculo: transformacién de cada prueba deberd realizar el ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Metriciva\"",
+      "markets": [
+        {
+          "name": "\"Metriciva\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 7,
+          "checkUrl": "https://www.google.com/search?q=%22Metriciva%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:36 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "About - metriciva",
+              "domain": "metriciva.company",
+              "url": "https://metriciva.company/about.php",
+              "description": "Metriciva est une agence experte en automatisation marketing destinée aux entreprises SaaS. · Soutenir votre réussite · Engagement et innovation."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "域名metriciva.company的whois信息_whois查询-阿里云万网",
+              "domain": "wanwang.aliyun.com",
+              "url": "https://wanwang.aliyun.com/whois/metriciva.company",
+              "description": "域名metriciva.company的whois信息展示了当前域名在阿里云万网的whois查询情况，在这里，您可以了解一个域名的注册信息、所有者、注册商、注册日期、过期日期、域名 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "metriciva",
+              "domain": "www.metriciva.company",
+              "url": "https://www.metriciva.company/",
+              "description": "Metriciva est une agence experte en automatisation marketing pour les entreprises SaaS. Chez Metriciva, nous proposons des services d'automatisation ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Conditions d'utilisation - metriciva",
+              "domain": "www.metriciva.company",
+              "url": "https://www.metriciva.company/conditions-dutilisation.php",
+              "description": "Le service et son contenu original, ses fonctionnalités et sa performance sont et resteront la propriété exclusive de metriciva.company et de ses licenciés. Le ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Services - metriciva",
+              "domain": "metriciva.company",
+              "url": "https://metriciva.company/services.php",
+              "description": "vor 7 Tagen — Avec Metriciva, vous ne serez jamais seul dans votre parcours vers l'excellence. Rejoignez-nous. Réinventez dès aujourd'hui votre stratégie ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Politique de cookies - metriciva",
+              "domain": "www.metriciva.company",
+              "url": "https://www.metriciva.company/politique-de-cookies.php",
+              "description": "Les cookies améliorent l'expérience utilisateur en se souvenant de vos préférences et en permettant certaines fonctionnalités. Lorsque vous visitez metriciva."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Politique de confidentialité - metriciva",
+              "domain": "metriciva.company",
+              "url": "https://metriciva.company/politique-de-confidentialite.php",
+              "description": "Politique de confidentialité. Chez metriciva.company, nous nous engageons à protéger votre vie privée et à assurer la sécurité de vos informations personnelles."
+            }
+          ]
+        },
+        {
+          "name": "\"Metriciva\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 8,
+          "checkUrl": "https://www.google.com/search?q=%22Metriciva%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:41 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "About - metriciva",
+              "domain": "metriciva.company",
+              "url": "https://metriciva.company/about.php",
+              "description": "Metriciva est une agence experte en automatisation marketing destinée aux entreprises SaaS. · Soutenir votre réussite · Engagement et innovation. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "域名metriciva.company的whois信息_whois查询-阿里云万网",
+              "domain": "wanwang.aliyun.com",
+              "url": "https://wanwang.aliyun.com/whois/metriciva.company",
+              "description": "域名metriciva.company的whois信息展示了当前域名在阿里云万网的whois查询情况，在这里，您可以了解一个域名的注册信息、所有者、注册商、注册日期、过期日期、域名 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "metriciva",
+              "domain": "www.metriciva.company",
+              "url": "https://www.metriciva.company/",
+              "description": "Metriciva est une agence experte en automatisation marketing pour les entreprises SaaS. Chez Metriciva, nous proposons des services d'automatisation ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Conditions d'utilisation - metriciva",
+              "domain": "metriciva.company",
+              "url": "https://metriciva.company/conditions-dutilisation.php",
+              "description": "Bienvenue sur metriciva.company. Les présentes Conditions d'Utilisation (« Conditions ») régissent votre utilisation de notre site web, de nos services et ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Services - metriciva",
+              "domain": "metriciva.company",
+              "url": "https://metriciva.company/services.php",
+              "description": "7 days ago — Avec Metriciva, vous ne serez jamais seul dans votre parcours vers l'excellence. Rejoignez-nous. Réinventez dès aujourd'hui votre stratégie ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Contact - metriciva",
+              "domain": "www.metriciva.company",
+              "url": "https://www.metriciva.company/contact.php",
+              "description": "Prenez contact avec Metriciva pour vos besoins en marketing ; 01. Adresse. 58 Av. de la Morlière, 44700 Orvault, France ; 02. Appelez-nous. +33240948411 ; 03. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Politique de confidentialité - metriciva",
+              "domain": "metriciva.company",
+              "url": "https://metriciva.company/politique-de-confidentialite.php",
+              "description": "Politique de confidentialité. Chez metriciva.company, nous nous engageons à protéger votre vie privée et à assurer la sécurité de vos informations personnelles. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Politique de cookies - metriciva",
+              "domain": "www.metriciva.company",
+              "url": "https://www.metriciva.company/politique-de-cookies.php",
+              "description": "Les cookies améliorent l'expérience utilisateur en se souvenant de vos préférences et en permettant certaines fonctionnalités. Lorsque vous visitez metriciva. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Noeora\"",
+      "markets": [
+        {
+          "name": "\"Noeora\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Novora\"",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 338000,
+          "checkUrl": "https://www.google.com/search?q=%22Noeora%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:32 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Novora.at",
+              "domain": "www.novora.at",
+              "url": "https://www.novora.at/",
+              "description": "Bis zu 20 % beim Autoimport nach Österreich sparen. NOVORA begleitet Sie von der Suche bis zur Zulassung – einfach, sicher und transparent. Jetzt starten."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Novora | Activewear of Scrubs",
+              "domain": "getnovora.com",
+              "url": "https://getnovora.com/?srsltid=AfmBOoplZ1NA_PqKOZUA9o29NBr8rKZfndC8MTV-bqmC59xT-BptC3Sj",
+              "description": "Unlock Peak Performance in our scrubs, lab coats, and scrub caps. Novora scrubs are engineered with our proprietary innovative fabrics that offer unmatched ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "NOVORA (@wunschauto)",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/wunschauto/?locale=de_DE",
+              "description": "Die Auswahl reicht vom Premium-SUV bis zum frechen City-Flitzer. Den Überblick über die heißesten E-Newcomer findet ihr auf unserem Blog: https://www.novora. at ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Novora Solutions",
+              "domain": "novora-solutions.de",
+              "url": "https://novora-solutions.de/",
+              "description": "Aus der Region. Persönlich für Sie da. ... Novora Solutions steht für direkte Kommunikation, kurze Entscheidungswege und Lösungen, die im Alltag funktionieren."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Novora The Label",
+              "domain": "novorathelabel.com",
+              "url": "https://novorathelabel.com/en-au",
+              "description": "Shop Novora The Label — Australia's destination for women's fashion: maxi, midi and mini dresses, elegant evening styles, chic jumpsuits, co-ord sets and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Novora: Herkunft und Bedeutung des Vornamens",
+              "domain": "www.ancestry.com",
+              "url": "https://www.ancestry.com/first-name-meaning/novora?geo-lang=de-XX",
+              "description": "Unbekannt, möglicherweise slawisch. Bedeutung. Neuer Ort oder neues Licht. Der Name \"Novora\" ist relativ selten und weist keine klar definierte Herkunft ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "NOVORA Car Import GmbH",
+              "domain": "at.linkedin.com",
+              "url": "https://at.linkedin.com/company/novora-car-import",
+              "description": "Novora macht den Import von Fahrzeugen aus Deutschland und Europa nach Österreich einfach und stressfrei. Mit maßgeschneiderten Lösungen, von der ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Novora Car Import GmbH in St. Lorenz",
+              "domain": "www.firmenabc.at",
+              "url": "https://www.firmenabc.at/novora-car-import-gmbh_IjQN",
+              "description": "Novora Car Import GmbH in St. Lorenz. Informationen zur Firmenstruktur. Edlweg 10 5310 St. Lorenz. T:0676 7613190. M:info@novora.at. W:www.novora.at ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Autoimport aus Deutschland : r/Austria",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Austria/comments/17qrpd6/autoimport_aus_deutschland/",
+              "description": "Ansonsten besteht auch die Möglichkeit, selbst einen Prüfer zu schicken (organisiert auch novora), der ein aktuelles Gutachten erstellt."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Novora Car Import GmbH",
+              "domain": "www.wirtschaftszeit.at",
+              "url": "https://www.wirtschaftszeit.at/firmen/novora-car-import-gmbh/",
+              "description": "Novora Car Import GmbH. Ochsenharing 16, 5163 Mattsee Österreich info@novora.at. Alle Artikel über Novora Car Import GmbH ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Noeora\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Neora\"",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 0,
+          "checkUrl": "https://www.google.com/search?q=%22Noeora%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:34 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Neora | Exclusive Age-Defying Skincare & Wellness",
+              "domain": "www.neora.com",
+              "url": "https://www.neora.com/us/en/?srsltid=AfmBOorkUERVmf09-v7rXw1tSpK_icGIG7W17rE_nJ5qbfeIPTeS-Pbm",
+              "description": "Neora offers exclusive age-defying skincare and wellness products with patented ingredients to help people look and feel their best."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Neora (@NeoraOfficial)",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/NeoraOfficial/",
+              "description": "At Neora, clean beauty meets total wellness We create science-backed skincare, hair, and wellness products that deliver Real Results - inside and out. 󱙶. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Neora",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/officialneora",
+              "description": "Hello we are Neora- where beauty meets wellness for holistic well-being. We believe that all beauty & wellness should be clean + results-driven. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "FTC alleges Neora, formerly known as Nerium, operates ...",
+              "domain": "www.ftc.gov",
+              "url": "https://www.ftc.gov/business-guidance/blog/2019/11/ftc-alleges-neora-formerly-known-nerium-operates-illegal-pyramid-scheme",
+              "description": "Nov 4, 2019 — The FTC alleges that Neora, an international multi-level marketing (MLM) company that sells dietary supplements, skin creams, and other products ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Neora (@official_neora) • Instagram photos and videos",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/official_neora/?hl=en",
+              "description": "Neora : Beauty meets well-being Feel, look, and live your best life with clean skincare ingredients and holistic products crafted for #RealResults. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Read Customer Service Reviews of neora.com",
+              "domain": "www.trustpilot.com",
+              "url": "https://www.trustpilot.com/review/neora.com",
+              "description": "Join the 42 people who've already reviewed neora.com. Your experience can help others make better choices."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Neora",
+              "domain": "www.amazon.com",
+              "url": "https://www.amazon.com/neora/s?k=neora",
+              "description": "Neora's line features targeted solutions to revitalize skin, boost cognitive function, and support well-being."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Neora Smooth Candelsticks Legacy",
+              "domain": "hazorfim.com",
+              "url": "https://hazorfim.com/categories/candlesticks/30061-0225.html?srsltid=AfmBOoppo7O-25F1dkoPuEXUXC7kNZVe2AkGtxqRq5Tpqb8pIEYKo8_K",
+              "description": "Neora Smooth Candelsticks Legacy handmade from with pure silver. See a selection of silver models and designs. Purchase on our website today with a lifetime ..."
+            },
+            {
+              "type": "knowledge_graph",
+              "rank": 1,
+              "title": "neora",
+              "domain": null,
+              "url": null,
+              "description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Skopetra\"",
+      "markets": [
+        {
+          "name": "\"Skopetra\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 30,
+          "checkUrl": "https://www.google.com/search?q=%22Skopetra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:18 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Profil uživatelky skopetra",
+              "domain": "www.modrykonik.cz",
+              "url": "https://www.modrykonik.cz/blog/skopetra/?page=1",
+              "description": "Skutečný život. Reálné zkušenosti. avatar. skopetra. Příspěvky Používám. Příspěvky pro registrované uživatele se ti nezobrazují. Zaregistruj se nebo se přihlaš."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "SkoPetra (petraskorusov) - 프로필",
+              "domain": "kr.pinterest.com",
+              "url": "https://kr.pinterest.com/petraskorusov/",
+              "description": "전 세계에서 아이디어를 가장 많이 모아 놓은 Pinterest에서 SkoPetra(petraskorusov) 님이 무엇을 발견했는지 살펴보세요."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Profil uživatelky skopetra",
+              "domain": "www.modrykonik.cz",
+              "url": "https://www.modrykonik.cz/blog/skopetra/products/",
+              "description": "Reálné zkušenosti. icon · avatar. skopetra. Příspěvky Používám. Pomoz maminkám s výběrem správné výbavičky. sticker. Přidej si do profilu svůj TOP výběr a ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Nicolas Anelka and the Quenelle Gesture: A Study of ...",
+              "domain": "www.tandfonline.com",
+              "url": "https://www.tandfonline.com/doi/abs/10.1080/09523367.2017.1359161",
+              "description": "von J Ervine · 2017 · Zitiert von: 8 — Azhar, Nicolas Anelka, 118; Anelka: Inclassable, Directed by Bruno Skopetra. Paris: TF1 Vidéo, 2008. 15. Daniel Riolo, Racaille Football ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Smajtuha din?! 😅",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/Gwida.mt/posts/smajtuha-din-/3003948686322553/",
+              "description": "long time no see... Gaetano Gaetano well done... 6y · 4 likes. Ismene Fenech. Xi skopetra dik....... 6y · 1 like. Tiziana Micallef. Xanda hazijn ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "(PDF) Nicolas Anelka and the Quenelle Gesture: A Study of ...",
+              "domain": "www.researchgate.net",
+              "url": "https://www.researchgate.net/publication/327208352_Nicolas_Anelka_and_the_Quenelle_Gesture_A_Study_of_the_Complexities_of_Protest_in_Contemporary_Football",
+              "description": "Azhar, Nicolas Anelka, 118; Anelka: Inclassable, Directed by Bruno Skopetra. Paris: TF1 Vidéo, 2008. 15. Daniel Riolo. Racaille Football Club: Fantasmes et ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "9 nápadů na nástěnce HEDVÁBÍ | hedvábí, malba, malování",
+              "domain": "kr.pinterest.com",
+              "url": "https://kr.pinterest.com/petraskorusov/hedv%C3%A1b%C3%AD/",
+              "description": "HEDVÁBÍ. 핀 9개·1년. S. 소유자: SkoPetra · Large Silk Scarf Handpainted, Mothers Day Gift, Green Silk Scarf, ETSY ASAP,. Silk Scarf Handpainted, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "No Dia da Cerveja, a combinação perfeita vai além do copo",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/frigo.br/p/DbvmM2lxQfj/",
+              "description": "REDONDA BECEITA ORIGINAL детАрсС SABOR AMSTERDAN ВТЕХ SUNDADA EEYELARIA 1853 ВОНЕ PETROPOLIS SKOPETRA SKQI PETRA BOHEI PURO MALT ORIGEN ZEROZERO CERVEJA ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "H.1053-M.1643 Tarihli 8428 No'lu Cizye Defteri' ...",
+              "domain": "www.historystudies.net",
+              "url": "https://www.historystudies.net/dergi/tar2015124c43a.pdf",
+              "description": "von R DÜNDAR · Zitiert von: 9 — 14 48 Skopetra. 20. 22. Aya Pavlo. 10 49 Finici. 13. 23. Celaki. 15 50 Zopi. 7. 24. Managrulli. 30 51 Finikarya. 3. 25. Argade. 10 52 Aya Todorin. 17. 26."
+            }
+          ]
+        },
+        {
+          "name": "\"Skopetra\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 121,
+          "checkUrl": "https://www.google.com/search?q=%22Skopetra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:20 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "SkoPetra (petraskorusov) - 프로필",
+              "domain": "kr.pinterest.com",
+              "url": "https://kr.pinterest.com/petraskorusov/",
+              "description": "전 세계에서 아이디어를 가장 많이 모아 놓은 Pinterest에서 SkoPetra(petraskorusov) 님이 무엇을 발견했는지 살펴보세요."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Profil uživatelky skopetra",
+              "domain": "www.modrykonik.cz",
+              "url": "https://www.modrykonik.cz/blog/skopetra/?page=1",
+              "description": "Skutečný život. Reálné zkušenosti. avatar. skopetra. Příspěvky Používám. Příspěvky pro registrované uživatele se ti nezobrazují. Zaregistruj se nebo se přihlaš. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Nicolas Anelka and the Quenelle Gesture: A Study of ...",
+              "domain": "www.tandfonline.com",
+              "url": "https://www.tandfonline.com/doi/abs/10.1080/09523367.2017.1359161",
+              "description": "by J Ervine · 2017 · Cited by 8 — Azhar, Nicolas Anelka, 118; Anelka: Inclassable, Directed by Bruno Skopetra. Paris: TF1 Vidéo, 2008. 15. Daniel Riolo, Racaille Football ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Smajtuha din?! 😅",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/Gwida.mt/posts/smajtuha-din-/3003948686322553/",
+              "description": "long time no see... Gaetano Gaetano well done... 6y · 4 likes. Ismene Fenech. Xi skopetra dik....... 6y · 1 like. Tiziana Micallef. Xanda hazijn ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Profil uživatelky skopetra",
+              "domain": "www.modrykonik.cz",
+              "url": "https://www.modrykonik.cz/blog/skopetra/products/",
+              "description": "Reálné zkušenosti. icon · avatar. skopetra. Příspěvky Používám. Pomoz maminkám s výběrem správné výbavičky. sticker. Přidej si do profilu svůj TOP výběr a ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "9 nápadů na nástěnce HEDVÁBÍ | hedvábí, malba, malování",
+              "domain": "kr.pinterest.com",
+              "url": "https://kr.pinterest.com/petraskorusov/hedv%C3%A1b%C3%AD/",
+              "description": "HEDVÁBÍ. 핀 9개·1년. S. 소유자: SkoPetra · Large Silk Scarf Handpainted, Mothers Day Gift, Green Silk Scarf, ETSY ASAP,. Silk Scarf Handpainted, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "No Dia da Cerveja, a combinação perfeita vai além do copo",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/frigo.br/p/DbvmM2lxQfj/",
+              "description": "REDONDA BECEITA ORIGINAL детАрсС SABOR AMSTERDAN ВТЕХ SUNDADA EEYELARIA 1853 ВОНЕ PETROPOLIS SKOPETRA SKQI PETRA BOHEI PURO MALT ORIGEN ZEROZERO CERVEJA ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "H.1053-M.1643 Tarihli 8428 No'lu Cizye Defteri' ...",
+              "domain": "www.historystudies.net",
+              "url": "https://www.historystudies.net/dergi/tar2015124c43a.pdf",
+              "description": "by R DÜNDAR · Cited by 9 — 14 48 Skopetra. 20. 22. Aya Pavlo. 10 49 Finici. 13. 23. Celaki. 15 50 Zopi. 7. 24. Managrulli. 30 51 Finikarya. 3. 25. Argade. 10 52 Aya Todorin. 17. 26. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Turkish Studies",
+              "domain": "makale.isam.org.tr",
+              "url": "https://makale.isam.org.tr/bitstreams/25e1f6f4-319a-418b-8dbc-3ea032e1aa00/download",
+              "description": "Sep 20, 2016 — Skopetra. -. 6. 7. 285. Aya Kostantino. -. 9. 5. 345. Kalohoryo. 5. 22. 3. 1005. Aya Pavlo. 4. 16. 8. 840. Aya Todur. 1. 21. 8. 810. Aya Yani. 1. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "H. 1271 (1854-1855) Tarihli Kıbrıs Cizye Muhasebe Defteri",
+              "domain": "www.academia.edu",
+              "url": "https://www.academia.edu/96815009/H_1271_1854_1855_Tarihli_K%C4%B1br%C4%B1s_Cizye_Muhasebe_Defteri",
+              "description": "... Skopetra - 6 7 285 Aya Kostantino - 9 5 345 Kalohoryo 5 22 3 1005 Aya Pavlo 4 16 8 840 Aya Todur 1 21 8 810 Aya Yani 1 22 15 945 Kado Mili 2 7 2 360 Ağro 4 ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"TraceTra\"",
+      "markets": [
+        {
+          "name": "\"TraceTra\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 657,
+          "checkUrl": "https://www.google.com/search?q=%22TraceTra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:22 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "[LIFKOME] Leather Tracetra Brown Watch Strap Tray Wrist ...",
+              "domain": "www.amazon.co.jp",
+              "url": "https://www.amazon.co.jp/-/en/LIFKOME-Leather-Tracetra-Wristband-Replacement/dp/B0DWCSFM25",
+              "description": "[LIFKOME] Leather Tracetra Brown Watch Strap Tray Wrist Strap Release Watch Band Tray Watch Wristband Replacement Watch Holder Referee Top Layer Cowhide ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Profile for uQuizzer @tracetra",
+              "domain": "uquiz.com",
+              "url": "https://uquiz.com/u/tracetra",
+              "description": "tracetra. Follow. Block user. Takers. 13. Quizzes. 1. Followers. 1. Shares. 0. Please ... tracetra. Take later. 13 Takers Scored Quiz. 13 Takers. trace bff quiz."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Något är fel med burstskott och tracetra : r/GlobalOffensive",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/GlobalOffensive/comments/195kbv7/something_is_off_with_burst_shots_and_tracers/?tl=sv",
+              "description": "Något är fel med burstskott och tracetra. Discussion. Efter att ha slitet i några månader i CS2 känner jag att jag har vant mig vid tappandet och sprayandet ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Ladt heavy session before the next comp. Big thank you to little ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/eric.stafford.566148/posts/ladt-heavy-session-before-the-next-comp-big-thank-you-to-little-brother-tracetra/4039453082867596/",
+              "description": "Ladt heavy session before the next comp. Big thank you to little brother @trace.trains for helping me with all the junk that comes with pulling in a suit..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Guess I'll see how things go in just a little over a month for ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/eric.stafford.566148/posts/guess-ill-see-how-things-go-in-just-a-little-over-a-month-for-nationals-tracetra/3807218136091093/",
+              "description": "Guess I'll see how things go in just a little over a month for Nationals. @trace.trains let's give it hell broski. #strongman #gymmotivation #strengthtraining # ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "【カラオケ女性キー上げ+4】TraceTrace / King & Prince【ガイド ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=m73rWP6cYgs",
+              "description": "【カラオケガイドメロディあり】 • 【カラオケ】TraceTrace / Kin... 【オフボーカルキー上げ+2】 • 【オフボーカルキー上げ+2】TraceTra..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "King & Prince 10th Single 'TraceTrace' Regular, Limited ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=n_munokK0v8",
+              "description": "• King & Prince「TraceTra... King & Prince 'Trace Trace' dance version: • King & Prince「TraceTra... more details about kinpuri's 10th ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Bienvenue chez Maofit 🌟 Initiation natation & robotique et d ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61572429855656/videos/bienvenue-chez-maofit-initiation-natation-robotique-et-dautres-activit%C3%A9s-%C3%A0-d%C3%A9cou/2358349924618860/",
+              "description": "Bienvenue chez Maofit Initiation natation & robotique et d'autres activités à découvrir bientôt ! Nos visiteurs de Korba, Grombalia et ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "K-S-Trade Case for Panasonic Lumix DMC-FZ1000 ...",
+              "domain": "www.amazon.it",
+              "url": "https://www.amazon.it/-/en/K-S-Trade-Panasonic-Lumix-DMC-FZ1000-Compatible/dp/B07312MWS6",
+              "description": "With 1 cm thick foam outer material and tracetra. B) Shoulder strap with padding. For Panasonic Lumix DMC-FZ1000: PHOTO BATHROOM DESIGN: Main Pocket: 10cm x ..."
+            }
+          ]
+        },
+        {
+          "name": "\"TraceTra\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 590,
+          "checkUrl": "https://www.google.com/search?q=%22TraceTra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:23 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Profile for uQuizzer @tracetra",
+              "domain": "uquiz.com",
+              "url": "https://uquiz.com/u/tracetra",
+              "description": "tracetra. Follow. Block user. Takers. 13. Quizzes. 1. Followers. 1. Shares. 0. Please ... tracetra. Take later. 13 Takers Scored Quiz. 13 Takers. trace bff quiz."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "[LIFKOME] Leather Tracetra Brown Watch Strap Tray Wrist ...",
+              "domain": "www.amazon.co.jp",
+              "url": "https://www.amazon.co.jp/-/en/LIFKOME-Leather-Tracetra-Wristband-Replacement/dp/B0DWCSFM25",
+              "description": "[LIFKOME] Leather Tracetra Brown Watch Strap Tray Wrist Strap Release Watch Band Tray Watch Wristband Replacement Watch Holder Referee Top Layer Cowhide ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Ladt heavy session before the next comp. Big thank you to little ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/eric.stafford.566148/posts/ladt-heavy-session-before-the-next-comp-big-thank-you-to-little-brother-tracetra/4039453082867596/",
+              "description": "Ladt heavy session before the next comp. Big thank you to little brother @trace.trains for helping me with all the junk that comes with pulling in a suit..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Guess I'll see how things go in just a little over a month for ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/eric.stafford.566148/posts/guess-ill-see-how-things-go-in-just-a-little-over-a-month-for-nationals-tracetra/3807218136091093/",
+              "description": "Guess I'll see how things go in just a little over a month for Nationals. @trace.trains let's give it hell broski. #strongman #gymmotivation #strengthtraining # ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "King & Prince「TraceTrace」YouTube Edit (REACTION)",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=WcxY2rBg0I0",
+              "description": "CHECK OUT MY REACTION TO - King & Prince「TraceTrace」YouTube Edit Link to Original Video: • King & Prince「TraceTra... Please Like, Comment, Share, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "King&Prince アルバム シングル ・Made in 初回限定A・TraceTra ...",
+              "domain": "360logistica.com",
+              "url": "https://360logistica.com/?product-details/Z36241155028",
+              "description": "HOT ! King&Prince アルバム シングル ・Made in 初回限定A・TraceTra. ※360logistica.com 限定モデル YouTuberの皆様に商品の使い心地などをご紹介いただいております！"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Något är fel med burstskott och tracetra : r/GlobalOffensive",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/GlobalOffensive/comments/195kbv7/something_is_off_with_burst_shots_and_tracers/?tl=sv",
+              "description": "Något är fel med burstskott och tracetra. Discussion. Efter att ha slitet i några månader i CS2 känner jag att jag har vant mig vid tappandet och sprayandet ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Shares by uQuizzer @tracetra",
+              "domain": "uquiz.com",
+              "url": "https://uquiz.com/u/tracetra/shares",
+              "description": "User tracetra hasn't shared anything yet. Please log in. This action requires a logged in account with email verified. Please log in or register. Close."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "King & Prince 10th Single 'TraceTrace' Regular, Limited ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=n_munokK0v8",
+              "description": "• King & Prince「TraceTra... King & Prince 'Trace Trace' dance version: • King & Prince「TraceTra... more details about kinpuri's 10th ... Read more"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

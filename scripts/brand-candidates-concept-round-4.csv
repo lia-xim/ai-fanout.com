@@ -1,0 +1,241 @@
+name,family,meaning
+Indexmetry,technical,index measurement
+Serpnext,technical,next SERP action
+Relcanon,technical,canonical relationships
+Querydelta,technical,query change
+Hrefmesh,technical,link graph
+Hrefscope,technical,link visibility
+Rankplane,technical,ranking control plane
+Crawlkernel,technical,crawl engine core
+Searchdelta,change,search change
+Rankdelta,change,ranking change
+Serpdelta,change,SERP change
+Crawldelta,change,crawl change
+Linkdelta,change,link change
+Auditdelta,change,audit change
+Signaldelta,change,signal change
+Metricdelta,change,metric change
+Queryplane,suite,query control plane
+Searchplane,suite,search control plane
+Serpplane,suite,SERP control plane
+Crawlplane,suite,crawl control plane
+Linkplane,suite,link control plane
+Auditplane,suite,audit control plane
+Signalplane,suite,signal control plane
+Metricplane,suite,metric control plane
+Querykernel,engine,query engine core
+Searchkernel,engine,search engine core
+Serpkernel,engine,SERP engine core
+Rankkernel,engine,ranking engine core
+Linkkernel,engine,link engine core
+Auditkernel,engine,audit engine core
+Signalkernel,engine,signal engine core
+Metrickernel,engine,metric engine core
+Querymesh,graph,query network
+Searchmesh,graph,search network
+Serpmesh,graph,SERP network
+Rankmesh,graph,ranking network
+Crawlmesh,graph,crawl network
+Auditmesh,graph,audit network
+Signalmesh,graph,signal network
+Metricmesh,graph,metric network
+Queryscope,visibility,query visibility
+Searchscope,visibility,search visibility
+Serpscope,visibility,SERP visibility
+Rankscope,visibility,ranking visibility
+Crawlscope,visibility,crawl visibility
+Auditscope,visibility,audit visibility
+Signalscope,visibility,signal visibility
+Metricscope,visibility,metric visibility
+Queryforge,workflow,query workbench
+Searchforge,workflow,search workbench
+Serpforge,workflow,SERP workbench
+Rankforge,workflow,ranking workbench
+Crawlforge,workflow,crawl workbench
+Auditforge,workflow,audit workbench
+Signalforge,workflow,signal workbench
+Metricforge,workflow,metric workbench
+Querypulse,monitoring,query monitoring
+Searchpulse,monitoring,search monitoring
+Serppulse,monitoring,SERP monitoring
+Rankpulse,monitoring,ranking monitoring
+Crawlpulse,monitoring,crawl monitoring
+Auditpulse,monitoring,audit monitoring
+Signalpulse,monitoring,signal monitoring
+Metricpulse,monitoring,metric monitoring
+Querydeck,suite,query command deck
+Searchdeck,suite,search command deck
+Serpdeck,suite,SERP command deck
+Rankdeck,suite,ranking command deck
+Crawldeck,suite,crawl command deck
+Auditdeck,suite,audit command deck
+Signaldeck,suite,signal command deck
+Metricdeck,suite,metric command deck
+Querygrid,data,query data grid
+Searchgrid,data,search data grid
+Serpgrid,data,SERP data grid
+Rankgrid,data,ranking data grid
+Crawlgrid,data,crawl data grid
+Auditgrid,data,audit data grid
+Signalgrid,data,signal data grid
+Metricgrid,data,metric data grid
+Querytrace,evidence,query evidence trail
+Searchtrace,evidence,search evidence trail
+Serptrace,evidence,SERP evidence trail
+Ranktrace,evidence,ranking evidence trail
+Crawltrace,evidence,crawl evidence trail
+Audittrace,evidence,audit evidence trail
+Signaltrace,evidence,signal evidence trail
+Metrictrace,evidence,metric evidence trail
+Queryatlas,suite,query map
+Searchatlas,suite,search map
+Serpatlas,suite,SERP map
+Rankatlas,suite,ranking map
+Crawlatlas,suite,crawl map
+Auditatlas,suite,audit map
+Signalatlas,suite,signal map
+Metricatlas,suite,metric map
+Fetchscope,on-demand,fetched visibility
+Fetchdelta,on-demand,fetched changes
+Fetchmesh,on-demand,fetched network
+Fetchplane,on-demand,fetched control plane
+Fetchforge,on-demand,fetched workflow
+Fetchgrid,on-demand,fetched data
+Fetchtrace,on-demand,fetched evidence
+Fetchpulse,on-demand,fetched monitoring
+Fetchsignal,on-demand,fetched signals
+Fetchmetric,on-demand,fetched metrics
+Fetchrank,on-demand,fetched rankings
+Fetchcrawl,on-demand,fetched crawl
+Fetchquery,on-demand,fetched queries
+Fetchserp,on-demand,fetched SERPs
+Fetchmark,on-demand,fetched benchmark
+Pullscope,on-demand,pulled visibility
+Pullsignal,on-demand,pulled signals
+Pullmetric,on-demand,pulled metrics
+Pulltrace,on-demand,pulled evidence
+Pullrank,on-demand,pulled rankings
+Pullcrawl,on-demand,pulled crawl
+Pullquery,on-demand,pulled queries
+Pullserp,on-demand,pulled SERPs
+Reqscope,on-demand,requested visibility
+Reqsignal,on-demand,requested signals
+Reqmetric,on-demand,requested metrics
+Reqtrace,on-demand,requested evidence
+Reqrank,on-demand,requested rankings
+Reqcrawl,on-demand,requested crawl
+Reqquery,on-demand,requested queries
+Reqserp,on-demand,requested SERPs
+Runscope,on-demand,run visibility
+Runsignal,on-demand,run signals
+Runmetric,on-demand,run metrics
+Runtrace,on-demand,run evidence
+Runrank,on-demand,run rankings
+Runcrawl,on-demand,run crawl
+Runquery,on-demand,run queries
+Runserp,on-demand,run SERPs
+Runforge,on-demand,run workflow
+Probegrid,on-demand,probe data grid
+Probelens,on-demand,probe visibility
+Probeforge,on-demand,probe workflow
+Probescope,on-demand,probe visibility
+Probetrace,on-demand,probe evidence
+Proberank,on-demand,probe rankings
+Probecrawl,on-demand,probe crawl
+Probequery,on-demand,probe queries
+Probeserp,on-demand,probe SERPs
+Probemetric,on-demand,probe metrics
+Probesignal,on-demand,probe signals
+Snaprank,on-demand,ranking snapshot
+Snapcrawl,on-demand,crawl snapshot
+Snapquery,on-demand,query snapshot
+Snapserp,on-demand,SERP snapshot
+Snapmetric,on-demand,metric snapshot
+Snapsignal,on-demand,signal snapshot
+Snaptrace,on-demand,evidence snapshot
+Snapgrid,on-demand,data snapshot
+Ondexa,coined,on-demand index
+Ondexis,coined,on-demand analysis
+Ondara,coined,on-demand data
+Ondrix,coined,on-demand metrics
+Onmetra,coined,on-demand measurement
+Onscope,coined,on-demand visibility
+Ontrace,coined,on-demand evidence
+Onsignal,coined,on-demand signal
+Onquery,coined,on-demand query
+Oncrawl,coined,on-demand crawl
+Onrank,coined,on-demand ranking
+Onserp,coined,on-demand SERP
+Quaerix,language,Latin seek
+Quaeron,language,Latin seek
+Quaeryx,language,Latin seek
+Quaerion,language,Latin seek
+Quaerivo,language,Latin seek
+Zetryx,language,Greek seek
+Zetero,language,Greek seek
+Zetrixa,language,Greek seek
+Zetivo,language,Greek seek
+Zetora,language,Greek seek
+Vestigo,language,Latin track
+Vestora,language,Latin track
+Vestoryx,language,Latin track
+Vestriq,language,Latin track
+Vestara,language,Latin track
+Indagor,language,Latin investigate
+Indagra,language,Latin investigate
+Indatrix,language,Latin investigate
+Indavio,language,Latin investigate
+Scrutix,language,Latin inspect
+Scrutera,language,Latin inspect
+Scrutio,language,Latin inspect
+Scruvia,language,Latin inspect
+Heurix,language,Greek discover
+Heurion,language,Greek discover
+Heurivo,language,Greek discover
+Heurora,language,Greek discover
+Evidra,evidence,evidence driven
+Evidon,evidence,evidence on demand
+Eviqor,evidence,evidence intelligence
+Evidyx,evidence,evidence index
+Auditra,audit,audit suite
+Audexa,audit,audit index
+Auditrix,audit,audit matrix
+Audivo,audit,audit visibility
+Audara,audit,audit data
+Metrion,measurement,metric engine
+Metriq,measurement,metric intelligence
+Metrivo,measurement,metric visibility
+Metryon,measurement,metrics on demand
+Metrava,measurement,metric data
+Scopiq,visibility,scope intelligence
+Scopra,visibility,scope platform
+Scopion,visibility,scope engine
+Scoprix,visibility,scope matrix
+Scopivo,visibility,scope visibility
+Signara,signals,signal data
+Signiq,signals,signal intelligence
+Sigmetra,signals,signal metrics
+Traqor,tracking,tracking core
+Tracivo,tracking,tracking visibility
+Traceryx,tracking,tracking matrix
+Trackora,tracking,tracking data
+Crawiq,technical,crawl intelligence
+Crawlio,technical,crawl suite
+Cralyx,technical,crawl analytics
+Crawlix,technical,crawl matrix
+Serpriq,technical,SERP intelligence
+Serpivo,technical,SERP visibility
+Serpyx,technical,SERP index
+Serpara,technical,SERP data
+Seoriq,technical,SEO intelligence
+Seovra,technical,SEO visibility
+Seonix,technical,SEO engine
+Seomesh,technical,SEO network
+Keyscope,keywords,keyword visibility
+Keytrace,keywords,keyword evidence
+Keygraph,keywords,keyword graph
+Keyradar,keywords,keyword monitoring
+Keyforge,keywords,keyword workflow
+Keylens,keywords,keyword visibility
+Keymeter,keywords,keyword measurement
+Keypulse,keywords,keyword monitoring

@@ -1,0 +1,1171 @@
+{
+  "generatedAt": "2026-09-01T17:46:57.059Z",
+  "methodology": {
+    "endpoint": "serp/google/organic/live/advanced",
+    "markets": [
+      {
+        "id": "de",
+        "locationCode": 2276,
+        "languageCode": "de"
+      },
+      {
+        "id": "us",
+        "locationCode": 2840,
+        "languageCode": "en"
+      }
+    ],
+    "depth": 10,
+    "paidAddOns": false,
+    "estimatedCostUsd": 0.028,
+    "actualCostUsd": 0.02600000000000001,
+    "note": "Evidence export only. No automatic score, grade, or recommendation."
+  },
+  "combined": [
+    {
+      "name": "Indicra",
+      "markets": [
+        {
+          "name": "Indicra",
+          "market": "de",
+          "spell": {
+            "keyword": "Indica",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 2420,
+          "checkUrl": "https://www.google.com/search?q=Indicra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:49 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Adinkra",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Adinkra",
+              "description": "Adinkra (selten auch Andinkra) ist die Bezeichnung der in der Elfenbeinküste und in Ghana verwendeten Symbolsprache. Diese wird traditionell in allen ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Adinkra symbols",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Adinkra_symbols",
+              "description": "Adinkra are symbols from the Akan people of Ghana that represent concepts or aphorisms. Adinkra are used extensively in fabrics, logos and pottery."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Indicrafts - A celebration of India's soul. From block printed ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/indicraftssa/videos/indicrafts-a-celebration-of-indias-soul-from-block-printed-dreams-to-handcrafted/24342176315375722/",
+              "description": "From block printed dreams to handcrafted treasures, we bring the magic of Indian festivals, bazaars, and traditions in to your home. At ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "West African Wisdom: Adinkra Symbols & Meanings",
+              "domain": "www.adinkra.org",
+              "url": "http://www.adinkra.org/htmls/adinkra_index.htm",
+              "description": "An illustrated guide to the African symbols called Adinkra used in Ghana, West Africa, with an adinkra index and high-quality adinkra images."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "✨ Indicraft: Your one-stop shop for heartfelt gifts! 💛 From ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DJJn6VXtaYR/",
+              "description": "✨ Indicraft: Your one-stop shop for heartfelt gifts! 💛 From charming bookmarks to meaningful cards, we've got everything to help you express ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Indica Courses - Indica Courses",
+              "domain": "indica.courses",
+              "url": "https://indica.courses/",
+              "description": "We are a hybrid platform for teachers and seekers who share our belief in the transformative power of Indic wisdom. We create and curate online and offline ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "▷ Vorname Indira: Herkunft, Bedeutung & Namenstag",
+              "domain": "www.vorname.com",
+              "url": "https://www.vorname.com/name,Indira.html",
+              "description": "Wortzusammensetzung · indira = die Schönheit, der Glanz (Sanskrit) · indh = funkeln (Italienisch-Sanskritisch). Bedeutung / Übersetzung. Schönheit; die Schöne, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "When our visitors say this, it makes ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61578147190031/videos/when-our-visitors-say-this-it-makes-everything-worth-it-come-experience-tiah-for/1056823993422985/",
+              "description": "When our visitors say this, it makes everything worth it. Come experience TIAH for yourself. 📍 Rangoli – The Metro Art Center, MG Road, ..."
+            }
+          ]
+        },
+        {
+          "name": "Indicra",
+          "market": "us",
+          "spell": {
+            "keyword": "Indica",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 2590,
+          "checkUrl": "https://www.google.com/search?q=Indicra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:52 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Adinkra symbols",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Adinkra_symbols",
+              "description": "Adinkra are symbols from the Akan people of Ghana that represent concepts or aphorisms. Adinkra are used extensively in fabrics, logos and pottery. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "West African Wisdom: Adinkra Symbols & Meanings",
+              "domain": "www.adinkra.org",
+              "url": "http://www.adinkra.org/htmls/adinkra_index.htm",
+              "description": "An illustrated guide to the African symbols called Adinkra used in Ghana, West Africa, with an adinkra index and high-quality adinkra images."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Indicrafts - A celebration of India's soul. From block printed ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/indicraftssa/videos/indicrafts-a-celebration-of-indias-soul-from-block-printed-dreams-to-handcrafted/24342176315375722/",
+              "description": "From block printed dreams to handcrafted treasures, we bring the magic of Indian festivals, bazaars, and traditions in to your home. At ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Adinkra Symbols & Meanings – A Complete Guide",
+              "domain": "www.adinkrasymbols.org",
+              "url": "https://www.adinkrasymbols.org/",
+              "description": "Adinkra are visual symbols that represent concepts, proverbs, and aphorisms. They originated from the Akans of Ghana in the 1700s or before. Back then, they ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Adinkra Symbols | U-M LSA Department of Afroamerican and ...",
+              "domain": "lsa.umich.edu",
+              "url": "https://lsa.umich.edu/daas/engagement/adinkra_symbols.html",
+              "description": "Symbol of providence and the divinity of Mother Earth. This symbol represents the importance of the Earth in sustaining life. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "✨ Indicraft: Your one-stop shop for heartfelt gifts! 💛 From ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DJJn6VXtaYR/",
+              "description": "✨ Indicraft: Your one-stop shop for heartfelt gifts! 💛 From charming bookmarks to meaningful cards, we've got everything to help you express ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Get a 2nd Day FREE",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/UniversalStudiosHollywood/videos/get-a-2nd-day-free/1545555910505390/",
+              "description": "Buy a day and get a second day FREE *. Then have the best day in L.A. twice at Universal Studios Hollywood. Soar and scream."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Adinkra Symbols and Meanings",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=VdkzUdktWTk",
+              "description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IndiMetra",
+      "markets": [
+        {
+          "name": "IndiMetra",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 977,
+          "checkUrl": "https://www.google.com/search?q=IndiMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:35 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Publicación de Diego Arnanz Lozano",
+              "domain": "es.linkedin.com",
+              "url": "https://es.linkedin.com/posts/diegodev96_hoy-quiero-presentar-indimetra-el-proyecto-activity-7336305323760046080-aCd3",
+              "description": "Indimetra nace como una alternativa para dar voz y espacio al cine independiente, especialmente a cortometrajes que muchas veces quedan ocultos ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "How to collect UEM events archive in DIMETRA X-Core",
+              "domain": "support.motorolasolutions.com",
+              "url": "https://support.motorolasolutions.com/s/article/KB0030179?language=fr_CA&region=NA",
+              "description": "20.08.2026 — There are two different options available for the UEM event archives: Either. 1) Downloading via a browser from the UEM ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Indira",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Indira",
+              "description": "Indira ist ein weiblicher Vorname. Herkunft und Bedeutung. Bearbeiten. Indira ist indischer Herkunft (Sanskrit indira) und hat die Bedeutung „Schönheit“, „Glanz ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "𝗗𝗔𝗙 𝗫𝗚+ 𝟰𝟯𝟬 𝗙𝗧 (2024) Dimetra-Holland • ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/DAFFanInternational/photos/%F0%9D%97%97%F0%9D%97%94%F0%9D%97%99-%F0%9D%97%AB%F0%9D%97%9A-%F0%9D%9F%B0%F0%9D%9F%AF%F0%9D%9F%AC-%F0%9D%97%99%F0%9D%97%A7-2024-dimetra-holland-dimetra_holland-the-sixth-xg-in-dimetras-flee/824881863180056/",
+              "description": "They are designed as a direct-mount product, utilizing the original mounting points. Therefore, no modifications are required, making ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Indima | Neukundengewinnung",
+              "domain": "www.indima.de",
+              "url": "https://www.indima.de/",
+              "description": "Als unabhängige Dialogmarketing-Agentur bietet Indima direct alle Lösungen rund um die Adresse. Ob online oder offline, national oder international, B2B oder ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Wir über uns",
+              "domain": "www.india-instruments.de",
+              "url": "https://www.india-instruments.de/wir-ueber-uns.html",
+              "description": "India Instruments wurde 1994 mit dem Ziel gegründet, indische Musikinstrumente von höchster Qualität auch für MusikerInnen in Mitteleuropa verfügbar zu machen."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Indira (English Edition) eBook : Hunter, B. A.",
+              "domain": "www.amazon.de",
+              "url": "https://www.amazon.de/Indira-English-B-Hunter-ebook/dp/B0D35W5SBX",
+              "description": "Settled into her new life and happily married once again, Indira suddenly finds her entire world–and heart–torn apart when Jeremy–now a Canadian commodore, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "India Modern von Herbert J M Ypma | ISBN 978-0-7148- ...",
+              "domain": "www.lehmanns.de",
+              "url": "https://www.lehmanns.de/shop/kunst-musik-theater/497637-9780714836461-india-modern",
+              "description": "India Modern is a visually stunning compilation of modern Indian design and architecture. This beautiful book examines contemporary sub-continental design and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Steuerungslösung - Englisch-Übersetzung",
+              "domain": "www.linguee.de",
+              "url": "https://www.linguee.de/deutsch-englisch/uebersetzung/steuerungsl%C3%B6sung.html",
+              "description": "Viele übersetzte Beispielsätze mit \"Steuerungslösung\" – Englisch-Deutsch Wörterbuch und Suchmaschine für Millionen von Englisch-Übersetzungen."
+            }
+          ]
+        },
+        {
+          "name": "IndiMetra",
+          "market": "us",
+          "spell": {
+            "keyword": "IndiMet",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 98900,
+          "checkUrl": "https://www.google.com/search?q=IndiMetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:35 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "How to collect UEM events archive in DIMETRA X-Core",
+              "domain": "support.motorolasolutions.com",
+              "url": "https://support.motorolasolutions.com/s/article/KB0030179",
+              "description": "Aug 20, 2026 — There are two different options available for the UEM event archives: Either 1) Downloading via a browser from the UEM ・ then Right click and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Publicación de Diego Arnanz Lozano",
+              "domain": "es.linkedin.com",
+              "url": "https://es.linkedin.com/posts/diegodev96_hoy-quiero-presentar-indimetra-el-proyecto-activity-7336305323760046080-aCd3",
+              "description": "Indimetra nace como una alternativa para dar voz y espacio al cine independiente, especialmente a cortometrajes que muchas veces quedan ocultos ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "𝗗𝗔𝗙 𝗫𝗚+ 𝟰𝟯𝟬 𝗙𝗧 (2024) Dimetra-Holland",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/DAFFanInternational/posts/%F0%9D%97%97%F0%9D%97%94%F0%9D%97%99-%F0%9D%97%AB%F0%9D%97%9A-%F0%9D%9F%B0%F0%9D%9F%AF%F0%9D%9F%AC-%F0%9D%97%99%F0%9D%97%A7-2024-dimetra-holland-dimetra_holland-the-sixth-xg-in-dimetras-flee/824881889846720/",
+              "description": "This demo truck was sold and delivered to SG Transport (Emmen ) in November 2023. And for this a number of additional adjustments have been ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Remote connection to MTS in DIMETRA Express",
+              "domain": "support.motorolasolutions.com",
+              "url": "https://support.motorolasolutions.com/s/article/KB0058314",
+              "description": "Follow these steps to connect remotely to an MTS in DIMETRA Express starting from R1.6: Ensure the PC is connected directly to the Service Port on the ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Dimetra: All Start and Fast Start",
+              "domain": "cwh050.blogspot.com",
+              "url": "https://cwh050.blogspot.com/2019/10/dimetra-all-start-and-fast-start.html",
+              "description": "Oct 3, 2019 — All Start and Fast Start are two features in Dimetra Express that supplements group calls. With Fast Start, a multi-site call will be set up ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "SmartPTT Express Release Notes",
+              "domain": "dl.smartptt.com",
+              "url": "https://dl.smartptt.com/express/2-1-patch/smartptt-express-2-1-patch-customer-release-notes.pdf",
+              "description": "SmartPTT Express supports incoming and outgoing system-wide calls. This type of call is addressed to all radio users in DIMETRA Express. Dispatch console users ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Metra India (@indiametra) · Gurugram",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/indiametra/",
+              "description": "Where Italian luxury meets architectural excellence. Premium aluminium systems for bespoke windows, doors, facades, and skylights."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Unscrambled 215 words from letters in DIMETRA",
+              "domain": "www.wordunscrambler.net",
+              "url": "https://www.wordunscrambler.net/unscramble/dimetra",
+              "description": "6 letter words made by unscrambling letters DIMETRA · admire · airted · dreamt · imaret · marted · matier · mitred · raited7 · tirade7 · tradie7. 10 words found ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "DiegoDev diegoarnanz-maker",
+              "domain": "github.com",
+              "url": "https://github.com/diegoarnanz-maker",
+              "description": "Creator of Indimetra — a smart platform for indie short films. ... Incluye autenticación JWT, gestión de usuarios, proyectos, logros, notificac… Java. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LexiMetra",
+      "markets": [
+        {
+          "name": "LexiMetra",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 363,
+          "checkUrl": "https://www.google.com/search?q=LexiMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:25 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Startseite — Simtra BioPharma Solutions",
+              "domain": "simtra.com",
+              "url": "https://simtra.com/de/",
+              "description": "Simtra steht für die Entwicklung und Herstellung hochwertiger injizierbarer Arzneimittel. Märkte, Produkte und die Anforderungen der Patienten entwickeln sich ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Simtra Deutschland GmbH",
+              "domain": "www.karrieretag.org",
+              "url": "https://www.karrieretag.org/aussteller/simtra-biopharma-solutions/",
+              "description": "Simtra wird aus vielseitigen Teams in verschiedenen Bereichen gebildet! Werde ein Teil des Teams und unterstütze zukünftig dabei Patienten weltweit ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "https://www.birk-apotheke.de/brand/31310/",
+              "domain": "www.birk-apotheke.de",
+              "url": "https://www.birk-apotheke.de/brand/31310/",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Simtra BioPharma Solutions",
+              "domain": "de.linkedin.com",
+              "url": "https://de.linkedin.com/company/simtra-biopharma-solutions",
+              "description": "Simtra BioPharma Solutions | 32.287 Follower:innen auf LinkedIn. As a premier, independently owned CDMO with over 65 years of sterile injectable ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "https://www.mohren-apotheke-sued.de/produkt/06649552/",
+              "domain": "www.mohren-apotheke-sued.de",
+              "url": "https://www.mohren-apotheke-sued.de/produkt/06649552/",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "| Lectrona",
+              "domain": "pro.boehringer-ingelheim.com",
+              "url": "https://pro.boehringer-ingelheim.com/de/foerderung/node",
+              "description": "Es wurde noch kein Inhalt für die Startseite erstellt. Lesen Sie das Benutzerhandbuch, um mehr über das Erstellen von Websites mit Drupal zu erfahren."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Levocarnitin hemi[(R,R)-tartrat] - Wirkstoff & Medikamente",
+              "domain": "www.gelbe-liste.de",
+              "url": "https://www.gelbe-liste.de/wirkstoffe/Levocarnitin-hemi-R-R-tartrat_48796",
+              "description": "2 Präparate mit Levocarnitin hemi[(R,R)-tartrat]. Nomoadult Glaukom. Nomosan Innovations GmH · Orthomol Fertil plus. Orthomol Pharm. Vertr. GmbH."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Oxbryta: Überprüfung des Nutzen-Risiko-Verhältnisses",
+              "domain": "www.bfarm.de",
+              "url": "https://www.bfarm.de/SharedDocs/Risikoinformationen/Pharmakovigilanz/DE/RV_STP/m-r/oxbryta.html",
+              "description": "Oxbryta kann allein oder zusammen mit einem anderen Arzneimittel gegen Sichelzellkrankheit, dem Hydroxycarbamid, verabreicht werden. Es enthält den Wirkstoff ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Hermes Arzneimittel",
+              "domain": "www.arrabiata.de",
+              "url": "https://www.arrabiata.de/reference/hermes-arzneimittel/",
+              "description": "15.04.2025 — Hermes Arzneimittel ist ein traditionsreiches Pharmaunternehmen mit Sitz in München, das sich auf die Entwicklung, Herstellung und den Vertrieb ..."
+            }
+          ]
+        },
+        {
+          "name": "LexiMetra",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "Metriciva",
+      "markets": [
+        {
+          "name": "Metriciva",
+          "market": "de",
+          "spell": {
+            "keyword": "Metrica",
+            "type": "including_results_for"
+          },
+          "seResultsCount": 335,
+          "checkUrl": "https://www.google.com/search?q=Metriciva&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:47 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Metrica | Home",
+              "domain": "metrica.com",
+              "url": "https://metrica.com/",
+              "description": "Custom Furniture. Each commission begins with context, scale and use. Our teams realise custom pieces through coordinated making and material judgement, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "METRICA: Technology and Digital Consulting",
+              "domain": "www.metrica-global.com",
+              "url": "https://www.metrica-global.com/usa/",
+              "description": "Transform your business with our technology services consultancy tailored to your needs. At METRICA, we offer you specialized services that will boost your ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Metrica – Consultoría de Eficiencia",
+              "domain": "metrica.global",
+              "url": "https://metrica.global/",
+              "description": "Transformamos tus datos, procesos y tecnología para que tu empresa opere con agilidad, claridad y alto rendimiento. Descubrí cómo lo hacemos ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "About - metriciva",
+              "domain": "metriciva.company",
+              "url": "https://metriciva.company/about.php",
+              "description": "Metriciva est une agence experte en automatisation marketing destinée aux entreprises SaaS. · Soutenir votre réussite · Engagement et innovation."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Metrica (@metrica) • Instagram photos and videos",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/metrica/?hl=de",
+              "description": "Beyond All Measure | Since 1681. Makers of interiors. Yachts, Architecture and Custom Furniture Germany · Austria · USA. Follow."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "METRICA - Latein-Deutsch Übersetzung",
+              "domain": "de.pons.com",
+              "url": "https://de.pons.com/%C3%BCbersetzung/latein-deutsch/metrica",
+              "description": "Übersetzung Latein-Deutsch für METRICA im PONS Online-Wörterbuch nachschlagen! Gratis Vokabeltrainer, Verbtabellen, Aussprachefunktion."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "METRICA professionelle Messgeräte",
+              "domain": "www.misterworker.com",
+              "url": "https://www.misterworker.com/de/metrica?srsltid=AfmBOopZ_iTLW2jj5os5tlekj29juj1aoU5nWnbzMNgoxx1BQIISMDjr",
+              "description": "Metrica ist eine bekannte Marke, die sich auf die Herstellung professioneller und innovativer professioneller Messwerkzeuge spezialisiert hat: nicht nur ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Stream Metrica music | Listen to songs, albums, playlists for ...",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/metricamusic",
+              "description": "Play Metrica on SoundCloud and discover followers on SoundCloud | Stream tracks, albums, playlists on desktop and mobile."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Toto Chiavetta - Metrica",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=7Q2EfbSHoQI",
+              "description": "Innervisions #TotoChiavetta #SoundsBetweenColours IV88 - Toto Chiavetta - Sounds Between Colours Release Date - 19|07|2019 Wax | Digital ..."
+            }
+          ]
+        },
+        {
+          "name": "Metriciva",
+          "market": "us",
+          "spell": {
+            "keyword": "Metriva",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 138000,
+          "checkUrl": "https://www.google.com/search?q=Metriciva&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:56 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Metrica | Home",
+              "domain": "metrica.com",
+              "url": "https://metrica.com/",
+              "description": "Custom Furniture. Each commission begins with context, scale and use. Our teams realise custom pieces through coordinated making and material judgement, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "METRICA: Technology and Digital Consulting",
+              "domain": "www.metrica-global.com",
+              "url": "https://www.metrica-global.com/usa/",
+              "description": "At METRICA, we offer you specialized services that will boost your growth through innovation and digital efficiency."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Metrica, Inc",
+              "domain": "www.metricanet.com",
+              "url": "https://www.metricanet.com/",
+              "description": "We are a family-owned small business. we provide unparalleled relocation services, logistical support, and conference and event management anywhere in the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "About - metriciva",
+              "domain": "metriciva.company",
+              "url": "https://metriciva.company/about.php",
+              "description": "Metriciva est une agence experte en automatisation marketing destinée aux entreprises SaaS. nous offrons des services d'automatisation marketing innovants,"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Metrica – Consultoría de Eficiencia",
+              "domain": "metrica.global",
+              "url": "https://metrica.global/",
+              "description": "Consultoría de Eficiencia para decisiones más inteligentes Transformamos tus datos, procesos y tecnología para que tu empresa opere con agilidad, claridad y ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Metrica PlayBase 2.23: Full Tutorial",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=mOgTZYlIAFc",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Metrica, Inc.",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/metrica-inc-",
+              "description": "Metrica, Inc. is a broad-based professional services firm established in 1984 to provide an array of program support activities to the US government and ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "metriciva",
+              "domain": "www.metriciva.company",
+              "url": "https://www.metriciva.company/",
+              "description": "Metriciva est une agence experte en automatisation marketing pour les entreprises SaaS. Chez Metriciva, nous proposons des services d'automatisation ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "METRICA VISUALS (@metricavisuals)",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/metricavisuals/?hl=en",
+              "description": "8.6K+ followers · 5.9K+ following · 91 posts · @metricavisuals: “Creative Studio for Architectural & Design Visualization”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Noeora",
+      "markets": [
+        {
+          "name": "Noeora",
+          "market": "de",
+          "spell": {
+            "keyword": "Novora",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 105,
+          "checkUrl": "https://www.google.com/search?q=Noeora&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:41 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Novora.at",
+              "domain": "www.novora.at",
+              "url": "https://www.novora.at/",
+              "description": "Bis zu 20 % beim Autoimport nach Österreich sparen. NOVORA begleitet Sie von der Suche bis zur Zulassung – einfach, sicher und transparent. Jetzt starten."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Novora | Activewear of Scrubs",
+              "domain": "getnovora.com",
+              "url": "https://getnovora.com/?srsltid=AfmBOooxfh1WZANpGyeRT6kFclRineGLOAYkbYvIQC_helVBXmP6Ihg4",
+              "description": "Unlock Peak Performance in our scrubs, lab coats, and scrub caps. Novora scrubs are engineered with our proprietary innovative fabrics that offer unmatched ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Novora Solutions",
+              "domain": "novora-solutions.de",
+              "url": "https://novora-solutions.de/",
+              "description": "Novora Solutions steht für direkte Kommunikation, kurze Entscheidungswege und Lösungen, die im Alltag funktionieren. Wir hören zu, denken mit und entwickeln ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Novora Solutions",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/novora-solutions",
+              "description": "Novora Solutions is a US-based software development company specializing in building end-to-end custom software solutions for startups, enterprises, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Novora Car Import GmbH, St. Lorenz, Österreich",
+              "domain": "www.northdata.de",
+              "url": "https://www.northdata.de/Novora%20Car%20Import%20GmbH,%20St%C2%B7%20Lorenz/397525x",
+              "description": "Eintragung: 06.06.2013 · GF: Nicolas Jany · Ges. (4 Personen) · Anschrift · Stichtag für Jahresabschluss: 31.12. · Kapital: 35.000 € · Firmensitz: Mattsee, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Novora Technology Group (@novoragroup)",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/novoragroup/?hl=de",
+              "description": "Novora Group is a Technology Group company focused on two core industry verticals: Event Technology and HR Intelligence. Follow. Message ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Novora.at ermöglicht Autokauf bei Großhändlern",
+              "domain": "kurier.at",
+              "url": "https://kurier.at/wirtschaft/atmedia/novora-at-ermoeglicht-autokauf-bei-grosshaendlern/136.445.063",
+              "description": "Das Salzburger Startup Novora Car Import verschafft Autokäufern Zugang zu zu Großhandelspreisen gehandelten Fahrzeugen. 16.06.2015, 16:15."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Novora",
+              "domain": "novoras.de",
+              "url": "https://novoras.de/password",
+              "description": "Shop mit Passwort betreten: · Opening soon. Be the first to know when we launch. E-Mail. Dieser Shop wird unterstützt von Bist du der Shop-Inhaber ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Novora Solutions: Home",
+              "domain": "www.novorasolutions.ch",
+              "url": "https://www.novorasolutions.ch/",
+              "description": "Website-Texte, die verkaufen – für Selbstständige & KMU. Strategisch, überzeugend, klar. Jetzt Texte schreiben lassen, die Wirkung zeigen."
+            },
+            {
+              "type": "knowledge_graph",
+              "rank": 1,
+              "title": "Novora Car Import GmbH",
+              "domain": null,
+              "url": "http://www.novora.at/",
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Noeora",
+          "market": "us",
+          "spell": {
+            "keyword": "Neora",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 0,
+          "checkUrl": "https://www.google.com/search?q=Noeora&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:39 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Neora | Exclusive Age-Defying Skincare & Wellness",
+              "domain": "www.neora.com",
+              "url": "https://www.neora.com/us/en/?srsltid=AfmBOoqSqkSelc_Y-CKU9GzLErO3aZPy4ejQ-z7RJjV06inampstV6-v",
+              "description": "Neora offers exclusive age-defying skincare and wellness products with patented ingredients to help people look and feel their best."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Neora (@NeoraOfficial)",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/NeoraOfficial/",
+              "description": "At Neora, clean beauty meets total wellness 🌿 We create science-backed skincare, hair, and wellness products that deliver Real Results - inside and out."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Neora",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/officialneora",
+              "description": "Hello we are Neora- where beauty meets wellness for holistic well-being. Specialties haircare, wellness, skincare, anti-aging, weight management, and direct ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Neora (@official_neora) • Instagram photos and videos",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/official_neora/?hl=en",
+              "description": "Neora: Beauty meets well-being 🌿 Feel, look, and live your best life with clean skincare ingredients and holistic products crafted for #RealResults"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Read Customer Service Reviews of neora.com",
+              "domain": "www.trustpilot.com",
+              "url": "https://www.trustpilot.com/review/neora.com",
+              "description": "I spent $600 on a chair that never arrived, months of back and forth messages and they refusing to refund me, they are a complete SCAM!!!! Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "What should I know about Neora? : r/30PlusSkinCare",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/30PlusSkinCare/comments/hbkwzm/what_should_i_know_about_neora/",
+              "description": "Wanted to throw this out there to a community that is more knowledgeable about this than I (33F) am. My mom recently gifted me a number of skin care ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Neora",
+              "domain": "www.amazon.com",
+              "url": "https://www.amazon.com/neora/s?k=neora",
+              "description": "Neora&#39;s line features targeted solutions to revitalize skin, boost cognitive function, and support well-being. Supports Gut Balance, Healthy Elimination, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Neora",
+              "domain": "www.ebay.com",
+              "url": "https://www.ebay.com/shop/neora?_nkw=neora",
+              "description": "Neora Age IQ Night Day Cream & Double Cleansing Face Wash 3 Pc Set  From USA  . Brand New. $109.99. or Best Offer. Free delivery. Located in Sri Lanka. Read more"
+            },
+            {
+              "type": "knowledge_graph",
+              "rank": 1,
+              "title": "neora",
+              "domain": null,
+              "url": null,
+              "description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skopetra",
+      "markets": [
+        {
+          "name": "Skopetra",
+          "market": "de",
+          "spell": {
+            "keyword": "Sokotra",
+            "type": "including_results_for"
+          },
+          "seResultsCount": 403,
+          "checkUrl": "https://www.google.com/search?q=Skopetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:27 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Sokotra (Insel)",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Sokotra_(Insel)",
+              "description": "Sokotra (auch Socotra; arabisch سقطرى Suqutrā, DMG Suquṭrā, Somali Suqadara) ist eine Insel im nordwestlichen Indischen Ozean. Sie gehört geographisch zur ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "planet schule: Sokotra: Auf den Spuren der Evolution",
+              "domain": "www.ardmediathek.de",
+              "url": "https://www.ardmediathek.de/video/planet-schule/sokotra-auf-den-spuren-der-evolution/wdr/Y3JpZDovL3BsYW5ldC1zY2h1bGUuZGUvQVJEXzgyNzFfdmlkZW8",
+              "description": "Die Insel Sokotra ist eine Perle der Evolution. Sie hat sich vor 30 Millionen Jahren vom afrikanischen Urkontinent gelöst."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Skarpeta GmbH",
+              "domain": "skarpeta.eu",
+              "url": "https://skarpeta.eu/",
+              "description": "20.05.2025 — Socken nach Kundenwunsch ab 100 Paar – individuell gestrickt in Polen/EU. Gratis Designvorschläge, kurze Lieferzeit & weltweiter Versand."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Profil uživatelky skopetra",
+              "domain": "www.modrykonik.cz",
+              "url": "https://www.modrykonik.cz/blog/skopetra/?page=1",
+              "description": "Najdi odpovědi, rady a zkušenosti lidí, kteří řešili podobné situace jako ty. Od každodenních otázek přes vztahy, tehotenství, rodičovství, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Sokotra: An den Hüter der Schönheit",
+              "domain": "www.geo.de",
+              "url": "https://www.geo.de/reisen/reiseziele/sokotra-den-hueter-der-schoenheit-30194370.html",
+              "description": "Unser Autor hat sich verliebt - in Sokotra, eine Insel im Indischen Ozean. So sehr, dass er keine Reisereportage schreiben konnte."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "SkoPetra (petraskorusov) - 프로필",
+              "domain": "kr.pinterest.com",
+              "url": "https://kr.pinterest.com/petraskorusov/",
+              "description": "전 세계에서 아이디어를 가장 많이 모아 놓은 Pinterest에서 SkoPetra(petraskorusov) 님이 무엇을 발견했는지 살펴보세요."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Der beste Urlaub in Sokotra",
+              "domain": "www.socotraexclusivetours.com",
+              "url": "https://www.socotraexclusivetours.com/de",
+              "description": "Der einzigartige Archipel von Sokotra liegt zwischen dem Arabischen Meer und dem Indischen Ozean. Die UNESCO hat Sokotra im Jahr 2008 zum Weltkulturerbe erklärt ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Sokotra – Reiseführer auf Wikivoyage",
+              "domain": "de.wikivoyage.org",
+              "url": "https://de.wikivoyage.org/wiki/Sokotra",
+              "description": "Sokotra, internationale Schreibweise Socotra, ist eine jemenitische Insel vor der Küste Somalias. Die Insel gehört zum UNESCO−Weltnaturerbe und ist aktuell von ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Sokotra – Wikipedia",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Sokotra",
+              "description": "Dioskouridou, lat. Dioscoridus) ist eine Inselgruppe im nordwestlichen Indischen Ozean, die offiziell zur Republik Jemen gehört. De facto wird sie seit der ..."
+            }
+          ]
+        },
+        {
+          "name": "Skopetra",
+          "market": "us",
+          "spell": {
+            "keyword": "Sopetra",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 762000,
+          "checkUrl": "https://www.google.com/search?q=Skopetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:28 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "SkoPetra (petraskorusov) - 프로필",
+              "domain": "kr.pinterest.com",
+              "url": "https://kr.pinterest.com/petraskorusov/",
+              "description": "전 세계에서 아이디어를 가장 많이 모아 놓은 Pinterest에서 SkoPetra(petraskorusov) 님이 무엇을 발견했는지 살펴보세요."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Danielle Skropeta | About | University of Wollongong",
+              "domain": "scholars.uow.edu.au",
+              "url": "https://scholars.uow.edu.au/danielle-skropeta",
+              "description": "Danielle Skropeta. Promoting Gender Equity & Diversity in STEM⁠. Dean, Graduate Research & Research Culture. Professor Faculty of Science, Medicine and Health, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Profil uživatelky skopetra",
+              "domain": "www.modrykonik.cz",
+              "url": "https://www.modrykonik.cz/blog/skopetra/?page=1",
+              "description": "Najdi odpovědi, rady a zkušenosti lidí, kteří řešili podobné situace jako ty. Od každodenních otázek přes vztahy, tehotenství, rodičovství, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Sko PETRA 46 LIQUID GEL",
+              "domain": "probody.dk",
+              "url": "https://probody.dk/vare/sko-petra-46-liquid-gel/",
+              "description": "Klassisk casual komfort-sko med gelé-sål til lindring af trætte, ømme, tunge fødder. Leveres med to indlægssåler: Én terapeutisk trykaflastende væskesål, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Sophia Cepero (@sophiacepero)",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/sophiacepero/?hl=en",
+              "description": "@sophiacepero: founder workout with me … 144K followers 1,592 @sculptedhotpilates classes. Saturday- 6am Sunday- 6,7,8am"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Skropeta Family History",
+              "domain": "www.ancestry.com",
+              "url": "https://www.ancestry.com/last-name-meaning/skropeta",
+              "description": "The Skropeta family name was found in the USA in 1920. In 1920 there was 1 Skropeta family living in California. This was 100% of all the recorded Skropeta's in ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "scopetta",
+              "domain": "en.wiktionary.org",
+              "url": "https://en.wiktionary.org/wiki/scopetta",
+              "description": "scopetta f (plural scopette). brush. Related terms. scopare · Last edited 9 years ago by TheDaveBot. Languages. Français · Italiano · Malagasy. Wiktionary. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Skrape",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/artist/4kFIqqv2Zb2uclV7lRtO01",
+              "description": ": Listen to Skrape on Spotify. Artist · 37.6K monthly listeners. Hailing from Orlando, FL, the nu metal quintet Skrape (singer Billy Keeton, guitari"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Skope - Back To Me",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=41tnRa7JBqI",
+              "description": "We proudly announce the return of Skope with his debut album, 'Tempest' — release date July 1st via Inspected."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TraceTra",
+      "markets": [
+        {
+          "name": "TraceTra",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 8550,
+          "checkUrl": "https://www.google.com/search?q=TraceTra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:46:31 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "track-trace",
+              "domain": "www.track-trace.com",
+              "url": "https://www.track-trace.com/",
+              "description": "Track parcels/shipments with companies like UPS, DHL, TNT and FedEx. In addition special services for air cargo, containers and post."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "TracTrac - Leaders in live tracking | Sailing | Orienteering ...",
+              "domain": "tractrac.com",
+              "url": "https://tractrac.com/",
+              "description": "The winner of the Express Class (Ronny Gustavsson, Skumpan) made the following spontaneous remark: The tracking is revolutionary for sail racing. We can follow ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "TracTrac - App Store",
+              "domain": "apps.apple.com",
+              "url": "https://apps.apple.com/de/app/tractrac/id1500017723",
+              "description": "The TracTrac app allows you to see gps based tracking from your favourite events and clubs live and in replay on your mobile device."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "TracTrac – Apps bei Google Play",
+              "domain": "play.google.com",
+              "url": "https://play.google.com/store/apps/details?id=com.tractrac.webapp&hl=gsw",
+              "description": "The TracTrac app allows you to see GPS based tracking from your favorite events and clubs live and in replay on your mobile device."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "CHETRA Dichtungstechnik AG • Gleitringdichtungen und ...",
+              "domain": "www.chetra.de",
+              "url": "https://www.chetra.de/",
+              "description": "Wir sind einer der technisch führenden internationalen Spezialisten für anspruchsvolle Gleitringdichtungen und Zubehör in komplexen Anwendungen. Angebot ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "TracTrac-GPS-Tracking",
+              "domain": "www.marksetbot.com",
+              "url": "https://www.marksetbot.com/de/tractrac/",
+              "description": "TracTracs Tracker mit geringer Latenz machen Regatten mit Echtzeit-Tracking für Segler, Fans und Sponsoren lebendig. TracTrac macht das Segeln sichtbar, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Was ist Track and Trace? Funktionen einfach erklärt | Lufapak",
+              "domain": "www.lufapak.de",
+              "url": "https://www.lufapak.de/lexikon/track-and-trace/",
+              "description": "Track and Trace bezeichnet ein Verfahren zur vollständigen Nachverfolgung von Sendungen entlang ihres gesamten Transportwegs. Der Begriff setzt sich aus zwei ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "IMS 15.6 - IMS component codes - AIB code 0104/057C",
+              "domain": "www.ibm.com",
+              "url": "https://www.ibm.com/docs/en/ims/15.6.0?topic=codes-0104057c",
+              "description": "If the DFSCMPR0 is being used, use the transaction trace (/TRA SET ON TRANSACTION trancode) to determine the routing error. Refer to TM and MSC Message Routing ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "A Watched Pot… | …does eventually boil :-) Autumn Trace, ...",
+              "domain": "www.flickr.com",
+              "url": "https://www.flickr.com/photos/189971306@N05/51514765035/",
+              "description": "does eventually boil :-) Autumn Trace, Tranquil Bay maps.secondlife.com/secondlife/Tranquil%20Bay/161/144/21 WL: Fairy Blue (Paulina)"
+            }
+          ]
+        },
+        {
+          "name": "TraceTra",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 7990,
+          "checkUrl": "https://www.google.com/search?q=TraceTra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:46:34 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "track-trace",
+              "domain": "www.track-trace.com",
+              "url": "https://www.track-trace.com/",
+              "description": "Track parcels/shipments with companies like UPS, DHL, TNT and FedEx. In addition special services for air cargo, containers and post."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Track & Trace Solutions",
+              "domain": "www.tracktracerx.com",
+              "url": "https://www.tracktracerx.com/traceability/",
+              "description": "Simple software for complex chains. Manual processes mean wasted time and information. Automate your supply chain and see your results skyrocket."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Trace (YC S25)",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/trace-so",
+              "description": "Trace is a workflow automation platform that routes tasks to the right agent – human or AI. Website: https://www.trace.so/. External ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Track and trace",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Track_and_trace",
+              "description": "a type of tracking system that determines the current and past locations and other information of a unique item or property."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "TrackandTrace.com: Track & Trace – Package, Freight, Air ...",
+              "domain": "trackandtrace.com",
+              "url": "https://trackandtrace.com/",
+              "description": "Track packages and parcels worldwide from over 400 carrier companies and postal services, including USPS, UPS, SF Express, DHL, FedEx, Amazon Shipping, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "[Question] Help using www.track-trace.com please!",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/AsianBeauty/comments/2eno4e/question_help_using_wwwtracktracecom_please/",
+              "description": "It is a free download and able to track up to three packages. Use 'track direct' option instead. Track and trace your cargo across major ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Trace",
+              "domain": "go.traceup.com",
+              "url": "https://go.traceup.com/",
+              "description": "Sign in Enter the email address associated with your Trace account Send sign in code"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Trace ✈️ (@go.trace) • Instagram photos and videos",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/go.trace/?hl=en",
+              "description": "It's basically a dating app... but for flights. Download the Trace app now and start swiping! great flight deals through the Trace mobile app!"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Read Customer Service Reviews of track-trace.com",
+              "domain": "www.trustpilot.com",
+              "url": "https://www.trustpilot.com/review/track-trace.com",
+              "description": "Track parcels/shipments with companies like UPS, DHL, TNT and FedEx. In addition special services for air cargo, containers and post. Contact info. track-trace. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Trace de Trail",
+              "domain": "tracedetrail.fr",
+              "url": "https://tracedetrail.fr/en",
+              "description": "Discover more than 40 destinations that welcome you and offer routes and services specially designed for trail running, whether you're a beginner or an expert ... Read more"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2185 @@
+{
+  "generatedAt": "2026-09-01T17:42:58.949Z",
+  "methodology": {
+    "endpoint": "serp/google/organic/live/advanced",
+    "markets": [
+      {
+        "id": "de",
+        "locationCode": 2276,
+        "languageCode": "de"
+      },
+      {
+        "id": "us",
+        "locationCode": 2840,
+        "languageCode": "en"
+      }
+    ],
+    "depth": 10,
+    "paidAddOns": false,
+    "estimatedCostUsd": 0.088,
+    "actualCostUsd": 0.056000000000000036,
+    "note": "Evidence export only. No automatic score, grade, or recommendation."
+  },
+  "combined": [
+    {
+      "name": "\"Auditmetry\"",
+      "markets": [
+        {
+          "name": "\"Auditmetry\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Audiometry\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 2700000,
+          "checkUrl": "https://www.google.com/search?q=%22Auditmetry%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:11 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Audiometry",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Audiometry",
+              "description": "Audiometry is a branch of audiology and the science of measuring hearing acuity for variations in sound intensity and pitch and for tonal purity, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Understanding Audiometry and Audiograms",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=acYMy9b0F2A",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Automated Audiometry: A Review of the Implementation and ...",
+              "domain": "pmc.ncbi.nlm.nih.gov",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6230538/",
+              "description": "von H Shojaeemend · 2018 · Zitiert von: 55 — Automated audiometry is an example of an automated healthcare service used for the automatic recording of hearing thresholds [1]. Bekesy audiometer was the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Audiometry: MedlinePlus Medical Encyclopedia",
+              "domain": "medlineplus.gov",
+              "url": "https://medlineplus.gov/ency/article/003341.htm",
+              "description": "02.05.2024 — An audiometry exam tests your ability to hear sounds. Sounds vary, based on their loudness (intensity) and the speed of sound wave ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Audiometry Interpretation for Hearing Loss in Adults | AFP",
+              "domain": "www.aafp.org",
+              "url": "https://www.aafp.org/afp/2024/0400/audiometry-hearing-loss",
+              "description": "von M Sehgal · 2024 · Zitiert von: 4 — Pure-tone audiometry, using an audiometer, is the reference standard for hearing loss detection. It can be used for screening and comprehensive testing. An ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Audiometry",
+              "domain": "www.quironsalud.com",
+              "url": "https://www.quironsalud.com/en/diagnostic-tests/audiometry",
+              "description": "Audiometry is a test that evaluates the patient's auditory function, both the ability to perceive sounds of different frequencies and intensities, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Pure Tone Audiometry: An Introduction",
+              "domain": "www.interacoustics.com",
+              "url": "https://www.interacoustics.com/academy/audiometry-training/pure-tone-audiometry/pure-tone-audiometry-introduction",
+              "description": "18.01.2024 — Pure tone audiometry is a behavioral hearing test used to detect an individual's hearing threshold levels, allowing hearing care professionals ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Hearing Test - Apps on Google Play",
+              "domain": "play.google.com",
+              "url": "https://play.google.com/store/apps/details?id=mobile.eaudiologia",
+              "description": "The app offers two basic hearing tests: pure-tone audiometry and the digits-in-noise test (digit triplet test) for assessing speech intelligibility."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Audiometry",
+              "domain": "zerotofinals.com",
+              "url": "https://zerotofinals.com/surgery/ent/audiometry/",
+              "description": "Audiometry involves testing a patient's hearing by playing a variety of tones and volumes using headphones (air conduction) and a bone conduction device ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Auditmetry\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Audiometry\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 2700000,
+          "checkUrl": "https://www.google.com/search?q=%22Auditmetry%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:42:24 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Audiometry: MedlinePlus Medical Encyclopedia",
+              "domain": "medlineplus.gov",
+              "url": "https://medlineplus.gov/ency/article/003341.htm",
+              "description": "May 2, 2024 — An audiometry exam tests your ability to hear sounds. Sounds vary, based on their loudness (intensity) and the speed of sound wave ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Audiometry - Clinical Methods - NCBI Bookshelf - NIH",
+              "domain": "www.ncbi.nlm.nih.gov",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK239/",
+              "description": "Audiometry consists of tests of function of the hearing mechanism. This includes tests of mechanical sound transmission (middle ear function), neural sound ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Hearing Tests | Audiometry and Audiogram | Colorado",
+              "domain": "www.uchealth.org",
+              "url": "https://www.uchealth.org/services/hearing-tests/",
+              "description": "Hearing tests (audiometry) determine how loud a sound needs to be at different frequencies for you to hear it. An audiogram shows results."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Audiometry Interpretation for Hearing Loss in Adults | AFP",
+              "domain": "www.aafp.org",
+              "url": "https://www.aafp.org/afp/2024/0400/audiometry-hearing-loss",
+              "description": "by M Sehgal · 2024 · Cited by 4 — Pure-tone audiometry, using an audiometer, is the reference standard for hearing loss detection. It can be used for screening and comprehensive testing. An ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Understanding Audiometry and Audiograms",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=acYMy9b0F2A",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Automated Audiometry and the Changing Role of ...",
+              "domain": "www.interacoustics.com",
+              "url": "https://www.interacoustics.com/academy/audiometry-training/advanced-tests/automated-audiometry",
+              "description": "Feb 29, 2024 — What is automated audiometry? Automated audiometry is a computer-led method of performing audiometric threshold acquisition. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Audiometry Test, Hearing Test",
+              "domain": "mayfieldclinic.com",
+              "url": "https://mayfieldclinic.com/pe-hearing.htm",
+              "description": "Overview. An audiometry evaluation is a painless, noninvasive hearing test that measures a person's ability to hear different sounds, pitches, or frequencies. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Guidelines for Manual Pure-Tone Threshold Audiometry",
+              "domain": "www.asha.org",
+              "url": "https://www.asha.org/policy/gl2005-00014/?srsltid=AfmBOopZte1v_ylkddkie3nNY0unFaj-NDsSagnSBUvXUk3tV3W-tTwG&srsltid=AfmBOoq43hwhYcNKH0EgJ1cnOAibWTK6y7arOtplEwHdaAI6BkOgAB4F",
+              "description": "by A Join — Pure-tone threshold audiometry is the measurement of an individual's hearing sensitivity for calibrated pure tones. Three general methods are used: (a) manual ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "DELETE - Audiology Pure-Tone Testing",
+              "domain": "emedicine.medscape.com",
+              "url": "https://emedicine.medscape.com/article/1822962-overview",
+              "description": "Sep 28, 2023 — Pure-tone audiometry is a behavioral test used to measure hearing sensitivity. This measure involves the peripheral and central auditory ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Crawlarium\"",
+      "markets": [
+        {
+          "name": "\"Crawlarium\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 4520,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlarium%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:23 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Crawlarium Canada's menu",
+              "domain": "crawlariumcanada.com",
+              "url": "https://crawlariumcanada.com/",
+              "description": "Crawlarium Canada's menu. Home · Place an Order · Tarantulas · Slings and Juvenile · Females · Males · True Spiders · Scorpions."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Crawlarium Canada (@TropicalOddities)",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/",
+              "description": "Crawlarium Canada is an online delivery service, bringing you exotic pets and supplies across Eastern Ontario. We offer the widest selection of exotics pets ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Crawlarium Canada",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/popular/crawlarium-canada/",
+              "description": "Crawlarium Canada · Find out TODAY at 3 pm Zoom Link on our website — Free 188 · Montreal has the talent. Now it needs the room."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "#tortugaterraristik #terrarium #reptilien #terraristika #saarbrücken",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61574891552451/posts/tortugaterraristik-terrarium-reptilien-terraristika-saarbr%C3%BCcken/122187112484829718/",
+              "description": "#terrarium #reptilesofinstagram #vogelspinne #saarbrücken #saarbrigge · Kerth Reptiles · Terraristikbörse Saar · Reptile Cowboy · Crawlarium Canada."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Here we are! Come see us at the International Center for the ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/videos/here-we-arecome-see-us-at-the-international-center-for-the-canadian-reptile-expo/3505922379584306/",
+              "description": "Crawlarium Canada. May 31, 2026· 󰟠. 󳄫. Here we are! Come see us at the International Center for the Canadian Reptile Expos Lots of arachnids ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "About us",
+              "domain": "crawlariumcanada.com",
+              "url": "https://crawlariumcanada.com/about-us/",
+              "description": "Though Crawlarium Cananda is a new face in the retail world, we are not strangers to the exotic community. We began reproducing animals over 15 years ago ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Core Vendors",
+              "domain": "coreptbo.com",
+              "url": "https://coreptbo.com/core-vendors",
+              "description": "C.O.R.E. VENDORS · House of Scales Monarch Reptiles · The Sleepy Scorpion · CORE VENDOR SPONSORS · JNC Larin Exotics The Crawlarium Fantastic Beasties · CORE Vendors."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Today's show in Mississauga was an absolute blast!! Such ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/posts/todays-show-in-mississauga-was-an-absolute-blast-such-an-honour-to-be-along-side/1366451132175814/",
+              "description": "Looked like you had a really.good day. 17w. Crawlarium Canada."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "If you have seen my previous reels on reptiles you do know ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DZHp4Nfu4rB/",
+              "description": "Crawlarium Canada @nyoka_ball_pythons · @reptilekingdomcanada · @mystikcafe. If you or your child wants a reptile as your next pet definitely pay a visit to the ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Crawlarium\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 4350,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlarium%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:30 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Crawlarium Canada's menu",
+              "domain": "crawlariumcanada.com",
+              "url": "https://crawlariumcanada.com/",
+              "description": "Crawlarium Canada's menu. Home · Place an Order · Tarantulas · Slings and Juvenile · Females · Males · True Spiders · Scorpions."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Crawlarium Canada (@TropicalOddities)",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/",
+              "description": "Crawlarium Canada is an online delivery service, bringing you exotic pets and supplies across Eastern Ontario. We offer the widest selection of exotics pets ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Here we are! Come see us at the International Center for the ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/videos/here-we-arecome-see-us-at-the-international-center-for-the-canadian-reptile-expo/3505922379584306/",
+              "description": "Crawlarium Canada. May 31, 2026· 󰟠. 󳄫. Here we are! Come see us at the International Center for the Canadian Reptile Expos Lots of arachnids ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Crawlarium Canada",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/popular/crawlarium-canada/",
+              "description": "Crawlarium Canada · Find out TODAY at 3 pm Zoom Link on our website — Free 188 · Montreal has the talent. Now it needs the room."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawlarium Canada added a new photo.",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/photos/1425082549646005/",
+              "description": "Crawlarium Canada added a new photo."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Core Vendors",
+              "domain": "coreptbo.com",
+              "url": "https://coreptbo.com/core-vendors",
+              "description": "C.O.R.E. VENDORS · House of Scales Monarch Reptiles · The Sleepy Scorpion · CORE VENDOR SPONSORS · JNC Larin Exotics The Crawlarium Fantastic Beasties · CORE Vendors. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Thank you @narbc for putting on another amazing show!  And ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DWHues0iOPb/",
+              "description": "Here are some of the vendors we loved visiting at the expo: @canadian_reptile_adventures · @repzillaz · @sleepyscorpion23. Crawlarium Canada @ ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "January Shipment is Coming! | reptiles & amphibians for rehoming",
+              "domain": "ohmy.ca",
+              "url": "https://ohmy.ca/renfrew/pets/reptiles-amphibians-for-rehoming/crawlarium-canada-january-shipment-is-coming_1742056.html",
+              "description": "Crawlarium Canada: January Shipment is Coming! Description. Its a new year ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Looking for a milksnake in Canada : r/kingsnakes",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/kingsnakes/comments/1vid7ki/looking_for_a_milksnake_in_canada/",
+              "description": "The Crawlarium has apricot milksnakes right now. Read more"
+            },
+            {
+              "type": "knowledge_graph",
+              "rank": 1,
+              "title": "Crawlarium Canada",
+              "domain": null,
+              "url": "http://crawlariumcanada.com/",
+              "description": "From Crawlarium Canada \"Crawlarium Canada offers quality pets, feeding supplies and are always here for advice!\n\nAfter years of supplying vendors and local stores with our own quality reptiles, along with many other unusual creatures, we are proud to start serving the... More"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlDrive\"",
+      "markets": [
+        {
+          "name": "\"CrawlDrive\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Drive\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 25100,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlDrive%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:40:55 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Turtle Crawl Drive 80, Vista Del Mar",
+              "domain": "propertycayman.com",
+              "url": "https://propertycayman.com/buy/house/turtle-crawl-drive-80-vista-del-mar/",
+              "description": "Turtle Crawl Drive 80, Vista Del Mar.. Sold - 04/22. House on the Water Front in West Bay. 6 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Google Drive setup",
+              "domain": "docs.glean.com",
+              "url": "https://docs.glean.com/connectors/native/gdrive/new-setup",
+              "description": "13.08.2026 — Drive labels. Leave this on to crawl Drive labels for filters and facets, or turn it off. Step 3. Review access and begin indexing​."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Command line cp or rsync to crawl drive seeking only specific file ...",
+              "domain": "superuser.com",
+              "url": "https://superuser.com/questions/796644/command-line-cp-or-rsync-to-crawl-drive-seeking-only-specific-file-types-and-put",
+              "description": "Is it possible only using the command line to use something like the cp or rsync command to crawl a hard-drive seeking only image/video files? And maybe ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Acceleratory Crawl Drive: From Wall to Ground Let's get off ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/Cb9945XldYc/",
+              "description": "Acceleratory Crawl Drive: From Wall to Ground Let's get off the wall and get some ground work done focusing on triple extension in the rear ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Keeping It Together: Mechanisms of Intersegmental ... - PMC",
+              "domain": "pmc.ncbi.nlm.nih.gov",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833357/",
+              "description": "von JG Puhl · 2010 · Zitiert von: 47 — To test whether the crawl drive from one segmental oscillator to another was based completely on a concatenated series of inputs from one segment to the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "green hat fun run | walk | crawl | drive",
+              "domain": "christusochsnerswlafoundation.org",
+              "url": "https://christusochsnerswlafoundation.org/green-hat-fun-run-walk-crawl/",
+              "description": "The Green Hat Charity Fun Run Walk Crawl Drive is a beloved event each year. This year due to COVID-19 we had to remodel the event. So this self-guided ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Google Photos/Drive Working Slowly (or not at all) - General",
+              "domain": "forum.rcloneview.com",
+              "url": "https://forum.rcloneview.com/t/google-photos-drive-working-slowly-or-not-at-all/596",
+              "description": "24.07.2026 — Google enforces a per-client-ID rate limit, so during busy periods your listing requests get throttled and folders crawl. Drive is also just ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "80 Turtle Crawl Drive | Property Cayman",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/propertycayman/videos/80-turtle-crawl-drive/415921226409833/",
+              "description": "This John Doak custom built home is meticulously designed with a sense of privacy & luxury throughout. Turtle Crawl Drive 80 6 bed + 7 bath | ..."
+            }
+          ]
+        },
+        {
+          "name": "\"CrawlDrive\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 5,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlDrive%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:06 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "VA - It's DAY ONE of the Virginia Blue Ridge Yarn Crawl ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/VABRYC/photos/its-day-one-of-the-virginia-blue-ridge-yarn-crawl%EF%B8%8Fdrive-safely%EF%B8%8Fhave-so-much-fun%EF%B8%8F/762873762710059/",
+              "description": "It's DAY ONE of the Virginia Blue Ridge Yarn Crawl! ❤️Drive safely ❤️Have so much fun ❤️Get your passport stamped ❤️Win a doorprize ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "The H&K Group – Job Skippack, PA - Road Mechanic",
+              "domain": "www.talent.com",
+              "url": "https://www.talent.com/view?id=623422275165432567",
+              "description": "... crawlDrive up to two hoursUse hands to finger or feelTalk and hearOccasionally lift and/or move up to 75 poundsWork EnvironmentOccasional exposure to Moving ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Cordless Beveller Saddle Crawler Motor",
+              "domain": "www.castleweldshop.net",
+              "url": "https://www.castleweldshop.net/Cordless-Beveller-Saddle-Crawler-Motor_p_1817.html",
+              "description": "Availability: In Stock. Part Number:CrawlDrive. Put me on the Waiting List. Quantity Add to Cart. Review this item. Email a friend. Description; Customer ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "New plugin ute hits market | Otago Daily Times",
+              "domain": "www.pressreader.com",
+              "url": "https://www.pressreader.com/new-zealand/otago-daily-times/20260711/282544435055839?srsltid=AfmBOopyaOU239naXxVza_IhwBQN97wvTvulA4ijJkIS1VutLkh2OuL1",
+              "description": "The T9 delivers dedicated offroad and crawldrive modes, with offroad quickaccess buttons to make switching between tarmac and tough terrain straightforward ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Head of SEO - Fresher Jobs",
+              "domain": "fresherjobs.uk",
+              "url": "https://fresherjobs.uk/job/head-of-seo/",
+              "description": "... crawlDrive editorial and content output — briefs, optimisation, distributionBuild and execute the link-building and digital PR strategyTrack and report on ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlFoundry\"",
+      "markets": [
+        {
+          "name": "\"CrawlFoundry\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Foundry\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1230,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlFoundry%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:01 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Space Wars Text Crawl",
+              "domain": "www.foundryvtt-hub.com",
+              "url": "https://www.foundryvtt-hub.com/package/swtextcrawl/",
+              "description": "Creates a text crawl via a journal entry that can shared to players. Video example: Link. Example Image. Subscribe."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Dungeon Crawl - Foundry-VTT-Ready Adventure 2nd & 5th level",
+              "domain": "www.patreon.com",
+              "url": "https://www.patreon.com/posts/sea-hags-lair-49475503?l=de-DE",
+              "description": "Sea Hag's Lair - Dungeon Crawl - Foundry-VTT-Ready Adventure 2nd & 5th level von Humperdink's Wares auf Patreon. Tritt der Community von Humperdink's Wares ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Into Uncharted Depths: A Level 10 Dungeon Crawl",
+              "domain": "startplaying.games",
+              "url": "https://startplaying.games/adventure/cmlmmbwvq00ppjs040t2zvml1",
+              "description": "About the adventure. This is a pure dungeon crawl—exploration and combat only. No social scenes. No side plots. No long conversations with NPCs."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "[https://startplaying. games/gm/cmm3t7k4o001zib04d6l8k0pq]( ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/418251100727870/posts/1071324558753851/",
+              "description": "... Crawl - Foundry VTT - Pathfinder. STARTPLAYING.GAMES. Join Abomination Vaults | PF2E | Beginner-Friendly Dungeon Crawl - Foundry VTT - Pathfinder 2e | Sta..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "The War Below Ashpeak | A Shadowdark Dungeon Crawl",
+              "domain": "startplaying.games",
+              "url": "https://startplaying.games/adventure/cmdhz5l8j00tujo04bv0guhy2",
+              "description": "This game will be run on Foundry VTT, with custom maps. The campaign is entirely of my own design, and is filled with monsters and traps from both official ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Pub Crawl - Foundry VTT Module | Tom Cartos",
+              "domain": "www.patreon.com",
+              "url": "https://www.patreon.com/tomcartos/posts/pub-crawl-vtt-45813916",
+              "description": "Log in. Home · Posts · Collections · Membership · Recommendations. Locked. Pub Crawl - Foundry VTT Module. Creator profile picture · Tom Cartos. Jan 4, 2021."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Excited for the coffee crawl? A @suitman_films . . . . . #fyp # ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/Db8jwQdPSKM/",
+              "description": "Cheers. OCR . Crema COFFEE CO. . TİLERAR 8CUROV'S . TYLER COFFEE CRAWL FOUNDRY FRI 8 & AUGUST 21ST SAT AUGUST 22ND. bradyscoffeeshop's ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "It's happening today and tomorrow! . . . . . #coffee #fyp #tylertx",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/bigshotcoffeehouse/videos/its-happening-today-and-tomorrowcoffee-fyp-tylertx/900213266105005/",
+              "description": "The video humorously highlights the common struggle between productivity and procrastination, as the person ultimately chooses to grab drinks ..."
+            }
+          ]
+        },
+        {
+          "name": "\"CrawlFoundry\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Crawl Foundry\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1290,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlFoundry%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:40:55 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Space Wars Text Crawl",
+              "domain": "www.foundryvtt-hub.com",
+              "url": "https://www.foundryvtt-hub.com/package/swtextcrawl/",
+              "description": "Creates a text crawl via a journal entry that can shared to players. To install this package, open your Foundry Setup screen … can install this package ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Into Uncharted Depths: A Level 10 Dungeon Crawl",
+              "domain": "startplaying.games",
+              "url": "https://startplaying.games/adventure/cmlcfcgia000mks04tjy5vtda",
+              "description": "About the adventure. This is a pure dungeon crawl—exploration and combat only. No social scenes. No side plots. No long conversations with NPCs."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Pub Crawl - Foundry VTT Module | Tom Cartos",
+              "domain": "www.patreon.com",
+              "url": "https://www.patreon.com/tomcartos/posts/pub-crawl-vtt-45813916",
+              "description": "Log in. Home · Posts · Collections · Membership · Recommendations. Locked. Pub Crawl - Foundry VTT Module. Creator profile picture · Tom Cartos. Jan 4, 2021."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "[https://startplaying. games/gm/cmm3t7k4o001zib04d6l8k0pq]( ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/1182300162599348/posts/2316276872534999/",
+              "description": "... Crawl - Foundry VTT - Pathfinder. STARTPLAYING.GAMES. Join Abomination Vaults | PF2E | Beginner-Friendly Dungeon Crawl - Foundry VTT - Pathfinder 2e | Sta..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "It's happening today and tomorrow! . . . . . #coffee #fyp #tylertx",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/bigshotcoffeehouse/videos/its-happening-today-and-tomorrowcoffee-fyp-tylertx/900213266105005/",
+              "description": "This video is a promotional flyer for a local event called the \"Tyler Coffee Crawl.\" The event is scheduled for August 22nd at the Tyler Coffee ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "A Soulslike legacy dungeon crawl - Highwater Castle",
+              "domain": "startplaying.games",
+              "url": "https://startplaying.games/adventure/cmt1aryhs009jic04yq8i76w7",
+              "description": "Explore your way through a soulslike legacy dungeon, ruled by Vile Baelin, the Worm. Fight your way through, find hidden secrets, and defeat the Worm!"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Excited for the coffee crawl? A @suitman_films . . . . . #fyp # ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/Db8jwQdPSKM/",
+              "description": "So we're excited. Cheers. OCR . Crema COFFEE CO. . TİLERAR 8CUROV'S . TYLER COFFEE CRAWL FOUNDRY FRI 8 & AUGUST 21ST SAT AUGUST 22ND."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "The longest-running participant on the Indianapolis # ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DROHBE5kQdN/",
+              "description": "... and out, especially with that outdoor patio. ☀️ For the December 13th Crawl, Foundry is our final stop on the sold-out Route 1. 🎟️\"."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Ready for the crawl? . . . . . . #coffee #fyp #tylertx",
+              "domain": "www.threads.com",
+              "url": "https://www.threads.com/@bigshotcoffeehouse/post/DcRN-mIDqJo/video-ready-for-the-crawl-coffee-fyp-tylertx/",
+              "description": "Ready for the crawl? . . . . . . #coffee #fyp #tylertx. OCR . . . COURTEDUIS 19 JAR . . TYLER COFFEE CRAWL FOUNDRY FRI AUGUST 21ST & SAT AUGUST 22ND."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Crawlistry\"",
+      "markets": [
+        {
+          "name": "\"Crawlistry\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"Crawlistry\"",
+          "market": "us",
+          "error": "Provider task failed: 40102 No Search Results."
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlLayer\"",
+      "markets": [
+        {
+          "name": "\"CrawlLayer\"",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "\"CrawlLayer\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"Crawllytics\"",
+      "markets": [
+        {
+          "name": "\"Crawllytics\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Lyrics\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 15500,
+          "checkUrl": "https://www.google.com/search?q=%22Crawllytics%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:37 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Sydney Ross Mitchell – Crawl Lyrics",
+              "domain": "genius.com",
+              "url": "https://genius.com/Sydney-ross-mitchell-crawl-lyrics",
+              "description": "29.05.2026 — Crawl Lyrics: Standing in the kitchen, hands in the dishes / For a man who loves me as much as he can / Which is half as much as you did ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Songtext von Kings of Leon - Crawl Lyrics",
+              "domain": "www.songtexte.com",
+              "url": "https://www.songtexte.com/songtext/kings-of-leon/crawl-1bf6e998.html",
+              "description": "You fault my pride. Don′t ever need to 'pologize. As your lips unfold. Shaken purple from the cold. You better learn to crawl. You better learn to crawl"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Childish Gambino – I.Crawl Lyrics",
+              "domain": "genius.com",
+              "url": "https://genius.com/Childish-gambino-icrawl-lyrics",
+              "description": "I.Crawl Lyrics · Say it―, (Hit 'em), goddamn! (Hit 'em) Goddamn! · Where we were, kinda thing. Betcha crawl, all alone (Say it―, Lord) · (Who am I?) · Rec League, I ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "In This Moment - Crawl Lyrics",
+              "domain": "www.azlyrics.com",
+              "url": "https://www.azlyrics.com/lyrics/inthismoment/crawl.html",
+              "description": "\"Crawl\" lyrics. In This Moment Lyrics. \"Crawl\". Tell me how you feel as you're pulling me down. Put my face in the dirt, when I'm lost, you are found. Tell me ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Crawl Lyrics by 8mm",
+              "domain": "www.streetdirectory.com",
+              "url": "https://www.streetdirectory.com/lyricadvisor/song/uwofpl/crawl/",
+              "description": "Crawl Lyrics by 8mm. Other 8MM Lyrics · Forever and Ever Amen Lyrics. Everybody knows, You don't get what you plan And everybody runs away. Nobody Does It ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "The Crawl Lyrics - Songtext von Placebo",
+              "domain": "www.songtexte.com",
+              "url": "https://www.songtexte.com/songtext/placebo/the-crawl-1bd07d54.html",
+              "description": "It takes the pain away But could not make you stay It′s way to broke to fix No glue, no bag of tricks Lay me down, the lie will unfurl Lay me down to crawl."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Learn To Crawl Lyrics – Black Lab | From Spider-Man",
+              "domain": "stlyrics.org",
+              "url": "https://stlyrics.org/lyrics/spider-man/learntocrawl.htm",
+              "description": "Learn To Crawl Lyrics – Black Lab ... Would you wall crawl up to me, would you talk to me? ... Would you be there on the ground if I should fall? ... Would you be ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Crawl - Grinning Streak (Deluxe Version) Songs",
+              "domain": "gaana.com",
+              "url": "https://gaana.com/lyrics/crawl-34",
+              "description": "Crawl Lyrics. It's harder than it looks to move through water. First you've got to paddle like a pup. You see yourself, you're sure you're lamb to slaughter. So ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Crawllytics\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"Crawllytix\"",
+      "markets": [
+        {
+          "name": "\"Crawllytix\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Brawlytix\"",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 0,
+          "checkUrl": "https://www.google.com/search?q=%22Crawllytix%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:49 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Brawlytix - Brawl Stars Analytics, Profiles and Stats",
+              "domain": "brawlytix.com",
+              "url": "https://brawlytix.com/",
+              "description": "Track the meta, discover the best brawlers, view player stats, and climb exclusive leaderboards you won't find anywhere else! Explore Brawlytix. Game Modes ..."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Brawlytix",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/brawlytix/?hl=de",
+              "description": "1.7K+ followers · 4 following · 31 posts · @brawlytix: “The most accurate live Brawl Stars analytics. Always know the meta!”"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Brawlytix",
+              "domain": "x.com",
+              "url": "https://x.com/Brawlytix?lang=de",
+              "description": "Trusted by the pros, the most accurate live Brawl Stars analytics. Always know the meta! Code: Chosen. brawlytix.com."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "u/Brawlytix",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/user/Brawlytix/",
+              "description": "u/Brawlytix: The most accurate live Brawl Stars analytics. Always know the meta! Official account. https://brawlytix.com."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "brawlytix.com verglichen mit dem Traffic von topbrawl.com",
+              "domain": "www.similarweb.com",
+              "url": "https://www.similarweb.com/de/website/brawlytix.com/vs/topbrawl.com/",
+              "description": "Vergleichen Sie die Traffic-Analyse von brawlytix.com und topbrawl.com und sehen Sie, warum brawlytix.com auf Platz 53 in der Kategorie Videospielkonsolen ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Best brawlers for every game mode  Stats by @brawlytix # ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DVuBpU_EZLz/?hl=de",
+              "description": "5608 likes, 73 comments - ashbrawl on March 10, 2026: \"Best brawlers for every game mode ⭐️ Stats by @ brawlytix #brawlstars\"."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "How to Make Skill Score Higher in Brawlytix",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/how-to-make-skill-score-higher-in-brawlytix",
+              "description": "24.08.2026 — Learn effective strategies to increase your skill score in Brawlytix and win more matches with Shade by mastering ambush tactics and super ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Crawllytix\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"Crawlmetry\"",
+      "markets": [
+        {
+          "name": "\"Crawlmetry\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"Crawlmetry\"",
+          "market": "us",
+          "error": "Provider task failed: 40102 No Search Results."
+        }
+      ]
+    },
+    {
+      "name": "\"Crawlplex\"",
+      "markets": [
+        {
+          "name": "\"Crawlplex\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Plex\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 60,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlplex%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:38 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Steven Parker's review of Crawl",
+              "domain": "watch.plex.tv",
+              "url": "https://watch.plex.tv/en-GB/discover/activity/db54f4ad-6937-4b4b-ac85-36485c42aeb4?metricsOrigin=movie",
+              "description": "When a huge hurricane hits her hometown in Florida, Haley ignores evacuation orders to look for her father. After finding him badly wounded, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "King of the crawl plex part 3",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=Kt2xImTg9U4",
+              "description": "King of the crawl plex part 3. 140 views · 1 year ago ...more. Top tier trash entertainment. 143. Subscribe. Like. Share."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "SALVO GERMANY's review of Crawl",
+              "domain": "watch.plex.tv",
+              "url": "https://watch.plex.tv/en-GB/movie/crawl-2019/review/SALVO%20GERMANY?metricsOrigin=movie",
+              "description": "When a huge hurricane hits her hometown in Florida, Haley ignores evacuation orders to look for her father. After finding him badly wounded, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "King of the crawl plex (week 2)",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=-0y1-RR9cNc",
+              "description": "King of the crawl plex (week 2). 87 views · 1 year ago ...more. Top tier trash entertainment. 144. Subscribe. Like. Share."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Josh C's review of Crawl",
+              "domain": "watch.plex.tv",
+              "url": "https://watch.plex.tv/sv/movie/crawl-2019/review/joshcoop1976?metricsOrigin=movie",
+              "description": "It was a fairly decent watch. A few jump scares. Typical gator movie. The lead actress bugged with the way she kept contorting her face. Distracting."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Event Notices From June 29 - CBS Detroit",
+              "domain": "www.cbsnews.com",
+              "url": "https://www.cbsnews.com/detroit/news/event-notices-from-june-29/",
+              "description": "Plex Systems VP To Discuss Future Of Manufacturing at Annual Tech Crawl: Plex Systems Inc., provider of the No. 1 rated manufacturing ERP software Plex ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Fresno Crawlplex (@fresnocrawlplex)",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/fresnocrawlplex/",
+              "description": "Get Ready to Crown the Ultimate Champion of the Fresno Crawl Plex! Here are some of the reminders and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "NSCA \"Diaper Crawl\" at the 'Plex - R/C Tech Forums",
+              "domain": "www.rctech.net",
+              "url": "https://www.rctech.net/forum/nebraska-iowa-racing/466955-nsca-diaper-crawl-plex.html?styleid=22",
+              "description": "Nebraska/Iowa Racing - NSCA \"Diaper Crawl\" at the 'Plex - Some of you may or may not know one of our members became a grandpa x2 on Christmas day, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "BOLT A GPU ONTO THIS $200 FANLESS BOARD AND IT ...",
+              "domain": "x.com",
+              "url": "https://x.com/RetroChainer/status/2087800839112990845?lang=ar",
+              "description": "drop a gpu in and the tiny box suddenly does: ollama and local models with actual gpu acceleration, not cpu crawl plex or jellyfin ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Crawlplex\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Crawl Plex\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 564,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlplex%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:49 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Fresno Crawlplex (@fresnocrawlplex)",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/fresnocrawlplex/",
+              "description": "The results are in- the undisputed Crowned King of the Crawlplex in unlimited class is Mr. Matt Cortinas!! With a score of 0 points accumulated in 7 rounds, He' ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Hobby town Fresno Crawlplex",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/2113468955480591/posts/2652038591623622/",
+              "description": "Had a blast Fresno Crawlplex ran some lines withe some good friends and people #grizzlycitycrawlers. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Fresno Crawlplex",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/291489287271060/",
+              "description": "When we can't make it to Fresno Crawlplex we have some sections to build different layouts though I'm kind of addicted to expanding foam now lol.. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawling with the Gladiator listening to the birds what a great ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/tom.johnston.3192/videos/crawling-with-the-gladiator-listening-to-the-birds-what-a-great-morning-crawling/688425070901009/",
+              "description": "Crawling with the Gladiator listening to the birds what a great morning.   #crawling #scx24 #RC HobbyTown Injora Fresno Crawlplex."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "TCT CRAWLPLEX",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=vCWr5gE9NjE",
+              "description": "MISFIT CRAWLERS at The Colony Crawlplex."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Fresno Crawlplex RC vehicle build",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/HobbyTownFresnoCA/posts/insert-star-wars-theme-musicsuch-an-awesome-build-out-here-on-the-fresno-crawlpl/1028557576363047/",
+              "description": "Fresno Crawlplex RC vehicle build. Summarized by AI from the post ... *insert Star Wars theme music* Such an awesome build out here on the Fresno crawlplex!"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Another great night at the #hobbytown #fresno crawlplex. Sadly I ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/C4lKjQILZ9M/?img_index=2",
+              "description": "Another great night at the #hobbytown #fresno crawlplex. Sadly I must have stripped a gear in the transmission when I swapped in a more torquey motor and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Tech starts at 4:30 Driving starts at 5:00pm Bring a chair, ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DI62miXzUj8/",
+              "description": "Come and test your mettle this Saturday (6/13) on the one and only Fresno Crawlplex ! We will be making a special announcement this week, don ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "RC crawling competitions at Crawlplex and Madera Mystery ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/HobbyTownFresnoCA/posts/lots-of-crawling-going-on-tomorrow-everyonefirst-up-were-hosting-a-comp-2pm-on-t/1057445710140900/",
+              "description": "Lots of crawling going on tomorrow everyone! First up we're hosting a comp @2pm on the crawlplex, get those micro scales ready! And remember by way of..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Crawlterra\"",
+      "markets": [
+        {
+          "name": "\"Crawlterra\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"Crawlterra\"",
+          "market": "us",
+          "error": "Provider task failed: 40102 No Search Results."
+        }
+      ]
+    },
+    {
+      "name": "\"Crawlvera\"",
+      "markets": [
+        {
+          "name": "\"Crawlvera\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Vera\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlvera%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:24 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Segundo-Informe-semestral-que-presenta-la- ...",
+              "domain": "www.esaf-morelos.gob.mx",
+              "url": "https://www.esaf-morelos.gob.mx/2020/images/InformeResultados/2017-2018/Segundo-Informe-semestral-que-presenta-la-ESAF-sobre-el-estado-que-guarda-la-solventaci%C3%B3n-de-observaciones-a-las-entidades-fiscalizadas-2017-y-2018.pdf",
+              "description": "04.11.2010 — CRAWLVERA AO. MAYSHES THE. BAJAN-CW-SUS. LEGISLATIVO. LIV LEGISLATURA. 2018-2021. Congreso. Informe de Resultados enviado al. Informe de ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Crawlvera\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Crawl Vera\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlvera%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:30 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Segundo-Informe-semestral-que-presenta-la- ...",
+              "domain": "www.esaf-morelos.gob.mx",
+              "url": "https://www.esaf-morelos.gob.mx/2020/images/InformeResultados/2017-2018/Segundo-Informe-semestral-que-presenta-la-ESAF-sobre-el-estado-que-guarda-la-solventaci%C3%B3n-de-observaciones-a-las-entidades-fiscalizadas-2017-y-2018.pdf",
+              "description": "Nov 4, 2010 — CRAWLVERA AO. MAYSHES THE. BAJAN-CW-SUS. LEGISLATIVO. LIV LEGISLATURA. 2018-2021. Congreso. Informe de Resultados enviado al. Informe de ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Crawlverse\"",
+      "markets": [
+        {
+          "name": "\"Crawlverse\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Verse\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 4190,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlverse%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:33 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "CrawlVerse",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/channel/UCXkJuwCMVhi3moUvuU4a3iA",
+              "description": "Welcome to Crawlverse, your go-to destination for everything RC crawler related! As a solo creator, I am dedicated to bringing you the latest and greatest ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Nature CrawlVerse",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/people/Nature-CrawlVerse/61578448287461/",
+              "description": "Nature CrawlVerse. 7237 likes · 4298 talking about this. Crawl • Hunt • Strike ⚔️ Born to kill. Built to survive. Dark • Real • Addictive ⚠️ Enter ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "The Difficult Journey That Changed Everything #timelaps #insect",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61578448287461/videos/the-difficult-journey-that-changed-everythingtimelaps-insect/1032951702968171/",
+              "description": "Nature CrawlVerse. 1d· 󰟠. 󳄫. The Difficult Journey That Changed Everything #timelaps #insect. The Difficult Journey That Changed Everything ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "A powerful underground fighter trapped against an endless ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/Dcgl6vllDeV/",
+              "description": "... an endless swarm. Dig, fight, or escape? # CrawlVerse #Wildlife #InsectWorld #AnimalBehavior #WildlifeFacts\"."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "A Painful Transformation Caught on Camera",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61578448287461/videos/a-painful-transformation-caught-on-cameramacrophotography-natureismetal-wildlife/3016342935370129/",
+              "description": "Nature CrawlVerse. Aug 7, 2026· 󰟠. 󳄫. A Painful Transformation Caught on Camera #macrophotography #natureismetal #wildlife. A Painful ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Nature CrawlVerse",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/p/Nature-CrawlVerse-61578448287461/",
+              "description": "Nature CrawlVerse. 5460 likes · 4166 talking about this. Crawl • Hunt • Strike ⚔️ Born to kill. Built to survive. Dark • Real • Addictive ⚠️ Enter ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "⚔️ Fire Ants vs. Weaver Ants — total colony war 🐜 #CrawlVerse ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61590162556704/videos/%EF%B8%8F-fire-ants-vs-weaver-ants-total-colony-war-crawlverse-fireants-weaverants-colon/1702989751115634/",
+              "description": "⚔️ Fire Ants vs. Weaver Ants — total colony war #CrawlVerse #FireAnts #WeaverAnts #ColonyWar #WildlifeDocumentary."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Blue planet diaries (@blueplanetdairys)",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/blueplanetdairys/?__d=1500%E7%B2%89%E6%8A%96%E9%9F%B3%E5%8F%B7%E6%89%B9%E5%8F%91%E7%BD%91%2B-%2B%E7%86%8A%E7%88%AA%E5%BF%AB%E6%89%8B%E4%B9%B0%E5%8D%96%E4%BA%A4%E6%98%93%E7%BD%91%2B%E2%9C%94%EF%B8%8Fhaoba.cyou-%E5%BF%AB%E6%89%8B%E5%8F%B7%E5%B7%B2%E5%AE%9E%E5%90%8D%E6%9C%89%E7%B2%89%E4%B8%9D%E5%87%BA%E5%94%AE",
+              "description": "... CrawlVerse #Scorpion #DesertIcons #WildlifeDocumentary ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Nature CrawlVerse",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/@NatureCrawlVerse",
+              "description": "Nature CrawlVerse · Cow Covered by Insects Full Skeleton Reveal from Head to Tail · Black caiman Decomposed · Chimpanzee Decomposition. · Nature is Metal / ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Crawlverse\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Crawl Verse\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 4250,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlverse%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:38 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "CrawlVerse",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/channel/UCXkJuwCMVhi3moUvuU4a3iA",
+              "description": "Welcome to Crawlverse, your go-to destination for everything RC crawler related! As a solo creator, I am dedicated to bringing you the latest and greatest ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Nature CrawlVerse",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/p/Nature-CrawlVerse-61578448287461/",
+              "description": "Nature CrawlVerse. 5460 likes · 4166 talking about this. Crawl • Hunt • Strike ⚔️ Born to kill. Built to survive. Dark • Real • Addictive ⚠️ Enter ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Bee Colony vs. Wasp Colony — the hive war begins  ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61590162556704/videos/%EF%B8%8F-bee-colony-vs-wasp-colony-the-hive-war-begins-crawlverse-bees-wasps-colonywar-/27377113881965846/",
+              "description": "Bee Colony vs. Wasp Colony — the hive war begins # CrawlVerse #Bees #Wasps #ColonyWar #WildlifeDocumentary."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "The Difficult Journey That Changed Everything #timelaps #insect",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61578448287461/videos/the-difficult-journey-that-changed-everythingtimelaps-insect/1032951702968171/",
+              "description": "Nature CrawlVerse. 1d· 󰟠. 󳄫. The Difficult Journey That Changed Everything #timelaps #insect. The Difficult Journey That Changed Everything ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "One armored beast. An entire army closing in.  Strength vs ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DcbcWdXjw9H/",
+              "description": "A strange predator surrounded by an endless swarm. Whip tail vs thousands of ants — who survives? # CrawlVerse #Wildlife #InsectWorld # ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "A predator built to hunt suddenly becomes the target. 🪲🐜 ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DcobMvfFLK-/",
+              "description": "This strange predator fights back as the swarm closes in from every side. Can its giant pincers save it? #CrawlVerse #Wildlife # ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Nature CrawlVerse",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/1018751981322191/",
+              "description": "Nature CrawlVerse. 7346 likes · 4699 talking about this. Crawl • Hunt • Strike ⚔️ Born to kill. Built to survive. Dark • Real • Addictive ⚠️ Enter ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "One armored beast. An entire army closing in.  Strength vs ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61590162556704/videos/one-armored-beast-an-entire-army-closing-in-strength-vs-numbers-who-wins-crawlve/1784358022555762/",
+              "description": "One armored beast. An entire army closing in. Strength vs numbers — who wins? # CrawlVerse #Wildlife #InsectWorld #AnimalBehavior #"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "A powerful underground fighter trapped against an endless ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/Dcgl6vllDeV/",
+              "description": "A powerful underground fighter trapped against an endless swarm. Dig, fight, or escape? # CrawlVerse #Wildlife #InsectWorld # ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Indexistry\"",
+      "markets": [
+        {
+          "name": "\"Indexistry\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"Indexistry\"",
+          "market": "us",
+          "error": "Provider task failed: 40102 No Search Results."
+        }
+      ]
+    },
+    {
+      "name": "\"Indexterra\"",
+      "markets": [
+        {
+          "name": "\"Indexterra\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 10,
+          "checkUrl": "https://www.google.com/search?q=%22Indexterra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:45 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "#chinedujour #suissebrocante #videgreniers # ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DZj4qdTjQ35/",
+              "description": "Photo by @indexterra on June 14, 2026. May be an image of pottery. Photo by @indexterra on June 14, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Ohne Titel",
+              "domain": "gorod-kurganinsk.ru",
+              "url": "https://gorod-kurganinsk.ru/city/terra/indexterra.php",
+              "description": "Портал органа власти."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Quelques trouvailles après les vacances😀 #chinedujour ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DaioCqLDeW1/",
+              "description": "0 likes, 0 comments - indexterra on July 8, 2026: \"Quelques trouvailles après les vacances   #chinedujour #vintagefinds #suissebrocante #antiguidades ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Tank Cars Leased to Terra",
+              "domain": "www.nasg.org",
+              "url": "https://www.nasg.org/Gallery/reports/TankCars/ByLessee/indexTerra.php",
+              "description": "This report is limited to those tank cars that were leased to another company, with the lessee's name shown below."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Nieuwe site",
+              "domain": "groups.google.com",
+              "url": "https://groups.google.com/g/nl.huisdier.algemeen/c/L97O7CEjJYY",
+              "description": "http://home.wanadoo.nl/mcs.boeddha/indexterra.htm. de andere meisjes volgen binnenkort. Koyra en Cailen. Message has been deleted. Koyra's profile photo. Koyra."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "COMPARATIVO: Ducati 620 i.e. Sport / Ducati Monster ...",
+              "domain": "comunidad.ducatistas.com",
+              "url": "https://comunidad.ducatistas.com/t/comparativo-ducati-620-i-e-sport-ducati-monster-620-i-e/27205",
+              "description": "12.08.2003 — http://www.ducatimonsterclub.it/indexterra.gif · Inicio · Categorías · Directrices · Términos del servicio · Política de privacidad. Creado con ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Journée de chine au coffre ouvert d'Oron. Quelques pépites 😉😉 ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DXCA33CDRVw/",
+              "description": "4 likes, 0 comments - indexterra on April 12, 2026: \"Journée de chine au coffre ouvert d'Oron. Quelques pépites #chinedujour #antiques #videgreniers ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "C h a n s a i y",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61576523334316/posts/8e3b6c70/122124627014884111/",
+              "description": "Recent posts. C h a n s a i y. 3h· 󰟠. 󳄫. ☺️. ☺️. C h a n s a i y and Noug Syhai · 󰍸 2 · 󰍹 · C h a n s a i y. Jun 26, 2026· 󰟠."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Petit tour dans le Canton de Neuchâtel😀 #chinedujour ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DbvEwchtpOa/?hl=ar",
+              "description": "1 likes, 0 comments - indexterra on August 7, 2026: \"Petit tour dans le Canton de Neuchâtel   #chinedujour #brocantesuissenormande ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Indexterra\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"Indexvera\"",
+      "markets": [
+        {
+          "name": "\"Indexvera\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 7,
+          "checkUrl": "https://www.google.com/search?q=%22Indexvera%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:44 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Termine / Veranstaltungen",
+              "domain": "www.rheinortho.de",
+              "url": "http://www.rheinortho.de/indexvera.html",
+              "description": "Dr. S. Grüner (Köln): Das neue Patientenrechtegesetz - wie gehen wir damit um ? ... Dr. S. Wirz (Bad Honnef): Komplikationen in der Schmerztherapie - was ist für ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Watercubs & Kivisilman",
+              "domain": "watercubs.com",
+              "url": "https://watercubs.com/en_index.htm",
+              "description": "indexMerita indexVera indexBaron. Merita posing next to a fishing boat, United Kingdom (2012) - Rescuing dogs (Vera) and people from sinking cars, Belgium ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Berichte und Studien 4/2000",
+              "domain": "www.oenb.at",
+              "url": "https://www.oenb.at/dam/jcr:a1147a91-88e0-4454-a0a3-f2d110d6975e/ber_2000_4_tcm14-6357.pdf",
+              "description": "01.04.2000 — Abzug der ja¬hrlichen Indexvera¬nderungen Zuwa¬chse. O¬ sterreich ka¬me in dieser Rechnung an die 7. Stelle. Der уBo¬rseboom╥ der ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "3003 Bern., den 30. Dezember 1976",
+              "domain": "swissvotes.ch",
+              "url": "https://swissvotes.ch/attachments/8ed3144340ef0bbe7ea44f10a59648a5f00d32953ad8d74aaadd810f163123e5",
+              "description": "durch bedingte und die hierauf tatsächlich eingetretene Indexvera'n- derung statistisch vertretbar dargestellt werden. Dadurch ergeben sich zusätzliche ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Молитва Божией Матери",
+              "domain": "dusek-mihey.narod.ru",
+              "url": "https://dusek-mihey.narod.ru/indexVera.html",
+              "description": "Вера в Бога, Христианство, Молитва Христа, Молитва Богородицы, Молитва Господня,Молитва Божией Матери, Молитва Святому Духу, Молитва перед началом всякого ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "SV VKDD Hoofdlijnen Anatomie en Fysiologie van het Oog",
+              "domain": "www.studeersnel.nl",
+              "url": "https://www.studeersnel.nl/nl/document/universiteit-leiden/vraagstukken-kijken-denken-doen/sv-vkdd/65762717",
+              "description": "hersenen wordt verwerkt. Macroanatomie: van voor naar achteren. De belangrijkste indexverandering van het licht bestaat tussen de lucht en de traanfilm. Het."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "ysl mica sunglasses",
+              "domain": "www.akademipendik.com",
+              "url": "https://www.akademipendik.com/jglo.aspx?DNN=ke1011024021&cid=165&m=1",
+              "description": "Shopbop Designers - Fashion Designer Category IndexVera Bradley sunglasses are ideal for travelers with their compact, protective carrying case. Dior White ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Indexvera\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 7,
+          "checkUrl": "https://www.google.com/search?q=%22Indexvera%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:51 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Watercubs & Kivisilman",
+              "domain": "watercubs.com",
+              "url": "https://watercubs.com/en_index.htm",
+              "description": "indexMerita indexVera indexBaron. Merita posing next to a fishing boat, United Kingdom (2012) - Rescuing dogs (Vera) and people from sinking cars, Belgium ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Termine / Veranstaltungen",
+              "domain": "www.rheinortho.de",
+              "url": "http://www.rheinortho.de/indexvera.html",
+              "description": "Orthopädie Unfallchirurgie. Osteoporose Rheinland. Termine Über uns Vorstand Suche nach Fachärzte für Orthopädie und Unfallchirurgie die Spezialisten für alle ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Berichte und Studien 4/2000",
+              "domain": "www.oenb.at",
+              "url": "https://www.oenb.at/dam/jcr:a1147a91-88e0-4454-a0a3-f2d110d6975e/ber_2000_4_tcm14-6357.pdf",
+              "description": "Apr 1, 2000 — Abzug der ja¬hrlichen Indexvera¬nderungen Zuwa¬chse. O¬ sterreich ka¬me in dieser Rechnung an die 7. Stelle. Der уBo¬rseboom╥ der ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "3003 Bern., den 30. Dezember 1976",
+              "domain": "swissvotes.ch",
+              "url": "https://swissvotes.ch/attachments/8ed3144340ef0bbe7ea44f10a59648a5f00d32953ad8d74aaadd810f163123e5",
+              "description": "durch bedingte und die hierauf tatsächlich eingetretene Indexvera'n- derung statistisch vertretbar dargestellt werden. Dadurch ergeben sich zusätzliche ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "SV VKDD Hoofdlijnen Anatomie en Fysiologie van het Oog",
+              "domain": "www.studeersnel.nl",
+              "url": "https://www.studeersnel.nl/nl/document/universiteit-leiden/vraagstukken-kijken-denken-doen/sv-vkdd/65762717",
+              "description": "hersenen wordt verwerkt. Macroanatomie: van voor naar achteren. De belangrijkste indexverandering van het licht bestaat tussen de lucht en de traanfilm. Het. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Молитва Божией Матери",
+              "domain": "dusek-mihey.narod.ru",
+              "url": "https://dusek-mihey.narod.ru/indexVera.html",
+              "description": "Вера в Бога, Христианство, Молитва Христа, Молитва Богородицы, Молитва Господня,Молитва Божией Матери, Молитва Святому Духу, Молитва перед началом всякого ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "ysl mica sunglasses",
+              "domain": "www.akademipendik.com",
+              "url": "https://www.akademipendik.com/jglo.aspx?DNN=ke1011024021&cid=165&m=1",
+              "description": "Shopbop Designers - Fashion Designer Category IndexVera Bradley sunglasses are ideal for travelers with their compact, protective carrying case. Dior White ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Metricistry\"",
+      "markets": [
+        {
+          "name": "\"Metricistry\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 77,
+          "checkUrl": "https://www.google.com/search?q=%22Metricistry%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:29 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "“We assist entrepreneurs move from entrepreneurial intent to ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DYo_QsxNqzF/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Ownership builds wealth Because the ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DXedlv2jTzp/",
+              "description": "... Metricistry. We're trying to equip youth with understanding the ... METRICISTRY JOBS | CAREERS | FUNDING | IMPACT. empowaworx's profile ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "When Institutions Invest in Young People, ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DZ7TVqetSAB/",
+              "description": "... Metricistry. We're trying to equip youth with understanding the ... METRICISTRY JOBS | CAREERS | FUNDING | IMPACT ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "We ended the year with good food, great music, and ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DR4La1ND5US/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "One of the key conversations from Vaal EmpowaYouth Week ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DaDU8Qpt4WI/",
+              "description": "... Metricistry. We're trying to equip youth with understanding the ... METRICISTRY JOBS | CAREERS | FUNDING | IMPACT. the_hda's profile ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "THE SHIFT STARTS WITH YOU Pastor Mbhobho on VOW ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DWV--12jZ4y/",
+              "description": "... Metricistry. We're trying to equip youth with understanding the ... METRICISTRY JOBS | CAREERS | FUNDING | IMPACT. year_beyond's profile ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Big ideas. Fascinating pitches. Real stories. This is what you can ...",
+              "domain": "www-fallback.instagram.com",
+              "url": "https://www-fallback.instagram.com/p/Da4vNYTjDNm/",
+              "description": "... Metricistry. We're trying to equip youth with understanding the different roles and routes that they can actually take when they obviously get into ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "University of the Free State | 𝗧𝗵𝗲 𝗬𝗼𝘂𝘁𝗵 𝗠𝗼𝗻𝘁𝗵 ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DZ4axtMjZ9Y/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Opportunity Begins with Fair Competition. ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/Dave27ht4Uj/",
+              "description": "... METRICISTRY JOBS | CAREERS | FUNDING | IMPACT. blaqmermaid's profile picture. fluidrockgovernance's profile picture · fluidrockgovernanceand."
+            }
+          ]
+        },
+        {
+          "name": "\"Metricistry\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 63,
+          "checkUrl": "https://www.google.com/search?q=%22Metricistry%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:42:36 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "“We assist entrepreneurs move from entrepreneurial intent to ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DYo_QsxNqzF/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "THE SHIFT STARTS WITH YOU Pastor Mbhobho on VOW ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DWV--12jZ4y/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "We ended the year with good food, great music, and ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DR4La1ND5US/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "When Institutions Invest in Young People, ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DZ7TVqetSAB/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Ownership builds wealth Because the ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DXedlv2jTzp/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "One of the key conversations from Vaal EmpowaYouth Week ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DaDU8Qpt4WI/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "University of the Free State | 𝗧𝗵𝗲 𝗬𝗼𝘂𝘁𝗵 𝗠𝗼𝗻𝘁𝗵 ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DZ4axtMjZ9Y/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "𝑩𝒆𝒇𝒐𝒓𝒆 𝑻𝒉𝒆 𝑱𝒐𝒖𝒓𝒏𝒆𝒚 𝑩𝒆𝒈𝒂𝒏… Before arriving in Obihiro ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DbA61evNfCz/",
+              "description": "... Metricistry. We're trying to equip youth with understanding the different roles and routes that they can actually take when they obviously get into ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Big ideas. Fascinating pitches. Real stories. This is what you can ...",
+              "domain": "www-fallback.instagram.com",
+              "url": "https://www-fallback.instagram.com/p/Da4vNYTjDNm/",
+              "description": "... Metricistry. We're trying to equip youth with understanding the different roles and routes that they can actually take when they obviously get into ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Queryarium\"",
+      "markets": [
+        {
+          "name": "\"Queryarium\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"Queryarium\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"Querymetry\"",
+      "markets": [
+        {
+          "name": "\"Querymetry\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"Querymetry\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 0,
+          "checkUrl": "https://www.google.com/search?q=%22Querymetry%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:22 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": []
+        }
+      ]
+    },
+    {
+      "name": "\"Queryvera\"",
+      "markets": [
+        {
+          "name": "\"Queryvera\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 3,
+          "checkUrl": "https://www.google.com/search?q=%22Queryvera%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:04 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "QueryVera US",
+              "domain": "queryvera-us.blogspot.com",
+              "url": "http://queryvera-us.blogspot.com/",
+              "description": "QueryVera US. 글. 표시할 글이 없습니다. Powered by Blogger. 테마 이미지 제공 ... QueryVera · 프로필로 이동 · 신고하기."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "QueryVera Japan",
+              "domain": "queryvera-jp.blogspot.com",
+              "url": "http://queryvera-jp.blogspot.com/",
+              "description": "QueryVera Japan. 글. 표시할 글이 없습니다. Powered by Blogger. 테마 이미지 제공 ... QueryVera · 프로필로 이동 · 신고하기."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "QueryVera Korea",
+              "domain": "queryvera-kr.blogspot.com",
+              "url": "http://queryvera-kr.blogspot.com/",
+              "description": "QueryVera Korea. 글. 표시할 글이 없습니다. Powered by Blogger. 테마 이미지 제공 ... QueryVera · 프로필로 이동 · 신고하기."
+            }
+          ]
+        },
+        {
+          "name": "\"Queryvera\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 3,
+          "checkUrl": "https://www.google.com/search?q=%22Queryvera%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:42:09 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "QueryVera US",
+              "domain": "queryvera-us.blogspot.com",
+              "url": "http://queryvera-us.blogspot.com/",
+              "description": "QueryVera US. 글. 표시할 글이 없습니다. Powered by Blogger. 테마 이미지 제공 ... QueryVera · 프로필로 이동 · 신고하기. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "QueryVera Japan",
+              "domain": "queryvera-jp.blogspot.com",
+              "url": "http://queryvera-jp.blogspot.com/",
+              "description": "QueryVera Japan. 글. 표시할 글이 없습니다. Powered by Blogger. 테마 이미지 제공 ... QueryVera · 프로필로 이동 · 신고하기. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "QueryVera Korea",
+              "domain": "queryvera-kr.blogspot.com",
+              "url": "http://queryvera-kr.blogspot.com/",
+              "description": "QueryVera Korea. 글. 표시할 글이 없습니다. Powered by Blogger. 테마 이미지 제공 ... QueryVera · 프로필로 이동 · 신고하기. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"RankPlane\"",
+      "markets": [
+        {
+          "name": "\"RankPlane\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 30,
+          "checkUrl": "https://www.google.com/search?q=%22RankPlane%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:07 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Poll from RankPlane",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/post/UgkxYnS_8jI6fR5B2Oj-Fv1i_t7ZfihrY7oB",
+              "description": "Poll from RankPlane - YouTube. Home. Shorts. Library. RankPlane · 10 days ago. What do you want ranked next? :D. Trickshots. Instant Karma. Trampoline Park."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Top 5 Jynxzi Crashout moments",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/otNc0S0onB0",
+              "description": "@rankplane. Subscribe. Top 5 Jynxzi Crashout moments. 4."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Top 6 unexpected moments",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/D7fMp7NwuEM",
+              "description": "Tap to unmute. Your browser can't play this video. Learn more · @rankplane. Subscribe. Top 6 unexpected moments. 3. 0. Share. Video unavailable."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "unho Metal Trellis, Large Garden Arch for Climbing Plants ...",
+              "domain": "www.amazon.de",
+              "url": "https://www.amazon.de/-/en/unho-Trellis-Garden-Climbing-Plants/dp/B0DXF687YT",
+              "description": "... Rankplane ist noch intakt. Read moreRead less. One person found this helpful. Helpful. Sending feedback... Thank you for your feedback. Sorry, we failed to ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "RANKING THE MOST Satisfying Videos",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/MUajA8AmyF0",
+              "description": "@RankPlane-14u. Subscribe. RANKING THE MOST Satisfying Videos    . RANKING THE BEST THINGS Dropped From Heights · Golden Brown · The ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Tenemos el regalo de reyes magos",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/661433185655353/posts/1411669210631743/",
+              "description": "... RANKPLANE PLANE 20. MED MIKDERFUL AFUIL .ニ. g製1のの相す poneeT ဟ HPIUNN ใษูดับงทพ punGame จันกลว Game NEW NEWSTYLESI STYLES! POWER 95 95 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "RANKING THE BEST Trickshots Ever! 🫢🫢",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/2HKflTJxlg8",
+              "description": "Learn more · @RankPlane-14u. Subscribe. RANKING THE BEST Trickshots Ever!. RANKING BEST Instant Karma Moments! · Golden Brown · The ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "新增进销存检查- 欧加隆",
+              "domain": "bak.easydoc.net",
+              "url": "https://bak.easydoc.net/doc/35190938/m1jpTpTA/7bLCWVh8",
+              "description": "rankPlane. 排位面. 必填. userID. 必填. WorkItemCode. 工作项code. 必填. VisitId ... “rankPlane”: “3”, “productCode”: “P120”, “productShortName”: “去氧孕烯炔雌淳 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "RANKING THE BEST Deep Sea Hunting! 🤑🤑",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/ELXdv3ZCoc0",
+              "description": "Learn more · @RankPlane-14u. Subscribe. RANKING THE BEST Deep Sea Hunting!. RANKING THE FUNNIEST Cat Moments · Golden Brown · The ..."
+            }
+          ]
+        },
+        {
+          "name": "\"RankPlane\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 31,
+          "checkUrl": "https://www.google.com/search?q=%22RankPlane%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:13 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Poll from RankPlane",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/post/UgkxYnS_8jI6fR5B2Oj-Fv1i_t7ZfihrY7oB",
+              "description": "Poll from RankPlane - YouTube. Home. Shorts. Library. RankPlane · 10 days ago. What do you want ranked next? :D. Trickshots. Instant Karma. Trampoline Park."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Top 5 Jynxzi Crashout moments",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/otNc0S0onB0",
+              "description": "@rankplane. Subscribe. Top 5 Jynxzi Crashout moments. 4."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Top 6 unexpected moments",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/D7fMp7NwuEM",
+              "description": "Tap to unmute. Your browser can't play this video. Learn more · @rankplane. Subscribe. Top 6 unexpected moments. 3. 0. Share. Video unavailable."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "RANKING THE MOST Satisfying Videos",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/MUajA8AmyF0",
+              "description": "@RankPlane-14u. Subscribe. RANKING THE MOST Satisfying Videos    . RANKING THE BEST THINGS Dropped From Heights · Golden Brown · The ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "RANKING THE BEST Trickshots Ever! 🫢🫢",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/2HKflTJxlg8",
+              "description": "Learn more · @RankPlane-14u. Subscribe. RANKING THE BEST Trickshots Ever!. RANKING BEST Instant Karma Moments! · Golden Brown · The ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "RANKING THE BEST Deep Sea Hunting! 🤑🤑",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/ELXdv3ZCoc0",
+              "description": "Learn more · @RankPlane-14u. Subscribe. RANKING THE BEST Deep Sea Hunting!. RANKING THE FUNNIEST Cat Moments · Golden Brown · The ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Tenemos el regalo de reyes magos",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/661433185655353/posts/1411669210631743/",
+              "description": "... RANKPLANE PLANE 20. MED MIKDERFUL AFUIL .ニ. g製1のの相す poneeT ဟ HPIUNN ใษูดับงทพ punGame จันกลว Game NEW NEWSTYLESI STYLES! POWER 95 95 ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "RANKING THE BEST Skilled Workers 🤑🤑",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/yaftbUdwyw8",
+              "description": "Learn more · @RankPlane-14u. Subscribe. RANKING THE BEST Skilled Workers. RANKING THE BEST Trickshots Ever! · Headlights [Extended Mix] ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "unho Metal Trellis, Large Garden Arch for Climbing Plants ...",
+              "domain": "www.amazon.de",
+              "url": "https://www.amazon.de/-/en/unho-Trellis-Garden-Climbing-Plants/dp/B0DXF687YT",
+              "description": "... Rankplane ist noch intakt. Read moreRead less. One person found this helpful. Helpful. Sending feedback... Thank you for your feedback. Sorry, we failed to ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Searcharium\"",
+      "markets": [
+        {
+          "name": "\"Searcharium\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 42,
+          "checkUrl": "https://www.google.com/search?q=%22Searcharium%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:06 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Negocios de Computer Consultant en Parkland Florida",
+              "domain": "galego.cybo.com",
+              "url": "https://galego.cybo.com/US/parkland-florida/computer-consultant",
+              "description": "Searcharium - SEO - Miami, FLPechado permanentemente. 7833 NW 124th Terrace, Parkland, FL 33321, USA. (954) 895-6406. searcharium.com. 5.8 km. Filtros. Ningún ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "George Goldberg, Age 57 in Plantation, FL, (954) 240-5656",
+              "domain": "www.truepeoplesearch.com",
+              "url": "https://www.truepeoplesearch.com/find/person/p2l6r89rr2u60449090u",
+              "description": "tfine@searcharium.com. tifne@searcharium.com. Current Address Property Details. Property record details for the current residence of George Goldberg. 10171 Key ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Suppliers in Florida | B2B Marketplace | Kompass.com",
+              "domain": "sg.kompass.com",
+              "url": "https://sg.kompass.com/z/us/a/retail-trade-sports-and-camping-articles/8145018/r/florida/us_12/page-5/",
+              "description": "Searcharium · Pompano beach - United States. Sporting Goods & Bicycle Shops. Supplier of: Retail trade, sports and camping articles. Phone number. +1 954 345- ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Parkland புளோரிடா களில் இருக்கும் Computer ...",
+              "domain": "tamil.cybo.com",
+              "url": "https://tamil.cybo.com/US/parkland-%E0%AE%AA%E0%AF%81%E0%AE%B3%E0%AF%8B%E0%AE%B0%E0%AE%BF%E0%AE%9F%E0%AE%BE/computer-consultant",
+              "description": "Searcharium - SEO - Miami, FLநிரந்தரமாக மூடப்பட்டது. 7833 NW 124th Terrace, Parkland, FL 33321, USA. (954) 895-6406. searcharium.com."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "George Z Goldberg - Plantation, Florida - (954) 240-5656",
+              "domain": "www.familytreenow.com",
+              "url": "https://www.familytreenow.com/records/people/id/gelkroprreukattpapau",
+              "description": "tfine@searcharium.com. tifne@searcharium.com. Current Address Property Record. Includes property details for the current address of George Z Goldberg. 1776 N ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "George H. Goldberg",
+              "domain": "thatsthem.com",
+              "url": "https://thatsthem.com/name/George-H-Goldberg",
+              "description": "Looking for info on George H. Goldberg? Find the latest phone number, email address, home address and more at ThatsThem for free."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Todd Fine(57) Parkland, FL (954)895-6406",
+              "domain": "www.fastpeoplesearch.com",
+              "url": "https://www.fastpeoplesearch.com/todd-fine_id_G2545989900344033586",
+              "description": "Todd Fine in Parkland, FL is associated with the following businesses: SEARCHARIUM: 7833 NW 124TH TERRACE PARKLAND FL 33076-: FINE TODD: OWNER: Since April 2008."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "рачунарски консултант preduzeća u паркланд (флорида)",
+              "domain": "xn--ute-strane-3jc.cybo.com",
+              "url": "https://xn--ute-strane-3jc.cybo.com/US/%D0%BF%D0%B0%D1%80%D0%BA%D0%BB%D0%B0%D0%BD%D0%B4-(%D1%84%D0%BB%D0%BE%D1%80%D0%B8%D0%B4%D0%B0)/%D1%80%D0%B0%D1%87%D1%83%D0%BD%D0%B0%D1%80%D1%81%D0%BA%D0%B8-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%82%D0%B0%D0%BD%D1%82",
+              "description": "Searcharium - SEO - Miami, FLТрајно затворено. 7833 NW 124th Terrace, Parkland, FL 33321, USA. (954) 895-6406. searcharium.com. 5.8 km. Филтери. Ниједан. Посао."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Informatikai Szaktanacsado cégek Parkland Florida helyszínen",
+              "domain": "hu.cybo.com",
+              "url": "https://hu.cybo.com/US/parkland-florida/informatikai-szaktanacsado",
+              "description": "Searcharium - SEO - Miami, FLVéglegesen bezárva. 7833 NW 124th Terrace, Parkland, FL 33321, USA. (954) 895-6406. searcharium.com. 5.8 km. Szűrők. Semmi. Üzleti."
+            }
+          ]
+        },
+        {
+          "name": "\"Searcharium\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 42,
+          "checkUrl": "https://www.google.com/search?q=%22Searcharium%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:42:16 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Negocios de Computer Consultant en Parkland Florida",
+              "domain": "galego.cybo.com",
+              "url": "https://galego.cybo.com/US/parkland-florida/computer-consultant",
+              "description": "Searcharium - SEO - Miami, FLPechado permanentemente. 7833 NW 124th Terrace, Parkland, FL 33321, USA. (954) 895-6406. searcharium.com. 5.8 km. Filtros. Ningún ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "George Goldberg, Age 57 in Plantation, FL, (954) 240-5656",
+              "domain": "www.truepeoplesearch.com",
+              "url": "https://www.truepeoplesearch.com/find/person/p2l6r89rr2u60449090u",
+              "description": "tfine@searcharium.com. tifne@searcharium.com. Current Address Property Details. Property record details for the current residence of George Goldberg. 10171 Key ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Suppliers in Florida | B2B Marketplace | Kompass.com",
+              "domain": "sg.kompass.com",
+              "url": "https://sg.kompass.com/z/us/a/retail-trade-sports-and-camping-articles/8145018/r/florida/us_12/page-5/",
+              "description": "Searcharium · Pompano beach - United States. Sporting Goods & Bicycle Shops. Supplier of: Retail trade, sports and camping articles. Phone number. +1 954 345- ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "George Z Goldberg - Plantation, Florida - (954) 240-5656",
+              "domain": "www.familytreenow.com",
+              "url": "https://www.familytreenow.com/records/people/id/gelkroprreukattpapau",
+              "description": "tfine@searcharium.com. tifne@searcharium.com. Current Address Property Record. Includes property details for the current address of George Z Goldberg. 1776 N ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "George H. Goldberg",
+              "domain": "thatsthem.com",
+              "url": "https://thatsthem.com/name/George-H-Goldberg",
+              "description": "Looking for info on George H. Goldberg? Find the latest phone number, email address, home address and more at ThatsThem for free."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "рачунарски консултант preduzeća u паркланд (флорида)",
+              "domain": "xn--ute-strane-3jc.cybo.com",
+              "url": "https://xn--ute-strane-3jc.cybo.com/US/%D0%BF%D0%B0%D1%80%D0%BA%D0%BB%D0%B0%D0%BD%D0%B4-(%D1%84%D0%BB%D0%BE%D1%80%D0%B8%D0%B4%D0%B0)/%D1%80%D0%B0%D1%87%D1%83%D0%BD%D0%B0%D1%80%D1%81%D0%BA%D0%B8-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%82%D0%B0%D0%BD%D1%82",
+              "description": "Searcharium - SEO - Miami, FLТрајно затворено. 7833 NW 124th Terrace, Parkland, FL 33321, USA. (954) 895-6406. searcharium.com. 5.8 km. Филтери. Ниједан. Посао."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Todd Fine(57) Parkland, FL (954)895-6406",
+              "domain": "www.fastpeoplesearch.com",
+              "url": "https://www.fastpeoplesearch.com/todd-fine_id_G2545989900344033586",
+              "description": "Todd Fine in Parkland, FL is associated with the following businesses: SEARCHARIUM: 7833 NW 124TH TERRACE PARKLAND FL 33076-: FINE TODD: OWNER: Since April 2008. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Parkland புளோரிடா களில் இருக்கும் Computer ...",
+              "domain": "tamil.cybo.com",
+              "url": "https://tamil.cybo.com/US/parkland-%E0%AE%AA%E0%AF%81%E0%AE%B3%E0%AF%8B%E0%AE%B0%E0%AE%BF%E0%AE%9F%E0%AE%BE/computer-consultant",
+              "description": "Searcharium - SEO - Miami, FLநிரந்தரமாக மூடப்பட்டது. 7833 NW 124th Terrace, Parkland, FL 33321, USA. (954) 895-6406. searcharium.com."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Tu Van Vien May Tinh Doanh nghiệp tại Parkland Florida",
+              "domain": "trangvang.cybo.com",
+              "url": "https://trangvang.cybo.com/US/parkland-florida/tu-van-vien-may-tinh",
+              "description": "Searcharium - SEO - Miami, FLĐóng cửa vĩnh viễn. 7833 NW 124th Terrace, Parkland, FL 33321, USA. (954) 895-6406. searcharium.com. 5.8 km. Bộ lọc. Không ai. Kinh ..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

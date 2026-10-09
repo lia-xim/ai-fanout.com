@@ -1,0 +1,1649 @@
+{
+  "generatedAt": "2026-09-01T17:45:19.371Z",
+  "methodology": {
+    "endpoint": "serp/google/organic/live/advanced",
+    "markets": [
+      {
+        "id": "de",
+        "locationCode": 2276,
+        "languageCode": "de"
+      },
+      {
+        "id": "us",
+        "locationCode": 2840,
+        "languageCode": "en"
+      }
+    ],
+    "depth": 10,
+    "paidAddOns": false,
+    "estimatedCostUsd": 0.044,
+    "actualCostUsd": 0.03800000000000002,
+    "note": "Evidence export only. No automatic score, grade, or recommendation."
+  },
+  "combined": [
+    {
+      "name": "\"CrawlBoard\"",
+      "markets": [
+        {
+          "name": "\"CrawlBoard\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Board\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 3070,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlBoard%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:48 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Mustard – EP von Crawlboard",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/intl-de/album/1RwtYVIhCGiWUyTy7KhKCN",
+              "description": "20245 Songs, 17 Min. 47 Sek. Mustard · Crawlboard · Walk Alone · Crawlboard · Where I Lay · Crawlboard · Is It You? Crawlboard · Fable · Crawlboard. Mehr von ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Crawlboard",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/bram-tyrer-767078591",
+              "description": "We are an alternative/rock band from the Isle of Man, we hope you enjoy our music! Tracks. See all · Dead Eyes. Crawlboard. 4. 4:42. 1y. Fable. Crawlboard."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawlboard",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/crawlboard/",
+              "description": "Here is a gig list of all upcoming Crawlboard gigs, starting off tomorrow night at the Front Porch!"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Is It You? von Crawlboard",
+              "domain": "songwhip.com",
+              "url": "https://songwhip.com/crawlboard/is-it-you?lang=de",
+              "description": "Höre „Is It You?“ von Crawlboard auf jeder Musikplattform - Kostenlose intelligente Musik-Links von Songwhip."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Crawlboard",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/p/Crawlboard-100093880707421/",
+              "description": "Listen back to the full programme here ⬇️ for the next 7 days, with Crawlboard chat and full session, plus new music from Role Model, Billy Nomates, Nell ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Crawlboard",
+              "domain": "app.chartmetric.com",
+              "url": "https://app.chartmetric.com/de/artist/10956120",
+              "description": "What are Crawlboard's most popular songs? Crawlboard's most popular songs include Is It You?, Mustard. Is Crawlboard currently on tour?"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Crawlboard",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/@Crawlboard",
+              "description": "We are Crawlboard, an alternative/rock band from the Isle of Man . You can expect lots of new music from us, so be sure to subscribe . ...more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Crawlboard: albums, songs, concerts",
+              "domain": "www.deezer.com",
+              "url": "https://www.deezer.com/en/artist/223976415",
+              "description": "Listen to Crawlboard on Deezer: the full discography, top albums and songs, concerts and featured music. Sign up for free!"
+            }
+          ]
+        },
+        {
+          "name": "\"CrawlBoard\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Crawl Board\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 2940,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlBoard%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:49 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "CrawlBoard - Big Data Crawler",
+              "domain": "www.promptcloud.com",
+              "url": "https://www.promptcloud.com/crawlboard/",
+              "description": "CrawlBoard is the new version of our requirement gathering dashboard. It comes with many added features which makes your work easier, quicker & provides a ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Crawlboard",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/p/Crawlboard-100093880707421/",
+              "description": "Listen back to the full programme here ⬇️ for the next 7 days, with Crawlboard chat and full session, plus new music from Role Model, Billy Nomates, Nell ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawlboard",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/artist/269Go8LXJW0Rxbz1rGUD5O",
+              "description": "Listen to Crawlboard on Spotify. Artist · 12 monthly listeners."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Crawlboard",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/bram-tyrer-767078591",
+              "description": "We are an alternative/rock band from the Isle of Man, we hope you enjoy our music! Tracks. See all · Dead Eyes. Crawlboard. 4. 4:42. 1y. Fable. Crawlboard. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Crawlboard",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/crawlboard/",
+              "description": "Here is a gig list of all upcoming Crawlboard gigs, starting off tomorrow night at the Front Porch!"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Crawlboard",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/@Crawlboard",
+              "description": "We are Crawlboard, an alternative/rock band from the Isle of Man . You can expect lots of new music from us, so be sure to subscribe . ...more Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Bram, Leo and Conrad - aka Crawlboard - joined Christy in ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/ManxRadio/videos/-bram-leo-and-conrad-aka-crawlboard-joined-christy-in-the-live-lounge-this-eveni/1049376693678263/",
+              "description": "Bram, Leo and Conrad - aka Crawlboard - joined Christy in the Live Lounge this evening and played two songs live for us."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Dead Eyes - Crawlboard",
+              "domain": "www.amazon.com",
+              "url": "https://www.amazon.com/Dead-Eyes-Crawlboard/dp/B0DW4XSNBQ",
+              "description": "Check out Dead Eyes by Crawlboard on Amazon Music. Stream ad-free or purchase CD's and MP3s now on Amazon.com."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlCommand\"",
+      "markets": [
+        {
+          "name": "\"CrawlCommand\"",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "\"CrawlCommand\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlFactory\"",
+      "markets": [
+        {
+          "name": "\"CrawlFactory\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Factory\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1250,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlFactory%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:49 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "FREEKIN WEEKENDS X SUMMER CRAWL",
+              "domain": "www.factorytheatre.com.au",
+              "url": "https://www.factorytheatre.com.au/event/summer-crawl/",
+              "description": "Taking place on the Sunday, the 25th of Jan, this expanded event will feature even more venues, additional artists, and brand-new activations that have never ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "First Friday Franklin Art Crawl",
+              "domain": "factoryatfranklin.com",
+              "url": "https://factoryatfranklin.com/event/franklin-art-crawl-2-2-2/2025-10-03/",
+              "description": "03.10.2025 — October 3, 2025 @ 6:00 pm - 9:00 pm ... Join the Franklin Art Crawl and see dozens of artists dispersed throughout downtown Franklin's historic ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Subtasks: Implement crawl factory for storage resources. #198",
+              "domain": "github.com",
+              "url": "https://github.com/google/gcp_scanner/issues/198",
+              "description": "Subtasks: Implement crawl factory for storage resources. #198 · Description · Activity · Metadata · Metadata · Issue actions · Footer."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Artist Market & OK Art Crawl",
+              "domain": "www.factoryobscura.com",
+              "url": "https://www.factoryobscura.com/events/2021/ok-art-crawl",
+              "description": "This event works as a drive-by exhibition featuring artists from across the state of Oklahoma. Last year, artists displayed their work in their homes, garages, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Art Crawl Factory at Franklin #TheFactory # ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/ginamccoy91/posts/art-crawl-factory-at-franklinthefactory-franklin-backfromthedead-ginajacksonart-/10163875508135255/",
+              "description": "Art Crawl Factory at Franklin #TheFactory #franklin #backfromthedead #ginajacksonart #nashvilleactors · The Franklin Art Crawl is happening ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Natasha Crawl - Leadpoint Business Services",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/in/natasha-crawl-a25689251",
+              "description": "Factory Worker at Leadpoint Business Services · Experience: Leadpoint Business Services · Location: Southfield. View Natasha Crawl's profile on LinkedIn, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Tag: spartan race caterpillar crawl - TourGo",
+              "domain": "www.tourgosolution.com",
+              "url": "https://www.tourgosolution.com/tag/spartan-race-caterpillar-crawl",
+              "description": "TourGo Event Solution Co., LTD is a professional supplier/exporter specialized in spartan race caterpillar crawl, and all the products have certification of ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "ipazc/oculus-crawl: OculusCrawl project aimed to perform ...",
+              "domain": "github.com",
+              "url": "https://github.com/ipazc/oculus-crawl",
+              "description": "... crawl factory 0.0.0.0 -d /datasets/ # 2. Run the crawler on background with one worker docker run -ti -d --rm --name o-crawler dkmivan/oculus-crawl crawler ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Love Banana @ Factory Theatre, 12th Jul",
+              "domain": "www.theundergroundstage.com",
+              "url": "http://www.theundergroundstage.com/shows/love-banana-factory-theatre-12th-jul/",
+              "description": "12.07.2026 — \"A glorious collision of eggpunk, psyche-y Sonics moments, and skinny notes of The Only Ones, Love Banana skitter and skirl like loopy ..."
+            }
+          ]
+        },
+        {
+          "name": "\"CrawlFactory\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Crawl Factory\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1030,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlFactory%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:45:00 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Artist Market & OK Art Crawl",
+              "domain": "www.factoryobscura.com",
+              "url": "https://www.factoryobscura.com/events/2021/ok-art-crawl",
+              "description": "Shop local art created by Factory Obscura artists and friends at this outdoor Artist Market! 11-8 | Sat 10-8 Closed. Crawl Saturday, October 16, 2021 11:00 AM ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "First Friday Franklin Art Crawl",
+              "domain": "factoryatfranklin.com",
+              "url": "https://factoryatfranklin.com/event/franklin-art-crawl-2-2-2-2/2026-03-06/",
+              "description": "Mar 6, 2026 — March 6 @ 6:00 pm - 9:00 pm. Join the Franklin Art Crawl and see dozens of artists dispersed throughout downtown Franklin's historic buildings ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "FREEKIN WEEKENDS X SUMMER CRAWL",
+              "domain": "www.factorytheatre.com.au",
+              "url": "https://www.factorytheatre.com.au/event/summer-crawl/",
+              "description": "Taking place on the Sunday, the 25th of Jan, this expanded event will feature even more venues, additional artists, and brand-new activations that have never ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Art Crawl Factory at Franklin #TheFactory # ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/ginamccoy91/posts/art-crawl-factory-at-franklinthefactory-franklin-backfromthedead-ginajacksonart-/10163875508135255/",
+              "description": "Art Crawl Factory at Franklin #TheFactory #franklin #backfromthedead #ginajacksonart #nashvilleactors · The Franklin Art Crawl is happening ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "ipazc/oculus-crawl: OculusCrawl project aimed to perform ...",
+              "domain": "github.com",
+              "url": "https://github.com/ipazc/oculus-crawl",
+              "description": "... crawl factory 0.0.0.0 -d /datasets/ # 2. Run the crawler on background with one worker docker run -ti -d --rm --name o-crawler dkmivan/oculus-crawl crawler ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Natasha Crawl - Leadpoint Business Services",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/in/natasha-crawl-a25689251",
+              "description": "Factory Worker at Leadpoint Business Services · Experience: Leadpoint Business Services · Location: Southfield. View Natasha Crawl's profile on LinkedIn, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Love Banana @ Factory Theatre, 12th Jul",
+              "domain": "www.theundergroundstage.com",
+              "url": "http://www.theundergroundstage.com/shows/love-banana-factory-theatre-12th-jul/",
+              "description": "Jul 12, 2026 — “A glorious collision of eggpunk, psyche-y Sonics. Crawl, Factory Theatre, Sydney, Fifty freshly-released goodies from the very best new ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Tag: spartan race caterpillar crawl - TourGo",
+              "domain": "www.tourgosolution.com",
+              "url": "https://www.tourgosolution.com/tag/spartan-race-caterpillar-crawl",
+              "description": "TourGo Event Solution Co., LTD is a professional supplier/exporter specialized in spartan race caterpillar crawl, and all the products have certification of ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "It's a big week in this crazy town, and I've received the ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DZLxO6-kdAP/",
+              "description": "... CRAWL @ FACTORY AT FRANKLIN WHISKEY RIVER 90'S ROOFTOP REWIND CMA FEST @ NISSAN STADIUM SATURDAY FACTORY FARMERS MARKET @ FACTORY AT ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlNavigator\"",
+      "markets": [
+        {
+          "name": "\"CrawlNavigator\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Navigator\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 77,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlNavigator%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:12 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Crawl Navigator | Crawl",
+              "domain": "nighthawkcrawl.com",
+              "url": "https://nighthawkcrawl.com/crawl-navigator/69f205efc5896c4709fff6c3",
+              "description": "Crawl Navigator on Crawl. The ultimate Australian nightlife directory connecting party-seekers with curate."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "turbo-surf-page",
+              "domain": "lib.rs",
+              "url": "https://lib.rs/crates/turbo-surf-page",
+              "description": "The MCP session and the crawl navigator rotate per host automatically; in code: ... Plug a solver into the ChallengeSolver trait — the MCP session / crawl ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Cocktail Recommendations for Drink Package Bar Crawl",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/royalcaribbean/comments/1mdhi2e/cocktail_recommendations_for_drink_package_bar/",
+              "description": "Cocktail Recommendations for Drink Package Bar Crawl - Navigator of the Seas, August 2025 · Comments Section · Community Info Section."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "St. Paddy's Bar Crawl Navigator",
+              "domain": "stpaddyspubcrawl.com",
+              "url": "https://stpaddyspubcrawl.com/",
+              "description": "14.03.2026 — Your ultimate guide to navigating the Luck of the Irish St. Patrick's Day Bar Crawl, complete with exclusive drink specials and venue ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Join us tomorrow for our annual pub crawl! Ticket sales ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/delandprofessionalfirefighters/posts/join-us-tomorrow-for-our-annual-pub-crawl-ticket-sales-start-at-600pm-on-georgia/1401037728719397/",
+              "description": "Most importantly, thank you to our Beer Crawl Navigator and Director Matthew L Wagner. You did an amazing job."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Were So Weak When Rescued They Could Only Crawl ...",
+              "domain": "www.nytimes.com",
+              "url": "https://www.nytimes.com/1925/09/24/archives/lieut-connell-tells-desperate-plight-of-pacific-fliers-were-so-weak.html",
+              "description": "LIEUT. CONNELL TELLS DESPERATE PLIGHT OF PACIFIC FLIERS; Were So Weak When Rescued They Could Only Crawl, Navigator's Story Reveals. WATER GONE AS RAIN CAME ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Run Before You Crawl",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/runbeforeyoucrawl/posts/sign-up-now-for-the-best-prices-for-the-2019-run-before-you-crawl-running-beer-p/3260996770614871/",
+              "description": "Most importantly, thank you to our Beer Crawl Navigator and Director Matthew L Wagner. You did an amazing job."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "SantaCon Came Back to Town - The Ink.nyc",
+              "domain": "theink.nyc",
+              "url": "http://theink.nyc/santacon-came-back-town-bar-crawl-navigator-hundreds-returning-fans/",
+              "description": "13.12.2018 — “Today” was SantaCon, that annual pub crawl charity event in which hundreds of elves, snowmen and Santas descend on a single meeting place on a ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Running of the Bull Pub Crawl makes the rounds in New ...",
+              "domain": "www.harborcountry-news.com",
+              "url": "https://www.harborcountry-news.com/features/running-of-the-bull-pub-crawl-makes-the-rounds-in-new-buffalo/article_ef9edada-42c4-11ea-9aae-6b02a4b72434.html",
+              "description": "04.02.2020 — Smith (the pub crawl navigator dressed as a penguin)is a veteran of all five events (he dressed in Boston Bruin hockey clothing the first ..."
+            }
+          ]
+        },
+        {
+          "name": "\"CrawlNavigator\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Crawl Navigator\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 79,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlNavigator%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:10 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Cocktail Recommendations for Drink Package Bar Crawl",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/royalcaribbean/comments/1mdhi2e/cocktail_recommendations_for_drink_package_bar/",
+              "description": "Cocktail Recommendations for Drink Package Bar Crawl - Navigator of the Seas, August 2025 · Comments Section · Community Info Section. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Crawl Navigator | Crawl",
+              "domain": "nighthawkcrawl.com",
+              "url": "https://nighthawkcrawl.com/crawl-navigator/69f205efc5896c4709fff6c3",
+              "description": "Crawl Navigator on Crawl. The ultimate Australian nightlife directory connecting party-seekers with curate."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Join us tomorrow for our annual pub crawl! Ticket sales ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/delandprofessionalfirefighters/posts/join-us-tomorrow-for-our-annual-pub-crawl-ticket-sales-start-at-600pm-on-georgia/1401037728719397/",
+              "description": "Most importantly, thank you to our Beer Crawl Navigator and Director Matthew L Wagner. You did an amazing job. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "St. Paddy's Bar Crawl Navigator",
+              "domain": "stpaddyspubcrawl.com",
+              "url": "https://stpaddyspubcrawl.com/",
+              "description": "Mar 14, 2026 — Your ultimate guide to navigating the Luck of the Irish St. Patrick's Day Bar Crawl, complete with exclusive drink specials and venue ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "turbo-surf-page",
+              "domain": "lib.rs",
+              "url": "https://lib.rs/crates/turbo-surf-page",
+              "description": "The MCP session and the crawl navigator rotate per host automatically; in code: ... Plug a solver into the ChallengeSolver trait — the MCP session / crawl ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Run Before You Crawl",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/runbeforeyoucrawl/posts/sign-up-now-for-the-best-prices-for-the-2019-run-before-you-crawl-running-beer-p/3260996770614871/",
+              "description": "Most importantly, thank you to our Beer Crawl Navigator and Director Matthew L Wagner. You did an amazing job."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "miaskiewicz/turbo-surf",
+              "domain": "github.com",
+              "url": "https://github.com/miaskiewicz/turbo-surf",
+              "description": "Plug a solver into the ChallengeSolver trait — the MCP session / crawl navigator auto-detect a wall, solve it, and replay the cleared cookies on the fast path. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Were So Weak When Rescued They Could Only Crawl ...",
+              "domain": "www.nytimes.com",
+              "url": "https://www.nytimes.com/1925/09/24/archives/lieut-connell-tells-desperate-plight-of-pacific-fliers-were-so-weak.html",
+              "description": "LIEUT. CONNELL TELLS DESPERATE PLIGHT OF PACIFIC FLIERS; Were So Weak When Rescued They Could Only Crawl, Navigator's Story Reveals. WATER GONE AS RAIN CAME ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "SantaCon Came Back to Town - The Ink.nyc",
+              "domain": "theink.nyc",
+              "url": "http://theink.nyc/santacon-came-back-town-bar-crawl-navigator-hundreds-returning-fans/",
+              "description": "Dec 13, 2018 — “Today” was SantaCon, that annual pub crawl charity event in which hundreds of elves, snowmen and Santas descend on a single meeting place on a ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlRoute\"",
+      "markets": [
+        {
+          "name": "\"CrawlRoute\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Route\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 93800,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlRoute%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:52 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "West Coast Party Crawl - Route B",
+              "domain": "www.getyourguide.com",
+              "url": "https://www.getyourguide.com/de-de/vancouver-l189/west-coast-party-crawl-route-b-t669217/",
+              "description": "West Coast Party Crawl - Route B · Startpunkt: The Yale Saloon · The Yale Saloon. Pause, Fotostopp, Besuch, Geführte Tour, Freizeit (1 Stunde) · Zwölf West."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Has anyone got a bar crawl route?",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/traveltipsprague/posts/1226247656019453/",
+              "description": "Has anyone got a bar crawl route?"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Pub Crawl Route Stops Trolley Pub Charlotte",
+              "domain": "trolleypub.com",
+              "url": "https://trolleypub.com/charlotte/pub-crawl-route/",
+              "description": "TROLLEY PUB CHARLOTTE ROUTE · STARTING LOCATION · 2500 dunavant st, charlotte, nc 28203 · THE TROLLEY PUB ROUTE."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Pub Crawl Düsseldorf - Golden Mile",
+              "domain": "goldenmile.bar",
+              "url": "https://goldenmile.bar/pub-crawl/dusseldorf",
+              "description": "Generate a pub crawl in 10 seconds. Free bar crawl route maker for 3–10 bars in any city — walking distance, opening hours and a shareable map."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Your Crawl - The #1 Pub Crawl App",
+              "domain": "yourpubcrawl.com",
+              "url": "https://yourpubcrawl.com/",
+              "description": "Explore all the amazing venues on your crawl route with detailed information and reviews. Live Map & Directions. Never get lost with our live map showing ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Pub crawl: has anyone done it? Hat jemand das gemacht?",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/hamburg/comments/1mpx9d1/pub_crawl_has_anyone_done_it_hat_jemand_das/",
+              "description": "Best pub crawl route around Nottingham city centre area? r/nottingham. • vor 3 Jahren. Best pub crawl route around Nottingham city centre area?"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Pub Crawls – Page 7",
+              "domain": "pubcrawlroute.com",
+              "url": "https://pubcrawlroute.com/blogs/pub-crawls?page=7",
+              "description": "Pub Crawl Route. Home · Pub Crawls · Your Crawls and Pictures · FAQ · Pub Crawl Request and Contact · About us · Log in · Facebook · Instagram · TikTok · Pub ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Valencia Pub Crawl Route Maps for Unforgettable Nights",
+              "domain": "tourmeout.com",
+              "url": "https://tourmeout.com/valencia-pub-crawl-route-maps/",
+              "description": "Whether you're new to Valencia or have been here a while, the Pub Crawl Route Maps will help you discover hidden gems and must-visit hotspots that even locals ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Pub crawl route idea Berlin (day session) - Berlin Forum",
+              "domain": "www.tripadvisor.com",
+              "url": "https://www.tripadvisor.com/ShowTopic-g187323-i135-k6166486-Pub_crawl_route_idea_Berlin_day_session-Berlin.html",
+              "description": "20.02.2013 — Pub crawl route idea Berlin (day session) - Berlin Forum. ForumEuropeGermanyBerlin. Berlin."
+            }
+          ]
+        },
+        {
+          "name": "\"CrawlRoute\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Crawl Route\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 93400,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlRoute%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:54 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Pub/ bar crawl route?? : r/SaltLakeCity",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/SaltLakeCity/comments/1ipo3xp/pub_bar_crawl_route/",
+              "description": "So I'm looking for a pub crawl route or new bars I haven't been to yet?? I'm from the UK here working for a few weeks."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Atlantic City boardwalk pub crawl route suggestions?",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/609053829645024/posts/1870433580173703/",
+              "description": "We’re planning a Boardwalk pub crawl.   Will start at Tropicana and end at The Hard Rock.  We’d like to stop at 10 spots first and adult beverage. ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Bar Stop Route - Trolley Pub San Antonio",
+              "domain": "trolleypub.com",
+              "url": "https://trolleypub.com/sanantonio/pub-crawl-route/",
+              "description": "This new route introduces new bars that have popped up in SA! Stops include Box Car, La Roca, and Back Unturned Brewery, or Bentley's."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "St. Pete Pub Crawl Route | Best Downtown Bars & Breweries",
+              "domain": "pedalpubstpete.com",
+              "url": "https://pedalpubstpete.com/new-routes/",
+              "description": "Explore the best St. Pete bar crawl route with PedalPub. Visit downtown bars and breweries on a one-of-a-kind party bike experience. Book your ride today."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Las Vegas Bar Crawls: The Complete 2026 Guide",
+              "domain": "www.royalcrawl.com",
+              "url": "https://www.royalcrawl.com/las-vegas-bar-crawl-guide/",
+              "description": "Which Las Vegas bar crawl route is best? Downtown on Fremont Street is best for classic, high-energy Vegas; the Strip and LINQ Promenade is best for first ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Best Bar Crawls NYC: Routes, Neighborhoods & Seasonal ...",
+              "domain": "happy-hour.nyc",
+              "url": "https://happy-hour.nyc/bar-crawls",
+              "description": "Own a bar on a crawl route? Get your bar listed free, or go Premium for top placement on the neighborhood guide your crawlers actually read before they head out ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Milwaukee downtown bar crawl route recommendations?",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/milwaukeefoodie/posts/1607818432740044/",
+              "description": "Looking for a bar crawl route for a small group of out of towners to experience the Milwaukee drink tradition in downtown - beer, old fashioned, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Nashville Bar Crawl Routes Locals Send Visitors On",
+              "domain": "www.petesduelingpianobar.com",
+              "url": "https://www.petesduelingpianobar.com/nashville-bar-crawl/",
+              "description": "Jul 31, 2026 — ... crawl route. The all-request dueling piano show starts at 8 PM Wednesday through Sunday, and the venue is 21 and up. Groups should book a ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Tempe Taproom Crawl Route With Transit And Parking",
+              "domain": "saltfirebrewingtaphouse.com",
+              "url": "https://saltfirebrewingtaphouse.com/tempe-after-dark-taproom-crawl/",
+              "description": "Tempe After-Dark Taproom Crawl: Route, Transit, Parking, and Timing Tips. Maxify Pro April 22, 2026 May 18th, 2026. Map Out Your Perfect Tempe Night Out. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlWorkbench\"",
+      "markets": [
+        {
+          "name": "\"CrawlWorkbench\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Workbench\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 885,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlWorkbench%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:45:05 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Playground | Hivebrowser Docs",
+              "domain": "docs.hivebrowser.ai",
+              "url": "https://docs.hivebrowser.ai/en/playground/",
+              "description": "Open the console Crawl workbench for bounded same-site collection with include/exclude rules. Agents are governed by a separate public readiness contract ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "I have 3 different interactive crawling toys. Asking $25 each or All ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/583375855845973/posts/2194580088058867/",
+              "description": "Kids' playset with dump truck, zoom n crawl, workbench · Gently used interactive learning toys for sale in West Springfield · Toys for sale in Sewell/Deptford ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "21221 Lily Lake Ln, Crest Hill, IL 60403",
+              "domain": "www.homes.com",
+              "url": "https://www.homes.com/property/21221-lily-lake-ln-crest-hill-il/tpnwt3jkz9q3g/",
+              "description": "Microwave (2024), Furnace, A/C & Humidifier (2023) NEW Roof & Gutters (2015) 6 panel doors thru-out, Radon Mitigation System, Cement Crawl, Workbench on Back ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "21221 Lily Lake, Crest Hill, IL 60403 | MLS 12047294",
+              "domain": "www.coldwellbankertoday.com",
+              "url": "https://www.coldwellbankertoday.com/homes-for-sale/21221-Lily-Lake-Crest-Hill-IL-60403-369166487",
+              "description": "24.06.2024 — ... Crawl, Workbench on Back Wall in Basement Stays and So Much More!! Enjoy the nice weather from your backyard or take a leisure stroll around ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Screaming Frog Pricing for SEO Teams Comparing Crawlers ...",
+              "domain": "searvora.com",
+              "url": "https://searvora.com/blog/screaming-frog-pricing",
+              "description": "That makes the buying decision practical: buy Screaming Frog when one technical SEO needs a powerful desktop crawl workbench. Consider an online crawler ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "21221 Lily Lake Lane Crest Hill, Illinois 60403 - Chicago",
+              "domain": "www.atproperties.com",
+              "url": "https://www.atproperties.com/12047294/21221-lily-lake-lane-crest-hill-illinois-60403-nei",
+              "description": "Microwave (2024), Furnace, A/C & Humidifier (2023) NEW Roof & Gutters (2015) 6 panel doors thru-out, Radon Mitigation System, Cement Crawl, Workbench on Back ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "21221 Lily Lake Ln, Crest Hill, IL 60403",
+              "domain": "www.zillow.com",
+              "url": "https://www.zillow.com/homedetails/21221-Lily-Lake-Ln-Crest-Hill-IL-60403/64716328_zpid/",
+              "description": "... Crawl, Workbench on Back Wall in Basement Stays and So Much More!! Enjoy the nice weather from your backyard or take a leisure stroll around the lake. Be a ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "21221 Lily Lake Ln, Crest Hill, IL 60403 | 23 Photos",
+              "domain": "www.movoto.com",
+              "url": "https://www.movoto.com/crest-hill-il/21221-lily-lake-ln-crest-hill-il-60403-461_08431243/",
+              "description": "Microwave (2024), Furnace, A/C & Humidifier (2023) NEW Roof & Gutters (2015) 6 panel doors thru-out, Radon Mitigation System, Cement Crawl, Workbench on Back ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Rain that dodges you #artscience #rainroom #funfacts",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DYE8L_YDYih/",
+              "description": "His experiment faded, but it hinted at the strange line between science and illusion—a boundary we still chase. OCR. LINES CRAWL WORKBENCH 1655 ..."
+            }
+          ]
+        },
+        {
+          "name": "\"CrawlWorkbench\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Crawl Workbench\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 917,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlWorkbench%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:45:04 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Trading Classroom Crusher for Zombie Grave Digger ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/889211531905217/posts/2414190886073933/",
+              "description": "Kids' playset with dump truck, zoom n crawl, workbench. Jenn Mathiesen ▻ Cedar Rapids for Sale Group. 6y · Public. Drop & Go Dump Truck with 2 ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Playground | Hivebrowser Docs",
+              "domain": "docs.hivebrowser.ai",
+              "url": "https://docs.hivebrowser.ai/en/playground/",
+              "description": "Open the console Crawl workbench for bounded same-site collection with include/exclude rules. Agents are governed by a separate public readiness contract ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "326 Shadwell Dr, Circleville, OH 43113",
+              "domain": "www.homes.com",
+              "url": "https://www.homes.com/property/326-shadwell-dr-circleville-oh/4xcfx2pcq6dk8/",
+              "description": "... crawl; workbench in insulated garage; Attic with pull down ladder; ceiling fans; front storm door; double patio doors with built-in blinds; garage and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "21221 Lily Lake, Crest Hill, IL 60403 | MLS 12047294",
+              "domain": "www.coldwellbankertoday.com",
+              "url": "https://www.coldwellbankertoday.com/homes-for-sale/21221-Lily-Lake-Crest-Hill-IL-60403-369166487",
+              "description": "Jun 24, 2024 — ... Crawl, Workbench on Back Wall in Basement Stays and So Much More!! Enjoy the nice weather from your backyard or take a leisure stroll around ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "21221 Lily Lake Ln, Crest Hill, IL 60403 | 23 Photos",
+              "domain": "www.movoto.com",
+              "url": "https://www.movoto.com/crest-hill-il/21221-lily-lake-ln-crest-hill-il-60403-461_08431243/",
+              "description": "Microwave (2024), Furnace, A/C & Humidifier (2023) NEW Roof & Gutters (2015) 6 panel doors thru-out, Radon Mitigation System, Cement Crawl, Workbench on Back ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "21221 Lily Lake Ln, Crest Hill, IL 60403",
+              "domain": "www.zillow.com",
+              "url": "https://www.zillow.com/homedetails/21221-Lily-Lake-Ln-Crest-Hill-IL-60403/64716328_zpid/",
+              "description": "... Crawl, Workbench on Back Wall in Basement Stays and So Much More!! Enjoy the nice weather from your backyard or take a leisure stroll around the lake. Be a ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "21221 Lily Lake Lane Crest Hill, Illinois 60403 - Chicago",
+              "domain": "www.atproperties.com",
+              "url": "https://www.atproperties.com/12047294/21221-lily-lake-lane-crest-hill-illinois-60403-nei",
+              "description": "Microwave (2024), Furnace, A/C & Humidifier (2023) NEW Roof & Gutters (2015) 6 panel doors thru-out, Radon Mitigation System, Cement Crawl, Workbench on Back ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Screaming Frog Pricing for SEO Teams Comparing Crawlers ...",
+              "domain": "searvora.com",
+              "url": "https://searvora.com/blog/screaming-frog-pricing",
+              "description": "That makes the buying decision practical: buy Screaming Frog when one technical SEO needs a powerful desktop crawl workbench. Consider an online crawler ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "I have 3 different interactive crawling toys. Asking $25 each or All ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/583375855845973/posts/2194580088058867/",
+              "description": "Kids' playset with dump truck, zoom n crawl, workbench · Gently used interactive learning toys for sale in West Springfield · Toys for sale in Sewell/Deptford ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"IndexCommand\"",
+      "markets": [
+        {
+          "name": "\"IndexCommand\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Index Command\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 69800,
+          "checkUrl": "https://www.google.com/search?q=%22IndexCommand%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:21 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "INDEX command",
+              "domain": "help.highbond.com",
+              "url": "https://help.highbond.com/helpdocs/analytics/141/scripting-guide/en-us/Content/lang_ref/commands/r_index.htm",
+              "description": "INDEX command. On this page. Syntax; Parameters; Examples. Creates an index for an Analytics table that allows access to the records in a sequential order ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Where is the index command?",
+              "domain": "www.biostars.org",
+              "url": "https://www.biostars.org/p/9581461/",
+              "description": "29.11.2023 — Where is the index command? ... After you installed the package, the samtools index command will be available for a normal user on the machine."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Index Command - VC Help - Virtual City Systems",
+              "domain": "help.vc.systems",
+              "url": "https://help.vc.systems/en/vc-database/v5.1_0/vcdb-tool/indexCommand.html",
+              "description": "The index command allows managing indexes in the VCDB v5 . It provides subcommands for checking the status of indexes, as well as for creating and dropping them ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "LaTeX/Indexing - Wikibooks, open books for an open world",
+              "domain": "en.wikibooks.org",
+              "url": "https://en.wikibooks.org/wiki/LaTeX/Indexing",
+              "description": "Multiple pages. edit. To perform multi-page indexing, add a |( and |) to the end of the \\index command, as in. \\index{Quantum Mechanics!History|(} In 1901, Max ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": ".INDEX Command",
+              "domain": "docs.rocketsoftware.com",
+              "url": "https://docs.rocketsoftware.com/bundle/mvBase_33_refman_runoff/page/index_command.htm",
+              "description": "05.09.2024 — Stores the specified text in an index list. The .INDEX command marks index entries throughout the source item and stores them in a sorted list."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Is it possible to use \\index{\\command} inside a \\ ...",
+              "domain": "tex.stackexchange.com",
+              "url": "https://tex.stackexchange.com/questions/126642/is-it-possible-to-use-index-command-inside-a-declaredocumentcommand",
+              "description": "04.08.2013 — Is it possible to create index from an external file? 3 · \\index command doesn't work in a simple newcommand ... multipurpose index command with ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "CREATE INDEX Net Search Extender command",
+              "domain": "www.ibm.com",
+              "url": "https://www.ibm.com/docs/en/db2/11.1.0?topic=owner-create-index",
+              "description": "CREATE INDEX command. Creates a full-text index on a text column for use in Net Search Extender full-text queries. Purpose. In a partitioned database ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Oracle's CREATE INDEX command can take a hint",
+              "domain": "www.pythian.com",
+              "url": "https://www.pythian.com/blog/oracles-create-index-command-can-take-hint",
+              "description": "Oracle's CREATE INDEX command can take a hint. Christo Kutrovsky. by Christo ... INDEX command can accept a PARALLEL hint. The Discovery: Hints vs ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "MySQL lesson - 38 | Workbench SQL Tutorial",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=kO77NycHGgQ",
+              "description": "MySQL INDEX Command | MySQL lesson - 38 | Workbench SQL Tutorial #php #phpforbeginners #learncoding #computergyanguruji #mysql New Chennal: ..."
+            }
+          ]
+        },
+        {
+          "name": "\"IndexCommand\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Index Command\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 23300,
+          "checkUrl": "https://www.google.com/search?q=%22IndexCommand%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:22 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "INDEX command",
+              "domain": "help.highbond.com",
+              "url": "https://help.highbond.com/helpdocs/analytics/141/scripting-guide/en-us/Content/lang_ref/commands/r_index.htm",
+              "description": "INDEX command. On this page. Syntax; Parameters; Examples. Creates an index for an Analytics table that allows access to the records in a sequential order ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": ".INDEX Command",
+              "domain": "docs.rocketsoftware.com",
+              "url": "https://docs.rocketsoftware.com/bundle/mvBase_33_refman_runoff/page/index_command.htm",
+              "description": "Sep 5, 2024 — Stores the specified text in an index list. The .INDEX command marks index entries throughout the source item and stores them in a sorted list. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Creating an index (CREATE INDEX command)",
+              "domain": "www.ibm.com",
+              "url": "https://www.ibm.com/docs/en/netcoolomnibus/8.1.0?topic=reference-create-index-command",
+              "description": "Use the CREATE INDEX command to create an index on a database table. Tip: SQL query guidelines and indexing guidelines are available to help you determine ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "LaTeX/Indexing - Wikibooks, open books for an open world",
+              "domain": "en.wikibooks.org",
+              "url": "https://en.wikibooks.org/wiki/LaTeX/Indexing",
+              "description": "Multiple pages. edit. To perform multi-page indexing, add a |( and |) to the end of the \\index command, as in. \\index{Quantum Mechanics!History|(} In 1901, Max ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Where is the index command?",
+              "domain": "www.biostars.org",
+              "url": "https://www.biostars.org/p/9581461/",
+              "description": "Nov 29, 2023 — Where is the index command? ... After you installed the package, the samtools index command will be available for a normal user on the machine. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "SQL CREATE INDEX Statement",
+              "domain": "www.geeksforgeeks.org",
+              "url": "https://www.geeksforgeeks.org/sql/sql-create-index/",
+              "description": "5 days ago — The CREATE INDEX command enables us to create an index on a table, improving query performance by providing a faster way to retrieve rows. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Splunk Index Command Tutorial",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=oMmDkvTBxBo",
+              "description": "... and suggestions for what you want to learn. / discord. Splunk Index Command Tutorial. @lamecreations_guides212 likes16K views3 years ago more."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Documentation: 18: CREATE INDEX",
+              "domain": "www.postgresql.org",
+              "url": "https://www.postgresql.org/docs/current/sql-createindex.html",
+              "description": "Another difference is that a regular CREATE INDEX command can be performed within a transaction block, but CREATE INDEX CONCURRENTLY cannot. Concurrent builds ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Oracle's CREATE INDEX command can take a hint",
+              "domain": "www.pythian.com",
+              "url": "https://www.pythian.com/blog/oracles-create-index-command-can-take-hint",
+              "description": "Oracle's CREATE INDEX command can take a hint. Christo Kutrovsky. by Christo ... INDEX command can accept a PARALLEL hint. The Discovery: Hints vs ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"KeywordPlane\"",
+      "markets": [
+        {
+          "name": "\"KeywordPlane\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Keyword Plane\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 4710,
+          "checkUrl": "https://www.google.com/search?q=%22KeywordPlane%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:48 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Keyword: plane",
+              "domain": "ideas.esa.int",
+              "url": "https://ideas.esa.int/core/servlet/hype/IMT?userAction=Browse&templateName=RelatedIdeasTable&documentId=9968f1a261e49e8e1885fdf0e9fc162f&sk=51fd2192783faaaa468e4a5a03c86270&itId=",
+              "description": "All Objects Containing the Keyword plane ; ​. Fast Data Plane switching with use of Linux user space, Idea ; ​. Exploration Of Titan Via Scientific Probes Dropped ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Keyword Plane",
+              "domain": "www.astrj.com",
+              "url": "https://www.astrj.com/Keyword-Plane/323072",
+              "description": "Keyword Plane · Design of the microcontroller system based solar station with folding photovoltaic modules · Experimental Comparison of Pre-Trained Word Embedding ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Thermal Science - scientific journal [keyword: plane jet]",
+              "domain": "thermalscience.rs",
+              "url": "https://thermalscience.rs/keywords/plane+jet",
+              "description": "Thermal Science Journal [keyword: plane jet]. Papers published in THERMAL SCIENCE also containing keyword plane jet. Steady interaction of a turbulent plane ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Keyword plane (or middle latitude) sailing",
+              "domain": "rgg.edu.pl",
+              "url": "https://rgg.edu.pl/Keyword-plane+%28or+middle+latitude%29+sailing/520928",
+              "description": "Keyword plane (or middle latitude) sailing. ORIGINAL ARTICLE. Rhumb-Line Sailing by Computation · Wacław Morgaś, Zdzisław Kopacz."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Journal of Ecological Engineering - Keyword plane wave",
+              "domain": "www.jeeng.net",
+              "url": "https://www.jeeng.net/Keyword-plane+wave/246501",
+              "description": "Keyword plane wave. Implant Safety Tool Application to Assist the Assessment of Radio-Frequency Radiation Exposure · Piotr Gas, Arkadiusz Miaskowski."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Keyword plane",
+              "domain": "www.pjoes.com",
+              "url": "https://www.pjoes.com/Keyword-plane/214488",
+              "description": "... Keyword plane. ORIGINAL RESEARCH. Investigation of Some of the Bioactive Chemicals and the Elemental Profile of Monumental Plane Trees in the Abana-Harmason ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Keyword plane contact",
+              "domain": "jtam.pl",
+              "url": "https://jtam.pl/Keyword-plane+contact/210563",
+              "description": "Keyword plane contact. ARTICLE. A smooth model of the resultant friction force on a plane contact area · Grzegorz Kudra, Jan Awrejcewicz. Journal of Theoretical ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Keyword Plane",
+              "domain": "www.drewno-wood.pl",
+              "url": "https://www.drewno-wood.pl/Keyword-Plane/323072",
+              "description": "Keyword Plane. ORIGINAL PAPER. Comparison of Color Parameters in Layers of Yacht Varnish, Waxy, and Stone Varnish Applied to Various Wood Species · Ümit Ayata ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Keyword plane wave",
+              "domain": "www.ijame-poland.com",
+              "url": "https://www.ijame-poland.com/Keyword-plane+wave/246501",
+              "description": "Keyword plane wave. ORIGINAL PAPER. Uniqueness, reciprocity theorems and plane wave propagation in different theories of thermoelasticy · R. Kumar, V. Gupta."
+            }
+          ]
+        },
+        {
+          "name": "\"KeywordPlane\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Keyword Planner\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1280000,
+          "checkUrl": "https://www.google.com/search?q=%22KeywordPlane%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:44 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Get Campaign Keyword Suggestions with Keyword Planner",
+              "domain": "business.google.com",
+              "url": "https://business.google.com/us/ad-tools/keyword-planner/",
+              "description": "Google Keyword Planner is a free resource to help advertisers build keyword lists for search campaigns. It also has tools to generate keyword ideas and estimate ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Use Keyword Planner - Google Ads Help",
+              "domain": "support.google.com",
+              "url": "https://support.google.com/google-ads/answer/7337243?hl=en",
+              "description": "You can use the Google Keyword Planner tool to discover new keywords related to your business and view estimates of the searches they receive and the cost to ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Performance Insights & Keyword Planner Tool",
+              "domain": "about.ads.microsoft.com",
+              "url": "https://about.ads.microsoft.com/en/tools/planning/keyword-planner",
+              "description": "Keyword Planner helps you discover keywords related to your products, services, website, or industry. It provides keyword suggestions, search volume trends, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Keyword Planner: Discover 5000+ Keywords with Search ...",
+              "domain": "keywordplanner.net",
+              "url": "https://keywordplanner.net/",
+              "description": "Keyword Planner uses auto-complete APIs to generate thousands of long-tail keywords in seconds, along with monthly search volume and cost per click data. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Keyword (Research) Tool ⚠️ Plan Google Keywords【FREE】",
+              "domain": "keywordtool.io",
+              "url": "https://keywordtool.io/",
+              "description": "Keyword Planner was built for advertisers, not for SEO. It hides profitable long-tail keywords with thousands of monthly searches. Keyword Tool surfaces them. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Free Keyword Tool: Find the Right Keywords for SEO & AI ...",
+              "domain": "www.semrush.com",
+              "url": "https://www.semrush.com/analytics/keywordmagic/",
+              "description": "The tool also provides valuable long-tail keyword opportunities and serves as a free Keyword Planner alternative with no hidden ranges or account requirements. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Keyword Planner - Chrome Web Store",
+              "domain": "chromewebstore.google.com",
+              "url": "https://chromewebstore.google.com/detail/keyword-planner/ohffmmbmebhcljgcdijjlepjaoladfag?hl=en-US",
+              "description": "Expands the search suggestions on 9 sites including Google™, YouTube™, Amazon™, eBay™ and Etsy™. Keyword Planner uses the suggest/autocomplete APIs of the ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Generate keyword ideas - Ads API",
+              "domain": "developers.google.com",
+              "url": "https://developers.google.com/google-ads/api/docs/keyword-planning/generate-keyword-ideas",
+              "description": "Aug 19, 2026 — GenerateKeywordIdeas correspond to various elements within the Keyword Planner tool in the Google Ads UI. Keyword Planner UI, Google Ads API ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "The 5 Best Free Keyword Research Tools in 2026",
+              "domain": "zapier.com",
+              "url": "https://zapier.com/blog/best-keyword-research-tool/",
+              "description": "Jul 3, 2026 — Google Keyword Planner includes two main features: one for exploratory keyword research and discovery and another for more in-depth research on ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"MetricConsole\"",
+      "markets": [
+        {
+          "name": "\"MetricConsole\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Metric Console\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1,
+          "checkUrl": "https://www.google.com/search?q=%22MetricConsole%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:33 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "UniversalConnectionPoolManag...",
+              "domain": "javadoc.io",
+              "url": "https://javadoc.io/doc/com.oracle.database.jdbc/ojdbc8/12.2.0.1/oracle/ucp/admin/UniversalConnectionPoolManagerHelper.html",
+              "description": "Changes the pool mapping for the provided pool in UniversalConnectionPoolManager Object. void, setMetricConsole(oracle.dms.console.DMSConsole metricConsole)."
+            }
+          ]
+        },
+        {
+          "name": "\"MetricConsole\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Metric Console\"",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 7250,
+          "checkUrl": "https://www.google.com/search?q=%22MetricConsole%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:39 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "What does the automated performance metric \"console ...",
+              "domain": "pubmed.ncbi.nlm.nih.gov",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41324791/",
+              "description": "by K Kobayashi · 2025 — What does the automated performance metric \"console time\" tell in robotically assisted mitral valve repair? · Authors · Affiliations. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "ok http metric console reporter output",
+              "domain": "gist.github.com",
+              "url": "https://gist.github.com/mwiede/c082106651eccacb3b720a8b83ba5109",
+              "description": "ok http metric console reporter output. GitHub Gist: instantly share code, notes, and snippets."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "What Does The Automated Performance Metric “Console Time ...",
+              "domain": "meetings.ismics.org",
+              "url": "https://meetings.ismics.org/program/2025/C6.cgi",
+              "description": "ISMICS 2025 Cardiac Abstracts: What Does The Automated Performance Metric “Console Time” Tell In Robotically Assisted Mitral Valve Repair?"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Console Metric Sink - Flowman documentation",
+              "domain": "docs.flowman.io",
+              "url": "https://docs.flowman.io/en/latest/spec/metric/console.html",
+              "description": "The console metric sink is the simplest possible way to publish execution metrics and data quality measures as simple logging output on the console."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "What does the automated performance metric “console time ...",
+              "domain": "link.springer.com",
+              "url": "https://link.springer.com/article/10.1007/s11701-025-03002-z",
+              "description": "by K Kobayashi · 2025 — What does the automated performance metric “console time” tell in robotically assisted mitral valve repair? Research; Published: 01 December ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "EXM 886-PL1604MCO Metric Console Plinth",
+              "domain": "www.gordonelectricsupply.com",
+              "url": "https://www.gordonelectricsupply.com/p/Exm-886-Pl1604Mco-Mtrc-Cnsl-Plinth/6197084?srsltid=AfmBOoq418ALAgi-uvFUoGJvcIIb4tfNc0qUYhuQPIA9pOPlWVL-9pGB",
+              "description": "EXM Manufacturing Ltd. Product Description: EXM 886-PL1604MCO Metric Console Plinth. UPC 12 Digit: 717678301734. Unique Product Key: 6197084. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Scubapro 3 Gauge Inline Metric Console",
+              "domain": "www.amazon.ie",
+              "url": "https://www.amazon.ie/Scubapro-Gauge-Inline-Metric-Console/dp/B00WRYPJB2",
+              "description": "Scubapro 3 Gauge Inline Metric Console : Amazon.ie: Sports & Outdoors."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "AIPerf Metrics Reference",
+              "domain": "docs.nvidia.com",
+              "url": "https://docs.nvidia.com/aiperf/reference/ai-perf-metrics-reference",
+              "description": "Metric Console Group Reference. The console_group class attribute on a metric controls which console table the metric appears in (or hides it entirely). It ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "I330R 2-Gauge Metric Console",
+              "domain": "www.scubatemecula.com",
+              "url": "https://www.scubatemecula.com/products/i330r_2_gauge_metric_console?srsltid=AfmBOopUsqlMv9rDttwblgiELVyRjZoT_mtsvSfMDfPXQ78N_Hazwp4z",
+              "description": "Aqualung i330R 2-Gauge Metric Console Featuresi330R 2-Gauge Metric Console ... I330R 2-Gauge Metric Console. $575.00. Availability: Special Order. ADD TO CART Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "METRICA console table by MOGG",
+              "domain": "www.mavarreda.it",
+              "url": "https://www.mavarreda.it/eng/console-metrica.html",
+              "description": "METRIC Console ... Metrica by MOGG is a metal console table available in titanium, burnished, and gold finishes with transparent glass shelves available in bronze ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"QueryNavigator\"",
+      "markets": [
+        {
+          "name": "\"QueryNavigator\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Query Navigator\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 3010,
+          "checkUrl": "https://www.google.com/search?q=%22QueryNavigator%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:35 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Verwenden von Power Query zum Transformieren von Daten",
+              "domain": "learn.microsoft.com",
+              "url": "https://learn.microsoft.com/de-de/power-query/power-query-ui",
+              "description": "20.08.2026 — Screenshot der Seite Power Query Navigator mit hervorgehobener Tabelle „Kunden“. Anschließend lädt das Dialogfeld die Daten aus der Tabelle ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Power BI/Power Query : Navigator icons meaning : r/PowerBI",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/PowerBI/comments/1rtjzri/power_bipower_query_navigator_icons_meaning/",
+              "description": "Power BI/Power Query : Navigator icons meaning ... So when we navigate to our data, there's icons next to each item. It's kind of evident in my ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "3 Quick Power Query Navigator Tips",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=MV3g99qCoDk",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "SQL Query Navigator",
+              "domain": "razorsql.com",
+              "url": "https://razorsql.com/docs/query_navigator.html",
+              "description": "The query navigator works by parsing the contents of the SQL editor for SQL queries. Each query is then given a \"node\" in the query navigator window. Clicking ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "LLM chat queries navigator browser extension",
+              "domain": "github.com",
+              "url": "https://github.com/pj8912/query-navigator",
+              "description": "Query Navigator. query-navigator-cover. LLM chat queries navigator extension. Supported Chats. Gemini; ChatGPT; Perplexity; Deepseek; Kimi. Load Extension."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Query Navigator",
+              "domain": "news.ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=46539567",
+              "description": "Query Navigator (github.com/pj8912). 1 point by json_bourne_ 7 months ago | hide | past | favorite | 1 comment · json_bourne_ 7 months ago [–]."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Power Query Navigator Can Only View 2000 Items, and ...",
+              "domain": "whitepages.bifocal.show",
+              "url": "https://whitepages.bifocal.show/2013/07/power-query-navigator-can-only-view-1000-items-and-other-limits/",
+              "description": "22.07.2013 — Power Query Navigator Can Only View 2,000 Items, and Other Limits. I was preparing a demonstration using Great Plains data when I came across ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Navigieren durch die Abfrageobjekte - Power Query",
+              "domain": "learn.microsoft.com",
+              "url": "https://learn.microsoft.com/de-de/power-query/connectors/sap-bw/navigate-query-objects",
+              "description": "13.07.2026 — ... Query-Navigator auswählen, werden die Variablen als Parameter oberhalb des Datenvorschaubereichs angezeigt. Screenshot der Variablen, die ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "QuerySleuth",
+              "domain": "monkeytools.ca",
+              "url": "https://monkeytools.ca/querysleuth/",
+              "description": "Controlling the QuerySleuth Query Navigator. The purpose of the Query Navigator is to show how individual queries are related to each other. There are three ..."
+            }
+          ]
+        },
+        {
+          "name": "\"QueryNavigator\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Query Navigator\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 3210,
+          "checkUrl": "https://www.google.com/search?q=%22QueryNavigator%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:26 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Power BI/Power Query : Navigator icons meaning : r/PowerBI",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/PowerBI/comments/1rtjzri/power_bipower_query_navigator_icons_meaning/",
+              "description": "Power BI/Power Query : Navigator icons meaning ... So when we navigate to our data, there's icons next to each item. It's kind of evident in my ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "3 Quick Power Query Navigator Tips",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=MV3g99qCoDk",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Use Power Query to Transform Data",
+              "domain": "learn.microsoft.com",
+              "url": "https://learn.microsoft.com/en-us/power-query/power-query-ui",
+              "description": "Aug 20, 2026 — Select the Customers table to load a preview of the data, and then select Transform data. Screenshot of the Power Query Navigator page with the ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "QuerySleuth",
+              "domain": "monkeytools.ca",
+              "url": "https://monkeytools.ca/querysleuth/",
+              "description": "Controlling the QuerySleuth Query Navigator. The purpose of the Query Navigator is to show how individual queries are related to each other. There are three ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Power Query Navigator Can Only View 2000 Items, and ...",
+              "domain": "whitepages.bifocal.show",
+              "url": "https://whitepages.bifocal.show/2013/07/power-query-navigator-can-only-view-1000-items-and-other-limits/",
+              "description": "Jul 22, 2013 — Power Query Navigator Can Only View 2,000 Items, and Other Limits. I was preparing a demonstration using Great Plains data when I came across ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "SQL Query Navigator",
+              "domain": "razorsql.com",
+              "url": "https://razorsql.com/docs/query_navigator.html",
+              "description": "The query navigator works by parsing the contents of the SQL editor for SQL queries. Each query is then given a \"node\" in the query navigator window. Clicking ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Query Navigator",
+              "domain": "news.ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=46539567",
+              "description": "Query Navigator (github.com/pj8912). 1 point by json_bourne_ 7 months ago | hide | past | favorite | 1 comment · json_bourne_ 7 months ago [–]."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Number of tables in Navigator limited to 10000. Edit Query ...",
+              "domain": "forums.excelguru.ca",
+              "url": "https://forums.excelguru.ca/threads/number-of-tables-in-navigator-limited-to-10-000-edit-query-does-not-pass-values-back.7297/",
+              "description": "Hi, I am new to Power Query and Office 2010 SP1 with Power Query 2.40. I am browsing a database schema with 20000+ tables. In the Power Query Navigator..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Subsystem Query Navigator item",
+              "domain": "www.ibm.com",
+              "url": "https://www.ibm.com/docs/en/tivoli-aam/3.3.0?topic=items-subsystem-query-navigator-item",
+              "description": "Subsystem Query Navigator item. Subsystem Errors Recovered workspace. The Subsystem Query workspace provides information about errors recovered on a specific ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"VisibilityPlane\"",
+      "markets": [
+        {
+          "name": "\"VisibilityPlane\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Visibility Plane\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 6680,
+          "checkUrl": "https://www.google.com/search?q=%22VisibilityPlane%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:45:15 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "A direction-dependent framework for visibility plane mosaicing ...",
+              "domain": "academic.oup.com",
+              "url": "https://academic.oup.com/mnras/article/546/2/staf2248/8384169",
+              "description": "von KS Trehaeven · 2026 · Zitiert von: 1 — We present a coherent visibility plane direction ... visibility plane mosaic with visibility plane PB correction and direction-dependent solutions."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "visibility plane",
+              "domain": "dictionary.obspm.fr",
+              "url": "https://dictionary.obspm.fr/terms/visibility-plane/",
+              "description": "visibility plane. هامن ِ دیاری، ~ پدیداری. hâmon-e diyâri, ~ padidâri. Fr.: plan de visibilité. In → interferometry, the projection of a → baseline onto the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "TURBULENCE And POOR VISIBILITY Causes MISSED ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/100088448510670/posts/turbulence-and-poor-visibility-causes-missed-approach-atc-aviation-plane-pilot-a/148674261424190/",
+              "description": "Airplane Landing In Poor Visibility #plane #aircraft #cockpit. 󱝍. Garuda Jaya Sakti and 1 other. 2 reactions. Airline Pilot Performance. 4y · Public ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "How a Unified Visibility Plane Can Optimize Your Network ...",
+              "domain": "www.netscout.com",
+              "url": "https://www.netscout.com/resources/videos/how-a-unified-visibility-plane-can-optimize-your-network-monitoring-efforts",
+              "description": "See how a unified packet plane can help your security tools get the data they need to keep your network secure and your performance optimized."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "A direction-dependent framework for visibility plane ...",
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/abs/2512.16440",
+              "description": "von KS Trehaeven · 2025 · Zitiert von: 1 — We present a coherent visibility plane direction-dependent imaging, calibration and mosaicing framework. ... Our results suggest that visibility ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "bug visibility plane glass - #2 by maru - Corona for 3ds Max",
+              "domain": "forums.chaos.com",
+              "url": "https://forums.chaos.com/t/bug-visibility-plane-glass/154904/2",
+              "description": "07.12.2022 — bug visibility plane glass ... If you set visibility to 0, you disable the visibility of the surface, but you still can see the volume (any ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "A direction-dependent framework for visibility plane mosaicing ...",
+              "domain": "www.deepdyve.com",
+              "url": "https://www.deepdyve.com/lp/ou-press/a-direction-dependent-framework-for-visibility-plane-mosaicing-and-IU8nd4ZIhK",
+              "description": "A direction-dependent framework for visibility plane mosaicing and primary beam correction · Meet DeepDyve."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "How do planes land in zero visibility ...",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@aviationlife737/video/7410353521318464800",
+              "description": "3205 Likes, 40 Comments. TikTok video from Aviationlife (@aviationlife737): “How do planes land in zero visibility? #plane #planes #aviation ..."
+            }
+          ]
+        },
+        {
+          "name": "\"VisibilityPlane\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    }
+  ]
+}

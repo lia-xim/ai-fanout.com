@@ -1,9 +1,18 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-08-31.2",
+  "manifestVersion": "2026-10-09.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-08-31",
+  "reviewedAt": "2026-10-09",
   "sources": [
+    {
+      "id": "owner-gsc-seo-review-2026-10-09",
+      "title": "Owner Search Console and Crawl Foundry SEO review",
+      "kind": "owner_measurement",
+      "location": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-09\\auswertung.html",
+      "checkedAt": "2026-10-09",
+      "status": "verified_measurement_not_ranking_prediction",
+      "supports": "Prioritises existing US generator intent and provider guides using authenticated GSC data. Supports editorial prioritisation only; not a promise of rankings, indexing or clicks. Public copy is owner-created and contains no newly published provider output."
+    },
     {
       "id": "portfolio-dossier",
       "title": "Canonical ai-fanout.com domain dossier",

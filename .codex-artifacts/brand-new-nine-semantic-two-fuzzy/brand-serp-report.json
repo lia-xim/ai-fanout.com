@@ -1,0 +1,1175 @@
+{
+  "generatedAt": "2026-09-01T17:49:03.308Z",
+  "methodology": {
+    "endpoint": "serp/google/organic/live/advanced",
+    "markets": [
+      {
+        "id": "de",
+        "locationCode": 2276,
+        "languageCode": "de"
+      },
+      {
+        "id": "us",
+        "locationCode": 2840,
+        "languageCode": "en"
+      }
+    ],
+    "depth": 10,
+    "paidAddOns": false,
+    "estimatedCostUsd": 0.032,
+    "actualCostUsd": 0.02600000000000001,
+    "note": "Evidence export only. No automatic score, grade, or recommendation."
+  },
+  "combined": [
+    {
+      "name": "DomainMetra",
+      "markets": [
+        {
+          "name": "DomainMetra",
+          "market": "de",
+          "spell": {
+            "keyword": "Domain Metra",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 652,
+          "checkUrl": "https://www.google.com/search?q=DomainMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:48:08 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "domain.ME – The Most Personal Domain Name - Domain.ME",
+              "domain": "domain.me",
+              "url": "https://domain.me/",
+              "description": "ME is a domain name used globally by businesses and individuals looking to create a personal, memorable online presence. Make your mark with .ME!"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Metra-Trader – Anlagebetrug mit Online-Trading • Bewertung",
+              "domain": "sgk-ev.de",
+              "url": "https://sgk-ev.de/faelle-sgk/metra-trader-anlagebetrug-erfahrungen-bewertungen-nicht-serioes.html",
+              "description": "10.11.2025 — Metra-Trader präsentiert sich als moderne Online-Trading-Plattform für Privatanleger, die mit professioneller Aufmachung und ansprechender ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "ICANN-Registrar: Autorisierte Registrierung von Top Level ...",
+              "domain": "www.domainregistry.de",
+              "url": "https://www.domainregistry.de/",
+              "description": "Secura GmbH ist ein von ICANN akkreditierter Registrar für Top Level Domains. Secura kann alle generischen Domains registrieren, also z.B. .com, .net, .org, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Domains, Hosting und Homepage von DomainFactory",
+              "domain": "www.df.eu",
+              "url": "https://www.df.eu/de/",
+              "description": "Alles für Ihren erfolgreichen Online-Auftritt: von der Registrierung Ihrer Domain über Homepage und E-Mail bis zu Server- und Reseller-Lösungen."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Domain-Management",
+              "domain": "www.brandshelter.com",
+              "url": "https://www.brandshelter.com/de/domain-management/",
+              "description": "Schützen Sie Ihren Markennamen online mit unserem Domain-Management. Unsere Experten helfen Ihnen, das Beste aus Ihren Domains herauszuholen."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Die besten Domain-Anbieter & -Hoster im Vergleich",
+              "domain": "omr.com",
+              "url": "https://omr.com/de/reviews/category/domain-registration",
+              "description": "Registriere & verwalte Domains über Domain-Anbieter. Auf OMR Reviews findest Du beliebte Domain-Hoster ▻ Jetzt vergleichen."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Domainmakler-Service | Unsere Experten sichern deine ...",
+              "domain": "www.godaddy.com",
+              "url": "https://www.godaddy.com/de/domains/domainhandler",
+              "description": "Vertraue der weltweiten Nr. 1 unter den Domainmaklern. Die erfahrenen Makler von GoDaddy handeln den besten Preis für deine Domain aus."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Domains bestellen & neue Wunschnamen sichern",
+              "domain": "www.strato.de",
+              "url": "https://www.strato.de/domains/",
+              "description": "Günstige Domains schnell und einfach sichern : Aktionspreis für Top-Domain-Endungen inkl. SSL-Zertifikat. Prüfen Sie jetzt Ihre Wunsch-Domain!"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Domainers Registrar AG – Ihr Domain Registrar",
+              "domain": "www.domainers.de",
+              "url": "https://www.domainers.de/",
+              "description": "Unser Domainmanagement läuft, damit Ihr Business nicht stillsteht. Individuelle Beratung und persönlicher Service. Zuverlässig, schnell und sicher."
+            }
+          ]
+        },
+        {
+          "name": "DomainMetra",
+          "market": "us",
+          "spell": {
+            "keyword": "Domain Metra",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 4880,
+          "checkUrl": "https://www.google.com/search?q=DomainMetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:48:18 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "domain.ME – The Most Personal Domain Name - Domain.ME",
+              "domain": "domain.me",
+              "url": "https://domain.me/",
+              "description": "ME is a domain name used globally by businesses and individuals looking to create a personal, memorable online presence. Make your mark with .ME!"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Dot-o-mator: Domain Name Generator",
+              "domain": "www.dotomator.com",
+              "url": "https://www.dotomator.com/",
+              "description": "Use Dot-o-mator to create domain name suggestions. Enter a word (or words) in the Beginnings box, then choose some Endings... or type in your own. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Domainr · fast, free, domain name search, short URLs, new ...",
+              "domain": "domainr.com",
+              "url": "https://domainr.com/",
+              "description": "Domainr is the only ICANN-accredited domain status API provider. instantly checks if a domain is available—with"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Domo - domain name info: WHOIS, RDAP, DNS & history lookup",
+              "domain": "chromewebstore.google.com",
+              "url": "https://chromewebstore.google.com/detail/domo-domain-name-info-who/afbepfhknfficaflckmgflbmklcleidl",
+              "description": "Super detailed info for any domain name : registration status & dates, WHOIS, RDAP, DNS records, Name Servers, and more."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Multi-Domain Data Products",
+              "domain": "www.tamr.com",
+              "url": "https://www.tamr.com/multi-domain-data-products",
+              "description": "Tamr's multi-domain data products help unify data across domains with AI-native mastering, delivering real-time trusted data at scale."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Domain Name Search",
+              "domain": "www.instra.com",
+              "url": "https://www.instra.com/en/domain-names/domain-name-search",
+              "description": "We provide hassle free domain name management. Manage pre-registration and registration of domain names. Never lose a domain name again with Instra.com's auto- ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Domain Monitor extension walkthrough with Marc",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=rR6LUg9KUuI",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "TierraNet: Domain name registration, hosting, website builder ...",
+              "domain": "www.tierra.net",
+              "url": "https://www.tierra.net/",
+              "description": "Search thousands of top-level domains, premium domains, and unique domain extensions. TierraNet is an accredited domain registrar so you can know your domain is ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Free Domain Name Search",
+              "domain": "domaintyper.com",
+              "url": "https://domaintyper.com/",
+              "description": "Domain Name Search that helps you to find available domain names. Search instantly as you type. Supports every extensions. Register your domain today!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graphmetry",
+      "markets": [
+        {
+          "name": "Graphmetry",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 490,
+          "checkUrl": "https://www.google.com/search?q=Graphmetry&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:48:06 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "graphomate - IBCS Dashboards in allen BI-Frontend Tools",
+              "domain": "www.graphomate.com",
+              "url": "https://www.graphomate.com/",
+              "description": "Mit graphomate extensions leicht interpretierbare Berichte und Dashboards in Power BI, Tableau und SAP Analytics erstellen. Profitieren Sie von unserer ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Graph (Graphentheorie)",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Graph_(Graphentheorie)",
+              "description": "Ein Graph ist in der Graphentheorie eine abstrakte Struktur, die eine Menge von Objekten zusammen mit den zwischen diesen Objekten bestehenden Verbindungen ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Symmetrie von Graphen - lernen mit Serlo!",
+              "domain": "de.serlo.org",
+              "url": "https://de.serlo.org/mathe/1745/symmetrie-von-graphen",
+              "description": "Erfahre, wie du Symmetrien von Graphen bestimmst: Achsen- und Punktsymmetrie, Regeln für Polynome, Ableitungen und Stammfunktionen, sowie relevante ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Graphen einfach erklärt - Graphentheorie 1",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=frG2kBMZQDc",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Graphen online erstellen und Algorithmen wie den kürzesten ...",
+              "domain": "graphonline.top",
+              "url": "https://graphonline.top/de/",
+              "description": "Graph online erstellen und verschiedene Algorithmen nutzen: den kurzesten Weg finden, Adjazenzmatrix finden, minimalen Spannbaum finden, usw."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Grundbegriffe der Graphentheorie einfach erklärt · [mit Video]",
+              "domain": "studyflix.de",
+              "url": "https://studyflix.de/informatik/grundbegriffe-der-graphentheorie-1285",
+              "description": "Beginnen wir mit den Bestandteilen eines Graphen. Ein Graph G besteht aus einer Menge an Knoten V und einer Menge aus Kanten E. Die Knoten werden mit Kanten ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Desmos | Grafik-Rechner",
+              "domain": "www.desmos.com",
+              "url": "https://www.desmos.com/calculator?lang=de",
+              "description": "Entdecke Mathe mit unserem tollen, kostenlosen Online-Grafikrechner: Funktionsgraphen und Punkte darstellen, algebraische Gleichungen veranschaulichen, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Graphen interpretieren",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=vi9uPR6ZfRc",
+              "description": "Hier lernst du, wie man einen Graphen interpretiert, also wichtige Informationen aus dem Graphen entnimmt. Viel Spaß!"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Graphentheorie",
+              "domain": "www.projektmagazin.de",
+              "url": "https://www.projektmagazin.de/glossarterm/graphentheorie",
+              "description": "06.01.2004 — Die Graphentheorie ist die mathematische Grundlage der Netzplantechnik. Sie präzisiert Begriffe wie Knoten, Pfeile, Wege, Dauern u.a. so, ..."
+            }
+          ]
+        },
+        {
+          "name": "Graphmetry",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "LexiFoundry",
+      "markets": [
+        {
+          "name": "LexiFoundry",
+          "market": "de",
+          "spell": {
+            "keyword": "Lexi Foundry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 143,
+          "checkUrl": "https://www.google.com/search?q=LexiFoundry&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:48:31 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Lexi",
+              "domain": "music-tech.de",
+              "url": "https://music-tech.de/lexi/",
+              "description": "Lexi is an AI-powered platform for music contracts that automates repetitive manual tasks and accelerates contract review by up to 70%."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Lexi: AI Operating System for Legal Teams",
+              "domain": "www.ycombinator.com",
+              "url": "https://www.ycombinator.com/companies/lexi",
+              "description": "AI Operating System for Legal Teams. Founded in 2025 by Harshit Garg and Kiran Mohan, Lexi has 15 employees based in San Francisco."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "LEXI (@lexirigby) • Instagram photos and videos",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/lexirigby/",
+              "description": "♡ BOOKINGS eventsbyintangible@gmail.com ⟡ promoter & contact @prowl___ ⟡ founder @eventsbyintangible. Follow. Message ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "a new power plant  FOUNDRY #087",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=jqV7iUE_WBU",
+              "description": "FOUNDRY deutsch, mit eurem Ziggi. Let`s Play FOUNDRY. Die Galaxie beherrschen ENTWICKLER: Channel 3 Entertainment PUBLISHER: Paradox ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "LEXI",
+              "domain": "republic.com",
+              "url": "https://republic.com/lexi-devices",
+              "description": "20.03.2023 — I invested in LEXI, the Universal IoT Platform bridging ecosystems, wireless protocols, and leading 3rd party brands to make IoT Intelligent ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "MEET LEXI. Every founder needs somebody they can ask",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/toiawallace/posts/-day-4-meet-lexievery-founder-needs-somebody-they-can-askokay-what-do-i-do-nexts/10242322368896760/",
+              "description": "LEXI is there to help you think through the work, find direction, develop your ideas, and keep moving while you're building the business behind ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Lexi (YC F25)",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/getlexi",
+              "description": "Our mission is to enhance the practice of law by building AI associates that expand capacity, reduce routine work, and deliver reliable support across every ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Lexi Ryan: Lebenslauf, Bücher und Rezensionen bei ...",
+              "domain": "www.lovelybooks.de",
+              "url": "https://www.lovelybooks.de/autor/Lexi-Ryan/",
+              "description": "Lexi Ryan ist eine New-York-Times Bestseller-Autorin, die schon mehr als 25 Titel im Selfpublishing veröffentlicht hat. Ihre Bücher haben sich bereits über ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Swan Collective, LEXI.exe",
+              "domain": "shiftbooks.de",
+              "url": "https://shiftbooks.de/products/swan-collective-lexi-exe",
+              "description": "LEXI.exe ist ein Roman über künstliche Intelligenz, Liebe und Identität. Eine tragikomische Geschichte über Körper, Technologie und Wirklichkeit."
+            }
+          ]
+        },
+        {
+          "name": "LexiFoundry",
+          "market": "us",
+          "spell": {
+            "keyword": "Lexi Foundry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 212000,
+          "checkUrl": "https://www.google.com/search?q=LexiFoundry&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:48:21 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Lexi Wick - Positive Foundry",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/in/lexi-wick-3297b614a",
+              "description": "Experience: Positive Foundry · Education: Minnesota State University, Mankato · Location: Carver · 349 connections on LinkedIn. View Lexi Wick's profile on ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Foundry Bakehouse and Deli",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/foundrybakehouse/photos/come-on-barbie-lets-go-to-foundrys-our-graphic-designer-lexi-asked-ai-to-turn-th/799865528809441/",
+              "description": "Come on Barbie, let's go to Foundry's! Our graphic designer Lexi, asked AI to turn the Foundry into a Barbie Dreamhouse and we're so ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Lexi (Promo) - Flesh & Blood TCG",
+              "domain": "www.fabfoundry.co",
+              "url": "https://www.fabfoundry.co/products/lexi-promo?srsltid=AfmBOoovcuafa1cBSLiHdYQyYfuKZAUBKOgd2IWJe8em07oYgUR_lTSk",
+              "description": "Buy Flesh and Blood TCG Singles from Fab Foundry! Free Tracked Shipping on Qualified Orders, Fast and Secure Fulfillment. ... Lexi (Promo). $6.95. Shipping ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Aug 15, 2026 📍The Foundry (Fillmore), Pennsylvania i love ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DcHO7wxHMwD/",
+              "description": "32 likes, 1 comments - brandondonath on August 16, 2026: \"Aug 15, 2026 The Foundry (Fillmore), Pennsylvania i love you lexi\"."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Vintage Foundry Co Women's Lexi Open Toe Boot",
+              "domain": "www.macys.com",
+              "url": "https://www.macys.com/shop/product/vintage-foundry-co-womens-lexi-open-toe-boot?ID=15554714",
+              "description": "This ankle bootie boasts an open toe profile with a buckle strap at the top and subtle thread … 100% Leather,Outsole"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "PHOTOS: NYE 80s Party at The Foundry | Arts & Culture",
+              "domain": "www.redandblack.com",
+              "url": "https://www.redandblack.com/culture/photos-nye-80s-party-at-the-foundry/collection_52c77ea6-d21a-11e6-82fc-17a11530a884.html",
+              "description": "The Foundry's '80s themed New Years Eve party. Red & Black photographers Landon Trust and Lexi Kim joined in to document the celebration. Photo/ Lexi Kim ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Lexi: AI Operating System for Legal Teams",
+              "domain": "www.ycombinator.com",
+              "url": "https://www.ycombinator.com/companies/lexi",
+              "description": "AI Operating System for Legal Teams. Founded in 2025 by Harshit Garg and Kiran Mohan, Lexi has 15 employees based in San Francisco."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Best of Unknown Athens # 14 (LEXI KELSON) @ FOUNDRY 6- ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=2GQV2h8LlCg",
+              "description": "Best of Unknown Athens # 14 (LEXI KELSON ) @ FOUNDRY 6-29-16 @athensgalivemusic3 likes65 views10 years ago •835K views 12:39"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Team",
+              "domain": "foundry.vc",
+              "url": "https://foundry.vc/team/",
+              "description": "Foundry is an early-stage venture capital firm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LexiPlane",
+      "markets": [
+        {
+          "name": "LexiPlane",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 504,
+          "checkUrl": "https://www.google.com/search?q=LexiPlane&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:48:24 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Lexiplane · 3D Word Hunt - Punit Ganjara",
+              "domain": "punitganjara.com",
+              "url": "https://punitganjara.com/wordgame/text_plane_3d",
+              "description": "Make a 5-letter word ! Letters must only touch the last one, in ANY direction and you can turn corners. The glowing tiles show one path, it bends."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "WX KINGPIN - Wiley X",
+              "domain": "wileyx.de",
+              "url": "https://wileyx.de/products/wx-kingpin-ackng19",
+              "description": "Die WX KINGPIN hat ein traditionelles Design und ein leichtes performance Gestell, das für jede Aktivität einsatzbereit ist. Ausgestattet mit Federscharnieren ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Wir sind Lexip",
+              "domain": "www.lexip.co",
+              "url": "https://www.lexip.co/de/pages/lexip?srsltid=AfmBOoo7sxHrmrvZTfwpbg--Hn1cbp6KmfABT33ZGeoMMBu2O72e9Hdn",
+              "description": "Unsere patentgeschützten und international anerkannten Innovationen machen Gaming und Produktivität zu einfacheren, effizienteren und emotionaleren Erlebnissen."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Flexinplex Kunststoffen",
+              "domain": "www.flexinplex.de",
+              "url": "https://www.flexinplex.de/",
+              "description": "Der Online-Kunststoffspezialist für hochwertige Kunststoffplatten, -rohre und -stäbe nach Maß. Millimetergenau zugeschnitten; Schnelle Lieferung ab Lager ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "LEXIP Produkte » Vergleiche Preise und Angebote",
+              "domain": "www.klarna.com",
+              "url": "https://www.klarna.com/de/shopping/mi/120320/LEXIP/",
+              "description": "Bei Klarna haben wir alle Produkte von LEXIP aus verschiedenen Kategorien gesammelt ✓ Filter und vergleiche für das passende Produkt!"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Anfrage zu Proflex-Plane | Bootsplane | Schiffsplane",
+              "domain": "tuchwerkstatt.de",
+              "url": "https://tuchwerkstatt.de/de/shop/noa-decksgestelle/2309-proflex-plane-bootsplane-schiffsplane-winterplane/anfrage.html?flavor_id=3678",
+              "description": "Proflex-Plane | Bootsplane | Schiffsplane | Winterplane. Rechteckig Größe 2: Proflex-Plane 6.00 x 10.00m. Kommissionsnr. 1782. Preis: 225,00 EUR. Vorname"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "FlexiClean - Jena - Ditte Eppelin",
+              "domain": "www.ditte-eppelin-kg.de",
+              "url": "https://www.ditte-eppelin-kg.de/forschung-entwicklung/flexiclean/",
+              "description": "Unser Polster heißt FlexiClean und kann verschiedene Geometrien von Bauteilen aller Art in sich vereinen und gleichzeitig sowie wiederholt direkt im Reinraum ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "MiniPlane II | Diamantmesser | S.T.Japan",
+              "domain": "www.chemie.de",
+              "url": "https://www.chemie.de/produkte/1130927/miniplane-ii-s-t-japan.html",
+              "description": "02.02.2026 — Reproduzierbare Oberflächenschnitte mit gleichbleibender Schichtdicke · Direkte Schnittkontrolle in Echtzeit dank integrierter 4x-Lupe · Optional ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Lexi - Plane crash- Ironton, Ohio. So very scary. Prayers to ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/lexi.casteel.2025/photos/plane-crash-ironton-ohio-so-very-scary-prayers-to-those-involved/1245797254388215/",
+              "description": "Plane crash- Ironton, Ohio. So very scary. Prayers to those involved!"
+            }
+          ]
+        },
+        {
+          "name": "LexiPlane",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "LinkMetra",
+      "markets": [
+        {
+          "name": "LinkMetra",
+          "market": "de",
+          "spell": {
+            "keyword": "Link Metra",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 34900000,
+          "checkUrl": "https://www.google.com/search?q=LinkMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:49:03 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Metra: Home",
+              "domain": "metra.com",
+              "url": "https://metra.com/",
+              "description": "Stay up to date with the latest news and My Metra magazine ... For any emergency call 911 or notify Metra Police at 312-322-2800 or via the MetraCOPS app. For ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "METRA Energie-Messtechnik GmbH: Energy measurement ...",
+              "domain": "www.metra-emt.de",
+              "url": "https://www.metra-emt.de/",
+              "description": "18.06.2026 — With the flow and energy measurement technology from METRA, you always measure perfectly. Learn more about our devices & services from ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "METRA Logistik GmbH - Logistik für Pharma, Healthcare ...",
+              "domain": "metra-logistik.de",
+              "url": "https://metra-logistik.de/",
+              "description": "Die METRA Logistik GmbH transportiert vor allem Produkte aus dem Healthcare-Markt: medizinische Proben und Gase sowie Medizintechnik, aber auch Rezepte und ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Welcome to Metrolink",
+              "domain": "metrolinktrains.com",
+              "url": "https://metrolinktrains.com/",
+              "description": "Discover Southern California with Metrolink trains - convenient, reliable, and eco-friendly travel. Plan your trip today!"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Metra",
+              "domain": "x.com",
+              "url": "https://x.com/Metra?lang=de",
+              "description": "Providing service to and from downtown Chicago with 243 stations over 11 routes totaling nearly 500 route miles. Monitored M-F 7am-6pm."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Metra Link-Up Pass Cost Increase - GovDelivery - Granicus",
+              "domain": "content.govdelivery.com",
+              "url": "https://content.govdelivery.com/accounts/ILPACE/bulletins/270955",
+              "description": "The cost of a Metra Link-Up Pass, for use on Pace buses and CTA buses and trains, will increase to $45 on February 1. The Metra Link-Up Pass, available only ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Projekte - METRA",
+              "domain": "www.metra.eu",
+              "url": "https://www.metra.eu/de/projekte/",
+              "description": "Dank der hervorragenden Ergebnisse des Projekts kann Metra heute innovative Baugruppen liefern, die sich perfekt in die Fertigungs- und Montagelinien der Kunden ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Metra Electronics | The Installer's Choice®",
+              "domain": "www.metraonline.com",
+              "url": "https://www.metraonline.com/",
+              "description": "High Quality Products That You Can See & Hear Coming. Metra is the \"Installer's Choice®\" for 12volt aftermarket audio, lighting, and safety installation ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "MetroLink | Metro Transit – Saint Louis",
+              "domain": "www.metrostlouis.org",
+              "url": "https://www.metrostlouis.org/metrolink/",
+              "description": "MetroLink is the St. Louis metropolitan region's light rail system, connecting 46 miles of rail across 38 MetroLink stations in Missouri and Illinois. MetroLink ..."
+            }
+          ]
+        },
+        {
+          "name": "LinkMetra",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 20300,
+          "checkUrl": "https://www.google.com/search?q=LinkMetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:48:57 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "ADA Riders Guide Link - Metra",
+              "domain": "www.yumpu.com",
+              "url": "https://www.yumpu.com/en/document/view/18458936/ada-riders-guide-link-metra",
+              "description": "Jul 29, 2013 — Transform your PDFs into Flipbooks and boost your revenue! Leverage SEO-optimized Flipbooks, powerful backlinks, and multimedia content to ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Improvements",
+              "domain": "www.modernmetraelectric.org",
+              "url": "https://www.modernmetraelectric.org/improvements.html",
+              "description": "The Metra Electric is a world-class, high-capacity elevated rail corridor that connects downtown Chicago to the South Side's top destinations."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "link.metra.co.id",
+              "domain": "link.metra.co.id",
+              "url": "https://link.metra.co.id/",
+              "description": "link.metra.co.id is a Branded Short Domain Learn more or Get started"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Metra",
+              "domain": "x.com",
+              "url": "https://x.com/Metra?lang=en",
+              "description": "Providing service to and from downtown Chicago with 243 stations over 11 routes totaling nearly 500 route miles. Monitored M-F 7am-6pm."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Metra eyes 75th Street Corridor flyover",
+              "domain": "abc7chicago.com",
+              "url": "https://abc7chicago.com/post/metra-eyes-75th-street-corridor-flyover-/432560/",
+              "description": "Dec 11, 2014 — One of the biggest railroad bottlenecks in the country is located on the city's Southwest Side. Metra needs $1 billion to fix it."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Link On Demand - Apps on Google Play",
+              "domain": "play.google.com",
+              "url": "https://play.google.com/store/apps/details?id=lone_tree.link&hl=en_US",
+              "description": "Aug 24, 2026 — Free, easy and convenient on-demand travel in and around the the City of Lone Tree, Meridian, Highlands Ranch, Stonegate, and Parker. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Link A | Kansas City Area Transportation Authority",
+              "domain": "ridekc.org",
+              "url": "https://ridekc.org/getting-around/routes-in-service/link-a/",
+              "description": "Link A | Kansas City Area Transportation Authority … between Overland Park, KS and Lawrence, KS, land Park, KS and Lawrence, KS,"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Link On Demand is Lone Tree's Free Shuttle Service",
+              "domain": "cityoflonetree.com",
+              "url": "https://cityoflonetree.com/link-on-demand/",
+              "description": "To use, simply download the Link On Demand app, available on both Android and iOS, sign up for an account and book your ride. Once your ride is booked, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Welcome to Metrolink",
+              "domain": "metrolinktrains.com",
+              "url": "https://metrolinktrains.com/",
+              "description": "Discover Southern California with Metrolink trains - convenient, reliable, and eco-friendly travel. Plan your trip today!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MetraLyt",
+      "markets": [
+        {
+          "name": "MetraLyt",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 386,
+          "checkUrl": "https://www.google.com/search?q=MetraLyt&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:48:40 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Metrorail",
+              "domain": "www.metrorail.de",
+              "url": "http://www.metrorail.de/",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Metrel Cloud Storage | Einarbeitungsprozess | SW 1404, SW ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=HpKzoDqTtRk",
+              "description": "Share your videos with friends, family, and the world."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "MEDlight | Experts in UV Phototherapy & PDT",
+              "domain": "medlight.eu",
+              "url": "https://medlight.eu/de?srsltid=AfmBOooHiW9rJBlgOMguInXgeXv6FyLnYLEkAAq1x8C05ZORoXuIHtN1",
+              "description": "MEDlight is a medical device manufacturer specializing in the development of modern photodynamic therapy (PDT) and UV phototherapy technology."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Metroute – Apps bei Google Play",
+              "domain": "play.google.com",
+              "url": "https://play.google.com/store/apps/details?id=com.metroute.passenger&hl=gsw",
+              "description": "Metroute makes getting around the city easy and stress-free. Book a ride in seconds, track your driver in real time, and enjoy safe, comfortable trips at ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "MLT Aktienkurs und Chart — NEWCONNECT:MLT",
+              "domain": "de.tradingview.com",
+              "url": "https://de.tradingview.com/symbols/NEWCONNECT-MLT/",
+              "description": "Was ist der heutige Aktienpreis von Moonlit S.A.? Der aktuelle Preis von MLT liegt bei 0,300 PLN — er hat sich in den letzten 24 Stunden ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Mobility trends",
+              "domain": "teralytics.net",
+              "url": "https://teralytics.net/de/matrix-g/trends-zur-mobilitaet/",
+              "description": "Teralytics Always-On data allows us to answer questions about changed travel behavior with daily precision looking back to January 2019. Our mobility data is ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "M.L.T.",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/M.L.T.",
+              "description": "M.L.T. war ein französischer Hersteller von Automobilen und Lastkraftwagen. Moras, Lamielle et Tessier. Rechtsform, Compagnie. Gründung, 1900."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "About",
+              "domain": "metlit.ai",
+              "url": "https://metlit.ai/about",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Metelligent GmbH | Baunatal",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/p/Metelligent-GmbH-100094221770346/",
+              "description": "Seit unserer Gründung im Jahr 2020 installieren wir jährlich 40.000 bis 50.000 Systeme und sind ein zuverlässiger Partner für Zählermontagedienstleistungen."
+            }
+          ]
+        },
+        {
+          "name": "MetraLyt",
+          "market": "us",
+          "spell": {
+            "keyword": "MetroList",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 246000,
+          "checkUrl": "https://www.google.com/search?q=MetraLyt&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:48:48 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Metrolist | YT Music Client",
+              "domain": "mostafaalagamy.github.io",
+              "url": "https://mostafaalagamy.github.io/",
+              "description": "Metrolist is a lightweight, open-source YouTube Music client. Experience ad-free listening, background playback, and Material Design 3 aesthetics. 100% Safe. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "50% Success 80% Success",
+              "domain": "metr.org",
+              "url": "https://metr.org/horizon-chart-embed",
+              "description": "50% chance of succeeding … an LLM with a '50% time horizon' of 10 minutes means we predict a 50% chance the LLM will successfully complete a task from our ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "‎metr.at - You Might Also Like - App Store - Apple",
+              "domain": "apps.apple.com",
+              "url": "https://apps.apple.com/us/app/metr-at/id1165745913?see-all=customers-also-bought-apps&platform=iphone",
+              "description": "Xmatic - Electric Skateboard · VESC Tool · ExSkate · Indy Speed Control App · Float Hub - Board Setup Tool · 123SmartBMS · LeaperKim · BMS Manager. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "The most interesting thing in tech: A company called METR has ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/nxthompson/videos/the-most-interesting-thing-in-tech-a-company-called-metr-has-figured-out-a-cleve/2439071483143713/",
+              "description": "A company called METR has figured out a clever way of measuring progress in AI. current AIs can complete at a 50% success rate. time horizon ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "About",
+              "domain": "metlit.ai",
+              "url": "https://metlit.ai/about",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "How METR measures Long Tasks and Experienced Open ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=k1t2xyWMUdY",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Instagram",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/MetATL/",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Metralight: Home",
+              "domain": "www.metralight.com",
+              "url": "https://www.metralight.com/",
+              "description": "Measurement of position and dimension in two axis with integrated OLED displays. PORTABLE. Handheld laser micrometer with OLED display. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "METR-LA",
+              "domain": "www.kaggle.com",
+              "url": "https://www.kaggle.com/datasets/annnnguyen/metr-la-dataset",
+              "description": "A dataset containing the traffic network information in Los Angeles city from March to Jun 2012. It is used in the traffic forecasting task in Graph Neural ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MetraVeri",
+      "markets": [
+        {
+          "name": "MetraVeri",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 362,
+          "checkUrl": "https://www.google.com/search?q=MetraVeri&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:48:36 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Metravi Instruments: Home",
+              "domain": "www.metravi.com",
+              "url": "https://www.metravi.com/",
+              "description": "Clamp Meter, Clamp Meter for Solar and PV, Digital AC/DC Clamp Meter, Digital TRMS AC/DC Clamp Meter, Metravi PRO Series, Solar Tools ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Geschäftsbereiche - METRA",
+              "domain": "www.metra.eu",
+              "url": "https://www.metra.eu/de/geschaeftsbereiche/",
+              "description": "METRA Rail ist die Business Unit der Gruppe METRA, die sich der Herstellung von konkreten Lösungen aus Aluminium für den Schienenverkehr widmet. Durch eine ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "METRA Energie-Messtechnik GmbH: Energy measurement ...",
+              "domain": "www.metra-emt.de",
+              "url": "https://www.metra-emt.de/",
+              "description": "18.06.2026 — With the flow and energy measurement technology from METRA, you always measure perfectly. Learn more about our devices & services from ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Metra(…)",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Metra(%E2%80%A6)",
+              "description": "Metra(…) (altgriechisch Μητρα[…]) war ein griechischer Koroplast, der im 1. Jahrhundert n. Chr. in Myrina tätig war. Metra(…) ist von unvollständigen ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "DVGW Metra - Login",
+              "domain": "www.dvgw-metra.de",
+              "url": "https://www.dvgw-metra.de/",
+              "description": "Hier finden Sie mehr Informationen zu DVGW Metra: DVGW Service & Consult GmbH. Gelber Erdgas-Markierungspfosten mit Aufschrift \"Erdgas\" und Kilometerangabe ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "MARTERIA - VERSTRAHLT feat. Yasha (Making Of)",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=im3YIvpcWS4",
+              "description": "Das Album »Zum Glück in die Zukunft« ist hier erhältlich: Amazon: http://amzn.to/28MlRDw iTunes: http://apple.co/28N6Jbk Wer kennt es nicht?"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Kontakt",
+              "domain": "metra-logistik.de",
+              "url": "https://metra-logistik.de/kontakt/",
+              "description": "Kontakt. Sie haben etwas zu transportieren? Wir haben die Lösung. Wir freuen uns darauf, von Ihnen zu hören. Info@vecturio.de. Tel. +49 (0) 6204 / 78 91 205"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "MARTERIA (@marteria) • Instagram photos and videos",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/marteria/reels/?hl=de",
+              "description": "WIR HABEN MEHR ALS 100.000 EURO GESAMMELT WARTE MAL: EINHUNDERTTAUSEND EURO!!! Was für eine unfassbare Summe. SO HÄLT EINE STADT ZUSAMMEN."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "LabVIEW METRAHIT METRAport ...",
+              "domain": "www.gossenmetrawatt.de",
+              "url": "https://www.gossenmetrawatt.de/produkte/software-und-zubehoer/software/produktspezifische-software/multimeter-handkalibratoren/labview-metrahit-metraport/",
+              "description": "Zum Einbinden unserer METRAHIT Multimeter mit Infrarot-Schnittstelle in die Softwarepakete LabVIEW und VISA von National Instruments. Treiber für METRAHIT und ..."
+            }
+          ]
+        },
+        {
+          "name": "MetraVeri",
+          "market": "us",
+          "spell": {
+            "keyword": "MetreVeli",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 259000,
+          "checkUrl": "https://www.google.com/search?q=MetraVeri&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:48:47 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Metravi Instruments: Home",
+              "domain": "www.metravi.com",
+              "url": "https://www.metravi.com/",
+              "description": "Metravi is an Indian Company - Made in India. Metravi Metrasafe-10 is a Diamond Meter,"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "\"I will be ready with popcorn when people start leaving the ...",
+              "domain": "x.com",
+              "url": "https://x.com/Kirsten3531/status/2089845372499693763",
+              "description": "I will be ready with popcorn when people start leaving the labs for METR, AVERI and friends. I cannot wait for the drama."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Metra: Home",
+              "domain": "metra.com",
+              "url": "https://metra.com/",
+              "description": "Serving Chicago and the Northeastern Illinois Region. Metra is a safe, affordable, and convenient way to skip traffic and get to the Chicago Sky games all ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Metra | Chicago IL",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/MetraRail/",
+              "description": "Metra provides service to and from downtown Chicago with 243 stations and 11 rail lines. Monitored: Monday-Friday 7:00 a.m. to 6:00 p.m. Emergency: 312-322- ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Metra (@metrarail) · Chicago, IL",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/metrarail/?hl=en",
+              "description": "Metra provides service to and from downtown Chicago with 243 stations and 11 rail lines. Monitored: Monday-Friday 7am - 6pm. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Metariver Technology Co., Ltd.",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/channel/UCaNORJnwY9LfvbBzJxSOBSw",
+              "description": "Metariver Technology has been developing creative and diverse analysis software for science and technology using CUDA and HPC technology since its ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "METARIVER",
+              "domain": "bs.linkedin.com",
+              "url": "https://bs.linkedin.com/company/metariver",
+              "description": "Providing digital asset management and custodial services to financial markets. Facilitate the buying of bitcoin, crypto and NFT"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Metra Tracker",
+              "domain": "www.metratracker.com",
+              "url": "https://www.metratracker.com/bustime",
+              "description": "Welcome to Metra Tracker Your source for updated arrival information for selected train lines. You can also contact Metra Customer Service at 312-322-6777."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "metra aluminium",
+              "domain": "www.metra.eu",
+              "url": "https://www.metra.eu/en/",
+              "description": "METRA is a global and vertically integrated manufacturer of complex extruded aluminium profiles and high value-added services, including painting, ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SignalMetra",
+      "markets": [
+        {
+          "name": "SignalMetra",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "SignalMetra",
+          "market": "us",
+          "spell": {
+            "keyword": "SignalMeister",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 5370,
+          "checkUrl": "https://www.google.com/search?q=SignalMetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:47:52 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Supervisor, Signal - Metra",
+              "domain": "bebee.com",
+              "url": "https://bebee.com/us/jobs/supervisor-signal-metra-chicago-il--t7xk-782234616",
+              "description": "The Signal Supervisor will oversee signal maintenance, PTC, and construction projects ensuring compliance with Metra standards, Federal Railroad Administration ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Supervisor, Signal @ Metra",
+              "domain": "www.tealhq.com",
+              "url": "https://www.tealhq.com/job/supervisor-signal_7ea1af35518ff4117894afbcd97add7e907a6",
+              "description": "Jul 29, 2026 — The Signal Supervisor will oversee signal maintenance, PTC, and construction projects ensuring compliance with Metra standards, Federal Railroad ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Metra Commuter Rail",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/metra",
+              "description": "Welcome to the Metra Commuter Rail Channel! Metra is one of the largest and most complex commuter rail systems in North America, serving Cook, DuPage, Will, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Signal Meters",
+              "domain": "www.wilsonconnectivity.com",
+              "url": "https://www.wilsonconnectivity.com/accessories/category/signal-meters",
+              "description": "Professional signal meters from Wilson Connectivity provide accurate cellular strength readings for DAS and booster system optimization."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "signal meter - WilsonPro - Wilson Connectivity",
+              "domain": "staging.wilsonpro.com",
+              "url": "https://staging.wilsonpro.com/blog/how-to-use-a-signal-meter",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Metra: Home",
+              "domain": "metra.com",
+              "url": "https://metra.com/",
+              "description": "Metra is a safe, affordable, and convenient way to skip traffic and get to the Chicago Sky games all season long. Metra sells a variety of tickets and passes ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Official: Tech could have prevented derailment",
+              "domain": "www.nbcnews.com",
+              "url": "https://www.nbcnews.com/id/wbna9374274",
+              "description": "Sep 17, 2005 — Investigators are trying to determine why a Metra train was traveling nearly 70 mph Saturday when it derailed while switching tracks, a maneuver ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Signal Detector by Kilome - Apps on Google Play",
+              "domain": "play.google.com",
+              "url": "https://play.google.com/store/apps/details?id=id.kilome.signaldetectorbykilome",
+              "description": "Aug 22, 2026 — Signal Detector is a comprehensive signal monitoring and analysis app to help you check your connection quality and your surroundings in ... Read more"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

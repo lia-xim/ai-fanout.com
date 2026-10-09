@@ -1,0 +1,3542 @@
+{
+  "generatedAt": "2026-09-01T17:38:29.801Z",
+  "methodology": {
+    "endpoint": "serp/google/organic/live/advanced",
+    "markets": [
+      {
+        "id": "de",
+        "locationCode": 2276,
+        "languageCode": "de"
+      },
+      {
+        "id": "us",
+        "locationCode": 2840,
+        "languageCode": "en"
+      }
+    ],
+    "depth": 10,
+    "paidAddOns": false,
+    "estimatedCostUsd": 0.108,
+    "actualCostUsd": 0.08000000000000006,
+    "note": "Evidence export only. No automatic score, grade, or recommendation."
+  },
+  "combined": [
+    {
+      "name": "Crawlance",
+      "markets": [
+        {
+          "name": "Crawlance",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawling",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 393,
+          "checkUrl": "https://www.google.com/search?q=Crawlance&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:46 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Crawling-Fitness: So krabbelst du dich stark!",
+              "domain": "www.fitnessfirst.de",
+              "url": "https://www.fitnessfirst.de/magazin/training/mobilitaet/crawling",
+              "description": "14.09.2023 — Mit Crawling-Übungen wirst du kräftiger, stabiler und beweglicher. Nutze es entweder als gezieltes Ganzkörper-Workout oder als Warm up vor dem ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Workout der Woche: 20 Min. Crawling Fitness für ... - atletica",
+              "domain": "atletica.de",
+              "url": "https://atletica.de/a/blog/workout-der-woche-20-min-crawling-fitness-f%C3%BCr-einen-flachen-bauch",
+              "description": "05.07.2024 — Crawling, oder das Krabbeln, ist eine dynamische Übung, die den gesamten Körper einbezieht. Beim Crawling bewegst du dich auf allen Vieren ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "everyone was on their feet for the Baby Crawl Race #Pelicans",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/PelicansNBA/videos/everyone-was-on-their-feet-for-the-baby-crawl-racepelicans-ochsner-childrens/1585267175843367/",
+              "description": "Erik Hernandez once but I dont live in LA. I went as a tourist. I know attendance is low ite just unfair to judge it based on a halftime ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "So geht Crawling - die wichtigsten Grundlagen",
+              "domain": "www.fitshop.de",
+              "url": "https://www.fitshop.de/blog/2016/02/so-geht-crawling-die-wichtigsten-grundlagen?srsltid=AfmBOopjyx9XvOMpL5z3idgcB5_elt5O1ThuYarIZq31bOFGLimySGWs",
+              "description": "16.02.2016 — Crawling, also Krabbeln, ist wie der Unterarmstütz nur in Bewegung. Wie beim Plank (Unterarmstütz) muss die Wirbelsäule dabei in einer neutralen ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Crawl – Musik und Lyrics von Bad Omens",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/intl-de/track/7GK5Q3K6Ysj1Hl3WjjO2Tr",
+              "description": "Streame Crawl auf Spotify. Bad Omens · Song · 2.016."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Torchance 2015",
+              "domain": "www.torchance.de",
+              "url": "http://www.torchance.de/",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Crawling (human)",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Crawling_(human)",
+              "description": "Crawling or quadrupedal movement is a method of human locomotion that makes use of all four limbs. It is one of the earliest gaits learned by human infants, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Crawl - Englisch <> Deutsch Übersetzung",
+              "domain": "www.gymglish.com",
+              "url": "https://www.gymglish.com/de/gymglish/uebersetzung-englisch/crawl",
+              "description": "crawling around: The idiom \"to be on one's hands and knees\" means to \"crawl around\" (on the floor for example). Babies crawl before they learn to walk."
+            }
+          ]
+        },
+        {
+          "name": "Crawlance",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 498,
+          "checkUrl": "https://www.google.com/search?q=Crawlance&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:47 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "CRAWL Definition & Meaning",
+              "domain": "www.merriam-webster.com",
+              "url": "https://www.merriam-webster.com/dictionary/crawl",
+              "description": "The meaning of CRAWL is to move on one's hands and knees. How to use crawl in a sentence."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Adult Crawling",
+              "domain": "theballetblog.com",
+              "url": "https://theballetblog.com/portfolio/adult-crawling/",
+              "description": "“Adult Crawling” is a great exercise to help develop connections in the Anterior Oblique and Posterior Oblique slings which normally get developed when babies ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Crawl Space Science",
+              "domain": "www.basementsystems.com",
+              "url": "https://www.basementsystems.com/crawl-space/crawl-space-learning-center/crawl-space-science.html",
+              "description": "Crawl spaces were built to provide a buffer between the house and its inhabitants and the damp, wet earth below. This seemed to make sense for many decades, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "CRAWL definition in American English",
+              "domain": "www.collinsdictionary.com",
+              "url": "https://www.collinsdictionary.com/us/dictionary/english/crawl",
+              "description": "9 senses: 1. to move slowly, either by dragging the body along the ground or on the hands and knees 2. to proceed or move along."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "How to Crawl - Beginners Guide to Crawling",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=RQblFSD3FrQ",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "crawl, crawled, crawling, crawls",
+              "domain": "www.wordwebonline.com",
+              "url": "https://www.wordwebonline.com/en/CRAWL",
+              "description": "A slow mode of locomotion on hands and knees or dragging the body \"a crawl was all that the injured man could manage\"; · A swimming stroke; arms are moved ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "What Is Crawl Space Encapsulation? | Sean Madole on KOLO ...",
+              "domain": "www.renotahoefoundationrepair.com",
+              "url": "https://www.renotahoefoundationrepair.com/foundation-repair/videos/25368-what-is-crawl-space-encapsulation-sean-madole-on-kolo-8-news.html",
+              "description": "Sean Madole, owner of Madole Construction, explains how encapsulating your crawl space helps protect your home from moisture, mold, and structural damage. Learn ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "What is a Conditioned Crawl Space?",
+              "domain": "faswall.com",
+              "url": "https://faswall.com/what-conditioned-crawl-space/",
+              "description": "Unlike traditional vented crawl spaces, a conditioned crawl space focuses on creating a sealed and controlled environment to enhance energy efficiency and ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CrawlDrive",
+      "markets": [
+        {
+          "name": "CrawlDrive",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Drive",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 111,
+          "checkUrl": "https://www.google.com/search?q=CrawlDrive&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:53 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Part 18: Google Drive Crawl - Fess - CodeLibs Project",
+              "domain": "fess.codelibs.org",
+              "url": "https://fess.codelibs.org/articles/18/document.html",
+              "description": "In order to crawl Google Drive content, you need to enable the Google Drive API and obtain your credentials. First, create a project and enable the API ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "CRAWL The Hardcore Offroad Magazine",
+              "domain": "www.sfwda.org",
+              "url": "https://www.sfwda.org/crawl",
+              "description": "We bring you coverage of the best events, products, and wheeling in the US and around the world. Read about CRAWL rig projects, get tech know-how from INDUSTRY ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawl Restrictions",
+              "domain": "docs.glean.com",
+              "url": "https://docs.glean.com/connectors/native/gdrive/restrictions",
+              "description": "13.08.2026 — Supported exclusion and inclusion rules for Google Drive to allow you to manage what data is crawled by Glean."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Crawl ratio",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Crawl_ratio",
+              "description": "In off-road driving, crawl ratio is the lowest overall gear ratio that a vehicle's drivetrain is capable of, i.e. the slowest vehicle speed for the same engine ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "How to crawl through Google drive files using elastic search",
+              "domain": "stackoverflow.com",
+              "url": "https://stackoverflow.com/questions/49851202/how-to-crawl-through-google-drive-files-using-elastic-search",
+              "description": "I want to crawl and index Google drive files using elastic search from my Google account, I also want to know can we crawl and index public Google drive ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Google Drive External Content Connector Requires Root ...",
+              "domain": "support.servicenow.com",
+              "url": "https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152736",
+              "description": "1. Create a dedicated root folder in Google Drive containing the documents that need to be crawled into ServiceNow · 2. Navigate to the Crawl Settings ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Google Drive",
+              "domain": "accounts.google.com",
+              "url": "https://accounts.google.com/Login?hl=de&service=writely&lp=1",
+              "description": "Erstellen und teilen Sie Ihre Arbeit online und greifen Sie von überall aus auf Ihre Dokumente zu. Verwalten Sie Dokumente, Tabellen, Präsentationen, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "What is Toyota Crawl Control?",
+              "domain": "www.jdpower.com",
+              "url": "https://www.jdpower.com/cars/shopping-guides/what-is-toyota-crawl-control",
+              "description": "06.07.2021 — Toyota's Crawl Control system uses sensors to judge driving conditions and adjusts the vehicle's operation to meet them. This includes ..."
+            }
+          ]
+        },
+        {
+          "name": "CrawlDrive",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "Crawlent",
+      "markets": [
+        {
+          "name": "Crawlent",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 2700,
+          "checkUrl": "https://www.google.com/search?q=Crawlent&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:49 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Définition de CRAWLENT",
+              "domain": "www.cnrtl.fr",
+              "url": "https://www.cnrtl.fr/definition/crawlent",
+              "description": "Nage rapide sur le ventre, comportant un battement continu des jambes et un mouvement alternatif de rotation des bras, qui sont projetés dans l'eau ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "crawlent",
+              "domain": "tr.wiktionary.org",
+              "url": "https://tr.wiktionary.org/wiki/crawlent",
+              "description": "crawlent. crawler sözcüğünün üçüncü çoğul şahıs şimdiki zaman bildirme kipi/dilek çekimi. Son değişiklik 5 ay önce CavlakBOT tarafından yapıldı ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "CRAWLENT",
+              "domain": "elimots.com",
+              "url": "https://elimots.com/ods?mot=CRAWLENT&taillemax=oui",
+              "description": "CRAWLENT est valable au Scrabble (dictionnaire officiel 2024-2027) Définition : CRAWLER v. [cj. aimer]. Ce mot était déjà valable avant la première ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "crawler - Definition, Meaning, Examples & Pronunciation in ...",
+              "domain": "dictionnaire.lerobert.com",
+              "url": "https://dictionnaire.lerobert.com/en/definition/crawler",
+              "description": "présent. je crawle. tu crawles. il crawle / elle crawle. nous crawlons. vous crawlez. ils crawlent / elles crawlent. imparfait. je crawlais. tu crawlais."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Crawler einfach und verständlich erklärt",
+              "domain": "www.seo-kueche.de",
+              "url": "https://www.seo-kueche.de/lexikon/crawler/",
+              "description": "Ein Crawler ist ein Programm, das selbstständig das Internet nach Inhalten durchsucht und sowohl Webseiten als auch Information vollständig ausliest und ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Conjugaison du verbe crawler - Le Nouvel Obs",
+              "domain": "la-conjugaison.nouvelobs.com",
+              "url": "https://la-conjugaison.nouvelobs.com/du/verbe/crawler.php",
+              "description": "La conjugaison du verbe crawler et ses synonymes. Conjuguer le verbe crawler à indicatif, subjonctif, impératif, infinitif, conditionnel, participe, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Le mot CRAWLENT est valide au scrabble",
+              "domain": "1mot.net",
+              "url": "https://1mot.net/crawlent",
+              "description": "crawlent v. Troisième personne du pluriel du subjonctif présent du verbe crawler. 11 mots valides tirés des 3 définitions. AIMER CRAWLER DE DU INDICATIF ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Web crawler",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Web_crawler",
+              "description": "A web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Les bots qui crawlent la pile agentique de Shopify - WISLR",
+              "domain": "www.wislr.com",
+              "url": "https://www.wislr.com/research/fr/shopify-agentic-bot-crawls/",
+              "description": "08.05.2026 — Les bots qui crawlent la pile agentique de Shopify. Deux mois de logs edge d'une boutique de recherche Shopify. Microsoft Copilot est le ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawlent",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 93500,
+          "checkUrl": "https://www.google.com/search?q=Crawlent&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:51 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Définition de CRAWLENT",
+              "domain": "www.cnrtl.fr",
+              "url": "https://www.cnrtl.fr/definition/crawlent",
+              "description": "Nage rapide sur le ventre, comportant un battement continu des jambes et un mouvement alternatif de rotation des bras, qui sont projetés dans l'eau ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "CRAWLENT",
+              "domain": "elimots.com",
+              "url": "https://elimots.com/ods?mot=CRAWLENT&taillemax=oui",
+              "description": "CRAWLENT est valable au Scrabble (dictionnaire officiel 2024-2027) Définition : CRAWLER v. [cj. aimer]. Ce mot était déjà valable avant la première ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "crawlent — Wiktionnaire, le dictionnaire libre",
+              "domain": "fr.wiktionary.org",
+              "url": "https://fr.wiktionary.org/wiki/crawlent",
+              "description": "crawlent \\kʁol\\. Troisième personne du pluriel de l'indicatif présent du verbe crawler. Troisième personne du pluriel du subjonctif présent du verbe crawler ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Web crawler",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Web_crawler",
+              "description": "A web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "crawler - Definition, Meaning, Examples & Pronunciation in ...",
+              "domain": "dictionnaire.lerobert.com",
+              "url": "https://dictionnaire.lerobert.com/en/definition/crawler",
+              "description": "présent. je crawle. tu crawles. il crawle / elle crawle. nous crawlons. vous crawlez. ils crawlent / elles crawlent. imparfait. je crawlais. tu crawlais. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "CRAWLENT is not a valid scrabble word",
+              "domain": "1word.ws",
+              "url": "https://1word.ws/crawlent",
+              "description": "CRAWLENT scores zero in scrabble. 13 points, without game rules."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Le mot CRAWLENT est valide au scrabble",
+              "domain": "1mot.net",
+              "url": "https://1mot.net/crawlent",
+              "description": "crawlent v. Troisième personne du pluriel du subjonctif présent du verbe crawler. 11 mots valides tirés des 3 définitions. AIMER CRAWLER DE DU INDICATIF ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Carrion Crawler - Monsters",
+              "domain": "www.dndbeyond.com",
+              "url": "https://www.dndbeyond.com/monsters/5194938-carrion-crawler?srsltid=AfmBOop1RxYcr2U18hm-TTxcxLq3r4pWidNAIoKYnueQaEUdl92t8mxj",
+              "description": "The carrion crawler can climb difficult surfaces, including along ceilings, without needing to make an ability check. rawler uses Paralyzing Tentacles and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Crawlee · Build reliable crawlers. Fast.",
+              "domain": "crawlee.dev",
+              "url": "https://crawlee.dev/",
+              "description": "Crawlee is a web scraping library for JavaScript and Python. It handles blocking, crawling, proxies, and browsers for you. Crawlee JavaScript. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CrawlFoundry",
+      "markets": [
+        {
+          "name": "CrawlFoundry",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Foundry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 124,
+          "checkUrl": "https://www.google.com/search?q=CrawlFoundry&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:44 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Hex Crawling on Foundry...But is this Method Efficient?",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/FoundryVTT/comments/11ruo9n/hex_crawling_on_foundrybut_is_this_method/",
+              "description": "I'm developing a Hex Crawl map of an upcoming 5e campaign/world setting. For each Hex that is traveled into and added to the overall map I have an actor ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Space Wars Text Crawl",
+              "domain": "foundryvtt.com",
+              "url": "https://foundryvtt.com/packages/swtextcrawl",
+              "description": "Creates a text crawl via a journal entry that can shared to players. Video example: Link. Example Image. Categories. Journals and Notes Visual Effects ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "foundryvtt-dcc/dcc-crawl-classes",
+              "domain": "github.com",
+              "url": "https://github.com/algnc/dcc-crawl-classes",
+              "description": "Crawl sheets for Dungeon Crawl Classics in Foundry VTT. Expands the Dungeon Crawl Classics system for the Foundry Virtual Tabletop to include Crawl! class ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Foundry VTT Archives - Goodman Games Store",
+              "domain": "goodman-games.com",
+              "url": "https://goodman-games.com/store/product-category/foundry-vtt/?srsltid=AfmBOoqxrvs_aJs8Zj1XXxpCAlNgA_1XgpIMfNoxy8AWR9h5C20vLrla",
+              "description": "Dungeon Crawl Classics #72: Beyond the Black Gate - Adventure for FoundryVTT ... Dungeon Crawl Classics #79.5: Tower of the Black Pearl – Module for Foundry VTT."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Foundry VTT Tip #23: Hex Crawl",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=EoaBaCMypYc",
+              "description": "Here is a simple way to incorporate the Hex Crawl into your game, including ideas of Chance vs. Random Encounters and a Getting Lost ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Space Wars Text Crawl",
+              "domain": "www.foundryvtt-hub.com",
+              "url": "https://www.foundryvtt-hub.com/package/swtextcrawl/",
+              "description": "Description; Comments (1). Creates a text crawl via a journal entry that can shared to players. Video example: Link. Example Image. Subscribe."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Hexcrawl Hex Tiles",
+              "domain": "www.foundryvtt.store",
+              "url": "https://www.foundryvtt.store/products/hexcrawl-hex-tiles",
+              "description": "28.04.2026 — This cartography style hex tiles pack is designed to make maps and for procedural hexcrawl. Hex Tiles Uses: Make scene maps before session."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Dungeon Crawl - The Unraveled Tower - Foundry VTT (5E/ ...",
+              "domain": "www.drivethrurpg.com",
+              "url": "https://www.drivethrurpg.com/de/product/419196/dungeon-crawl-the-unraveled-tower-foundry-vtt-5e-3-5e",
+              "description": "A dungeon crawl ready to be dropped in any adventure · New hand-drawn map (with walls, lights - and all monsters already placed in correct positions in VTT ..."
+            }
+          ]
+        },
+        {
+          "name": "CrawlFoundry",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawl Foundry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 127,
+          "checkUrl": "https://www.google.com/search?q=CrawlFoundry&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:48 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Hex Crawling on Foundry...But is this Method Efficient?",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/FoundryVTT/comments/11ruo9n/hex_crawling_on_foundrybut_is_this_method/",
+              "description": "I'm developing a Hex Crawl map of an upcoming 5e campaign/world setting. For each Hex that is traveled into and added to the overall map I have an actor ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Space Wars Text Crawl",
+              "domain": "foundryvtt.com",
+              "url": "https://foundryvtt.com/packages/swtextcrawl",
+              "description": "Crawl An Add-on Module for Foundry Virtual Tabletop. Creates a text crawl via a journal entry that can shared to players."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Foundry VTT Archives - Goodman Games Store",
+              "domain": "goodman-games.com",
+              "url": "https://goodman-games.com/store/product-category/foundry-vtt/?srsltid=AfmBOooC3eZVtUTnMnuHgWTQ9RkH5ebYcW2R_lvmeTHBca8IOZWCwGs6",
+              "description": "Dungeon Crawl Classics #72: Beyond the Black Gate - Adventure for FoundryVTT ... Dungeon Crawl Classics #79.5: Tower of the Black Pearl – Module for Foundry VTT. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Foundry VTT Tip #23: Hex Crawl",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=EoaBaCMypYc",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "foundryvtt-dcc/dcc-crawl-classes",
+              "domain": "github.com",
+              "url": "https://github.com/algnc/dcc-crawl-classes",
+              "description": "Crawl sheets for Dungeon Crawl Classics in Foundry VTT. Expands the Dungeon Crawl Classics system for the Foundry Virtual Tabletop to include Crawl! class ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Dungeon Crawl Classics (DCC) | FoundryVTT.store",
+              "domain": "www.foundryvtt.store",
+              "url": "https://www.foundryvtt.store/systems/dcc",
+              "description": "Dungeon Crawl Classics (DCC) RPG from Goodman Games. A Level 6 adventure for the Dungeon Crawl Classics RPG. $ 6.99$ 5.59 … dcc $ 6.99 On Sale Now!"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Shadowdark Crawl Helper",
+              "domain": "foundryvtt.com",
+              "url": "https://foundryvtt.com/packages/shadowdark-crawl-helper",
+              "description": "Crawl Helper streamlines dungeon crawling and combat transitions in your Shadowdark RPG games on Foundry VTT. Designed to support both structured exploration ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Space Wars Text Crawl",
+              "domain": "www.foundryvtt-hub.com",
+              "url": "https://www.foundryvtt-hub.com/package/swtextcrawl/",
+              "description": "Creates a text crawl via a journal entry that can shared to players. You can install this package directly to your Forge account. Foundry Hub is a fan-operated ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawliva",
+      "markets": [
+        {
+          "name": "Crawliva",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 373,
+          "checkUrl": "https://www.google.com/search?q=Crawliva&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:57 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "DoLive Craw 2\" SCUPPERNONG BLUE FLAKE W034",
+              "domain": "www.japan-dream-tackle.de",
+              "url": "https://www.japan-dream-tackle.de/shop/dolive-craw-2-w034/",
+              "description": "Der Dolive Craw wurde für das Barschangeln entwickelt. Der OSP Dolive Craw ist ein Flusskrebs, wie er sein sollte, die Animation ähnelt den Bewegungen eines ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Scaglia INDEVA GmbH",
+              "domain": "www.indevagroup.de",
+              "url": "https://www.indevagroup.de/",
+              "description": "Wir bieten die größte Auswahl pneumatischer und elektronischer Manipulatoren auf dem Markt. Die INtelligent DEVices for hAndling – kurz INDEVAs verfügen über ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Terravlogger",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/@Terravlogger",
+              "description": "Hallo Freunde der Sonne, Ich erzähle euch etwas über mein Hobby \"Terraristik\". Dabei arbeite ich mit eigenen Erfahrungen, auch wenn ich das Rad nicht neu ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawling – Musik und Lyrics von bôa",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/intl-de/track/6hkpAZBF40USiY1SM6utWh",
+              "description": "Lyrics. I made a choice to love you. (Mmmmm). You made a choice to love me too. (Mmmmm). Some say that love is like falling. I think it's more like crawling."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "O.S.P DoLive Craw 3",
+              "domain": "www.koederkult.de",
+              "url": "https://www.koederkult.de/products/o-s-p-dolive-craw-3?srsltid=AfmBOooiNglcZFUdxEc_F5AxVbHnToSFe9i16QRRZS23wp7KZohYp9ar",
+              "description": "Die O.S.P Dolive Craw 3 spielt ihr volles Potential vor allem als Jigtrailer aus. Die kompakte Körperform und die realistische Nachbildung der Scheren lässt ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "OSP DoLive Craw 5\"",
+              "domain": "fish-candy.de",
+              "url": "https://fish-candy.de/products/o-s-p-dolive-craw-5",
+              "description": "Der OSP OSP DoLive Craw 5\" ist ein legendärer Craw, der sich für jegliche, moderne Angeltechniken eignet. In vielen Farben erhältlich."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "OSP Dolive Craw",
+              "domain": "www.angelsportfauna.de",
+              "url": "https://www.angelsportfauna.de/p/osp-dolive-craw-0001794667",
+              "description": "Die O.S.P. Dolive Craw weiß, wie man einen Krebs perfekt imitiert und kann auf verschiedene Weise eingesetzt werden. Dieser Gummiköder wird im Stand aufrecht ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "OSP DoLive Craw 7,6cm",
+              "domain": "www.sportfishtackle.de",
+              "url": "https://www.sportfishtackle.de/de/artiklar/osp-dolive-craw-76cm.html",
+              "description": "Die OSP DoLive Craw 7,6 cm wurde nach intensiven Tests im klaren Wasser entwickelt und analysiert die besten Eigenschaften von Hog- und Craw-Ködern."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Ravaglioli",
+              "domain": "ravaglioli.com",
+              "url": "https://ravaglioli.com/de/",
+              "description": "Als Marke der Vehicle Service Group (VSG) ist Ravaglioli Europas führender Hersteller von Fahrzeughebebühnen, Reifenservice- und Diagnosegeräten ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawliva",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawling",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 357000,
+          "checkUrl": "https://www.google.com/search?q=Crawliva&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:03 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Crawligator: Tummy Time Toys | Best Crawling Toys",
+              "domain": "www.thecrawligator.com",
+              "url": "https://www.thecrawligator.com/?srsltid=AfmBOooihELW3su2cd5BRA7A5iypIXoEO67qjokQF-EHwxOEoUsL4GoT",
+              "description": "Crawligator is a gross motor activity toy designed to encourage tummy time, build strength,and develop neck muscles for head control."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Crawlee · Build reliable crawlers. Fast.",
+              "domain": "crawlee.dev",
+              "url": "https://crawlee.dev/",
+              "description": "Crawlee is a web scraping library for JavaScript and Python. It handles blocking, crawling, proxies, and browsers for you. Crawlee JavaScript. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Crawlee—A web scraping and browser automation library ...",
+              "domain": "github.com",
+              "url": "https://github.com/apify/crawlee",
+              "description": "Crawlee gives you the tools to crawl the web for links, scrape data, and store it to disk or cloud while staying configurable to suit your project's needs. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Instagram",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/CicLavia/",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Calleva: Home",
+              "domain": "calleva.org",
+              "url": "https://calleva.org/",
+              "description": "Calleva's innovative outdoor education & adventure programs get people outdoors for experiences that promote personal growth, community, skill building & a ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Canva Live",
+              "domain": "canva.live",
+              "url": "https://canva.live/",
+              "description": "Canva Live Enter a code to connect"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "CRAWLY Definition & Meaning",
+              "domain": "www.merriam-webster.com",
+              "url": "https://www.merriam-webster.com/dictionary/crawly",
+              "description": "Jul 2, 2026 — The meaning of CRAWLY is marked by crawling or slow motion; especially : of, relating to, or being an organism (such as a spider, worm, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Trolli Sour Brite Crawlers Gummi Candy Very Berry, 8 oz",
+              "domain": "www.cvs.com",
+              "url": "https://www.cvs.com/shop/trolli-sour-brite-crawlers-gummi-candy-very-berry-8-oz-prodid-434431-reviews?skuId=434431",
+              "description": "See real customer reviews for Trolli Sour Brite Crawlers Gummi Candy Very Berry, 8 oz at CVS pharmacy. See all reviews and shop with confidence!"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Reel by Arva | Miami Lifestyle • Artist (@lilarva) · May 19, 2026",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DYg-BckCM5E/",
+              "description": "99 percent of the population's sleeping right now. But we're awake. Here, hustling. Finished work. Finished workout. Ready to go to my kids now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CrawlLayer",
+      "markets": [
+        {
+          "name": "CrawlLayer",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "CrawlLayer",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "CrawlMetra",
+      "markets": [
+        {
+          "name": "CrawlMetra",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Metra",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 343,
+          "checkUrl": "https://www.google.com/search?q=CrawlMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:56 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Crawler einfach erklärt – Was ist ein Webcrawler?",
+              "domain": "www.ionos.de",
+              "url": "https://www.ionos.de/digitalguide/online-marketing/suchmaschinenmarketing/was-ist-ein-crawler/",
+              "description": "01.07.2025 — Crawler sind Bots, die das Internet nach Daten durchsuchen. Sie analysieren Inhalte und legen Informationen in Datenbanken und Indexen an, um ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Crawler",
+              "domain": "www.derkum-modellbau.com",
+              "url": "https://www.derkum-modellbau.com/fahrzeuge/rc-cars/crawler",
+              "description": "Produktkatalog · FAHRZEUGE · RC Cars · Crawler · FMS 1:24 Chevrolet K5 Blazer 1:24 braun - RTR 2.4GHz · FMS 1:24 Chevrolet K5 Blazer 1:24 orange - RTR 2.4GHz."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Scale Crawler - Über Hängebrücken, durchs Wasser ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=f7oFGuUhnnI",
+              "description": "Hier im Video seht ihr verschiedene Scaler die unterwegs sind im Scaler Park in Staaken - Der Parcour beim RC Offroad Staaken mit ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Monitoring-Systeme | Automatische Deformationsmessung",
+              "domain": "allterra.de",
+              "url": "https://allterra.de/produkte/monitoring/",
+              "description": "Mit Trimble Monitoring Systemen erfassen Sie permanent aktuelle Zustandsdaten der Umgebung und können auch kleinste Veränderungen feststellen."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Crawlers for sewer inspection",
+              "domain": "www.kummert.de",
+              "url": "https://www.kummert.de/en/products/crawlers.html",
+              "description": "The fully automatic cable drum KR-200 HD / KR-300HD has a housing made of anodized aluminum and is extremely robustly built. More about. Company. Skip ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Singlebeam | Sub Bottom Profiler | Hydrographische Systeme",
+              "domain": "www.macartney.de",
+              "url": "https://www.macartney.de/hydrographische-systeme/singlebeam-sub-bottom-profiler/",
+              "description": "Singlebeam | Sub Bottom Profiler in Hydrographische Systeme · Multibeam · Singlebeam | Sub Bottom Profiler · Side Scan Sonar Magnetometer · Positionierung · Inertial ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Lasermikrometer und Messsysteme für Drähte und Kabel",
+              "domain": "www.nordson.com",
+              "url": "https://www.nordson.com/de-de/divisions/measurement-and-control/wire-and-cable",
+              "description": "Beta LaserMike-Messgeräte sind für die Messung einer Vielzahl von Parametern bei Draht- und Kabelanwendungen konzipiert, darunter Durchmesser, Ovalität, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "C.A.M.P. - Kletterleiter - Cable Ladder 10 m",
+              "domain": "www.amazon.de",
+              "url": "https://www.amazon.de/CAMP-Cable-Ladder-10-m/dp/B001HY78WG",
+              "description": "Wichtigste Highlights · Kabel aus verzinkter Stahl von 3 mm Durchmesser, Abstand zwischen den Sprossen 30 cm, Gesamtlänge 10 m · Ausgerüstet mit 4 Schließringen ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Website Crawler 2026 | 8 Webcrawler für ganze ... - Octoparse",
+              "domain": "www.octoparse.de",
+              "url": "https://www.octoparse.de/blog/web-crawling-die-besten-kostenlosen-web-crawler-fuer-anfaenger",
+              "description": "20.10.2025 — 8 Webcrawler im Überblick, von kostenlos bis kostenpflichtig. Welcher Website Crawler ganze Domains erfasst, welcher ohne Installation läuft ..."
+            }
+          ]
+        },
+        {
+          "name": "CrawlMetra",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "Crawlmetry",
+      "markets": [
+        {
+          "name": "Crawlmetry",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Metry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 420,
+          "checkUrl": "https://www.google.com/search?q=Crawlmetry&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:57 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "GitHub - vivekchand/clawmetry",
+              "domain": "github.com",
+              "url": "https://github.com/vivekchand/clawmetry",
+              "description": "vor 5 Tagen — ClawMetry reads local session files and logs. No session data leaves your box unless you run clawmetry connect — no prompts, replies, tool ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Common Crawl - Open Repository of Web Crawl Data",
+              "domain": "commoncrawl.org",
+              "url": "https://commoncrawl.org/",
+              "description": "Common Crawl maintains a free, open repository of web crawl data that can be used by anyone. · Common Crawl is a 501(c)(3) non–profit founded in 2007. · Over 300 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Bathymetrie",
+              "domain": "www.awi.de",
+              "url": "https://www.awi.de/forschung/geowissenschaften/geophysik/methoden-und-werkzeuge/bathymetrie.html",
+              "description": "Unter Bathymetrie versteht man die Messung von Wassertiefen. Heutzutage werden diese Messungen mit Echoloten durchgeführt. Diese senden akustische Signale aus, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Common Crawl Checker: Kann eine Domain Teil von KI ...",
+              "domain": "tinyweb.com",
+              "url": "https://tinyweb.com/common-crawl-checker/",
+              "description": "Mit unserem Common Crawl Checker kannst du schnell prüfen, ob eine Website aktuell oder historisch in den Web-Archiven von Common Crawl auftaucht – ein ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Website Crawler: Online Spider to Test URLs for Errors",
+              "domain": "sitechecker.pro",
+              "url": "https://sitechecker.pro/website-crawler/",
+              "description": "Online crawler tool (spider ) to test the whole website and specific pages for broken links and redirects, duplicate content, and indexing issues."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Website Crawler: Online Crawling, Audit and Data Extraction",
+              "domain": "www.websitecrawler.org",
+              "url": "https://www.websitecrawler.org/",
+              "description": "Website Crawler is a SaaS (Software as a Service) platform that crawls and analyzes web pages in real-time, detecting technical issues that are hard to find ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "ClawMetry: Real-time observability & governance for AI ...",
+              "domain": "www.producthunt.com",
+              "url": "https://www.producthunt.com/products/clawmetry",
+              "description": "ClawMetry is a observability & governance layer for 21+ AI agent runtime s. It observes Claude Code, Codex, Cursor, Antigravity, Grok, Goose, OpenCode, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "3. Bathymetry & Boundary Conditions",
+              "domain": "tsunami-642cd7.gitpages.uni-jena.de",
+              "url": "https://tsunami-642cd7.gitpages.uni-jena.de/chapters/03_bathymetry_boundary_conditions.html",
+              "description": "3.1. Einleitung  . Erweiterung des 1D-Lösers aus Finite Volume Discretization um Bathymetrie, Wet-Dry-Randbedingungen und einen ersten Tsunami-Lauf entlang der ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Website-Crawler — Onpage-Check online - Rankmio",
+              "domain": "rankmio.de",
+              "url": "https://rankmio.de/seo-tools/website-crawler",
+              "description": "Er besucht eine URL wie ein Suchmaschinen-Bot und erfasst HTTP-Status, Title, Meta-Description, H1, Bilder, Schema-Markup und interne Links. Damit findest du ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawlmetry",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "CrawlTower",
+      "markets": [
+        {
+          "name": "CrawlTower",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 3640,
+          "checkUrl": "https://www.google.com/search?q=CrawlTower&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:53 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Dungeon Crawl Tower Run",
+              "domain": "steamcommunity.com",
+              "url": "https://steamcommunity.com/app/2480020/?l=german",
+              "description": "Single player 3D action roguelike extraction game. Create unique builds out of various combinations of skills and equipments to reach the 6th floor of the Tower ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Dungeon Crawl Tower Run",
+              "domain": "store.steampowered.com",
+              "url": "https://store.steampowered.com/app/2480020/Dungeon_Crawl_Tower_Run/",
+              "description": "Single player 3D action roguelike extraction game. Create unique builds out of various combinations of skills and equipments to reach the 6th floor of the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "DQTOWER Design & Qualität Tiny House",
+              "domain": "dqtower.de",
+              "url": "https://dqtower.de/",
+              "description": "Die Lösung für Ihr kleines Grundstück unser Minihaus! · Günstiger als jeder Neubau, massiver als Tiny Houses und mit extrem wenig Grundstücksbedarf."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Dwerve - RPG Dungeon crawl Tower Defense! - EP 1",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=8Rpk1WnNf7s",
+              "description": "Finally getting this game out of my backlog, and yeah, the tower defence mechanic has never been better!"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Power Tower kaufen | Profi Klimmzug- & Dip-Station",
+              "domain": "hq-germany.com",
+              "url": "https://hq-germany.com/products/power-tower?srsltid=AfmBOopWI3EJTpYxoVN7hwgd8NZYxu4TeZR2JauOE-r8dyH1EzCk2xRm",
+              "description": "Maße & Details. Maße: Höhe: 223 cm; Breite: 97 cm (inklusive Klimmzugstange); Tiefe: 132 cm; Gewicht: ca. 32 kg; Maximale Belastbarkeit: Bis 150 kg ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "ᐅ Multi-Lat-Tower + Hersteller-Premium-Service",
+              "domain": "www.hammer.de",
+              "url": "https://www.hammer.de/finnlo-kraftstation-fitnessstation-multigym-multi-lat-tower-black-edition.html",
+              "description": "Mit dem Multi-Lat-Tower kannst du nicht nur deinen Latissimus durch klassische Latzugübungen effektiv formen, sondern auch mit zahlreichen Seilzugvarianten ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "ATX® Trinity Tower - Ultimative Latzugstation 3 in 1",
+              "domain": "www.megafitness.shop",
+              "url": "https://www.megafitness.shop/atx-trinity-tower-latzuggeraet-pro.html?srsltid=AfmBOoqx6QdYovLV_BF0HE4SS1DhMKuthPWUefYNg7PvyCA21DEhrdSM",
+              "description": "Der schwere Gewichtsblock mit 135 kg Steckgewichten erlaubt selbst starken Athletinnen und Athleten schweres Latzug- und Rudertraining für maximale ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Depots - Dungeon Crawl Tower Run",
+              "domain": "steamdb.info",
+              "url": "https://steamdb.info/app/2480020/depots/",
+              "description": "Single player 3D action roguelike extraction game. Create unique builds out of various combinations of skills and equipments to reach the 6th floor of the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Mini Tower Rollgerüste - der fahrbare Gerüstturm",
+              "domain": "geruest-welt.de",
+              "url": "https://geruest-welt.de/Produkte-Geruest-Welt/Rollgeruest/Mini-Tower/?srsltid=AfmBOooBF8buFJSBXJ-BeuO3KWw_GciIIcu-DrM6vcDtcjhAkxUEH_BC",
+              "description": "Die leichten Aluminium Teile und die kompakte Breite von 0,72 m vereinfachen den Aufbau dabei. Trotz der schmalen Breite und der Länge von nur 1,35 m ist das ..."
+            }
+          ]
+        },
+        {
+          "name": "CrawlTower",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 7110,
+          "checkUrl": "https://www.google.com/search?q=CrawlTower&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:54 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Dungeon Crawl Tower Run",
+              "domain": "steamcommunity.com",
+              "url": "https://steamcommunity.com/app/2480020",
+              "description": "Single player 3D action roguelike extraction game. Create unique builds out of various combinations of skills and equipments to reach the 6th floor of the Tower ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Dungeon Crawl Tower Run",
+              "domain": "store.steampowered.com",
+              "url": "https://store.steampowered.com/app/2480020/Dungeon_Crawl_Tower_Run/",
+              "description": "Single player 3D action roguelike extraction game. Create unique builds out of various combinations of skills and equipments to reach the 6th floor of the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Dwerve - RPG Dungeon crawl Tower Defense! - EP 1",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=8Rpk1WnNf7s",
+              "description": "Finally getting this game out of my backlog, and yeah, the tower defence mechanic has never been better! Dwerve - RPG Dungeon crawl Tower ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Vibrant Visions: PRIDE Art Crawl @ Tower Ave - Superior",
+              "domain": "gottabesuperior.com",
+              "url": "https://gottabesuperior.com/event/vibrant-visions-pride-art-crawl-tower-ave-superior/",
+              "description": "Crawl @ Tower Ave – Superior. September 1 @ 12:00 am - Monday, September 21 @ 12:00 am Tower Ave. Event Categories: Art, Community Gathering, Culture, Event/ ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Dungeon Crawl Tower Run",
+              "domain": "kotaku.com",
+              "url": "https://kotaku.com/games/dungeon-crawl-tower-run",
+              "description": "Single player 3D action roguelike extraction game. Create unique builds out of various combinations of skills and equipments to reach the 6th floor of the ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Dungeon Crawl Tower maps needed!! : r/DungeonAlchemist",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/DungeonAlchemist/comments/1bvh1vd/dungeon_crawl_tower_maps_needed/",
+              "description": "The Workshop has a repository of over 8,000 maps that are all free. There are hundreds of tower, castles etc that could work for your need"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Dungeon Crawl Tower Run - Minimap",
+              "domain": "minimap.net",
+              "url": "https://minimap.net/game/dungeon-crawl-tower-run",
+              "description": "Single player 3D action roguelike extraction game. Create unique builds out of various combinations of skills and equipments to reach the 6th floor of the ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Tower Crawl by TowerCrawl - itch.io",
+              "domain": "towercrawl.itch.io",
+              "url": "https://towercrawl.itch.io/tower-crawl",
+              "description": "The Tower Crawl world features a 13-level tower to conquer, along with several open-world areas where players can gather materials, uncover secrets, and craft ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Dungeon Crawl Tower Run | PC (Microsoft Windows) - Archivr",
+              "domain": "archivr.com.au",
+              "url": "https://archivr.com.au/catalog/games/95562",
+              "description": "Single player 3D action roguelike extraction game. Create unique builds out of various combinations of skills and equipments to reach the 6th floor of the."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawvence",
+      "markets": [
+        {
+          "name": "Crawvence",
+          "market": "de",
+          "spell": {
+            "keyword": "Fervence",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 341,
+          "checkUrl": "https://www.google.com/search?q=Crawvence&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:19 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Fervence",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/artist/0G8I43lOXGqUStNfNPve6q",
+              "description": "Artist Playlists · Fervence - The Jams · Our Local Scene · Fervence - Ghost. About. 6,568 monthly listeners. Fervence is a progressive metal band based in Texas ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "HOME | Fervence - Metal Band",
+              "domain": "www.fervence.net",
+              "url": "https://www.fervence.net/",
+              "description": "Formed in Reno, NV in 2019 by guitarist Trent Odneal, Fervence is now based in Austin, Texas. They spent 2025 crafting their most fully realized songs to date, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "FERVENCE",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/@FERVENCE",
+              "description": "Fervence is a progressive metal band based in Texas, who's music is renowned for its intensity and emotional depth, as they navigate between moments of ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Fervence (@fervenceband)",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/fervenceband/",
+              "description": "Fervence, Austin. 5766 likes · 1039 talking about this. “fur•vince” Progressive Metal Band based in Austin, TX @metalbladerecords For booking and..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Fervence: Music",
+              "domain": "fervence.bandcamp.com",
+              "url": "https://fervence.bandcamp.com/",
+              "description": "Fervence. Austin, Texas. Fervence is a progressive metal band based in Texas, who's music is renowned for its intensity and emotional depth, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Fervence (@fervenceband) • Instagram photos and videos",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/fervenceband/?hl=de",
+              "description": "“fur•vince” Progressive Metalcore Band based in TX @metalbladerecords. Booking: ryan@forthrightbooking.com. New single ZENITH out now!!. Follow. Message."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "M.W. Craven - Autor*in",
+              "domain": "www.krimi-couch.de",
+              "url": "https://www.krimi-couch.de/autoren/10255-mw-craven/",
+              "description": "M.W. Craven · Der Zögling (Washington Poe und Tilly Bradshaw ermitteln 1) · Der Gourmet (Washington Poe und Tilly Bradshaw ermitteln 2) · Der Kurator (Washington ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Croyance - Charakter - World of Warcraft",
+              "domain": "worldofwarcraft.blizzard.com",
+              "url": "https://worldofwarcraft.blizzard.com/de_de/character/eu/malfurion/croyance",
+              "description": "Lokus des Urkerns. 246 · Anhänger der schmerzhaften Trauer. 266 · Gewicht des Wiederbelebers. 250 · Antlitz des Seelenjägers. 246 · Umarmung des Urkerns. 253."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Nexusprinzessin Ky'veza - [Meine stichelnde Nemesis]",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=wl0Ngs8_2Fg",
+              "description": "World of Warcraft The War Within [Meine stichelnde Nemesis] https://www.wowhead.com/de/achievement=42193/meine-stichelnde-nemesis ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawvence",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawling",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 9490,
+          "checkUrl": "https://www.google.com/search?q=Crawvence&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:20 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "CRAVEN Definition & Meaning",
+              "domain": "www.merriam-webster.com",
+              "url": "https://www.merriam-webster.com/dictionary/craven",
+              "description": "cowardly, pusillanimous, craven, dastardly mean having or showing a lack of courage. cowardly implies a weak or ignoble lack of courage. a cowardly failure to ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Craven - Grace Wiki",
+              "domain": "grace.miraheze.org",
+              "url": "https://grace.miraheze.org/wiki/Craven",
+              "description": "Jun 13, 2026 — Craven is an achromatic cloaked humanoid with no lower half. It wears a hood over its head, with a rhomboid beak protruding out, resembling ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Craven | Grace Wiki | Fandom",
+              "domain": "grace-rbx.fandom.com",
+              "url": "https://grace-rbx.fandom.com/wiki/Craven",
+              "description": "Craven is an entity added in the new SOUL OVER BODY update. It can appear through its modifier \"ohhi\", or through entering Clot on MAX SEVERITY. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Craven Crawfish #1 | Houston TX",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/cravencrawfish/",
+              "description": "Crawfish #1, Houston. Crawfish, Craven Sauce , Shrimp, Wings, Tenders , Cajun Fries, Texas BBQ. (832) 486-7955 ・ 12407 Unison Rd, Houston, TX, United States, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "FERVENCE | Constructs",
+              "domain": "www.metalblade.com",
+              "url": "https://www.metalblade.com/fervence/",
+              "description": "Formed in Reno, NV in 2019 by guitarist Trent Odneal, Fervence is now based in Austin, Texas. They spent 2025 crafting their most fully realized songs to date, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Who changed the definition of \"craven\"?? : r/MandelaEffect",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/MandelaEffect/comments/3j7g02/who_changed_the_definition_of_craven/",
+              "description": "\"craven\" means someone who is bad to the core, like a lost soul. The original meaning of a \"craven\" was someone who always puts their own ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Wander: LaCluck",
+              "domain": "www.hiveinteractive.net",
+              "url": "https://www.hiveinteractive.net/projects/wander-lacluck-118",
+              "description": "Wander is back ! The highly acclaimed 1-5 player, choose your own adventure, dungeon crawl, miniatures board game is back. Now with a brand new standalone sequel ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Craww (artist page)",
+              "domain": "www.archenemyarts.com",
+              "url": "https://www.archenemyarts.com/ap-craww",
+              "description": "Self-taught British artist, Craww, creates figurative drawings and paintings. His elegant renderings of feminine forms articulate the juxtaposition of death, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Craven - Etymology, Origin & Meaning",
+              "domain": "www.etymonline.com",
+              "url": "https://www.etymonline.com/word/craven",
+              "description": "craven (adj.) c. 1200, cravant \"defeated, vanquished, overcome, conquered,\" apparently adapted from Old French cravent \"defeated, beaten,\" past participle of ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawvia",
+      "markets": [
+        {
+          "name": "Crawvia",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "Crawvia",
+          "market": "us",
+          "spell": {
+            "keyword": "Craww",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 664000,
+          "checkUrl": "https://www.google.com/search?q=Crawvia&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:26 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Louisiana Crawfish Company | Buy Live Crawfish Online ...",
+              "domain": "www.lacrawfish.com",
+              "url": "https://www.lacrawfish.com/",
+              "description": "Louisiana Crawfish Company #1 shipper of live crawfish, boiled crawfish, seafood, Cajun foods, turduckens, and much more. Order online."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Acadia Crawfish: Best Live Louisiana Crawfish | Shipped ...",
+              "domain": "www.acadiacrawfish.com",
+              "url": "https://www.acadiacrawfish.com/",
+              "description": "Acadia Crawfish has grown into one of the largest crawfish distributors in providing the best live Louisiana crawfish shipped from our farm to your door."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Birmingham's Best Crawfish",
+              "domain": "redmountaincrawfish.com",
+              "url": "https://redmountaincrawfish.com/",
+              "description": "The best crawfish in Birmingham Alabama is at Red Mountain Crawfish. Fresh, authentic, juicy crawfish with real cajun spice."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "The Crawfish App - App Store - Apple",
+              "domain": "apps.apple.com",
+              "url": "https://apps.apple.com/us/app/the-crawfish-app/id1135208680",
+              "description": "Find the best local crawfish prices in your area. The Crawfish App uses your device's location or an entered address to list crawfish vendors in the area. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Crawfish & Geaux | New Iberia LA",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/crawfishandgeaux/",
+              "description": "We sell Boiled Crawfish, Shrimp,Snow crab and Dungeness and Blue crabs. 516 S. Lewis St., New Iberia, LA 70560 📞 (337) 380-4460 … 516 S. Lewis St., New Iberia, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Procambarus clarkii",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Procambarus_clarkii",
+              "description": "Procambarus clarkii, known variously as the red swamp crayfish, Louisiana crawfish or mudbug, is a species of cambarid crayfish native to freshwater bodies ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Here-Ya-Geaux | Live Crawfish Delivery",
+              "domain": "www.here-ya-geaux.com",
+              "url": "https://www.here-ya-geaux.com/",
+              "description": "At Here-Ya-Geaux LLC we deliver fresh live crawfish and all the products needed for your next crawfish boil, right to your door! Phone: 281-694-5519 Location: ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "UV Speed Craw - Zoom Bait Company",
+              "domain": "zoombait.com",
+              "url": "https://zoombait.com/chunks-trailers-grubs/craws/ultra-vibe-speed-craw/",
+              "description": "Crawfish ; Compact segmented body with Ultra Vibe paddles for maximum action; Salt-impregnated; Great all-around crawfish imitator looks just like the real thing. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Crawfish & Geaux (@crawfishandgeaux) · New Iberia, LA",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/crawfishandgeaux/?hl=en",
+              "description": "We serve Boiled Crawfish, Shrimp, Snow crabs, and Bluepoint Crabs and Dungeness ☎️(337) 380-4460 516 S Lewis Street New Iberia, La 70560. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Findetra",
+      "markets": [
+        {
+          "name": "Findetra",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "Findetra",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 794,
+          "checkUrl": "https://www.google.com/search?q=Findetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:24 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Finastra | Financial Software Solutions & Systems",
+              "domain": "www.finastra.com",
+              "url": "https://www.finastra.com/",
+              "description": "Finastra offers comprehensive financial software for banks, lenders, credit unions, and other financial institutions, covering Universal Banking (core systems, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Finastra",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/finastra",
+              "description": "We're partnering with financial institutions to deliver reliable and secure mission-critical financial services software shaped by their needs and driven by ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "FINDETRA - Updated June 2026 - Pirkkalaistie 1-5 iv Krs, Nokia, ...",
+              "domain": "m.yelp.com",
+              "url": "https://m.yelp.com/biz/findetra-no-title",
+              "description": "More info about Findetra. Map. Pirkkalaistie 1-5 iv Krs. 37100 Nokia. Finland. Directions. 03 342 3777. Call Now · Visit Website. http://www.findetra.fi ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Finextra Research: Home",
+              "domain": "www.finextra.com",
+              "url": "https://www.finextra.com/",
+              "description": "Latest financial technology news, fintech news, fin tech news, retail banking news, wholesale banking news, blogs opinion, analysis, jobs, videos, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Finastra",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Finastra",
+              "description": "Finastra is a British financial software company headquartered in London. ... The company sells software for retail banking, transaction banking, lending, and ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Finastra - Myworkdayjobs.com",
+              "domain": "finastra.wd3.myworkdayjobs.com",
+              "url": "https://finastra.wd3.myworkdayjobs.com/FINC",
+              "description": "At Finastra, our team members are the driving force behind everything we do. We're building an environment where bold ideas thrive, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Finastra Lending Cloud Service",
+              "domain": "www.finastra.com",
+              "url": "https://www.finastra.com/viewpoints/videos/corporate/finastra-lending-cloud-service",
+              "description": "Finastra Loan IQ. Loan IQ is the market's leading loan servicing platform that can support the full spectrum of lending on a modern, unified ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "FINTRX: Comprehensive RIA, Broker Dealer & Family Office ...",
+              "domain": "www.fintrx.com",
+              "url": "https://www.fintrx.com/",
+              "description": "Explore the leading platform used by asset managers to find and engage with RIAs, Broker-Dealers, Family Offices, Foundations & Endowments. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Office Locations",
+              "domain": "www.finastra.com",
+              "url": "https://www.finastra.com/about/office-locations",
+              "description": "Finastra is a global leader in financial services software and cloud solutions. Read more about our office locations around the world."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indektra",
+      "markets": [
+        {
+          "name": "Indektra",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 734,
+          "checkUrl": "https://www.google.com/search?q=Indektra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:12 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Indektra |Delegations",
+              "domain": "grupoelektra.es",
+              "url": "https://grupoelektra.es/en/grupo-elektra/company/indektra",
+              "description": "Indektra Power Solutions is a young and ambitious company established in 2013 in India. It is located in Maraimalai Nagar, 50 km from Chennai, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "INDEKTRA POWER SOLUTIONS PRIVATE LIMITED",
+              "domain": "tracxn.com",
+              "url": "https://tracxn.com/d/legal-entities/india/indektra-power-solutions-private-limited/__E2tCj92S-aTfTwr3uijVpJku6zHvJWT1unRudSTGiiU",
+              "description": "20.07.2026 — INDEKTRA POWER SOLUTIONS PRIVATE LIMITED is a Private Limited Company and was incorporated on Jun 11, 2013 in India. It is registered at ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Indektra Power Solutions Pvt Ltd in Maraimalai Nagar ...",
+              "domain": "www.justdial.com",
+              "url": "https://www.justdial.com/Chennai/Indektra-Power-Solutions-Pvt-Ltd-Industrial-Area-Maraimalai-Nagar/044PXX44-XX44-140319150053-K2R2_BZDET",
+              "description": "Established in the year 2013, Indektra Power Solutions Pvt Ltd in Maraimalai Nagar, Chennai is a top player in the category LED Light Distributors in the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "INDEKTRA POWER SOLUTIONS PRIVATE LIMITED",
+              "domain": "www.zaubacorp.com",
+              "url": "https://www.zaubacorp.com/company/INDEKTRA-POWER-SOLUTIONS-PRIVATE-LIMITED/U31506TN2013PTC091604",
+              "description": "INDEKTRA POWER SOLUTIONS is a 13 year old company with registered office in Chengalpattu, Tamil Nadu. 3 Key Management Personnel (KMPs) have been associated ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Salman Punjari - indektra power solutions private limited",
+              "domain": "in.linkedin.com",
+              "url": "https://in.linkedin.com/in/salman-punjari-901922195",
+              "description": "Director at INDEKTRA POWER SOLUTIONS PRIVATE LIMITED · Experience: INDEKTRA POWER SOLUTIONS PRIVATE LIMITED · Location: Dhule. View Salman Punjari's profile ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Indektra Power Solutions Pvt. Ltd.",
+              "domain": "www.tradeindia.com",
+              "url": "https://www.tradeindia.com/indektra-power-solutions-pvt-ltd-7488519/",
+              "description": "Established in 2013 ,India Indektra Power Solutions Pvt. Ltd. has gained immense expertise in supplying & trading of Cable harnessing, solar dc combiner, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Life at Indektra Power Solutions: Culture, Salary, Reviews ...",
+              "domain": "www.ambitionbox.com",
+              "url": "https://www.ambitionbox.com/overview/indektra-power-solutions-overview",
+              "description": "Get an inside look of Indektra Power Solutions — culture, pay, reviews, interview questions, job openings, corporate offices, peer comparison and more on ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Indektra Power Solutions Private Limited",
+              "domain": "www.filesure.in",
+              "url": "https://www.filesure.in/company/indektra-power-solutions-private-limited/U31506TN2013PTC091604?tab=about",
+              "description": "INDEKTRA POWER SOLUTIONS PRIVATE LIMITED is an Indian Private Limited Company incorporated on 11-Jun-2013. It operates in the various sectors based in ..."
+            }
+          ]
+        },
+        {
+          "name": "Indektra",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 107,
+          "checkUrl": "https://www.google.com/search?q=Indektra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:11 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Indektra |Delegations",
+              "domain": "grupoelektra.es",
+              "url": "https://grupoelektra.es/en/grupo-elektra/company/indektra",
+              "description": "Indektra Power Solutions is a young and ambitious company established in 2013 in India. It is located in Maraimalai Nagar, 50 km from Chennai, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Elektra Entertainment",
+              "domain": "www.elektra.com",
+              "url": "https://www.elektra.com/",
+              "description": "Official site of record label Elektra Music Group: Elektra Records, Fueled By Ramen, Roadrunner, Low Country Sound, Black Cement, Public Consumption, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Grupo Elektra",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Grupo_Elektra",
+              "description": "Grupo Elektra is a Mexican financial and retail corporation conglomerate founded in 1950 by Hugo Salinas Price and owned by Ricardo Salinas Pliego. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Grupo Elektra | This is who we are and how we work",
+              "domain": "grupoelektra.es",
+              "url": "https://grupoelektra.es/en/grupo-elektra",
+              "description": "Indektra - Grupo. From installer company to leader in the distribution of electrical materials:"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Login - Elektra Group",
+              "domain": "www.intranet.elektragroup.mk",
+              "url": "http://www.intranet.elektragroup.mk/",
+              "description": "Logo of Elektra Group. Please sign in. Please login with your username/email and password. Remember me. Sign in. Forgot your password? Choose language: English ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Elektra |",
+              "domain": "elektra.eu",
+              "url": "https://elektra.eu/",
+              "description": "The ELEKTRA ControlTec Smart SMC is an unparalleled new generation control device intended for snow and ice protection of heating systems."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Elektra",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/elektra/",
+              "description": "Somos la compañía de retail con el mayor crecimiento en los últimos años en México y Latinoamérica. Actualmente, contamos con más de 1,300 Tiendas, con ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Grupo Elektra",
+              "domain": "idee-europe.com",
+              "url": "https://idee-europe.com/our-members/grupo-elektra.html",
+              "description": "Empowering electrical experts in Spain With 59 branches and sophisticated concepts for advice, distribution and logistics, the Elektra Group creates real added ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "GRUPO ELEKTRA SAB DE CV dividends",
+              "domain": "www.digrin.com",
+              "url": "https://www.digrin.com/stocks/detail/ELEKTRA.MX/",
+              "description": "Dividend history for stock ELEKTRA.MX (GRUPO ELEKTRA SAB DE CV) including historic stock price and split, spin-off and special dividends. GRUPO ELEKTRA ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "About Grupo Elektra (ELEKTRA)",
+              "domain": "www.investing.com",
+              "url": "https://www.investing.com/equities/elektra-company-profile",
+              "description": "This page offers an in-depth profile of Grupo Elektra, S.A.B. De C.V., including a general overview of the company's business and key management."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Querora",
+      "markets": [
+        {
+          "name": "Querora",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 11900,
+          "checkUrl": "https://www.google.com/search?q=Querora&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:13 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Quora",
+              "domain": "www.quora.com",
+              "url": "https://www.quora.com/",
+              "description": "Quora is a place to gain and share knowledge. It's a platform to ask questions and connect with people who contribute unique insights and quality answers."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Quora",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Quora",
+              "description": "Quora ist ein amerikanisches Unternehmen mit der Zielsetzung, im Internet Antworten auf konkrete Fragen zu geben. Quora wurde 2009 gegründet."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Quora",
+              "domain": "de.quora.com",
+              "url": "https://de.quora.com/",
+              "description": "Bei Quora kannst Du Wissen erwerben und teilen. Quora ist eine Plattform, auf der man Fragen stellen und sich mit anderen Menschen verbinden kann, die ihre ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Quora: the knowledge platform - Apps on Google Play",
+              "domain": "play.google.com",
+              "url": "https://play.google.com/store/apps/details?id=com.quora.android",
+              "description": "Quora is a Q&A platform that empowers people to share and grow the world's knowledge. People come to Quora to ask questions about any subject, read high quality ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Quora - App Store - Apple",
+              "domain": "apps.apple.com",
+              "url": "https://apps.apple.com/us/app/quora/id456034437",
+              "description": "Quora is a Q&A platform that empowers people to share and grow the world's knowledge. People come to Quora to ask questions about any subject, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Querora | BDPI",
+              "domain": "bdpi.cultura.gob.pe",
+              "url": "https://bdpi.cultura.gob.pe/localidades/querora",
+              "description": "11.06.1986 — Querora. Tipo de localidad. Comunidad campesina. Pueblo indígena. Quechuas. Resolución de Reconocimiento. R.D. 0340-86-DRA-XX. Fecha res. de ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Sichttasche Beleghalter mit Schutzklappe, magnetisch, DIN ...",
+              "domain": "orgatex.com",
+              "url": "https://orgatex.com/products/sd4m-4111-08",
+              "description": "Das orangefarbene Kopfteil unterstützt Farbleitsysteme zur Zonierung und Prozesskennzeichnung. Farbcodierung erhöht Orientierungsgeschwindigkeit und reduziert ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "ccatcca#querora#futbol # #fypシ - Sandra HC",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@sandrahc3/video/7659180226773060882",
+              "description": "50 me gusta,Video de TikTok de Sandra HC (@sandrahc3): “#ccatcca# querora #futbol⚽️ #☺️ #fypシ”.sonido original OFICIAL - Yennifer ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Téc. Alberto Fernández Cjanahuire",
+              "domain": "www.municcatcca.gob.pe",
+              "url": "https://www.municcatcca.gob.pe/team/afc/",
+              "description": "Comunidad Campesina de Querora. Comisión a Cargo: Gerencia de............................................................................ Correo Coorporativo: ..."
+            }
+          ]
+        },
+        {
+          "name": "Querora",
+          "market": "us",
+          "spell": {
+            "keyword": "Quora",
+            "type": "including_results_for"
+          },
+          "seResultsCount": 14000,
+          "checkUrl": "https://www.google.com/search?q=Querora&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:13 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Quora",
+              "domain": "www.quora.com",
+              "url": "https://www.quora.com/",
+              "description": "Quora is a place to gain and share knowledge. It's a platform to ask questions and connect with people who contribute unique insights and quality answers."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Quora: the knowledge platform - Apps on Google Play",
+              "domain": "play.google.com",
+              "url": "https://play.google.com/store/apps/details?id=com.quora.android&hl=en_US",
+              "description": "Quora is a Q&A platform that empowers people to share and grow the world's knowledge. People come to Quora to ask questions about any subject,"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Quora",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Quora",
+              "description": "Quora is an American social question-and-answer website and online knowledge market headquartered in Mountain View, California. It was founded on June 25, 2009,"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Quora - App Store - Apple",
+              "domain": "apps.apple.com",
+              "url": "https://apps.apple.com/us/app/quora/id456034437",
+              "description": "Quora is a Q&A platform that empowers people to share and grow the world's knowledge. People come to Quora to ask questions about any subject, read high ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "📸 From the archives",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/arlyn.agnes.564/posts/-from-the-archives/1709789260295689/",
+              "description": "Querora shared a memory. Goes over archiving methods for photos, etc."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Quora Careers: Join us on our mission",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/quora/videos/quora-careers-join-us-on-our-mission/10155803972646974/",
+              "description": "Quora is for people who are interested in knowledge, in getting more knowledge shared, and making an impact on the world."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Quora",
+              "domain": "x.com",
+              "url": "https://x.com/Quora",
+              "description": "A place to share knowledge and better understand the world. the internet quora.com Joined April 2009 374 Following 246.7K Followers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QueryMetra",
+      "markets": [
+        {
+          "name": "QueryMetra",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 450,
+          "checkUrl": "https://www.google.com/search?q=QueryMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:04 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Metra: Home",
+              "domain": "metra.com",
+              "url": "https://metra.com/",
+              "description": "Metra is a safe, affordable, and convenient way to skip traffic and get to the Chicago Sky games all season long. For any emergency call 911 or notify Metra ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "METRA Energie-Messtechnik GmbH: Energy measurement ...",
+              "domain": "www.metra-emt.de",
+              "url": "https://www.metra-emt.de/",
+              "description": "18.06.2026 — With the flow and energy measurement technology from METRA, you always measure perfectly. Ultrasonic meters for heat/cooling applications ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Query: Metra Train (ID: 37)",
+              "domain": "maps.cityofevanston.org",
+              "url": "https://maps.cityofevanston.org/arcgis/rest/services/Environmental_Justice/MapServer/37/query",
+              "description": "Query: Metra Train (ID: 37 ) ; Return Geometry: True False ; Return True Curves: True False ; Max Allowable Offset: ; Geometry Precision: ; Output Spatial Reference:."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Metra Tracker",
+              "domain": "www.metratracker.com",
+              "url": "https://www.metratracker.com/bustime",
+              "description": "Tracker Welcome to Metra Tracker Your source for updated arrival information for selected train lines. Text-only version (for text-readers and mobile devices)"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Produkte",
+              "domain": "www.gossenmetrawatt.de",
+              "url": "https://www.gossenmetrawatt.de/produkte/",
+              "description": "Als einer der weltweit führenden Anbieter messtechnischer Systeme entwickelt und vertreibt die Gossen Metrawatt GmbH mit ihrer Marke GOSSEN METRAWATT ein ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "PC-Messtechnik",
+              "domain": "mmf.de",
+              "url": "https://mmf.de/produkt-kategorie/pc-messtechnik/",
+              "description": "Das PC-Messsystem VibroMetra wurde für typische Schwingungsmessaufgaben konzipiert. Dabei stand besonders eine kurze EInarbeitungszeit und eine hohe ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Metron",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Metron",
+              "description": "Ein Metron oder Metrum (altgriechisch μέτρον; Plural Metra oder Metren; lateinisch metrum) ist in der antiken griechischen Metrik der kleinste in seiner ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Metra Connect – Apps bei Google Play",
+              "domain": "play.google.com",
+              "url": "https://play.google.com/store/apps/details?id=com.usekimono.android.metra&hl=de",
+              "description": "Bleiben Sie im Feed über Ihr Team und die größere Metra-Community auf dem Laufenden, finden Sie wichtige Ressourcen im Hub und vernetzen Sie sich mühelos ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Metra ▶ Rechtschreibung, Bedeutung, Definition, Herkunft",
+              "domain": "www.duden.de",
+              "url": "https://www.duden.de/rechtschreibung/Metra",
+              "description": "Definition, Rechtschreibung, Synonyme und Grammatik von 'Metra' ✔️ Auf Duden online nachschlagen ✔️ Wörterbuch der deutschen Sprache."
+            }
+          ]
+        },
+        {
+          "name": "QueryMetra",
+          "market": "us",
+          "spell": {
+            "keyword": "Queretaro",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 128,
+          "checkUrl": "https://www.google.com/search?q=QueryMetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:01 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "knowledge_graph",
+              "rank": 1,
+              "title": "Querétaro",
+              "domain": null,
+              "url": null,
+              "description": "Querétaro is a small state in north-central Mexico. Its capital, Santiago de Querétaro, has a historic center with fountain-filled squares and stone streets lined with bougainvillea. The city's wealth of Spanish colonial architecture includes churches such as the ochre San Francisco and the baroque Santa Rosa de Viterbo. One of the most distinctive sites is Los Arcos, an aqueduct with 74 pink stone arches. &horbar; Google"
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Querétaro",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Quer%C3%A9taro",
+              "description": "It is divided into 18 municipalities. Its capital city is Santiago de Querétaro. It is located in north-central Mexico, in a region known as Bajío. It is ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Queretaro City, Mexico: All You Must Know Before ...",
+              "domain": "www.tripadvisor.com",
+              "url": "https://www.tripadvisor.com/Tourism-g479232-Queretaro_City_Central_Mexico_and_Gulf_Coast-Vacations.html",
+              "description": "Queretaro City is known for some of its popular attractions, which include: La Pena de Bernal · Historic Center of Santiago de Querétaro · Reserva de la ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Querétaro, Mexico",
+              "domain": "www.sa.gov",
+              "url": "https://www.sa.gov/Directory/Departments/EDD/International-Relations/Global-Relationships/Sister-Cities/Queretaro",
+              "description": "Querétaro City, the capital of Querétaro state in central Mexico, is a well-preserved Spanish colonial city with a unique blend of indigenous and Spanish ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Queretaro | Mexico, Map, History, & Facts",
+              "domain": "www.britannica.com",
+              "url": "https://www.britannica.com/place/Queretaro-Mexico",
+              "description": "Querétaro is considered an excellent example of a Spanish colonial city; its well-preserved historic center was designated a UNESCO World Heritage site in 1996."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Things to Do in Querétaro in 2026",
+              "domain": "www.expedia.com",
+              "url": "https://www.expedia.com/Things-To-Do-In-Queretaro.d2931.Travel-Guide-Activities",
+              "description": "From Aztec monuments to Baroque arches and colorful Jacaranda trees, the streets of Santiago de Queretaro hold a wealth of grand scenery, great food, and vivid ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Life in Querétaro, Mexico - UCEAP",
+              "domain": "uceap.universityofcalifornia.edu",
+              "url": "https://uceap.universityofcalifornia.edu/life-in-queretaro-mexico",
+              "description": "Querétaro is considered one of the safest cities in Mexico. The area's pristine historic center houses cafés, restaurants, shops, and markets."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Queretaro, Mexico - Cost of Living & Travel Guide",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=o3XS5x1AY0c",
+              "description": "Join travel expert Jim Kellett as he takes you on an in-depth journey through the enchanting city of Queretaro, Mexico."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Querétaro – Travel guide at Wikivoyage",
+              "domain": "en.wikivoyage.org",
+              "url": "https://en.wikivoyage.org/wiki/Quer%C3%A9taro",
+              "description": "Querétaro is a city in Central Mexico. It is the capital of the state of Querétaro. Its historic center is a UNESCO World Heritage Site"
+            },
+            {
+              "type": "organic",
+              "rank": 12,
+              "title": "Queretaro Mexico Images and Stock Photos",
+              "domain": "www.istockphoto.com",
+              "url": "https://www.istockphoto.com/photos/queretaro-mexico",
+              "description": "Search from 15401 Queretaro Mexico stock photos, pictures and royalty-free images from iStock. Get iStock exclusive photos, illustrations, and more."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Querymetry",
+      "markets": [
+        {
+          "name": "Querymetry",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "Querymetry",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "RankPlane",
+      "markets": [
+        {
+          "name": "RankPlane",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 2700,
+          "checkUrl": "https://www.google.com/search?q=RankPlane&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:42 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "WHOIS Lookup for rankplane.ai | Owner & Registrar Info",
+              "domain": "whoisfreaks.com",
+              "url": "https://whoisfreaks.com/tools/whois/lookup/rankplane.ai",
+              "description": "Look up registrant, registrar, expiry dates, nameservers, and domain status for any domain across 1,529 TLDs in real time. Free for single lookups, no signup."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "What did you use to S rank plane fights? : r/Cuphead",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Cuphead/comments/xdg1l2/what_did_you_use_to_s_rank_plane_fights/",
+              "description": "Originally I would only use coffee. It's the best for plane levels out of the original six charms. The hearts feel like a crutch, and can impact ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Poll from RankPlane",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/post/UgkxYnS_8jI6fR5B2Oj-Fv1i_t7ZfihrY7oB",
+              "description": "Poll from RankPlane - YouTube. Home. Shorts. Library. RankPlane · 10 days ago. What do you want ranked next? :D. Trickshots. Instant Karma. Trampoline Park."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "How Hard Can It Be to Plane in Rank Plane in Call Duty ...",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/how-hard-can-it-be-to-plane-in-rank-plane-in-call-duty-black-ops-seven",
+              "description": "24.08.2026 — 1.3M posts. Discover videos related to How Hard Can It Be to Plane in Rank Plane in Call Duty Black Ops Seven on TikTok."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Create a Rank plane families Tier List",
+              "domain": "tiermaker.com",
+              "url": "https://tiermaker.com/create/rank-plane-families-18303526",
+              "description": "03.06.2025 — Create a ranking for Rank plane families. 1. Edit the label text in each row. 2. Drag the images into the order you would like. 3. Click 'Save/ ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "ScarFall 2.0 v1.2.0 UPDATE is Here!  New Rank Plane, MVP ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=bA4_22LwPM8",
+              "description": "New Rank Plane, MVP & Smart Footsteps | Full Breakdown. 1.5K views · 5 months ago. #ScarFall2 #ScarFallGameplay #ScarFallUpdate ...more ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "World Airline Awards | SKYTRAX",
+              "domain": "www.worldairlineawards.com",
+              "url": "https://www.worldairlineawards.com/",
+              "description": "The World Airline Awards from Skytrax are coveted Quality accolades for the airline industry, and a global benchmark of airline excellence."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Fast Implicit Neural Light Field Representation via ...",
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/html/2608.13949v1",
+              "description": "14.08.2026 — Implicit neural representations provide a compact and continuous way to reconstruct dense light fields from sampled ray coordinates."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Rankscale – SaaS-Plattform zur Messung von AI Visibility ...",
+              "domain": "groundingpage.com",
+              "url": "https://groundingpage.com/facts/rankscale/de/",
+              "description": "Rankscale ist eine SaaS-Plattform der Rankscale GmbH (Königstetten, Österreich) zur Messung von AI Visibility im Bereich Generative Engine Optimization."
+            }
+          ]
+        },
+        {
+          "name": "RankPlane",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "SearchMetra",
+      "markets": [
+        {
+          "name": "SearchMetra",
+          "market": "de",
+          "spell": {
+            "keyword": "SearchMetrics",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 960,
+          "checkUrl": "https://www.google.com/search?q=SearchMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:17 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Searchmetrics Erfahrungen & Features 2026 | OMR Reviews",
+              "domain": "omr.com",
+              "url": "https://omr.com/de/reviews/product/searchmetrics",
+              "description": "Mit Searchmetrics lassen sich Keywords übersichtlich und nach Wichtigkeit geordnet anzeigen. Schreibt man einen Text, so zählt Searchmetrics automatisch mit, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Searchmetrics (part of Conductor)",
+              "domain": "de.linkedin.com",
+              "url": "https://de.linkedin.com/company/searchmetrics-inc",
+              "description": "Spezialgebiete: Search Engine Optimization, SEO Software, Search Analytics, SEO, SEO Visibility, Enterprise SEO Platform, Online Marketing, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Searchmetrics",
+              "domain": "www.semsea.ch",
+              "url": "https://www.semsea.ch/searchmetrics.html",
+              "description": "So bietet Searchmetrics essenzielle Informationen zur aktuellen Platzierung bei Suchmaschinen, Statistiken bezüglich Keyword-Targeting und Link-Sharing Metriken ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Automate Your Job Search-Metra",
+              "domain": "cta.cadienttalent.com",
+              "url": "https://cta.cadienttalent.com/index.jsp?source=alljobs&locale=en_US&SOURCEPAGE=alljobs&seq=jobAlertsEdit&applicationName=MetraKTMDReqExt",
+              "description": "Automate your job search with Metra Job Alerts and get notified immediately when new jobs that meet your criteria become available. Simply name your Job Alert ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Visit on Google Maps",
+              "domain": "www.google.com",
+              "url": "https://www.google.com/maps/search/Metra%20Train",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Office of the Illinois State Fire Marshal UST Search",
+              "domain": "webapps.sfm.illinois.gov",
+              "url": "https://webapps.sfm.illinois.gov/USTSearch/Tank.aspx?ID=546697341",
+              "description": "Division of Petroleum & Chemical Safety · Facility: 2031066 Tank: 31 · Equipment Information · Latest Blended Fuel Compatibility Form · Additional Tests."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Metra: Man with gun was Secret Service agent",
+              "domain": "abc7chicago.com",
+              "url": "https://abc7chicago.com/archive/6603545/",
+              "description": "14.01.2009 — January 14, 2009 (CHICAGO) Authorities searching the train found an armed Secret Service agent, which is completely legal."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "MetaGer – Mehr als eine Suchmaschine",
+              "domain": "metager.de",
+              "url": "https://metager.de/",
+              "description": "Sicher suchen und finden unter Wahrung der Privatsphäre. Das digitale Wissen der Welt muss ohne Bevormundung durch Staaten oder Konzerne frei zugänglich ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "The Searcher – Apps bei Google Play",
+              "domain": "play.google.com",
+              "url": "https://play.google.com/store/apps/details?id=com.triactivemedia.thesearcher&hl=gsw",
+              "description": "A monthly metal detecting magazine which is full of: the latest discoveries, finds Identification and valuations, news and views, collections, detailed finds ..."
+            }
+          ]
+        },
+        {
+          "name": "SearchMetra",
+          "market": "us",
+          "spell": {
+            "keyword": "Search Meta",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 10700,
+          "checkUrl": "https://www.google.com/search?q=SearchMetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:07 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Automate Your Job Search-Metra",
+              "domain": "cta.cadienttalent.com",
+              "url": "https://cta.cadienttalent.com/index.jsp?source=alljobs&locale=en_US&SOURCEPAGE=alljobs&seq=jobAlertsEdit&applicationName=MetraKTMDReqExt",
+              "description": "Automate your job search with Metra Job Alerts and get notified immediately when new jobs that meet your criteria become available."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Metra Western Avenue (2031066) Tank 3",
+              "domain": "webapps.sfm.illinois.gov",
+              "url": "https://webapps.sfm.illinois.gov/USTSearch/Tank.aspx?ID=1410922071",
+              "description": "Illinois State Fire Marshal UST Search : Metra Western Avenue. Division of Petroleum & Chemical Safety. UST Search Contractor Search Permit Search"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Metra: Man with gun was Secret Service agent",
+              "domain": "abc7chicago.com",
+              "url": "https://abc7chicago.com/archive/6603545/",
+              "description": "Jan 14, 2009 — January 14, 2009 (CHICAGO) Authorities searching the train found an armed Secret Service agent, which is completely legal. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Police Search Metra Train, Mike Gets a Gun Pointed At Him",
+              "domain": "avoision.com",
+              "url": "https://avoision.com/2009/01/14/police_search_metra_train_mike.php",
+              "description": "Mike ended up having a gun pointed AT him (by the police). Turns out it was a Secret Service agent who had the gun."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Visit on Google Maps",
+              "domain": "www.google.com",
+              "url": "https://www.google.com/maps/search/Metra%20Train",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Seek Thermal | Affordable Infrared Thermal Imaging Cameras ...",
+              "domain": "www.thermal.com",
+              "url": "https://www.thermal.com/",
+              "description": "The most trusted thermal imaging camera. Detect hidden heat and early fire risk in facilities, equipment, and infrastructure"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Search Metra Chkoreff Obituaries and Funeral Services",
+              "domain": "www.legacy.com",
+              "url": "https://www.legacy.com/obituaries/name/chkoreff/metra",
+              "description": "Search all Metra Chkoreff Obituaries and Death Notices to find upcoming funeral home services, leave condolences for the family, and research genealogy."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Metra reveals Locomotive 500 SD70MACH",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/qKKdMIQJmog",
+              "description": "Metra reveals Locomotive 500 SD70MACH. Learn more Search \"metra electric train\" @metra Subscribe"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Metra Full Bor",
+              "domain": "helenaagri.com",
+              "url": "https://helenaagri.com/our-expertise/agricultural-products/product-search/metra-full-bor/",
+              "description": "Metra Full Bor ® is the next generation of foliar boron. it delivers boron efficiently to produce stronger, more productive plants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SEOMetra",
+      "markets": [
+        {
+          "name": "SEOMetra",
+          "market": "de",
+          "spell": {
+            "keyword": "SEROMetra",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 105,
+          "checkUrl": "https://www.google.com/search?q=SEOMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:07 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Serometra - DocCheck Flexikon",
+              "domain": "flexikon.doccheck.com",
+              "url": "https://flexikon.doccheck.com/de/Serometra",
+              "description": "Eine Serometra ist definiert als eine Flüssigkeitsansammlung im Cavum uteri. Sonographisch stellt sie sich als echoarmer oder auch echoleerer..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Muss eine intrauterine Flüssigkeitsansammlung (Serometra ...",
+              "domain": "www.thieme-connect.de",
+              "url": "https://www.thieme-connect.de/products/ejournals/abstract/10.1055/s-2001-17394",
+              "description": "Die Beurteilung der Endometriumdicke sollte die Indikation zur histologischen Abklärung bedingen, nicht allein das Vorliegen einer Serometra bei flachem ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Serometra – NextFertility St. Gallen",
+              "domain": "ivfschweiz.ch",
+              "url": "https://ivfschweiz.ch/index.php/2024/08/21/serometra/",
+              "description": "21.08.2024 — Serometra bezeichnet die Ansammlung von seröser Flüssigkeit in der Gebärmutter (Cavum uteri). Diese Flüssigkeitsansammlung kann verschiedene ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Tipps & Tricks im Gyn-Ultraschall: „Fluid is your friend“",
+              "domain": "www.kup.at",
+              "url": "https://www.kup.at/journals/abbildungen/13645.html",
+              "description": "von C Brezinka · 2016 — Ultraschall-Serometra Abbildung 1: Serometra bei Asherman-Syndrom nach manueller Plazentalösung und dreimaliger Abrasio nach der letzten Entbindung."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Serometra",
+              "domain": "www.pschyrembel.de",
+              "url": "https://www.pschyrembel.de/Serometra/K0QRD",
+              "description": "Ansammlung von seröser Flüssigkeit in der Gebärmutter, zumeist aufgrund einer Abflussbehinderung oder Verklebung (Ashermann-Syndrom, Polyp, Zervixstenose, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Vaginalsonographie in der Krebsvorsorge",
+              "domain": "www.gesundheits-lexikon.com",
+              "url": "https://www.gesundheits-lexikon.com/Medizingeraetediagnostik/Vaginalsonographie/Vaginalsonographie-in-der-Krebsvorsorge",
+              "description": "24.07.2024 — Dieses Verfahren stellt eine Kombination der konventionellen Sonographie mit einer zusätzlichen Füllung des Cavum uteri unter Verwendung einer ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Serometra",
+              "domain": "sonographiebilder.de",
+              "url": "https://sonographiebilder.de/menue-links/sonographie-bilder/uterus-und-ovarien/serometra",
+              "description": "Normalbefunde · Harnblasen-Divertikel · Harnblasen-Sediment und Steine · Luft in der Harnblase · Blasenblutung · Prostata-Hyperplasie · Balkenblase · Tumoren."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Muss eine intrauterine Flüssigkeitsansammlung ...",
+              "domain": "www.tib.eu",
+              "url": "https://www.tib.eu/de/suchen/id/thieme:b57ca8636c93017bafe203c53bb447de86dd9d41/Muss-eine-intrauterine-Fl%C3%BCssigkeitsansammlung-Serometra?cHash=a92d660fda07689c6a1e0f13f9b296d6",
+              "description": "Ungefähr 10 - 20 % aller Patientinnen mit einem Endometriumkarzinom sind bis zur Diagnosestellung symptomfrei. Ein gehäuftes Auftreten eines ..."
+            }
+          ]
+        },
+        {
+          "name": "SEOMetra",
+          "market": "us",
+          "spell": {
+            "keyword": "SYMetra",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 2280000,
+          "checkUrl": "https://www.google.com/search?q=SEOMetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:00 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Image from page 510 of \"Bulletin - United States National …",
+              "domain": "www.flickr.com",
+              "url": "https://www.flickr.com/photos/internetarchivebookimages/20320568460/",
+              "description": "Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Geometra Features | Quantity Takeoff Software",
+              "domain": "www.rukkor.com",
+              "url": "https://www.rukkor.com/product/geometra",
+              "description": "Geometra is a digital quantity surveying tool that allows construction professionals to measure, extract, and estimate quantities directly from 2D drawings. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Tayfun Malcok on Reels",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/tayfun.malcok.1/videos/1253249613370111/",
+              "description": "More videos you may like. 00:14. Apr 26, 2026 · 66 views. 00:11. Mar 30, 2026 · 407 views. 00:08. Mar 30, 2026 · 47 views. 00:22. Mar 30, 2026 · 52 views."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": ". Bulletin - United States National Museum. Science. U. S ...",
+              "domain": "www.alamy.com",
+              "url": "https://www.alamy.com/bulletin-united-states-national-museum-science-u-s-national-museum-bulletin-82-part-4b-plate-39-199-200-pectmomelra-flavupurpurea-specimens-from-japan-usnm-201-ieclinometra-magnijica-the-type-specimen-from-investigator-station-236a-jim-202-tropiometra-carinata-audouini-specimen-from-ras-el-mil!an-berl-mus-5603-20-seometra-spinosissima-the-type-specimen-from-investigator-station-236a-im-loigephyromelra-versicolor-type-specimen-of-antedon-propinqua-from-albatross-station-489-lsnm-22621-please-note-that-these-images-are-extracted-from-sca-image233729050.html",
+              "description": "Download this stock image: . Bulletin - United States National Museum. Science. U. S NATIONAL MUSEUM BULLETIN 82. PART 4B PLATE 39."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Sitemark: Solar & Renewable Energy Management Platform",
+              "domain": "www.sitemark.com",
+              "url": "https://www.sitemark.com/",
+              "description": "One platform to build and operate renewable energy from construction to operations. Drone-powered inspections, AI analytics, and digital twins"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Ideematec: Startseite",
+              "domain": "www.ideematec.com",
+              "url": "https://www.ideematec.com/",
+              "description": "Next generation solar trackers. The most powerful 1P and 2P tracking solutions. Request a quotation · 1/3. A New Perspective from Intersolar Europe 2026. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Symetra",
+              "domain": "jp.linkedin.com",
+              "url": "https://jp.linkedin.com/company/symetra?trk=similar-companies_org_title",
+              "description": "Aug 19, 2026 — Symetra is a financial services company offering retirement solutions, life insurance and employee benefits that help you plan well, be well ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "HF Hydrogen Fluoride Gas Sensor_O3 Ozone Gas ...",
+              "domain": "www.semeatech.com",
+              "url": "https://www.semeatech.com/",
+              "description": "ABOUT US MORE>>. SemeaTech is a worldwide leader in sensing technologies focusing on hazardous material detection in work safety and environmental ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Siteiva",
+      "markets": [
+        {
+          "name": "Siteiva",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "Siteiva",
+          "market": "us",
+          "spell": {
+            "keyword": "Sativa",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 135,
+          "checkUrl": "https://www.google.com/search?q=Siteiva&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:11 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Cannabis sativa",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Cannabis_sativa",
+              "description": "Cannabis sativa is an annual herbaceous flowering plant. The species was first classified by Carl Linnaeus in 1753. The specific epithet sativa means ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "What's the difference between indica and sativa?",
+              "domain": "www.medicalnewstoday.com",
+              "url": "https://www.medicalnewstoday.com/articles/indica-vs-sativa",
+              "description": "Indica plants are shorter than sativa plants, and they have a woody stalk, not a fibrous one. Indica plants also grow more quickly than sativa plants. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "What Does Sativa Do To You? Effects, Uses, and More",
+              "domain": "getsunmed.com",
+              "url": "https://getsunmed.com/blogs/blog/what-does-sativa-do-to-you",
+              "description": "Aug 11, 2025 — Sativa is seen as cerebral, energizing, and creative. Terpenes like limonene drive the “wake up” feeling. Sativa is generally best for daytime, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Indica vs. Sativa: What's the Difference?",
+              "domain": "www.webmd.com",
+              "url": "https://www.webmd.com/mental-health/addiction/indica-vs-sativa-whats-the-difference",
+              "description": "As plants, the two strains look different. Indica is a shorter plant with broader leaves and a woody stalk. Sativa is tall with thin leaves, and they grow more ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Indica, Sativa, Hybrids - A Physician's Guide to Cannabis ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=5eaNWsFfqyE",
+              "description": "Explore the world of cannabis varieties with Dr. Peter Grinspoon, as we break down the differences and effects of Indica, Sativa, and Hybrids. ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Cannabis Sativa: Uses, Benefits, and Facts",
+              "domain": "www.alternaleaf.co.uk",
+              "url": "https://www.alternaleaf.co.uk/post/unlocking-the-benefits-of-cannabis-sativa",
+              "description": "Oct 31, 2024 — What Are Cannabis Sativa Benefits? · Increase focus · Boosts your mood · Give you an uplifting feeling · Help you feel at ease. Medical Uses of ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "The Best Sativa Strains",
+              "domain": "weedmaps.com",
+              "url": "https://weedmaps.com/strains/sativa",
+              "description": "Jun 2, 2026 — Sativa strains are known to produce a more euphoric, invigorating, and energizing high. Users also report feeling more alert and uplifted. Is ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Indica Vs. Sativa: What's the Difference?",
+              "domain": "curaleafclinic.com",
+              "url": "https://curaleafclinic.com/news/indica-vs-sativa-whats-the-difference/",
+              "description": "Oct 7, 2024 — Indica: Historically associated with relaxation and calmness. Sativa: Reported for having more uplifting and energising effects."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Sativa Edibles: A Guide to Uplifting Cannabis Experiences",
+              "domain": "nhcdispensaries.com",
+              "url": "https://nhcdispensaries.com/blog/sativa-edibles-a-guide-to-cannabis-experiences/",
+              "description": "Enhance your cannabis experience with sativa edibles. Learn about uplifting effects and explore NHC's curated selection. Read our guide."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Cannabis Sativa",
+              "domain": "hashmuseum.com",
+              "url": "https://hashmuseum.com/en/cannabis-knowledge/cannabis-species/cannabis-sativa/",
+              "description": "Cannabis Sativa is normally a tall plant, and is generally a lighter shade of green than the other types. Its leaves are made up of long, narrow blades. Female ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SiteMetra",
+      "markets": [
+        {
+          "name": "SiteMetra",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 1990,
+          "checkUrl": "https://www.google.com/search?q=SiteMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:17 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Metra Electronics | The Installer's Choice®",
+              "domain": "www.metraonline.com",
+              "url": "https://www.metraonline.com/",
+              "description": "Metra is the \"Installer's Choice®\" for 12volt aftermarket audio, lighting, and safety installation accessories, with a U.S. based team that engineers OEM- ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Visit the new site metra.tracker.com. https://www.cbsnews. ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/cbschicago/posts/visit-the-new-site-metratrackercom/707397634087786/",
+              "description": "Visit the new site metra.tracker.com. https://www.cbsnews.com/chicago/news/metra-real-time-tracker/"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "The Aluminium Core Company - METRA",
+              "domain": "www.metra.eu",
+              "url": "https://www.metra.eu/de/",
+              "description": "METRA ist ein globaler und vertikal integrierter Hersteller komplexer stranggepresster Aluminiumprofile sowie hochwertiger Dienstleistungen, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Metra Commuter Rail Service",
+              "domain": "www.visitlakecounty.org",
+              "url": "https://www.visitlakecounty.org/MetraCommuterRailService&&print",
+              "description": "Northeast Illinois commuter rail system that services Chicagoland including Lake County. VisitLakeCounty.Org 5465 West Grand Avenue, Suite 100"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "https://www.metramedicinadotrabalho.com.br/",
+              "domain": "www.metramedicinadotrabalho.com.br",
+              "url": "https://www.metramedicinadotrabalho.com.br/",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Metra Industrial | Eucalipto Imunizado de Alta Qualidade",
+              "domain": "metra.ind.br",
+              "url": "https://metra.ind.br/",
+              "description": "Líder em eucalipto imunizado desde 1998. Mourões para cercas, currais e projetos arquitetônicos como pergolados, playgrounds e bangalôs."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Sistema Metra: Software para Segurança do Trabalho",
+              "domain": "www.sistemametra.com.br",
+              "url": "https://www.sistemametra.com.br/",
+              "description": "Com o Metra você gerencia todas as áreas da SST em uma única plataforma: eSocial, faturamento, segurança e medicina do trabalho, relatórios e treinamentos, e ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Privacy Policy",
+              "domain": "metra.com",
+              "url": "https://metra.com/privacy-policy",
+              "description": "Metra takes your privacy seriously. Our policy is clear: we collect no personally identifiable information about you when you use the Site unless you provide ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Lebenszyklusmanagement für kritische Vermögenswerte",
+              "domain": "www.sitetracker.com",
+              "url": "https://www.sitetracker.com/?lang=de",
+              "description": "Eine Plattform für den gesamten Lebenszyklus, die Zusammenarbeit in Echtzeit, leistungsstarke automatisierte Berichte und genaue Prognosen bietet."
+            }
+          ]
+        },
+        {
+          "name": "SiteMetra",
+          "market": "us",
+          "spell": {
+            "keyword": "SiteMetric",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 108,
+          "checkUrl": "https://www.google.com/search?q=SiteMetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:10 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Sitemetric: Integrated Construction Intelligence",
+              "domain": "www.sitemetric.com",
+              "url": "https://www.sitemetric.com/",
+              "description": "Sitemetric unifies construction access control, AI cameras, real-time workforce insights, safety, and onsite support to keep projects secure and on track."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "SITEMETRIC",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/sitemetric",
+              "description": "Sitemetric is the leading provider of Integrated Construction Intelligence for projects at every scale, with more than 1.5 million workers on our platform,"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Working at Sitemetric: 106 Reviews",
+              "domain": "www.indeed.com",
+              "url": "https://www.indeed.com/cmp/Sitemetric-2/reviews",
+              "description": "106 reviews from Sitemetric employees about Sitemetric culture, salaries, benefits, work-life balance, management, job security, and more."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Sitemetric",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/sitemetric/?hl=en",
+              "description": "The Leading Construction Site Management Platform. We will help you succeed! We offer around-the-clock service! Continuous monitoring both on and off site"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "SITEMETRIC Careers, Perks + Culture",
+              "domain": "builtin.com",
+              "url": "https://builtin.com/company/sitemetric",
+              "description": "Sitemetric is the leading provider of Integrated Construction Intelligence for projects at every scale, with more than 1 million workers on our platform,"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Anyone here familiar with a company called Sitemetric?",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Construction/comments/1kq9qwm/anyone_here_familiar_with_a_company_called/",
+              "description": "My company just gave every person in site a personalized badge with a QR code. They scan it everytime we enter and leave the jobsite. At first it appeared ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Sitemetric",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/Sitemetric/",
+              "description": "Sitemetric is the leading provider of access control and monitoring, real-time insights, and expert staffing for projects of every size – from data centers to ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spektraq",
+      "markets": [
+        {
+          "name": "Spektraq",
+          "market": "de",
+          "spell": {
+            "keyword": "Spektra",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 449,
+          "checkUrl": "https://www.google.com/search?q=Spektraq&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:25 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "SPEKTRA | Ready for TESTelligence - SPEKTRA",
+              "domain": "www.spektra-dresden.com",
+              "url": "https://www.spektra-dresden.com/de/",
+              "description": "SPEKTRA ist ein weltweit agierender akkreditierter Dienstleister und Hersteller von hochpräzisen Mess- und Prüfsystemen. Wir statten nationale Institute und ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "SPEKTRA LABS: Home",
+              "domain": "www.spektra-labs.com",
+              "url": "https://www.spektra-labs.com/de/",
+              "description": "Schnelle, akkreditierte Test- und Kalibrierservices mit klaren Prozessen und verlässlichen Ergebnissen in unseren Laboren. Als Teil der SPEKTRA GmbH Dresden ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "SPEKTRA Schwingungstechnik und Akustik GmbH",
+              "domain": "www.chemie.de",
+              "url": "https://www.chemie.de/firmen/15121/spektra-schwingungstechnik-und-akustik-gmbh.html",
+              "description": "Über SPEKTRA Schwingungstechnik und Akustik · Kompakter AutoAnalyzer für präzise photometrische Bestimmungen · 3D Raman Imaging Mikroskop mit unerreichter ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "SPEKTRA Schwingungstechnik und Akustik GmbH Dresden",
+              "domain": "silicon-saxony.de",
+              "url": "https://silicon-saxony.de/mitglieder/spektra-schwingungstechnik-und-akustik-gmbh-dresden/",
+              "description": "Entwicklung, Herstellung und Vertrieb elektronischer Messgeräte, mechanische Schwingungs- und Stoßerreger sowie ein hauseigenes DAkkS-akkredit."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Leuchten, Fluter und Leuchtmittel | SpektraLED | Online ...",
+              "domain": "www.spektraled.at",
+              "url": "https://www.spektraled.at/",
+              "description": "Die Firma Spektra LED GmbH ist Importeur & Händler von Leuchten und Leuchtmitteln, sowie ein Hersteller von Sonderleuchten. Bitte beachten Sie, dass wir ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "SPEKTRA Schwingungstechnik und Akustik GmbH Dresden",
+              "domain": "de.linkedin.com",
+              "url": "https://de.linkedin.com/company/spektra-schwingungstechnik-und-akustik-gmbh-dresden",
+              "description": "Als akkreditierter Dienstleister und Hersteller von hochpräzisen Mess- und Prüfsystemen statten wir weltweit nationale Institute und Industrielabore aus. Mit ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "SPEKTRA Imagevideo - Wer ist SPEKTRA?",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=anowL2zifK4",
+              "description": "/index.html ~Über SPEKTRA ~ Die 1994 gegründete SPEKTRA ... SPEKTRA Imagevideo - Wer ist SPEKTRA ? @spektraschwingungstechniku5293 likes317 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "http://www.aip.de/groups/osra/spectra/TagesSpektra...",
+              "domain": "www.aip.de",
+              "url": "http://www.aip.de/groups/osra/spectra/TagesSpektra-2days.html",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "CS Q-LEAP™ Kalibriersysteme",
+              "domain": "www.spektra-dresden.com",
+              "url": "https://www.spektra-dresden.com/de/produkte/cs-q-leap-kalibriersysteme",
+              "description": "Die CS Q-LEAP™ Systeme ermöglichen die Prüfung eines umfangreichen Spektrums dynamischer physikalischer Größen - von der Beschleunigung über Stoß bis hin zur ..."
+            }
+          ]
+        },
+        {
+          "name": "Spektraq",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "VisibilityBeacon",
+      "markets": [
+        {
+          "name": "VisibilityBeacon",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "VisibilityBeacon",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "VisibilityOrbit",
+      "markets": [
+        {
+          "name": "VisibilityOrbit",
+          "market": "de",
+          "spell": {
+            "keyword": "Visibility Orbit",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 135,
+          "checkUrl": "https://www.google.com/search?q=VisibilityOrbit&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:43 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Orbital Visibility and Scheduling",
+              "domain": "www.stsci.edu",
+              "url": "https://www.stsci.edu/hst/proposing/phase-i/proposal-planning-toolbox/orbital-visibility-and-scheduling",
+              "description": "Orbital Visibility Time. Orbital visibility is the time during the HST orbit when the target to be observed is not occulted by the earth. This is the time that ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Will Artemis 2 be visible from earth? : r/ArtemisProgram",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/ArtemisProgram/comments/1qhchqy/will_artemis_2_be_visible_from_earth/",
+              "description": "Does anyone know if the artemis 2 rocket will be visible from earth like a satellite? I'm specifically talking during its 24 hour phase of orbiting the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "ISS Tracker — Live Map & Visible Passes Tonight",
+              "domain": "orbitalradar.com",
+              "url": "https://orbitalradar.com/iss-tracker",
+              "description": "19.08.2026 — Quick Start. The ISS is visible to the naked eye as a bright, steady, non-blinking light moving smoothly across the sky."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "SAR satellite orbit design for visibility-optimal coverage",
+              "domain": "www.sciencedirect.com",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0094576525004734",
+              "description": "von EL Kramer · 2025 — A favorable orbit design is one which has overpass trajectories that pass through geometries with favorable visibility scores. Therefore, generalizable ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "ESA - Types of orbits",
+              "domain": "www.esa.int",
+              "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+              "description": "This means Europe can always stay connected and online, even with satellites in lower orbits that have reduced visibility from the ground. Low Earth orbit. Low ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Heavens-Above",
+              "domain": "www.heavens-above.com",
+              "url": "https://www.heavens-above.com/",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Spot The Station",
+              "domain": "www.nasa.gov",
+              "url": "https://www.nasa.gov/spot-the-station/",
+              "description": "The space station orbits with an inclination of 51.6 degrees. This means that, as it orbits, the farthest north and south of the equator it will go is 51.6 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Determination Of Visibility Time For Geodesic Satellites ...",
+              "domain": "www.researchgate.net",
+              "url": "https://www.researchgate.net/publication/384053462_Determination_Of_Visibility_Time_For_Geodesic_Satellites_Orbiting_The_Earth_On_Circular_Orbit_Subject_To_Minimum_Zenith_Angle_Restriction",
+              "description": "15.09.2024 — In all, the results show that the higher the orbital altitude, the higher the visibility time of the satellite. Also, the minimum zenith angle ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "See the ISS with your own eyes",
+              "domain": "www.dlr.de",
+              "url": "https://www.dlr.de/en/blog/archive/2012/see-the-iss-with-your-own-eyes",
+              "description": "12.04.2012 — As well as the date and brightness ('mag') of each pass, three columns give the start of visibility (time, elevation above the horizon, compass ..."
+            }
+          ]
+        },
+        {
+          "name": "VisibilityOrbit",
+          "market": "us",
+          "spell": {
+            "keyword": "Visibility Orbit",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 202,
+          "checkUrl": "https://www.google.com/search?q=VisibilityOrbit&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:53 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Orbital Visibility and Scheduling",
+              "domain": "www.stsci.edu",
+              "url": "https://www.stsci.edu/hst/proposing/phase-i/proposal-planning-toolbox/orbital-visibility-and-scheduling",
+              "description": "sibility Time Orbital visibility is the time during the HST orbit when the target to be observed is not occulted by the earth."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Spot The Station",
+              "domain": "www.nasa.gov",
+              "url": "https://www.nasa.gov/spot-the-station/",
+              "description": "All International Space Station sightings will occur within a few hours before. The space station orbits with an inclination of 51.6 degrees. This means that, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Will Artemis 2 be visible from earth? : r/ArtemisProgram",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/ArtemisProgram/comments/1qhchqy/will_artemis_2_be_visible_from_earth/",
+              "description": "Does anyone know if the artemis 2 rocket will be visible from earth like a satellite? I'm specifically talking during its 24 hour phase of orbiting the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "SAR satellite orbit design for visibility-optimal coverage",
+              "domain": "www.sciencedirect.com",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0094576525004734",
+              "description": "by EL Kramer · 2025 — Visibility performance is plotted along the y-axis while inclination angle is plotted along the x-axis. Three target latitudes are considered column-wise.  ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "ISS Tracker — Live Map & Visible Passes Tonight",
+              "domain": "orbitalradar.com",
+              "url": "https://orbitalradar.com/iss-tracker",
+              "description": "Aug 19, 2026 — The ISS is visible to the naked eye as a bright, steady, non-blinking light moving smoothly across the sky. The best time is during 12 minutes, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Seeing Satellites | NESDIS",
+              "domain": "www.nesdis.noaa.gov",
+              "url": "https://www.nesdis.noaa.gov/news/seeing-satellites",
+              "description": "Dec 29, 2015 — you may be able to see a polar orbiting satellite (orbiting about 500 miles about Earth's surface) with just a pair of binoculars or, if it's ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Observing Earth Satellites",
+              "domain": "satobs.org",
+              "url": "http://satobs.org/observe.html",
+              "description": "Inclination/Visibility The orbital inclination dictates over which areas of the Earth the satellite will 'fly'. will never exceed 25 degrees North or 25 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Heavens-Above",
+              "domain": "www.heavens-above.com",
+              "url": "https://www.heavens-above.com/",
+              "description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VisiMetra",
+      "markets": [
+        {
+          "name": "VisiMetra",
+          "market": "de",
+          "spell": {
+            "keyword": "VisaMetric",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 931,
+          "checkUrl": "https://www.google.com/search?q=VisiMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:09 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Visametric",
+              "domain": "www.visametric.com",
+              "url": "https://www.visametric.com/",
+              "description": "VisaMetric focuses on providing Diplomatic Missions with high-quality non-discretionary support services related to Visa applications and other areas (such ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "visimetra - artemis",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@visimetra",
+              "description": "ARTEMIS (@visimetra) on TikTok | 735 Likes. Hello.Watch the latest video from ARTEMIS (@visimetra)."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Visumantrag",
+              "domain": "www.visametric.com",
+              "url": "https://www.visametric.com/kosovo/Germany/de",
+              "description": "VisaMetric ist der einzige Dienstleister, der von der Deutschen Botschaft in Pristina beauftragt wurde, Visaanträge in Kosovo entgegenzunehmen. Beantragung ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Si Artemis (visimetra) - Profile",
+              "domain": "ph.pinterest.com",
+              "url": "https://ph.pinterest.com/visimetra/",
+              "description": "Tingnan kung ano ang natuklasan ni Artemis (visimetra) sa Pinterest, ang pinakamalaking koleksyon ng mga ideya ng mundo."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "VisiConsult: Systeme für industrielle Röntgenprüfung, ZfP, NDT",
+              "domain": "visiconsult.de",
+              "url": "https://visiconsult.de/start/",
+              "description": "09.06.2026 — VisiConsult ist ein Weltmarktführer im Bereich Röntgeninspektionslösungen für die zerstörungsfreie Prüfung (ZfP). Jetzt informieren!"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "VisusVital: Makulaerkrankungen verstehen",
+              "domain": "www.visusvital.de",
+              "url": "https://www.visusvital.de/",
+              "description": "Wertvolle Sehkraft erhalten: Alles Wichtige rund um Makulaerkrankungen auf visusvital.de · Altersbedingte Makuladegeneration · Diabetisches Makulaödem · Retinaler ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "VISOR ® Vision-Sensoren für industrielle Bildverarbeitung",
+              "domain": "www.sensopart.com",
+              "url": "https://www.sensopart.com/de/produkte/vision-sensoren/",
+              "description": "Eine Kamera, eine Software, unzählige Anwendungen - nie zuvor waren Vision-Sensoren so leistungsfähig und dabei so leicht und intuitiv zu bedienen."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "VIMETRA GmbH – Knowledge transfer made easy!",
+              "domain": "vimetra.de",
+              "url": "https://vimetra.de/",
+              "description": "29.07.2024 — Wir helfen unseren Kunden digitale Lösungen für ihre Probleme zu finden. · Starker Partner · Gemeinsam · Awards · „Das Team von VIMETRA konnte ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Viewpointsystem: Smart Glasses und Eye Tracking - VPS",
+              "domain": "viewpointsystem.com",
+              "url": "https://viewpointsystem.com/",
+              "description": "Entdecken Sie die weltweit einfachsten Smart Glasses für Ihre Workflows. Außerdem: Robustes und praxistaugliches Eye Tracking zur reibungslosen Integration."
+            }
+          ]
+        },
+        {
+          "name": "VisiMetra",
+          "market": "us",
+          "spell": {
+            "keyword": "siMetra",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 123000,
+          "checkUrl": "https://www.google.com/search?q=VisiMetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:19 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Home - Visterra",
+              "domain": "visterrainc.com",
+              "url": "https://visterrainc.com/",
+              "description": "Visterra is a biologics research company developing therapies for patients with immune-mediated and other hard-to-treat diseases."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Si Artemis (visimetra) - Profile",
+              "domain": "ph.pinterest.com",
+              "url": "https://ph.pinterest.com/visimetra/",
+              "description": "Tingnan kung ano ang natuklasan ni Artemis (visimetra) sa Pinterest, ang pinakamalaking koleksyon ng mga ideya ng mundo."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Spectera Vision Care",
+              "domain": "www.myspectera.com",
+              "url": "https://www.myspectera.com/",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "vSight Demo Request",
+              "domain": "ventrahealth.com",
+              "url": "https://ventrahealth.com/vsight-demo-request/",
+              "description": "Sep 16, 2024 — See Ventra's powerful data & analytics platform in action! vSight provides actionable insights into your practice's performance. Get a demo!"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "mEYE® Suite",
+              "domain": "www.myopiaprofile.com",
+              "url": "https://www.myopiaprofile.com/product/mEYE-Suite",
+              "description": "mEYE® Suite is an all-in-one digital platform designed to streamline and enhance myopia management in clinical practice, powered by Ocumetra."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Ocumetra Launches mEYE Suite Myopia Management ...",
+              "domain": "reviewofmm.com",
+              "url": "https://reviewofmm.com/ocumetra-launches-meye-suite-myopia-management-software/",
+              "description": "Feb 6, 2025 — Ocumetra has launched mEYE Suite, its myopia management software designed to help parent education and patient outcomes."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Ocumetra Launches mEye Suite",
+              "domain": "www.clspectrum.com",
+              "url": "https://www.clspectrum.com/news/2025/ocumetra-launches-meye-suite/",
+              "description": "Feb 16, 2025 — Ocumetra has officially launched mEye Suite, an all-in-one myopia management software that is built on a global database of more than 1 million ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Ocumetra Debuts mEYE Suite Myopia Management Software",
+              "domain": "www.visionmonday.com",
+              "url": "https://www.visionmonday.com/launchpad/software/article/ocumetra-debuts-meye-suite-myopia-management-software/",
+              "description": "Feb 7, 2025 — mEYE Suite empowers eyecare professionals (ECPs) with the tools they need to manage myopia with evidence-based, personalized care."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "https://www.vistra.com/user",
+              "domain": "www.vistra.com",
+              "url": "https://www.vistra.com/user",
+              "description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VisiVector",
+      "markets": [
+        {
+          "name": "VisiVector",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 817,
+          "checkUrl": "https://www.google.com/search?q=VisiVector&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:11 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "vVIRTUALtarget | Ihr virtuelles Steuergerät",
+              "domain": "www.vector.com",
+              "url": "https://www.vector.com/de/de/produkte/produkte-a-z/software/vvirtualtarget/",
+              "description": "vVIRTUALtarget ist eine Software zum Erzeugen virtueller Steuergeräte für alle typischen AUTOSAR-Projekte. Es unterstützt Funktions- und Software-Entwickler, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "VISI Vector Text and Engraving",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=eoE38FSUkV4",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "visicontrol: Home",
+              "domain": "www.visicontrol.com",
+              "url": "https://www.visicontrol.com/en/",
+              "description": "Optische Mess-, Prüf- und Sortieranlagen für die Industrie. Maßliche und Attributive Inspektion von Massenteilen."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Free Visi Vector Art - Download 907+ Visi Icons & Graphics",
+              "domain": "pixabay.com",
+              "url": "https://pixabay.com/vectors/search/visi/",
+              "description": "907+ Free Visi Vector Images. Free visi vectors to use in your next project. Browse vector graphics uploaded by the Pixabay community. Royalty-free vectors."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "vTESTstudio für das Testdesign von Steuergeräten",
+              "domain": "www.vector.com",
+              "url": "https://www.vector.com/de/de/produkte/produkte-a-z/software/vteststudio/",
+              "description": "vTESTstudio ist eine leistungsfähige Entwicklungsumgebung für das Erstellen automatisierter Test-Designs. Für eine Effizienzsteigerung beim Test-Design und ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "VISOR ® Vision-Sensoren für industrielle Bildverarbeitung",
+              "domain": "www.sensopart.com",
+              "url": "https://www.sensopart.com/de/produkte/vision-sensoren/",
+              "description": "Eine Kamera, eine Software, unzählige Anwendungen - nie zuvor waren Vision-Sensoren so leistungsfähig und dabei so leicht und intuitiv zu bedienen."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "VIVE Full Face Tracker",
+              "domain": "business.vive.com",
+              "url": "https://business.vive.com/de/product/vive-full-face-tracker/",
+              "description": "Neue Möglichkeiten mit dem VIVE Full Face Tracker. Er ist das ideale VIVE XR Elite-Zubehör für ein noch intensiveres und natürlicheres virtuelles Erlebnis."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "VEINSIGHT™ VS500 Venensuchgerät | 137785",
+              "domain": "www.praxisdienst.com",
+              "url": "https://www.praxisdienst.com/de-de/produkt/veinsight-vs500-venensuchgeraet/137785",
+              "description": "Dank integrierter Tiefenerkennung, Mittellinienanzeige und Abstandssensor ermöglicht das Gerät eine sichere und zielgenaue Venenpunktion – bei Erwachsenen, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "visioncortex/vtracer: Raster to Vector Graphics Converter",
+              "domain": "github.com",
+              "url": "https://github.com/visioncortex/vtracer",
+              "description": "VTracer is originally designed for processing high resolution scans of historic blueprints up to gigapixels. At the same time, VTracer can also handle low ..."
+            }
+          ]
+        },
+        {
+          "name": "VisiVector",
+          "market": "us",
+          "spell": {
+            "keyword": "Visor Vector",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 66600,
+          "checkUrl": "https://www.google.com/search?q=VisiVector&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:09 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "VISI Vector Text and Engraving",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=eoE38FSUkV4",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Vector: Welcome",
+              "domain": "www.vector.com",
+              "url": "https://www.vector.com/gb/en/",
+              "description": "Vector supplies software and engineering services for the networking of electronic systems in the automobile and related industries (CAN, FlexRay, AUTOSAR, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "visioncortex/vtracer: Raster to Vector Graphics Converter",
+              "domain": "github.com",
+              "url": "https://github.com/visioncortex/vtracer",
+              "description": "is an open source software to convert raster images into vector graphics (svg). It can vectorize graphics and photographs and trace the curves to output ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Free Visi Vector Art - Download 907+ Visi Icons & Graphics",
+              "domain": "pixabay.com",
+              "url": "https://pixabay.com/vectors/search/visi/",
+              "description": "Download stunning royalty-free images about Visi. Free visi vectors to use in your next project. Browse vector graphics uploaded by the Pixabay community. ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "VectorVision: Contrast Sensitivity, Glare & ETDRS World Leader",
+              "domain": "www.vectorvision.com",
+              "url": "https://www.vectorvision.com/",
+              "description": "VectorVision, the standard in vision testing. World leader in contrast sensitivity, glare testing & ETDRS acuity testing for more than 2 decades."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Vector Networks",
+              "domain": "try.vizor.cloud",
+              "url": "https://try.vizor.cloud/connect/",
+              "description": "VIZOR Log in Sign in with. Log in with a VIZOR account Copyright Vector Networks"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "careviso: Makers of seeQer Healthcare Transparency Software",
+              "domain": "www.careviso.com",
+              "url": "https://www.careviso.com/",
+              "description": "Quickly and accurately verify details about patients eligibility and health insurance, determine out-of-pocket cost, and conduct prior authorizations. Through ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Weaviate: The AI database developers love",
+              "domain": "weaviate.io",
+              "url": "https://weaviate.io/",
+              "description": "Vector Database Store, index, and search high-dimensional vectors at any scale. Built-in vector generation from text, images, and more. leading startups, scale ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Visi vector vectors hi-res stock photography and images",
+              "domain": "www.alamy.com",
+              "url": "https://www.alamy.com/stock-photo/visi-vector-vectors.html",
+              "description": "Find the perfect visi vector vectors stock photo, image, vector, illustration or 360 image. Available for both RF and RM licensing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WebMetra",
+      "markets": [
+        {
+          "name": "WebMetra",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 1200,
+          "checkUrl": "https://www.google.com/search?q=WebMetra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:12 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Nihal Singh Gurjar - webmetra",
+              "domain": "in.linkedin.com",
+              "url": "https://in.linkedin.com/in/nihal-singh-gurjar-20b9a2109",
+              "description": "Android app development · Experience: webmetra · Education: ARYA Institute of Engineering & Technology kukas(jaipur) · Location: Jaipur · 192 connections on ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Schwingungsüberwachungsgerät - M14-WEB - Metra Mess ...",
+              "domain": "www.directindustry.de",
+              "url": "https://www.directindustry.de/prod/metra-mess-frequenztechnik-radebeul-ek/product-69226-2037462.html",
+              "description": "Netzwerk-basierte Schwingungsüberwachung Anwendung • Schwingungsüberwachung im Zeit- oder Frequenzbereich • Überwachung der Schwinggeschwindigkeit an ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Metra: Home",
+              "domain": "metra.com",
+              "url": "https://metra.com/",
+              "description": "Match Day Made Easy. · Take Metra to Chicago Fire FC matches at Soldier Field. · DRIVE LESS. DO MORE."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Présentation du Portail Medtra - Centre de Gestion de la ...",
+              "domain": "www.cdg33.fr",
+              "url": "https://www.cdg33.fr/cdg-33/actualites/presentation-du-portail-medtra/",
+              "description": "23.12.2024 — Ce portail va vous permettre de : Gérer votre espace; Consulter vos documents; Mettre à jour les données de vos agents; Prendre rendez-vous avec ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Welcome to Delhi Metro Rail Corporation(DMRC) | Official ...",
+              "domain": "delhimetrorail.com",
+              "url": "https://delhimetrorail.com/",
+              "description": "Delhi Metro is a world-class metro. To ensure reliability and safety in train operations, it is equipped with the most modern communication and train ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Corporate Webcast bei Thieme Media: Online-Videoformat",
+              "domain": "thieme-media.thieme.com",
+              "url": "https://thieme-media.thieme.com/werbe-contentformate/format/corporate-webcast",
+              "description": "Professionelle Online-Videos für themennahe Inhalte. Präsentieren Sie Ihre Botschaft kompakt & jederzeit abrufbar."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Webcam Testen",
+              "domain": "de.webcamtests.com",
+              "url": "https://de.webcamtests.com/",
+              "description": "Testen Sie Ihre Webcam online, um zu überprüfen, ob sie richtig funktioniert und finden Sie nützliche Informationen dazu."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Zeitrafferfilme, Bauüberwachung, Baustellenkamera | panTerra",
+              "domain": "www.panterra.tv",
+              "url": "https://www.panterra.tv/",
+              "description": "Mit panTerra hochauflösende Zeitrafferkameras und Dokumentationen datenschutzkonform auf Ihrer Baustelle betreiben. Zeitrafferfilme in 8K."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "WEB RASTER",
+              "domain": "basemap.de",
+              "url": "https://basemap.de/produkte-und-dienste/web-raster/",
+              "description": "Auf der Grundlage amtlicher Geobasisdaten vermittelt er eine attraktive, deutschlandweit einheitliche Kartendarstellung in Zoomstufen vom Einzelgebäude bis zur ..."
+            }
+          ]
+        },
+        {
+          "name": "WebMetra",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 61900,
+          "checkUrl": "https://www.google.com/search?q=WebMetra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:17 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Metra: Home",
+              "domain": "metra.com",
+              "url": "https://metra.com/",
+              "description": "Rail System Serving Chicago and the Northeastern Illinois Region. Lines & Schedules. Metra is a safe, affordable, and convenient way to skip traffic and get to ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Nihal Singh Gurjar - webmetra",
+              "domain": "in.linkedin.com",
+              "url": "https://in.linkedin.com/in/nihal-singh-gurjar-20b9a2109",
+              "description": "Android app development · Experience: webmetra · Education: ARYA Institute of Engineering & Technology kukas(jaipur) · Location: Jaipur · 192 connections on ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Présentation du Portail Medtra - Centre de Gestion de la ...",
+              "domain": "www.cdg33.fr",
+              "url": "https://www.cdg33.fr/cdg-33/actualites/presentation-du-portail-medtra/",
+              "description": "Dec 23, 2024 — Ce portail va vous permettre de : Gérer votre espace; Consulter vos documents; Mettre à jour les données de vos agents; Prendre rendez-vous avec ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Vibration monitoring device - M14-WEB - Metra Mess- und ...",
+              "domain": "www.directindustry.com",
+              "url": "https://www.directindustry.com/prod/metra-mess-und-frequenztechnik-radebeul-ek/product-69226-2037462.html",
+              "description": "Network-based Vibration Monitoring Application • Vibration monitoring in time or frequency domain • Monitoring of vibration velocity (severity) of rotating ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "WebMET - The Meteorological Resource Center",
+              "domain": "www.webmet.com",
+              "url": "http://www.webmet.com/",
+              "description": "WebMet brings you free met data for air dispersion models, books, videos, software and more. Explore and learn using WebMET - your source for all things ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Tangent128/webmetro: Utilities for relaying live WebM ...",
+              "domain": "github.com",
+              "url": "https://github.com/Tangent128/webmetro",
+              "description": "webmetro is a simple relay server for broadcasting a WebM stream from one uploader to many downloaders, via HTTP. The initialization segment is remembered, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Login to Manage Account",
+              "domain": "www.ventrachicago.com",
+              "url": "https://www.ventrachicago.com/account/my-metra-tickets/",
+              "description": "Mobile App Login | Ventra Login to Manage Account: Username Password"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Metra Electronics | Holly Hill FL",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/MetraElectronics/",
+              "description": "Metra is the world leader for car stereo dash kits & a wide variety of 12-volt accessories. From plug-and-play radio integration to next-level safety and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "MWRTA: Home",
+              "domain": "mwrta.com",
+              "url": "https://mwrta.com/",
+              "description": "MWRTA is Fare Free ! All MWRTA services are currently running fare free. Fixed Route riders will not need to show or tap a Catch Card to qualify - simply board ... Read more"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

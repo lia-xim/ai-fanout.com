@@ -13,10 +13,11 @@ const canonicalPath=`${hub}/${article.slug}`;
 const alternatePath=article.pairedSlug?(de?`/library/${article.pairedSlug}`:`/de/lernen/${article.pairedSlug}`):undefined;
 const sources=evidenceManifest.sources.filter(source=>article.sourceIds.includes(source.id));
 const related=article.relatedSlugs.map(slug=>articles.find(item=>item.slug===slug)).filter((item):item is LibraryArticle=>Boolean(item));
-const words=[article.answer,article.useWhen,...article.sections.flatMap(section=>[...section.paragraphs,...(section.points??[])]),...(article.readerQuestions??[]).flatMap(item=>[item.question,item.answer])].join(" ").trim().split(/\s+/).length;
+const words=[article.answer,article.useWhen,...(article.quickStart?.steps??[]).flatMap(step=>[step.title,step.copy]),...article.sections.flatMap(section=>[...section.paragraphs,...(section.points??[])]),...(article.readerQuestions??[]).flatMap(item=>[item.question,item.answer])].join(" ").trim().split(/\s+/).length;
 const readingMinutes=Math.max(4,Math.ceil(words/190));
 const date=new Intl.DateTimeFormat(de?"de-DE":"en-GB",{day:"2-digit",month:"long",year:"numeric"}).format(new Date(`${article.reviewedAt}T12:00:00Z`));
 const pageUrl=`https://ai-fanout.com${canonicalPath}`;
+const toolHref=`${de?"/de":"/"}${article.toolProvider?`?provider=${article.toolProvider}`:""}#tool`;
 const schema={"@context":"https://schema.org","@graph":[
   {"@type":"TechArticle","@id":`${pageUrl}#article`,headline:article.title,description:article.description,dateModified:article.reviewedAt,inLanguage:locale,image:article.image?`https://ai-fanout.com${article.image}`:undefined,author:{"@type":"Person",name:"Matthias Ramahi",url:"https://ai-fanout.com/transparency"},publisher:{"@type":"Organization","@id":"https://ai-fanout.com/#organization",name:"ai-fanout.com",url:"https://ai-fanout.com",logo:{"@type":"ImageObject",url:"https://ai-fanout.com/brand/ai-fanout-logo.webp",width:512,height:512}},mainEntityOfPage:pageUrl,isPartOf:{"@type":"CollectionPage",name:de?"AI Query Fanout lernen":"AI Query Fanout Guides",url:`https://ai-fanout.com${hub}`},about:article.primaryIntent},
   {"@type":"BreadcrumbList","@id":`${pageUrl}#breadcrumb`,itemListElement:[
@@ -46,14 +47,15 @@ const schema={"@context":"https://schema.org","@graph":[
     <nav class="article-breadcrumb" aria-label={de?"Brotkrumen":"Breadcrumb"}><a href={hub}>{de?"Lernen":"Guides"}</a><span aria-hidden="true">/</span><span aria-current="page">{article.shortTitle}</span></nav>
 
     <div class="editorial-layout">
-      <main class="editorial-content">
+      <div class="editorial-content">
         <section class="article-intro">
           <p class="article-lead">{article.answer}</p>
           <p>{article.useWhen}</p>
-          {article.toolCta&&<a class="article-tool-cta" href={de?"/de#tool":"/#tool"}>
+          {article.toolCta&&<a class="article-tool-cta" href={toolHref}>
             <span><strong>{article.toolCta.title}</strong><small>{article.toolCta.copy}</small></span>
             <b>{article.toolCta.button}<ArrowIcon size={16}/></b>
           </a>}
+          {article.quickStart&&<div class="article-quick-start"><strong>{article.quickStart.title}</strong><ol>{article.quickStart.steps.map(step=><li><strong>{step.title}</strong><p>{step.copy}</p></li>)}</ol></div>}
         </section>
 
         {article.sections.map((section,index)=><section id={section.id} class:list={["article-chapter",index===0&&"article-chapter--opening",section.points&&section.points.length>0&&"article-chapter--with-points",index===article.sections.length-1&&"article-chapter--closing"]} aria-labelledby={`${section.id}-title`}>
@@ -68,12 +70,13 @@ const schema={"@context":"https://schema.org","@graph":[
           <dl>{article.readerQuestions.map(item=><div><dt>{item.question}</dt><dd>{item.answer}</dd></div>)}</dl>
         </section>}
 
+        {article.quickStart&&article.toolCta&&<a class="article-tool-cta" href={toolHref}><span><strong>{de?"Prüfe jetzt dein eigenes Thema":"Now investigate your own topic"}</strong><small>{de?"Kostenlos, ohne Anmeldung. Gib ein kurzes Thema ein und prüfe die offengelegten Ergebnisse.":"Free, no signup. Enter a short topic and inspect the exposed results."}</small></span><b>{article.toolCta.button}<ArrowIcon size={16}/></b></a>}
         <section class="source-notes" aria-labelledby="sources-title">
           <h2 id="sources-title">{de?"Verwendete Quellen":"Sources used"}</h2>
           <p>{de?"Diese Quellen stützen die beschriebenen Funktionen und Grenzen. Sie belegen keine darüber hinausgehenden Aussagen.":"These sources support the functions and limits described here. They do not prove claims beyond that scope."}</p>
           <ol>{sources.map(source=><li><div><strong>{source.title}</strong><p>{source.supports}</p></div>{source.location.startsWith("https://")?<a href={source.location} rel="external">{de?"Quelle öffnen":"Open source"} <ArrowIcon size={15}/></a>:<small>{de?"Interner Eigentümer-Nachweis":"Owner record"}</small>}</li>)}</ol>
         </section>
-      </main>
+      </div>
 
       <aside class="article-toc" aria-label={de?"Auf dieser Seite":"On this page"}>
         <p>{de?"Auf dieser Seite":"On this page"}</p>

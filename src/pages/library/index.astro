@@ -9,10 +9,10 @@ const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method
   <header class="library-hero">
     <div class="library-kicker"><span>Guides</span><span>{libraryArticles.length} practical guides</span></div>
     <div class="library-hero-grid">
-      <h1>See what happens after the keyword.</h1>
+      <h1>Query fanout for SEO.</h1>
       <div>
-        <p>Learn what query fanout is, which searches an API can expose, what citations prove, and how to use the result without overclaiming.</p>
-        <p class="meta-line">Plain-English guides · reviewed 31 Aug 2026</p>
+        <p>Start with the meaning of query fanout, inspect OpenAI or Gemini searches, then turn useful branches into a content brief or an update to your existing page.</p>
+        <p class="meta-line">Plain-English guides · latest guide update {new Intl.DateTimeFormat("en-GB",{day:"numeric",month:"short",year:"numeric"}).format(new Date(`${libraryArticles.map(article=>article.reviewedAt).sort().at(-1)}T12:00:00Z`))}</p>
       </div>
     </div>
     <div class="signal-legend" aria-label="Learning path">

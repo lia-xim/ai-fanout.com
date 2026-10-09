@@ -1,0 +1,1541 @@
+{
+  "generatedAt": "2026-09-01T17:44:56.196Z",
+  "methodology": {
+    "endpoint": "serp/google/organic/live/advanced",
+    "markets": [
+      {
+        "id": "de",
+        "locationCode": 2276,
+        "languageCode": "de"
+      },
+      {
+        "id": "us",
+        "locationCode": 2840,
+        "languageCode": "en"
+      }
+    ],
+    "depth": 10,
+    "paidAddOns": false,
+    "estimatedCostUsd": 0.044,
+    "actualCostUsd": 0.03600000000000002,
+    "note": "Evidence export only. No automatic score, grade, or recommendation."
+  },
+  "combined": [
+    {
+      "name": "CrawlBoard",
+      "markets": [
+        {
+          "name": "CrawlBoard",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Board",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 48600,
+          "checkUrl": "https://www.google.com/search?q=CrawlBoard&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:35 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Crawlboard",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/bram-tyrer-767078591",
+              "description": "We are an alternative/rock band from the Isle of Man, we hope you enjoy our music! Tracks. See all · Dead Eyes. Dead Eyes. Crawlboard."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Crawlboard",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/crawlboard/",
+              "description": "Rock band from the Isle of Man ... Here is a gig list of all upcoming Crawlboard gigs, starting off tomorrow night at the Front Porch!. Very excited to ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawlboard",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/p/Crawlboard-100093880707421/",
+              "description": "Our latest gig at The Riddler Under the Nest! This is our original song Fable from our new EP, available to stream on all platforms!"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Crawlboard",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/artist/269Go8LXJW0Rxbz1rGUD5O",
+              "description": "Where I Lay2023 • Album. Is It You?2023 • Album. Singles and EPs. Dead Eyes. Single • 2025 · Mustard. EP • 2024 · Where I Lay. Single • 2023."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Crawlboard",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/@Crawlboard",
+              "description": "We are Crawlboard, an alternative/rock band from the Isle of Man . You can expect lots of new music from us, so be sure to subscribe . ...more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Pair of Crawlboards – Tetra Safety Systems",
+              "domain": "tetrasafetysystems.com",
+              "url": "https://tetrasafetysystems.com/product/pair-of-crawlboards/",
+              "description": "The Tetra Skylite Crawlboards were designed out of necessity by our clients working in unboarded lofts and on flat roofs for short duration."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Clow Folding Loft Crawl Board",
+              "domain": "www.ladders-direct.com",
+              "url": "https://www.ladders-direct.com/platforms/215-clow-folding-loft-crawl-board.html",
+              "description": "With each section just 320mm long and 1200mm wide they fit through even the smallest loft openings. Once opened flat they provide a 640mm x 1200mm working ..."
+            }
+          ]
+        },
+        {
+          "name": "CrawlBoard",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 105,
+          "checkUrl": "https://www.google.com/search?q=CrawlBoard&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:38 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Pair of Crawlboards – Tetra Safety Systems",
+              "domain": "tetrasafetysystems.com",
+              "url": "https://tetrasafetysystems.com/product/pair-of-crawlboards/",
+              "description": "The Tetra Skylite Crawlboards were designed out of necessity by our clients working in unboarded lofts and on flat roofs for short duration. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Clow Folding Loft Crawl Board",
+              "domain": "www.ladders-direct.com",
+              "url": "https://www.ladders-direct.com/platforms/215-clow-folding-loft-crawl-board.html",
+              "description": "These foldable loft boards are ideal for single person use in loft spaces with no flooring. Supports upto 100kg"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Crawlspace Depot | Crawl Space Encapsulation & Moisture ...",
+              "domain": "crawlspacedepot.com",
+              "url": "https://crawlspacedepot.com/?srsltid=AfmBOopeV9-vfemVGIE-IZMvicYbY4RS2A_Gjp7iSwrqYaS2KDszWtsD",
+              "description": "Shop crawl space encapsulation products, dehumidifiers, vapor barriers, sump pumps, and more. Call Us: 1-888-331-9991"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "New “crawl board” aims to stop falls through loft ceilings ?",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/100063595862417/posts/new-crawl-board-aims-to-stop-falls-through-loft-ceilings-/1465098745619974/",
+              "description": "New “crawl board” aims to stop falls through loft ceilings ?"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Tetra Skylite Crawlboards for Flat Roofs & Unboarded Lofts",
+              "domain": "www.millsltd.com",
+              "url": "https://www.millsltd.com/crawl-boards/tetra-skylite-crawlboards-for-flat-roofs-unboarded-lofts-pair?srsltid=AfmBOooMrhxzJEqX0kUV1M0GhjywnmZ_ViUWTHWNT51tr33TU-2PFgXW",
+              "description": "The use of crawlboards enable an operative to distribute their weight to allow safe travel within un-boarded loft areas and across flat roofs."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Loft Crawl Board to Prevent Falls from Height",
+              "domain": "keesystems.com",
+              "url": "https://keesystems.com/loft-crawl-board-to-prevent-falls-from-height/?srsltid=AfmBOopb4-WrMGeui1Vh-q5__Rn5xF8zsAClNskeft9jbuqHVjXLReJP",
+              "description": "Jul 21, 2023 — They are ideal locations for installing equipment such as boilers, water storage tanks, shower pumps, extraction fans, and more. Additionally, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "How to Use a Loft Crawl Board",
+              "domain": "www.easi-dec.co.uk",
+              "url": "https://www.easi-dec.co.uk/news/how-to-use-a-loft-crawl-board/",
+              "description": "One of the most important pointers you need to remember when it comes to using a loft crawl board is that it shouldn't be mounted to exposed electrical ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Sectional Loft Crawler Boards | 700461309291",
+              "domain": "ladderstore.com",
+              "url": "https://ladderstore.com/products/sectional-loft-crawler-boards",
+              "description": "The Sectional Loft Crawler Boards have been developed with a major national utility company to allow safe and easy access in a loft."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CrawlCommand",
+      "markets": [
+        {
+          "name": "CrawlCommand",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Command",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 116,
+          "checkUrl": "https://www.google.com/search?q=CrawlCommand&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:43:48 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Command line tool — Scrapy 2.18.0 documentation",
+              "domain": "docs.scrapy.org",
+              "url": "https://docs.scrapy.org/en/latest/topics/commands.html",
+              "description": "Commands that run a crawl . Many commands need to run a crawl of some kind, running either a user-provided spider or a special internal one: bench. check."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Common Crawl - Open Repository of Web Crawl Data",
+              "domain": "commoncrawl.org",
+              "url": "https://commoncrawl.org/",
+              "description": "Common Crawl maintains a free, open repository of web crawl data that can be used by anyone. Common Crawl is a 501(c)(3) non–profit founded in 2007. ‍ We ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Scrapy does not have command 'crawl'",
+              "domain": "stackoverflow.com",
+              "url": "https://stackoverflow.com/questions/58097126/scrapy-does-not-have-command-crawl",
+              "description": "I started to learn Scrapy but right away I get an error Unknown command: crawl. I do not know why im getting this, but in py Scrapy commands I do not have ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "scrapy/scrapy/commands/crawl.py at master",
+              "domain": "github.com",
+              "url": "https://github.com/scrapy/scrapy/blob/master/scrapy/commands/crawl.py",
+              "description": "Scrapy, a fast high-level web crawling & scraping framework for Python. - scrapy/scrapy/commands/crawl.py at master · scrapy/scrapy."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Scrapy - Command Line Tools",
+              "domain": "www.geeksforgeeks.org",
+              "url": "https://www.geeksforgeeks.org/python/scrapy-command-line-tools/",
+              "description": "23.07.2025 — crawl: This command is used to crawl spider through the specified URL and collect the data respectively. Syntax: scrapy crawl spiderman."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Command Line Interface - Crawl4AI Documentation (v0.9.x)",
+              "domain": "docs.crawl4ai.com",
+              "url": "https://docs.crawl4ai.com/core/cli/",
+              "description": "The Crawl4AI CLI will be installed automatically when you install the library. Basic Usage. The Crawl4AI CLI ( crwl ) provides a simple interface to the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Unknown Command when I enter \"scrapy crawl quotes\"",
+              "domain": "github.com",
+              "url": "https://github.com/scrapy/scrapy/issues/3344",
+              "description": "19.07.2018 — HI I AM NEW TO SCRAPY, AND IM HAVING AN ISSUE. CAN SOMEONE HELP PLEASE? When I enter \"scrapy crawl quotes\" on terminal, it returns \"Unknown ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Command line tool - Scrapy documentation - Read the Docs",
+              "domain": "scrapy2.readthedocs.io",
+              "url": "http://scrapy2.readthedocs.io/en/latest/topics/commands.html",
+              "description": "And you're ready to use the scrapy command to manage and control your project from there. ... Some Scrapy commands (like crawl ) must be run from inside a Scrapy ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "What is a web scraping CLI?",
+              "domain": "www.firecrawl.dev",
+              "url": "https://www.firecrawl.dev/glossary/web-scraping-apis/web-scraping-cli",
+              "description": "03.04.2026 — A web scraping CLI is a command-line tool for running scrape, crawl, and search operations directly from a terminal."
+            }
+          ]
+        },
+        {
+          "name": "CrawlCommand",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "CrawlFactory",
+      "markets": [
+        {
+          "name": "CrawlFactory",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Factory",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 114,
+          "checkUrl": "https://www.google.com/search?q=CrawlFactory&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:39 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Carpet Crawler Tourpack Data II / 2600 Watt",
+              "domain": "smoke-factory.de",
+              "url": "https://smoke-factory.de/produkt/carpet-crawler/",
+              "description": "Der Smoke Factory Carpet Crawler ist ein auf CO2 basierender Nebelkühler, der auf Wunsch auch als einsatzbereite Touringkombo inkl. einer 2600 Watt (Data II) ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "The Claw Factory (@clawfactory102) · Virginia Beach, VA",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/clawfactory102/?hl=de",
+              "description": "3.3K+ followers · 171 posts · Claw machines, capsule toys & nonstop fun ⏰Open Every Day Prizes restocked weekly Tag us: #clawfactory102."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "HOBBYFACTORY NORTHERN FINLAND CRAWL TOUR 2021",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=XI_6Cvyh1Ok",
+              "description": "RC CRAWLING : HOBBYFACTORY NORTHERN FINLAND CRAWL TOUR 2021."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawl & Clay GmbH Nachhaltigkeit & CR",
+              "domain": "www.lifeverde.de",
+              "url": "https://www.lifeverde.de/gruene-unternehmen/nachhaltige-mode/crawl-clay",
+              "description": "Wir produzieren handgefertigte Taschen und Accessoires mit höchster Qualität und Nachhaltigkeit. Unsere Handtaschen, Shopper, Rucksäcke, Portemonnaies und Etuis ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Abandoned Factory Crawling With Scrappers",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/urbanexploration/comments/1gjdiin/abandoned_factory_crawling_with_scrappers/",
+              "description": "In February 2020, police responded to calls of a body that was found inside the factory. It was the body of a scrapper who was attempting to ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Chaotic Factory Shop",
+              "domain": "www.chaoticfactory.de",
+              "url": "https://www.chaoticfactory.de/?srsltid=AfmBOoooqkxvIob1fXsxhZb3Z53cHJmw9f7dR_ZdxtgzQlZOglPDju04",
+              "description": "Lass uns kreativ sein! Entdecke eine riesige Auswahl an liebevoll gestalteten Plotterdateien, Laserdateien, wunderschönen Stoffen und Tüddel & viele weitere ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Smoke Factory Carpet Crawler",
+              "domain": "www.nebelundhaze.de",
+              "url": "https://www.nebelundhaze.de/shop/smokefactory/bodennebel/carpet-crawler/",
+              "description": "Merkmale · Funktion: CO² Fog Cooler · Leistung: 70W · Versorgungsspannung: 230V AC mit PowerCon True 1 · Nebelausstoß: in 3 Stufen regelbar · Nebelzeit: ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Caterpillar crawling mechanism. A) A full crawl starts with ...",
+              "domain": "www.researchgate.net",
+              "url": "https://www.researchgate.net/figure/Caterpillar-crawling-mechanism-A-A-full-crawl-starts-with-the-terminal-prolegs-TP_fig1_390033233",
+              "description": "Caterpillar crawling mechanism. A) A full crawl starts with the terminal prolegs (TP) lifting away from the substrate. Each proleg is lifted and placed ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "13′ Crawlers",
+              "domain": "www.scarefactory.com",
+              "url": "https://www.scarefactory.com/index.php/product/13-crawlers/",
+              "description": "13' Crawlers – character starts in the back lower position and then pulls himself up and forward to get face to face with your guests."
+            }
+          ]
+        },
+        {
+          "name": "CrawlFactory",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawl Factory",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 148,
+          "checkUrl": "https://www.google.com/search?q=CrawlFactory&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:43 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Claw Factory: Claw Machine Arcade in Salem Oregon",
+              "domain": "clawfactory.com",
+              "url": "https://clawfactory.com/",
+              "description": "Claw Factory is Salem Oregon's top claw machine arcade! Win prizes, trade up, and enjoy fun for all ages. Perfect for families, parties, and big wins!"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "The Claw Factory (@clawfactory102) · Virginia Beach, VA",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/clawfactory102/?hl=en",
+              "description": "Claw machines, capsule toys & nonstop fun ⏰Open Every Day Prizes restocked weekly Tag us: #clawfactory102. Follow. Message ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "The Claw Factory | Claw Machines and Gacha in Edmond, OK",
+              "domain": "www.foreverclaw.com",
+              "url": "https://www.foreverclaw.com/",
+              "description": "Looking for things to do in Edmond or OKC? Visit The Claw Factory, where you'll find prizes, games, experiences, and fun for the whole family."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "The Claw Factory Photos",
+              "domain": "www.yelp.com",
+              "url": "https://www.yelp.com/biz/the-claw-factory-virginia-beach",
+              "description": "Super fun! Staff was very helpful and energetic as well! Started off with $10 for 10 coins but quickly went back for more because we were having so much fun! Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Claw Factory | Salem OR",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/ClawFactory/",
+              "description": "Claw Factory – Salem, Oregon Experience ultimate claw machine fun in Salem! 🕹️ Win awesome prizes and enjoy nonstop arcade action with friends & family ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "The Claw Factory Official: Instagram",
+              "domain": "linktr.ee",
+              "url": "https://linktr.ee/jianglinktree11",
+              "description": "Claw Machines & Gacha - Fun For the Whole Family in Edmond, OK! The Claw Factory Instagram. Visit Our Website! The Claw Factory · 3325 S Blvd suite 187, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "The Claw Factory",
+              "domain": "visitedmondok.com",
+              "url": "https://visitedmondok.com/listing/the-claw-factory/821/",
+              "description": "Enjoy a new type of entertainment venue dedicated to providing emotional value to families and creating interactive experiences while winning prizes."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "The Claw Factory - Virginia Beach",
+              "domain": "www.mapquest.com",
+              "url": "https://www.mapquest.com/us/virginia/the-claw-factory-792029687",
+              "description": "The Claw Factory in Virginia Beach, VA, is an arcade that specializes in claw machines and various prizes. Located at 2728 N Mall Dr, Suite 102, ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CrawlNavigator",
+      "markets": [
+        {
+          "name": "CrawlNavigator",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Navigator",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 144,
+          "checkUrl": "https://www.google.com/search?q=CrawlNavigator&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:43:50 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Google: Ausschließliche Navigation per Suche ist schlecht ...",
+              "domain": "www.seo-suedwest.de",
+              "url": "https://www.seo-suedwest.de/3379-google-ausschliessliche-navigation-per-suche-schlecht-fuer-crawlbarkeit.html",
+              "description": "06.02.2018 — Damit Google eine Webseite vollständig crawlen kann, ist die Suchmaschine auf Links hingewiesen. Webseiten ohne vollständiges Menü, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Overview of Google crawlers and fetchers (user agents)",
+              "domain": "developers.google.com",
+              "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/overview-google-crawlers",
+              "description": "12.06.2026 — Overview of Google crawlers and fetchers (user agents). Stay organized with collections Save and categorize content based on your preferences."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Was ist ein Crawler? Und wie hilft Crawling beim SEO?",
+              "domain": "seoeffekt.de",
+              "url": "https://seoeffekt.de/crawling/",
+              "description": "Crawling ist der automatisierte Prozess, bei dem Web-Crawler oder Bots das Internet durchsuchen, um Webseiten zu entdecken und deren Inhalte zu erfassen. Dieser ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Skipping navigations for certain requests",
+              "domain": "crawlee.dev",
+              "url": "https://crawlee.dev/js/docs/examples/skip-navigation",
+              "description": "By combining the Request#skipNavigation option with sendRequest , we can fetch the image from the CDN, and save it to our key-value store without needing to use ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "How to create a crawlable navigation?",
+              "domain": "support.google.com",
+              "url": "https://support.google.com/webmasters/thread/129652020/how-to-create-a-crawlable-navigation?hl=en",
+              "description": "06.10.2021 — How to create a crawlable navigation? On my site the mega nav flyout is part of our header however the navigation menu does not appear in ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "SEO Quick Tip: Crawl Stats in GSC - Overview",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=Utp4eGfPorQ",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Crawl (Computerspiel)",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Crawl_(Computerspiel)",
+              "description": "Crawl ist ein Dungeon-Crawler-Indie-Spiel des australischen Entwicklers Powerhoof. Bis zu vier Spieler und Bots im lokalen Mehrspieler-Modus kämpfen sich ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Crawling-Tipps & Fehler vermeiden",
+              "domain": "wolf-of-seo.de",
+              "url": "https://wolf-of-seo.de/was-ist/crawling/",
+              "description": "26.04.2019 — Crawling (oder Spidering) ist, wenn Google oder eine andere Suchmaschine einen Bot an eine Webseite schickt und die Seite \"liest\"."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "AI Crawl Control",
+              "domain": "www.cloudflare.com",
+              "url": "https://www.cloudflare.com/de-de/ai-crawl-control/",
+              "description": "Sichtbarkeit und Kontrolle für KI-basiertes Content Scraping. KI-Crawler können Webseiten tausende Male für jeden von ihnen gesendeten Verweis durchsuchen."
+            }
+          ]
+        },
+        {
+          "name": "CrawlNavigator",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawl Navigator",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 146,
+          "checkUrl": "https://www.google.com/search?q=CrawlNavigator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:00 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Pub Crawl on Navigator - Royal Caribbean International",
+              "domain": "boards.cruisecritic.com",
+              "url": "https://boards.cruisecritic.com/topic/2251538-pub-crawl-on-navigator/",
+              "description": "Apr 1, 2016 — Hi All: I am organizing a pub crawl on the Navigator of the Seas. I have never done anything like this before and any suggestions would be ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Navigator of the Seas Bar Crawl Checklist PDF",
+              "domain": "www.etsy.com",
+              "url": "https://www.etsy.com/listing/1811124120/navigator-of-the-seas-bar-crawl",
+              "description": "May include: A list of bars on the Navigator of the Seas cruise ship,. zoom image 2 of 2. May ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Crawl Budget Management | Google Crawling Infrastructure",
+              "domain": "developers.google.com",
+              "url": "https://developers.google.com/crawling/docs/crawl-budget",
+              "description": "Jul 22, 2026 — Learn what crawl budget is and how you can optimize Google's crawling of large and frequently updated websites."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "PlaywrightCrawlerOptions | API | Crawlee for JavaScript",
+              "domain": "crawlee.dev",
+              "url": "https://crawlee.dev/js/api/playwright-crawler/interface/PlaywrightCrawlerOptions",
+              "description": "Crawlee helps you build and maintain your crawlers. It's open source, but built by developers who scrape millions of pages every day for a living."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "How to create a crawlable navigation?",
+              "domain": "support.google.com",
+              "url": "https://support.google.com/webmasters/thread/129652020/how-to-create-a-crawlable-navigation?hl=en",
+              "description": "Oct 6, 2021 — How to create a crawlable navigation? On my site the mega nav flyout is part of our header however the navigation menu does not appear in ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Crawl and scan websites - Pope Tech Help Center",
+              "domain": "app.pope.tech",
+              "url": "https://app.pope.tech/help-center/article/crawl-and-scan-websites-for-accessibility-baseline",
+              "description": "Crawling and scanning is how Pope Tech finds the website's webpages (crawling) and then the accessibility results on those pages (scanning). In this article, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Clarification on how nav menus are crawled : r/TechSEO",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/TechSEO/comments/1d24653/clarification_on_how_nav_menus_are_crawled/",
+              "description": "The best way to ensure you'll be crawled is to avoid JS rendering, and you'll be good. So, basically, your statement: No, Google doesn't really ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Crawl Maps - Award-winning Sitemap Visualizations",
+              "domain": "sitebulb.com",
+              "url": "https://sitebulb.com/product/crawl-maps/",
+              "description": "Crawl Maps can help you identify, conceptualize and communicate website architecture patterns, giving you a much clearer perspective on both issues and ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "WaterCrawl - Modern Web Crawling Framework",
+              "domain": "watercrawl.dev",
+              "url": "https://watercrawl.dev/",
+              "description": "From content extraction to AI-powered structuring — no code needed. Crawl any site instantly, enhanced with sitemap and search functionality. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CrawlRoute",
+      "markets": [
+        {
+          "name": "CrawlRoute",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Route",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 111,
+          "checkUrl": "https://www.google.com/search?q=CrawlRoute&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:41 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Pusst Crawl - Radroute",
+              "domain": "www.bikemap.net",
+              "url": "https://www.bikemap.net/de/r/19276948/",
+              "description": "Pusst Crawl - Entfernung: 17,5 km - Aufstieg: 18 m - Ort: Bedford, England, Vereinigtes Königreich."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Crawl Maps - Award-winning Sitemap Visualizations",
+              "domain": "sitebulb.com",
+              "url": "https://sitebulb.com/product/crawl-maps/",
+              "description": "Crawl Maps can help you identify, conceptualize and communicate website architecture patterns, giving you a much clearer perspective on both issues and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Pub Crawl Cologne",
+              "domain": "www.pubcrawlcologne.com",
+              "url": "https://www.pubcrawlcologne.com/",
+              "description": "The best way to experience Cologne's nightlife - meet new people from around the world and enjoy the party of your life."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Pointcrawls",
+              "domain": "thealexandrian.net",
+              "url": "https://thealexandrian.net/wordpress/48666/roleplaying-games/pointcrawls",
+              "description": "12.11.2022 — Pointcrawls are a pretty straightforward scenario structure: You create a map with locations which are connected with paths, forming a node ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "The Crawl Co. – Kreuzberg: Alternative Kneipentour",
+              "domain": "www.getyourguide.com",
+              "url": "https://www.getyourguide.com/de-de/berlin-l17/the-crawl-co-kreuzberg-alternative-kneipentour-t1144962/",
+              "description": "Entdecke das alternative Nachtleben von Kreuzberg. Beginne in einem historischen Pub mit Live-Musik, besuche lokale Bars und Underground-Locations und schließe ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Cressbrook Crawl - 11km Walking Route near ...",
+              "domain": "www.plotaroute.com",
+              "url": "https://www.plotaroute.com/route/6798",
+              "description": "A hilly circular walking route, approximately 6.9 miles long. (0). VIEW ROUTE MAP DOWNLOAD PRINT SHARE/EMBED NAVIGATE EDIT ROUTE."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Alle Crawler Plätze",
+              "domain": "www.rc-strecken.de",
+              "url": "https://www.rc-strecken.de/crawler/",
+              "description": "Alle Crawler Plätze. Crawler Plätze. Vollbild. Partner. Hier werben??? NUR NOCH WENIGE PLÄTZE FREI!!! info@rc-strecken.de. Neueste Beiträge."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Crawlertouren | Crawler Crew Homepage",
+              "domain": "www.crawlercrew.de",
+              "url": "https://www.crawlercrew.de/?page_id=314",
+              "description": "Bitte gib uns eine kurze Beschreibung der Location. Wichtig wären die folgenden Punkte: Parkmöglichkeiten, Dauer, Streckenlänge. Absenden/Send Wird geladen ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "How to Design a Point Crawl Adventure!",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=6-19W2uJwS4",
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "CrawlRoute",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawl Route",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 127,
+          "checkUrl": "https://www.google.com/search?q=CrawlRoute&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:42 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Pub/ bar crawl route?? : r/SaltLakeCity",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/SaltLakeCity/comments/1ipo3xp/pub_bar_crawl_route/",
+              "description": "If you want a walkable and closer together bar crawl in downtown SLC, start at Bar X, walk west to The Red Door, Lake Effect, Beerhive, and just ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Bar Stop Route - Trolley Pub San Antonio",
+              "domain": "trolleypub.com",
+              "url": "https://trolleypub.com/sanantonio/pub-crawl-route/",
+              "description": "Crawl This new route introduces new bars that have popped up in SA! Stops include Box Car, La Roca, and Back Unturned Brewery, or Bentley's."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "St. Pete Pub Crawl Route | Best Downtown Bars & Breweries",
+              "domain": "pedalpubstpete.com",
+              "url": "https://pedalpubstpete.com/new-routes/",
+              "description": "St Pete pub crawl route runs along Central Avenue between 12th Street (the traffic circle) and 31st Street in the Grand Central District."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Bar Crawls: Prague, The Royal Route",
+              "domain": "theeuropeanbarguide.com",
+              "url": "https://theeuropeanbarguide.com/bar-crawls-prague-the-royal-route/",
+              "description": "Walking the Royal Route is generally regarded as the most beautiful sightseeing route in the city of Prague, extraordinary in not only its variety but its ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Self-Guided Tour: Tom's Ultimate Pub Crawl",
+              "domain": "www.lstoptours.com",
+              "url": "https://www.lstoptours.com/self-guided-tours/ultimate-pub-crawl?srsltid=AfmBOope2_lWm-2J2KActCYCQRX-kvPOsdFddfpstp5c30eh4rsWomKT",
+              "description": "Take a look at our Chicago Pub Crawl itinerary and explore eleven pubs, bars, and lounges from five of Chicago's best neighborhoods."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "How to Plan a Pub Crawl | Warren's Beer Adventures",
+              "domain": "www.warrensbeeradventures.com",
+              "url": "https://www.warrensbeeradventures.com/2016/12/16/how-to-plan-a-pub-crawl/",
+              "description": "Dec 16, 2016 — Identify the pubs Select bars that are within walking distance to each other. Google maps offers walking directions with estimated times. ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "The Yard Social Club Ultimate Train Crawl Map",
+              "domain": "yard-social.com",
+              "url": "https://yard-social.com/map/",
+              "description": "Ultimate Train Crawl Map with literally hundreds of bars and venues throughout the Chicago region within walking distance to a weekend Metra route."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Best Bar Crawls NYC: Routes, Neighborhoods & Seasonal ...",
+              "domain": "happy-hour.nyc",
+              "url": "https://happy-hour.nyc/bar-crawls",
+              "description": "The complete NYC bar crawl guide: 3 routes with real bars, the best neighborhoods, and Halloween, Santacon & St. Patrick's Day crawls. Plan it right."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "CrawlSF: San Francisco Pub Crawls and Events",
+              "domain": "crawlsf.com",
+              "url": "https://crawlsf.com/",
+              "description": "Discover the best things to do in San Francisco with CrawlSF. Find events, pub crawls, concerts and more for locals and visitors alike. Join us for a night ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CrawlWorkbench",
+      "markets": [
+        {
+          "name": "CrawlWorkbench",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Workbench",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 10700000,
+          "checkUrl": "https://www.google.com/search?q=CrawlWorkbench&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:55 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "CNC workbench",
+              "domain": "www.bedrunka-hirth.de",
+              "url": "https://www.bedrunka-hirth.de/en-de/products/cnc-storage-and-transport-systems/cnc-workbench",
+              "description": "Mobile CNC workbench · Beech multiplex top, 1250 x 750 x 40 mm (WxDxH) · 7x drawer · Drawers with full pull-out (FP) 100 %, load capacity 100 kg per drawer · Drawer ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Show me your workbench crawler course. : r/SCX24",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/SCX24/comments/1oopcir/show_me_your_workbench_crawler_course/",
+              "description": "Just started on a 4'x8' course in my basement. Before that, I would put random things on the floor in the living room, throw a blanket over the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Wie verwende ich die Workbench? | Help center",
+              "domain": "support.claude.com",
+              "url": "https://support.claude.com/de/articles/8606378-wie-verwende-ich-die-workbench",
+              "description": "16.07.2026 — Die neue Workbench ermöglicht es Entwicklern, Claude-Modelle und API-Funktionen direkt in der Claude Console auszuprobieren, unterstützt aber ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Workbenches for workshops and industry - LISTA",
+              "domain": "www.lista.com",
+              "url": "https://www.lista.com/de_DE/produkte/werkbaenke/werkbaenke",
+              "description": "Flexible and ergonomic workstations for every application. LISTA workbenches stand for high stability, modular flexibility and ergonomic use in everyday work."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "(1) glider workbench",
+              "domain": "forum.freecad.org",
+              "url": "https://forum.freecad.org/viewtopic.php?t=13497",
+              "description": "11.12.2015 — Announcing the glider workbench, a gui for OpenGlider in freecad. Development is still ongoing, but I thought it is time to show the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "RC Crawler Parts Lift Table Lab Plate Jack Scissor Stand ...",
+              "domain": "www.amazon.de",
+              "url": "https://www.amazon.de/-/en/Platform-Workbench-Woodworking-Laboratory-Carpentry/dp/B0GBS26953",
+              "description": "Features: Ensures structural stability and resists vibration. The platform has reliable heat dissipation and is not easily deformed. INSTALLATION Easy to ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Workbench 1700",
+              "domain": "www.koller-celle.com",
+              "url": "https://www.koller-celle.com/de/produkt/workbench-1700/",
+              "description": "The Koller workbenches have been designed to make and break screwed connections with high torques. To accommodate the high torsional forces, the workbenches ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "What workbench setup do you use for rc crawlers?",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/996734047054588/posts/7409207909140471/",
+              "description": "Anybody else have a workbench setup for this wonderful hobby? I got lucky the house I bought came with this bench and vice."
+            }
+          ]
+        },
+        {
+          "name": "CrawlWorkbench",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawl Workbench",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 12400000,
+          "checkUrl": "https://www.google.com/search?q=CrawlWorkbench&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:45 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Mobile tool bench for micro crawler projects",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/2113468955480591/posts/3204624276365048/",
+              "description": "Anybody else got a mobile tool bench set up?? 16 hr work days make for good tinker time."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Simple, Basic DIY Workbench",
+              "domain": "crawlsbackward.blogspot.com",
+              "url": "http://crawlsbackward.blogspot.com/2018/11/simple-basic-diy-workbench.html",
+              "description": "Nov 30, 2018 — With that in mind, I set about building a simple but functional workbench that will serve as an assembly table which I can access from all sides ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Cool Work Bench",
+              "domain": "www.garagejournal.com",
+              "url": "https://www.garagejournal.com/forum/threads/cool-work-bench.114685/",
+              "description": "Aug 24, 2011 — I like the OP's workbench. I get so tired of getting down on my hands and knees to crawl under a workbench and retrieve something. Every ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+              "domain": "www.gladiatorgarageworks.com",
+              "url": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOor5Q-9x1TuzHinRxy_zappGHBUbAg0zL2Ow8NHgj1TKq-Y76ytL",
+              "description": "Find the perfect Gladiator workbench for your garage. Explore durable, adjustable work benches built for repairs, projects, and all your DIY needs."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Scale Workbench 1",
+              "domain": "www.crawlercultrc.com",
+              "url": "https://www.crawlercultrc.com/product/scale-workbench-1",
+              "description": "\"1/10th Scale Bench This tiny bench is where you \" pretend to work\" on your RC crawler while your real-life responsibilities (and that actual pile of ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "DIY Workbench with Floating Shelve. Garage Remodle on a ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=oNQRrEjfS1M",
+              "description": "Building my Dream DIY Workshop with a $100 BUDGET ! Cottage Campers · 219K views ; The Ultimate Outdoorsman's Garage Build Series: Work Bench ..."
+            },
+            {
+              "type": "organic",
+              "rank": 12,
+              "title": "Building a workbench off my basement wall- good idea?",
+              "domain": "www.doityourself.com",
+              "url": "https://www.doityourself.com/forum/basements-attics-crawl-spaces/288609-building-workbench-off-my-basement-wall-good-idea.html",
+              "description": "Dec 27, 2006 — About 6 feet long and 2-3 ft deep. I would attach hinged 4x4 legs on the front side, and hinge the back side of the top off the exposed framing ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 13,
+              "title": "Best Garage Workbenches for 2026, Tested",
+              "domain": "www.caranddriver.com",
+              "url": "https://www.caranddriver.com/car-accessories/g61973465/best-garage-workbenches-tested/",
+              "description": "Apr 13, 2026 — We tested the top garage workbenches. From portable tables to heavy-duty stationary setups, find the perfect bench for your garage here."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IndexCommand",
+      "markets": [
+        {
+          "name": "IndexCommand",
+          "market": "de",
+          "spell": {
+            "keyword": "Index Command",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 128,
+          "checkUrl": "https://www.google.com/search?q=IndexCommand&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:04 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "INDEX function - Excel 2021",
+              "domain": "support.microsoft.com",
+              "url": "https://support.microsoft.com/en-us/excel/functions/index-function",
+              "description": "How to use the INDEX function in Excel to return a value or reference to a value within a table or range."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "INDEX command",
+              "domain": "help.highbond.com",
+              "url": "https://help.highbond.com/helpdocs/analytics/141/scripting-guide/en-us/Content/lang_ref/commands/r_index.htm",
+              "description": "Creates an index for an Analytics table that allows access to the records in a sequential order rather than a physical order. Syntax. INDEX <ON> {key_field ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "INDEX",
+              "domain": "support.microsoft.com",
+              "url": "https://support.microsoft.com/de-de/excel/functions/index-function",
+              "description": "Die INDEX-Funktion gibt einen Wert oder den Bezug auf einen Wert aus einer Tabelle oder einem Bereich zurück. Die INDEX-Funktion kann auf zwei Arten verwendet ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Excel INDEX function",
+              "domain": "exceljet.net",
+              "url": "https://exceljet.net/functions/index-function",
+              "description": "30.08.2024 — The Excel INDEX function returns the value at a given location in a range or array. You can use INDEX to retrieve individual values, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "How INDEX and MATCH work? : r/excel",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/excel/comments/uigb2g/how_index_and_match_work/",
+              "description": "Need explained how to use INDEX and MATCH in a very simplified version. I keep trying to use these formulas and I am unsuccessful. I think maybe if it's ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "INDEX and MATCH Function in Excel",
+              "domain": "www.geeksforgeeks.org",
+              "url": "https://www.geeksforgeeks.org/excel/index-and-match-function-in-excel/",
+              "description": "11.06.2026 — The MATCH function is commonly used with INDEX to find a row or column number, allowing precise data retrieval. MATCH identifies the position of ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "index",
+              "domain": "pubs.opengroup.org",
+              "url": "https://pubs.opengroup.org/onlinepubs/009604499/functions/index.html",
+              "description": "The strchr() function is preferred over this function. For maximum portability, it is recommended to replace the function call to index() as follows:"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "INDEX - Google Docs Editors Help",
+              "domain": "support.google.com",
+              "url": "https://support.google.com/docs/answer/3098242?hl=en",
+              "description": "Returns the cell(s) found by index value into the referenced range. Sample Usage. INDEX(A1:C20, 5, 1). Syntax. INDEX(reference, [row], [column])."
+            }
+          ]
+        },
+        {
+          "name": "IndexCommand",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "KeywordPlane",
+      "markets": [
+        {
+          "name": "KeywordPlane",
+          "market": "de",
+          "spell": {
+            "keyword": "Keyword Plane",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 149,
+          "checkUrl": "https://www.google.com/search?q=KeywordPlane&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:21 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Google Ads Keyword Planner",
+              "domain": "ads.google.com",
+              "url": "https://ads.google.com/aw/keywordplanner/home",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Research Keywords for Campaigns with Keyword Planner",
+              "domain": "business.google.com",
+              "url": "https://business.google.com/en-all/ad-tools/keyword-planner/",
+              "description": "With Keyword Planner, you can get keyword ideas, suggestions on how to better set up the ad groups in your campaign, see how keywords might perform, and choose ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Use Keyword Planner - Google Ads Help",
+              "domain": "support.google.com",
+              "url": "https://support.google.com/google-ads/answer/7337243?hl=en",
+              "description": "You can use the Google Keyword Planner tool to discover new keywords related to your business and view estimates of the searches they receive and the cost to ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Google Keyword Planner: Funktionen und Nutzen",
+              "domain": "www.haufe-akademie.de",
+              "url": "https://www.haufe-akademie.de/blog/glossar/keyword-planner/",
+              "description": "Der Google Keyword Planner hilft, relevante Keywords zu finden und deren Suchvolumen und Wettbewerb zu analysieren, um die Inhalte und SEO-Strategien einer ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Keyword (Research) Tool ⚠️ Plan Google Keywords【FREE】",
+              "domain": "keywordtool.io",
+              "url": "https://keywordtool.io/",
+              "description": "Keyword Tool is a free online keyword research instrument that uses Google Autocomplete to generate hundreds of relevant long-tail keywords for any topic."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Google Keyword Planer für Keyword-Recherchen nutzen",
+              "domain": "www.luna-park.de",
+              "url": "https://www.luna-park.de/blog/5881-google-adwords-keyword-planer-2/",
+              "description": "29.06.2026 — Kurz erklärt: Der Keyword-Planer ist das Keyword-Recherche-Tool in der Google Ads Oberfläche. Er unterstützt euch dabei, Keyword-Ideen zu ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Google Ads Keyword Planner erklärt",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=QfxuTisDfkg",
+              "description": "Standort präzise einstellen (Stadt, PLZ) · Keywords mit Ortsangabe priorisieren · Regionale Varianten testen · Filter nutzen um überregionale ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Google Keyword Planner: So nutzen Sie ihn optimal",
+              "domain": "blog.hubspot.de",
+              "url": "https://blog.hubspot.de/marketing/keyword-planner",
+              "description": "26.02.2020 — Erfahren Sie, wie Sie das volle Potenzial des Keyword Planner ausschöpfen und welche Alternativen Sie in Betracht ziehen können."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Keyword Planner: Discover 5000+ Keywords with Search ...",
+              "domain": "keywordplanner.net",
+              "url": "https://keywordplanner.net/",
+              "description": "Keyword Planner uses Google, YouTube & Amazon auto-complete APIs to generate thousands of long-tail keywords in seconds, along with monthly search volume ..."
+            }
+          ]
+        },
+        {
+          "name": "KeywordPlane",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "MetricConsole",
+      "markets": [
+        {
+          "name": "MetricConsole",
+          "market": "de",
+          "spell": {
+            "keyword": "Metric Console",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 4130,
+          "checkUrl": "https://www.google.com/search?q=MetricConsole&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:19 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "What does the automated performance metric \"console ...",
+              "domain": "pubmed.ncbi.nlm.nih.gov",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41324791/",
+              "description": "von K Kobayashi · 2025 — Console time reflects procedural complexity and operative intensity in raMVR. As an automated, objective metric, it may serve as a valuable tool ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "What does the automated performance metric “console time ...",
+              "domain": "link.springer.com",
+              "url": "https://link.springer.com/article/10.1007/s11701-025-03002-z",
+              "description": "von K Kobayashi · 2025 — Console time is one of the automated performance metrics (APM) recorded by the robot software during robotic cardiac surgery."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "ok http metric console reporter output",
+              "domain": "gist.github.com",
+              "url": "https://gist.github.com/mwiede/c082106651eccacb3b720a8b83ba5109",
+              "description": "ok http metric console reporter output. GitHub Gist: instantly share code, notes, and snippets."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "What does the automated performance metric “console ...",
+              "domain": "www.researchgate.net",
+              "url": "https://www.researchgate.net/publication/398191768_What_does_the_automated_performance_metric_console_time_tell_in_robotically_assisted_mitral_valve_repair",
+              "description": "Console time is one of the automated performance metrics (APM) recorded by the robot software during robotic cardiac surgery. Little is known about what ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "EXM 886-PL1604MCO Metric Console Plinth",
+              "domain": "www.gordonelectricsupply.com",
+              "url": "https://www.gordonelectricsupply.com/p/Exm-886-Pl1604Mco-Mtrc-Cnsl-Plinth/6197084?srsltid=AfmBOoqpyd68mGp56hlT5kPcVLbWtMNiouFUq7OnBpSJuT-9sEWC_EIe",
+              "description": "Retail Price: $693.54 / ea. Your Price: $390.00 / ea. Availability: EXM orders over $275 usually ship in 1-2 business days,otherwise 1-2 Weeks."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "UniversalConnectionPoolManag...",
+              "domain": "javadoc.io",
+              "url": "https://javadoc.io/doc/com.oracle.database.jdbc/ojdbc8/12.2.0.1/oracle/ucp/admin/UniversalConnectionPoolManagerHelper.html",
+              "description": "Changes the pool mapping for the provided pool in UniversalConnectionPoolManager Object. void, setMetricConsole(oracle.dms.console.DMSConsole metricConsole)."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "METRICA console table by MOGG",
+              "domain": "www.mavarreda.it",
+              "url": "https://www.mavarreda.it/eng/console-metrica.html",
+              "description": "Metrica by MOGG is a metal console table available in titanium, burnished, and gold finishes with transparent glass shelves available in bronze or green."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "threadCheck ❘ cc",
+              "domain": "www.zoller.info",
+              "url": "https://www.zoller.info/produkte/pruefen-messen/universal-messmaschinen/threadcheckcc",
+              "description": "Durch die intelligente Kombination aus Bildverarbeitungstechnologie, CNC-Achsen und Messtaster können alle wichtigen Parameter vollautomatisch gemessen werden."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Scubapro 3 Gauge Inline Metric Console",
+              "domain": "www.ubuy.qa",
+              "url": "https://www.ubuy.qa/en/product/1ZA5VULY-scubapro-3-gauge-inline-metric-console",
+              "description": "The clear and easy-to-read gauges enhance visibility underwater, making it simple for divers to monitor their vital stats at a glance, ensuring they can focus ..."
+            }
+          ]
+        },
+        {
+          "name": "MetricConsole",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "QueryNavigator",
+      "markets": [
+        {
+          "name": "QueryNavigator",
+          "market": "de",
+          "spell": {
+            "keyword": "Query Navigator",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 124,
+          "checkUrl": "https://www.google.com/search?q=QueryNavigator&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:06 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Verwalten der Navigation für Power Query-Connectoren",
+              "domain": "learn.microsoft.com",
+              "url": "https://learn.microsoft.com/de-de/power-query/handling-navigation-tables",
+              "description": "13.07.2026 — Navigationstabellen (oder Nav-Tabellen) sind ein zentraler Bestandteil der Bereitstellung einer benutzerfreundlichen Erfahrung für Ihren ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Power BI/Power Query : Navigator icons meaning : r/PowerBI",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/PowerBI/comments/1rtjzri/power_bipower_query_navigator_icons_meaning/",
+              "description": "So when we navigate to our data, there's icons next to each item. It's kind of evident in my example that blue header indicates an Excel Table, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Verwenden von Power Query zum Transformieren von Daten",
+              "domain": "learn.microsoft.com",
+              "url": "https://learn.microsoft.com/de-de/power-query/power-query-ui",
+              "description": "20.08.2026 — Mit Power Query können Sie eine Verbindung mit vielen verschiedenen Datenquellen herstellen und die Daten in das gewünschte Shape umwandeln."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "The Navigation Step in Power Query and Power BI",
+              "domain": "www.thepoweruser.com",
+              "url": "https://www.thepoweruser.com/the-navigation-step-in-power-query-and-power-bi-navigating-to-rows-columns-and-cells/",
+              "description": "09.04.2018 — This is one of the ways that Power Query automatically creates a navigation step, but there are other ways to achieve the same result and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Eine Datenquelle für alle Power Query Abfragen - thinkBI",
+              "domain": "www.thinkbi.de",
+              "url": "https://www.thinkbi.de/2019/09/10/eine-datenquelle-fur-alle-power-query-abfragen/",
+              "description": "10.09.2019 — Dieser Best Practice Beitrag beschreibt, wie Sie in Power Query alle Abfragen, auf eine Datenquelle, über eine Verbindung erstellen."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Server-Navigator",
+              "domain": "sqldatalens.com",
+              "url": "https://sqldatalens.com/de/features/navigator/",
+              "description": "23.08.2026 — Der Server Navigator zeigt alle Schemas im Baum, also sind alle drei Customer -Tabellen sichtbar, keine versteckt, und ihr vollständig ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Power Query ganz leicht erklärt!",
+              "domain": "excelhero.de",
+              "url": "https://excelhero.de/power-query/power-query-ganz-einfach-erklaert/",
+              "description": "Mit Power-Query kannst du nicht nur Daten in einzelnen Arbeitsmappen, CSV-Dateien, Textdateien usw. abrufen, sondern auch ganze Ordner abfragen. Das bedeutet, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Einführung - Power Query",
+              "domain": "powerquery.io",
+              "url": "https://powerquery.io/de/",
+              "description": "Diese Website dient als Referenz für Power Query-Funktionen und bietet schnellen und direkten Zugang zu detaillierten Informationen und praktischen Beispielen ..."
+            }
+          ]
+        },
+        {
+          "name": "QueryNavigator",
+          "market": "us",
+          "spell": {
+            "keyword": "Query Navigator",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 139,
+          "checkUrl": "https://www.google.com/search?q=QueryNavigator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:17 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Handling navigation for Power Query connectors",
+              "domain": "learn.microsoft.com",
+              "url": "https://learn.microsoft.com/en-us/power-query/handling-navigation-tables",
+              "description": "Jul 13, 2026 — Navigation Tables (or nav tables) are a core part of providing a user-friendly experience for your connector. The Power Query experience ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Power BI/Power Query : Navigator icons meaning : r/PowerBI",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/PowerBI/comments/1rtjzri/power_bipower_query_navigator_icons_meaning/",
+              "description": "So when we navigate to our data, there's icons next to each item. It's kind of evident in my example that blue header indicates an Excel Table, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "The Navigation Step in Power Query and Power BI",
+              "domain": "www.thepoweruser.com",
+              "url": "https://www.thepoweruser.com/the-navigation-step-in-power-query-and-power-bi-navigating-to-rows-columns-and-cells/",
+              "description": "Apr 9, 2018 — This is one of the ways that Power Query automatically creates a navigation step, but there are other ways to achieve the same result and ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Use Power Query to Transform Data",
+              "domain": "learn.microsoft.com",
+              "url": "https://learn.microsoft.com/en-us/power-query/power-query-ui",
+              "description": "Aug 20, 2026 — Learn how to connect to data, transform it, and navigate the Power Query editor user interface."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Power BI Desktop Tutorial | Harnessing the Navigator Window ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=G4mz8Dpg7I0",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Execute a Query - erwin",
+              "domain": "bookshelf.erwin.com",
+              "url": "https://bookshelf.erwin.com/bookshelf/public_html/12.1/Content/User%20Guides/Navigator%20Edition%20Online%20Help/Execute_a_Query.html",
+              "description": "Execute a Query. You can execute a new or saved query against the model or against a database catalog. Use the following process to execute a query:. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "What is a Navigational Query?",
+              "domain": "rankmath.com",
+              "url": "https://rankmath.com/seo-glossary/navigational-query/",
+              "description": "A navigational query is a search query used by visitors heading to a particular site or webpage. It is used by visitors who want to find a website or online ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Creating a Power Query function browser – #powerbi",
+              "domain": "eriksvensen.wordpress.com",
+              "url": "https://eriksvensen.wordpress.com/2018/12/28/creating-a-power-query-function-browser-powerbi/",
+              "description": "Dec 28, 2018 — And when creating functions I prefer to create a query that works and then turn it into a function so let's dig in – and the navigator ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VisibilityPlane",
+      "markets": [
+        {
+          "name": "VisibilityPlane",
+          "market": "de",
+          "spell": {
+            "keyword": "Visibility Plane",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 126,
+          "checkUrl": "https://www.google.com/search?q=VisibilityPlane&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:44:46 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Visibility | SKYbrary Aviation Safety",
+              "domain": "skybrary.aero",
+              "url": "https://skybrary.aero/articles/visibility",
+              "description": "Visibility is a measure of the distance at which an object or light can be clearly discerned. Visibility may vary according to the direction and angle of view, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "How did my plane land in no visibility conditions and ...",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/fearofflying/comments/1qtkh3u/how_did_my_plane_land_in_no_visibility_conditions/",
+              "description": "I just landed in a city with A LOT of fog. There was 0 visibility during landing. Could see absolutely no buildings no green. How did the pilot know ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Aviation - Hazards - Low Visibility and Low Cloud",
+              "domain": "community.wmo.int",
+              "url": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/aviation/aviation-hazards-low-visibility-and-low-cloud",
+              "description": "Fog seriously degrades visibility to such a degree that landing may be impossible. Only the most sophisticated of aircraft (Civil Airliners/military aircraft) ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "How Much Visibility is Required to Take Off & Land Aircraft",
+              "domain": "www.buddhaair.com",
+              "url": "https://www.buddhaair.com/blog/visibility-required-for-taking-off-and-landing-an-aircraft",
+              "description": "14.02.2025 — The minimum flight visibility required for takeoff is generally 400 meters while landing visibility can range from 800 meters to 3,000 meters, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Why can a plane land in zero visibility conditions but not ...",
+              "domain": "aviation.stackexchange.com",
+              "url": "https://aviation.stackexchange.com/questions/46273/why-can-a-plane-land-in-zero-visibility-conditions-but-not-take-off-in-zero-visi",
+              "description": "02.12.2017 — After waiting hours for a flight departure delayed because of heavy fog, I wonder why planes can perform an instrument landing with no visibility, but ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "V - Pilot/Controller Glossary",
+              "domain": "www.faa.gov",
+              "url": "https://www.faa.gov/air_traffic/publications/atpubs/pcg_html/glossary-v.html",
+              "description": "VISIBILITY - The ability, as determined by atmospheric conditions and expressed in units of distance, to see and identify prominent unlighted objects by day and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Can Planes Land in Fog",
+              "domain": "www.flightdeckfriend.com",
+              "url": "https://www.flightdeckfriend.com/ask-a-pilot/can-planes-land-in-fog",
+              "description": "For the pilots to manually conduct the landing, the outside visibility must be a minimum of 550 metres and the cloud base must allow the pilots to see the ..."
+            }
+          ]
+        },
+        {
+          "name": "VisibilityPlane",
+          "market": "us",
+          "spell": {
+            "keyword": "Visibility Plane",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 122,
+          "checkUrl": "https://www.google.com/search?q=VisibilityPlane&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:44:47 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "How did my plane land in no visibility conditions and ...",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/fearofflying/comments/1qtkh3u/how_did_my_plane_land_in_no_visibility_conditions/",
+              "description": "I just landed in a city with A LOT of fog. There was 0 visibility during landing. Could see absolutely no buildings no green. How did the pilot know ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Visibility | SKYbrary Aviation Safety",
+              "domain": "skybrary.aero",
+              "url": "https://skybrary.aero/articles/visibility",
+              "description": "Visibility is a measure of the distance at which an object or light can be clearly discerned. Visibility may vary according to the direction and angle of view, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "V - Pilot/Controller Glossary",
+              "domain": "www.faa.gov",
+              "url": "https://www.faa.gov/air_traffic/publications/atpubs/pcg_html/glossary-v.html",
+              "description": "VISIBILITY - The ability, as determined by atmospheric conditions and expressed in units of distance, to see and identify prominent unlighted objects by day and ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Aviation - Hazards - Low Visibility and Low Cloud",
+              "domain": "community.wmo.int",
+              "url": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/aviation/aviation-hazards-low-visibility-and-low-cloud",
+              "description": "For aviation purposes, it is a condition that the horizontal visibility due to such phenomena is reduced to less than 1000 m."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "How Much Visibility Is Needed to Land a Plane?",
+              "domain": "www.icarusjet.com",
+              "url": "https://www.icarusjet.com/trip-support/how-much-visibility-is-needed-to-land-a-plane/",
+              "description": "They need to particularly stay at least 500 feet below, 1,000 feet above, and 2,000 feet away lateral from clouds. This helps keep their visual range clear. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Why can a plane land in zero visibility conditions but not ...",
+              "domain": "aviation.stackexchange.com",
+              "url": "https://aviation.stackexchange.com/questions/46273/why-can-a-plane-land-in-zero-visibility-conditions-but-not-take-off-in-zero-visi",
+              "description": "Dec 2, 2017 — After waiting hours for a flight departure delayed because of heavy fog, I wonder why planes can perform an instrument landing with no visibility, but ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "How Much Visibility is Required to Take Off & Land Aircraft",
+              "domain": "www.buddhaair.com",
+              "url": "https://www.buddhaair.com/blog/visibility-required-for-taking-off-and-landing-an-aircraft",
+              "description": "Feb 14, 2025 — The minimum flight visibility required for takeoff is generally 400 meters while landing visibility can range from 800 meters to 3,000 meters, ... Read more"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

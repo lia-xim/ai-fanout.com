@@ -1,0 +1,2877 @@
+{
+  "generatedAt": "2026-09-01T17:43:05.448Z",
+  "methodology": {
+    "endpoint": "serp/google/organic/live/advanced",
+    "markets": [
+      {
+        "id": "de",
+        "locationCode": 2276,
+        "languageCode": "de"
+      },
+      {
+        "id": "us",
+        "locationCode": 2840,
+        "languageCode": "en"
+      }
+    ],
+    "depth": 10,
+    "paidAddOns": false,
+    "estimatedCostUsd": 0.088,
+    "actualCostUsd": 0.06600000000000004,
+    "note": "Evidence export only. No automatic score, grade, or recommendation."
+  },
+  "combined": [
+    {
+      "name": "Auditmetry",
+      "markets": [
+        {
+          "name": "Auditmetry",
+          "market": "de",
+          "spell": {
+            "keyword": "Audiometry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 125,
+          "checkUrl": "https://www.google.com/search?q=Auditmetry&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:34 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Audiometrie",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Audiometrie",
+              "description": "Mit Audiometrie werden Verfahren bezeichnet, die Eigenschaften und Parameter des Gehörs vermessen. Sie dienen der Diagnose der Hörleistung und Erkrankungen ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Understanding Audiometry and Audiograms",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=acYMy9b0F2A",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Automated Audiometry: A Review of the Implementation and ...",
+              "domain": "pmc.ncbi.nlm.nih.gov",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6230538/",
+              "description": "von H Shojaeemend · 2018 · Zitiert von: 55 — The results showed that the automated audiometry is a stable, accurate, and time efficient method to evaluate the hearing status of adults with normal hearing ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Audiometry: MedlinePlus Medical Encyclopedia",
+              "domain": "medlineplus.gov",
+              "url": "https://medlineplus.gov/ency/article/003341.htm",
+              "description": "02.05.2024 — An audiometry exam tests your ability to hear sounds. Sounds vary, based on their loudness (intensity) and the speed of sound wave ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Pure Tone Audiometry: An Introduction",
+              "domain": "www.interacoustics.com",
+              "url": "https://www.interacoustics.com/academy/audiometry-training/pure-tone-audiometry/pure-tone-audiometry-introduction",
+              "description": "18.01.2024 — Pure tone audiometry is a behavioral hearing test used to detect an individual's hearing threshold levels, allowing hearing care professionals ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Audiometry",
+              "domain": "zerotofinals.com",
+              "url": "https://zerotofinals.com/surgery/ent/audiometry/",
+              "description": "Audiometry involves testing a patient's hearing by playing a variety of tones and volumes using headphones (air conduction) and a bone conduction device ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "DELETE - Audiology Pure-Tone Testing",
+              "domain": "emedicine.medscape.com",
+              "url": "https://emedicine.medscape.com/article/1822962-overview",
+              "description": "28.09.2023 — Pure-tone audiometry is a behavioral test used to measure hearing sensitivity. This measure involves the peripheral and central auditory ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Audiometry Test, Hearing Test",
+              "domain": "mayfieldclinic.com",
+              "url": "https://mayfieldclinic.com/pe-hearing.htm",
+              "description": "Overview. An audiometry evaluation is a painless, noninvasive hearing test that measures a person's ability to hear different sounds, pitches, or frequencies."
+            }
+          ]
+        },
+        {
+          "name": "Auditmetry",
+          "market": "us",
+          "spell": {
+            "keyword": "Audiometry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 123,
+          "checkUrl": "https://www.google.com/search?q=Auditmetry&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:42:34 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Audiometry: MedlinePlus Medical Encyclopedia",
+              "domain": "medlineplus.gov",
+              "url": "https://medlineplus.gov/ency/article/003341.htm",
+              "description": "May 2, 2024 — An audiometry exam tests your ability to hear sounds. Sounds vary, based on their loudness (intensity) and the speed of sound wave vibrations ( ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Audiometry - Clinical Methods - NCBI Bookshelf - NIH",
+              "domain": "www.ncbi.nlm.nih.gov",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK239/",
+              "description": "Audiometry consists of tests of function of the hearing mechanism. This includes tests of mechanical sound transmission (middle ear function), neural sound ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Hearing Tests | Audiometry and Audiogram | Colorado",
+              "domain": "www.uchealth.org",
+              "url": "https://www.uchealth.org/services/hearing-tests/",
+              "description": "Hearing tests (audiometry) determine how loud a sound needs to be at different frequencies for you to hear it. An audiogram shows results."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Audiometry Interpretation for Hearing Loss in Adults | AFP",
+              "domain": "www.aafp.org",
+              "url": "https://www.aafp.org/afp/2024/0400/audiometry-hearing-loss",
+              "description": "by M Sehgal · 2024 · Cited by 4 — Comprehensive audiometry includes air and bone testing to distinguish between conductive, sensorineural, and mixed hearing loss paired with tympanometry,"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Understanding Audiometry and Audiograms",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=acYMy9b0F2A",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Audiometry Test, Hearing Test",
+              "domain": "mayfieldclinic.com",
+              "url": "https://mayfieldclinic.com/pe-hearing.htm",
+              "description": "An audiometry evaluation is a painless, noninvasive hearing test that measures a person's ability to hear different sounds, pitches, or frequencies."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Pure Tone Audiometry: An Introduction",
+              "domain": "www.interacoustics.com",
+              "url": "https://www.interacoustics.com/academy/audiometry-training/pure-tone-audiometry/pure-tone-audiometry-introduction",
+              "description": "Jan 18, 2024 — Pure tone audiometry is a behavioral hearing test used to detect an individual's hearing threshold levels, allowing hearing care professionals ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "DELETE - Audiology Pure-Tone Testing",
+              "domain": "emedicine.medscape.com",
+              "url": "https://emedicine.medscape.com/article/1822962-overview",
+              "description": "Sep 28, 2023 — Pure-tone audiometry is a behavioral test used to measure hearing sensitivity. This measure involves the peripheral and central auditory ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawlarium",
+      "markets": [
+        {
+          "name": "Crawlarium",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 2250,
+          "checkUrl": "https://www.google.com/search?q=Crawlarium&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:36 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Crawlarium Canada's menu",
+              "domain": "crawlariumcanada.com",
+              "url": "https://crawlariumcanada.com/",
+              "description": "Crawlarium Canada's menu. Home · Place an Order · Tarantulas · Slings and Juvenile · Females · Males · True Spiders · Scorpions."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Crawlarium Canada (@TropicalOddities)",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/",
+              "description": "Crawlarium Canada is an online delivery service, bringing you exotic pets and supplies across Eastern Ontario. We offer the widest selection of exotics pets ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Deutschlands größtes Kaltwasser-Aquarium",
+              "domain": "www.naturagart.de",
+              "url": "https://www.naturagart.de/NaturaGart-Park/NaturaGart-Aquarium/?srsltid=AfmBOorn8SDM9guQupRwpqeS9ssmtEputpyGD4vYiJn5g13_k5aqZp0s",
+              "description": "Teich-Aquarium. 1.000 m² große Unterwasserlandschaft mit ca. 700.000 Liter Wasser in einer Höhlenlandschaft. Mehr Info · Fische im Aquarium. Fische im Aquarium."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Terrarium Krabben",
+              "domain": "www.garnelio.de",
+              "url": "https://www.garnelio.de/wirbellose-co./krabben/terrarium-krabben/",
+              "description": "Diese Mangrovenkrabben leben semiterrestrisch, das heißt, sie brauchen alle einen großen Wasserteil von mindestens 50% im Aquaterrarium sowie einen Landteil, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "#tortugaterraristik #terrarium #reptilien #terraristika #saarbrücken",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61574891552451/posts/tortugaterraristik-terrarium-reptilien-terraristika-saarbr%C3%BCcken/122187112484829718/",
+              "description": "# terrarium #reptilesofinstagram #vogelspinne #saarbrücken #saarbrigge · Kerth Reptiles · Terraristikbörse Saar · Reptile Cowboy · Crawlarium Canada."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Meeresaquarium – Willkommen",
+              "domain": "www.meeresaquarium-zella-mehlis.de",
+              "url": "https://www.meeresaquarium-zella-mehlis.de/",
+              "description": "Erleben Sie die faszinierende Unterwasserwelt tropischer Ozeane und lassen Sie sich von der beeindruckenden Vielfalt an Korallen, Seeanemonen, Reptilien, Haien ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Terrarium V1 - 60x60x100cm",
+              "domain": "shop.marinesystems.de",
+              "url": "https://shop.marinesystems.de/bausaetze-terrarien/bauart-v1/terrarium-v1-60x60x100cm.html",
+              "description": "Terrarium der Bauart V1 - 60x60x100cm (B x T x H) mit Boden und Lichtblende rundum. Wir liefern das Terrarium kpl. mit 4mm Schiebetürprofile vorne rundum in ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Aquarium, Sportklettern",
+              "domain": "www.thecrag.com",
+              "url": "https://www.thecrag.com/de/klettern/switzerland/alpen/glarner-alpen/area/2763820281",
+              "description": "Hört, seht und staunt - alles in allem warten hier 120 Pause-Touren! DAS ultimative Werk für Extremkletterer und für alle die von den ganz großen Kletterrouten ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Finde das perfekte Terrarium & Zubehör",
+              "domain": "www.ms-reptilien.de",
+              "url": "https://www.ms-reptilien.de/en/equipment/terrariums-containers/",
+              "description": "Terrarium kaufen für Schlangen, Chamäleons & mehr. Entdecke Holzterrarien, Glasterrarien, Komplettsets & Zubehör für dein Reptil bei MS-Reptilien."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Here we are! Come see us at the International Center for the ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/videos/here-we-arecome-see-us-at-the-international-center-for-the-canadian-reptile-expo/3505922379584306/",
+              "description": "Crawlarium Canada. May 31, 2026· 󰟠. 󳄫. Here we are! Come see us at the International Center for the Canadian Reptile Expos Lots of arachnids ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawlarium",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 127,
+          "checkUrl": "https://www.google.com/search?q=Crawlarium&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:37 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Crawlarium Canada's menu",
+              "domain": "crawlariumcanada.com",
+              "url": "https://crawlariumcanada.com/",
+              "description": "Our Next Expo Come see us at the Canadian Pet Expo Mississauga International Center September 19th and 20th We have been stocking up for this one."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Crawlarium Canada (@TropicalOddities)",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/",
+              "description": "Crawlarium Canada is an online delivery service, bringing you exotic pets and supplies across Eastern Ontario. We offer the widest selection of exotics pets ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Here we are! Come see us at the International Center for the ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/videos/here-we-arecome-see-us-at-the-international-center-for-the-canadian-reptile-expo/3505922379584306/",
+              "description": "Here we are! Come see us at the International Center for the Canadian Reptile Expos Lots of arachnids, amphibians and reptiles to check out."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Crawlarium Canada",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TropicalOddities/photos/new-product-at-crawlarium-canadawe-now-carry-these-convenient-and-fully-loaded-k/1127729632714633/",
+              "description": "New product at Crawlarium Canada! We now carry these convenient and fully loaded kits for your special critters. Great for arboreals and the ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Reptilian Arts",
+              "domain": "reptilianarts.com",
+              "url": "https://reptilianarts.com/?srsltid=AfmBOoozaI_8Vha_sJt3R8_VSC2E6pjqz3fP-4qfZEMOOeI5XRVzwVmz",
+              "description": "Reptilian Arts is a pet supply company that produces and sells reptiles and feeder insects. We carry a large variety of reptile supplies, isopods, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Cold Blooded & Bizarre: Home",
+              "domain": "www.coldbloodedandbizarre.com",
+              "url": "https://www.coldbloodedandbizarre.com/",
+              "description": "At Cold Blooded & Bizarre, we offer a unique and exciting way to experience the world of reptiles. Our professional handlers provide various options for parties ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Habitat Décor",
+              "domain": "us.amazon.com",
+              "url": "https://us.amazon.com/gp/new-releases/pet-supplies/2975510011",
+              "description": "Crested Gecko Tank Accessories, Hanging Moss Hideout with Climbing Ladder & Suction Cup, Reptile Terrarium Decor Moss Cave Habitat Accessories for Leopard ... Read more"
+            },
+            {
+              "type": "knowledge_graph",
+              "rank": 1,
+              "title": "Crawlarium Canada",
+              "domain": null,
+              "url": "http://crawlariumcanada.com/",
+              "description": "From Crawlarium Canada \"Crawlarium Canada offers quality pets, feeding supplies and are always here for advice!\n\nAfter years of supplying vendors and local stores with our own quality reptiles, along with many other unusual creatures, we are proud to start serving the... More"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CrawlDrive",
+      "markets": [
+        {
+          "name": "CrawlDrive",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Drive",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 111,
+          "checkUrl": "https://www.google.com/search?q=CrawlDrive&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:02 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Part 18: Google Drive Crawl - Fess - CodeLibs Project",
+              "domain": "fess.codelibs.org",
+              "url": "https://fess.codelibs.org/articles/18/document.html",
+              "description": "In order to crawl Google Drive content, you need to enable the Google Drive API and obtain your credentials. First, create a project and enable the API ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "CRAWL The Hardcore Offroad Magazine",
+              "domain": "www.sfwda.org",
+              "url": "https://www.sfwda.org/crawl",
+              "description": "We bring you coverage of the best events, products, and wheeling in the US and around the world. Read about CRAWL rig projects, get tech know-how from INDUSTRY ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawl Restrictions",
+              "domain": "docs.glean.com",
+              "url": "https://docs.glean.com/connectors/native/gdrive/restrictions",
+              "description": "13.08.2026 — Supported exclusion and inclusion rules for Google Drive to allow you to manage what data is crawled by Glean."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Crawl ratio",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Crawl_ratio",
+              "description": "In off-road driving, crawl ratio is the lowest overall gear ratio that a vehicle's drivetrain is capable of, i.e. the slowest vehicle speed for the same engine ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "How to crawl through Google drive files using elastic search",
+              "domain": "stackoverflow.com",
+              "url": "https://stackoverflow.com/questions/49851202/how-to-crawl-through-google-drive-files-using-elastic-search",
+              "description": "I want to crawl and index Google drive files using elastic search from my Google account, I also want to know can we crawl and index public Google drive ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Google Drive External Content Connector Requires Root ...",
+              "domain": "support.servicenow.com",
+              "url": "https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152736",
+              "description": "1. Create a dedicated root folder in Google Drive containing the documents that need to be crawled into ServiceNow · 2. Navigate to the Crawl Settings ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Google Drive",
+              "domain": "accounts.google.com",
+              "url": "https://accounts.google.com/Login?hl=de&service=writely&lp=1",
+              "description": "Erstellen und teilen Sie Ihre Arbeit online und greifen Sie von überall aus auf Ihre Dokumente zu. Verwalten Sie Dokumente, Tabellen, Präsentationen, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "What is Toyota Crawl Control?",
+              "domain": "www.jdpower.com",
+              "url": "https://www.jdpower.com/cars/shopping-guides/what-is-toyota-crawl-control",
+              "description": "06.07.2021 — Toyota's Crawl Control system uses sensors to judge driving conditions and adjusts the vehicle's operation to meet them. This includes ..."
+            }
+          ]
+        },
+        {
+          "name": "CrawlDrive",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "CrawlFoundry",
+      "markets": [
+        {
+          "name": "CrawlFoundry",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "CrawlFoundry",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawl Foundry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 128,
+          "checkUrl": "https://www.google.com/search?q=CrawlFoundry&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:02 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Hex Crawling on Foundry...But is this Method Efficient?",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/FoundryVTT/comments/11ruo9n/hex_crawling_on_foundrybut_is_this_method/",
+              "description": "I'm developing a Hex Crawl map of an upcoming 5e campaign/world setting. For each Hex that is traveled into and added to the overall map I have an actor ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Space Wars Text Crawl",
+              "domain": "foundryvtt.com",
+              "url": "https://foundryvtt.com/packages/swtextcrawl",
+              "description": "Crawl An Add-on Module for Foundry Virtual Tabletop. Creates a text crawl via a journal entry that can shared to players."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Foundry VTT Archives - Goodman Games Store",
+              "domain": "goodman-games.com",
+              "url": "https://goodman-games.com/store/product-category/foundry-vtt/?srsltid=AfmBOopjLRFIDcKDuUaKrdeIW9IqxEMHXO_j-jvGEcR8sLRrejygkx5m",
+              "description": "Dungeon Crawl Classics #72: Beyond the Black Gate - Adventure for FoundryVTT ... Dungeon Crawl Classics #79.5: Tower of the Black Pearl – Module for Foundry VTT. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Foundry VTT Tip #23: Hex Crawl",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=EoaBaCMypYc",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "foundryvtt-dcc/dcc-crawl-classes",
+              "domain": "github.com",
+              "url": "https://github.com/algnc/dcc-crawl-classes",
+              "description": "Crawl sheets for Dungeon Crawl Classics in Foundry VTT. Expands the Dungeon Crawl Classics system for the Foundry Virtual Tabletop to include Crawl! class ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Dungeon Crawl Classics (DCC) | FoundryVTT.store",
+              "domain": "www.foundryvtt.store",
+              "url": "https://www.foundryvtt.store/systems/dcc",
+              "description": "Dungeon Crawl Classics (DCC) RPG from Goodman Games. A Level 6 adventure for the Dungeon Crawl Classics RPG. $ 6.99$ 5.59 … dcc $ 6.99 On Sale Now!"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Shadowdark Crawl Helper",
+              "domain": "foundryvtt.com",
+              "url": "https://foundryvtt.com/packages/shadowdark-crawl-helper",
+              "description": "Crawl Helper streamlines dungeon crawling and combat transitions in your Shadowdark RPG games on Foundry VTT. Designed to support both structured exploration ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Space Wars Text Crawl",
+              "domain": "www.foundryvtt-hub.com",
+              "url": "https://www.foundryvtt-hub.com/package/swtextcrawl/",
+              "description": "Creates a text crawl via a journal entry that can shared to players. You can install this package directly to your Forge account. Foundry Hub is a fan-operated ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawlistry",
+      "markets": [
+        {
+          "name": "Crawlistry",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawltistry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1330,
+          "checkUrl": "https://www.google.com/search?q=Crawlistry&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:35 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Creepy Crawlies (I Can Draw) : Longhurst, Terry",
+              "domain": "www.amazon.de",
+              "url": "https://www.amazon.de/Creepy-Crawlies-I-Can-Draw/dp/0752548972",
+              "description": "Neu kaufen. 67,99€67,99€. Lieferung für 3€ 7. - 11. September. Details. Gewöhnlich versandfertig in 3 bis 4 Tagen. Versender / Verkäufer. Paper Cavalier ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "CREEPY CRAWLY - Deutscher Trailer",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=_NejaKXhYLo",
+              "description": "CREEPY CRAWLY - Ab 31.10.2024 als DVD, VoD und limitiertes Mediabook DVD kaufen*: https://amzn.to/3Ar3JS6 limitiertes Mediabook kaufen*: ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "CREEPY CRAWLY (2022) | Filmkritik",
+              "domain": "www.thrillandkill.com",
+              "url": "https://www.thrillandkill.com/review/review-creepy-crawly-2022/",
+              "description": "09.11.2024 — Der Film spielt in einem thailändischen Hotel, das unter Quarantäne steht. Mundschutz ist Pflicht und jeder muss auf seinem Zimmer bleiben, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Creepy Crawly (2022)",
+              "domain": "www.imdb.com",
+              "url": "https://www.imdb.com/de/title/tt22479478/",
+              "description": "The film starts off with a suspenseful \"who goes there style mystery\" in which a creature reminiscent of The Thing stalks guests at a hotel. The plot gets ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Creepy Crawly - Film 2022",
+              "domain": "www.filmstarts.de",
+              "url": "https://www.filmstarts.de/kritiken/1000009337.html",
+              "description": "Ein Hotel in Bangkok, einige Monate nach Beginn des COVID-19-Lockdowns im Jahr 2020: Zu den hier unter Quarantäne gehaltenen Personen zählen so ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Creepy Crawlies (feat. Laurent Dury)",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/track/3RhRoArVuqzZDTyYjjjWPu",
+              "description": "Listen to Creepy Crawlies (feat. Laurent Dury) on Spotify. Song · VideoHelper, Laurent Dury · 2015."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "CRAWLY",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/@crawly_possessed",
+              "description": "Share your videos with friends, family, and the world."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "I'm A Creepy Crawly - Season 1",
+              "domain": "www.primevideo.com",
+              "url": "https://www.primevideo.com/detail/0SBS9CO051EWFDWAE9EOAFRC0I?tr=gb&jic=16%7CCgNhbGwSA2FsbA%3D%3D&ref_=atv_dp_amz_c_TS8274d9_1_7",
+              "description": "Creepy Crawlies are slimy, stingy little pests. Or so we all think, but they've got a thing or two to say about that! Each episode stars a different insect, ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawlistry",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "CrawlLayer",
+      "markets": [
+        {
+          "name": "CrawlLayer",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawler",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 193,
+          "checkUrl": "https://www.google.com/search?q=CrawlLayer&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:13 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Modelle - Crawler",
+              "domain": "www.crawlercaravans.com",
+              "url": "https://www.crawlercaravans.com/de/modelle/modelle",
+              "description": "Modelle · 15189.jpeg. CRAWLER Crawler ARK140 42.235,49 USD · 15657.jpeg. CRAWLER Crawler BATU 535i Desert Edition 91.004,65 USD · CRAWLER Crawler Öffentliche ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Webcrawler",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Webcrawler",
+              "description": "Ein Webcrawler (auch Spider, Searchbot oder Robot) ist ein Computerprogramm, das automatisch das World Wide Web durchsucht und Webseiten analysiert."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "RC Crawler & Rock Racer | RC Autos & Zubehör",
+              "domain": "www.modellbau-profi.de",
+              "url": "https://www.modellbau-profi.de/RC-Autos-Zubehoer/RC-Crawler-Rock-Racer.htm?a=catalog&p=5329",
+              "description": "Robitronic Electronic Ges.m.b.H.. Artikel-Nr.: 199YK41011A. 219,00 EUR. inkl. MwSt.und zzgl. Versand · zu den Details · Yikong 41011 Crawler 4WD ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "RC Crawler und Scale RC Cars",
+              "domain": "www.bullet-rc.de",
+              "url": "https://www.bullet-rc.de/rc-fahrzeuge/rc-crawler.html",
+              "description": "Wenn Sie eine technischere und herausforderndere Form des RC-Car-Fahrens bevorzugen, dann möchten Sie vielleicht die Welt des Crawlern erkunden."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "RC Crawler online kaufen für Scale & Trail",
+              "domain": "www.speedcontrolparts.de",
+              "url": "https://www.speedcontrolparts.de/Fahrzeuge/RC-Autos/Crawler/?srsltid=AfmBOoqX4ftIDZt-_tEHD4Rc9FWQWW9ow4qETM42UTY7ms6t39isaHjh",
+              "description": "RC Crawler stehen für präzises Fahren, hohe Verschränkung, starke Geländegängigkeit und maximalen Fahrspaß im technischen Terrain. Wenn du einen RC Crawler ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Forum - Rockcrawler.de",
+              "domain": "www.rockcrawler.de",
+              "url": "https://www.rockcrawler.de/wcf/board-list/",
+              "description": "Mehrachser und Offroad (Trial) LKW Keine Scale Tamiya, Robbe, Wedico, LKW, diese bitte hier posten. Themen: 1,1k. Beiträge: 89k. Letzte Beiträge."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Crawler einfach erklärt – Was ist ein Webcrawler?",
+              "domain": "www.ionos.de",
+              "url": "https://www.ionos.de/digitalguide/online-marketing/suchmaschinenmarketing/was-ist-ein-crawler/",
+              "description": "01.07.2025 — Crawler sind Bots, die das Internet nach Daten durchsuchen. Sie analysieren Inhalte und legen Informationen in Datenbanken und Indexen an, um ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Crawler 1:24 - RC Car - Automodelle",
+              "domain": "www.modellbau-jung.de",
+              "url": "https://www.modellbau-jung.de/RC-Car-Automodelle/Crawler/Crawler-1-24.htm?a=catalog&p=1029&srsltid=AfmBOorJmnD29uv4DpRfzI3M2TdR3dxC38IPQv1Hznm3qPiJudjzlyiZ",
+              "description": "inkl. MwSt. und zzgl. Versand. Stück. FMS FCX24 Power Wagon Mud-Racer 1:24 gelb - RTR 2.4GHz. FMS FCX24 Power Wagon Mud- ..."
+            },
+            {
+              "type": "organic",
+              "rank": 12,
+              "title": "COMP+TECH Crawler",
+              "domain": "www.crawlster.de",
+              "url": "https://www.crawlster.de/rtr-crawler/comp-tech-crawler/",
+              "description": "Sportliche Crawler mit niedrigem Schwerpunkt für Competition- und Technisches Crawling in schwierigem Gelände. UDIRC UCX24 PRO – SNOW LEOPARD – Brushless RTR ..."
+            }
+          ]
+        },
+        {
+          "name": "CrawlLayer",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawler",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 193,
+          "checkUrl": "https://www.google.com/search?q=CrawlLayer&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:13 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Web crawler",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Web_crawler",
+              "description": "A web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Overview of Google crawlers and fetchers (user agents)",
+              "domain": "developers.google.com",
+              "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/overview-google-crawlers",
+              "description": "Jun 12, 2026 — Crawler (sometimes also called a \"robot\" or \"spider\") is a generic term for any program that is used to automatically discover and scan websites ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawlee · Build reliable crawlers. Fast.",
+              "domain": "crawlee.dev",
+              "url": "https://crawlee.dev/",
+              "description": "Crawlee is a web scraping library for JavaScript and Python. It handles blocking, crawling, proxies, and browsers for you."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "CRAWLER Definition & Meaning",
+              "domain": "www.merriam-webster.com",
+              "url": "https://www.merriam-webster.com/dictionary/crawler",
+              "description": "Aug 16, 2026 — The meaning of CRAWLER is someone or something that crawls. a small organism (such as an insect or worm) that typically moves along close to or ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "What Is a Web Crawler? | How Do Crawlers Work?",
+              "domain": "www.akamai.com",
+              "url": "https://www.akamai.com/glossary/what-is-a-web-crawler",
+              "description": "A web crawler is an automated program or bot that systematically searches websites and indexes the content on them. Primarily used to index pages for search ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "ELI5- What are web crawlers and what are they used for",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/explainlikeimfive/comments/1cj58cl/eli5_what_are_web_crawlers_and_what_are_they_used/",
+              "description": "A crawler is a software that methodically follows links on web sites to collect some information. If the goal is to build a search engine , it ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "What is a Google Crawler?",
+              "domain": "www.seoptimer.com",
+              "url": "https://www.seoptimer.com/blog/what-is-a-google-crawler/",
+              "description": "May 7, 2025 — Google's crawlers are like little digital robots that visit websites and collect information about those sites."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Crawler | HAProxy Technologies Glossary",
+              "domain": "www.haproxy.com",
+              "url": "https://www.haproxy.com/glossary/what-is-a-crawler",
+              "description": "A crawler — also called a \"web crawler\" or a \"spider\" — is an automated bot made and configured to inspect web pages for a specific purpose. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawllytics",
+      "markets": [
+        {
+          "name": "Crawllytics",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "Crawllytics",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "Crawllytix",
+      "markets": [
+        {
+          "name": "Crawllytix",
+          "market": "de",
+          "spell": {
+            "keyword": "Brawlytix",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 100,
+          "checkUrl": "https://www.google.com/search?q=Crawllytix&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:43:01 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Brawlytix - Brawl Stars Analytics, Profiles and Stats",
+              "domain": "brawlytix.com",
+              "url": "https://brawlytix.com/",
+              "description": "The most accurate live Brawl Stars analytics, meta tracker, and profile stats. Explore advanced statistics about the best and most used brawlers, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Brawlytix",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/brawlytix/?hl=de",
+              "description": "1.7K+ followers · 4 following · 31 posts · @brawlytix: “The most accurate live Brawl Stars analytics. Always know the meta!”"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "u/Brawlytix",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/user/Brawlytix/",
+              "description": "u/Brawlytix: The most accurate live Brawl Stars analytics. Always know the meta! Official account. https://brawlytix.com."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Brawlytix",
+              "domain": "x.com",
+              "url": "https://x.com/Brawlytix?lang=de",
+              "description": "Trusted by the pros, the most accurate live Brawl Stars analytics. Always know the meta! Code: Chosen. brawlytix.com · Joined March 2025 · 5. Following · 11.4 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Brawl Ace: Brawl Stars, Clash Royale and Clash of Clans Stats",
+              "domain": "brawlace.com",
+              "url": "https://brawlace.com/",
+              "description": "Discover accurate statistics for profiles, clubs, clans, rankings, daily meta in Brawl Stars, Clash Royale and Clash of Clans."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Best brawlers for every game mode  Stats by @brawlytix # ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DVuBpU_EZLz/?hl=de",
+              "description": "Best brawlers for every game mode ⭐️ Stats by @ brawlytix · #brawlstars · View all 73 comments · qwertyuiop10973rd. Im ass with him. mateo."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Ist brawlytix akkurat? : r/BrawlStarsCompetitive",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/BrawlStarsCompetitive/comments/1otmrln/is_brawlytix_accurate/?tl=de",
+              "description": "Wenn die Brawl Stars API so funktioniert, wie sie früher funktionierte, besteht der Datensatz nur aus Spielern, die brawlytix schon mal benutzt ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawllytix",
+          "market": "us",
+          "spell": {
+            "keyword": "Brawlytix",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 0,
+          "checkUrl": "https://www.google.com/search?q=Crawllytix&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:43:02 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Brawlytix - Brawl Stars Analytics, Profiles and Stats",
+              "domain": "brawlytix.com",
+              "url": "https://brawlytix.com/",
+              "description": "The most accurate Brawl Stars analytics. Track the meta, discover the best brawlers, view player stats, and climb exclusive leaderboards you won't find anywhere ..."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Brawlytix",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/brawlytix/?hl=en",
+              "description": "1.7K+ followers · 4 following · 31 posts · @brawlytix: “The most accurate live Brawl Stars analytics. Always know the meta!”"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Brawlytix",
+              "domain": "x.com",
+              "url": "https://x.com/Brawlytix?lang=en",
+              "description": "Trusted by the pros, the most accurate live Brawl Stars analytics. Always know the meta! Brawlers Popularity Ranked in Brawl Ball!"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "u/Brawlytix",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/user/Brawlytix/",
+              "description": "u/Brawlytix: The most accurate live Brawl Stars analytics. Always know the meta! Official account. https://brawlytix.com."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Brawl Ace: Brawl Stars, Clash Royale and Clash of Clans Stats",
+              "domain": "brawlace.com",
+              "url": "https://brawlace.com/",
+              "description": "Discover accurate statistics for profiles, clubs, clans, rankings, daily meta in Brawl Stars, Clash Royale and Clash of Clans."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Best brawlers for every game mode  Stats by @brawlytix # ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DVuBpU_EZLz/?hl=en",
+              "description": "Best brawlers for every game mode ⭐️ Stats by @brawlytix. BEST BRAWLERS IN BRAWL STARS! These Brawlers 💀#brawlstars"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Is brawlytix accurate? : r/BrawlStarsCompetitive",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/BrawlStarsCompetitive/comments/1otmrln/is_brawlytix_accurate/",
+              "description": "And I am not talking about their meta scores, just everything else like win rates and use rates, I am gonna make a post and use them as them as a source ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawlmetry",
+      "markets": [
+        {
+          "name": "Crawlmetry",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Metry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 412,
+          "checkUrl": "https://www.google.com/search?q=Crawlmetry&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:20 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "GitHub - vivekchand/clawmetry",
+              "domain": "github.com",
+              "url": "https://github.com/vivekchand/clawmetry",
+              "description": "vor 5 Tagen — ClawMetry reads local session files and logs. No session data leaves your box unless you run clawmetry connect — no prompts, replies, tool ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Common Crawl - Open Repository of Web Crawl Data",
+              "domain": "commoncrawl.org",
+              "url": "https://commoncrawl.org/",
+              "description": "Common Crawl maintains a free, open repository of web crawl data that can be used by anyone. · Common Crawl is a 501(c)(3) non–profit founded in 2007. · Over 300 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Bathymetrie",
+              "domain": "www.awi.de",
+              "url": "https://www.awi.de/forschung/geowissenschaften/geophysik/methoden-und-werkzeuge/bathymetrie.html",
+              "description": "Unter Bathymetrie versteht man die Messung von Wassertiefen. Heutzutage werden diese Messungen mit Echoloten durchgeführt. Diese senden akustische Signale aus, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Common Crawl Checker: Kann eine Domain Teil von KI ...",
+              "domain": "tinyweb.com",
+              "url": "https://tinyweb.com/common-crawl-checker/",
+              "description": "Mit unserem Common Crawl Checker kannst du schnell prüfen, ob eine Website aktuell oder historisch in den Web-Archiven von Common Crawl auftaucht – ein ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Website Crawler: Online Spider to Test URLs for Errors",
+              "domain": "sitechecker.pro",
+              "url": "https://sitechecker.pro/website-crawler/",
+              "description": "Online crawler tool (spider ) to test the whole website and specific pages for broken links and redirects, duplicate content, and indexing issues."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Website Crawler: Online Crawling, Audit and Data Extraction",
+              "domain": "www.websitecrawler.org",
+              "url": "https://www.websitecrawler.org/",
+              "description": "Website Crawler is a SaaS (Software as a Service) platform that crawls and analyzes web pages in real-time, detecting technical issues that are hard to find ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "ClawMetry: Real-time observability & governance for AI ...",
+              "domain": "www.producthunt.com",
+              "url": "https://www.producthunt.com/products/clawmetry",
+              "description": "ClawMetry is a observability & governance layer for 21+ AI agent runtime s. It observes Claude Code, Codex, Cursor, Antigravity, Grok, Goose, OpenCode, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Website-Crawler — Onpage-Check online - Rankmio",
+              "domain": "rankmio.de",
+              "url": "https://rankmio.de/seo-tools/website-crawler",
+              "description": "Er besucht eine URL wie ein Suchmaschinen-Bot und erfasst HTTP-Status, Title, Meta-Description, H1, Bilder, Schema-Markup und interne Links. Damit findest du ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "3. Bathymetry & Boundary Conditions",
+              "domain": "tsunami-642cd7.gitpages.uni-jena.de",
+              "url": "https://tsunami-642cd7.gitpages.uni-jena.de/chapters/03_bathymetry_boundary_conditions.html",
+              "description": "3.1. Einleitung  . Erweiterung des 1D-Lösers aus Finite Volume Discretization um Bathymetrie, Wet-Dry-Randbedingungen und einen ersten Tsunami-Lauf entlang der ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawlmetry",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 1960,
+          "checkUrl": "https://www.google.com/search?q=Crawlmetry&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:22 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "GitHub - vivekchand/clawmetry",
+              "domain": "github.com",
+              "url": "https://github.com/vivekchand/clawmetry",
+              "description": "5 days ago — ClawMetry reads local session files and logs. No session data leaves your box unless you run clawmetry connect — no prompts, replies, tool ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Website Crawler: Online Spider to Test URLs for Errors",
+              "domain": "sitechecker.pro",
+              "url": "https://sitechecker.pro/website-crawler/",
+              "description": "Online crawler tool (spider ) to test the whole website and specific pages for broken links and redirects, duplicate content, and indexing issues."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Free Website Crawl Test: What Googlebot Sees",
+              "domain": "seomator.com",
+              "url": "https://seomator.com/website-crawl-test",
+              "description": "Check whether Google and Bing may index your URL, then see the page exactly as Googlebot receives it — before JavaScript runs. Free, no signup, no account."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Website Crawler: Online Crawling, Audit and Data Extraction",
+              "domain": "www.websitecrawler.org",
+              "url": "https://www.websitecrawler.org/",
+              "description": "Crawler is a SaaS (Software as a Service) platform that crawls and analyzes web pages in real-time, detecting technical issues that are hard to find manually."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "What is Bathymetry? (AD) | U.S. Geological Survey",
+              "domain": "www.usgs.gov",
+              "url": "https://www.usgs.gov/media/videos/what-bathymetry-ad",
+              "description": "Bathymetry is the science of measuring the depth of water in ocean, river and lake environments."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "CMAP Reveal Ultra-High Resolution Bathymetric Chart",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=EwvHvthxhm8",
+              "description": "From extreme detailed views of the sea floor to high-res bathymetric data, custom depth shading and satellite imagery, it's all in there – at ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Altmetric: Reveal online attention to research",
+              "domain": "www.altmetric.com",
+              "url": "https://www.altmetric.com/",
+              "description": "Altmetric tracks and analyzes online attention markers to published research to see where research is making a difference."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "ClawMetry: Real-time observability & governance for AI ...",
+              "domain": "www.producthunt.com",
+              "url": "https://www.producthunt.com/products/clawmetry",
+              "description": "ClawMetry is a observability & governance layer for 21+ AI agent runtime s. It observes Claude Code, Codex, Cursor, Antigravity, Grok, Goose, OpenCode, ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawlplex",
+      "markets": [
+        {
+          "name": "Crawlplex",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Plex",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 9970000,
+          "checkUrl": "https://www.google.com/search?q=Crawlplex&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:53 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Where to Watch Crawl (2019) Full Movie Free Online",
+              "domain": "watch.plex.tv",
+              "url": "https://watch.plex.tv/movie/crawl-2019",
+              "description": "Where to Watch Crawl · On DemandRent $3.99Buy $14.99 · Apple TVBuy $14.99 · Amazon VideoBuy $14.99 · Paramount Plus via YouTubeSubscription · +8 more · Cast of ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Go pro with Plex Media Server.",
+              "domain": "www.plex.tv",
+              "url": "https://www.plex.tv/de/your-media/",
+              "description": "Just download our free and easy-to-use media server software where you store your files (usually a computer or external hard drive), and watch as it ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Does plex crawl to a halt for you when refreshing metadata ...",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/PleX/comments/hyg76p/does_plex_crawl_to_a_halt_for_you_when_refreshing/",
+              "description": "I've been having an issue for the past 6 months or so where my Plex library would slow to an unbearable crawl when scanning libraries, or ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Discover",
+              "domain": "www.plex.tv",
+              "url": "https://www.plex.tv/de/discover/",
+              "description": "Finde heraus, was auf deinen Streaming-Diensten läuft, teile deine Merkliste, gib Bewertungen ab, kommentiere und vieles mehr – das ist alles mit Plex möglich."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Plex: Films, TV, musique",
+              "domain": "play.google.com",
+              "url": "https://play.google.com/store/apps/details?id=com.plexapp.android&hl=de",
+              "description": "Streame gratis Unterhaltung und genieße Hunderte von Filmen in voller Länge und aus jedem Genre: Actionfilme, Anime-Filme, Horrorfilme, Kinderfilme, Dramen, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Watch Crawl (2011) Full Movie Online",
+              "domain": "watch.plex.tv",
+              "url": "https://watch.plex.tv/de/movie/crawl",
+              "description": "15.10.2011 — Where to watch Crawl (2011) starring Lauren Dillon, George Shevtsov, Paul Holmes and directed by Paul China. Stream Crawl online today!"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Media Library with Plex: How to Install, Set Up, and Use Plex",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=v7ybnVTw_7A",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Plex Media Server – Herunterladen und Installieren ...",
+              "domain": "apps.microsoft.com",
+              "url": "https://apps.microsoft.com/detail/xpfm11z0w10r7g?hl=de-DE&gl=DE",
+              "description": "Description Plex is the key to personal media bliss. Once you download our free and easy-to-use software where you store your files (usually a computer or ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Crawl (2019)",
+              "domain": "www.ofdb.de",
+              "url": "https://www.ofdb.de/film/325216,Crawl/",
+              "description": "08.05.2019 — Crawl (2019). Als ein Hurrikan der Kategorie 5 über Florida ... Plex 3,99 $ JustWatch TV 3,99 $ Google Play Movies 3,99 $ YouTube 3 ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawlplex",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawl Plex",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 454,
+          "checkUrl": "https://www.google.com/search?q=Crawlplex&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:59 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Fresno Crawlplex (@fresnocrawlplex)",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/fresnocrawlplex/",
+              "description": "The biggest 18/24 scale crawl course in the Valley ! Only at Hobbytown Fresno! Support local, shop local."
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Fresno Crawlplex",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/291489287271060/",
+              "description": "Conveniently located inside of Hobbytown Fresno. We are the largest premier 1/24 + 1/18 scale rock crawling course in the San Joaquin Valley. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "The Crawl Space: Scale RC Crawler Hobby Shop | RC Drift ...",
+              "domain": "www.thecrawlspaceco.com",
+              "url": "https://www.thecrawlspaceco.com/",
+              "description": "Find the best selection of scale RC crawlers and RC drift cars at our hobby shop. 4920 N Iris St Wheat Ridge, CO 80033. Call or Text 303-396-5532"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Crawler Park US: crawlerpark.us",
+              "domain": "crawlerpark.us",
+              "url": "https://crawlerpark.us/",
+              "description": "We're pioneers in designing obstacle kits and tracks for 1/24 and 1/18 RC Crawlers, applying real 4x4 competition experience to bring you adrenaline, challenge ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "I put a RC Crawler Course in my Garage!",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=TNMedhlmnZE",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "CRAWLING | RC HOBBY NOOK",
+              "domain": "www.rchobbynook.com",
+              "url": "https://www.rchobbynook.com/crawling",
+              "description": "Track fee on crawl night is $20, to practice any day but Saturday is $15. We also offer a 30 day practice membership for $60."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Thursdays are all about crawling! Join us in Nor-Cal Rocks with ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/NorCalHobbiesCA/videos/thursdays-are-all-about-crawling-join-us-in-nor-cal-rocks-with-res-concepts-from/1304841794854325/",
+              "description": "A tour of a hobby shop highlights its extensive indoor RC crawler course and various remote-controlled products. The video captures the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "MountainBlox Realistic, Modular, Portable, RC Crawler ...",
+              "domain": "www.mountainblox.com",
+              "url": "https://www.mountainblox.com/",
+              "description": "The ultimate indoor RC mini-crawler course, MountainBlox is a fully modular, portable and realistic crawling course designed for 1/18th and 1/24th scale RC ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawlterra",
+      "markets": [
+        {
+          "name": "Crawlterra",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 450,
+          "checkUrl": "https://www.google.com/search?q=Crawlterra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:48 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "crawlster®KITs – 4x4 BAUKÄSTEN",
+              "domain": "www.crawlster.de",
+              "url": "https://www.crawlster.de/crawler-kits/",
+              "description": "ACHTUNG: Bausätze, elektr. Komponenten und Hochleistungs-Crawler sind nicht geeignet für Kinder unter 14 Jahren. Benutzung nur unter Aufsicht von Erwachsenen."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Web crawler",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Web_crawler",
+              "description": "A web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web and that ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Tuba Skinny - \"Alligator Crawl\" - Terra Blues 8/19/14",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=ZRLfaJBUlls",
+              "description": "Tuba Skinny - \"Alligator Crawl\" - Terra Blues 8/19/14 - MORE at DIGITALALEXA channel. @digitalalexa41 likes3K views11 years ago more."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawler Terrain",
+              "domain": "www.crawlerterrain.com",
+              "url": "https://www.crawlerterrain.com/?srsltid=AfmBOorhmiF2PPyuMPCVodSjIyOvh94ScaxQI0zwqUZAMRtj-LdDMCRz",
+              "description": "Designed with distinct tile patterns, this system unlocks endless possibilities to create, expand, and customize your terrain—crafted to inspire every terrain ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "AllTerra Deutschland - Vermessungstechnik & Baulösungen",
+              "domain": "allterra.de",
+              "url": "https://allterra.de/",
+              "description": "Ein starker Technologiepartner für die Vermessungs- und Baubranche · Vermessung / GIS · Tief- und Straßenbau · Hochbau · Planung & Bauleitung · Tunnelbau · Rail."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "1/10 Scalecrawler Strecke mit wurzeln nähe Plänkners ...",
+              "domain": "www.bergfex.de",
+              "url": "https://www.bergfex.de/sommer/thueringen/touren/offroad/2664858,1-10-scalecrawler-strecke-mit-wurzeln-naehe-plaenkners-aussicht/",
+              "description": "05.11.2023 — Dies ist keine Wanderung! Eine schöne kurze Strecke für 1/10 RC Crawler oder scaler, welche bequem von der Straße zu erreichen ist."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Die weltgrößte, gemeinschaftlich gepflegte Kletter",
+              "domain": "www.thecrag.com",
+              "url": "https://www.thecrag.com/de/home",
+              "description": "Willkommen auf der größten, gemeinschaftlich gepflegten Kletter- und Boulderplattform. 203,066; Gebiete. 1,481,367; Routen. 5,057,316; Begehungen."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "GUN CRAWL Terra Force figure Upgrades",
+              "domain": "cardboard-warriors.proboards.com",
+              "url": "https://cardboard-warriors.proboards.com/thread/1457/crawl-terra-force-figure-upgrades",
+              "description": "16.08.2009 — All of Floyski's recolored, beveled and shaded versions of the Terra Force and Stalker miniatures have been updated at RPGnow."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "What Is a Web Crawler? | How Web Spiders Work",
+              "domain": "www.cloudflare.com",
+              "url": "https://www.cloudflare.com/learning/bots/what-is-a-web-crawler/",
+              "description": "A web crawler, spider, or search engine bot is a software program that accesses, downloads, and/or indexes content from all over the Internet. Web crawler ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawlterra",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawltrack",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 82200,
+          "checkUrl": "https://www.google.com/search?q=Crawlterra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:46 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Tuba Skinny - \"Alligator Crawl\" - Terra Blues 8/19/14",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=ZRLfaJBUlls",
+              "description": "For info on the band and to buy their music go to www.tubaskinny.tk. Tuba Skinny - \"Alligator Crawl \" - Terra Blues 8/19/14. Jazz Hound Tuba ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "GUN CRAWL Terra Force figure Upgrades",
+              "domain": "cardboard-warriors.proboards.com",
+              "url": "https://cardboard-warriors.proboards.com/thread/1457/crawl-terra-force-figure-upgrades",
+              "description": "Aug 16, 2009 — All of Floyski's recolored, beveled and shaded versions of the Terra Force and Stalker miniatures have been updated at RPGnow. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Web crawler",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Web_crawler",
+              "description": "A web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "What Is a Web Crawler? | How Web Spiders Work",
+              "domain": "www.cloudflare.com",
+              "url": "https://www.cloudflare.com/learning/bots/what-is-a-web-crawler/",
+              "description": "A web crawler, spider, or search engine bot is a software program that accesses, downloads, and/or indexes content from all over the Internet. Web crawler ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Crawler - Barotrauma Wiki - Fandom",
+              "domain": "barotrauma.fandom.com",
+              "url": "https://barotrauma.fandom.com/wiki/Crawler",
+              "description": "Crawlers are the second weakest creature in game, only behind the Hammerhead Spawns. Crawlers have a total of 65 HP, are vulnerable to bleeding damage, and don' ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Website Crawler: Online Crawling, Audit and Data Extraction",
+              "domain": "www.websitecrawler.org",
+              "url": "https://www.websitecrawler.org/",
+              "description": "Crawler is a SaaS (Software as a Service) platform that crawls and analyzes web pages in real-time, detecting technical issues that are hard to find manually."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Crawl (@crawl_official) • Instagram photos and videos",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/crawl_official/?hl=en",
+              "description": "July 11th 2026 marks Crawl's 15th year of existence. In observance of this, I am running a preorder of two returning tshirt designs."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Crawler in voyager - Rust",
+              "domain": "docs.rs",
+              "url": "https://docs.rs/voyager/latest/voyager/struct.Crawler.html",
+              "description": "The crawler that is responsible for driving the requests to completion and providing the crawl response for the Scraper . Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Xcrawl Classics RPG: #001 - The Crawl Formerly Known ...",
+              "domain": "www.ebay.com",
+              "url": "https://www.ebay.com/itm/236566825528",
+              "description": "Xcrawl Classics RPG: #001 - The Crawl Formerly Known as Terror on the Tundra ; Quantity. 1 sold. 1 available ; Item number. 236566825528 ; ISBN. 9781958809853. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawlvera",
+      "markets": [
+        {
+          "name": "Crawlvera",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl4ai",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 412,
+          "checkUrl": "https://www.google.com/search?q=Crawlvera&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:44 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Crawl on Steam",
+              "domain": "store.steampowered.com",
+              "url": "https://store.steampowered.com/app/293780/Crawl/",
+              "description": "Crawl is the local multiplayer dungeon crawler where your friends control the monsters! Battle through dungeons and power up your hero - if a friend kills you ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Crawl (Computerspiel)",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Crawl_(Computerspiel)",
+              "description": "Crawl ist ein Dungeon-Crawler-Indie-Spiel des australischen Entwicklers Powerhoof. Bis zu vier Spieler und Bots im lokalen Mehrspieler-Modus kämpfen sich durch ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper",
+              "domain": "github.com",
+              "url": "https://github.com/unclecode/crawl4AI",
+              "description": "Reliable, large-scale web extraction, now built to be drastically more cost-effective than any of the existing solutions. Apply here for early access"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Home - Crawl4AI Documentation (v0.9.x)",
+              "domain": "docs.crawl4ai.com",
+              "url": "https://docs.crawl4ai.com/",
+              "description": "It delivers blazing-fast, AI-ready web crawling tailored for large language models, AI agents, and data pipelines. Fully open source, flexible, and built for ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Crawl (Horror Game) by Sole Rift - itch.io",
+              "domain": "sole-rift.itch.io",
+              "url": "https://sole-rift.itch.io/crawl",
+              "description": "Crawl is a short (max. for 20 minutes) horror game, where you need to crawl through tight cave spaces, and take photos of people that \"went missing\" there."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Crawl Wiki | Fandom",
+              "domain": "crawl.fandom.com",
+              "url": "https://crawl.fandom.com/wiki/Crawl_Wiki",
+              "description": "Crawl Wiki is a community site that anyone can contribute to. Discover, share and add your knowledge! Trending articles. Deities. Deities. Deities Bosses."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Pub Crawl – Vera Playa – Year Round Naturism",
+              "domain": "www.veraplayanaturist.com",
+              "url": "https://www.veraplayanaturist.com/2022/04/28/pub-crawl/",
+              "description": "28.04.2022 — The walk from Zone 3 to Zone 4 (or vice versa) is a bit long but worth it. It also gives you a chance to “walk it off” a bit as you continue ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "What is Crawl and why I think you should try it out, helpful ...",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/NintendoSwitch/comments/7ng62f/what_is_crawl_and_why_i_think_you_should_try_it/",
+              "description": "So what is Crawl? Crawl is a 2D dungeon crawler created by PowerHoof Studios where you defeat monsters, buy items, weapons, and find the ..."
+            }
+          ]
+        },
+        {
+          "name": "Crawlvera",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "Crawlverse",
+      "markets": [
+        {
+          "name": "Crawlverse",
+          "market": "de",
+          "spell": {
+            "keyword": "Crawl Verse",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 8540,
+          "checkUrl": "https://www.google.com/search?q=Crawlverse&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:47 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "CrawlVerse",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/channel/UCXkJuwCMVhi3moUvuU4a3iA",
+              "description": "Welcome to Crawlverse, your go-to destination for everything RC crawler related! As a solo creator, I am dedicated to bringing you the latest and greatest ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Crawl Verse | Los Angeles CA",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/p/Crawl-Verse-61586270907319/",
+              "description": "Crawl Verse, Los Angeles. 221990 likes · 71 talking about this. 🕷️ Insects • Spiders • Predators ⚔️ Tiny creatures. Deadly instincts. Realistic •..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "232 - Do the Dungeon Crawl - Verse 1, 2 & Cho.mp4",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/twistedgamesongs/videos/232-do-the-dungeon-crawl-verse-1-2-chomp4/1017272211306211/",
+              "description": "More videos you may like · 106 - Do the Dungeon Crawl - Verse 3,4, Chorus. · 104 - Do the Dungeon Crawl - Verse 5, 6. · 164 - Total Party Kill - ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "The Difficult Journey That Changed Everything #timelaps #insect",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61578448287461/videos/the-difficult-journey-that-changed-everythingtimelaps-insect/1032951702968171/",
+              "description": "Nature CrawlVerse. 1d· 󰟠. 󳄫. The Difficult Journey That Changed Everything #timelaps #insect. The Difficult Journey That Changed Everything ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Nature CrawlVerse",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/people/Nature-CrawlVerse/61578448287461/",
+              "description": "Nature CrawlVerse. 7237 likes · 4298 talking about this. Crawl • Hunt • Strike ⚔️ Born to kill. Built to survive. Dark • Real • Addictive ⚠️ Enter ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "A powerful underground fighter trapped against an endless ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/Dcgl6vllDeV/",
+              "description": "... an endless swarm. Dig, fight, or escape? # CrawlVerse #Wildlife #InsectWorld #AnimalBehavior #WildlifeFacts\"."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Web crawler",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Web_crawler",
+              "description": "A web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web and that ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Crawlee · Build reliable crawlers. Fast.",
+              "domain": "crawlee.dev",
+              "url": "https://crawlee.dev/",
+              "description": "Crawlee helps you build and maintain your crawlers. It's open source, but built by developers who scrape millions of pages every day for a living."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Two Heads, One Fearless Hand: Snake Handling Adventure",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@crawlverse0/video/7627886523840482574",
+              "description": "Witness a daring encounter with two snakes handled by one fearless individual. A true test. @\"Crawl Verse\"."
+            }
+          ]
+        },
+        {
+          "name": "Crawlverse",
+          "market": "us",
+          "spell": {
+            "keyword": "Crawl Verse",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 19900,
+          "checkUrl": "https://www.google.com/search?q=Crawlverse&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:51 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Crawl Verse | Los Angeles CA",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/p/Crawl-Verse-61586270907319/",
+              "description": "Crawl Verse, Los Angeles. 🎥 Realistic • Intense • Viral ⚠️ … 1005 NW Street St, (515) 516-0624"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "CrawlVerse",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/channel/UCXkJuwCMVhi3moUvuU4a3iA",
+              "description": "Welcome to Crawlverse, your go-to destination for everything RC crawler related! As a solo creator, I am dedicated to bringing you the latest and greatest ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "232 - Do the Dungeon Crawl - Verse 1, 2 & Cho.mp4",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/twistedgamesongs/videos/232-do-the-dungeon-crawl-verse-1-2-chomp4/1017272211306211/",
+              "description": "In Verse 1, 2 and Chorus of \"Do the Dungeon Crawl,\" a beholder spins his eyestalks, kobolds shuffle side to side, and an owlbear claps along as ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Nature CrawlVerse",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/people/Nature-CrawlVerse/61578448287461/",
+              "description": "Nature CrawlVerse. 7237 likes · 4298 talking about this. Crawl • Hunt • Strike ⚔️ Born to kill. Built to survive. Dark • Real • Addictive ⚠️ Enter ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "The Difficult Journey That Changed Everything #timelaps #insect",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61578448287461/videos/the-difficult-journey-that-changed-everythingtimelaps-insect/1032951702968171/",
+              "description": "The Difficult Journey That Changed Everything. Digital creator 󱙿 Nature CrawlVerse. The Difficult Journey That Changed Everything"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "One armored beast. An entire army closing in.  Strength vs ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DcbcWdXjw9H/",
+              "description": "An entire army closing in. #CrawlVerse #Wildlife. Two predators. One tiny arena. Thousands of ants vs a body covered in hundreds of moving legs."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "A predator built to hunt suddenly becomes the target. 🪲🐜 ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DcobMvfFLK-/",
+              "description": "This strange predator fights back as the swarm closes in from every side. Can its giant pincers save it? #CrawlVerse #Wildlife # ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "One armored beast. An entire army closing in.  Strength vs ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61590162556704/videos/one-armored-beast-an-entire-army-closing-in-strength-vs-numbers-who-wins-crawlve/1784358022555762/",
+              "description": "One armored beast. An entire army closing in. Strength vs numbers — who wins ? #CrawlVerse #Wildlife #InsectWorld #AnimalBehavior #"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Two Heads, One Fearless Hand: Snake Handling Adventure",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@crawlverse0/video/7627886523840482574",
+              "description": "Witness a daring encounter with two snakes handled by one fearless individual. A true test. @\"Crawl Verse\". Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexistry",
+      "markets": [
+        {
+          "name": "Indexistry",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 407,
+          "checkUrl": "https://www.google.com/search?q=Indexistry&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:37 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "How is an index constructed? Explore the basics",
+              "domain": "www.msci.com",
+              "url": "https://www.msci.com/indexes/index-education/how-is-an-index-constructed",
+              "description": "Constructing an index starts with deciding what type of securities to include. An index can include equities, fixed income, real estate, commodities, currencies ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Index (publishing)",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Index_(publishing)",
+              "description": "An index is a list of words or phrases ('headings') and associated pointers ('locators') to where useful material relating to that heading can be found in a ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Indexes",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=8R-UtXkGtl8",
+              "description": "This video explains the concept of \"index\" of a database, and shows the indexes automatically created by GeneXus from the Attraction ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Index-Manager für Indexer",
+              "domain": "index-manager.net",
+              "url": "https://index-manager.net/de/indexer/",
+              "description": "23.04.2024 — Der Index-Manager ist eine ausgewiesene Indexing Software für eingebettetes Indexing und vereint damit beides — die Software schreibt die ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Index Usage | User Documentation | Across - Help Center",
+              "domain": "help.across.net",
+              "url": "https://help.across.net/en/v9/als-user/data/indexusage.html",
+              "description": "An index can be added when creating an entry. The index value is entered as text in a text field. After creating the entry, the index is displayed."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "German Trade Registry Smart Portal - Doing Business in ...",
+              "domain": "traderegistry.de",
+              "url": "https://traderegistry.de/",
+              "description": "24.12.2025 — Full-service Smart Portal for entrepreneurs doing business in Germany. Submit Applications, Report Changes, Order Documents."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Erstellen eines Indexes",
+              "domain": "www.affinity.studio",
+              "url": "https://www.affinity.studio/de_de/help/advanced-index/",
+              "description": "Erstellen Sie einen Index von Stichwörtern, der dem Leser sagt, wo er Informationen über wichtige Themen in Ihrer Publikation suchen kann."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Common register portal of the states",
+              "domain": "en.justiz.de",
+              "url": "https://en.justiz.de/onlinedienste/registerportal_der_laender/index.php",
+              "description": "A search function makes it easily possible to find all businesses registered in Germany, even where the register number and location of the firms are unknown."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Indexing",
+              "domain": "www.indexetera.de",
+              "url": "http://www.indexetera.de/ie_indexing.html",
+              "description": "Ein Kernbereich der Service-Palette von Indexetera ist die professionelle Erstellung und Pflege von Registern für unterschiedliche Medien."
+            }
+          ]
+        },
+        {
+          "name": "Indexistry",
+          "market": "us",
+          "spell": {
+            "keyword": "Industry",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 7200,
+          "checkUrl": "https://www.google.com/search?q=Indexistry&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:42:46 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Index Industry Association: Home",
+              "domain": "www.indexindustry.org",
+              "url": "https://www.indexindustry.org/",
+              "description": "The Index Industry Association (IIA) is the first-ever trade association for the index industry globally. About Us. What We Do. Educate. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "What Is an Index? Examples, How It's Used, and How to ...",
+              "domain": "www.investopedia.com",
+              "url": "https://www.investopedia.com/terms/i/index.asp",
+              "description": "An index is a collection of a group of assets such as stocks and bonds that's used to track the performance of a specific sector or the broader market. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "How is an index constructed? Explore the basics",
+              "domain": "www.msci.com",
+              "url": "https://www.msci.com/indexes/index-education/how-is-an-index-constructed",
+              "description": "Constructing an index starts with deciding what type of securities to include. An index can include equities, fixed income, real estate, commodities, currencies ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "What Are Indexes",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=Q2GTo9obwfY",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "What is an Index? - Maryland State Archives",
+              "domain": "msa.maryland.gov",
+              "url": "https://msa.maryland.gov/msa/intromsa/html/record_mgmt1/what-is-an-index.html",
+              "description": "An index is an ordered list of headings that points to relevant information in materials that are organized in a different order."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Tutorials: Introduction to Indexes",
+              "domain": "sfcollege.libguides.com",
+              "url": "https://sfcollege.libguides.com/tutorials/indexes",
+              "description": "This video tutorial will demonstrate how to use indexes of books to locate information about a topic. Indexes can help you quickly find specific information ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Index (publishing)",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Index_(publishing)",
+              "description": "An index ( pl. : usually indexes, more rarely indices) is a list of words or phrases ('headings') and associated pointers ('locators')"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Index Manager - NetIQ eDirectory Administration Guide",
+              "domain": "www.netiq.com",
+              "url": "https://www.netiq.com/documentation/edirectory-9/edir_admin/data/a5tuuu5.html",
+              "description": "Index Manager is an attribute of the Server object that lets you manage database indexes. These indexes are used by eDirectory to significantly improve query ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Create or edit an index in a Database Model diagram",
+              "domain": "support.microsoft.com",
+              "url": "https://support.microsoft.com/en-us/visio/create-or-edit-an-index-in-a-database-model-diagram",
+              "description": "Indexes help your database system find and sort records faster. ... You can create indexes manually, and you can modify the indexes that Visio automatically ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexterra",
+      "markets": [
+        {
+          "name": "Indexterra",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 2370,
+          "checkUrl": "https://www.google.com/search?q=Indexterra&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:05 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Drehmaschinenhersteller - INDEX Werke GmbH & Co KG",
+              "domain": "www.index-group.com",
+              "url": "https://www.index-group.com/de/",
+              "description": "Die INDEX Gruppe zählt mit den Marken INDEX und TRAUB zu den weltweit führenden Herstellern von CNC-Drehmaschinen, Drehautomaten und Dreh-Fräszentren."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Wikifolio-Index TERRA FUTURA - WKN LS9UJZ, ISIN ...",
+              "domain": "divvydiary.com",
+              "url": "https://divvydiary.com/de/wikifolio-index-terra-futura-DE000LS9UJZ1",
+              "description": "Wikifolio-Index TERRA FUTURA Deutschland. 89,38 €. Kurswährung. EUR, USD, CHF, GBP, CAD, ──, AED, AFN, ALL, AMD, ANG, AOA, ARS, AUD, AWG, AZN ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "INDEX TERRA Standwaschbecken - handgefertigt",
+              "domain": "havo-designstudio.com",
+              "url": "https://havo-designstudio.com/shop/INDEX-TERRA-Standwaschbecken-handgefertigt-verschiedene-Farben-p707618247?srsltid=AfmBOopZBXej5EjUFPIDp4Zs8lq6LQLWBItAVMmQDPiZYeFUhj9aHoQB",
+              "description": "Einzigartiges und faszinierendes Standwaschbecken „Made in Italy“ Ton, dreimal gebrannt, farbenfrohe, kristalline Glasuren und viel Handwerkskunst erwecken ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Index-Werke",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Index-Werke",
+              "description": "Die Index-Werke mit ihrem Hauptsitz in Esslingen am Neckar stellen CNC-Drehmaschinen her. Das Unternehmen unterhält sechs Produktionsstätten, zwölf Vertriebs- ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Global Vegetation Index, Terra MODIS",
+              "domain": "svs.gsfc.nasa.gov",
+              "url": "https://svs.gsfc.nasa.gov/31053",
+              "description": "02.12.2019 — These maps show Normalized Difference Vegetation Index (NDVI) values—a measure of the \"greenness\" of Earth's landscapes—from February 2000 to ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "INDEX. Die perfekte Befestigung. Herstellung von ...",
+              "domain": "www.indexfix.com",
+              "url": "https://www.indexfix.com/de/",
+              "description": "Industriebedarf, Eisenwaren und Fachleute aus über tausend Referenzen in den Bereichen Eisenwaren, Anker, chemische Anker, Klemmen, Befestigungselemente und ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Index DataBase: IDB",
+              "domain": "www.indexdatabase.de",
+              "url": "https://www.indexdatabase.de/",
+              "description": "On this site you find a database of remote sensing indices and satellite sensors. Available bands of sensors are linked with required wavelenghts of indices, so ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Index Radar – Die richtige Aktie kaufen.",
+              "domain": "www.index-radar.de",
+              "url": "https://www.index-radar.de/",
+              "description": "Wir machen professionelle Strategien aus der Investment-Branche für jeden verfügbar und verständlich, trennen bewährte und bewiesene Methoden der ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Index Terra Pedestal - Cipì - design ed accessori per la stanza ...",
+              "domain": "cipitaly.it",
+              "url": "https://cipitaly.it/en/product/index-terra-pedestal/",
+              "description": "Small masterpieces 100% Made in Italy. Refractory clay, fired three times, colourful, crystalline glazes and a lot of craftsmanship give life to a unique and ..."
+            }
+          ]
+        },
+        {
+          "name": "Indexterra",
+          "market": "us",
+          "spell": {
+            "keyword": "Indextra",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 80700,
+          "checkUrl": "https://www.google.com/search?q=Indexterra&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:42:15 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Global Vegetation Index, Terra MODIS",
+              "domain": "svs.gsfc.nasa.gov",
+              "url": "https://svs.gsfc.nasa.gov/31053",
+              "description": "Dec 2, 2019 — These maps show Normalized Difference Vegetation Index (NDVI) values—a measure of the \"greenness\" of Earth's landscapes—from February 2000 to ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Terra of the Left | Toaru Majutsu no Index Wiki - Fandom",
+              "domain": "toarumajutsunoindex.fandom.com",
+              "url": "https://toarumajutsunoindex.fandom.com/wiki/Terra_of_the_Left",
+              "description": "Terra of the Left (左方のテッラ, Sahō no Terra?), real name unknown, is a character introduced in Toaru Majutsu no Index. He belonged to the God's Right ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Index Terra Pedestal - Cipì - design ed accessori per la stanza ...",
+              "domain": "cipitaly.it",
+              "url": "https://cipitaly.it/en/product/index-terra-pedestal/",
+              "description": "Small masterpieces 100% Made in Italy. Refractory clay, fired three times, colourful, crystalline glazes and a lot of craftsmanship give life to a unique and ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "INDEX™ - the World's Leading Nonwovens Exhibition",
+              "domain": "www.indexnonwovens.com",
+              "url": "https://www.indexnonwovens.com/",
+              "description": "INDEX ™ is the World Leading Nonwovens exhibition, taking place at the heart of Europe in Palexpo, Geneva, Switzerland, the next time from 19 to 22 May 2026."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Artificial Analysis on X: \"GPT-5.6 Sol defines a new Pareto ...",
+              "domain": "x.com",
+              "url": "https://x.com/ArtificialAnlys/status/2075268984539410521",
+              "description": "GPT-5.6 Sol (max) offers a similar level of intelligence to Claude Fable 5 at approximately one third of the cost. The model family defines a ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Marcos Resende & Index - Terra de Santa Cruz [Brazil] Jazz ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=wPW2Ldlz2-A",
+              "description": "Marcos Resende & Index - Terra de Santa Cruz [Brazil] Jazz (1978) · Comments. 22. Comment... 42:38 · Go to channel Pimalves · Nivaldo ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Index Terra Stone | Outdoor Texture Paint",
+              "domain": "builtory.my",
+              "url": "https://builtory.my/products/Index-Terra-Stone?id=LNxv",
+              "description": "Index Terra coat is an outdoor texture paint and also a type of plaster finishes that is very durable and has good weather resistance."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Index: Terra Incognita issue",
+              "domain": "ojs.uwindsor.ca",
+              "url": "https://ojs.uwindsor.ca/index.php/rm/issue/download/814/382",
+              "description": "Page 1. Rampike Index 5.3. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Wikifolio-Index TERRA GLOBAL LONGTERM",
+              "domain": "divvydiary.com",
+              "url": "https://divvydiary.com/en/wikifolio-index-terra-global-longterm-DE000LS9KW54",
+              "description": "Dividends History for Wikifolio-Index TERRA GLOBAL LONGTERM (WKN LS9KW5, ISIN DE000LS9KW54): all Ex Dates, Pay Dates, Payouts and Splits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexvera",
+      "markets": [
+        {
+          "name": "Indexvera",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 1190,
+          "checkUrl": "https://www.google.com/search?q=Indexvera&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:05 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Indexa",
+              "domain": "www.indexa.de",
+              "url": "https://www.indexa.de/",
+              "description": "Indexa Alarmanlagen, Funk-Videoüberwachung und Rauchmelder : Sicherheitstechnik, die optimal auf kleine bis mittelgroße Objekte abgestimmt ist. Information ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Artist Index: Vera-ikon",
+              "domain": "bassenge.com",
+              "url": "https://bassenge.com/extras/artistindexquery?search=Vera-ikon&page=1&limit=15&view=list&destination=onlyCurrentCatalogues&lotFilter=bestMatch",
+              "description": "Schmerzensmann ca. 15,4 x 3,3 cm. Blattgröße ca. 22 x 13 cm. Unter Glas in mehrfach profilierter brauner Holzleiste gerahmt. Süddeutschland um 1600. Der ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Index – Vera Spautz weicht von Parteilinie ab",
+              "domain": "www.lessentiel.lu",
+              "url": "https://www.lessentiel.lu/de/story/vera-spautz-weicht-von-parteilinie-ab-949860956616",
+              "description": "18.01.2012 — LUXEMBURG – Die LSAP-Abgeordnete Vera Spautz wird bei der Abstimmung über die Indexmodulation dagegen votieren. Der Staatsrat hat wenig Einwände ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Index Vera - I Shield Black Helmet",
+              "domain": "www.courtsmammouth.mu",
+              "url": "https://www.courtsmammouth.mu/clearancecentre/product/index-vera-i-shield-black-helmet.html?srsltid=AfmBOorr2mATkQ-1JhG_A-Sony8QWH63w9-m3LeEx4-GSQ2THshn_kg5",
+              "description": "Open Face Helmet · High Impact Resistant ABS Plastic Shell · Anti-scratched Coating Polycarbonate Visor · Quick Release Buckle · Top & Rear Vents · Weight: 1.47kg."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Indexa",
+              "domain": "www.indexa-online.de",
+              "url": "https://www.indexa-online.de/index.htm",
+              "description": "INDEXA. Home · Alarmtechnik · Videoüberwachung · Türsprechanlagen · Zutrittskontrolle · Gefahrenmelder · Gerontotechnik."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "🏍 หมวกกันน็อค INDEX VERA i-shield | เต็มใบ ไม่หุ้มคาง",
+              "domain": "shopee.co.th",
+              "url": "https://shopee.co.th/%F0%9F%8F%8D-%E0%B8%AB%E0%B8%A1%E0%B8%A7%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%84-INDEX-VERA-i-shield-%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A1%E0%B9%83%E0%B8%9A-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AB%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%84%E0%B8%B2%E0%B8%87-%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%81-2-%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99-Size-L-%F0%9F%8F%8D-i.57552366.27027861334",
+              "description": "หมวกกันน็อค INDEX VERA i-shield | เต็มใบ ไม่หุ้มคาง | หน้ากาก 2 ชั้น | Size L. outline green truck icon. จะได้รับภายใน 14 ส.ค. - 16 ส.ค. ส่งฟรี. รับโค้ด ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Title of Index",
+              "domain": "dp0-1.lsst.io",
+              "url": "https://dp0-1.lsst.io/project/templates/index-template.html",
+              "description": "This is a template for the index.rst of a directory. If there are no levels beneath this one, make sure the last line containing the asterisk (*) of toctree ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "UV Index Vera",
+              "domain": "www.weatherandradar.com",
+              "url": "https://www.weatherandradar.com/uv-index/vera/9956475",
+              "description": "UV Index Vera – current information on the risk of sunburn with a forecast for the coming days."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Wie hoch ist der UV-Index heute in Vera Playa?",
+              "domain": "www.wetter.com",
+              "url": "https://www.wetter.com/uv-index/spanien/vera-playa/ES6544370/",
+              "description": "Sonnenschutz: Eigenschutzzeit: weniger als 10 Minuten; Verwendung von Sonnencreme mit LSF 50+; Regelmäßiges Nachcremen; Vermeidung der Mittagssonne; Tragen von ..."
+            }
+          ]
+        },
+        {
+          "name": "Indexvera",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "Metricistry",
+      "markets": [
+        {
+          "name": "Metricistry",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 12500,
+          "checkUrl": "https://www.google.com/search?q=Metricistry&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:38 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "metricist",
+              "domain": "en.wiktionary.org",
+              "url": "https://en.wiktionary.org/wiki/metricist",
+              "description": "One who studies poetic meter."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "METRICITY Definition & Meaning",
+              "domain": "www.merriam-webster.com",
+              "url": "https://www.merriam-webster.com/dictionary/metricity",
+              "description": "The meaning of METRICITY is the character or property of being metrical or having meter."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Symetri Technology",
+              "domain": "www.symetrigroup.com",
+              "url": "https://www.symetrigroup.com/symetri-technology/",
+              "description": "Symetri Technology is developed with the mission to help customers be more productive in their daily operations and remove waste from their business ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "EUMETRYS: Experts in IVS optical metrology systems",
+              "domain": "www.eumetrys.com",
+              "url": "https://www.eumetrys.com/",
+              "description": "Equipment & Services for semiconductor industry. Optical Metrology, Particles inspection, Layer thickness measurement, PL mapping, crystal and stacking fault ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "“We assist entrepreneurs move from entrepreneurial intent to ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DYo_QsxNqzF/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "METRICISE definition and meaning",
+              "domain": "www.collinsdictionary.com",
+              "url": "https://www.collinsdictionary.com/dictionary/english/metricise",
+              "description": "To study the metre of poetry.... Click for English pronunciations, examples sentences, video."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "metricist, n. meanings, etymology and more",
+              "domain": "www.oed.com",
+              "url": "https://www.oed.com/dictionary/metricist_n",
+              "description": "The earliest known use of the noun metricist is in the 1880s. OED's earliest evidence for metricist is from 1881, in the Athenaeum. See meaning & use ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Model-Based Clustering, Classification, and Density ...",
+              "domain": "www.kulturkaufhaus.de",
+              "url": "https://www.kulturkaufhaus.de/de/detail/ISBN-9781032234960/Scrucca-Luca/Model-Based-Clustering-Classification-and-Density-Estimation-Using-mclust-in-R",
+              "description": "The model-based framework allows the problems of choosing or developing an appropriate clustering or classification method to be understood within the context ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "IT Benchmarking Sourcing en Governance",
+              "domain": "metriconsulting.com",
+              "url": "https://metriconsulting.com/en/homepage/",
+              "description": "We helpen organisaties hun IT-omgeving te meten, te begrijpen en te verbeteren. Dat doen we met benchmarking en sourcing, op basis van marktdata."
+            }
+          ]
+        },
+        {
+          "name": "Metricistry",
+          "market": "us",
+          "spell": {
+            "keyword": "Metrolist",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 61300,
+          "checkUrl": "https://www.google.com/search?q=Metricistry&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:42:43 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "metricist",
+              "domain": "en.wiktionary.org",
+              "url": "https://en.wiktionary.org/wiki/metricist",
+              "description": "Noun metricist (plural metricists) One who studies poetic meter."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "METRICITY Definition & Meaning",
+              "domain": "www.merriam-webster.com",
+              "url": "https://www.merriam-webster.com/dictionary/metricity",
+              "description": "The meaning of METRICITY is the character or property of being metrical or having meter."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Symetri.us: We challenge people to work smarter",
+              "domain": "www.symetri.us",
+              "url": "https://www.symetri.us/",
+              "description": "We work with you to tailor digital BIM, product design and lifecycle solutions to help you work smarter and do more with less. MEP contractors."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "metricist, n. meanings, etymology and more",
+              "domain": "www.oed.com",
+              "url": "https://www.oed.com/dictionary/metricist_n",
+              "description": "metricist is formed within English, by derivation. The earliest known use of the noun metricist is in the 1880s."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "METRICITY Definition & Meaning",
+              "domain": "www.dictionary.com",
+              "url": "https://www.dictionary.com/browse/metricity",
+              "description": "METRICITY definition: a word derived from metrical. metrical adjective pertaining to meter or poetic measure."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "“We assist entrepreneurs move from entrepreneurial intent to ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DYo_QsxNqzF/",
+              "description": "A lot of people, we actually are about to launch one of our platforms within the IT space, which is a SaaS application called Metricistry."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Stratistry | Data-Driven Branding, Marketing and Advertising Firm",
+              "domain": "www.stratistry.com",
+              "url": "https://www.stratistry.com/",
+              "description": "We combine data-driven analysis with marketing expertise to develop targeted strategies that deliver measurable results."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Metrical Layers & Interference of Periodicity |Trick for Multiple ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=YHci5fmEh54",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "METRICISE definition in American English",
+              "domain": "www.collinsdictionary.com",
+              "url": "https://www.collinsdictionary.com/us/dictionary/english/metricise",
+              "description": "To study the metre of poetry.... Click for pronunciations, examples sentences, video."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Queryarium",
+      "markets": [
+        {
+          "name": "Queryarium",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 338,
+          "checkUrl": "https://www.google.com/search?q=Queryarium&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:17 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Immersive Lichtshows in spektakulären Locations",
+              "domain": "eonariumexperiences.com",
+              "url": "https://eonariumexperiences.com/de/",
+              "description": "Entdecken Sie die immersiven Erlebnisse von Eonarium, tauchen Sie in 360° Projektionen aus Licht und Musik ein. Finden Sie verfügbare Städte und Daten hier!"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Home - AWI",
+              "domain": "www.awi.de",
+              "url": "https://www.awi.de/",
+              "description": "Das Alfred-Wegener-Institut (AWI) betreibt Polar- und Meeresforschung von der Atmosphäre bis zur Tiefsee. Klimaforschung für uns und für kommende Generationen."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Experimentelle Anlagen",
+              "domain": "www.ab.mpg.de",
+              "url": "https://www.ab.mpg.de/401090/experimental-facilities",
+              "description": "In unseren Versuchsanlagen nutzen wir neuste Technologien und wenden sie an, um die Entscheidungsfindung von Tieren zu verstehen."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Über uns",
+              "domain": "www.icar-us.eu",
+              "url": "https://www.icar-us.eu/de/cooperation/online-portals/monasterium-net/general-information/",
+              "description": "Monasterium.net widmet sich der Aufgabe, eine Vielzahl dieser historischen Dokumente als digitale Faksimiles kostenfrei zur Verfügung zu stellen. Monasterium."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Instrument-free 3D molecular imaging with the VOLumetric ...",
+              "domain": "cordis.europa.eu",
+              "url": "https://cordis.europa.eu/project/id/101184647/de",
+              "description": "17.03.2026 — Current molecular imaging and spatial transcriptomics methods are limited in throughput and affordability, and are constrained by inherent ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Interactive Visualisation - XR-Hub Bavaria",
+              "domain": "xrhub-bavaria.de",
+              "url": "https://xrhub-bavaria.de/interactive-visualisation/",
+              "description": "26.03.2026 — Euer Beitrag besteht darin, dass Ihr Kunstwerke auswählt, die Ihr in digitaler Form in einem virtuellen Raum präsentieren wollt. Die ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Omria Logo",
+              "domain": "medmile.de",
+              "url": "https://medmile.de/partner/omria",
+              "description": "Die OMRIA GmbH bietet mit ihrem internationalen Remote-Scanning-Konzept eine leistungsstarke Lösung für radiologische Einrichtungen, die auf Verfügbarkeit, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "ClearCruise Augmented Reality - Marinekameras",
+              "domain": "www.raymarine.com",
+              "url": "https://www.raymarine.com/de-de/unsere-produkte/marinekameras/augmented-reality-ar",
+              "description": "ClearCruise Augmented Reality (AR) von Raymarine ermöglicht es Bootsfahrern, intelligentere Entscheidungen zu treffen, indem Navigationsobjekte direkt über ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "MiniRubiQ",
+              "domain": "www.dlr.de",
+              "url": "https://www.dlr.de/de/qt/forschung-transfer/projekte-missionen/minirubiq",
+              "description": "Ziel des Vorhabens ist eine experimentelle miniaturisierte Rubidium (Rb) Quelle, die die konkrete Anforderung eines Quantenregisters basierend auf kalten ..."
+            }
+          ]
+        },
+        {
+          "name": "Queryarium",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "Querymetry",
+      "markets": [
+        {
+          "name": "Querymetry",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 1450,
+          "checkUrl": "https://www.google.com/search?q=Querymetry&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:35 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Scale Quality Rapidly with AI-Powered Test Management",
+              "domain": "smartbear.com",
+              "url": "https://smartbear.com/product/qmetry-test-management/",
+              "description": "QMetry connects failed tests to past defects, surfaces causes, groups related issues, and simplifies triage. Smart Test Suite Optimization: Boost execution ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "QMetry Test Management",
+              "domain": "testmanagement.qmetry.com",
+              "url": "https://testmanagement.qmetry.com/",
+              "description": "AppMessages.LOGIN_HEADER_TEXTAppMessages.LOGIN_BODY_TEXT. Get HelpRelease Note. Login. Forgot password? Login With SAML. AppMessages.COPYRIGHT© 2026."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "QMetry",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/user/QMetry09",
+              "description": "QMetry is the pioneering AI driven Digital Quality Platform that offers test management, test automation, and predictive & prescriptive quality analytics as ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Definition des Begriffs Query im Online Marketing",
+              "domain": "www.mso-digital.de",
+              "url": "https://www.mso-digital.de/wiki/query/",
+              "description": "Bei einer Query handelt es sich um eine Datenabfrage bei einer Datenbank oder verschiedenen Anwendungsprogrammen. Der Begriff leitet sich von dem lateinischen ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "QMetry",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/qmetry",
+              "description": "QMetry is a quality platform designed for Agile Testing and DevOps Teams to build, manage, and deploy quality software faster with confidence."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "AWS Marketplace: QMetry for AWS",
+              "domain": "aws.amazon.com",
+              "url": "https://aws.amazon.com/marketplace/pp/prodview-5acsxl3ppypti",
+              "description": "QMetry is a tool, where users can write Test cases and make a Test Suite (include numbers of Test cases in one place for Execution). They also can attach any ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "QueryManager",
+              "domain": "querymanager.com",
+              "url": "https://querymanager.com/",
+              "description": "As easy to use as email, but with the power of the cloud. 100% FREE to Literary Agents, Publishers and Authors. What it Does."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "QMetry walkthrough: Test management, automation & AI- ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=EzLdhVaa_Jo",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "QMetry - Test Management for Jira (QTM4J)",
+              "domain": "marketplace.atlassian.com",
+              "url": "https://marketplace.atlassian.com/apps/1215144/qmetry-test-management-for-jira-qtm4j",
+              "description": "Make informed decisions with Coverage Analytics, Test Run & Traceability reports. Enables critical quality decisions with 30+ off-the-shelf reports & dashboard ..."
+            }
+          ]
+        },
+        {
+          "name": "Querymetry",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "Queryvera",
+      "markets": [
+        {
+          "name": "Queryvera",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 2920,
+          "checkUrl": "https://www.google.com/search?q=Queryvera&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:42:16 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "02. How to execute a UI query",
+              "domain": "dp0-2.lsst.io",
+              "url": "https://dp0-2.lsst.io/tutorials-examples/portal-howto-uiquery.html",
+              "description": "5. Set column constraints. In the schema interface (D in Figure 1), click on the funnel icon to show only selected columns. Set the constraints ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Home - Query",
+              "domain": "www.query.ai",
+              "url": "https://www.query.ai/",
+              "description": "Query is a federated search platform for security data providing expanded data visibility without centralization."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+              "domain": "portal.dnb.de",
+              "url": "https://portal.dnb.de/opac.htm?query=Vera+Brittain&method=simpleSearch",
+              "description": "Leichte Bedienung, intuitive Suche: Die Betaversion unseres neuen Katalogs ist online! · Der Aufruf von archivierten Webseiten ist aktuell nicht möglich."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "https://www.kubi-koeln.de/portal?query=Vera+Lutter",
+              "domain": "www.kubi-koeln.de",
+              "url": "https://www.kubi-koeln.de/portal?query=Vera+Lutter",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Tierausweis und Impfpass für den Hund Leo von Vera ...",
+              "domain": "www.archivportal-d.de",
+              "url": "https://www.archivportal-d.de/item/WJFS4SAXFZD6HZJ6Z7PA3ULQVYYI2ZH6?query=Vera+Oelschlegel&isThumbnailFiltered=false&hitNumber=11",
+              "description": "24.04.2026 — Tierausweis und Impfpass für den Hund Leo von Vera Oelschlegel. Vollständigen Titel anzeigen. Bundesarchiv. Objekt beim Datenpartner."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Query: vera.ns.cloudflare.com",
+              "domain": "dns.google",
+              "url": "https://dns.google/query?name=vera.ns.cloudflare.com&rr_type=A&ecs=",
+              "description": "RR Type EDNS Client Subnet Disable DNSSEC validation. Show DNSSEC detail. Result for vera.ns.cloudflare.com/A with DNSSEC validation and without DNSSEC ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Online SQL Editor - Query Tool for Cloud and DB data",
+              "domain": "skyvia.com",
+              "url": "https://skyvia.com/query",
+              "description": "Visual Query Builder —Create Queries without SQL. Build queries in a few clicks without writing a single line of SQL code. Select objects, fields, use filters ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Ele-Wiki - Fandom",
+              "domain": "elefanten.fandom.com",
+              "url": "https://elefanten.fandom.com/wiki/Spezial:Suche?query=Vera+K%C3%B6llner",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "vera++(1)",
+              "domain": "man.freebsd.org",
+              "url": "https://man.freebsd.org/cgi/man.cgi?query=vera%2B%2B&sektion=1&apropos=0&manpath=FreeBSD+13.1-RELEASE+and+Ports",
+              "description": "Skip site navigation (1)Skip section navigation (2). Header And Logo. FreeBSD. Peripheral Links . Donate to FreeBSD . Search. Site Navigation."
+            }
+          ]
+        },
+        {
+          "name": "Queryvera",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "RankPlane",
+      "markets": [
+        {
+          "name": "RankPlane",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 2590,
+          "checkUrl": "https://www.google.com/search?q=RankPlane&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:41:23 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "WHOIS Lookup for rankplane.ai | Owner & Registrar Info",
+              "domain": "whoisfreaks.com",
+              "url": "https://whoisfreaks.com/tools/whois/lookup/rankplane.ai",
+              "description": "Look up registrant, registrar, expiry dates, nameservers, and domain status for any domain across 1,529 TLDs in real time. Free for single lookups, no signup."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "What did you use to S rank plane fights? : r/Cuphead",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Cuphead/comments/xdg1l2/what_did_you_use_to_s_rank_plane_fights/",
+              "description": "Originally I would only use coffee. It's the best for plane levels out of the original six charms. The hearts feel like a crutch, and can impact ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Poll from RankPlane",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/post/UgkxYnS_8jI6fR5B2Oj-Fv1i_t7ZfihrY7oB",
+              "description": "Poll from RankPlane - YouTube. Home. Shorts. Library. RankPlane · 10 days ago. What do you want ranked next? :D. Trickshots. Instant Karma. Trampoline Park."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "How Hard Can It Be to Plane in Rank Plane in Call Duty ...",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/how-hard-can-it-be-to-plane-in-rank-plane-in-call-duty-black-ops-seven",
+              "description": "24.08.2026 — 1.3M posts. Discover videos related to How Hard Can It Be to Plane in Rank Plane in Call Duty Black Ops Seven on TikTok."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Create a Rank plane families Tier List",
+              "domain": "tiermaker.com",
+              "url": "https://tiermaker.com/create/rank-plane-families-18303526",
+              "description": "03.06.2025 — Create a ranking for Rank plane families. 1. Edit the label text in each row. 2. Drag the images into the order you would like. 3. Click 'Save/ ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "ScarFall 2.0 v1.2.0 UPDATE is Here!  New Rank Plane, MVP ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=bA4_22LwPM8",
+              "description": "New Rank Plane, MVP & Smart Footsteps | Full Breakdown. 1.5K views · 5 months ago. #ScarFall2 #ScarFallGameplay #ScarFallUpdate ...more ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "World Airline Awards | SKYTRAX",
+              "domain": "www.worldairlineawards.com",
+              "url": "https://www.worldairlineawards.com/",
+              "description": "The World Airline Awards from Skytrax are coveted Quality accolades for the airline industry, and a global benchmark of airline excellence."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Fast Implicit Neural Light Field Representation via ...",
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/html/2608.13949v1",
+              "description": "14.08.2026 — Implicit neural representations provide a compact and continuous way to reconstruct dense light fields from sampled ray coordinates."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Rankscale – SaaS-Plattform zur Messung von AI Visibility ...",
+              "domain": "groundingpage.com",
+              "url": "https://groundingpage.com/facts/rankscale/de/",
+              "description": "Rankscale ist eine SaaS-Plattform der Rankscale GmbH (Königstetten, Österreich) zur Messung von AI Visibility im Bereich Generative Engine Optimization."
+            }
+          ]
+        },
+        {
+          "name": "RankPlane",
+          "market": "us",
+          "spell": {
+            "keyword": "RankPanel",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 17500,
+          "checkUrl": "https://www.google.com/search?q=RankPlane&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:41:32 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "WHOIS Lookup for rankplane.ai | Owner & Registrar Info",
+              "domain": "whoisfreaks.com",
+              "url": "https://whoisfreaks.com/tools/whois/lookup/rankplane.ai",
+              "description": "Look up registrant, registrar, expiry dates, nameservers, and domain status for any domain across 1,529 TLDs in real time. Free for single lookups, no signup."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "What did you use to S rank plane fights? : r/Cuphead",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Cuphead/comments/xdg1l2/what_did_you_use_to_s_rank_plane_fights/",
+              "description": "If you have the DLC, I highly recommend Divine Relic or Parry Ring. Chalice is horrible for plane levels and I have yet to find any instance ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Poll from RankPlane",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/post/UgkxYnS_8jI6fR5B2Oj-Fv1i_t7ZfihrY7oB",
+              "description": "Poll from RankPlane - YouTube. Home. Shorts. Library. RankPlane · 10 days ago. What do you want ranked next? :D. Trickshots. Instant Karma. Trampoline Park."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "How Hard Can It Be to Plane in Rank Plane in Call Duty ...",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/how-hard-can-it-be-to-plane-in-rank-plane-in-call-duty-black-ops-seven",
+              "description": "Aug 24, 2026 — Discover tips and strategies to rank up in Call of Duty. Join the challenging road to Platinum in Call of Duty Black Ops 7 solo ranked play. ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Finally got a second rank plane for air 👍#plslikesubscribe ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/qUVnCZS0934",
+              "description": "Got a new plane and a full row as of now. Finally got a second rank plane for air 👍#plslikesubscribe #gaming #warthundermobile"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Create a Rank plane families Tier List",
+              "domain": "tiermaker.com",
+              "url": "https://tiermaker.com/create/rank-plane-families-18303526",
+              "description": "Jun 3, 2025 — Create a ranking for Rank plane families. 1. Edit the label text in each row. 2. Drag the images into the order you would like. 3. Click 'Save/ ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "How many hours does it take to get an IV rank plane on ...",
+              "domain": "www.quora.com",
+              "url": "https://www.quora.com/How-many-hours-does-it-take-to-get-an-IV-rank-plane-on-War-Thunder",
+              "description": "How many hours does it take to get an IV rank plane on War Thunder?"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Fast Implicit Neural Light Field Representation via ...",
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/html/2608.13949v1",
+              "description": "Aug 14, 2026 — Implicit neural representations provide a compact and continuous way to reconstruct dense light fields from sampled ray coordinates. Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Searcharium",
+      "markets": [
+        {
+          "name": "Searcharium",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "Searcharium",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 235000,
+          "checkUrl": "https://www.google.com/search?q=Searcharium&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:42:36 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Index Herbariorum - The William & Lynda Steere Herbarium",
+              "domain": "sweetgum.nybg.org",
+              "url": "https://sweetgum.nybg.org/science/ih/",
+              "description": "A worldwide index of 3400 herbaria and associated staff where a total of 350 million botanical specimens are permanently housed."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Virtual Herbaria: JACQ",
+              "domain": "www.jacq.org",
+              "url": "https://www.jacq.org/",
+              "description": "JACQ is the jointly administered herbarium management system and specimen database of the following herbaria: ADMONT, B, BAK, BATU, BEOU, BOKU, BOZ, BP, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Herbarium Search Engine - NTBG Database",
+              "domain": "ntbg.org",
+              "url": "https://ntbg.org/database/herbarium/",
+              "description": "Use the form below to search the NTBG Herbarium Database. You can search by one or multiple criteria. Filter results by plant type (e.g., fern, flowering plant ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Search – ARIUM BOTANICALS",
+              "domain": "ariumbotanicals.com",
+              "url": "https://ariumbotanicals.com/search",
+              "description": "We're a specialty plant shop in Portland, Oregon. Intentionally curating rare plants, plant installations, and handmade ceramics. Promoting handmade good ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Herbarium Specimens, Global Plants on JSTOR",
+              "domain": "plants.jstor.org",
+              "url": "https://plants.jstor.org/collection/TYPSPE",
+              "description": "Herbarium Specimens. 2,750,645 Objects. The type specimen collection represents the largest collection of digitized plant specimens ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "FamilySearch App Gallary",
+              "domain": "familyhistory.lib.byu.edu",
+              "url": "https://familyhistory.lib.byu.edu/instructional-videos/familysearch-app-gallary",
+              "description": "BYU Library Family History Center Brigham Young University … history@byu.edu 801-422-6200 Contact Us Services Visit Us Find Help Learn Online Scan Research"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Art: Search Image Databases - ECU Libraries' Research Guides",
+              "domain": "libguides.ecu.edu",
+              "url": "https://libguides.ecu.edu/c.php?g=404878&p=2756275",
+              "description": "Apr 18, 2026 — On this page, you will find a listing of links to subscription library databases that have images in them. The most well-known is ARTstor"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Specimens - HUH - Databases - Harvard University",
+              "domain": "kiki.huh.harvard.edu",
+              "url": "https://kiki.huh.harvard.edu/databases/specimen_index.html",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Yahoo Search - Web Search",
+              "domain": "images.search.yahoo.com",
+              "url": "https://images.search.yahoo.com/",
+              "description": "Yahoo Search - Web Search YahooYahoo.com Cancel Settings Help Suggestions Terms Privacy Your Privacy Choices CA Privacy Notice Advertise About ads"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

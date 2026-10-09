@@ -33,6 +33,12 @@ for(const root of document.querySelectorAll<HTMLElement>("[data-fanout-planner]"
   const mode=()=>String(new FormData(form).get("mode")??"native"),modeEnabled=(value:string)=>value==="native"?root.dataset.nativeEnabled==="true":root.dataset.modelledEnabled==="true";
   const updateCount=()=>count.textContent=`${[...keyword.value.normalize("NFC")].length} / 60`;
   const updateMode=()=>{const native=mode()==="native";nativePicker.hidden=!native;modelledPicker.hidden=native;nativePicker.querySelectorAll<HTMLInputElement>("input").forEach(input=>input.disabled=!native);modelledPicker.querySelectorAll<HTMLInputElement>("input").forEach(input=>input.disabled=native);availability.hidden=modeEnabled(mode());submit.disabled=!modeEnabled(mode())};
+  // A guide can select a provider; entering the page never starts a paid run.
+  const entryProvider=new URLSearchParams(window.location.search).get("provider");
+  if((entryProvider==="openai"||entryProvider==="gemini")&&modeEnabled("native")){
+    form.querySelector<HTMLInputElement>('input[name="mode"][value="native"]')!.checked=true;
+    form.querySelector<HTMLInputElement>(`input[name="provider"][value="${entryProvider}"]`)!.checked=true;
+  }
   keyword.addEventListener("input",updateCount);root.querySelectorAll<HTMLButtonElement>("[data-example-topic]").forEach(button=>button.addEventListener("click",()=>{keyword.value=button.dataset.exampleTopic??"";updateCount();keyword.focus()}));updateCount();form.querySelectorAll<HTMLInputElement>("input[name='mode']").forEach(input=>input.addEventListener("change",()=>{updateMode();trackProductEvent("tool_mode_selected",{mode:mode()})}));updateMode();
 
   const mountTurnstile=()=>{const turnstile=(window as any).turnstile;if(!turnstile)return;widgetId=turnstile.render(root.querySelector("[data-turnstile-slot]")!,{sitekey:root.dataset.siteKey,action:"fanout",theme:"dark",callback:(token:string)=>{turnstileToken=token;if(pendingProviderComparison)window.queueMicrotask(()=>form.requestSubmit())},"expired-callback":()=>turnstileToken="","error-callback":()=>turnstileToken=""})};

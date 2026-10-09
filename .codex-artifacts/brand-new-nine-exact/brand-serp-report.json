@@ -1,0 +1,3025 @@
+{
+  "generatedAt": "2026-09-01T17:38:23.611Z",
+  "methodology": {
+    "endpoint": "serp/google/organic/live/advanced",
+    "markets": [
+      {
+        "id": "de",
+        "locationCode": 2276,
+        "languageCode": "de"
+      },
+      {
+        "id": "us",
+        "locationCode": 2840,
+        "languageCode": "en"
+      }
+    ],
+    "depth": 10,
+    "paidAddOns": false,
+    "estimatedCostUsd": 0.108,
+    "actualCostUsd": 0.07200000000000005,
+    "note": "Evidence export only. No automatic score, grade, or recommendation."
+  },
+  "combined": [
+    {
+      "name": "\"Crawlance\"",
+      "markets": [
+        {
+          "name": "\"Crawlance\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 98,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlance%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:48 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "everyone was on their feet for the Baby Crawl Race #Pelicans",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/PelicansNBA/videos/everyone-was-on-their-feet-for-the-baby-crawl-racepelicans-ochsner-childrens/1585267175843367/",
+              "description": "Erik Hernandez once but I dont live in LA. I went as a tourist. I know attendance is low ite just unfair to judge it based on a halftime ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "#followersreels | Bebeth Arayan Cemine",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/beth.cemine.lingatong/videos/followersreels/27017254271240672/",
+              "description": "Video · #followersreels ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "A Voice That Touched Every Heart… Cafe Wild Asia ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/udawalawecafewildasia/videos/%EF%B8%8F-a-voice-that-touched-every-heartcafe-wild-asia-udawalawe-%E0%B7%84%E0%B7%92-%E0%B6%B4%E0%B7%90%E0%B7%80%E0%B7%90%E0%B6%AD%E0%B7%8A%E0%B7%80%E0%B7%94%E0%B6%AB%E0%B7%94-cool-vi/1963819167611332/",
+              "description": "A Voice That Touched Every Heart… Cafe Wild Asia – Udawalawe හි පැවැත්වුණු COOL VIBE – Acoustic Music Night එකේ තවත් ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "*مجمع حسام بيوتي* البصرة ابي الخصيب مقابل جامع السيد ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DbdmT2XI-wk/",
+              "description": "HAND-LIGHT HANDLIGHT SHEGLAM भ HUSSAM BEAUTY CONCEALER LAMAR CRAWLANCE tch LUC WEDNESDAY Queen Kulit CHUANDO MANH a . LIGHT HAND-LIGHT ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Reel by Khadija Abubakar (@hilwa_pastries) · August 17, ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DcJUYlNNu0J/",
+              "description": "* PATMALPASTHECH PHYSICAL CLASS القسر Nitura DERMATOLOGICALLY PREDIKRONOACIJALA SNACEN&CMA BETHICE CRAWLANCE Training Eres MONTH CLASSES."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Você sabia que a música “Sucker For Pain” rodou alguns ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/100010511085969/videos/voc%C3%AA-sabia-que-a-m%C3%BAsica-sucker-for-pain-rodou-alguns-bocados-at%C3%A9-ser-lan%C3%A7ada-na-/921592270669313/",
+              "description": "A música que trata sobre masoquismo emocional e lealdade autodestrutiva foi escrita por Den Renald. O vocalista de Imagine Dragons, mas originalmente essa ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Ci vediamo questo Giovedì 14 maggio, dalle 19, per il warm up ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DYMhjo_K_Ai/?__d=1%3Futm_source%3Dig_embed",
+              "description": "planner CRAWLANCE DonJulio. raboucer_barcuore's profile picture · raboucer_barcuore. •. Follow. Photo by Raboucer on May 25, 2026. May be an ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "CROWS ZERO 1 | Part 50 #crowszero #movieclip #film",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61587085714284/videos/crows-zero-1-part-50-crowszero-movieclip-film/1395762292447701/",
+              "description": "Video · CROWS ZERO 1 | Part 50 #crowszero #movieclip #film ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Sorry uncle, kami mau sales 🙏🙏",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DT4CkU6k4Yf/",
+              "description": "MODERN WHISKY Musky MAKES YOU (7714)5377-1977 &YOU ROOM CRAWLANCE . MONCLER HYPI . BARK TO THE FOR ORIO . HUSKŌ ハスコ BARK TO THE FUTURE. ohmypetexpo's ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Crawlance\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 81,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlance%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:43 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "everyone was on their feet for the Baby Crawl Race #Pelicans",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/PelicansNBA/videos/everyone-was-on-their-feet-for-the-baby-crawl-racepelicans-ochsner-childrens/1585267175843367/",
+              "description": "everyone was on their feet for the Baby Crawl Race ・ definitely had a nice crowd. based on a halftime baby race ・ pelicans last two games."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "#followersreels | Bebeth Arayan Cemine",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/beth.cemine.lingatong/videos/followersreels/27017254271240672/",
+              "description": "Video · #followersreels ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "A Voice That Touched Every Heart… Cafe Wild Asia ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/udawalawecafewildasia/videos/%EF%B8%8F-a-voice-that-touched-every-heartcafe-wild-asia-udawalawe-%E0%B7%84%E0%B7%92-%E0%B6%B4%E0%B7%90%E0%B7%80%E0%B7%90%E0%B6%AD%E0%B7%8A%E0%B7%80%E0%B7%94%E0%B6%AB%E0%B7%94-cool-vi/1963819167611332/",
+              "description": "This post is an advertisement for a live music event called \"Cool Vibe - Acoustic Music Night\" scheduled for August 15, 2026, at Cafe Wild Asia ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "I think the search histories and authors and criminals probably ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DW7XSCMk3sO/",
+              "description": "... CRAWLANCE TAINTED THE CUP WILL THE CARL ROBE I DON'T TRYING and DIE ANTON RENNET BENNY DJANGO Instead, I read as much as I can and write most days ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Sorry uncle, kami mau sales 🙏🙏",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DT4CkU6k4Yf/",
+              "description": "MODERN WHISKY Musky MAKES YOU (7714)5377-1977 &YOU ROOM CRAWLANCE . MONCLER HYPI . BARK TO THE FOR ORIO . HUSKŌ ハスコ BARK TO THE FUTURE. ohmypetexpo's ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "*مجمع حسام بيوتي* البصرة ابي الخصيب مقابل جامع السيد ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DbdmT2XI-wk/",
+              "description": "HAND-LIGHT HANDLIGHT SHEGLAM भ HUSSAM BEAUTY CONCEALER LAMAR CRAWLANCE tch LUC WEDNESDAY Queen Kulit CHUANDO MANH a . LIGHT HAND-LIGHT ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Você sabia que a música “Sucker For Pain” rodou alguns ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/100010511085969/videos/voc%C3%AA-sabia-que-a-m%C3%BAsica-sucker-for-pain-rodou-alguns-bocados-at%C3%A9-ser-lan%C3%A7ada-na-/921592270669313/",
+              "description": "A música que trata sobre masoquismo emocional e lealdade autodestrutiva foi escrita por Den Renald. O vocalista de Imagine Dragons, mas originalmente essa ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "CROWS ZERO 1 | Part 50 #crowszero #movieclip #film",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61587085714284/videos/crows-zero-1-part-50-crowszero-movieclip-film/1395762292447701/",
+              "description": "Video · CROWS ZERO 1 | Part 50 #crowszero #movieclip #film ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Ci vediamo questo Giovedì 14 maggio, dalle 19, per il warm up ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DYMhjo_K_Ai/?__d=1%3Futm_source%3Dig_embed",
+              "description": "planner CRAWLANCE DonJulio. raboucer_barcuore's profile picture · raboucer_barcuore. •. Follow. Photo by Raboucer on May 25, 2026. May be an ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlDrive\"",
+      "markets": [
+        {
+          "name": "\"CrawlDrive\"",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "\"CrawlDrive\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 5,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlDrive%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:42 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "VA - It's DAY ONE of the Virginia Blue Ridge Yarn Crawl ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/VABRYC/photos/its-day-one-of-the-virginia-blue-ridge-yarn-crawl%EF%B8%8Fdrive-safely%EF%B8%8Fhave-so-much-fun%EF%B8%8F/762873762710059/",
+              "description": "It's DAY ONE of the Virginia Blue Ridge Yarn Crawl! ❤️Drive safely ❤️Have so much fun ❤️Get your passport stamped ❤️Win a doorprize ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "The H&K Group – Job Skippack, PA - Road Mechanic",
+              "domain": "www.talent.com",
+              "url": "https://www.talent.com/view?id=623422275165432567",
+              "description": "... crawlDrive up to two hoursUse hands to finger or feelTalk and hearOccasionally lift and/or move up to 75 poundsWork EnvironmentOccasional exposure to Moving ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Cordless Beveller Saddle Crawler Motor",
+              "domain": "www.castleweldshop.net",
+              "url": "https://www.castleweldshop.net/Cordless-Beveller-Saddle-Crawler-Motor_p_1817.html",
+              "description": "Availability: In Stock. Part Number:CrawlDrive. Put me on the Waiting List. Quantity Add to Cart. Review this item. Email a friend. Description; Customer ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "New plugin ute hits market | Otago Daily Times",
+              "domain": "www.pressreader.com",
+              "url": "https://www.pressreader.com/new-zealand/otago-daily-times/20260711/282544435055839?srsltid=AfmBOoqVf2wnz2eovUbrpMbKcj6OgiBmOGa6Yv4RXBkH7Jby64ns1JP1",
+              "description": "The T9 delivers dedicated offroad and crawldrive modes, with offroad quickaccess buttons to make switching between tarmac and tough terrain straightforward ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Head of SEO - Fresher Jobs",
+              "domain": "fresherjobs.uk",
+              "url": "https://fresherjobs.uk/job/head-of-seo/",
+              "description": "... crawlDrive editorial and content output — briefs, optimisation, distributionBuild and execute the link-building and digital PR strategyTrack and report on ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Crawlent\"",
+      "markets": [
+        {
+          "name": "\"Crawlent\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 5140,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlent%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:44 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "crawlent",
+              "domain": "en.wiktionary.org",
+              "url": "https://en.wiktionary.org/wiki/crawlent",
+              "description": "crawlent. Entry · Discussion. Language; Loading… Download PDF; Watch · Edit. French ... Verb. edit. crawlent. third-person plural present indicative/subjunctive ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Définition de CRAWLENT",
+              "domain": "www.cnrtl.fr",
+              "url": "https://www.cnrtl.fr/definition/crawlent",
+              "description": "Nage rapide sur le ventre, comportant un battement continu des jambes et un mouvement alternatif de rotation des bras, qui sont projetés dans l'eau ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "CRAWL Enterprises (@crawlent)",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@crawlent",
+              "description": "\"Create Raw Art With Love\" https://gofund.me/a2697b7e www.crawlent.com · Theres a Go Fund Me link in bio or on ig bio of youd like to · Remission Line available!"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "CRAWLENT",
+              "domain": "elimots.com",
+              "url": "https://elimots.com/ods?mot=CRAWLENT&taillemax=oui",
+              "description": "CRAWLENT est valable au Scrabble (dictionnaire officiel 2024-2027) Définition : CRAWLER v. [cj. aimer]. Ce mot était déjà valable avant la première ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Anagrams of CRAWLENT, Anagram Maker, Scrabble Solver",
+              "domain": "www.wordplays.com",
+              "url": "https://www.wordplays.com/de/anagram-solver/crawlent",
+              "description": "Machen Anagramme von CRAWLENT mit der Anagramm-Löser. Finden Anagramme für Scrabble, Words with Friends, und andere Wortspiele, oder verwenden Sie den Namen ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "188 Words from CRAWLENT - Anagram Word Finder",
+              "domain": "puzzledepot.com",
+              "url": "https://puzzledepot.com/cgi-bin/wordfinder.fcgi?SearchType=Anagram&Letters=CRAWLENT&Dict=american",
+              "description": "188 Words from CRAWLENT - Anagram Word Finder · clawer · wanter · canter · cantle · carnet · cartel · cental · centra ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "1 Words from CRAWLENT - Anagram Word Finder | A2zwords.com",
+              "domain": "a2zwords.com",
+              "url": "https://a2zwords.com/cgi-bin/wordfinder.fcgi?SearchType=Anagram&Letters=crawlent&word_click=crawlent&MinLetters=8&SortBy=Alpha&Dict=French",
+              "description": "Found 1 words from the letters CRAWLENT. Sorted by alpha. Use for Anagram, Wordle & word games."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "La palabra CRAWLENT no es válida scrabble",
+              "domain": "www.laspalabras.es",
+              "url": "https://www.laspalabras.es/crawlent",
+              "description": "La palabra crawlent no es válida scrabble. 3 palabras dentro de la palabra (Las palabras se encuentran dentro de la palabra.)."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "CRAWLENT is not a valid scrabble word",
+              "domain": "1word.ws",
+              "url": "https://1word.ws/crawlent",
+              "description": "Don't play the word crawlent, 0 anagrams, 0 prefixes, 0 suffixes, 7 words-in-word, 0 cousins, 0 anagrams+one... CRAWLENT scores zero in scrabble."
+            }
+          ]
+        },
+        {
+          "name": "\"Crawlent\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 5130,
+          "checkUrl": "https://www.google.com/search?q=%22Crawlent%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:46 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "crawlent",
+              "domain": "en.wiktionary.org",
+              "url": "https://en.wiktionary.org/wiki/crawlent",
+              "description": "crawlent. Entry · Discussion. Language; Loading… Download PDF; Watch · Edit. French ... Verb. edit. crawlent. third-person plural present indicative/subjunctive ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Définition de CRAWLENT",
+              "domain": "www.cnrtl.fr",
+              "url": "https://www.cnrtl.fr/definition/crawlent",
+              "description": "Nage rapide sur le ventre, comportant un battement continu des jambes et un mouvement alternatif de rotation des bras, qui sont projetés dans l'eau ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "CRAWL Enterprises (@crawlent)",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@crawlent",
+              "description": "\"Create Raw Art With Love\" https://gofund.me/a2697b7e www.crawlent.com · Theres a Go Fund Me link in bio or on ig bio of youd like to · Remission Line available!"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "CRAWLENT",
+              "domain": "elimots.com",
+              "url": "https://elimots.com/ods?mot=CRAWLENT&taillemax=oui",
+              "description": "CRAWLENT est valable au Scrabble (dictionnaire officiel 2024-2027) Définition : CRAWLER v. [cj. aimer]. Ce mot était déjà valable avant la première ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "188 Words from CRAWLENT - Anagram Word Finder",
+              "domain": "puzzledepot.com",
+              "url": "https://puzzledepot.com/cgi-bin/wordfinder.fcgi?SearchType=Anagram&Letters=CRAWLENT&Dict=american",
+              "description": "188 Words from CRAWLENT - Anagram Word Finder · clawer · wanter · canter · cantle · carnet · cartel · cental · centra ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "1 Words from CRAWLENT - Anagram Word Finder | A2zwords.com",
+              "domain": "a2zwords.com",
+              "url": "https://a2zwords.com/cgi-bin/wordfinder.fcgi?SearchType=Anagram&Letters=crawlent&word_click=crawlent&MinLetters=8&SortBy=Alpha&Dict=French",
+              "description": "Found 1 words from the letters CRAWLENT. Sorted by alpha. Use for Anagram, Wordle & word games."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "CRAWLENT is not a valid scrabble word",
+              "domain": "1word.ws",
+              "url": "https://1word.ws/crawlent",
+              "description": "Don't play the word crawlent, 0 anagrams, 0 prefixes, 0 suffixes, 7 words-in-word, 0 cousins, 0 anagrams+one... CRAWLENT scores zero in scrabble."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "crawler - Definition, Meaning, Examples & Pronunciation in ...",
+              "domain": "dictionnaire.lerobert.com",
+              "url": "https://dictionnaire.lerobert.com/en/definition/crawler",
+              "description": "présent. je crawle. tu crawles. il crawle / elle crawle. nous crawlons. vous crawlez. ils crawlent / elles crawlent. imparfait. je crawlais. tu crawlais. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Words That End With CRAWLENT - Word Finder",
+              "domain": "www.wordplays.com",
+              "url": "https://www.wordplays.com/words-that-end-with/crawlent",
+              "description": "Search for words that contain crawlent, words that start with crawlent, or words that end with crawlent. Find Scrabble words and answers to word games with the ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlFoundry\"",
+      "markets": [
+        {
+          "name": "\"CrawlFoundry\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawl Foundry\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1110,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlFoundry%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:42 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Space Wars Text Crawl",
+              "domain": "www.foundryvtt-hub.com",
+              "url": "https://www.foundryvtt-hub.com/package/swtextcrawl/",
+              "description": "Creates a text crawl via a journal entry that can shared to players. Video example: Link. Example Image. Subscribe."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Dungeon Crawl - Foundry-VTT-Ready Adventure 2nd & 5th level",
+              "domain": "www.patreon.com",
+              "url": "https://www.patreon.com/posts/sea-hags-lair-49475503?l=de-DE",
+              "description": "Sea Hag's Lair - Dungeon Crawl - Foundry-VTT-Ready Adventure 2nd & 5th level von Humperdink's Wares auf Patreon. Tritt der Community von Humperdink's Wares ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "The War Below Ashpeak | A Shadowdark Dungeon Crawl",
+              "domain": "startplaying.games",
+              "url": "https://startplaying.games/adventure/cmdhz5l8j00tujo04bv0guhy2",
+              "description": "This game will be run on Foundry VTT, with custom maps. The campaign is entirely of my own design, and is filled with monsters and traps from both official ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "[https://startplaying. games/gm/cmm3t7k4o001zib04d6l8k0pq]( ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/418251100727870/posts/1071324558753851/",
+              "description": "... Crawl - Foundry VTT - Pathfinder. STARTPLAYING.GAMES. Join Abomination Vaults | PF2E | Beginner-Friendly Dungeon Crawl - Foundry VTT - Pathfinder 2e | Sta..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Into Uncharted Depths: A Level 10 Dungeon Crawl",
+              "domain": "startplaying.games",
+              "url": "https://startplaying.games/adventure/cmlmmbwvq00ppjs040t2zvml1",
+              "description": "About the adventure. This is a pure dungeon crawl—exploration and combat only. No social scenes. No side plots. No long conversations with NPCs."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Pub Crawl - Foundry VTT Module | Tom Cartos",
+              "domain": "www.patreon.com",
+              "url": "https://www.patreon.com/tomcartos/posts/pub-crawl-vtt-45813916",
+              "description": "Log in. Home · Posts · Collections · Membership · Recommendations. Locked. Pub Crawl - Foundry VTT Module. Creator profile picture · Tom Cartos. Jan 4, 2021."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Excited for the coffee crawl? A @suitman_films . . . . . #fyp # ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/Db8jwQdPSKM/",
+              "description": "Cheers. OCR . Crema COFFEE CO. . TİLERAR 8CUROV'S . TYLER COFFEE CRAWL FOUNDRY FRI 8 & AUGUST 21ST SAT AUGUST 22ND. bradyscoffeeshop's ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "It's happening today and tomorrow! . . . . . #coffee #fyp #tylertx",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/bigshotcoffeehouse/videos/its-happening-today-and-tomorrowcoffee-fyp-tylertx/900213266105005/",
+              "description": "The video humorously highlights the common struggle between productivity and procrastination, as the person ultimately chooses to grab drinks ..."
+            }
+          ]
+        },
+        {
+          "name": "\"CrawlFoundry\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Crawl Foundry\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 1290,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlFoundry%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:55 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Space Wars Text Crawl",
+              "domain": "www.foundryvtt-hub.com",
+              "url": "https://www.foundryvtt-hub.com/package/swtextcrawl/",
+              "description": "Creates a text crawl via a journal entry that can shared to players. Video example: Link. Example Image. Subscribe. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Into Uncharted Depths: A Level 10 Dungeon Crawl",
+              "domain": "startplaying.games",
+              "url": "https://startplaying.games/adventure/cmlcfcgia000mks04tjy5vtda",
+              "description": "About the adventure. This is a pure dungeon crawl—exploration and combat only. No social scenes. No side plots. No long conversations with NPCs."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Pub Crawl - Foundry VTT Module | Tom Cartos",
+              "domain": "www.patreon.com",
+              "url": "https://www.patreon.com/tomcartos/posts/pub-crawl-vtt-45813916",
+              "description": "Log in. Home · Posts · Collections · Membership · Recommendations. Locked. Pub Crawl - Foundry VTT Module. Creator profile picture · Tom Cartos. Jan 4, 2021."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "[https://startplaying. games/gm/cmm3t7k4o001zib04d6l8k0pq]( ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/1182300162599348/posts/2316276872534999/",
+              "description": "... Crawl - Foundry VTT - Pathfinder. STARTPLAYING.GAMES. Join Abomination Vaults | PF2E | Beginner-Friendly Dungeon Crawl - Foundry VTT - Pathfinder 2e | Sta..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "It's happening today and tomorrow! . . . . . #coffee #fyp #tylertx",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/bigshotcoffeehouse/videos/its-happening-today-and-tomorrowcoffee-fyp-tylertx/900213266105005/",
+              "description": "This video is a promotional flyer for a local event called the \"Tyler Coffee Crawl.\" The event is scheduled for August 22nd at the Tyler Coffee ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "A Soulslike legacy dungeon crawl - Highwater Castle",
+              "domain": "startplaying.games",
+              "url": "https://startplaying.games/adventure/cmt1aryhs009jic04yq8i76w7",
+              "description": "Explore your way through a soulslike legacy dungeon, ruled by Vile Baelin, the Worm. Fight your way through, find hidden secrets, and defeat the Worm!"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Excited for the coffee crawl? A @suitman_films . . . . . #fyp # ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/Db8jwQdPSKM/",
+              "description": "So we're excited. Cheers. OCR . Crema COFFEE CO. . TİLERAR 8CUROV'S . TYLER COFFEE CRAWL FOUNDRY FRI 8 & AUGUST 21ST SAT AUGUST 22ND."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "The longest-running participant on the Indianapolis # ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DROHBE5kQdN/",
+              "description": "... and out, especially with that outdoor patio. ☀️ For the December 13th Crawl, Foundry is our final stop on the sold-out Route 1. 🎟️\"."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Ready for the crawl? . . . . . . #coffee #fyp #tylertx",
+              "domain": "www.threads.com",
+              "url": "https://www.threads.com/@bigshotcoffeehouse/post/DcRN-mIDqJo/video-ready-for-the-crawl-coffee-fyp-tylertx/",
+              "description": "Ready for the crawl? . . . . . . #coffee #fyp #tylertx. OCR . . . COURTEDUIS 19 JAR . . TYLER COFFEE CRAWL FOUNDRY FRI AUGUST 21ST & SAT AUGUST 22ND."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Crawliva\"",
+      "markets": [
+        {
+          "name": "\"Crawliva\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 1,
+          "checkUrl": "https://www.google.com/search?q=%22Crawliva%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:45 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Terminological Perspective, InPrah, K.K. Between D",
+              "domain": "repository.up.ac.za",
+              "url": "https://repository.up.ac.za/bitstreams/54484335-f29c-4b08-914f-f2ac95a63f3c/download",
+              "description": "... craWliva heard of a.pub crawl'\" &heiiipbut a hospiial crawl Place a greaseband round' the trunk of heard of apub crawl &heiiij)buia hospilal ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Crawliva\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 1,
+          "checkUrl": "https://www.google.com/search?q=%22Crawliva%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:55 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Terminological Perspective, InPrah, K.K. Between D",
+              "domain": "repository.up.ac.za",
+              "url": "https://repository.up.ac.za/bitstreams/54484335-f29c-4b08-914f-f2ac95a63f3c/download",
+              "description": "... craWliva heard of a.pub crawl'\" &heiiipbut a hospiial crawl Place a greaseband round' the trunk of heard of apub crawl &heiiij)buia hospilal ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlLayer\"",
+      "markets": [
+        {
+          "name": "\"CrawlLayer\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Crawler\"",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 89700000,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlLayer%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:53 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "RC Rock Crawler | RC CARS",
+              "domain": "www.absima.shop",
+              "url": "https://www.absima.shop/RC-CARS/RC-Rock-Crawler.htm?a=catalog&p=19053",
+              "description": "RC Crawler im Maßstab von 1:8 bis 1:24. Maßstab 1:8 · Maßstab 1:10 · Mini Crawler. Sortieren nach: .. Neueste zuerst, Älteste zuerst, Niedrigster Preis ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Modelle - Crawler",
+              "domain": "www.crawlercaravans.com",
+              "url": "https://www.crawlercaravans.com/de/modelle/modelle",
+              "description": "Modelle. Startseite > Modelle. Kategorie. Crawler CMP 190 Modelle; Crawler ANKA Modelle; Crawler CMP 240 Modelle; Crawler OTAG 385 Modelle; Crawler OTAG 830 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Webcrawler",
+              "domain": "de.wikipedia.org",
+              "url": "https://de.wikipedia.org/wiki/Webcrawler",
+              "description": "Dadurch findet der fokussierte Crawler den besten Weg durch das Web und indexiert nur (für ein Thema bzw. eine Domäne) relevante Bereiche des Webs. Hürden ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "RC Crawler und Scale RC Cars",
+              "domain": "www.bullet-rc.de",
+              "url": "https://www.bullet-rc.de/rc-fahrzeuge/rc-crawler.html",
+              "description": "RC Crawler und Scale RC Cars. Vanquish Crawler Deutschland. Vanquish Products Crawler gehören mit ihrer performance zu den besten Crawlern 2025."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "RC Crawler online kaufen für Scale & Trail",
+              "domain": "www.speedcontrolparts.de",
+              "url": "https://www.speedcontrolparts.de/Fahrzeuge/RC-Autos/Crawler/?srsltid=AfmBOoq9kCsp2Rt7uHCLxEN88wO8t2N62En9e3ieV7JP5tVq3pdAOHq6",
+              "description": "RC Crawler stehen für präzises Fahren, hohe Verschränkung, starke Geländegängigkeit und maximalen Fahrspaß im technischen Terrain. Wenn du einen RC Crawler ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Forum - Rockcrawler.de",
+              "domain": "www.rockcrawler.de",
+              "url": "https://www.rockcrawler.de/wcf/board-list/",
+              "description": "Wettbewerbe Crawler nur 1.9/2.2/Superclass. 0. Themen: 258. Beiträge: 9,5k. Letzte ... Crawler · Cross RC · d90 · Defender · eigenbau · Gmade · GOX · hilux ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Crawler, Scale Trucks - Amewi Shop",
+              "domain": "amewi.shop",
+              "url": "https://amewi.shop/Crawler-Scale-Trucks",
+              "description": "Crazy Crawler &quot;Green&quot; 4WD RTR 1:10 Rock Crawler · Crazy Crawler \"Green\" 4WD RTR 1:10 Rock Crawler. 59,90 € *. Sale 33%. Crazy ..."
+            },
+            {
+              "type": "organic",
+              "rank": 12,
+              "title": "Crawler einfach erklärt – Was ist ein Webcrawler?",
+              "domain": "www.ionos.de",
+              "url": "https://www.ionos.de/digitalguide/online-marketing/suchmaschinenmarketing/was-ist-ein-crawler/",
+              "description": "01.07.2025 — Crawler sind Bots, die das Internet nach Daten durchsuchen. Sie analysieren Inhalte und legen Informationen in Datenbanken und Indexen an, um ..."
+            },
+            {
+              "type": "organic",
+              "rank": 13,
+              "title": "Crawler Zubehör",
+              "domain": "www.df-models-shop.de",
+              "url": "https://www.df-models-shop.de/Crawler-Zubehoer?srsltid=AfmBOor7kUh3e3r42_Ra9WGkx_GxjA1PEDMOc5dkEK5AAK-GFKrnny8v",
+              "description": "Crawler Zubehör: 1:10 Anhänger-Kupplungskopf aus Metall - 1:10 Anhänger-Kupplungsklaue aus Metall - Spanngurte mit Zurrösen (3 St.) ..."
+            },
+            {
+              "type": "knowledge_graph",
+              "rank": 1,
+              "title": "Webcrawler",
+              "domain": null,
+              "url": null,
+              "description": "Ein Webcrawler ist ein Computerprogramm, das automatisch das World Wide Web durchsucht und Webseiten analysiert. Webcrawler werden vor allem von Suchmaschinen zur Indexierung von Webseiten eingesetzt. Quelle: Mehr Weniger Beschreibung"
+            }
+          ]
+        },
+        {
+          "name": "\"CrawlLayer\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlMetra\"",
+      "markets": [
+        {
+          "name": "\"CrawlMetra\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"CrawlMetra\"",
+          "market": "us",
+          "error": "Provider task failed: 40102 No Search Results."
+        }
+      ]
+    },
+    {
+      "name": "\"Crawlmetry\"",
+      "markets": [
+        {
+          "name": "\"Crawlmetry\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"Crawlmetry\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"CrawlTower\"",
+      "markets": [
+        {
+          "name": "\"CrawlTower\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 33,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlTower%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:57 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Without Waking Children",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/without-waking-children",
+              "description": "Popular tracks ; Bone Obelisk Demo - WWC · 3834 ; Entropy Demo-WWC · 1474 ; Crawltower Demo-WWC · 3657 ; Bee and Eee Demo - WWC · 3340."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Dan Deagh Wealcan",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/dandeaghwealcan",
+              "description": "User comments ; on Crawltower Demo-WWC · Crawltower Demo-WWC. great composing, man! ; on The Weapon · The Weapon. you are sick as i am...like it! ; on PRISMS · PRISMS."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "powercell",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/guitarvoyage",
+              "description": "Crawltower Demo-WWC. Without Waking Children. 3657. 3:54. 12y. User comments. See all · on Bad Weather. on Bad Weather. nice track i love it.... 11y."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Project LD Vehicles, Steeds, Gadgets, and Helpers",
+              "domain": "www.deviantart.com",
+              "url": "https://www.deviantart.com/hypno-scream/art/Project-LD-Vehicles-Steeds-Gadgets-and-Helpers-902486975",
+              "description": "Martian Manhunter - Justice League Watchtower/Justice League Crawltower/Justice League Protector; The Scarecrow - Scarecrow's Plane/Fear Gas ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Lazy Beaver",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/lazy_beaver",
+              "description": "Auto Pilot (Queens Of The Stone Age Cover). Lazy Beaver ; Queens of the stone age - Avon(acoustic cover). Coverzguy ; Crawltower Demo-WWC. Without Waking Children."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Stream MK Ultra Official music",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/mkultra-music",
+              "description": "Wish House [Demo version]. The Spoiled ; Say My Name (feat. Zyra). ODESZA ; Tritonal & Paris Blohm ft. Sterling Fox - Colors [HDI Remix]. ADRIAN GOLD ; Crawltower ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Black Spiral - Dreamgrave",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/dreamgraveofficial/black-spiral",
+              "description": "... Crawltower Demo-WWC. Without Waking Children. 3654. 3:54. 12y. In albums."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Listen to bleedThrough - Dan Deagh Wealcan",
+              "domain": "m.soundcloud.com",
+              "url": "https://m.soundcloud.com/dandeaghwealcan/bleedthrough?in=1ovva%2Fsets%2Fiovva-portfolio",
+              "description": "Related tracks ; Supermoon. 65daysofstatic ; Crawltower Demo-WWC. Without Waking Children ; Thermopylae. Leonardo Escárcega ; The Weapon. Mordeous."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Kapiwolf",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/kapiwolf",
+              "description": "on Crawltower Demo-WWC. on Crawltower Demo-WWC. very Alice in Chains vibe, with a darker side, sweet shit ma… 12y. on Let&#x27;s Dance. on Let's Dance. @louis ..."
+            }
+          ]
+        },
+        {
+          "name": "\"CrawlTower\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 93,
+          "checkUrl": "https://www.google.com/search?q=%22CrawlTower%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:42 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Without Waking Children",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/without-waking-children",
+              "description": "Popular tracks ; Bone Obelisk Demo - WWC · 3834 ; Entropy Demo-WWC · 1474 ; Crawltower Demo-WWC · 3657 ; Bee and Eee Demo - WWC · 3340. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Dan Deagh Wealcan",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/dandeaghwealcan",
+              "description": "User comments ; on Crawltower Demo-WWC · Crawltower Demo-WWC. great composing, man! ; on The Weapon · The Weapon. you are sick as i am...like it! ; on PRISMS · PRISMS. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Project LD Vehicles, Steeds, Gadgets, and Helpers",
+              "domain": "www.deviantart.com",
+              "url": "https://www.deviantart.com/hypno-scream/art/Project-LD-Vehicles-Steeds-Gadgets-and-Helpers-902486975",
+              "description": "Martian Manhunter - Justice League Watchtower/Justice League Crawltower/Justice League Protector; The Scarecrow - Scarecrow's Plane/Fear Gas ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "powercell",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/guitarvoyage",
+              "description": "Crawltower Demo-WWC. Without Waking Children. 3657. 3:54. 12y. User comments. See all · on Bad Weather. on Bad Weather. nice track i love it.... 11y. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Lazy Beaver",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/lazy_beaver",
+              "description": "Auto Pilot (Queens Of The Stone Age Cover). Lazy Beaver ; Queens of the stone age - Avon(acoustic cover). Coverzguy ; Crawltower Demo-WWC. Without Waking Children. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Stream MK Ultra Official music",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/mkultra-music",
+              "description": "Wish House [Demo version]. The Spoiled ; Say My Name (feat. Zyra). ODESZA ; Tritonal & Paris Blohm ft. Sterling Fox - Colors [HDI Remix]. ADRIAN GOLD ; Crawltower ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Black Spiral - Dreamgrave",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/dreamgraveofficial/black-spiral",
+              "description": "... Crawltower Demo-WWC. Without Waking Children. 3654. 3:54. 12y. In albums."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Listen to bleedThrough - Dan Deagh Wealcan",
+              "domain": "m.soundcloud.com",
+              "url": "https://m.soundcloud.com/dandeaghwealcan/bleedthrough?in=1ovva%2Fsets%2Fiovva-portfolio",
+              "description": "Related tracks ; Supermoon. 65daysofstatic ; Crawltower Demo-WWC. Without Waking Children ; Thermopylae. Leonardo Escárcega ; The Weapon. Mordeous."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Kapiwolf",
+              "domain": "soundcloud.com",
+              "url": "https://soundcloud.com/kapiwolf",
+              "description": "on Crawltower Demo-WWC. on Crawltower Demo-WWC. very Alice in Chains vibe, with a darker side, sweet shit ma… 12y. on Let&#x27;s Dance. on Let's Dance. @louis ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Crawvence\"",
+      "markets": [
+        {
+          "name": "\"Crawvence\"",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "\"Crawvence\"",
+          "market": "us",
+          "error": "Provider task failed: 40102 No Search Results."
+        }
+      ]
+    },
+    {
+      "name": "\"Crawvia\"",
+      "markets": [
+        {
+          "name": "\"Crawvia\"",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "\"Crawvia\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 28,
+          "checkUrl": "https://www.google.com/search?q=%22Crawvia%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:09 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "1502. in Martio. & Aprili Pa Arch",
+              "domain": "cyfrowe.mnk.pl",
+              "url": "http://cyfrowe.mnk.pl/Content/4923/123.pdf",
+              "description": "Crawvia decretas exactiones, resi: Jum, et non hi nuper. Juum, autem exactionum, quie ex eadem praterita proxime Conventione Lijatibonien compe evant ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Bibliotheca Historica Medii Aevi - MGH-Bibliothek",
+              "domain": "www.mgh-bibliothek.de",
+              "url": "https://www.mgh-bibliothek.de/digilib/a/a007599+0002_602.pdf",
+              "description": "Giovanni Canzio, dottore nell' universitA di Crawvia. Roma liM. 40. (W.) 100 pog. Bartoszer aki, L., Prodigium natnns, miracnlnm ptiae , D. Joannes Cantius ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "α Inc 2853",
+              "domain": "jbc.bj.uj.edu.pl",
+              "url": "https://jbc.bj.uj.edu.pl/Content/83445/NDIGSTDR001782.pdf",
+              "description": "4842. nes Jocsbur ner Mattheur. Crawvia. Stain Report. betl. N. 1838. GW. 25 FB. Page 8. Page 9. Arsmotifbitzua rijs fcripturarüi fentētis collecta cü figuris ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Cananes - Necessers Ampolles \"TERMOS\" - Cantimplores Vasos",
+              "domain": "arca.bnc.cat",
+              "url": "https://arca.bnc.cat/arcabib_pro/en/catalogo_imagenes/grupo.do?path=1243011",
+              "description": "Budapest, Crawvia, Kocnig- graetz, Grat, eto,. eri?., sense comptar els professors o alumnes russos, finlando sos, polonesos, grechs, rumans, búlgars."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Día atareado #comedy #humor",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DJx3ce2suob/",
+              "description": "... veracruz, con este frío y lluvia. February 1. OCR. HÖFGH CRAWVIA. fhrancizko's profile picture · fhrancizko. •. Follow. Photo by Francisco on August 18, 2025."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "(PDF) -« Génova y el sistema imperial hispánico” en ...",
+              "domain": "www.academia.edu",
+              "url": "https://www.academia.edu/5443766/_G%C3%A9nova_y_el_sistema_imperial_hisp%C3%A1nico_en_%C3%81lvarez_Ossorio_A_y_Garc%C3%ADa_B_eds_La_Monarqu%C3%ADa_de_las_naciones_Patria_Naci%C3%B3n_y_Naturaleza_en_la_Monarqu%C3%ADa_de_Espa%C3%B1a_Madrid_2004_pp_528_562",
+              "description": ";ais ne peut avoir; ainsi dans un milieu artistique italien, Crawvia, y muchos están casados y naturalizados con pri- quién están y en cuáles Provincias, la ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Sigismundus Grimus Res",
+              "domain": "cyfrowe.mnk.pl",
+              "url": "http://cyfrowe.mnk.pl/Content/11089/038.pdf",
+              "description": "Datum Crawvia Jeria Sestor ante Do latare de ipso anuntiationis minicam. maria qui fuit vigesima quinta Mar- tij. Anno Domini anno. KK 1111. Regni nostri. C. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Murciélagos de Cuba: Diversidad y Ecología | PDF",
+              "domain": "es.scribd.com",
+              "url": "https://es.scribd.com/doc/131312963/Los-Murcielagos-de-Cuba",
+              "description": "IZSE: Institute de Zoologia Sistematica )I Experimental, Crawvia. 1.4 METODOS, MATERIALES, Y RECONOCIMIENTOS. 25. Instituto de Zoologia de Vcrlebrados, Brno ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "cravia.com | CRAVIA |",
+              "domain": "cravia.com.testednet.com",
+              "url": "http://cravia.com.testednet.com/",
+              "description": "www.crawvia.com www.crwavia.com www.crsvia.com www.crasvia.com www.crsavia.com www.crzvia.com www.crazvia.com www.crzavia.com www.craia.com www.cracia.com Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Findetra\"",
+      "markets": [
+        {
+          "name": "\"Findetra\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 353,
+          "checkUrl": "https://www.google.com/search?q=%22Findetra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:05 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "FINDETRA - Updated June 2026 - Pirkkalaistie 1-5 iv Krs, Nokia, ...",
+              "domain": "m.yelp.com",
+              "url": "https://m.yelp.com/biz/findetra-no-title",
+              "description": "More info about Findetra. Map. Pirkkalaistie 1-5 iv Krs. 37100 Nokia. Finland. Directions. 03 342 3777. Call Now · Visit Website. http://www.findetra.fi ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Findetra Oy - Avoimet työpaikat ja rekrytointi",
+              "domain": "duunitori.fi",
+              "url": "https://duunitori.fi/tyopaikat/yritys/findetra-oy",
+              "description": "Findetra Oy on osakeyhtiö. Työnantajalla ei ole tällä hetkellä avoimia työpaikkoja Duunitorilla. Y-tunnus. 0876338-7. Findetra Oy. Arvioi ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Findetra Oy - yritystiedot, Y-tunnus ja päättäjät",
+              "domain": "b2b.profinder.fi",
+              "url": "https://b2b.profinder.fi/haku/findetra-oy/08763387",
+              "description": "Findetra Oy perustettiin vuonna 1992. Osakeyhtiön toimitusjohtana toimii Veikko Ilmari Kärnä ja kotipaikkakunta on Tampere. Yhtiön pääasiallinen toimiala on ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Findetra - yritystiedot, päättäjät, taloustiedot",
+              "domain": "www.finder.fi",
+              "url": "https://www.finder.fi/Agentuuriliike/Findetra+Oy/Tampere/yhteystiedot/109090",
+              "description": "Findetra Oy on perustettu vuonna 1992. Se on osakeyhtiö, jonka kotipaikka on Tampere, ja pääasiallinen toimiala Agentuuriliike. Aukioloajat ja ajanvaraus ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Findetra Oy | Yritys- ja taloustiedot",
+              "domain": "www.kauppalehti.fi",
+              "url": "https://www.kauppalehti.fi/yritykset/yritys/08763387",
+              "description": "Findetra Oy (0876338-7) on Osakeyhtiö. Sen toimialana on Erikoistumaton agentuuritoiminta. Katso kaikki yrityksen julkiset tiedot alta! Analysoi, vertaile ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Findetra Oy - Y-tunnus 0876338-7 - Tampere",
+              "domain": "www.proff.fi",
+              "url": "https://www.proff.fi/yrityksen/findetra-oy/tampere/tukkukauppa-%E2%80%93-muut/0876338-7I10LK",
+              "description": "Tarkastele yrityksen tietoja kohteesta Findetra Oy. Löydät yhteystiedot, kirjanpitotiedot, johdon ja hallituksen jäsenet."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Findetra Oy | 0876338-7 | Yritystiedot",
+              "domain": "www.taloustutka.fi",
+              "url": "https://www.taloustutka.fi/company/0876338-7",
+              "description": "Yrityksen Findetra Oy liiketulos on 0 €. Sen päätoimiala on Erikoistumaton agentuuritoiminta, perustamisvuosi 1992 ja sijainti Tampere. Yrityksen yhtiömuoto ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Findetra Oy, NOKIA Suomi |",
+              "domain": "fi.bizin.eu",
+              "url": "https://fi.bizin.eu/fin/Findetra-Oy-37100",
+              "description": "Järjestöt tiedot ; osoite, 37100,Pirkkalaistie 1-5, NOKIA Suomi ; E.mail, - ; Verkkosivun, www.findetra.fi ; Puhelinnumero, - ; Faksi, -."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Findetra Oy",
+              "domain": "tampere.yrityshaku.fi",
+              "url": "https://tampere.yrityshaku.fi/Findetra+Oy?area_id=230&text=Tampere",
+              "description": "Y-tunnus. 08763387 ; Osoite. Villilänniemi 7 D 21 33300 TAMPERE ; Puh. 03 3423777 ; Fax. +358033423133 ; www. www.findetra.fi ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Findetra\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 252,
+          "checkUrl": "https://www.google.com/search?q=%22Findetra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:19 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "FINDETRA - Updated June 2026 - Pirkkalaistie 1-5 iv Krs, Nokia, ...",
+              "domain": "m.yelp.com",
+              "url": "https://m.yelp.com/biz/findetra-no-title",
+              "description": "More info about Findetra. Map. Pirkkalaistie 1-5 iv Krs. 37100 Nokia. Finland. Directions. 03 342 3777. Call Now · Visit Website. http://www.findetra.fi ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Avoimet työpaikat Findetra Oy",
+              "domain": "duunitori.fi",
+              "url": "https://duunitori.fi/tyopaikat/yritys/findetra-oy?search_also_descr=1",
+              "description": "Findetra Oy on osakeyhtiö. Työnantajalla ei ole tällä hetkellä avoimia työpaikkoja Duunitorilla. Y-tunnus. 0876338-7. Findetra Oy. Arvioi ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Findetra Oy - yritystiedot, Y-tunnus ja päättäjät",
+              "domain": "b2b.profinder.fi",
+              "url": "https://b2b.profinder.fi/haku/findetra-oy/08763387",
+              "description": "Findetra Oy perustettiin vuonna 1992. Osakeyhtiön toimitusjohtana toimii Veikko Ilmari Kärnä ja kotipaikkakunta on Tampere. Yhtiön pääasiallinen toimiala on ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Findetra - yritystiedot, päättäjät, taloustiedot",
+              "domain": "www.finder.fi",
+              "url": "https://www.finder.fi/Agentuuriliike/Findetra+Oy/Tampere/yhteystiedot/109090",
+              "description": "Findetra Oy on perustettu vuonna 1992. Se on osakeyhtiö, jonka kotipaikka on Tampere, ja pääasiallinen toimiala Agentuuriliike. Aukioloajat ja ajanvaraus ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Findetra Oy - Y-tunnus 0876338-7 - Tampere",
+              "domain": "www.proff.fi",
+              "url": "https://www.proff.fi/yrityksen/findetra-oy/tampere/tukkukauppa-%E2%80%93-muut/0876338-7I10LK",
+              "description": "Tarkastele yrityksen tietoja kohteesta Findetra Oy. Löydät yhteystiedot, kirjanpitotiedot, johdon ja hallituksen jäsenet."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Findetra Oy | Yritys- ja taloustiedot",
+              "domain": "www.kauppalehti.fi",
+              "url": "https://www.kauppalehti.fi/yritykset/yritys/08763387",
+              "description": "Findetra Oy (0876338-7) on Osakeyhtiö. Sen toimialana on Erikoistumaton agentuuritoiminta. Katso kaikki yrityksen julkiset tiedot alta! Analysoi, vertaile ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "FINDETRA - Pirkkalaistie 1-5 iv Krs, Nokia, Finlande",
+              "domain": "fr.m.yelp.ca",
+              "url": "https://fr.m.yelp.ca/biz/findetra-no-title",
+              "description": "More info about Findetra. Map. Pirkkalaistie 1-5 iv Krs. 37100 Nokia. Finlande. Directions. 03 342 3777. Call Now · Visit Website. http://www.findetra.fi ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Findetra Oy | 0876338-7 | Yritystiedot",
+              "domain": "www.taloustutka.fi",
+              "url": "https://www.taloustutka.fi/company/0876338-7",
+              "description": "Yrityksen Findetra Oy liiketulos on 0 €. Sen päätoimiala on Erikoistumaton agentuuritoiminta, perustamisvuosi 1992 ja sijainti Tampere. Yrityksen yhtiömuoto ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Findetra Oy",
+              "domain": "tampere.yrityshaku.fi",
+              "url": "https://tampere.yrityshaku.fi/Findetra+Oy?area_id=230&text=Tampere",
+              "description": "Y-tunnus. 08763387 ; Osoite. Villilänniemi 7 D 21 33300 TAMPERE ; Puh. 03 3423777 ; Fax. +358033423133 ; www. www.findetra.fi ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Indektra\"",
+      "markets": [
+        {
+          "name": "\"Indektra\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 982,
+          "checkUrl": "https://www.google.com/search?q=%22Indektra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:03 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Indektra |Delegations",
+              "domain": "grupoelektra.es",
+              "url": "https://grupoelektra.es/en/grupo-elektra/company/indektra",
+              "description": "The main objective of Indektra is to support strategic clients operating in India, offering added value in the supply and storage of electrical material and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "INDEKTRA POWER SOLUTIONS PRIVATE LIMITED",
+              "domain": "tracxn.com",
+              "url": "https://tracxn.com/d/legal-entities/india/indektra-power-solutions-private-limited/__E2tCj92S-aTfTwr3uijVpJku6zHvJWT1unRudSTGiiU",
+              "description": "20.07.2026 — INDEKTRA POWER SOLUTIONS PRIVATE LIMITED is a Private Limited Company and was incorporated on Jun 11, 2013 in India."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Indektra Power Solutions Pvt Ltd in Maraimalai Nagar ...",
+              "domain": "www.justdial.com",
+              "url": "https://www.justdial.com/Chennai/Indektra-Power-Solutions-Pvt-Ltd-Industrial-Area-Maraimalai-Nagar/044PXX44-XX44-140319150053-K2R2_BZDET",
+              "description": "Established in the year 2013, Indektra Power Solutions Pvt Ltd in Maraimalai Nagar, Chennai is a top player in the category LED Light Distributors in the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "INDEKTRA POWER SOLUTIONS PRIVATE LIMITED",
+              "domain": "www.zaubacorp.com",
+              "url": "https://www.zaubacorp.com/company/INDEKTRA-POWER-SOLUTIONS-PRIVATE-LIMITED/U31506TN2013PTC091604",
+              "description": "INDEKTRA POWER SOLUTIONS is a 13 year old company with registered office in Chengalpattu, Tamil Nadu. 3 Key Management Personnel (KMPs) have been associated ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Salman Punjari - indektra power solutions private limited",
+              "domain": "in.linkedin.com",
+              "url": "https://in.linkedin.com/in/salman-punjari-901922195",
+              "description": "Director at INDEKTRA POWER SOLUTIONS PRIVATE LIMITED · Experience: INDEKTRA POWER SOLUTIONS PRIVATE LIMITED · Location: Dhule. View Salman Punjari's profile ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Indektra Power Solutions Financials | Company Details",
+              "domain": "www.tofler.in",
+              "url": "https://www.tofler.in/indektra-power-solutions-private-limited/company/U31506TN2013PTC091604",
+              "description": "Indektra Power Solutions Private Limited, is an unlisted private company incorporated on 11 June, 2013. It is classified as a private limited company and is ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Indektra Power Solutions Private Limited Export Data in India",
+              "domain": "www.tradeint.com",
+              "url": "https://www.tradeint.com/search/india/export-data/company/indektra-power-solutions-private-limited/",
+              "description": "See Indektra Power Solutions Private Limited export data from India: bill of lading shipment records, buyers, suppliers, and trade data."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Indektra Power Solutions Head Plant Operations Salaries by 5 ...",
+              "domain": "www.ambitionbox.com",
+              "url": "https://www.ambitionbox.com/salaries/indektra-power-solutions-salaries/head-plant-operations/chennai-location",
+              "description": "Explore Indektra Power Solutions Head Plant Operations Salaries from 5 current & past employees. Get updated salary insights by experience, location, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Indektra Power Solutions Pvt. Ltd.",
+              "domain": "www.tradeindia.com",
+              "url": "https://www.tradeindia.com/indektra-power-solutions-pvt-ltd-7488519/",
+              "description": "Established in 2013 ,India Indektra Power Solutions Pvt. Ltd. has gained immense expertise in supplying & trading of Cable harnessing, solar dc combiner, ..."
+            }
+          ]
+        },
+        {
+          "name": "\"Indektra\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 1060,
+          "checkUrl": "https://www.google.com/search?q=%22Indektra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:04 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Indektra |Delegations",
+              "domain": "grupoelektra.es",
+              "url": "https://grupoelektra.es/en/grupo-elektra/company/indektra",
+              "description": "The main objective of Indektra is to support strategic clients operating in India, offering added value in the supply and storage of electrical material and ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Indektra Power Solutions Private Limited",
+              "domain": "www.indiamart.com",
+              "url": "https://www.indiamart.com/indektra-power-solutions/aboutus.html?srsltid=AfmBOooZmCELhTEkmXIHgBi8GLinh7gSytYS68tNfUGWeuNJKMrsco_d",
+              "description": "Indektra Power Solutions Pvt Ltd Chennai is the group of Elektra Grupo, Spanish company engaged in the production and distribution of electricity material for ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "INDEKTRA POWER SOLUTIONS PRIVATE LIMITED",
+              "domain": "tracxn.com",
+              "url": "https://tracxn.com/d/legal-entities/india/indektra-power-solutions-private-limited/__E2tCj92S-aTfTwr3uijVpJku6zHvJWT1unRudSTGiiU",
+              "description": "Jul 20, 2026 — INDEKTRA POWER SOLUTIONS PRIVATE LIMITED is a Private Limited Company and was incorporated on Jun 11, 2013 in India. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "INDEKTRA POWER SOLUTIONS PRIVATE LIMITED",
+              "domain": "www.zaubacorp.com",
+              "url": "https://www.zaubacorp.com/company/INDEKTRA-POWER-SOLUTIONS-PRIVATE-LIMITED/U31506TN2013PTC091604",
+              "description": "INDEKTRA POWER SOLUTIONS is a 13 year old company with registered office in Chengalpattu, Tamil Nadu. 3 Key Management Personnel (KMPs) have been associated ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Salman Punjari - indektra power solutions private limited",
+              "domain": "in.linkedin.com",
+              "url": "https://in.linkedin.com/in/salman-punjari-901922195",
+              "description": "Director at INDEKTRA POWER SOLUTIONS PRIVATE LIMITED · Experience: INDEKTRA POWER SOLUTIONS PRIVATE LIMITED · Location: Dhule. View Salman Punjari's profile ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Indektra Power Solutions Pvt. Ltd.",
+              "domain": "www.tradeindia.com",
+              "url": "https://www.tradeindia.com/indektra-power-solutions-pvt-ltd-7488519/",
+              "description": "Established in 2013 ,India Indektra Power Solutions Pvt. Ltd. has gained immense expertise in supplying & trading of Cable harnessing, solar dc combiner, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Indektra Power Solutions Head Plant Operations Salaries by 5 ...",
+              "domain": "www.ambitionbox.com",
+              "url": "https://www.ambitionbox.com/salaries/indektra-power-solutions-salaries/head-plant-operations/chennai-location",
+              "description": "Explore Indektra Power Solutions Head Plant Operations Salaries from 5 current & past employees. Get updated salary insights by experience, location, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "INDEKTRA POWER SOLUTIONS PRIVATE LIMITED",
+              "domain": "www.instafinancials.com",
+              "url": "https://www.instafinancials.com/company/indektra-power-solutions-private-limited-U31506TN2013PTC091604",
+              "description": "INDEKTRA POWER SOLUTIONS PRIVATE LIMITED is a 13.2 Years old company, incorporated on 11 Jun 2013. The current status of the company is Active."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Indektra Power Solutions Private Limited Export Data in India",
+              "domain": "www.tradeint.com",
+              "url": "https://www.tradeint.com/search/india/export-data/company/indektra-power-solutions-private-limited/",
+              "description": "See Indektra Power Solutions Private Limited export data from India: bill of lading shipment records, buyers, suppliers, and trade data."
+            },
+            {
+              "type": "knowledge_graph",
+              "rank": 1,
+              "title": "Indektra",
+              "domain": null,
+              "url": "http://www.indektra.elektragrp.com/",
+              "description": "From Indektra \"Centro logístico en distribución de material eléctrico para clientes estratégicos con presencia en India\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Querora\"",
+      "markets": [
+        {
+          "name": "\"Querora\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 7960,
+          "checkUrl": "https://www.google.com/search?q=%22Querora%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:08 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Querora - song and lyrics by Lewandowski",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/track/2rakZfiCkfhbwc2zJmYm06",
+              "description": "Listen to Querora on Spotify. Song · Lewandowski · 2021."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "𝙰𝚗𝚊 𝙼𝚊𝚌𝚑𝚊𝚍𝚘✨ (@querora) • Instagram photos and videos",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/querora/",
+              "description": "La Carolina, Jaén Derecho + ADE, Cordoba. Follow. Message. This profile is private. Follow querora in the app to see their photos and videos."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Yudalan Querora",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/yudalan.querora/?locale=de_DE",
+              "description": "Yudalan Querora is on Facebook. Join Facebook to connect with Yudalan Querora and others you may know. Facebook gives people the power to share and makes..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Querora (Single) by Lewandowski - Pandora",
+              "domain": "www.pandora.com",
+              "url": "https://www.pandora.com/artist/lewandowski/querora-single/ALnX449glKwXdvg",
+              "description": "Discover Lewandowski's top songs & albums, curated artist radio stations & more. Listen to Lewandowski on Pandora today!"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Querora - Lewandowski：歌詞、音樂影片和演唱會",
+              "domain": "www.shazam.com",
+              "url": "https://www.shazam.com/zh-tw/song/1579227102/querora",
+              "description": "Querora 由Tekla 於2021年8月4日發行，收錄於專輯《Querora - Single》中. 在Apple Music中開啟. 享受多達一個月的免費體驗. album cover. 歌曲詳情 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "QUERORA Unscrambled Letters",
+              "domain": "www.unscramble.me",
+              "url": "https://www.unscramble.me/querora",
+              "description": "4 Letter Words You Can Make with querora. The 4 letter words you can form from querora include aero, euro and orra. In total, there are 9 valid 4 letter words ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Maricos 14:36 (not) - Aique yogaganaca cara querora, yaqu",
+              "domain": "www.bible.com",
+              "url": "https://www.bible.com/bible/647/MRK.14.36.NOT",
+              "description": "Aique yogaganaca cara querora, yaquitomopa quibatsiquë. Yamanocopëri Iriri: —Apa, Pabati, Obiro pinganque omagaro; caninataque pigabisainaro ora bocatsi; ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Querora | BDPI",
+              "domain": "bdpi.cultura.gob.pe",
+              "url": "https://bdpi.cultura.gob.pe/localidades/querora",
+              "description": "11.06.1986 — Querora. Tipo de localidad. Comunidad campesina. Pueblo indígena. Quechuas. Resolución de Reconocimiento. R.D. 0340-86-DRA-XX. Fecha res. de ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Querora - Single - Lewandowski",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/intl-tr/album/0qEtRaUs5N88jvcevJNv8V",
+              "description": "Spotify'da dinle: Querora Lewandowski · Single · 2.021 · 1 şarkı. ... Querora. Single • 2021 · Jasssa. Single • 2021 · Getrantale. Single • 2021."
+            }
+          ]
+        },
+        {
+          "name": "\"Querora\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Quora\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 7890,
+          "checkUrl": "https://www.google.com/search?q=%22Querora%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:09 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Querora - song and lyrics by Lewandowski",
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/track/2rakZfiCkfhbwc2zJmYm06",
+              "description": "Listen to Querora on Spotify. Song · Lewandowski · 2021."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "𝙰𝚗𝚊 𝙼𝚊𝚌𝚑𝚊𝚍𝚘✨ (@querora) • Instagram photos and videos",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/querora/",
+              "description": "La Carolina, Jaén Derecho + ADE, Cordoba. Follow. Message. This profile is private. Follow querora in the app to see their photos and videos."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "QUERORA Unscrambled Letters",
+              "domain": "www.unscramble.me",
+              "url": "https://www.unscramble.me/querora",
+              "description": "4 Letter Words You Can Make with querora. The 4 letter words you can form from querora include aero, euro and orra. In total, there are 9 valid 4 letter words ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Yudalan Querora",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/yudalan.querora/",
+              "description": "Yudalan Querora is on Facebook. Join Facebook to connect with Yudalan Querora and others you may know. Facebook gives people the power to share and makes..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Querora (Single) by Lewandowski - Pandora",
+              "domain": "www.pandora.com",
+              "url": "https://www.pandora.com/artist/lewandowski/querora-single/ALnX449glKwXdvg",
+              "description": "Discover Lewandowski's top songs & albums, curated artist radio stations & more. Listen to Lewandowski on Pandora today!"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Maricos 14:36 (not) - Aique yogaganaca cara querora, yaqu",
+              "domain": "www.bible.com",
+              "url": "https://www.bible.com/bible/647/MRK.14.36.NOT",
+              "description": "Aique yogaganaca cara querora, yaquitomopa quibatsiquë. Yamanocopëri Iriri: —Apa, Pabati, Obiro pinganque omagaro; caninataque pigabisainaro ora bocatsi; ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Lewandowski",
+              "domain": "music.apple.com",
+              "url": "https://music.apple.com/au/artist/lewandowski/470044464",
+              "description": "Querora - Single · 2021. Ketmaro. Ketmaro - EP · 2021 ... Querora - Single · Querora - Single. 2021. Similar Artists ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Querora - Lewandowski：歌詞、音樂影片和演唱會",
+              "domain": "www.shazam.com",
+              "url": "https://www.shazam.com/zh-tw/song/1579227102/querora",
+              "description": "Querora 由Tekla 於2021年8月4日發行，收錄於專輯《Querora - Single》中. 在Apple Music中開啟. 享受多達一個月的免費體驗. album cover. 歌曲詳情 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "ccatcca#querora#futbol # #fypシ - Sandra HC",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@sandrahc3/video/7659180226773060882",
+              "description": "50 me gusta,Video de TikTok de Sandra HC (@sandrahc3): “#ccatcca# querora #futbol⚽️ #☺️ #fypシ”.sonido original OFICIAL - Yennifer ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"QueryMetra\"",
+      "markets": [
+        {
+          "name": "\"QueryMetra\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"QueryMetra\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"Querymetry\"",
+      "markets": [
+        {
+          "name": "\"Querymetry\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"Querymetry\"",
+          "market": "us",
+          "error": "Provider task failed: 40102 No Search Results."
+        }
+      ]
+    },
+    {
+      "name": "\"RankPlane\"",
+      "markets": [
+        {
+          "name": "\"RankPlane\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 30,
+          "checkUrl": "https://www.google.com/search?q=%22RankPlane%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:48 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Poll from RankPlane",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/post/UgkxYnS_8jI6fR5B2Oj-Fv1i_t7ZfihrY7oB",
+              "description": "Poll from RankPlane - YouTube. Home. Shorts. Library. RankPlane · 10 days ago. What do you want ranked next? :D. Trickshots. Instant Karma. Trampoline Park."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Top 5 Jynxzi Crashout moments",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/otNc0S0onB0",
+              "description": "@rankplane. Subscribe. Top 5 Jynxzi Crashout moments. 4."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Top 6 unexpected moments",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/D7fMp7NwuEM",
+              "description": "Tap to unmute. Your browser can't play this video. Learn more · @rankplane. Subscribe. Top 6 unexpected moments. 3. 0. Share. Video unavailable."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "unho Metal Trellis, Large Garden Arch for Climbing Plants ...",
+              "domain": "www.amazon.de",
+              "url": "https://www.amazon.de/-/en/unho-Trellis-Garden-Climbing-Plants/dp/B0DXF687YT",
+              "description": "... Rankplane ist noch intakt. Read moreRead less. One person found this helpful. Helpful. Sending feedback... Thank you for your feedback. Sorry, we failed to ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "RANKING THE MOST Satisfying Videos",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/MUajA8AmyF0",
+              "description": "@RankPlane-14u. Subscribe. RANKING THE MOST Satisfying Videos    . RANKING THE BEST THINGS Dropped From Heights · Golden Brown · The ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Tenemos el regalo de reyes magos",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/661433185655353/posts/1411669210631743/",
+              "description": "... RANKPLANE PLANE 20. MED MIKDERFUL AFUIL .ニ. g製1のの相す poneeT ဟ HPIUNN ใษูดับงทพ punGame จันกลว Game NEW NEWSTYLESI STYLES! POWER 95 95 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "RANKING THE BEST Trickshots Ever! 🫢🫢",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/2HKflTJxlg8",
+              "description": "Learn more · @RankPlane-14u. Subscribe. RANKING THE BEST Trickshots Ever!. RANKING BEST Instant Karma Moments! · Golden Brown · The ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "新增进销存检查- 欧加隆",
+              "domain": "bak.easydoc.net",
+              "url": "https://bak.easydoc.net/doc/35190938/m1jpTpTA/7bLCWVh8",
+              "description": "rankPlane. 排位面. 必填. userID. 必填. WorkItemCode. 工作项code. 必填. VisitId ... “rankPlane”: “3”, “productCode”: “P120”, “productShortName”: “去氧孕烯炔雌淳 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "RANKING THE BEST Deep Sea Hunting! 🤑🤑",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/ELXdv3ZCoc0",
+              "description": "Learn more · @RankPlane-14u. Subscribe. RANKING THE BEST Deep Sea Hunting!. RANKING THE FUNNIEST Cat Moments · Golden Brown · The ..."
+            }
+          ]
+        },
+        {
+          "name": "\"RankPlane\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 32,
+          "checkUrl": "https://www.google.com/search?q=%22RankPlane%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:43 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Poll from RankPlane",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/post/UgkxYnS_8jI6fR5B2Oj-Fv1i_t7ZfihrY7oB",
+              "description": "Poll from RankPlane - YouTube. Home. Shorts. Library. RankPlane · 10 days ago. What do you want ranked next? :D. Trickshots. Instant Karma. Trampoline Park."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Top 5 Jynxzi Crashout moments",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/otNc0S0onB0",
+              "description": "@rankplane. Subscribe. Top 5 Jynxzi Crashout moments. 4."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Top 6 unexpected moments",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/D7fMp7NwuEM",
+              "description": "Tap to unmute. Your browser can't play this video. Learn more · @rankplane. Subscribe. Top 6 unexpected moments. 3. 0. Share. Video unavailable."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "RANKING THE MOST Satisfying Videos",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/MUajA8AmyF0",
+              "description": "@RankPlane-14u. Subscribe. RANKING THE MOST Satisfying Videos    . RANKING THE BEST THINGS Dropped From Heights · Golden Brown · The ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "RANKING THE BEST Trickshots Ever! 🫢🫢",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/2HKflTJxlg8",
+              "description": "Learn more · @RankPlane-14u. Subscribe. RANKING THE BEST Trickshots Ever!. RANKING BEST Instant Karma Moments! · Golden Brown · The ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "RANKING THE BEST Deep Sea Hunting! 🤑🤑",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/ELXdv3ZCoc0",
+              "description": "Learn more · @RankPlane-14u. Subscribe. RANKING THE BEST Deep Sea Hunting!. RANKING THE FUNNIEST Cat Moments · Golden Brown · The ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Tenemos el regalo de reyes magos",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/661433185655353/posts/1411669210631743/",
+              "description": "... RANKPLANE PLANE 20. MED MIKDERFUL AFUIL .ニ. g製1のの相す poneeT ဟ HPIUNN ใษูดับงทพ punGame จันกลว Game NEW NEWSTYLESI STYLES! POWER 95 95 ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "RANKING THE BEST Skilled Workers 🤑🤑",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/yaftbUdwyw8",
+              "description": "Learn more · @RankPlane-14u. Subscribe. RANKING THE BEST Skilled Workers. RANKING THE BEST Trickshots Ever! · Headlights [Extended Mix] ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "unho Metal Trellis, Large Garden Arch for Climbing Plants ...",
+              "domain": "www.amazon.de",
+              "url": "https://www.amazon.de/-/en/unho-Trellis-Garden-Climbing-Plants/dp/B0DXF687YT",
+              "description": "... Rankplane ist noch intakt. Read moreRead less. One person found this helpful. Helpful. Sending feedback... Thank you for your feedback. Sorry, we failed to ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"SearchMetra\"",
+      "markets": [
+        {
+          "name": "\"SearchMetra\"",
+          "market": "de",
+          "error": "Provider task failed: 40102 No Search Results."
+        },
+        {
+          "name": "\"SearchMetra\"",
+          "market": "us",
+          "error": "Provider task failed: 40102 No Search Results."
+        }
+      ]
+    },
+    {
+      "name": "\"SEOMetra\"",
+      "markets": [
+        {
+          "name": "\"SEOMetra\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"SEROMetra\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 52,
+          "checkUrl": "https://www.google.com/search?q=%22SEOMetra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:57 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Serometra - DocCheck Flexikon",
+              "domain": "flexikon.doccheck.com",
+              "url": "https://flexikon.doccheck.com/de/Serometra",
+              "description": "Eine Serometra ist definiert als eine Flüssigkeitsansammlung im Cavum uteri. Sonographisch stellt sie sich als echoarmer oder auch echoleerer..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Serometra – NextFertility St. Gallen",
+              "domain": "ivfschweiz.ch",
+              "url": "https://ivfschweiz.ch/index.php/2024/08/21/serometra/",
+              "description": "21.08.2024 — Serometra ist eine Flüssigkeitsansammlung in der Gebärmutter, die häufig durch postmenopausale Veränderungen, Operationen oder reproduktive ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Muss eine intrauterine Flüssigkeitsansammlung (Serometra ...",
+              "domain": "www.thieme-connect.com",
+              "url": "https://www.thieme-connect.com/products/ejournals/abstract/10.1055/s-2001-17394?lang=de",
+              "description": "Muss eine intrauterine Flüssigkeitsansammlung (Serometra) bei asymptomatischen postmenopausalen Frauen obligat histologisch abgeklärt werden? · Zusammenfassung."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Tipps & Tricks im Gyn-Ultraschall: „Fluid is your friend“",
+              "domain": "www.kup.at",
+              "url": "https://www.kup.at/journals/abbildungen/13645.html",
+              "description": "von C Brezinka · 2016 — Ultraschall-Serometra Abbildung 1: Serometra bei Asherman-Syndrom nach manueller Plazentalösung und dreimaliger Abrasio nach der letzten Entbindung."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Serometra",
+              "domain": "www.pschyrembel.de",
+              "url": "https://www.pschyrembel.de/Serometra/K0QRD",
+              "description": "Serometra f, sg ... FeedbackAnsammlung von seröser Flüssigkeit in der Gebärmutter, zumeist aufgrund einer Abflussbehinderung oder Verklebung (Ashermann-Syndrom, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Vaginalsonographie in der Krebsvorsorge",
+              "domain": "www.gesundheits-lexikon.com",
+              "url": "https://www.gesundheits-lexikon.com/Medizingeraetediagnostik/Vaginalsonographie/Vaginalsonographie-in-der-Krebsvorsorge",
+              "description": "24.07.2024 — Ein echoleeres Areal im Cavum uteri ist ein Hinweis für retinierte Flüssigkeit (Serometra, Haematometra, Mukometra). Praktisch bedeutend ist ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Serometra",
+              "domain": "sonographiebilder.de",
+              "url": "https://sonographiebilder.de/menue-links/sonographie-bilder/uterus-und-ovarien/serometra",
+              "description": "Serometra (current) · Tumore · Lunge und Thorax · Normalbefunde · Pneumonie · Pleurale ... Serometra. Sekretverhalt im Cavum uteri."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Muss eine intrauterine Flüssigkeitsansammlung (Serometra ...",
+              "domain": "www.thieme-connect.de",
+              "url": "https://www.thieme-connect.de/products/ejournals/abstract/10.1055/s-2001-17394",
+              "description": "Muss eine intrauterine Flüssigkeitsansammlung (Serometra) bei asymptomatischen postmenopausalen Frauen obligat histologisch abgeklärt werden? · Klinik und ..."
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "Muss eine intrauterine Flüssigkeitsansammlung ...",
+              "domain": "www.tib.eu",
+              "url": "https://www.tib.eu/de/suchen/id/thieme:b57ca8636c93017bafe203c53bb447de86dd9d41/Muss-eine-intrauterine-Fl%C3%BCssigkeitsansammlung-Serometra?cHash=a92d660fda07689c6a1e0f13f9b296d6",
+              "description": "Muss eine intrauterine Flüssigkeitsansammlung (Serometra) bei asymptomatischen postmenopausalen Frauen obligat histologisch abgeklärt werden? (Deutsch)."
+            }
+          ]
+        },
+        {
+          "name": "\"SEOMetra\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 195,
+          "checkUrl": "https://www.google.com/search?q=%22SEOMetra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:01 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Image from page 510 of \"Bulletin - United States National …",
+              "domain": "www.flickr.com",
+              "url": "https://www.flickr.com/photos/internetarchivebookimages/20320568460/",
+              "description": "... Seometra spinosissima: The type specimen from Investigator station 236a (I.M.). lOi.Gephyromelra versicolor:-Type specimen of Antedon propinqua, from ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Tayfun Malcok on Reels",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/tayfun.malcok.1/videos/1253249613370111/",
+              "description": "More videos you may like. 00:14. Apr 26, 2026 · 66 views. 00:11. Mar 30, 2026 · 407 views. 00:08. Mar 30, 2026 · 47 views. 00:22. Mar 30, 2026 · 52 views."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "CUT YOUR HAIR 💋🍸",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DXTF_M7AIeL/?img_index=3&__d=1%252F%253Fhidemenu%253Dtrue%253Cbr%253E%25EB%25AF%25B8%25EC%2584%25B8%25EC%258A%25A4",
+              "description": "May be. 9 likes. _paula.hair. more. April 22. OCR. GEOMETRA DVANNI OVANNIGHIA SEOMETRA GHIA い 160095. zeynep_coiffure's profile picture · zeynep_coiffure. •."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Tropiometra carinata Stock Photos and Images",
+              "domain": "www.alamy.com",
+              "url": "https://www.alamy.com/stock-photo/tropiometra-carinata.html",
+              "description": "20?, Seometra spinosissima: The type specimen from Investigator station 236a (I.M.). lOi.Gephyromelra versicolor:-Type specimen of Antedon propinqua, from ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Untitled - Sunbiz.org - Division of Corporations",
+              "domain": "search.sunbiz.org",
+              "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C0408%5C0327%5CCH001605.tif&documentNumber=P96000008667",
+              "description": "My Commission Expires: Jane & Hauronsky. Notary Public, state of Florida. FILED. TALLAHASSEE, FLORIDA. SEOMETRA OF STATE. 96 JAN 26 FII 4: 38. TOTAL P.05."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Untitled - Comune di Asti",
+              "domain": "net.comune.asti.it",
+              "url": "https://net.comune.asti.it/cmsasti/portale/albopretorio/getfile.aspx?SOURCE=DB&PARAM=103152&KEY=352578",
+              "description": "Compilata dal SEOMETRA. -. (Tiolo. nome e cognome del tecnico). MALAUDRONE DOMENICO. Iscritto all' Albo dei della Provincia di ASTI. DATA 03 fue: 1986. ・fre ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Planimetria generale.pdf",
+              "domain": "resource-pvp.giustizia.it",
+              "url": "https://resource-pvp.giustizia.it/allegati/4238253/Planimetria%20generale.pdf?versionId=18afb23e-ee79-4805-8fb0-3edc65822bfc",
+              "description": "Seometra. CACACE ANIELLO cometri. Iscritto all albo de della provincia di data. . Me poh? 28/2/2000 Firma. ก. 1256. MODUVABILO arh 496. MINISTERO DELLE FINANZE. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Resuelto:accudles la erincifal diferencia enlne las lincas recta en ...",
+              "domain": "www.gauthmath.com",
+              "url": "https://www.gauthmath.com/mx/solution/1987311487161348/accudles-la-erincifal-diferencia-enlne-las-lincas-recta-en-la-geomelria-eucldani",
+              "description": "d como se compertan has lincas Parale 1ad en 1u seometra hipe, bolidu? do como se apl,ca (a seometia esperica? Mostrar transcripción. Solución de Gauth AI ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Siteiva\"",
+      "markets": [
+        {
+          "name": "\"Siteiva\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 66,
+          "checkUrl": "https://www.google.com/search?q=%22Siteiva%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:58 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Up the hill🧗‍♂️🏔 Iva Hills.. Last mine site. Iva Valley # ...",
+              "domain": "m.facebook.com",
+              "url": "https://m.facebook.com/oyibougboblog/videos/up-the-hill%EF%B8%8Fiva-hills-last-mine-siteiva-valleyadventure-solotravel-solohiking-ph/451975018927263/?locale=ne_NP&_rdr",
+              "description": "Up the hill  ‍♂️   Iva Hills.. Last mine site. Iva Valley #adventure #solotravel #solohiking #photography #photographer #naturephotography..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Tenemos pollitos de chacra mejorados nacimiento todos los ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/incubadorapioselva/videos/tenemos-pollitos-de-chacra-mejoradosnacimiento-todos-los-lunes-y-jueves-ahora-en/1013040507850211/",
+              "description": "This is a promotional video for the Pioselva Incubadora de Huevos de Aves, a facility in Pichanaqui, Selvacentral Peru, that specializes in ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "𝓵𝓲𝓿☆ (@siteiva)",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@siteiva",
+              "description": "TikTok'ta liv☆ (@siteiva) |30 Takipçi.@Хюма†'에 Sitetampo.   #zetawin!liv☆ (@siteiva) adlı kullanıcıdan en yeni videoyu izleyin."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "HP Board Class 8 Hindi Language and Literature M 573 ...",
+              "domain": "www.scribd.com",
+              "url": "https://www.scribd.com/document/1041808674/Hp-Board-Class-8-Hindi-Language-and-Literature-m-573-Viii-2326-Mar-2026",
+              "description": "... siteiva 3 Raa ae a att sadt 3? () @ (@) wh (7) at (=) aie (iv) aft + tad a We Ta a 10 oa & am Peat ead feu? (®) 200008 (@) S50 Baa (7) 100 aa (a) 20 ead M ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Mortuary practices and ideology in Bronze Age-Early Iron ...",
+              "domain": "www.academia.edu",
+              "url": "https://www.academia.edu/2242393/Mortuary_practices_and_ideology_in_Bronze_Age_Early_Iron_Age_Crete_and_Cyprus_comparative_perspectives",
+              "description": "anaskafev~ nekrotafeivwn sthn eparciva Siteiva~', ——, 1990. 'A comparative study of the mean life AEK 2. expectation of the Minoans', in Pepragmevna tou ST ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Sim City 4 image problem",
+              "domain": "groups.google.com",
+              "url": "https://groups.google.com/g/hr.comp.igre/c/tbqFyeNXa3E",
+              "description": "siteiva je odgovarajuci torrent bio, mislim snarfit.nesto? Cyber Demon's profile photo. Cyber Demon. unread,. Jun 17, 2007, 8:45:33 PM6/17/07.."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Full text of \"Pushtimarg\"",
+              "domain": "archive.org",
+              "url": "https://archive.org/stream/Pushtimarg/ShriVallabhPadPadmagujarati_djvu.txt",
+              "description": "... siteiva (cl?$8(l cl (aU 81121 S. Cl.a. ?c4s-7hI \"(k-m Hldld Wld etecu §T4.i2^5nrtl 2l£l a4d I\" dldl s4 & cldl W.&. (pl?ciKt KqVld&<4 VlCvt Hl£ (dcydlcHS 4cu ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Улаанбаатар -> Дархан -> Сэлэнгэ Хүн ба Ачаа тээвэр",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/selengedarhan/posts/2451716208595560/",
+              "description": "... SITEIVA УаККа XeKKe ХУИИОА S SEPTEEIVA ፀእንቶ ХУПИА D0大 КеКК S ስእ ولر 1 MA Y動 ولارص oye 屋 STLLIVA 9 Хекке ХеК/22000 Хеκ 22000 WAFFLES ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "⚽️Futebol⚽️SUB14⚽️ 💚Treinos abertos💚 Vem experimentar!!!",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/DZRvx1_DWVU/",
+              "description": "CATEGORIAS SUB12 E SUB13 EM EVIDÊNCIA. June 22. OCR. 2000 Seletiva Sub12/13 SITEIVA Ivs Son Lina. pedreirinha_fc2022's profile picture · pedreirinha_fc2022."
+            }
+          ]
+        },
+        {
+          "name": "\"Siteiva\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"SiteMetra\"",
+      "markets": [
+        {
+          "name": "\"SiteMetra\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 7,
+          "checkUrl": "https://www.google.com/search?q=%22SiteMetra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:58 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Dedy Mirwansyah - 🏗️ Kelola Proyek Lebih Mudah ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/dedy.mirwansyah/photos/%EF%B8%8F-kelola-proyek-lebih-mudah-dengan-sitemetra-by-simannaid-platform-project-contr/10231148984011251/",
+              "description": "... SiteMetra, Anda dapat: ✓ Monitor progres proyek ✓ Control biaya & anggaran ✓ Kelola manpower dan material ✓ Identifikasi risiko & tindak ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Sitemetra (@arrrtemka3792) • Φωτογραφίες και βίντεο στο ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/arrrtemka3792/?hl=el",
+              "description": "Άνοιγμα εφαρμογής · Εικόνα προφίλ του χρήστη arrrtemka3792. arrrtemka3792. Sitemetra. 11 ακόλουθοι · 7 ακολουθούν · 4 δημοσιεύσεις · @arrrtemka3792."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Problem z licznikiem? - Komentarze - blog Krzysztof Leski",
+              "domain": "www.salon24.pl",
+              "url": "https://www.salon24.pl/u/krzysztofleski/notka-komentarze/233452,problem-z-licznikiem",
+              "description": "... sitemetra) nie było żadnych odwiedzin. dobranoc. Odpowiedz. Zgłoś nadużycie; Link. 00. Reklama. Komentarz został usunięty. niewierzący ateusz28 września 2010, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "С приходом осени🍁, в голове селится одна надоедливая мысль",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/p/BaWoc90DTlG/",
+              "description": "sitemetra. зачем бежать?!? Куда бежать?!?            . bu_juli_ · @victoriya_damirovna красотка а про племянников ты в точку     нас муж скоро на ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Dedy Mirwansyah",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/dedy.mirwansyah/",
+              "description": "Dengan SiteMetra, Anda dapat: ✓ Monitor progres proyek ✓ Control biaya & anggaran ✓ Kelola manpower dan material ✓ Identifikasi risiko & tindak lanjut ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Dedy Mirwansyah",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/dedy.mirwansyah/posts/10231177161235664/",
+              "description": "Dengan SiteMetra, Anda dapat: ✓ Monitor progres proyek ✓ Control biaya & anggaran ✓ Kelola manpower dan material ✓ Identifikasi risiko ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "- Mentir demuestra que eres injusto. - - Mentir - Parte 2 - | Amanda",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/SerieflixMx/videos/-mentir-parte-2-/26185839177720068/",
+              "description": "Esta noche deben dormir juntos en el dormitorio principal. Estos son artículos de pareja preparados para el joven amo y la señora. Vaya no digas que esto no ..."
+            }
+          ]
+        },
+        {
+          "name": "\"SiteMetra\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"SiteMetric\"",
+            "type": "showing_results_for"
+          },
+          "seResultsCount": 102,
+          "checkUrl": "https://www.google.com/search?q=%22SiteMetra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:09 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Sitemetric: Integrated Construction Intelligence",
+              "domain": "www.sitemetric.com",
+              "url": "https://www.sitemetric.com/",
+              "description": "Sitemetric is the leading provider of access control and monitoring, real-time insights, and expert staffing for projects of every size – from data centers to ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Working at Sitemetric: 106 Reviews",
+              "domain": "www.indeed.com",
+              "url": "https://www.indeed.com/cmp/Sitemetric-2/reviews",
+              "description": "My experience working at Sitemetric has been very disappointing. The workplace is extremely disorganized, and there seems to be a lack of effective leadership ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "SITEMETRIC",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/sitemetric",
+              "description": "It monitors your site around the clock. When your site loses power, Sitemetric AI catches it, acts on it, and keeps your operations running no matter what time ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Sitemetric",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/sitemetric/?hl=en",
+              "description": "443 followers · 994 following · 473 posts · @sitemetric: “The Leading Construction Site Management Platform”"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Anyone here familiar with a company called Sitemetric?",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Construction/comments/1kq9qwm/anyone_here_familiar_with_a_company_called/",
+              "description": "My company just gave every person in site a personalized badge with a QR code. They scan it everytime we enter and leave the jobsite. At first it appeared ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "SITEMETRIC Careers, Perks + Culture",
+              "domain": "builtin.com",
+              "url": "https://builtin.com/company/sitemetric",
+              "description": "Sitemetric is the leading provider of Integrated Construction Intelligence for projects at every scale, with more than 1 million workers on our platform, ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Sitemetric",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/Sitemetric/",
+              "description": "Sitemetric is the leading provider of access control and monitoring, real-time insights, and expert staffing for projects of every size – from data centers to ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Spektraq\"",
+      "markets": [
+        {
+          "name": "\"Spektraq\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 6,
+          "checkUrl": "https://www.google.com/search?q=%22Spektraq%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:05 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Heineken predstavlja TV reklamu „Spektra\" sa Danijelom ...",
+              "domain": "www.atastars.rs",
+              "url": "https://www.atastars.rs/vesti-ostalo/u-trendu/128871-heineken-predstavlja-tv-reklamu-spektraq-sa-danijelom-krejgom-u-ulozi-dejmsa-bonda-i-prvi-selfieq-iz-svemira/",
+              "description": "13.06.2018 — Kampanja „Spektra“ biće najveća globalna marketinška platforma koju je brend pokrenuo ove godine i pratiće 24. film o Džejmsu Bondu. Najnovija ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Kina q pročistač zraka Proizvođači Tvornica Dobavljači",
+              "domain": "hr.gfairfilter.com",
+              "url": "https://hr.gfairfilter.com/showroom/q-air-purifier/",
+              "description": "Inzistirat ćemo na stvaranju širokog spektraq pročistač zraka s visokim standardima i svesrdno poslužujući kupcima kao i uvijek. Uživali smo u velikoj ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Storfilm om psykiatrins stora",
+              "domain": "www.allehanda.se",
+              "url": "https://www.allehanda.se/2011-11-15/storfilm-om-psykiatrins-stora",
+              "description": "15.11.2011 — Men han är mest känd för rollen i Aragorn i filmerna i \"Sagan om ringen\"-trilogin. Visa mer. Gunnar Rehlin/TT Spektraq noje@ttspektra.se. Dela ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Spor o banderovcov otvára konflikt Kyjeva s Varšavou. ...",
+              "domain": "www.sme.sk",
+              "url": "https://www.sme.sk/svet/d/spor-o-banderovcov-otvara-konflikt-kyjeva-s-varsavou-nawrocki-vyzyva-zelenskeho-aby-sa-vzdal-vyznamenania",
+              "description": "Budú uspokojovaťq potreby pravého spektraq lebo ich potrebqujúq aq nacizmus budqe naq Ukqrajine narástať. Prečitaj si komentare ľudi na Ukrajine, ich postoje k ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "yavuzhan @spektraq - Twitter Profile",
+              "domain": "www.sotwe.com",
+              "url": "https://www.sotwe.com/spektraq",
+              "description": "See tweets, replies, photos and videos from @spektraq Twitter profile. 113 Followers, 135 Following ... spektraq. Joined November 2014. 135 Following. 113 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "CarbonROM - Twitter Hashtag",
+              "domain": "www.sotwe.com",
+              "url": "https://www.sotwe.com/hashtag/CarbonROM",
+              "description": "... spektraq's profile image · yavuzhan @spektraq. almost 11 years ago. Samsung,apple,sony,LG,windows hadi baslayalim #deepweeb #carbonrom. 0. 2. 0. 0. 0. Share."
+            }
+          ]
+        },
+        {
+          "name": "\"Spektraq\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 6,
+          "checkUrl": "https://www.google.com/search?q=%22Spektraq%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:05 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Kina q pročistač zraka Proizvođači Tvornica Dobavljači",
+              "domain": "hr.gfairfilter.com",
+              "url": "https://hr.gfairfilter.com/showroom/q-air-purifier/",
+              "description": "Inzistirat ćemo na stvaranju širokog spektraq pročistač zraka s visokim standardima i svesrdno poslužujući kupcima kao i uvijek. Uživali smo u velikoj ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Heineken predstavlja TV reklamu „Spektra\" sa Danijelom ...",
+              "domain": "www.atastars.rs",
+              "url": "https://www.atastars.rs/vesti-ostalo/u-trendu/128871-heineken-predstavlja-tv-reklamu-spektraq-sa-danijelom-krejgom-u-ulozi-dejmsa-bonda-i-prvi-selfieq-iz-svemira/",
+              "description": "Jun 13, 2018 — Kampanja „Spektra“ biće najveća globalna marketinška platforma koju je brend pokrenuo ove godine i pratiće 24. film o Džejmsu Bondu. Najnovija ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Storfilm om psykiatrins stora",
+              "domain": "www.allehanda.se",
+              "url": "https://www.allehanda.se/2011-11-15/storfilm-om-psykiatrins-stora",
+              "description": "Nov 15, 2011 — Men han är mest känd för rollen i Aragorn i filmerna i \"Sagan om ringen\"-trilogin. Visa mer. Gunnar Rehlin/TT Spektraq noje@ttspektra.se. Dela ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Spor o banderovcov otvára konflikt Kyjeva s Varšavou. ...",
+              "domain": "www.sme.sk",
+              "url": "https://www.sme.sk/svet/d/spor-o-banderovcov-otvara-konflikt-kyjeva-s-varsavou-nawrocki-vyzyva-zelenskeho-aby-sa-vzdal-vyznamenania",
+              "description": "Budú uspokojovaťq potreby pravého spektraq lebo ich potrebqujúq aq nacizmus budqe naq Ukqrajine narástať. Prečitaj si komentare ľudi na Ukrajine, ich postoje k ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "yavuzhan @spektraq - Twitter Profile",
+              "domain": "www.sotwe.com",
+              "url": "https://www.sotwe.com/spektraq",
+              "description": "See tweets, replies, photos and videos from @spektraq Twitter profile. 113 Followers, 135 Following ... spektraq. Joined November 2014. 135 Following. 113 ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "CarbonROM - Twitter Hashtag",
+              "domain": "www.sotwe.com",
+              "url": "https://www.sotwe.com/hashtag/CarbonROM",
+              "description": "... spektraq's profile image · yavuzhan @spektraq. almost 11 years ago. Samsung,apple,sony,LG,windows hadi baslayalim #deepweeb #carbonrom. 0. 2. 0. 0. 0. Share."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"VisibilityBeacon\"",
+      "markets": [
+        {
+          "name": "\"VisibilityBeacon\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Visibility Beacon\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 17300,
+          "checkUrl": "https://www.google.com/search?q=%22VisibilityBeacon%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:42 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Elektronische Marine Flares, Waterproof LED Kayak Distress ...",
+              "domain": "www.amazon.de",
+              "url": "https://www.amazon.de/Elektronische-High-Visibility-Sicherheitsgetriebe-Tiefseeschwimmer-Geschwindigkeitsstiefel/dp/B0H1P4HK2H",
+              "description": "Elektronische Marine Flares, Waterproof LED Kayak Distress Warnsignals, High-Visibility Beacon für Canoeists und Paddler, Essentielle Sicherheitsgetriebe ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "IT Visibility Beacon Properties | Flexera One Documentation",
+              "domain": "docs.flexera.com",
+              "url": "https://docs.flexera.com/flexera-one/beacons/it-visibility-inventory-beacon-details/it-visibility-beacon-properties",
+              "description": "IT Visibility Beacon Properties. info. The inventory beacon information in this section is specific to IT Visibility only. For related ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Super Bright 360° LED Visibility Beacon - Waterproof Caution ...",
+              "domain": "www.ebay.com",
+              "url": "https://www.ebay.com/itm/128022181594?chn=ps&mkevt=1&mkcid=28&google_free_listing_action=view_item",
+              "description": "Super Bright 360° LED Visibility Beacon. With an array of lighting modes and simple operation, you'll find the perfect setting for any situation."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "IT Visibility Beacon Installation & Configuration | Flexera",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=5ZFFNehmUbE",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "OLIGHT Gober 2 Safety Light, High Visibility Beacon LED",
+              "domain": "www.amazon.co.uk",
+              "url": "https://www.amazon.co.uk/live/video/1872246e68554da19b4306d7fb5f168e",
+              "description": "Shop with expert advice from Amazon Seller Central in their latest video OLIGHT Gober 2 Safety Light, High Visibility Beacon LED."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Generic Solar Strobe High Visibility Beacon Warning Light Safety ...",
+              "domain": "www.noon.com",
+              "url": "https://www.noon.com/uae-en/solar-strobe-high-visibility-beacon-warning-light-safety-strobe-for-nighttime-work-pc-cover-reflective/ZE25F0EF1B6BA6820C488Z/p/",
+              "description": "Solar Strobe High Visibility Beacon Warning Light Safety Strobe for Nighttime Work PC Cover Reflective ... Sorry! This product is not available. Overview."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "amp-analytics should fire visibility beacon for every ...",
+              "domain": "github.com",
+              "url": "https://github.com/ampproject/amphtml/issues/7654",
+              "description": "17.02.2017 — amp-analytics should fire visibility beacon for every element matched by tag/class #7654. New issue. Copy link. New issue. Copy link. Closed."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Do Emergency Beacons Actually Prevent Accidents?",
+              "domain": "roadflash.co.uk",
+              "url": "https://roadflash.co.uk/do-emergency-beacons-actually-prevent-accidents/",
+              "description": "14.08.2026 — Roadflash's high-visibility beacon systems are engineered with 360-degree light distribution to ensure visibility from any approach angle."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Beacon Lighting for Vans Make your van safer and more visible ...",
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DWBK9JSl6XA/",
+              "description": "Perfect for work vans, recovery vehicles, construction fleets and more. ⚡ High- visibility beacon lights Professional installation Ideal ..."
+            }
+          ]
+        },
+        {
+          "name": "\"VisibilityBeacon\"",
+          "market": "us",
+          "spell": {
+            "keyword": "\"Visibility Beacon\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 17800,
+          "checkUrl": "https://www.google.com/search?q=%22VisibilityBeacon%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:37:51 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "IT Visibility Beacon Properties | Flexera One Documentation",
+              "domain": "docs.flexera.com",
+              "url": "https://docs.flexera.com/flexera-one/beacons/it-visibility-inventory-beacon-details/it-visibility-beacon-properties",
+              "description": "IT Visibility Beacon Properties. info. The inventory beacon information in this section is specific to IT Visibility only. For related ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Super Bright 360° LED Visibility Beacon - Waterproof Caution ...",
+              "domain": "www.ebay.com",
+              "url": "https://www.ebay.com/itm/128022181594?chn=ps&mkevt=1&mkcid=28&google_free_listing_action=view_item",
+              "description": "Super Bright 360° LED Visibility Beacon. With an array of lighting modes and simple operation, you'll find the perfect setting for any situation."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Xprite 240 LED Visibility Beacon Light, Forklift Caution ...",
+              "domain": "www.amazon.com",
+              "url": "https://www.amazon.com/Xprite-Visibility-Forklift-Construction-Carts-White/dp/B01M01FEX2",
+              "description": "FEATURE: This visibility beacon light is equipped with 240 high-brightness long-lasting LEDs, with a service life up to 50,000 hours."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "IT Visibility Beacon Installation & Configuration | Flexera",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=5ZFFNehmUbE",
+              "description": null
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Be seen. Stay safe. Get the job done. Whether you're working in ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/KMMFG/posts/be-seen-stay-safe-get-the-job-donewhether-youre-working-in-the-field-on-the-road/1685995033532857/",
+              "description": "AgriEyes provides high- visibility beacon lights, strobe lights, and trailer lights for emergency vehicles, trucks, and farm equipment."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "AgriEyes W16R Wireless Beacon Light: Compact, Powerful ...",
+              "domain": "www.agrieyes.com",
+              "url": "https://www.agrieyes.com/news/agrieyes-w16r-wireless-beacon-light--compact--powerful--and-convenient",
+              "description": "Oct 11, 2024 — From construction trucks to emergency vehicles, our clients frequently note how much our high-visibility beacon improves their operations. Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "IT Visibility Beacon Version History",
+              "domain": "docs.flexera.com",
+              "url": "https://docs.flexera.com/flexera-one/beacons/it-visibility-inventory-beacon-details/it-visibility-beacon-version-history",
+              "description": "The IT Visibility Beacon Version History page (Data Collection > IT Visibility > Beacon Versions) provides a card index of each release of the inventory ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Warning Light, Beacon Light or Indicator Lights – Page 2",
+              "domain": "electxelectrical.myshopify.com",
+              "url": "https://electxelectrical.myshopify.com/collections/warning-light-beacon-light-or-indicator-lights?page=2&srsltid=AfmBOop31O0YplOYutkKU3pCD56HRFIokpBXZ6SQtbYkHs3Fpa63Mql2",
+              "description": "Intensity/Visibility: Beacon lights generally have the highest intensity and are designed for distant visibility. Warning lights can vary. Indicator lights ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 11,
+              "title": "New Balance High Visibility Beacon Jacket - Flecks of Lex",
+              "domain": "flecksoflex.com",
+              "url": "https://flecksoflex.com/fantasy-fitness-fashion-new-balance-high-visibility-beacon-jacket/",
+              "description": "Fantasy Fitness Fashion: New Balance High Visibility Beacon Jacket ... This jacket is just so cool! ... Of course, the price tag is crazy, which is what makes it ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"VisibilityOrbit\"",
+      "markets": [
+        {
+          "name": "\"VisibilityOrbit\"",
+          "market": "de",
+          "spell": {
+            "keyword": "\"Visibility Orbit\"",
+            "type": "did_you_mean"
+          },
+          "seResultsCount": 901,
+          "checkUrl": "https://www.google.com/search?q=%22VisibilityOrbit%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:37:44 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Visibility studies and orbit determination of space debris ...",
+              "domain": "elib.dlr.de",
+              "url": "https://elib.dlr.de/79183/",
+              "description": "von J Radtke · 2012 · Zitiert von: 4 — Kurzfassung ; space debris, optical monitoring, simulation, visibility, orbit determination · Deutsches Zentrum für Luft- und Raumfahrt, ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "In-Visibility: Amazon.de: Musik-CDs & Vinyl",
+              "domain": "www.amazon.de",
+              "url": "https://www.amazon.de/VISIBILITY-Orbit-Stephan-Sebastien-Boisseau/dp/B0BR4BSFT7",
+              "description": "Das gleichnamige erste Album im Jahr 2019 ist ein Zeuge unserer Begegnung, das von drei Klangraumforschern, die umeinander kreisen. Wir hatten bereits mehr ..."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Visibility (Orbit sector β ) from a ground station and a given...",
+              "domain": "www.researchgate.net",
+              "url": "https://www.researchgate.net/figure/sibility-Orbit-sector-b-from-a-ground-station-and-a-given-elevation-ph_fig16_292991983",
+              "description": "The coverage time or visibility orbit sector (Angle β ) can be calculated as the angle or arc of the orbit (6.1) where the satellite is visible from the ground ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Equal-probability group visibility criteria for orbit design of ...",
+              "domain": "research.buaa.edu.cn",
+              "url": "https://research.buaa.edu.cn/en/publications/equal-probability-group-visibility-criteria-for-orbit-design-of-s/",
+              "description": "keywords = \"Equal-probability criterion, Group visibility, Orbit design, Space-based optical observation\",. author = \"Xu Wu and Xuejian Mao and Zeyu Gong and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Satellite to Satellite Visibility",
+              "domain": "benthamopenarchives.com",
+              "url": "https://benthamopenarchives.com/abstract.php?ArticleCode=TOAAJ-5-26",
+              "description": "von MA Sharaf · 2012 · Zitiert von: 10 — Numerical applications are also included. Keywords: Satellite, visibility, orbit, numerical solution."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Transcendence Consulting's Visibility Orbit 360 for continuous ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61565857933300/posts/-introducing-visibility-orbit-360stay-in-orbit-stay-in-frontgetting-your-busines/122217765482528597/",
+              "description": "Visibility Orbit 360°™ is the ongoing visibility and authority system from Stellar Panda + Transcendence Consulting designed to help businesses maintain and ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Occlusion-Aware Ground Target Tracking by a Dubins Vehicle ...",
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/html/2506.03400v1",
+              "description": "radius of a morphing visibility orbit. θ \\theta = angle about the point ... Section 5 finds the feasibility of the visibility orbit for a Dubins vehicle ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "HIGH VISIBILITY Orbit International OUTDOOR FLEECES",
+              "domain": "www.simonjersey.com",
+              "url": "https://www.simonjersey.com/outdoor-c7178/fleeces-c103/orbit-international-m66/high-visibility-t2328",
+              "description": "HIGH VISIBILITY Orbit International OUTDOOR FLEECES. 1 Item. Per Row. Refine Selection. Filters. View 1 product ›. Your Selection; No Selection ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Investor Signals: 2% to 24% AI Visibility | Orbit Labs Case Study",
+              "domain": "orbit-labs.net",
+              "url": "https://orbit-labs.net/case-studies/investor-signals",
+              "description": "... visibility. Orbit Labs ran a Three Gates diagnosis that pointed to retrieval as the bottleneck, built a buyer-intent prompt universe from real founder ..."
+            }
+          ]
+        },
+        {
+          "name": "\"VisibilityOrbit\"",
+          "market": "us",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        }
+      ]
+    },
+    {
+      "name": "\"VisiMetra\"",
+      "markets": [
+        {
+          "name": "\"VisiMetra\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 510,
+          "checkUrl": "https://www.google.com/search?q=%22VisiMetra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:00 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Si Artemis (visimetra) - Profile",
+              "domain": "ph.pinterest.com",
+              "url": "https://ph.pinterest.com/visimetra/",
+              "description": "Tingnan kung ano ang natuklasan ni Artemis (visimetra) sa Pinterest, ang pinakamalaking koleksyon ng mga ideya ng mundo."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "visimetra - artemis",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@visimetra",
+              "description": "ARTEMIS (@visimetra) on TikTok | 735 Likes. Hello.Watch the latest video from ARTEMIS (@visimetra)."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Visimetra uzturēšana - ziņas",
+              "domain": "lv.cementinges.com",
+              "url": "https://lv.cementinges.com/news/viscometer-maintenance-17248771492848640.html",
+              "description": "Visimetra uzturēšana. Nov 22, 2024. Atstāj ziņu. Vizcimetra uzturēšana galvenokārt ietver šādus aspektus: ‌Dily tīrīšana‌: Pēc katras lietošanas vīzu rotora ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "Visimetru lietojumprogrammu diapazons - ziņas",
+              "domain": "lv.cementinges.com",
+              "url": "https://lv.cementinges.com/news/viscometer-application-range-17248771452609536.html",
+              "description": "Visimetra lietojumprogrammu diapazons."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "How to Fix Vivint Camera When Its Paused",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/how-to-fix-vivint-camera-when-its-paused",
+              "description": "25.05.2026 — Like and follow for more. 481 Likes, 80 Comments. TikTok video from ARTEMIS (@visimetra): \". 21.1K6d ago. visimetra. ARTEMIS. How to fix the ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "How to fix the screen recording for Tecno & Infinix? ...",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@visimetra/video/7643415022638550292",
+              "description": "100 Likes, TikTok video from ARTEMIS (@visimetra): “How to fix the screen recording for Tecno & Infinix? #tecno #infinix #tecnocamon40pro5g ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "How to Disable Charging Video Iscreen",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/how-to-disable-charging-video-iscreen",
+              "description": "25.05.2026 — TikTok video from ARTEMIS (@visimetra): \". 21.4K6d ago. visimetra. ARTEMIS. How to fix the screen recording for Tecno & Infinix? #tecno #infinix ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Xiaomi Redmi A3 Camera Focus Not Working",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/xiaomi-redmi-a3-camera-focus-not-working",
+              "description": "25.05.2026 — TikTok video from ARTEMIS (@visimetra): \". 12.7K3d ago. visimetra. ARTEMIS. How to fix the screen recording for Tecno & Infinix? #tecno #infinix ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "螢幕錄影不見了怎麼辦",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/%E8%9E%A2%E5%B9%95%E9%8C%84%E5%BD%B1%E4%B8%8D%E8%A6%8B%E4%BA%86%E6%80%8E%E9%BA%BC%E8%BE%A6",
+              "description": "探索美好回憶視頻，感受特別瞬間的魅力，發現魚寶用心製作的視頻內容！ 美好回憶視頻, 魚寶的回憶, 特別瞬間視頻, 用心製作視頻, 視頻剪輯技巧. ; visimetra. ARTEMIS ; 14K ..."
+            }
+          ]
+        },
+        {
+          "name": "\"VisiMetra\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 510,
+          "checkUrl": "https://www.google.com/search?q=%22VisiMetra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:07 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Si Artemis (visimetra) - Profile",
+              "domain": "ph.pinterest.com",
+              "url": "https://ph.pinterest.com/visimetra/",
+              "description": "Tingnan kung ano ang natuklasan ni Artemis (visimetra) sa Pinterest, ang pinakamalaking koleksyon ng mga ideya ng mundo."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "visimetra - artemis",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@visimetra",
+              "description": "ARTEMIS (@visimetra) on TikTok | 735 Likes. Hello.Watch the latest video from ARTEMIS (@visimetra)."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Visimetra uzturēšana - ziņas",
+              "domain": "lv.cementinges.com",
+              "url": "https://lv.cementinges.com/news/viscometer-maintenance-17248771492848640.html",
+              "description": "Visimetra uzturēšana. Nov 22, 2024. Atstāj ziņu. Vizcimetra uzturēšana galvenokārt ietver šādus aspektus: ‌Dily tīrīšana‌: Pēc katras lietošanas vīzu rotora ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "How to Fix Vivint Camera When Its Paused",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/how-to-fix-vivint-camera-when-its-paused",
+              "description": "May 25, 2026 — Like and follow for more. 481 Likes, 80 Comments. TikTok video from ARTEMIS (@visimetra): \". 21.1K6d ago. visimetra. ARTEMIS. How to fix the ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Visimetru lietojumprogrammu diapazons - ziņas",
+              "domain": "lv.cementinges.com",
+              "url": "https://lv.cementinges.com/news/viscometer-application-range-17248771452609536.html",
+              "description": "Visimetra lietojumprogrammu diapazons."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "How to fix the screen recording for Tecno & Infinix? ...",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/@visimetra/video/7643415022638550292",
+              "description": "100 Likes, TikTok video from ARTEMIS (@visimetra): “How to fix the screen recording for Tecno & Infinix? #tecno #infinix #tecnocamon40pro5g ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Repair The Sound Emulators",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/repair-the-sound-emulators",
+              "description": "May 25, 2026 — TikTok video from ARTEMIS (@visimetra): \". 18.7K5d ago. visimetra. ARTEMIS. How to fix the screen recording for Tecno & Infinix? #tecno #infinix ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Why Does Cinema Hd Say Playback Failed",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/why-does-cinema-hd-say-playback-failed",
+              "description": "Jun 1, 2026 — TikTok video from ARTEMIS (@visimetra): \". 31.1K1w ago. visimetra. ARTEMIS. How to fix the screen recording for Tecno & Infinix? #tecno #infinix ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "How to Use The Camon 40 Pro Conner Button",
+              "domain": "www.tiktok.com",
+              "url": "https://www.tiktok.com/discover/how-to-use-the-camon-40-pro-conner-button",
+              "description": "May 25, 2026 — TikTok video from ARTEMIS (@visimetra): \". 18.5K5d ago. visimetra. ARTEMIS. How to fix the screen recording for Tecno & Infinix? #tecno #infinix ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"VisiVector\"",
+      "markets": [
+        {
+          "name": "\"VisiVector\"",
+          "market": "de",
+          "error": "Provider task failed: 40101 Internal SE Server Error."
+        },
+        {
+          "name": "\"VisiVector\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 152,
+          "checkUrl": "https://www.google.com/search?q=%22VisiVector%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:11 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "粒子成像测速系统Visivector PIV system",
+              "domain": "www.hi1718.com",
+              "url": "https://www.hi1718.com/product/20131210112815472.html",
+              "description": "流体流动矢量分析系统研究操作说明书： Visivector PIV系统可测量流体流量的速度，因此可用在航天航空领域。 The Firefly laser使得流量测定的安装变的容易。"
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "VisiVector Micro PIV System",
+              "domain": "guide.jsae.or.jp",
+              "url": "https://guide.jsae.or.jp/product/testing/Particle_Image_Velocimetry/849/",
+              "description": "Jul 15, 2010 — 概要. VisiVector Micro PIV システムはレーザー顕微鏡を利用したシステムと、高倍率レンズを利用したバックライト照明システムがあります。 Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Velocity measurement of particles in flow | Pigment & Resin ...",
+              "domain": "www.emerald.com",
+              "url": "https://www.emerald.com/prt/article/324976/Velocity-measurement-of-particles-in-flow",
+              "description": "Oxford Lasers says that, although it offers a choice of five different laser types in its VisiVector range of particle image velocimetry (PIV) systems, it ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "r/VISI_CAD Wiki: VISIStb Class Object",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/VISI_CAD/wiki/index/automation/api_documentation/visistb/",
+              "description": "ApplicationVector: Property = VISIVector. DEPRECATED – Application vector. iv. Body: Property = VISIBody (read-only). DEPRECATED – Get solid body. v. FileName ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "PIV アクセサリ",
+              "domain": "www.japanlaser.co.jp",
+              "url": "https://www.japanlaser.co.jp/product/oxford-lasers_piv-accessory/",
+              "description": "VisiVector PIVシステムには、PIV計測を行うための様々なアクセサリーがあります。カメラ位置調整に使うシャインフルーク・マウント、水中計測用のカメラケースや ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Focus on Lasers and Optics",
+              "domain": "pubs.aip.org",
+              "url": "https://pubs.aip.org/physicstoday/article-pdf/58/5/76/11215588/76_1_online.pdf",
+              "description": "by LG Rubin · 2005 · Cited by 1 — VisiVector E particle image velocime- try systems, which exploit a break- through in laser technology applied to. PIV. With speeds of 12 to 5000 frames per ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "Experimental Study on the Effects of Viscosity and ...",
+              "domain": "www.dynaflow-inc.com",
+              "url": "https://www.dynaflow-inc.com/publications/pdf_documents/2009/CAV2009-CB-GLC-VortexPolymer-final.pdf",
+              "description": "by C Barbier · Cited by 6 — Figure 3: Schematic of the test loop. An Oxford laser VisiVector E6 PIV system was used to perform the Particle Image Velocimetry (PIV) measurements. This ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "Links : PIV : StereoPIV : MicroPIV : NanoPIV : High speed PIV ...",
+              "domain": "velocimetry.net",
+              "url": "https://velocimetry.net/links.htm",
+              "description": "VisiVector System – PIV. 2. Stereo PIV: Stereo PIV- OEL · Lavision – SPIV products · Dantec Dynamics – SPIV · TSI – SPIV · SPIV · Educational slide shows Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Particle Image Velocimetry (PIV)",
+              "domain": "www.yeonjin.com",
+              "url": "https://www.yeonjin.com/application/num/1793",
+              "description": "Oxford Lasers VisiVector systems are designed to be easy to set up and use. VidPIV, our PIV software features an intuitive interface that lets you quickly ... Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"WebMetra\"",
+      "markets": [
+        {
+          "name": "\"WebMetra\"",
+          "market": "de",
+          "spell": null,
+          "seResultsCount": 309,
+          "checkUrl": "https://www.google.com/search?q=%22WebMetra%22&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "fetchedAt": "2026-09-01 17:38:03 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 1,
+              "title": "Nihal Singh Gurjar - webmetra",
+              "domain": "in.linkedin.com",
+              "url": "https://in.linkedin.com/in/nihal-singh-gurjar-20b9a2109",
+              "description": "Android app development · Experience: webmetra · Education: ARYA Institute of Engineering & Technology kukas(jaipur) · Location: Jaipur · 192 connections on ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Axxess AXPIO JL1 Manuals, Certifications & Specs",
+              "domain": "device.report",
+              "url": "https://device.report/axxess/axpio-jl1",
+              "description": "... webmetra static s3 amazonaws documents INSTAXPIO web ManualInstructionsAdaptado... lang:- score:28 filesize: 4.85 M page_count: 0 document date: 2025-03-22."
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Billings welcomes thousands of visitors for all-class ...",
+              "domain": "www.ktvq.com",
+              "url": "https://www.ktvq.com/news/local-news/billings-welcomes-thousands-of-visitors-for-all-class-wrestling-tournament",
+              "description": "WEBMETRA.JPG. By: Alina Hauter. Posted 5:03 PM, Feb 11, 2022. BILLINGS — The Montana all-class wrestling tournament brought thousands of visitors to ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "300+ \"Singh Nihal\" profiles",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/pub/dir/Singh+Nihal/+",
+              "description": "Student at ARYA Institute of Engineering & Technology kukas(jaipur). Jaipur. webmetra. ARYA Institute of Engineering & Technology kukas(jaipur), +1 more ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Análisis de Audiencias y Estrategias de Visibilidad | PDF",
+              "domain": "es.scribd.com",
+              "url": "https://es.scribd.com/document/352329060/Analisis-de-Audiencias-y-Estrategias-de-Visibilidad",
+              "description": "webmetra cuando hablamos de entornos virtuales, portales Web, etc., audime- Editorial UOC 124 Anlisis de audiencias y estrategias de visibilidad. tra cuando ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Metra JP APJLJT Manuals, Certifications & Specs",
+              "domain": "device.report",
+              "url": "https://device.report/metra/jp-apjljt",
+              "description": "... webmetra static s3 amazonaws documents ||| Instruction ManualMetra OnlineINSTJP 901RGBKT webmetraonline files products INSTJP web 20 JT Gladiator 9 Premium ..."
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "China aluminium extrusion industries Manufacturers Suppliers ...",
+              "domain": "www.zpevo.com",
+              "url": "https://www.zpevo.com/showroom/aluminium-extrusion-industries/",
+              "description": "WebMETRA Industry is the only Italian aluminium extrusion company to have its entire production cycle under one roof.... Aluminum Extruders Council - AEC ..."
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "20+ \"Nihal Singh Gurjar\" profiles",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/pub/dir/Nihal+Singh/Gurjar",
+              "description": "Nihal Singh Gurjar. Student at ARYA Institute of Engineering & Technology kukas(jaipur). Jaipur. webmetra. ARYA Institute of Engineering & Technology kukas ..."
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Análisis Bibliométrico en Medicina Deportiva | PDF",
+              "domain": "es.scribd.com",
+              "url": "https://es.scribd.com/document/355771910/aproximacion-bibliometrica",
+              "description": "siguiente forma: webmetra (se ha obviado la \"o\" intercalada por su malsonancia) y cibermetra. La leve diferencia entre la cibermetra y la webmetra queda ..."
+            }
+          ]
+        },
+        {
+          "name": "\"WebMetra\"",
+          "market": "us",
+          "spell": null,
+          "seResultsCount": 551,
+          "checkUrl": "https://www.google.com/search?q=%22WebMetra%22&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "fetchedAt": "2026-09-01 17:38:02 +00:00",
+          "providerCostUsd": 0.002,
+          "topResults": [
+            {
+              "type": "organic",
+              "rank": 2,
+              "title": "Nihal Singh Gurjar - webmetra",
+              "domain": "in.linkedin.com",
+              "url": "https://in.linkedin.com/in/nihal-singh-gurjar-20b9a2109",
+              "description": "Android app development · Experience: webmetra · Education: ARYA Institute of Engineering & Technology kukas(jaipur) · Location: Jaipur · 192 connections on ..."
+            },
+            {
+              "type": "organic",
+              "rank": 3,
+              "title": "Billings welcomes thousands of visitors for all-class ...",
+              "domain": "www.ktvq.com",
+              "url": "https://www.ktvq.com/news/local-news/billings-welcomes-thousands-of-visitors-for-all-class-wrestling-tournament",
+              "description": "WEBMETRA.JPG. By: Alina Hauter. Posted 5:03 PM, Feb 11, 2022. BILLINGS — The Montana all-class wrestling tournament brought thousands of visitors to ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 4,
+              "title": "Metra 95 8246HG Manuals, Certifications & Specs",
+              "domain": "device.report",
+              "url": "https://device.report/metra/95-8246hg",
+              "description": "95 8246HG InstructionsProductsINST95 webmetra static s3 amazonaws documents INST95 web Metra Installation ManualInstructionsMetra DDIN Radio Replacement Dash ..."
+            },
+            {
+              "type": "organic",
+              "rank": 5,
+              "title": "20+ \"Nihal Singh Gurjar\" profiles",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/pub/dir/Nihal+Singh/Gurjar",
+              "description": "Nihal Singh Gurjar. Student at ARYA Institute of Engineering & Technology kukas(jaipur). Jaipur. webmetra. ARYA Institute of Engineering & Technology kukas ..."
+            },
+            {
+              "type": "organic",
+              "rank": 6,
+              "title": "Metra JP APJLJT Manuals, Certifications & Specs",
+              "domain": "device.report",
+              "url": "https://device.report/metra/jp-apjljt",
+              "description": "... webmetra static s3 amazonaws documents ||| Instruction ManualMetra OnlineINSTJP 901RGBKT webmetraonline files products INSTJP web 20 JT Gladiator 9 Premium ..."
+            },
+            {
+              "type": "organic",
+              "rank": 7,
+              "title": "Análisis de Audiencias y Estrategias de Visibilidad | PDF",
+              "domain": "es.scribd.com",
+              "url": "https://es.scribd.com/document/352329060/Analisis-de-Audiencias-y-Estrategias-de-Visibilidad",
+              "description": "webmetra cuando hablamos de entornos virtuales, portales Web, etc., audime- Editorial UOC 124 Anlisis de audiencias y estrategias de visibilidad. tra cuando ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 8,
+              "title": "China aluminium extrusion industries Manufacturers Suppliers ...",
+              "domain": "www.zpevo.com",
+              "url": "https://www.zpevo.com/showroom/aluminium-extrusion-industries/",
+              "description": "WebMETRA Industry is the only Italian aluminium extrusion company to have its entire production cycle under one roof.... Aluminum Extruders Council - AEC ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 9,
+              "title": "300+ \"Singh Nihal\" profiles",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/pub/dir/Singh+Nihal/+",
+              "description": "Student at ARYA Institute of Engineering & Technology kukas(jaipur). Jaipur. webmetra. ARYA Institute of Engineering & Technology kukas(jaipur), +1 more ... Read more"
+            },
+            {
+              "type": "organic",
+              "rank": 10,
+              "title": "Axxess ASWC 1 Manuals, Certifications & Specs",
+              "domain": "device.report",
+              "url": "https://device.report/axxess/aswc-1",
+              "description": "... webmetra static s3 amazonaws documents INST70 web |||. Open document → · DOC. Document4 pages809.3 KB 2022-06-30. Axxess DSP Digital Signal Processor Interface ... Read more"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
