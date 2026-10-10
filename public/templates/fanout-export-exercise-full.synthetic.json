@@ -1,0 +1,49 @@
+{
+  "keyword": "synthetic export exercise",
+  "language": "en",
+  "country": "US",
+  "providerId": "openai",
+  "modelId": "synthetic-model/no-provider-call",
+  "generatedAt": "2026-10-10T00:00:00.000Z",
+  "evidenceStatus": "provider_exposed_native_search",
+  "queries": [
+    "Café, query examples",
+    "unselected example",
+    "quoted \"example\"\nsecond line"
+  ],
+  "sources": [],
+  "searchActions": [
+    {
+      "id": "synthetic-action",
+      "queries": [
+        "Café, query examples",
+        "unselected example",
+        "quoted \"example\"\nsecond line"
+      ],
+      "sources": [],
+      "sourceScope": "not_exposed"
+    }
+  ],
+  "searchActionCount": 1,
+  "providerResponseStatus": "completed",
+  "sourceEvidenceScope": "search_action_when_exposed",
+  "toolVersion": "native-fanout-tool/1.0.0",
+  "methodVersion": "provider-native-search/1.0",
+  "notice": "Entirely synthetic export shape, not an actual provider observation. Zero usage values are placeholders.",
+  "quota": {
+    "limit": 20,
+    "used": 1,
+    "remaining": 19,
+    "resetAt": "2026-10-11T00:00:00.000Z"
+  },
+  "usage": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "searchActionCount": 1,
+    "searchQueryCount": 3,
+    "estimatedCostUsd": 0,
+    "estimateKind": "list_price_estimate",
+    "pricingCheckedAt": "2026-10-10",
+    "pricingBasis": "Synthetic zero placeholders, not actual billing or current pricing."
+  }
+}

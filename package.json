@@ -22,7 +22,8 @@
     "qa:planner": "node scripts/planner-qa.mjs",
     "verify:planner": "pnpm build && pnpm test:planner && pnpm qa:planner",
     "kit:build": "node scripts/build-public-fanout-kit.mjs",
-    "test:kit": "node --test public/code/fanout-kit/v1/parser.test.mjs public/code/fanout-kit/v1/contract.test.mjs scripts/public-kit-production-contract.test.mjs"
+    "test:kit": "node --test public/code/fanout-kit/v1/parser.test.mjs public/code/fanout-kit/v1/contract.test.mjs scripts/public-kit-production-contract.test.mjs",
+    "interpretation:build": "node scripts/build-interpretation-artifacts.mjs"
   },
   "dependencies": {
     "astro": "7.2.1",

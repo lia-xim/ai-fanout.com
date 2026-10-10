@@ -1,0 +1,15 @@
+# Longtail Goal: interpretation and application slice
+
+Topics: **04, 07, 09, 10, 11, 12, 13, 20, 21**. Seven existing topic pairs substantially revised, two distinct application pairs created. Publication is pending at this product commit; the progress file records local acceptance separately from live release proof.
+
+The definition retains its existing explanations and adds an original annotated workflow and continuous editorial case. Citation interpretation now includes a checkable owner-written claim/source annotation against the approved normalized fixture. AI-search SEO provides a blank checklist and a dated first-party public-page review, with Google indexing and outcomes explicitly unproven. Repetition and comparison include completed matrices from two already approved OpenAI observations; they establish differences, not their cause or a provider winner.
+
+The prompt guide adds a before/after brief, selection criteria and stop rules. The export guide demonstrates actual selection producers, reference-schema validation and independent CSV readback using synthetic data: two records, eleven columns, original positions one and three, Unicode, comma, quotes and newline preserved. This does not establish an Excel/Sheets import, browser OS save or a new provider observation.
+
+The product application provides an original two-person buyer brief with dated official Ahrefs/Semrush pricing, feature and terms sources. Currency, billing, seats, vendor claims, absent hands-on tests and unresolved rights stay distinct; no cost winner. The shop application maps eight original questions to category, buying guide, product facts and filters. It includes a bounded IKEA manufacturer fact and Google's facet guidance, not measured fit, customer performance or automatic filter landing pages.
+
+Inventory: **24 guide pairs, 67 canonical URLs, 59 templates and 71 template/code/schema download assets**. Twenty-seven new artifacts include two original SVG diagrams and three synthetic outputs from the actual exporters. Downloads remain outside the sitemap with noindex response headers. No new paid request, provider output or actual Gemini grounded material. Common ownership remains disclosed.
+
+Local acceptance: build with zero errors/warnings and one pre-existing hint; 47 existing plus 28 kit/producer tests pass; SEO/planner QA pass; 67-route link graph has no orphan candidates; all eighteen changed guides have no horizontal document overflow at 390×844. Diagrams receive separate visual checks because they load lazily. Each guide has three or four substantial chapters. Source text encoding and independent file roundtrip were checked.
+
+Evidence directory: `C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04/`. Indexing, ranking gains and citation impact remain **NOT PROVEN**. The remaining topics require actual tool capability checks (22), actual Excel and Google Sheets import (23), and an actual receiver handoff (24); they are not satisfied by these local examples.

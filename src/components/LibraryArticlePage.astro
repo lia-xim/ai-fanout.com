@@ -67,6 +67,7 @@ const schema={"@context":"https://schema.org","@graph":[
             <p>{paragraph}</p>
             {section.references?.filter(reference=>reference.afterParagraph===paragraphIndex).map(reference=><p class="chapter-reference">{reference.before} <a href={reference.href}>{reference.label}</a>{reference.after??"."}</p>)}
           </>)}
+          {section.illustration&&<figure class="chapter-illustration"><img src={section.illustration.src} alt={section.illustration.alt} width="640" height="1000" loading="lazy"/><figcaption>{section.illustration.caption}</figcaption></figure>}
           {section.codeSample&&<figure class="chapter-sample">
             <figcaption><span>{section.codeSample.label}</span><button type="button" hidden data-copy-sample>{de?"Text kopieren":"Copy text"}</button></figcaption>
             <pre><code>{section.codeSample.text}</code></pre>

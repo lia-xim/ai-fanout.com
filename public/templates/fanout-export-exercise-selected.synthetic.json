@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "ai-fanout.query-selection/1.0",
+  "exportedAt": "2026-10-10T00:00:00.000Z",
+  "run": {
+    "keyword": "synthetic export exercise",
+    "providerId": "openai",
+    "modelId": "synthetic-model/no-provider-call",
+    "generatedAt": "2026-10-10T00:00:00.000Z",
+    "country": "US",
+    "language": "en",
+    "evidenceStatus": "provider_exposed_native_search"
+  },
+  "selectedQueryCount": 2,
+  "queries": [
+    {
+      "index": 1,
+      "query": "Café, query examples",
+      "intent": null,
+      "reason": null
+    },
+    {
+      "index": 3,
+      "query": "quoted \"example\"\nsecond line",
+      "intent": null,
+      "reason": null
+    }
+  ],
+  "notice": "User-selected query strings from one ai-fanout.com result. Provider-exposed and modelled results remain distinct; no query-to-source relationship is added by this export."
+}

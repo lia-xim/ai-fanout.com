@@ -1,9 +1,108 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-10.4",
+  "manifestVersion": "2026-10-10.5",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-10",
   "sources": [
+    {
+      "id": "owner-interpretation-artifacts-2026-10-10",
+      "title": "Original annotated workflow, controls, prompts and export exercises",
+      "titleDe": "Eigene annotierte Abläufe, Kontrollen, Prompts und Exportübungen",
+      "kind": "owner_editorial_material",
+      "location": "https://ai-fanout.com/templates/fanout-export-roundtrip-en.md",
+      "checkedAt": "2026-10-10",
+      "status": "owner_created_artifacts_and_verified_synthetic_export_roundtrip",
+      "supports": "Original diagrams and editorial annotations; only the previously approved normalized OpenAI records. Synthetic selection files use actual producers and independent CSV readback, not new provider output or Excel/Sheets import. Own dated public-page checklist makes indexing and outcomes explicitly unproven.",
+      "supportsDe": "Eigene Grafiken und redaktionelle Annotationen nutzen nur bereits freigegebene OpenAI-Daten. Synthetische Dateien stammen aus tatsächlichen Exportfunktionen und wurden unabhängig zurückgelesen; kein Provider-Aufruf oder Excel-/Sheets-Import. Die datierte eigene Seitenprüfung belegt weder Indexierung noch Wirkung."
+    },
+    {
+      "id": "owner-application-artifacts-2026-10-10",
+      "title": "Original product brief and shop question-to-page map",
+      "titleDe": "Eigener Produkt-Brief und Shop-Frage-Seiten-Karte",
+      "kind": "owner_editorial_material",
+      "location": "https://ai-fanout.com/templates/fanout-product-comparison-example-en.md",
+      "checkedAt": "2026-10-10",
+      "status": "owner_created_fictional_editorial_exercises",
+      "supports": "Fictional two-person software buyer and storage-box assortment. Actual primary facts stay dated and bounded; tasks, paths and page assignments are editorial. No product hands-on test, cost winner, customer results or demand evidence.",
+      "supportsDe": "Fiktives Zweierteam und Aufbewahrungsboxen-Sortiment. Echte Primärangaben bleiben datiert und begrenzt; Aufgaben und Zielpfade sind redaktionell. Kein Hands-on-Test, Kostensieger, Kundenresultat oder Nachfragebeleg."
+    },
+    {
+      "id": "google-ai-features-2026-10-10",
+      "title": "Google Search: AI features and your website",
+      "titleDe": "Google Search: KI-Funktionen und deine Website",
+      "kind": "primary_documentation",
+      "location": "https://developers.google.com/search/docs/appearance/ai-features",
+      "checkedAt": "2026-10-10",
+      "status": "reviewed_primary_source",
+      "supports": "Google guidance on search eligibility, established SEO practices and Web reporting; no ranking or citation guarantee.",
+      "supportsDe": "Google-Hinweise zu Sucheignung, bekannten SEO-Grundlagen und Web-Berichten; keine Ranking- oder Zitationsgarantie."
+    },
+    {
+      "id": "google-faceted-navigation-2026-10-10",
+      "title": "Google: managing faceted navigation URLs",
+      "titleDe": "Google: Facetten-URLs verwalten",
+      "kind": "primary_documentation",
+      "location": "https://developers.google.com/crawling/docs/faceted-navigation",
+      "checkedAt": "2026-10-10",
+      "status": "reviewed_primary_source",
+      "supports": "Facet URL crawling considerations and empty/invalid combinations. Our map is editorial planning, not tested configuration of a customer store.",
+      "supportsDe": "Crawling von Facetten-URLs und leere/ungültige Kombinationen. Die eigene Karte ist Planung, keine geprüfte Konfiguration eines Kundenshops."
+    },
+    {
+      "id": "ahrefs-pricing-2026-10-10",
+      "title": "Ahrefs official pricing, reviewed 10 October 2026",
+      "titleDe": "Offizielle Ahrefs-Preise, geprüft am 10. Oktober 2026",
+      "kind": "primary_documentation",
+      "location": "https://ahrefs.com/pricing",
+      "checkedAt": "2026-10-10",
+      "status": "reviewed_primary_source",
+      "supports": "Dated displayed Lite USD monthly plan, included and additional seats. Vendor-described tasks are not hands-on quality evidence or a checkout quote.",
+      "supportsDe": "Datierter angezeigter Lite-Monatstarif in USD mit Nutzern. Beschriebene Aufgaben sind keine eigenen Funktionstests oder Checkout-Zusage."
+    },
+    {
+      "id": "semrush-pricing-2026-10-10",
+      "title": "Semrush SEO pricing, reviewed 10 October 2026",
+      "titleDe": "Semrush-SEO-Preise, geprüft am 10. Oktober 2026",
+      "kind": "primary_documentation",
+      "location": "https://www.semrush.com/pricing/seo-ai-search/",
+      "checkedAt": "2026-10-10",
+      "status": "reviewed_primary_source",
+      "supports": "Dated displayed EUR monthly and annual SEO billing and starting additional-user price. Exact second-seat conditions, taxes and cross-currency comparison remain open.",
+      "supportsDe": "Datierte EUR-Monats- und Jahresabrechnung für SEO sowie Einstiegspreis zusätzlicher Nutzer. Genaue zweite Nutzerbedingungen, Steuern und Währungsvergleich bleiben offen."
+    },
+    {
+      "id": "ahrefs-terms-2026-10-10",
+      "title": "Ahrefs official terms: reuse review remains open",
+      "titleDe": "Offizielle Ahrefs-Bedingungen: konkrete Wiederverwendung offen",
+      "kind": "primary_documentation",
+      "location": "https://ahrefs.com/legal/terms",
+      "checkedAt": "2026-10-10",
+      "status": "reviewed_primary_source",
+      "supports": "Current official terms location; no general legal conclusion or permission for third-party exports/screenshots inferred.",
+      "supportsDe": "Aktuelle offizielle Bedingungen; keine allgemeine Rechtsbewertung oder abgeleitete Erlaubnis für fremde Exporte/Screenshots."
+    },
+    {
+      "id": "semrush-terms-2026-10-10",
+      "title": "Semrush official terms: reuse review remains open",
+      "titleDe": "Offizielle Semrush-Bedingungen: konkrete Wiederverwendung offen",
+      "kind": "primary_documentation",
+      "location": "https://www.semrush.com/company/legal/terms-of-service/",
+      "checkedAt": "2026-10-10",
+      "status": "reviewed_primary_source",
+      "supports": "Current official terms location; specific reuse permission remains an open task in the fictional brief.",
+      "supportsDe": "Aktuelle offizielle Bedingungen; konkrete Weiterverwendungsrechte bleiben im fiktiven Brief eine offene Aufgabe."
+    },
+    {
+      "id": "ikea-samla-dimensions-2026-10-10",
+      "title": "IKEA Germany SAMLA 801.029.76 manufacturer facts",
+      "titleDe": "IKEA Deutschland: Herstellerangaben SAMLA 801.029.76",
+      "kind": "primary_documentation",
+      "location": "https://www.ikea.com/de/de/p/samla-box-transparent-80102976/",
+      "checkedAt": "2026-10-10",
+      "status": "reviewed_primary_source",
+      "supports": "Named product dimensions 39×28×28 cm and capacity 22 litres; separately available lid. No own measurement, interior fit or general assortment claim.",
+      "supportsDe": "Benannte Produktmaße 39×28×28 cm, 22 Liter und separat erhältlicher Deckel. Keine eigene Messung, Innenpassform oder allgemeine Sortimentsaussage."
+    },
     {
       "id": "owner-offline-parser-kit-2026-10-10",
       "title": "Original runnable offline parser and edge-case test kit",

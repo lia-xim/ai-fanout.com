@@ -10,16 +10,19 @@
   "verifiedShippedTopics": 18,
   "currentMilestone": {
     "topics": [
-      "05",
-      "06",
-      "27",
-      "28",
-      "29",
-      "30"
+      "04",
+      "07",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "20",
+      "21"
     ],
-    "status": "shipped_verified",
-    "expectedCanonicalUrls": 63,
-    "deploymentId": "dpl_FTagB4H5wcERADDRn7azz1AuRiMa"
+    "status": "local_verified_pending_release",
+    "expectedCanonicalUrls": 67,
+    "deploymentId": null
   },
   "topics": [
     {
@@ -132,9 +135,22 @@
         "/library/what-is-ai-query-fanout",
         "/de/lernen/was-ist-ai-query-fanout"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/interpretation-revisions.ts",
+        "scripts/build-interpretation-artifacts.mjs"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "67 canonical routes PASS",
+        "plannerQa": "PASS",
+        "links": "67 routes, zero orphan candidates; three legal/transparency-only content-inbound exceptions",
+        "mobile": "18 changed guides 390x844 no horizontal document overflow; lazy diagram loaded and visually reviewed separately",
+        "fileRoundtrip": "Actual selection producers + Ajv + independent CSV reader: 2 records, 11 fields, original indexes 1/3, Unicode/comma/quotes/newline PASS",
+        "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -222,9 +238,22 @@
         "/library/ai-citations",
         "/de/lernen/ki-zitate-und-quellen"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/interpretation-revisions.ts",
+        "scripts/build-interpretation-artifacts.mjs"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "67 canonical routes PASS",
+        "plannerQa": "PASS",
+        "links": "67 routes, zero orphan candidates; three legal/transparency-only content-inbound exceptions",
+        "mobile": "18 changed guides 390x844 no horizontal document overflow; lazy diagram loaded and visually reviewed separately",
+        "fileRoundtrip": "Actual selection producers + Ajv + independent CSV reader: 2 records, 11 fields, original indexes 1/3, Unicode/comma/quotes/newline PASS",
+        "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -270,9 +299,22 @@
         "/library/seo-for-ai-search",
         "/de/lernen/seo-fuer-ki-suche"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/interpretation-revisions.ts",
+        "scripts/build-interpretation-artifacts.mjs"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "67 canonical routes PASS",
+        "plannerQa": "PASS",
+        "links": "67 routes, zero orphan candidates; three legal/transparency-only content-inbound exceptions",
+        "mobile": "18 changed guides 390x844 no horizontal document overflow; lazy diagram loaded and visually reviewed separately",
+        "fileRoundtrip": "Actual selection producers + Ajv + independent CSV reader: 2 records, 11 fields, original indexes 1/3, Unicode/comma/quotes/newline PASS",
+        "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -284,9 +326,22 @@
         "/library/why-ai-fanout-results-change",
         "/de/lernen/warum-fanout-ergebnisse-schwanken"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/interpretation-revisions.ts",
+        "scripts/build-interpretation-artifacts.mjs"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "67 canonical routes PASS",
+        "plannerQa": "PASS",
+        "links": "67 routes, zero orphan candidates; three legal/transparency-only content-inbound exceptions",
+        "mobile": "18 changed guides 390x844 no horizontal document overflow; lazy diagram loaded and visually reviewed separately",
+        "fileRoundtrip": "Actual selection producers + Ajv + independent CSV reader: 2 records, 11 fields, original indexes 1/3, Unicode/comma/quotes/newline PASS",
+        "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -298,9 +353,22 @@
         "/library/compare-ai-model-searches",
         "/de/lernen/ki-modelle-vergleichen"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/interpretation-revisions.ts",
+        "scripts/build-interpretation-artifacts.mjs"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "67 canonical routes PASS",
+        "plannerQa": "PASS",
+        "links": "67 routes, zero orphan candidates; three legal/transparency-only content-inbound exceptions",
+        "mobile": "18 changed guides 390x844 no horizontal document overflow; lazy diagram loaded and visually reviewed separately",
+        "fileRoundtrip": "Actual selection producers + Ajv + independent CSV reader: 2 records, 11 fields, original indexes 1/3, Unicode/comma/quotes/newline PASS",
+        "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -312,9 +380,22 @@
         "/library/query-fanout-prompt",
         "/de/lernen/query-fanout-prompt"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/practical-query-guides.ts",
+        "scripts/build-interpretation-artifacts.mjs"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "67 canonical routes PASS",
+        "plannerQa": "PASS",
+        "links": "67 routes, zero orphan candidates; three legal/transparency-only content-inbound exceptions",
+        "mobile": "18 changed guides 390x844 no horizontal document overflow; lazy diagram loaded and visually reviewed separately",
+        "fileRoundtrip": "Actual selection producers + Ajv + independent CSV reader: 2 records, 11 fields, original indexes 1/3, Unicode/comma/quotes/newline PASS",
+        "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -326,9 +407,22 @@
         "/library/export-fanout-queries",
         "/de/lernen/fanout-queries-exportieren"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/practical-query-guides.ts",
+        "scripts/build-interpretation-artifacts.mjs"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "67 canonical routes PASS",
+        "plannerQa": "PASS",
+        "links": "67 routes, zero orphan candidates; three legal/transparency-only content-inbound exceptions",
+        "mobile": "18 changed guides 390x844 no horizontal document overflow; lazy diagram loaded and visually reviewed separately",
+        "fileRoundtrip": "Actual selection producers + Ajv + independent CSV reader: 2 records, 11 fields, original indexes 1/3, Unicode/comma/quotes/newline PASS",
+        "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -553,9 +647,22 @@
         "/library/fanout-for-product-comparisons",
         "/de/lernen/fanout-fuer-produktvergleiche"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/application-query-guides.ts",
+        "scripts/build-interpretation-artifacts.mjs"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "67 canonical routes PASS",
+        "plannerQa": "PASS",
+        "links": "67 routes, zero orphan candidates; three legal/transparency-only content-inbound exceptions",
+        "mobile": "18 changed guides 390x844 no horizontal document overflow; lazy diagram loaded and visually reviewed separately",
+        "fileRoundtrip": "Actual selection producers + Ajv + independent CSV reader: 2 records, 11 fields, original indexes 1/3, Unicode/comma/quotes/newline PASS",
+        "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -567,9 +674,22 @@
         "/library/fanout-for-ecommerce-categories",
         "/de/lernen/fanout-fuer-shop-kategorien"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/application-query-guides.ts",
+        "scripts/build-interpretation-artifacts.mjs"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "67 canonical routes PASS",
+        "plannerQa": "PASS",
+        "links": "67 routes, zero orphan candidates; three legal/transparency-only content-inbound exceptions",
+        "mobile": "18 changed guides 390x844 no horizontal document overflow; lazy diagram loaded and visually reviewed separately",
+        "fileRoundtrip": "Actual selection producers + Ajv + independent CSV reader: 2 records, 11 fields, original indexes 1/3, Unicode/comma/quotes/newline PASS",
+        "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
