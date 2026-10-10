@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "goalThreadId": "01a12083-b447-78e0-bcd7-4e4b76fc3389",
+  "acceptedBy": "Matthias Ramahi",
+  "acceptedAt": "2026-10-10",
+  "status": "active",
+  "plan": "SEO_LONGTAIL_MASTERPLAN_2026-10-10.md",
+  "totalTopics": 30,
+  "totalUrlWorkItems": 60,
+  "verifiedShippedTopics": 0,
+  "currentMilestone": {
+    "topics": [
+      "01",
+      "02",
+      "03",
+      "14",
+      "15",
+      "17"
+    ],
+    "status": "local_verified_release_pending",
+    "expectedCanonicalUrls": 45
+  },
+  "topics": [
+    {
+      "id": "01",
+      "title": "Generator und Einstieg",
+      "wave": "A",
+      "urls": [
+        "/",
+        "/de"
+      ],
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "src/components/FanoutModeExamples.astro"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47/47 PASS",
+        "seoQa": "45 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 affected pages; 390x844 no document overflow; table overflow contained",
+        "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
+        "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
+      },
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "02",
+      "title": "Lernhub als Aufgaben-Navigation",
+      "wave": "A",
+      "urls": [
+        "/library",
+        "/de/lernen"
+      ],
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "src/components/LearningPaths.astro"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47/47 PASS",
+        "seoQa": "45 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 affected pages; 390x844 no document overflow; table overflow contained",
+        "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
+        "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
+      },
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "03",
+      "title": "Methode und Beweisgrenzen",
+      "wave": "A",
+      "urls": [
+        "/methodology",
+        "/de/methode"
+      ],
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "src/components/EvidenceContract.astro"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47/47 PASS",
+        "seoQa": "45 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 affected pages; 390x844 no document overflow; table overflow contained",
+        "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
+        "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
+      },
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "04",
+      "title": "Query Fanout verstehen",
+      "wave": "A",
+      "urls": [
+        "/library/what-is-ai-query-fanout",
+        "/de/lernen/was-ist-ai-query-fanout"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "05",
+      "title": "OpenAI-Queries sehen und einordnen",
+      "wave": "A",
+      "urls": [
+        "/library/how-to-see-openai-search-queries",
+        "/de/lernen/openai-suchanfragen-sehen"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "06",
+      "title": "Gemini-Queries sehen und einordnen",
+      "wave": "A",
+      "urls": [
+        "/library/gemini-search-queries",
+        "/de/lernen/gemini-suchanfragen"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "07",
+      "title": "KI-Zitate und Quellen interpretieren",
+      "wave": "A",
+      "urls": [
+        "/library/ai-citations",
+        "/de/lernen/ki-zitate-und-quellen"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "08",
+      "title": "Fanout für SEO anwenden",
+      "wave": "A",
+      "urls": [
+        "/library/ai-query-fanout-for-seo",
+        "/de/lernen/query-fanout-fuer-seo"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "09",
+      "title": "SEO für KI-Suche",
+      "wave": "A",
+      "urls": [
+        "/library/seo-for-ai-search",
+        "/de/lernen/seo-fuer-ki-suche"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "10",
+      "title": "Warum Ergebnisse schwanken",
+      "wave": "A",
+      "urls": [
+        "/library/why-ai-fanout-results-change",
+        "/de/lernen/warum-fanout-ergebnisse-schwanken"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "11",
+      "title": "Modelle und Suchausgaben fair vergleichen",
+      "wave": "A",
+      "urls": [
+        "/library/compare-ai-model-searches",
+        "/de/lernen/ki-modelle-vergleichen"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "12",
+      "title": "Query-Fanout-Prompt",
+      "wave": "A",
+      "urls": [
+        "/library/query-fanout-prompt",
+        "/de/lernen/query-fanout-prompt"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "13",
+      "title": "Queries exportieren",
+      "wave": "A",
+      "urls": [
+        "/library/export-fanout-queries",
+        "/de/lernen/fanout-queries-exportieren"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "14",
+      "title": "Queries nach Leserabsicht clustern",
+      "wave": "A",
+      "urls": [
+        "/library/cluster-fanout-queries",
+        "/de/lernen/fanout-queries-clustern"
+      ],
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "public/templates/fanout-clusters-en.csv",
+        "public/templates/fanout-clusters-example-en.csv",
+        "public/templates/fanout-clusters-de.csv",
+        "public/templates/fanout-clusters-example-de.csv"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47/47 PASS",
+        "seoQa": "45 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 affected pages; 390x844 no document overflow; table overflow contained",
+        "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
+        "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
+      },
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "15",
+      "title": "Content-Brief aus Fanout",
+      "wave": "A",
+      "urls": [
+        "/library/fanout-content-brief",
+        "/de/lernen/content-brief-aus-fanout"
+      ],
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "public/templates/fanout-content-brief-en.md",
+        "public/templates/fanout-content-brief-example-en.md",
+        "public/templates/fanout-content-brief-de.md",
+        "public/templates/fanout-content-brief-example-de.md"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47/47 PASS",
+        "seoQa": "45 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 affected pages; 390x844 no document overflow; table overflow contained",
+        "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
+        "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
+      },
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "16",
+      "title": "Fanout-Fragen priorisieren",
+      "wave": "B",
+      "urls": [
+        "/library/prioritize-fanout-queries",
+        "/de/lernen/fanout-queries-priorisieren"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "17",
+      "title": "Fanout mit Search Console abgleichen",
+      "wave": "A",
+      "urls": [
+        "/library/fanout-queries-search-console",
+        "/de/lernen/fanout-queries-search-console"
+      ],
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "public/templates/fanout-gsc-map-en.csv",
+        "public/templates/fanout-gsc-map-example-en.csv",
+        "public/templates/fanout-gsc-map-de.csv",
+        "public/templates/fanout-gsc-map-example-de.csv"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47/47 PASS",
+        "seoQa": "45 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 affected pages; 390x844 no document overflow; table overflow contained",
+        "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
+        "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
+      },
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "18",
+      "title": "Content-Änderungen messen",
+      "wave": "B",
+      "urls": [
+        "/library/measure-fanout-content-changes",
+        "/de/lernen/fanout-content-aenderungen-messen"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "19",
+      "title": "Fanout-Quellen systematisch prüfen",
+      "wave": "B",
+      "urls": [
+        "/library/fanout-source-audit",
+        "/de/lernen/fanout-quellen-pruefen"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "20",
+      "title": "Produkt- und SaaS-Vergleiche planen",
+      "wave": "C",
+      "urls": [
+        "/library/fanout-for-product-comparisons",
+        "/de/lernen/fanout-fuer-produktvergleiche"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "21",
+      "title": "Shop-Kategorien und Kaufberatung planen",
+      "wave": "C",
+      "urls": [
+        "/library/fanout-for-ecommerce-categories",
+        "/de/lernen/fanout-fuer-shop-kategorien"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "22",
+      "title": "Query-Fanout-Tools vergleichen",
+      "wave": "C",
+      "urls": [
+        "/library/query-fanout-tools-comparison",
+        "/de/lernen/query-fanout-tools-vergleichen"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "23",
+      "title": "Fanout-CSV in Excel oder Sheets importieren",
+      "wave": "A",
+      "urls": [
+        "/library/import-fanout-csv",
+        "/de/lernen/fanout-csv-importieren"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "24",
+      "title": "Fanout-Ergebnisse auswerten und übergeben",
+      "wave": "A",
+      "urls": [
+        "/library/analyze-fanout-results",
+        "/de/lernen/fanout-ergebnisse-analysieren"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "25",
+      "title": "Experiment- und Wiederholungsvorlage",
+      "wave": "C",
+      "urls": [
+        "/library/fanout-experiment-template",
+        "/de/lernen/fanout-experiment-vorlage"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "26",
+      "title": "Query-Fanout-Berichtsvorlage",
+      "wave": "A",
+      "urls": [
+        "/library/query-fanout-report-template",
+        "/de/lernen/query-fanout-report-vorlage"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "27",
+      "title": "OpenAI-Queries per API auslesen",
+      "wave": "B",
+      "urls": [
+        "/library/extract-openai-search-queries",
+        "/de/lernen/openai-queries-per-api-auslesen"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "28",
+      "title": "Gemini-Queries per API auslesen",
+      "wave": "C",
+      "urls": [
+        "/library/extract-gemini-search-queries",
+        "/de/lernen/gemini-queries-per-api-auslesen"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "29",
+      "title": "Aktuelle Fanout-JSON- und Export-Schemas",
+      "wave": "B",
+      "urls": [
+        "/library/fanout-result-schema",
+        "/de/lernen/fanout-ergebnis-schema"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    },
+    {
+      "id": "30",
+      "title": "Fanout-Parser testen",
+      "wave": "B",
+      "urls": [
+        "/library/test-fanout-parsers",
+        "/de/lernen/fanout-parser-testen"
+      ],
+      "status": "backlog",
+      "artifactRefs": [],
+      "localVerification": null,
+      "liveVerification": null,
+      "releaseCommit": null
+    }
+  ]
+}

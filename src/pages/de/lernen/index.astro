@@ -2,6 +2,7 @@
 import ArrowIcon from "../../../components/ArrowIcon.astro";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { germanArticles, groupsFor } from "../../../data/observed-query-articles";
+import LearningPaths from "../../../components/LearningPaths.astro";
 const groups = groupsFor(germanArticles);
 const labels = { Concept: "Grundlagen", Measurement: "Ergebnisse prüfen", Method: "Funktionsweise", "Data standard": "Daten", "Field guide": "SEO-Praxis" } as const;
 ---
@@ -13,6 +14,7 @@ const labels = { Concept: "Grundlagen", Measurement: "Ergebnisse prüfen", Metho
     <div class="signal-legend" aria-label="Lernweg"><span><i aria-hidden="true"></i>Keyword</span><span><i aria-hidden="true"></i>Queries</span><span><i aria-hidden="true"></i>Quellen</span><span><i aria-hidden="true"></i>Entscheidung</span></div>
   </header>
 
+  <LearningPaths locale="de"/>
   <section class="question-paths section-pad section-rule" aria-labelledby="path-title">
     <div class="path-intro"><p class="section-number">Hier starten</p><h2 id="path-title">Wähle die Frage, die du wirklich beantworten willst.</h2><p>Beim AI Query Fanout wird aus einem breiten Thema eine Reihe genauerer Websuchen. Diese Zweige können Vergleiche, praktische Probleme, lokale Unterschiede und relevante Quellentypen sichtbar machen. Welcher Guide dir hilft, hängt davon ab, was du anschließend entscheiden möchtest.</p></div>
     <nav aria-label="Empfohlene Lernwege">

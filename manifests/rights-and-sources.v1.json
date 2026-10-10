@@ -1,9 +1,36 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-10.1",
+  "manifestVersion": "2026-10-10.2",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-10",
   "sources": [
+    {
+      "id": "owner-longtail-workflows-2026-10-10",
+      "title": "Original query-clustering, content-brief and GSC-mapping worksheets",
+      "kind": "owner_editorial_material",
+      "location": "https://github.com/lia-xim/ai-fanout.com/tree/codex/fanout-planner-v1/public/templates",
+      "checkedAt": "2026-10-10",
+      "status": "owner_created_editorial_examples_not_provider_output",
+      "supports": "Blank worksheets and completed teaching examples. Seven illustrative questions and fictional website paths support the walkthrough only. No real provider output, client result, GSC measurement or keyword volume is published in these files."
+    },
+    {
+      "id": "gsc-dimensions-2026-10-10",
+      "title": "Google Search Console: dimensions and data groupings",
+      "kind": "primary_documentation",
+      "location": "https://support.google.com/webmasters/answer/17011259?hl=en-UM",
+      "checkedAt": "2026-10-10",
+      "status": "verified",
+      "supports": "Explains query, page and filter scope and the omission of anonymised queries. Missing visible query rows do not establish zero market demand."
+    },
+    {
+      "id": "gsc-performance-data-2026-10-10",
+      "title": "Search Console API: getting performance data",
+      "kind": "primary_documentation",
+      "location": "https://developers.google.com/webmaster-tools/v1/how-tos/all-your-data",
+      "checkedAt": "2026-10-10",
+      "status": "verified",
+      "supports": "Explains extraction and data-coverage limits. It supports a careful measurement workflow, not a claim that the tutorial or fanout ideas have measured search demand."
+    },
     {
       "id": "owner-query-workflows-2026-10-09",
       "title": "ai-fanout.com input, selection export and local-history implementation",

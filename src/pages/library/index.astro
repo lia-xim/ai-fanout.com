@@ -2,6 +2,7 @@
 import ArrowIcon from "../../components/ArrowIcon.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { libraryArticles, libraryGroups } from "../../data/library";
+import LearningPaths from "../../components/LearningPaths.astro";
 const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method: "How to", "Data standard": "Data and exports", "Field guide": "Practical guides" } as const;
 ---
 
@@ -20,6 +21,7 @@ const categoryLabels = { Concept: "Basics", Measurement: "Check results", Method
     </div>
   </header>
 
+  <LearningPaths locale="en"/>
   <section class="question-paths section-pad section-rule" aria-labelledby="path-title">
     <div class="path-intro">
       <p class="section-number">Start here</p>

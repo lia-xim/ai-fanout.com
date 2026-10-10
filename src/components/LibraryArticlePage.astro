@@ -78,6 +78,7 @@ const schema={"@context":"https://schema.org","@graph":[
             </table></div>
           </div>}
           {section.points&&section.points.length>0&&<ul>{section.points.map(point=><li>{point}</li>)}</ul>}
+          {section.downloads&&<nav class="chapter-downloads" aria-label={de?"Arbeitsvorlagen herunterladen":"Download worksheets"}>{section.downloads.map(file=><a href={file.href} download>{file.label}<ArrowIcon size={16}/></a>)}</nav>}
         </section>)}
 
         {article.readerQuestions&&<section class="reader-questions" aria-labelledby="reader-questions-title">

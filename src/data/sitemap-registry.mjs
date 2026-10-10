@@ -7,7 +7,7 @@
  * change.
  */
 
-export const sitemapRegistryVersion = "2026-10-10.1";
+export const sitemapRegistryVersion = "2026-10-10.2";
 
 const pair = (en, de, lastmod, role) => [
   { path: en, lang: "en", lastmod, role, alternates: { en, de, "x-default": en } },
@@ -15,20 +15,23 @@ const pair = (en, de, lastmod, role) => [
 ];
 
 const pairedRoutes = [
-  ...pair("/", "/de", "2026-10-09", "tool-homepage"),
-  ...pair("/library", "/de/lernen", "2026-10-09", "learning-hub"),
+  ...pair("/", "/de", "2026-10-10", "tool-homepage"),
+  ...pair("/library", "/de/lernen", "2026-10-10", "learning-hub"),
   ...pair("/examples", "/de/beispiele", "2026-10-09", "evidence-hub"),
-  ...pair("/methodology", "/de/methode", "2026-08-31", "methodology"),
+  ...pair("/methodology", "/de/methode", "2026-10-10", "methodology"),
   ...pair("/library/what-is-ai-query-fanout", "/de/lernen/was-ist-ai-query-fanout", "2026-10-09", "guide"),
   ...pair("/library/how-to-see-openai-search-queries", "/de/lernen/openai-suchanfragen-sehen", "2026-10-10", "guide"),
   ...pair("/library/gemini-search-queries", "/de/lernen/gemini-suchanfragen", "2026-10-09", "guide"),
   ...pair("/library/ai-citations", "/de/lernen/ki-zitate-und-quellen", "2026-10-09", "guide"),
-  ...pair("/library/ai-query-fanout-for-seo", "/de/lernen/query-fanout-fuer-seo", "2026-10-09", "guide"),
+  ...pair("/library/ai-query-fanout-for-seo", "/de/lernen/query-fanout-fuer-seo", "2026-10-10", "guide"),
   ...pair("/library/seo-for-ai-search", "/de/lernen/seo-fuer-ki-suche", "2026-10-09", "guide"),
   ...pair("/library/why-ai-fanout-results-change", "/de/lernen/warum-fanout-ergebnisse-schwanken", "2026-10-09", "guide"),
   ...pair("/library/compare-ai-model-searches", "/de/lernen/ki-modelle-vergleichen", "2026-10-09", "guide"),
   ...pair("/library/query-fanout-prompt", "/de/lernen/query-fanout-prompt", "2026-10-10", "guide"),
   ...pair("/library/export-fanout-queries", "/de/lernen/fanout-queries-exportieren", "2026-10-10", "guide"),
+  ...pair("/library/cluster-fanout-queries", "/de/lernen/fanout-queries-clustern", "2026-10-10", "guide"),
+  ...pair("/library/fanout-content-brief", "/de/lernen/content-brief-aus-fanout", "2026-10-10", "guide"),
+  ...pair("/library/fanout-queries-search-console", "/de/lernen/fanout-queries-search-console", "2026-10-10", "guide"),
   ...pair("/examples/best-seo-tools-openai-vs-gemini", "/de/beispiele/beste-seo-tools-openai-vs-gemini", "2026-10-09", "evidence-example"),
   ...pair("/examples/country-changes-fanout-queries", "/de/beispiele/land-veraendert-fanout-queries", "2026-10-09", "evidence-example"),
   ...pair("/examples/why-same-keyword-changes", "/de/beispiele/warum-gleiches-keyword-andere-queries", "2026-10-09", "evidence-example"),
