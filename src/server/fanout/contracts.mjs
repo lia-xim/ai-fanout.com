@@ -1,7 +1,7 @@
 import { z } from "zod";
 
-export const TOOL_VERSION = "modelled-fanout-tool/2.0.0";
-export const METHOD_VERSION = "openrouter-structured-fanout/2.0";
+export const TOOL_VERSION = "modelled-fanout-tool/2.1.0";
+export const METHOD_VERSION = "openrouter-structured-fanout/2.1";
 export const PROVIDER_ID = "openrouter";
 export const MAX_OUTPUT_TOKENS = 800;
 export const FANOUT_QUERY_COUNT = 10;
@@ -11,8 +11,9 @@ export const BUCKET_WINDOW_SECONDS = 86_400;
 export const GLOBAL_DAILY_LIMIT = 40;
 
 export const MODEL_OPTIONS = [
-  { id: "openai/gpt-5.6-luna", label: "GPT-5.6 Luna", provider: "OpenAI" },
-  { id: "google/gemini-3.7-flash", label: "Gemini 3.7 Flash", provider: "Google" },
+  { id: "openai/gpt-6-luna", label: "GPT-6 Luna", provider: "OpenAI" },
+  { id: "google/gemini-3.8-flash", label: "Gemini 3.8 Flash", provider: "Google" },
+  { id: "anthropic/claude-haiku-5.5", label: "Claude Haiku 5.5", provider: "Anthropic" },
 ];
 export const MODEL_IDS = MODEL_OPTIONS.map((model) => model.id);
 export const DEFAULT_MODEL_ID = MODEL_IDS[0];

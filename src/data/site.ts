@@ -4,7 +4,7 @@ export const site = {
   url: "https://ai-fanout.com",
   language: "en" as const,
   title: "AI Query Fanout",
-  description: "Run a bounded native web-search observation with OpenAI or Gemini and inspect the provider-exposed search queries and cited sources.",
+  description: "Run a bounded native web-search observation with OpenAI, Gemini or Claude and inspect the provider-exposed search queries and cited sources.",
   purpose: "Show which search queries a provider API exposes during a real, bounded web-search run, without claiming access to consumer-product internals.",
   status: "The free, CAPTCHA-protected fanout tool and bilingual learning pages are live.",
   boundary: "Native results are provider-exposed API search actions under a public protocol, not captures of ChatGPT or Gemini consumer interfaces. Modelled ideas remain a separate secondary mode.",

@@ -11,7 +11,7 @@ const fixedNow=()=>new Date("2026-08-26T12:00:00Z");
 const create=({ledger=new MemoryQuotaLedger({now:fixedNow}),provider=okProvider}={})=>{let captchaCalls=0;const service=createFanoutService({ledger,provider,bucketSalt:"test-salt",now:fixedNow,captchaVerifier:async token=>{captchaCalls++;if(token!=="valid")throw new ToolError("CAPTCHA_FAILED",403)}});return{ledger,service,get captchaCalls(){return captchaCalls}}};
 const body={keyword:"SEO tools",model:DEFAULT_MODEL_ID,language:"en",country:"DE",turnstileToken:"valid"};
 
-test("allowlists only the two approved providers",()=>{assert.deepEqual(MODEL_IDS,["openai/gpt-5.6-luna","google/gemini-3.7-flash"])});
+test("allowlists the three approved current models",()=>{assert.deepEqual(MODEL_IDS,["openai/gpt-6-luna","google/gemini-3.8-flash","anthropic/claude-haiku-5.5"])});
 test("validates Unicode, byte, URL, file and multiline limits",()=>{assert.equal(validateKeyword("  SEO tools  "),"SEO tools");assert.throws(()=>validateKeyword("x"),/KEYWORD_TOO_SHORT/);assert.throws(()=>validateKeyword("🙂".repeat(61)),/KEYWORD_TOO_LONG/);assert.throws(()=>validateKeyword("https://example.com"),/URL_NOT_ALLOWED/);assert.throws(()=>validateKeyword("upload report.pdf"),/FILES_NOT_ALLOWED/);assert.throws(()=>validateKeyword("seo\ntools"),/KEYWORD_MULTILINE/)});
 test("request is strict and rejects a model outside the allowlist before CAPTCHA",async()=>{const ctx=create();await assert.rejects(()=>ctx.service({body:{...body,model:"openai/other"},remoteIp:"1.2.3.4"}),/INVALID_REQUEST/);await assert.rejects(()=>ctx.service({body:{...body,extra:"no"},remoteIp:"1.2.3.4"}),/INVALID_REQUEST/);assert.equal(ctx.captchaCalls,0)});
 test("failed CAPTCHA does not reserve budget",async()=>{const ctx=create();await assert.rejects(()=>ctx.service({body:{...body,turnstileToken:"bad"},remoteIp:"1.2.3.4"}),/CAPTCHA_FAILED/);assert.equal(ctx.ledger.records.size,0)});
@@ -31,4 +31,15 @@ test("OpenRouter request is one bounded structured-output call with no client se
   assert.equal(calls,1);assert.equal(request.url,"https://openrouter.ai/api/v1/chat/completions");assert.equal(request.body.model,DEFAULT_MODEL_ID);assert.equal(request.body.max_tokens,800);assert.equal(request.body.response_format.type,"json_schema");assert.equal(request.body.response_format.json_schema.strict,true);assert.equal(JSON.stringify(request.body).includes("hidden provider searches"),true);assert.equal(JSON.stringify(request.body).includes("server-secret"),false);assert.equal(request.options.headers.Authorization,"Bearer server-secret");assert.equal(generated.result.queries.length,10);
 });
 test("provider rejects malformed or short output",async()=>{const provider=new OpenRouterFanoutProvider({apiKey:"x",fetchImpl:async()=>({ok:true,json:async()=>({choices:[{message:{content:JSON.stringify({queries:queries.slice(0,1)})}}]})})});await assert.rejects(()=>provider.generate({keyword:"SEO tools",model:DEFAULT_MODEL_ID,language:"en",country:""}),/PROVIDER_INVALID_OUTPUT/)});
+test("all current models use bounded structured output and supported reasoning controls",async()=>{
+  for(const model of MODEL_IDS){
+    let request;
+    const provider=new OpenRouterFanoutProvider({apiKey:"x",fetchImpl:async(_url,options)=>{request=JSON.parse(options.body);return{ok:true,json:async()=>({choices:[{message:{content:JSON.stringify({queries})}}],usage:{}})}}});
+    await provider.generate({keyword:"SEO tools",model,language:"en",country:""});
+    assert.equal(request.model,model);assert.equal(request.max_tokens,800);assert.equal(request.response_format.json_schema.strict,true);assert.equal("temperature" in request,false);
+    assert.equal(request.reasoning.exclude,true);
+    if(model.startsWith("google/")){assert.equal(request.reasoning.effort,"low");assert.notEqual(request.reasoning.enabled,false)}
+    else{assert.equal(request.reasoning.enabled,false)}
+  }
+});
 test("successful output is dated, model-specific and truthfully labelled",async()=>{const data=await create().service({body,remoteIp:"1.2.3.4"});assert.equal(data.keyword,"SEO tools");assert.equal(data.queries.length,10);assert.equal(data.modelId,DEFAULT_MODEL_ID);assert.equal(data.evidenceStatus,"modelled_fanout");assert.equal(data.generatedAt,"2026-08-26T12:00:00.000Z");assert.match(data.notice,/not hidden provider queries/i);assert.equal(data.toolVersion,TOOL_VERSION);assert.deepEqual(data.quota,{limit:20,used:1,remaining:19,resetAt:"2026-08-27T12:00:00.000Z"})});

@@ -37,7 +37,9 @@ export class OpenRouterFanoutProvider {
         body: JSON.stringify({
           model,
           max_tokens: MAX_OUTPUT_TOKENS,
-          temperature: 0.3,
+          reasoning: model === "google/gemini-3.8-flash"
+            ? { effort: "low", exclude: true }
+            : { enabled: false, effort: model === "anthropic/claude-haiku-5.5" ? "low" : "none", exclude: true },
           response_format: { type: "json_schema", json_schema: { name: "fanout_plan", strict: true, schema: fanoutJsonSchema } },
           messages: [
             { role: "system", content: `Create exactly ${FANOUT_QUERY_COUNT} distinct follow-up searches that a research system could use to investigate one keyword. Cover different user needs and avoid near-duplicates. Write queries and reasons in ${language === "de" ? "German" : "English"}. ${country ? `Use ${country} as market context when relevant, without forcing every query to be local.` : "Do not assume a country."} This is a modelled research plan, not a record of hidden provider searches or reasoning.` },

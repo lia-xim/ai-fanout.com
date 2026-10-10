@@ -37,3 +37,7 @@ test("unknown values, raw content keys and unknown events are rejected", () => {
   }), { name: "result_exported", data: { item_count: 100 } });
   assert.equal(sanitizeProductEvent("raw_prompt", { prompt: "no" }), null);
 });
+
+test("Haiku is attributed to Anthropic with only aggregate analytics fields",()=>{
+  assert.deepEqual(sanitizeProductEvent("tool_run_succeeded",{mode:"modelled",provider:"anthropic",query_count:10,keyword:"private",model_id:"private",prompt:"private"}),{name:"tool_run_succeeded",data:{mode:"modelled",provider:"anthropic",query_count:10}});
+});

@@ -1,0 +1,1047 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-fanout.com/contracts/fanout-public-contracts.schema.v2.json",
+  "title": "ai-fanout.com public export reference, checked 10 October 2026",
+  "description": "Four current export families. Native/modelled runs have toolVersion/methodVersion, without root schemaVersion. This reference does not validate raw provider responses, legacy planner exports or SEO handoff payloads. Cross-field checks are in validate.mjs; acceptance is not provider provenance or factual truth.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/nativeRun"
+    },
+    {
+      "$ref": "#/$defs/modelledRun"
+    },
+    {
+      "$ref": "#/$defs/querySelection"
+    },
+    {
+      "$ref": "#/$defs/localComparison"
+    }
+  ],
+  "$defs": {
+    "nativeRun": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "keyword": {
+          "type": "string"
+        },
+        "language": {
+          "enum": [
+            "en",
+            "de"
+          ]
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "providerId": {
+          "enum": [
+            "openai",
+            "gemini",
+            "anthropic"
+          ]
+        },
+        "modelId": {
+          "type": "string"
+        },
+        "generatedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+        },
+        "evidenceStatus": {
+          "const": "provider_exposed_native_search"
+        },
+        "queries": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 240
+          },
+          "maxItems": 8
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "url": {
+                "type": "string",
+                "pattern": "^https?://"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "url",
+              "title"
+            ]
+          }
+        },
+        "searchActions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "queries": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "pattern": "^https?://"
+                    },
+                    "title": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "title"
+                  ]
+                }
+              },
+              "sourceScope": {
+                "enum": [
+                  "exact_query",
+                  "search_action",
+                  "not_exposed",
+                  "not_stored"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "queries",
+              "sources",
+              "sourceScope"
+            ]
+          }
+        },
+        "searchActionCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "providerResponseStatus": {
+          "type": "string"
+        },
+        "sourceEvidenceScope": {
+          "enum": [
+            "search_action_when_exposed",
+            "run_level_only",
+            "not_stored_google_grounded_results"
+          ]
+        },
+        "usage": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "inputTokens": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "outputTokens": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "searchActionCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "searchQueryCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "estimatedCostUsd": {
+              "type": "number",
+              "minimum": 0
+            },
+            "estimatedCostUsdMaximum": {
+              "type": "number",
+              "minimum": 0
+            },
+            "estimateKind": {
+              "enum": [
+                "list_price_estimate",
+                "list_price_range"
+              ]
+            },
+            "pricingCheckedAt": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "pricingBasis": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "inputTokens",
+            "outputTokens",
+            "searchActionCount",
+            "searchQueryCount",
+            "estimatedCostUsd",
+            "estimateKind",
+            "pricingCheckedAt",
+            "pricingBasis"
+          ]
+        },
+        "toolVersion": {
+          "enum": [
+            "native-fanout-tool/1.0.0",
+            "native-fanout-tool/1.1.0"
+          ]
+        },
+        "methodVersion": {
+          "enum": [
+            "provider-native-search/1.0",
+            "provider-native-search/1.1"
+          ]
+        },
+        "notice": {
+          "type": "string"
+        },
+        "quota": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "limit": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "used": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "remaining": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "resetAt": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+            }
+          },
+          "required": [
+            "limit",
+            "used",
+            "remaining",
+            "resetAt"
+          ]
+        },
+        "storageNotice": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "keyword",
+        "language",
+        "country",
+        "providerId",
+        "modelId",
+        "generatedAt",
+        "evidenceStatus",
+        "queries",
+        "sources",
+        "searchActions",
+        "searchActionCount",
+        "providerResponseStatus",
+        "sourceEvidenceScope",
+        "usage",
+        "toolVersion",
+        "methodVersion",
+        "notice",
+        "quota"
+      ]
+    },
+    "modelledRun": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "keyword": {
+          "type": "string"
+        },
+        "language": {
+          "enum": [
+            "en",
+            "de"
+          ]
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "providerId": {
+          "type": "string"
+        },
+        "modelId": {
+          "type": "string"
+        },
+        "generatedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+        },
+        "evidenceStatus": {
+          "const": "modelled_fanout"
+        },
+        "queries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "query": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 160
+              },
+              "intent": {
+                "enum": [
+                  "informational",
+                  "comparison",
+                  "commercial",
+                  "transactional",
+                  "local",
+                  "troubleshooting"
+                ]
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 4,
+                "maxLength": 180
+              }
+            },
+            "required": [
+              "query",
+              "intent",
+              "reason"
+            ]
+          },
+          "minItems": 10,
+          "maxItems": 10
+        },
+        "toolVersion": {
+          "enum": [
+            "modelled-fanout-tool/2.0.0",
+            "modelled-fanout-tool/2.1.0"
+          ]
+        },
+        "methodVersion": {
+          "enum": [
+            "openrouter-structured-fanout/2.0",
+            "openrouter-structured-fanout/2.1"
+          ]
+        },
+        "notice": {
+          "type": "string"
+        },
+        "quota": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "limit": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "used": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "remaining": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "resetAt": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+            }
+          },
+          "required": [
+            "limit",
+            "used",
+            "remaining",
+            "resetAt"
+          ]
+        }
+      },
+      "required": [
+        "keyword",
+        "language",
+        "country",
+        "providerId",
+        "modelId",
+        "generatedAt",
+        "evidenceStatus",
+        "queries",
+        "toolVersion",
+        "methodVersion",
+        "notice",
+        "quota"
+      ]
+    },
+    "querySelection": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": {
+          "const": "ai-fanout.query-selection/1.0"
+        },
+        "exportedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+        },
+        "run": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "keyword": {
+              "type": "string"
+            },
+            "language": {
+              "enum": [
+                "en",
+                "de"
+              ]
+            },
+            "country": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "providerId": {
+              "type": "string"
+            },
+            "modelId": {
+              "type": "string"
+            },
+            "generatedAt": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+            },
+            "evidenceStatus": {
+              "enum": [
+                "provider_exposed_native_search",
+                "modelled_fanout"
+              ]
+            }
+          },
+          "required": [
+            "keyword",
+            "language",
+            "country",
+            "providerId",
+            "modelId",
+            "generatedAt",
+            "evidenceStatus"
+          ]
+        },
+        "selectedQueryCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "queries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "index": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "query": {
+                "type": "string"
+              },
+              "intent": {
+                "anyOf": [
+                  {
+                    "enum": [
+                      "informational",
+                      "comparison",
+                      "commercial",
+                      "transactional",
+                      "local",
+                      "troubleshooting"
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "reason": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "index",
+              "query",
+              "intent",
+              "reason"
+            ]
+          }
+        },
+        "notice": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "exportedAt",
+        "run",
+        "selectedQueryCount",
+        "queries",
+        "notice"
+      ]
+    },
+    "localComparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": {
+          "const": "ai-fanout.local-comparison/1.0"
+        },
+        "createdAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+        },
+        "runCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "comparisonType": {
+          "enum": [
+            "provider",
+            "date",
+            "mixed"
+          ]
+        },
+        "runs": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/savedNative"
+              },
+              {
+                "$ref": "#/$defs/savedModelled"
+              }
+            ]
+          }
+        },
+        "sharedQueries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sharedSourceDomains": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notice": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "createdAt",
+        "runCount",
+        "comparisonType",
+        "runs",
+        "sharedQueries",
+        "sharedSourceDomains",
+        "notice"
+      ]
+    },
+    "savedNative": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "keyword": {
+          "type": "string"
+        },
+        "language": {
+          "enum": [
+            "en",
+            "de"
+          ]
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "providerId": {
+          "enum": [
+            "openai",
+            "gemini",
+            "anthropic"
+          ]
+        },
+        "modelId": {
+          "type": "string"
+        },
+        "generatedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+        },
+        "evidenceStatus": {
+          "const": "provider_exposed_native_search"
+        },
+        "queries": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 240
+          },
+          "maxItems": 8
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "url": {
+                "type": "string",
+                "pattern": "^https?://"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "url",
+              "title"
+            ]
+          }
+        },
+        "searchActions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "queries": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "pattern": "^https?://"
+                    },
+                    "title": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "title"
+                  ]
+                }
+              },
+              "sourceScope": {
+                "enum": [
+                  "exact_query",
+                  "search_action",
+                  "not_exposed",
+                  "not_stored"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "queries",
+              "sources",
+              "sourceScope"
+            ]
+          }
+        },
+        "searchActionCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "providerResponseStatus": {
+          "type": "string"
+        },
+        "sourceEvidenceScope": {
+          "enum": [
+            "search_action_when_exposed",
+            "run_level_only",
+            "not_stored_google_grounded_results"
+          ]
+        },
+        "usage": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "inputTokens": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "outputTokens": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "searchActionCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "searchQueryCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "estimatedCostUsd": {
+              "type": "number",
+              "minimum": 0
+            },
+            "estimatedCostUsdMaximum": {
+              "type": "number",
+              "minimum": 0
+            },
+            "estimateKind": {
+              "enum": [
+                "list_price_estimate",
+                "list_price_range"
+              ]
+            },
+            "pricingCheckedAt": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "pricingBasis": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "inputTokens",
+            "outputTokens",
+            "searchActionCount",
+            "searchQueryCount",
+            "estimatedCostUsd",
+            "estimateKind",
+            "pricingCheckedAt",
+            "pricingBasis"
+          ]
+        },
+        "toolVersion": {
+          "enum": [
+            "native-fanout-tool/1.0.0",
+            "native-fanout-tool/1.1.0"
+          ]
+        },
+        "methodVersion": {
+          "enum": [
+            "provider-native-search/1.0",
+            "provider-native-search/1.1"
+          ]
+        },
+        "notice": {
+          "type": "string"
+        },
+        "quota": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "limit": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "used": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "remaining": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "resetAt": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+            }
+          },
+          "required": [
+            "limit",
+            "used",
+            "remaining",
+            "resetAt"
+          ]
+        },
+        "storageNotice": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "savedAt": {
+          "type": "number",
+          "minimum": 0
+        },
+        "analysis": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "evidenceState": {
+              "const": "observed_summary"
+            },
+            "methodVersion": {
+              "const": "observed-summary/1.0"
+            },
+            "observedQueryCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "distinctSourceDomainCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "sourceDomains": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "evidenceState",
+            "methodVersion",
+            "observedQueryCount",
+            "distinctSourceDomainCount",
+            "sourceDomains"
+          ]
+        }
+      },
+      "required": [
+        "keyword",
+        "language",
+        "country",
+        "providerId",
+        "modelId",
+        "generatedAt",
+        "evidenceStatus",
+        "queries",
+        "sources",
+        "searchActions",
+        "searchActionCount",
+        "providerResponseStatus",
+        "sourceEvidenceScope",
+        "usage",
+        "toolVersion",
+        "methodVersion",
+        "notice",
+        "quota",
+        "id",
+        "savedAt",
+        "analysis"
+      ]
+    },
+    "savedModelled": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "keyword": {
+          "type": "string"
+        },
+        "language": {
+          "enum": [
+            "en",
+            "de"
+          ]
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "providerId": {
+          "type": "string"
+        },
+        "modelId": {
+          "type": "string"
+        },
+        "generatedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+        },
+        "evidenceStatus": {
+          "const": "modelled_fanout"
+        },
+        "queries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "query": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 160
+              },
+              "intent": {
+                "enum": [
+                  "informational",
+                  "comparison",
+                  "commercial",
+                  "transactional",
+                  "local",
+                  "troubleshooting"
+                ]
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 4,
+                "maxLength": 180
+              }
+            },
+            "required": [
+              "query",
+              "intent",
+              "reason"
+            ]
+          },
+          "minItems": 10,
+          "maxItems": 10
+        },
+        "toolVersion": {
+          "enum": [
+            "modelled-fanout-tool/2.0.0",
+            "modelled-fanout-tool/2.1.0"
+          ]
+        },
+        "methodVersion": {
+          "enum": [
+            "openrouter-structured-fanout/2.0",
+            "openrouter-structured-fanout/2.1"
+          ]
+        },
+        "notice": {
+          "type": "string"
+        },
+        "quota": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "limit": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "used": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "remaining": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "resetAt": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+            }
+          },
+          "required": [
+            "limit",
+            "used",
+            "remaining",
+            "resetAt"
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "savedAt": {
+          "type": "number",
+          "minimum": 0
+        },
+        "analysis": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "evidenceState": {
+              "const": "observed_summary"
+            },
+            "methodVersion": {
+              "const": "observed-summary/1.0"
+            },
+            "observedQueryCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "distinctSourceDomainCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "sourceDomains": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "evidenceState",
+            "methodVersion",
+            "observedQueryCount",
+            "distinctSourceDomainCount",
+            "sourceDomains"
+          ]
+        }
+      },
+      "required": [
+        "keyword",
+        "language",
+        "country",
+        "providerId",
+        "modelId",
+        "generatedAt",
+        "evidenceStatus",
+        "queries",
+        "toolVersion",
+        "methodVersion",
+        "notice",
+        "quota",
+        "id",
+        "savedAt",
+        "analysis"
+      ]
+    }
+  }
+}

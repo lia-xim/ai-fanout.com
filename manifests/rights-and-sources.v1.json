@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-10.7",
+  "manifestVersion": "2026-10-10.8",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-10",
   "sources": [
@@ -692,6 +692,82 @@
       "checkedAt": "2026-08-28",
       "status": "planned_not_results",
       "supports": "Defines 12 repeat topics, fixed run controls, ownership and publication boundaries. It is a plan and contains no claimed monthly results."
+    },
+    {
+      "id": "openrouter-model-catalog-2026-10-10",
+      "title": "Current OpenRouter model catalog",
+      "kind": "primary_provider_documentation",
+      "location": "https://openrouter.ai/api/v1/models",
+      "checkedAt": "2026-10-10",
+      "status": "verified_live",
+      "supports": "Live exact IDs openai/gpt-6-luna, google/gemini-3.8-flash and anthropic/claude-haiku-5.5; structured outputs and per-model reasoning controls. No inference output retained or published."
+    },
+    {
+      "id": "openai-gpt-6-luna-2026-10-10",
+      "title": "GPT-6 Luna model and pricing",
+      "kind": "primary_provider_documentation",
+      "location": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "checkedAt": "2026-10-10",
+      "status": "verified_live",
+      "supports": "Direct model ID gpt-6-luna, Responses web-search support, USD 0.10/M input and USD 0.50/M output for short prompts."
+    },
+    {
+      "id": "gemini-3-8-flash-pricing-2026-10-10",
+      "title": "Gemini 3.8 Flash pricing",
+      "kind": "primary_provider_documentation",
+      "location": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checkedAt": "2026-10-10",
+      "status": "verified_live",
+      "supports": "USD 0.75/M input and 3.75/M output through 2026-12-31, 1.50/M and 7.50/M from 2027-01-01; shared 5,000 monthly Search queries then USD 0.014/query. Range preserves unknown allowance."
+    },
+    {
+      "id": "anthropic-haiku-5-5-2026-10-10",
+      "title": "Claude Haiku 5.5 release and pricing",
+      "kind": "primary_provider_documentation",
+      "location": "https://www.anthropic.com/claude-haiku-5-5",
+      "checkedAt": "2026-10-10",
+      "status": "verified_live",
+      "supports": "USD 0.10/M input and 0.50/M output up to 100k prompt tokens, 0.50/M and 2.50/M above that threshold. This is a list-price reference, not a benchmark."
+    },
+    {
+      "id": "openrouter-anthropic-messages-2026-10-10",
+      "title": "OpenRouter Anthropic Messages API",
+      "kind": "primary_provider_documentation",
+      "location": "https://openrouter.ai/docs/api/api-reference/anthropic-messages/create-a-message",
+      "checkedAt": "2026-10-10",
+      "status": "verified_live",
+      "supports": "OpenRouter-key authentication for the Messages endpoint, Anthropic model routing, thinking controls and Anthropic response blocks."
+    },
+    {
+      "id": "anthropic-native-search-2026-10-10",
+      "title": "Anthropic native web search contract",
+      "kind": "primary_provider_documentation",
+      "location": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool",
+      "checkedAt": "2026-10-10",
+      "status": "verified_live",
+      "supports": "web_search_20250305 max_uses; server_tool_use input.query; exact tool_use_id links to web_search_tool_result. HTTP 200 tool errors, pause_turn and incomplete searches are handled without retries; encrypted content and final-answer text are excluded."
+    },
+    {
+      "id": "owner-offline-parser-kit-v2-2026-10-10",
+      "title": "Original runnable offline parser and edge-case test kit",
+      "titleDe": "Eigenes ausführbares Offline-Parser- und Randfall-Testkit",
+      "kind": "owner_editorial_material",
+      "location": "https://ai-fanout.com/code/fanout-kit-v2.zip",
+      "checkedAt": "2026-10-10",
+      "status": "owner_created_code_and_synthetic_fixtures",
+      "supports": "Original educational parser code and 27 offline checks. Synthetic response fixtures are not provider output; exact strings, status states, source scope and retention exclusions are tested. No paid calls or new actual grounding data. The teaching helper explicitly differs from the live normalized wrapper.",
+      "supportsDe": "Eigener Lehrcode und 27 Offline-Prüfungen. Synthetische Antwortstrukturen sind keine Provider-Ausgaben. Geprüft werden Strings, Status, Quellenumfang und ausgeschlossene Payloads. Kein bezahlter Aufruf oder neues reales Grounding-Material; der Lehr-Parser unterscheidet sich ausdrücklich vom Website-Wrapper."
+    },
+    {
+      "id": "owner-current-export-reference-v2-2026-10-10",
+      "title": "Current website export contracts and reference validation",
+      "titleDe": "Aktuelle Website-Exportverträge und Referenzvalidierung",
+      "kind": "owner_implementation",
+      "location": "https://ai-fanout.com/contracts/fanout-public-contracts.schema.v2.json",
+      "checkedAt": "2026-10-10",
+      "status": "verified_source_and_offline_contract_checks",
+      "supports": "Draft 2020-12 reference for the current native/modelled full runs, query selections and local comparisons. Schema checked against actual service/export functions with synthetic provider stubs and semantic negative tests. No root schemaVersion is invented for full runs. Legacy planner and handoff formats remain separate.",
+      "supportsDe": "Draft-2020-12-Referenz für aktuelle native/modellierte Vollruns, Query-Auswahlen und lokale Vergleiche. Geprüft gegen tatsächliche Service-/Exportfunktionen mit synthetischen Provider-Stubs und negativen Semantiktests. Vollruns erhalten keine erfundene root-schemaVersion; ältere Planner- und Handoff-Formate bleiben getrennt."
     }
   ],
   "rights": [

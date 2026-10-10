@@ -40,3 +40,7 @@ The core funnel is split by landing-page language and measures: landing page, to
 ## Retention
 
 The operator policy is a maximum 24-month retention period for this website's Umami records, with an annual necessity review. The enforcement procedure and deletion calendar are defined in `docs/analytics-retention.md`. Self-hosted Umami does not expire records automatically, so the documented reset remains an owner-operated task rather than a website-runtime claim.
+
+## Model update, 2026-10-10
+
+Provider dimensions now include `anthropic` for Claude Haiku 5.5 in both modes. Native comparison directions allow the six directed pairs between OpenAI, Gemini and Anthropic. Raw topics, queries, model output, source addresses and user identifiers remain excluded.

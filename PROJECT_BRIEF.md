@@ -1,10 +1,10 @@
 # ai-fanout.com project brief
 
-Updated: 2026-08-27
+Updated: 2026-10-10
 
 ## Purpose
 
-ai-fanout.com shows which web-search queries a provider API exposes during one bounded OpenAI or Gemini search run. It helps SEO and editorial users see concrete research branches and cited sources without pretending to inspect hidden consumer-product internals.
+ai-fanout.com shows which web-search queries a provider API exposes during one bounded OpenAI, Gemini or Claude search run. It helps SEO and editorial users see concrete research branches and cited sources without pretending to inspect hidden consumer-product internals.
 
 ## Audience
 
@@ -23,7 +23,7 @@ The learning guides use a restrained editorial article system: the illustration 
 
 ## Product modes
 
-- **Native Fanout, primary:** one direct OpenAI Responses or Gemini Interactions API run with provider-native web search. Show only provider-exposed query strings and cited URLs. Link sources to a query only when the provider response carries that link; otherwise keep them at search-action or run level. Zero exposed queries stays zero.
+- **Native Fanout, primary:** one OpenAI Responses, Gemini Interactions or Anthropic native-search run (Haiku via OpenRouter Messages) with provider-native web search. Show only provider-exposed query strings and cited URLs. Link sources to a query only when the provider response carries that link; otherwise keep them at search-action or run level. Zero exposed queries stays zero.
 - **Search Ideas, secondary:** the existing OpenRouter structured-output generator. It produces ten modelled research directions and performs no web search.
 - **Controlled Fanout, later:** a separate custom-search experiment only if it executes a documented search tool. Do not relabel the modelled generator as controlled fanout.
 
@@ -49,4 +49,4 @@ Dated public example pages use reviewed, owner-run OpenAI observations with exac
 - owner-operated Umami measurement is limited to live-domain page analytics, Core Web Vitals and a tested product-event allowlist; URL search/hash values and raw tool content are forbidden.
 - Umami data for this site is limited to 24 months under the annual necessity review and owner-run, exact-website reset procedure in `docs/analytics-retention.md`; the public runtime has no analytics-admin credential.
 
-Matthias Ramahi is operator and Research Owner. He owns method versions, corrections, reviewer status and the monthly cost envelope. Claude and Perplexity are explicitly outside the first native release.
+Matthias Ramahi is operator and Research Owner. He owns method versions, corrections, reviewer status and the monthly cost envelope. Claude Haiku 5.5 was added through OpenRouter Messages on 2026-10-10 at the owner's request. OpenAI uses GPT-6 Luna and Gemini uses 3.8 Flash. Perplexity remains outside the native release.

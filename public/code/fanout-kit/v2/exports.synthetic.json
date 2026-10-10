@@ -1,0 +1,291 @@
+{
+  "nativeRun": {
+    "keyword": "synthetic example",
+    "language": "en",
+    "country": "US",
+    "modelId": "synthetic-model/no-provider-call",
+    "generatedAt": "2026-10-10T00:00:00.000Z",
+    "notice": "Entirely synthetic contract exercise; no provider request, search volume, observed citation or measured cost.",
+    "quota": {
+      "limit": 20,
+      "used": 1,
+      "remaining": 19,
+      "resetAt": "2026-10-11T00:00:00.000Z"
+    },
+    "providerId": "openai",
+    "queries": [
+      "example topic",
+      "example cost"
+    ],
+    "sources": [
+      {
+        "url": "https://example.com/guide",
+        "title": "Fictional source"
+      }
+    ],
+    "searchActions": [
+      {
+        "id": "synthetic-search",
+        "queries": [
+          "example topic",
+          "example cost"
+        ],
+        "sources": [
+          {
+            "url": "https://example.com/guide",
+            "title": "Fictional source"
+          }
+        ],
+        "sourceScope": "search_action"
+      }
+    ],
+    "searchActionCount": 1,
+    "providerResponseStatus": "completed",
+    "evidenceStatus": "provider_exposed_native_search",
+    "sourceEvidenceScope": "search_action_when_exposed",
+    "toolVersion": "native-fanout-tool/1.1.0",
+    "methodVersion": "provider-native-search/1.1",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "searchActionCount": 1,
+      "searchQueryCount": 2,
+      "estimatedCostUsd": 0,
+      "estimateKind": "list_price_estimate",
+      "pricingCheckedAt": "2026-10-10",
+      "pricingBasis": "Synthetic zero placeholders; not provider billing or a current price."
+    }
+  },
+  "modelledRun": {
+    "keyword": "synthetic example",
+    "language": "en",
+    "country": "US",
+    "modelId": "synthetic-model/no-provider-call",
+    "generatedAt": "2026-10-10T00:00:00.000Z",
+    "notice": "Entirely synthetic contract exercise; no provider request, search volume, observed citation or measured cost.",
+    "quota": {
+      "limit": 20,
+      "used": 1,
+      "remaining": 19,
+      "resetAt": "2026-10-11T00:00:00.000Z"
+    },
+    "providerId": "openrouter",
+    "evidenceStatus": "modelled_fanout",
+    "queries": [
+      {
+        "query": "example research question 1",
+        "intent": "informational",
+        "reason": "Synthetic editorial exercise only."
+      },
+      {
+        "query": "example research question 2",
+        "intent": "informational",
+        "reason": "Synthetic editorial exercise only."
+      },
+      {
+        "query": "example research question 3",
+        "intent": "informational",
+        "reason": "Synthetic editorial exercise only."
+      },
+      {
+        "query": "example research question 4",
+        "intent": "informational",
+        "reason": "Synthetic editorial exercise only."
+      },
+      {
+        "query": "example research question 5",
+        "intent": "informational",
+        "reason": "Synthetic editorial exercise only."
+      },
+      {
+        "query": "example research question 6",
+        "intent": "informational",
+        "reason": "Synthetic editorial exercise only."
+      },
+      {
+        "query": "example research question 7",
+        "intent": "informational",
+        "reason": "Synthetic editorial exercise only."
+      },
+      {
+        "query": "example research question 8",
+        "intent": "informational",
+        "reason": "Synthetic editorial exercise only."
+      },
+      {
+        "query": "example research question 9",
+        "intent": "informational",
+        "reason": "Synthetic editorial exercise only."
+      },
+      {
+        "query": "example research question 10",
+        "intent": "informational",
+        "reason": "Synthetic editorial exercise only."
+      }
+    ],
+    "toolVersion": "modelled-fanout-tool/2.1.0",
+    "methodVersion": "openrouter-structured-fanout/2.1"
+  },
+  "querySelection": {
+    "schemaVersion": "ai-fanout.query-selection/1.0",
+    "exportedAt": "2026-10-10T00:00:00.000Z",
+    "run": {
+      "keyword": "synthetic example",
+      "providerId": "openai",
+      "modelId": "synthetic-model/no-provider-call",
+      "generatedAt": "2026-10-10T00:00:00.000Z",
+      "country": "US",
+      "language": "en",
+      "evidenceStatus": "provider_exposed_native_search"
+    },
+    "selectedQueryCount": 1,
+    "queries": [
+      {
+        "index": 2,
+        "query": "example cost",
+        "intent": null,
+        "reason": null
+      }
+    ],
+    "notice": "User-selected query strings from one ai-fanout.com result. Provider-exposed and modelled results remain distinct; no query-to-source relationship is added by this export."
+  },
+  "localComparison": {
+    "schemaVersion": "ai-fanout.local-comparison/1.0",
+    "createdAt": "2026-10-10T00:00:00.000Z",
+    "runCount": 2,
+    "comparisonType": "provider",
+    "runs": [
+      {
+        "id": "synthetic-openai",
+        "savedAt": 1791590400000,
+        "keyword": "synthetic example",
+        "language": "en",
+        "country": "US",
+        "modelId": "synthetic-model/no-provider-call",
+        "generatedAt": "2026-10-10T00:00:00.000Z",
+        "notice": "Entirely synthetic contract exercise; no provider request, search volume, observed citation or measured cost.",
+        "quota": {
+          "limit": 20,
+          "used": 1,
+          "remaining": 19,
+          "resetAt": "2026-10-11T00:00:00.000Z"
+        },
+        "providerId": "openai",
+        "queries": [
+          "example topic",
+          "example cost"
+        ],
+        "sources": [
+          {
+            "url": "https://example.com/guide",
+            "title": "Fictional source"
+          }
+        ],
+        "searchActions": [
+          {
+            "id": "synthetic-search",
+            "queries": [
+              "example topic",
+              "example cost"
+            ],
+            "sources": [
+              {
+                "url": "https://example.com/guide",
+                "title": "Fictional source"
+              }
+            ],
+            "sourceScope": "search_action"
+          }
+        ],
+        "searchActionCount": 1,
+        "providerResponseStatus": "completed",
+        "evidenceStatus": "provider_exposed_native_search",
+        "sourceEvidenceScope": "search_action_when_exposed",
+        "toolVersion": "native-fanout-tool/1.1.0",
+        "methodVersion": "provider-native-search/1.1",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "searchActionCount": 1,
+          "searchQueryCount": 2,
+          "estimatedCostUsd": 0,
+          "estimateKind": "list_price_estimate",
+          "pricingCheckedAt": "2026-10-10",
+          "pricingBasis": "Synthetic zero placeholders; not provider billing or a current price."
+        },
+        "analysis": {
+          "evidenceState": "observed_summary",
+          "methodVersion": "observed-summary/1.0",
+          "observedQueryCount": 2,
+          "distinctSourceDomainCount": 1,
+          "sourceDomains": [
+            "example.com"
+          ]
+        }
+      },
+      {
+        "id": "synthetic-gemini",
+        "savedAt": 1791590400000,
+        "keyword": "synthetic example",
+        "language": "en",
+        "country": "US",
+        "modelId": "synthetic-model/no-provider-call",
+        "generatedAt": "2026-10-10T00:00:00.000Z",
+        "notice": "Entirely synthetic contract exercise; no provider request, search volume, observed citation or measured cost.",
+        "quota": {
+          "limit": 20,
+          "used": 1,
+          "remaining": 19,
+          "resetAt": "2026-10-11T00:00:00.000Z"
+        },
+        "providerId": "gemini",
+        "queries": [
+          "example topic",
+          "example cost"
+        ],
+        "sources": [],
+        "searchActions": [
+          {
+            "id": "synthetic-search",
+            "queries": [
+              "example topic",
+              "example cost"
+            ],
+            "sources": [],
+            "sourceScope": "not_stored"
+          }
+        ],
+        "searchActionCount": 1,
+        "providerResponseStatus": "completed",
+        "evidenceStatus": "provider_exposed_native_search",
+        "sourceEvidenceScope": "not_stored_google_grounded_results",
+        "toolVersion": "native-fanout-tool/1.1.0",
+        "methodVersion": "provider-native-search/1.1",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "searchActionCount": 1,
+          "searchQueryCount": 2,
+          "estimatedCostUsd": 0,
+          "estimateKind": "list_price_estimate",
+          "pricingCheckedAt": "2026-10-10",
+          "pricingBasis": "Synthetic zero placeholders; not provider billing or a current price."
+        },
+        "storageNotice": "Gemini Grounded Results and Search Suggestions are not stored. Only provider-exposed query strings and run metadata remain on this device.",
+        "analysis": {
+          "evidenceState": "observed_summary",
+          "methodVersion": "observed-summary/1.0",
+          "observedQueryCount": 2,
+          "distinctSourceDomainCount": 0,
+          "sourceDomains": []
+        }
+      }
+    ],
+    "sharedQueries": [
+      "example topic",
+      "example cost"
+    ],
+    "sharedSourceDomains": [],
+    "notice": "Browser-local comparison of saved observations. Matching and categories are deterministic post-run analysis, not provider evidence or an independent benchmark."
+  }
+}
