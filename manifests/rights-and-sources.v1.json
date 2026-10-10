@@ -1,9 +1,64 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-10.3",
+  "manifestVersion": "2026-10-10.4",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-10",
   "sources": [
+    {
+      "id": "owner-offline-parser-kit-2026-10-10",
+      "title": "Original runnable offline parser and edge-case test kit",
+      "titleDe": "Eigenes ausführbares Offline-Parser- und Randfall-Testkit",
+      "kind": "owner_editorial_material",
+      "location": "https://ai-fanout.com/code/fanout-kit-v1.zip",
+      "checkedAt": "2026-10-10",
+      "status": "owner_created_code_and_synthetic_fixtures",
+      "supports": "Original educational parser code and 26 offline checks. Synthetic response fixtures are not provider output; exact strings, status states, source scope and retention exclusions are tested. No paid calls or new actual grounding data. The teaching helper explicitly differs from the live normalized wrapper.",
+      "supportsDe": "Eigener Lehrcode und 26 Offline-Prüfungen. Synthetische Antwortstrukturen sind keine Provider-Ausgaben. Geprüft werden Strings, Status, Quellenumfang und ausgeschlossene Payloads. Kein bezahlter Aufruf oder neues reales Grounding-Material; der Lehr-Parser unterscheidet sich ausdrücklich vom Website-Wrapper."
+    },
+    {
+      "id": "owner-current-export-reference-2026-10-10",
+      "title": "Current website export contracts and reference validation",
+      "titleDe": "Aktuelle Website-Exportverträge und Referenzvalidierung",
+      "kind": "owner_implementation",
+      "location": "https://ai-fanout.com/contracts/fanout-public-contracts.schema.v1.json",
+      "checkedAt": "2026-10-10",
+      "status": "verified_source_and_offline_contract_checks",
+      "supports": "Draft 2020-12 reference for the current native/modelled full runs, query selections and local comparisons. Schema checked against actual service/export functions with synthetic provider stubs and semantic negative tests. No root schemaVersion is invented for full runs. Legacy planner and handoff formats remain separate.",
+      "supportsDe": "Draft-2020-12-Referenz für aktuelle native/modellierte Vollruns, Query-Auswahlen und lokale Vergleiche. Geprüft gegen tatsächliche Service-/Exportfunktionen mit synthetischen Provider-Stubs und negativen Semantiktests. Vollruns erhalten keine erfundene root-schemaVersion; ältere Planner- und Handoff-Formate bleiben getrennt."
+    },
+    {
+      "id": "openai-web-search-contract-2026-10-10",
+      "title": "OpenAI Responses: web-search action fields",
+      "titleDe": "OpenAI Responses: Felder der Web-Suchaktionen",
+      "kind": "primary_documentation",
+      "location": "https://developers.openai.com/api/docs/guides/tools-web-search",
+      "checkedAt": "2026-10-10",
+      "status": "verified",
+      "supports": "Supports exposed action query fields, distinct search/open/find action types and URL annotations. The documentation does not provide private consumer traces or guarantee every run exposes strings.",
+      "supportsDe": "Stützt offengelegte Query-Felder, getrennte search/open/find-Aktionstypen und URL-Annotationen. Die Dokumentation gewährt keinen privaten Endnutzer-Trace und garantiert keine sichtbaren Strings in jedem Lauf."
+    },
+    {
+      "id": "gemini-interactions-contract-2026-10-10",
+      "title": "Gemini Interactions: search calls and step types",
+      "titleDe": "Gemini Interactions: Suchaufrufe und Step-Typen",
+      "kind": "primary_documentation",
+      "location": "https://ai.google.dev/api/interactions-api",
+      "checkedAt": "2026-10-10",
+      "status": "verified",
+      "supports": "Supports Interactions steps, google_search_call arguments and output annotations. This is a different contract from GenerateContent candidates. Synthetic teaching fixtures do not establish publication rights for actual grounded output.",
+      "supportsDe": "Stützt Interactions-steps, Argumente von google_search_call und Output-Annotationen. Der Vertrag unterscheidet sich von GenerateContent-candidates. Synthetische Lehrdaten belegen keine Veröffentlichungsrechte für reale Grounding-Ausgaben."
+    },
+    {
+      "id": "ajv-draft2020-2026-10-10",
+      "title": "Ajv: JSON Schema draft support",
+      "titleDe": "Ajv: unterstützte JSON-Schema-Drafts",
+      "kind": "primary_documentation",
+      "location": "https://ajv.js.org/json-schema.html",
+      "checkedAt": "2026-10-10",
+      "status": "verified",
+      "supports": "Supports use of the Ajv2020 class for Draft 2020-12. Ajv 8.20.0 is pinned in the kit; dependency versions are locked. This source does not authenticate provider provenance or validate the truth of an exported claim.",
+      "supportsDe": "Stützt die Ajv2020-Klasse für Draft 2020-12. Das Kit verwendet Ajv 8.20.0 mit gelockten Abhängigkeiten. Die Quelle authentifiziert keine Provider-Herkunft und bestätigt nicht die Wahrheit exportierter Aussagen."
+    },
     {
       "id": "owner-decision-workflows-2026-10-10",
       "title": "Original prioritization, source-audit, measurement, repetition and reporting artifacts",

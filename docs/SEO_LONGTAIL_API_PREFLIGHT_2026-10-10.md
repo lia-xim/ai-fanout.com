@@ -26,3 +26,9 @@ Create a downloadable, runnable offline parser/test kit, current contract-refere
 Public helpers must state their own version and any deliberate difference from the live wrapper (bounds, normalisation, retention). Execute the downloaded kit independently and verify fixtures against their actual referenced contracts. Improve the existing OpenAI/Gemini interpretation guides with accurate field annotations and link the developer guides only after those pages ship. Secrets remain placeholders and environment-variable names; never publish credentials.
 
 CSV import topic 23 still requires actual Excel and Google Sheets import proof. Handoff topic 24 requires the receiver flow, beyond local encode/decode tests. Tool comparison topic 22 requires documented hands-on capability checks and current official access/cost evidence. These requirements must remain open if the relevant proof is missing.
+
+## Implementation checkpoint: local verification
+
+Topics 05/06/27/28/29/30 are locally implemented, not yet marked shipped. Four developer-guide pairs add runnable original code and an export-reference schema; existing provider interpretation pairs now use field maps and explicit status/scope boundaries. The ten-file ZIP was independently extracted and installed with npm ci, then passed all 26 offline checks and four export-family validations. Repository tests also validate real service/selection/comparison producer outputs with synthetic stubs: 75 total tests passed. Build and 63-route SEO QA passed. Twelve affected guides have no document overflow at 390x844; the fast mobile batch did not establish bottom reach. Code-copy UI reports success; browser clipboard bridge equality is NOT PROVEN. No paid provider call or new real output.
+
+Production publication and the six-topic shipped count remain gated on the exact deployment SHA, staged EN/DE runtime flags, live route/download checks and public browser verification.

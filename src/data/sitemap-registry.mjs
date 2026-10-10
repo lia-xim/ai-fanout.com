@@ -7,7 +7,7 @@
  * change.
  */
 
-export const sitemapRegistryVersion = "2026-10-10.3";
+export const sitemapRegistryVersion = "2026-10-10.4";
 
 const pair = (en, de, lastmod, role) => [
   { path: en, lang: "en", lastmod, role, alternates: { en, de, "x-default": en } },
@@ -21,7 +21,7 @@ const pairedRoutes = [
   ...pair("/methodology", "/de/methode", "2026-10-10", "methodology"),
   ...pair("/library/what-is-ai-query-fanout", "/de/lernen/was-ist-ai-query-fanout", "2026-10-09", "guide"),
   ...pair("/library/how-to-see-openai-search-queries", "/de/lernen/openai-suchanfragen-sehen", "2026-10-10", "guide"),
-  ...pair("/library/gemini-search-queries", "/de/lernen/gemini-suchanfragen", "2026-10-09", "guide"),
+  ...pair("/library/gemini-search-queries", "/de/lernen/gemini-suchanfragen", "2026-10-10", "guide"),
   ...pair("/library/ai-citations", "/de/lernen/ki-zitate-und-quellen", "2026-10-09", "guide"),
   ...pair("/library/ai-query-fanout-for-seo", "/de/lernen/query-fanout-fuer-seo", "2026-10-10", "guide"),
   ...pair("/library/seo-for-ai-search", "/de/lernen/seo-fuer-ki-suche", "2026-10-09", "guide"),
@@ -37,6 +37,10 @@ const pairedRoutes = [
   ...pair("/library/fanout-source-audit", "/de/lernen/fanout-quellen-pruefen", "2026-10-10", "guide"),
   ...pair("/library/fanout-experiment-template", "/de/lernen/fanout-experiment-vorlage", "2026-10-10", "guide"),
   ...pair("/library/query-fanout-report-template", "/de/lernen/query-fanout-report-vorlage", "2026-10-10", "guide"),
+  ...pair("/library/extract-openai-search-queries", "/de/lernen/openai-queries-per-api-auslesen", "2026-10-10", "guide"),
+  ...pair("/library/extract-gemini-search-queries", "/de/lernen/gemini-queries-per-api-auslesen", "2026-10-10", "guide"),
+  ...pair("/library/fanout-result-schema", "/de/lernen/fanout-ergebnis-schema", "2026-10-10", "guide"),
+  ...pair("/library/test-fanout-parsers", "/de/lernen/fanout-parser-testen", "2026-10-10", "guide"),
   ...pair("/examples/best-seo-tools-openai-vs-gemini", "/de/beispiele/beste-seo-tools-openai-vs-gemini", "2026-10-09", "evidence-example"),
   ...pair("/examples/country-changes-fanout-queries", "/de/beispiele/land-veraendert-fanout-queries", "2026-10-09", "evidence-example"),
   ...pair("/examples/why-same-keyword-changes", "/de/beispiele/warum-gleiches-keyword-andere-queries", "2026-10-09", "evidence-example"),

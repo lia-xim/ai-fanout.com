@@ -20,7 +20,9 @@
     "umami:sync-reports": "node scripts/sync-umami-reports.mjs",
     "umami:reset": "node scripts/reset-umami-analytics.mjs",
     "qa:planner": "node scripts/planner-qa.mjs",
-    "verify:planner": "pnpm build && pnpm test:planner && pnpm qa:planner"
+    "verify:planner": "pnpm build && pnpm test:planner && pnpm qa:planner",
+    "kit:build": "node scripts/build-public-fanout-kit.mjs",
+    "test:kit": "node --test public/code/fanout-kit/v1/parser.test.mjs public/code/fanout-kit/v1/contract.test.mjs scripts/public-kit-production-contract.test.mjs"
   },
   "dependencies": {
     "astro": "7.2.1",
@@ -30,6 +32,7 @@
     "@astrojs/check": "0.9.10",
     "@types/node": "^26.2.0",
     "@vercel/node": "^6.0.0",
+    "ajv": "8.20.0",
     "typescript": "5.9.3"
   },
   "packageManager": "pnpm@10.33.2"

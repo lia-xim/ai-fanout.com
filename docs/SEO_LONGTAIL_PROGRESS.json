@@ -10,16 +10,16 @@
   "verifiedShippedTopics": 12,
   "currentMilestone": {
     "topics": [
-      "08",
-      "16",
-      "18",
-      "19",
-      "25",
-      "26"
+      "05",
+      "06",
+      "27",
+      "28",
+      "29",
+      "30"
     ],
-    "status": "shipped_verified",
-    "expectedCanonicalUrls": 55,
-    "deploymentId": "dpl_DYaz2deeA66QcqicxTsYvDtBaaNt"
+    "status": "local_verified_pending_release",
+    "expectedCanonicalUrls": 63,
+    "deploymentId": null
   },
   "topics": [
     {
@@ -146,9 +146,23 @@
         "/library/how-to-see-openai-search-queries",
         "/de/lernen/openai-suchanfragen-sehen"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/developer-query-guides.ts",
+        "public/code/fanout-kit-v1.zip",
+        "public/contracts/fanout-public-contracts.schema.v1.json"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "63 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 changed pages; 390x844 no document overflow. Bottom reach not established by the fast batch.",
+        "independentZip": "10 files, CRC/path checks PASS; fresh npm ci + 26 tests + four-family validation PASS",
+        "copyControl": "UI success confirmed; OS clipboard equality NOT PROVEN",
+        "providerAcquisition": "No paid request or new actual provider output",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -160,9 +174,23 @@
         "/library/gemini-search-queries",
         "/de/lernen/gemini-suchanfragen"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/developer-query-guides.ts",
+        "public/code/fanout-kit-v1.zip",
+        "public/contracts/fanout-public-contracts.schema.v1.json"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "63 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 changed pages; 390x844 no document overflow. Bottom reach not established by the fast batch.",
+        "independentZip": "10 files, CRC/path checks PASS; fresh npm ci + 26 tests + four-family validation PASS",
+        "copyControl": "UI success confirmed; OS clipboard equality NOT PROVEN",
+        "providerAcquisition": "No paid request or new actual provider output",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -182,7 +210,7 @@
     },
     {
       "id": "08",
-      "title": "Fanout fÃ¼r SEO anwenden",
+      "title": "Fanout für SEO anwenden",
       "wave": "A",
       "urls": [
         "/library/ai-query-fanout-for-seo",
@@ -216,7 +244,7 @@
     },
     {
       "id": "09",
-      "title": "SEO fÃ¼r KI-Suche",
+      "title": "SEO für KI-Suche",
       "wave": "A",
       "urls": [
         "/library/seo-for-ai-search",
@@ -431,7 +459,7 @@
     },
     {
       "id": "18",
-      "title": "Content-Ã„nderungen messen",
+      "title": "Content-Änderungen messen",
       "wave": "B",
       "urls": [
         "/library/measure-fanout-content-changes",
@@ -465,7 +493,7 @@
     },
     {
       "id": "19",
-      "title": "Fanout-Quellen systematisch prÃ¼fen",
+      "title": "Fanout-Quellen systematisch prüfen",
       "wave": "B",
       "urls": [
         "/library/fanout-source-audit",
@@ -555,7 +583,7 @@
     },
     {
       "id": "24",
-      "title": "Fanout-Ergebnisse auswerten und Ã¼bergeben",
+      "title": "Fanout-Ergebnisse auswerten und übergeben",
       "wave": "A",
       "urls": [
         "/library/analyze-fanout-results",
@@ -643,9 +671,23 @@
         "/library/extract-openai-search-queries",
         "/de/lernen/openai-queries-per-api-auslesen"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/developer-query-guides.ts",
+        "public/code/fanout-kit-v1.zip",
+        "public/contracts/fanout-public-contracts.schema.v1.json"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "63 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 changed pages; 390x844 no document overflow. Bottom reach not established by the fast batch.",
+        "independentZip": "10 files, CRC/path checks PASS; fresh npm ci + 26 tests + four-family validation PASS",
+        "copyControl": "UI success confirmed; OS clipboard equality NOT PROVEN",
+        "providerAcquisition": "No paid request or new actual provider output",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -657,9 +699,23 @@
         "/library/extract-gemini-search-queries",
         "/de/lernen/gemini-queries-per-api-auslesen"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/developer-query-guides.ts",
+        "public/code/fanout-kit-v1.zip",
+        "public/contracts/fanout-public-contracts.schema.v1.json"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "63 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 changed pages; 390x844 no document overflow. Bottom reach not established by the fast batch.",
+        "independentZip": "10 files, CRC/path checks PASS; fresh npm ci + 26 tests + four-family validation PASS",
+        "copyControl": "UI success confirmed; OS clipboard equality NOT PROVEN",
+        "providerAcquisition": "No paid request or new actual provider output",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -671,9 +727,23 @@
         "/library/fanout-result-schema",
         "/de/lernen/fanout-ergebnis-schema"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/developer-query-guides.ts",
+        "public/code/fanout-kit-v1.zip",
+        "public/contracts/fanout-public-contracts.schema.v1.json"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "63 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 changed pages; 390x844 no document overflow. Bottom reach not established by the fast batch.",
+        "independentZip": "10 files, CRC/path checks PASS; fresh npm ci + 26 tests + four-family validation PASS",
+        "copyControl": "UI success confirmed; OS clipboard equality NOT PROVEN",
+        "providerAcquisition": "No paid request or new actual provider output",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -685,17 +755,31 @@
         "/library/test-fanout-parsers",
         "/de/lernen/fanout-parser-testen"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_pending_release",
+      "artifactRefs": [
+        "src/data/developer-query-guides.ts",
+        "public/code/fanout-kit-v1.zip",
+        "public/contracts/fanout-public-contracts.schema.v1.json"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "regressionTests": "47 existing + 28 kit/producer = 75 PASS",
+        "seoQa": "63 canonical routes PASS",
+        "plannerQa": "PASS",
+        "mobile": "12 changed pages; 390x844 no document overflow. Bottom reach not established by the fast batch.",
+        "independentZip": "10 files, CRC/path checks PASS; fresh npm ci + 26 tests + four-family validation PASS",
+        "copyControl": "UI success confirmed; OS clipboard equality NOT PROVEN",
+        "providerAcquisition": "No paid request or new actual provider output",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
+      },
       "liveVerification": null,
       "releaseCommit": null
     }
   ],
   "nextWork": {
-    "focus": "Current API/parser/schema/testkit packages and remaining existing-guide improvements",
+    "focus": "Publish the verified API/parser/schema/testkit slice, then remaining content/application/import/handoff work",
     "preflight": "SEO_LONGTAIL_API_PREFLIGHT_2026-10-10.md",
     "remainingTopics": 18,
-    "status": "pending"
+    "status": "in_progress"
   }
 }
