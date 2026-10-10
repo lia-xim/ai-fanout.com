@@ -1,4 +1,6 @@
-# Topic 23 editorial preparation — NOT FOR PUBLICATION YET
+# Archived topic 23 preparation — superseded by tested Sheets guide
+
+Human scope amendment on 10 October 2026 removes Excel entirely. Final reviewed content is in `src/data/import-query-guide.ts`; original Excel draft below is historical, unexecuted and excluded from publication.
 
 Target pair: `/library/import-fanout-csv` ↔ `/de/lernen/fanout-csv-importieren`.
 

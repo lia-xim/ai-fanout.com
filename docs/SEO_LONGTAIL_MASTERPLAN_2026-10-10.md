@@ -4,6 +4,8 @@
 
 ## Ziel und Umfang
 
+**Vom Eigentümer geänderter Umfang am 10. Oktober 2026:** „Nein, ich habe noch kein Excel. Lass das einfach mit Excel. Mach einfach weiter.“ Paket 23 wird deshalb mit dem tatsächlich geprüften Google-Sheets-Import umgesetzt. Excel-Anleitung und Excel-Importtest entfallen ausdrücklich. Die 30 Themenpakete / 60 EN-DE Arbeitspakete und das vollständige Release-Ziel bleiben erhalten.
+
 AI Fanout soll die verlässlichste praktische Anlaufstelle für das Erzeugen, Lesen und Weiterverarbeiten von Query-Fanout-Ergebnissen werden. Das wirtschaftliche Ziel sind passende Suchbesucher, die das Tool nutzen und mit einem verwertbaren Ergebnis weiterarbeiten. Ein Ranking für jede Wortvariante ist kein sinnvoller Erfolgsmaßstab; dauerhaft gute Rankings können wir nicht garantieren.
 
 Der Plan enthält **30 eigenständige Themenpakete mit 60 URL-Arbeitspaketen**:
@@ -11,7 +13,7 @@ Der Plan enthält **30 eigenständige Themenpakete mit 60 URL-Arbeitspaketen**:
 - **13 bestehende Themenpaare wesentlich überarbeiten:** 26 vorhandene URLs.
 - **17 neue Themenpaare entwickeln:** 34 vorgeschlagene neue URLs.
 - Englisch und Deutsch sind zwei Ausgaben derselben Leseraufgabe, keine zwei unabhängigen Themen.
-- Die aktuelle Website hat **39 kanonische indexierbare URLs**. Werden alle 17 neuen Paare nach Qualitätsprüfung separat umgesetzt, wächst sie auf **73 URLs**. Das ist eine Planobergrenze, kein Ziel um seiner selbst willen.
+- Die Website hatte zu Planbeginn **39 kanonische indexierbare URLs**. Werden alle 17 neuen Paare nach Qualitätsprüfung separat umgesetzt, wächst sie auf **73 URLs**. Das ist eine Planobergrenze, kein Ziel um seiner selbst willen.
 - 13 weitere bestehende URLs behalten ihre Aufgabe: fünf Beispielpaare und drei Rechts-/Transparenzseiten. Ihre Fakten und Links bleiben Teil der Qualitätskontrolle, werden aber nicht als zusätzliche Neuproduktion gezählt.
 
 Der vollständige operative Backlog liegt in [SEO_LONGTAIL_PAGE_BACKLOG_2026-10-10.csv](SEO_LONGTAIL_PAGE_BACKLOG_2026-10-10.csv). Er enthält eine Zeile je URL, Ziel-Keyword, Leseraufgabe, Originalleistung, Evidenz, Abhängigkeit, Überschneidungsgrenze und Messziel.
@@ -377,15 +379,15 @@ Die folgenden Keywords sind **Zielphrasen**. Sie sind keine behauptete vollstän
 - **Leserweg:** Home/Methode/Vergleich → Tool-Auswahl → passende Anleitung.
 - **Messung:** Auswahl-Longtails und qualifizierte Tool-Starts; Headterms später, keine erfundenen Best-Winner.
 
-### 23. Fanout-CSV in Excel oder Sheets importieren
+### 23. Fanout-CSV in Google Sheets importieren
 
 - **Aktion / Priorität / Welle:** Neu vorgeschlagen; P1; A. Cluster: Vorlagen und Transfer.
 - **URLs:** EN `/library/import-fanout-csv` ↔ DE `/de/lernen/fanout-csv-importieren`.
-- **Primäre Zielphrasen:** EN „import query fanout CSV“; DE „Fanout CSV importieren“. Ergänzend: fanout CSV Excel; fanout CSV Google Sheets.
+- **Primäre Zielphrasen:** EN „import query fanout CSV“; DE „Fanout CSV importieren“. Ergänzend: fanout CSV Google Sheets; preserve query strings in CSV.
 - **Leseraufgabe:** Einen Export ohne beschädigte Zeichen, falsche Spaltentypen oder verlorene Metadaten weiterverwenden.
-- **Eigenleistung:** Getestete Importanleitung für beide Programme auf einer URL; eigene Testdatei mit Unicode, Kommas, Zeilenumbrüchen und Text-/Zeitfeldern.
+- **Eigenleistung:** Getestete Google-Sheets-Importanleitung auf einer URL; eigene Testdatei mit Unicode, Kommas, Zeilenumbrüchen und Text-/Zeitfeldern.
 - **Evidenz:** V1/H3: vorhandener Export, konkrete Folgeaufgabe; Longtail-Nachfrage ungemessen.
-- **Abhängigkeit vor Veröffentlichung:** Aktuellen Export gegen beide Importwege testen; Trennzeichen/Encoding und Behandlung formelähnlicher Texte dokumentieren.
+- **Abhängigkeit vor Veröffentlichung:** Aktuellen Export gegen den Google-Sheets-Import testen; Trennzeichen/Encoding und Behandlung formelähnlicher Texte dokumentieren.
 - **Abgrenzung:** Empfang/Weiterverwendung; Dateierzeugung in Paket 13. Keine getrennten dünnen Excel-/Sheets-Landingpages.
 - **Leserweg:** Export → Tabellenimport → Cluster/GSC-Abgleich.
 - **Messung:** Import-Longtails, genutzte Testdatei und korrekt nachvollziehbare Importergebnisse.
@@ -509,7 +511,7 @@ Zeiträume sind Planungsfenster ab Umsetzung, keine zugesagte Lieferzeit für un
 | Potenzielle Überschneidung | Eigenständiger Nutzen der neuen Seite | Entscheidung, falls dieser fehlt |
 | --- | --- | --- |
 | SEO-Workflow ↔ Clustering / Priorisierung / Brief | Editierbare, durchführbare Teilaufgabe mit eigenem Ergebnis. | Als Abschnitt im Workflow oder Brief ergänzen; keine separate URL für eine bloße Umformulierung. |
-| Export ↔ Tabellenimport ↔ Schema | Erzeugen / in Tabellen korrekt empfangen / maschinenlesbar validieren. | Import nur veröffentlichen, wenn beide Programme tatsächlich geprüft sind; Schema nur mit echten Verträgen. |
+| Export ↔ Tabellenimport ↔ Schema | Erzeugen / in Tabellen korrekt empfangen / maschinenlesbar validieren. | Import nur mit tatsächlichem Sheets-Test veröffentlichen; Excel vom Eigentümer am 10. Oktober gestrichen; Schema nur mit echten Verträgen. |
 | Provider-Guide ↔ API-Parser | Ergebnis lesen gegenüber ausführbarem Entwickler-Code. | Codeabschnitt im Provider-Guide, solange eigenständiges Tutorial nicht funktioniert. |
 | Citation-Guide ↔ Quellen-Audit | Bedeutung verstehen gegenüber einem vollständigen Prüf-Arbeitsblatt. | Quellen-Audit als bestehendes Kapitel, falls nur die gleiche Erklärung wiederholt wird. |
 | Schwankungen / Methode ↔ Experiment-Vorlage | Ursachen einordnen gegenüber vorab dokumentiertem Versuch samt Protokoll. | Vorlage in Methode integrieren, falls keine eigenständige Anleitung entsteht. |

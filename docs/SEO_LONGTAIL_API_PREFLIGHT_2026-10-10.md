@@ -50,3 +50,7 @@ Topics 22/24 are live verified at `2026-10-10T12:53:51.287Z`, product commit `6c
 Topic 23 is partially verified: actual Google Sheets UI CSV import with comma and type conversion disabled preserves all 110 cells as text. Default native conversion demonstrably damaged leading-zero/date/formula-like strings. Actual Excel import remains NOT PROVEN; an access/setup question is pending. See `SEO_LONGTAIL_IMPORT_PREFLIGHT_2026-10-10.md`. No library-authored workbook or CSV-reader check substitutes for actual Excel acceptance.
 
 Goal remains active: **29/30 topics, 58/60 URL work items**. No new provider call, Gemini grounded corpus, subscription, indexing or ranking gain is claimed.
+
+## Final import scope amendment
+
+The human explicitly removed Excel on 10 October 2026: “Nein, ich habe noch kein Excel. Lass das einfach mit Excel. Mach einfach weiter.” The earlier setup question is resolved; no further Excel access or test is required. Topic 23 retains its EN/DE URLs and now covers the actually tested Google Sheets import, exact synthetic CSV, expected native text cells and localized acceptance record. Neither Excel instructions nor Excel success is claimed. The same thirty-topic / sixty-work-item objective remains active until this final release is live verified.

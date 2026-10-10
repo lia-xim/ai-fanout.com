@@ -10,6 +10,7 @@ import { developerQueryGuides, providerReadingSections } from "./developer-query
 import { interpretationSections, interpretationSourceIds } from "./interpretation-revisions";
 import { applicationQueryGuides } from "./application-query-guides";
 import { transferQueryGuides } from "./transfer-query-guides";
+import { importQueryGuide } from "./import-query-guide";
 
 type ToolCta={title:string;copy:string;button:string};
 type MergePlan={keep:string;merge:readonly string[];image:string;altEn:string;altDe:string;ctaEn:ToolCta;ctaDe:ToolCta};
@@ -76,8 +77,8 @@ function consolidate(source:readonly LibraryArticle[],german=false):LibraryArtic
     return owner?(german?deSlug[owner.keep]:owner.keep):slug;
   }))].filter(slug=>slug!==article.slug&&all.some(item=>item.slug===slug)).slice(0,3)}));
 }
-export const englishArticles=[...consolidate(englishSource),...practicalQueryGuides(false),...workflowQueryGuides(false),...decisionQueryGuides(false),...developerQueryGuides(false),...applicationQueryGuides(false),...transferQueryGuides(false)];
-export const germanArticles=[...consolidate(germanSource,true),...practicalQueryGuides(true),...workflowQueryGuides(true),...decisionQueryGuides(true),...developerQueryGuides(true),...applicationQueryGuides(true),...transferQueryGuides(true)];
+export const englishArticles=[...consolidate(englishSource),...practicalQueryGuides(false),...workflowQueryGuides(false),...decisionQueryGuides(false),...developerQueryGuides(false),...applicationQueryGuides(false),...transferQueryGuides(false),importQueryGuide(false)];
+export const germanArticles=[...consolidate(germanSource,true),...practicalQueryGuides(true),...workflowQueryGuides(true),...decisionQueryGuides(true),...developerQueryGuides(true),...applicationQueryGuides(true),...transferQueryGuides(true),importQueryGuide(true)];
 
 export const groupsFor = (articles: readonly LibraryArticle[]) =>
   (["Concept", "Measurement", "Method", "Data standard", "Field guide"] as readonly LibraryCategory[])

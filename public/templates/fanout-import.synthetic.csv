@@ -1,0 +1,11 @@
+"keyword","provider","model","observed_at","country","language","evidence_status","query_index","query","intent","reason"
+"synthetic CSV import exercise","openai","synthetic-model/no-provider-call","2026-10-10T12:10:00.000Z","DE","de","provider_exposed_native_search","1","Café, München","",""
+"synthetic CSV import exercise","openai","synthetic-model/no-provider-call","2026-10-10T12:10:00.000Z","DE","de","provider_exposed_native_search","2","quoted ""example""","",""
+"synthetic CSV import exercise","openai","synthetic-model/no-provider-call","2026-10-10T12:10:00.000Z","DE","de","provider_exposed_native_search","3","first line
+second line","",""
+"synthetic CSV import exercise","openai","synthetic-model/no-provider-call","2026-10-10T12:10:00.000Z","DE","de","provider_exposed_native_search","4","00123","",""
+"synthetic CSV import exercise","openai","synthetic-model/no-provider-call","2026-10-10T12:10:00.000Z","DE","de","provider_exposed_native_search","5","2026-10-10","",""
+"synthetic CSV import exercise","openai","synthetic-model/no-provider-call","2026-10-10T12:10:00.000Z","DE","de","provider_exposed_native_search","6","=1+1","",""
+"synthetic CSV import exercise","openai","synthetic-model/no-provider-call","2026-10-10T12:10:00.000Z","DE","de","provider_exposed_native_search","7","+1+1","",""
+"synthetic CSV import exercise","openai","synthetic-model/no-provider-call","2026-10-10T12:10:00.000Z","DE","de","provider_exposed_native_search","8","-1+1","",""
+"synthetic CSV import exercise","openai","synthetic-model/no-provider-call","2026-10-10T12:10:00.000Z","DE","de","provider_exposed_native_search","9","@SUM(1,1)","",""

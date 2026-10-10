@@ -7,7 +7,7 @@
  * change.
  */
 
-export const sitemapRegistryVersion = "2026-10-10.6";
+export const sitemapRegistryVersion = "2026-10-10.7";
 
 const pair = (en, de, lastmod, role) => [
   { path: en, lang: "en", lastmod, role, alternates: { en, de, "x-default": en } },
@@ -45,6 +45,7 @@ const pairedRoutes = [
   ...pair("/library/fanout-for-ecommerce-categories", "/de/lernen/fanout-fuer-shop-kategorien", "2026-10-10", "guide"),
   ...pair("/library/query-fanout-tools-comparison", "/de/lernen/query-fanout-tools-vergleichen", "2026-10-10", "guide"),
   ...pair("/library/analyze-fanout-results", "/de/lernen/fanout-ergebnisse-analysieren", "2026-10-10", "guide"),
+  ...pair("/library/import-fanout-csv", "/de/lernen/fanout-csv-importieren", "2026-10-10", "guide"),
   ...pair("/examples/best-seo-tools-openai-vs-gemini", "/de/beispiele/beste-seo-tools-openai-vs-gemini", "2026-10-09", "evidence-example"),
   ...pair("/examples/country-changes-fanout-queries", "/de/beispiele/land-veraendert-fanout-queries", "2026-10-09", "evidence-example"),
   ...pair("/examples/why-same-keyword-changes", "/de/beispiele/warum-gleiches-keyword-andere-queries", "2026-10-09", "evidence-example"),

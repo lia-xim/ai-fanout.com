@@ -10,12 +10,10 @@
   "verifiedShippedTopics": 29,
   "currentMilestone": {
     "topics": [
-      "22",
-      "24"
+      "23"
     ],
-    "status": "shipped_verified",
-    "expectedCanonicalUrls": 71,
-    "deploymentId": "dpl_6iHzCpJwFHPTrdrNJHS7u7dEmY4q"
+    "status": "in_progress",
+    "expectedCanonicalUrls": 73
   },
   "topics": [
     {
@@ -817,7 +815,7 @@
     },
     {
       "id": "23",
-      "title": "Fanout-CSV in Excel oder Sheets importieren",
+      "title": "Fanout-CSV in Google Sheets importieren",
       "wave": "A",
       "urls": [
         "/library/import-fanout-csv",
@@ -825,14 +823,19 @@
       ],
       "status": "in_progress",
       "artifactRefs": [
-        "docs/SEO_LONGTAIL_IMPORT_PREFLIGHT_2026-10-10.md",
-        "docs/SEO_LONGTAIL_IMPORT_DRAFT_2026-10-10.md"
+        "src/data/import-query-guide.ts",
+        "scripts/build-import-artifacts.mjs",
+        "public/templates/fanout-import.synthetic.csv",
+        "public/templates/fanout-import-expectations.synthetic.json",
+        "public/templates/fanout-import-checks-en.md",
+        "public/templates/fanout-import-checks-de.md",
+        "docs/SEO_LONGTAIL_IMPORT_PREFLIGHT_2026-10-10.md"
       ],
       "localVerification": {
         "googleSheets": "PASS actual UI CSV import: comma, conversion disabled; all 110 cells equal original strings; no repairs",
         "defaultConversion": "FAIL preserved: leading zero/date/formula conversion",
-        "excel": "NOT PROVEN; connected workbook/access setup question pending",
-        "publication": "NOT LIVE; both applications required"
+        "excel": "Removed from scope by explicit human instruction on 2026-10-10; no Excel claim",
+        "publication": "Prepared EN/DE Google Sheets guide; final release pending"
       },
       "liveVerification": null,
       "releaseCommit": null
@@ -1098,8 +1101,17 @@
     }
   ],
   "nextWork": [
-    "Finish topic 23 with actual Excel CSV import of the same synthetic nine-record/eleven-column producer file; native value/type readback required. Google Sheets File > Import with comma/conversion off passed all 110 cells.",
-    "Publish the one combined EN/DE import-guide pair only after both application imports pass; no separate thin Excel/Sheets pages.",
-    "After the final verified release, close the full 30-topic goal. Ranking/indexing gains require fresh GSC evidence and are not claimed."
+    "Verify, release and live-audit topic 23 Google Sheets import pair with exact tested CSV and original expectations/acceptance artifacts.",
+    "Run full completion audit of 30 topics/60 work items, including explicit Excel scope amendment, then close goal only after release proof.",
+    "Indexing and ranking gains require later GSC evidence and are not claimed by this implementation goal."
+  ],
+  "scopeAmendments": [
+    {
+      "date": "2026-10-10",
+      "topic": "23",
+      "source": "direct human message in this thread",
+      "quote": "Nein, ich habe noch kein Excel. Lass das einfach mit Excel. Mach einfach weiter.",
+      "decision": "Remove Excel instructions/import gate; ship same combined topic pair with actual tested Google Sheets import. All 30 topic / 60 EN-DE work items retained."
+    }
   ]
 }

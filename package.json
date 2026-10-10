@@ -24,7 +24,8 @@
     "kit:build": "node scripts/build-public-fanout-kit.mjs",
     "test:kit": "node --test public/code/fanout-kit/v1/parser.test.mjs public/code/fanout-kit/v1/contract.test.mjs scripts/public-kit-production-contract.test.mjs",
     "interpretation:build": "node scripts/build-interpretation-artifacts.mjs",
-    "transfer:build": "node scripts/build-transfer-artifacts.mjs"
+    "transfer:build": "node scripts/build-transfer-artifacts.mjs",
+    "import:build": "node scripts/build-import-artifacts.mjs"
   },
   "dependencies": {
     "astro": "7.2.1",

@@ -1,9 +1,20 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-10.6",
+  "manifestVersion": "2026-10-10.7",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-10",
   "sources": [
+    {
+      "id": "owner-sheets-import-check-2026-10-10",
+      "title": "Owner-run Google Sheets CSV import and native cell acceptance",
+      "titleDe": "Betreiber-Prüfung des Sheets-CSV-Imports und nativer Zellwerte",
+      "kind": "owner_workflow_verification",
+      "location": "https://ai-fanout.com/templates/fanout-import-checks-en.md",
+      "checkedAt": "2026-10-10",
+      "status": "bounded_owner_workflow_check",
+      "supports": "Actual selectedQueriesCsv producer with synthetic teaching strings; Sheets web File/Import/Upload, comma, conversion disabled, locale de_DE. Independent comparison confirms 110 cells and native string types. Failed automatic conversion retained. No provider call or other-application proof.",
+      "supportsDe": "Tatsächlicher selectedQueriesCsv-Produzent mit synthetischen Lehrstrings; Sheets-Webimport mit Komma, deaktivierter Konvertierung und Locale de_DE. Unabhängiger Vergleich bestätigt 110 Zellen und native Texttypen. Fehlgeschlagene automatische Konvertierung erhalten. Kein Provider-Aufruf oder Nachweis für andere Programme."
+    },
     {
       "id": "owner-tool-transfer-checks-2026-10-10",
       "title": "Owner-run selection and local receiver checks",
