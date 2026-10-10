@@ -11,7 +11,7 @@ function cleanQueries(values) {
 }
 function cleanSources(values) {
   const seen = new Set();
-  return values.flat().filter(Boolean).map((value) => ({ url: String(value.url ?? ""), title: String(value.title ?? "").slice(0, 160) })).filter((value) => { try { const url = new URL(value.url); return ["http:", "https:"].includes(url.protocol) && !seen.has(value.url) && seen.add(value.url); } catch { return false; } }).slice(0, 20);
+  return values.flat().filter(Boolean).map((value) => ({ url: String(value.url ?? ""), title: String(value.title ?? "").slice(0, 160) })).filter((value) => { try { const url = new URL(value.url); return ["http:", "https:"].includes(url.protocol) && !url.username && !url.password && !seen.has(value.url) && seen.add(value.url); } catch { return false; } }).slice(0, 20);
 }
 function cleanSearchActions(values) {
   return values.map((value, index) => {
@@ -103,49 +103,67 @@ export class GeminiNativeProvider {
   }
 }
 
-export class OpenRouterAnthropicNativeProvider {
-  constructor({ apiKey, fetchImpl = fetch }) { this.apiKey = apiKey; this.fetchImpl = fetchImpl; }
+export class OpenRouterNativeProvider {
+  constructor({ apiKey, provider = "anthropic", fetchImpl = fetch }) {
+    if (!Object.hasOwn(NATIVE_MODEL_IDS, provider)) throw new ToolError("PROVIDER_NOT_CONFIGURED", 503);
+    this.apiKey = apiKey; this.provider = provider; this.fetchImpl = fetchImpl;
+    this.model = provider === "anthropic" ? NATIVE_MODEL_IDS.anthropic : (provider === "openai" ? "openai/" : "google/") + NATIVE_MODEL_IDS[provider];
+  }
   async observe(input) {
     const started = Date.now();
+    const routes = { openai: ["OpenAI"], gemini: ["Google AI Studio", "Google"], anthropic: ["Anthropic"] };
     try {
-      const response = await this.fetchImpl("https://openrouter.ai/api/v1/messages", {
+      const chat = this.provider === "gemini";
+      const response = await this.fetchImpl(`https://openrouter.ai/api/v1/${chat ? "chat/completions" : "responses"}`, {
         method: "POST",
-        headers: { Authorization: `Bearer ${this.apiKey}`, "Content-Type": "application/json", "HTTP-Referer": "https://ai-fanout.com", "X-Title": "AI Query Fanout" },
+        headers: { Authorization: "Bearer " + this.apiKey, "Content-Type": "application/json", "HTTP-Referer": "https://ai-fanout.com", "X-Title": "AI Query Fanout", "X-OpenRouter-Metadata": "enabled" },
         signal: timeoutSignal(),
-        body: JSON.stringify({
-          model: NATIVE_MODEL_IDS.anthropic,
-          max_tokens: NATIVE_MAX_OUTPUT_TOKENS,
-          thinking: { type: "disabled" },
-          messages: [{ role: "user", content: protocolInput(input) }],
-          tools: [{ type: "web_search_20250305", name: "web_search", max_uses: MAX_NATIVE_SEARCHES }],
-          tool_choice: { type: "tool", name: "web_search" },
-          provider: { only: ["Anthropic"], allow_fallbacks: false },
+        body: JSON.stringify({ model: this.model, ...(chat ? { messages: [{ role: "user", content: protocolInput(input) }], max_tokens: NATIVE_MAX_OUTPUT_TOKENS } : { input: protocolInput(input), max_output_tokens: NATIVE_MAX_OUTPUT_TOKENS }), max_tool_calls: MAX_NATIVE_SEARCHES, tool_choice: chat ? "auto" : "required",
+          tools: [{ type: "openrouter:web_search", parameters: { engine: "native", max_uses: MAX_NATIVE_SEARCHES, search_context_size: "low", max_total_results: 20 } }],
+          reasoning: chat ? { effort: "low", exclude: true } : { enabled: false },
+          provider: { only: this.provider === "gemini" ? ["google-ai-studio", "google-vertex/global"] : routes[this.provider], allow_fallbacks: false },
         }),
       });
       if (!response.ok) throw new ToolError("PROVIDER_UNAVAILABLE", 502);
       const data = await response.json();
-      if (!Array.isArray(data.content)) throw new ToolError("PROVIDER_INVALID_OUTPUT", 502);
-      if (["pause_turn", "tool_use"].includes(data.stop_reason)) throw new ToolError("PROVIDER_INCOMPLETE", 502);
-      const calls = data.content.filter(block => block?.type === "server_tool_use" && block.name === "web_search");
-      const results = data.content.filter(block => block?.type === "web_search_tool_result");
-      if (results.some(block => block.content?.type === "web_search_tool_result_error")) throw new ToolError("PROVIDER_UNAVAILABLE", 502);
-      // Link sources only through the exact provider-issued tool-use ID.
-      const actions = calls.map(call => {
-        const matching = results.filter(block => typeof call.id === "string" && block.tool_use_id === call.id && Array.isArray(block.content));
-        return { id: call.id, queries: matching.length ? [call.input?.query] : [], sources: matching.flatMap(block => block.content.filter(item => item?.type === "web_search_result")) };
-      });
-      if (calls.length && actions.some(action => !action.queries.length)) throw new ToolError("PROVIDER_INCOMPLETE", 502);
-      const searchActions = cleanSearchActions(actions);
-      if (data.stop_reason === "max_tokens" && !searchActions.length) throw new ToolError("PROVIDER_INCOMPLETE", 502);
-      const queries = cleanQueries(searchActions.map(action => action.queries));
-      const sources = cleanSources([
-        results.flatMap(block => Array.isArray(block.content) ? block.content.filter(item => item?.type === "web_search_result") : []),
-        data.content.flatMap(block => (block.citations ?? []).filter(citation => citation?.type === "web_search_result_location")),
-      ]);
-      const inputTokens = Number(data.usage?.input_tokens ?? 0), outputTokens = Number(data.usage?.output_tokens ?? 0);
-      const searchActionCount = calls.length;
-      const chargedSearchCount = Number(data.usage?.server_tool_use?.web_search_requests ?? searchActionCount);
-      return { queries, sources, searchActions, searchActionCount, providerResponseStatus: data.stop_reason === "max_tokens" ? "incomplete" : "completed", model: data.model ?? NATIVE_MODEL_IDS.anthropic, provider: "anthropic", inputTokens, outputTokens, usage: estimateNativeUsage({ provider: "anthropic", inputTokens, outputTokens, searchActionCount: chargedSearchCount, searchQueryCount: queries.length }), latencyMs: Date.now() - started };
+      // The native engine can fall back for unsupported models. Require routing
+      // evidence before describing the response as provider-native web search.
+      if (data.error || ["failed", "cancelled"].includes(data.status)) throw new ToolError("PROVIDER_UNAVAILABLE", 502);
+      const metadata = data.openrouter_metadata;
+      const native = metadata?.pipeline?.some(step => step.type === "server_tools" && step.data?.mode === "native" && step.data?.tools?.includes("openrouter:web_search"));
+      const selected = metadata?.endpoints?.available?.filter(endpoint => endpoint.selected);
+      if (!native || !selected?.length || selected.some(endpoint => !routes[this.provider].includes(endpoint.provider)) || data.model !== this.model) throw new ToolError("PROVIDER_INVALID_OUTPUT", 502);
+      if (chat ? !Array.isArray(data.choices) : !Array.isArray(data.output)) throw new ToolError("PROVIDER_INVALID_OUTPUT", 502);
+      const choice = chat ? data.choices[0] : undefined;
+      const searchRequests = Number(data.usage?.server_tool_use_details?.web_search_requests ?? 0);
+      if (chat && (!choice?.message || choice.message.refusal || !["stop", "length"].includes(choice.finish_reason) || !Number.isSafeInteger(searchRequests) || searchRequests < 0)) throw new ToolError("PROVIDER_INCOMPLETE", 502);
+      const calls = chat ? [] : data.output.filter(item => ["web_search_call", "openrouter:web_search"].includes(item?.type));
+      if (calls.some(item => item.status && item.status !== "completed")) throw new ToolError("PROVIDER_INCOMPLETE", 502);
+      if (!chat && data.status !== "completed" && (data.status !== "incomplete" || !calls.length)) throw new ToolError("PROVIDER_INCOMPLETE", 502);
+      const searchActions = cleanSearchActions(calls.map(item => ({ id: item.id, ...item.action, ...(this.provider === "gemini" ? { sources: [] } : {}) })));
+      const queries = cleanQueries(searchActions.map(item => item.queries));
+      const sourceValues = calls.map(item => item.action?.sources ?? []);
+      if (chat) for (const annotation of choice.message.annotations ?? []) { if (annotation?.type === "url_citation") sourceValues.push(annotation.url_citation); }
+      else for (const item of data.output) for (const block of item?.content ?? []) for (const annotation of block?.annotations ?? []) if (annotation?.type === "url_citation") sourceValues.push(annotation);
+      const sources = cleanSources(sourceValues);
+      // A truncated final answer can still carry native-search usage and
+      // citations. An empty truncated envelope cannot establish a useful run.
+      if (chat && choice.finish_reason === "length" && (!searchRequests || !sources.length)) throw new ToolError("PROVIDER_INCOMPLETE", 502);
+      const inputTokens = Number(data.usage?.input_tokens ?? data.usage?.prompt_tokens ?? 0), outputTokens = Number(data.usage?.output_tokens ?? data.usage?.completion_tokens ?? 0);
+      const chargedSearchCount = chat ? searchRequests : Number(data.usage?.server_tool_use?.web_search_requests ?? calls.length);
+      const usage = estimateNativeUsage({ provider: this.provider, inputTokens, outputTokens, searchActionCount: chargedSearchCount, searchQueryCount: queries.length });
+      const cost = Number(data.usage?.cost ?? data.usage?.total_cost ?? NaN);
+      if (Number.isFinite(cost) && cost >= 0) {
+        usage.estimatedCostUsd = cost; delete usage.estimatedCostUsdMaximum;
+        usage.estimateKind = "provider_reported_cost";
+        usage.pricingCheckedAt = new Date().toISOString().slice(0, 10);
+        usage.pricingBasis = "OpenRouter-reported request cost in USD, including native search. Provider billing remains authoritative.";
+      } else if (this.provider === "gemini") {
+        usage.estimatedCostUsd = Number((usage.estimatedCostUsd + chargedSearchCount * 0.014).toFixed(6)); delete usage.estimatedCostUsdMaximum;
+        usage.estimateKind = "list_price_estimate";
+        usage.pricingBasis = "Gemini 3.8 Flash via OpenRouter: dated model-list token prices plus $0.014/search query. No direct-account free allowance is assumed; routed tier prices can differ. Provider billing remains authoritative.";
+      }
+      return { queries, sources, searchActions, searchActionCount: chat ? searchRequests : calls.length, providerResponseStatus: chat ? choice.finish_reason === "length" ? "incomplete" : "completed" : data.status, ...(chat ? { notice: "Google's routed response reports the number of search requests and run-level citations. It exposes no query strings or query-to-source links; the search counter is the reported request count." } : {}), model: this.model, provider: this.provider, inputTokens, outputTokens, usage, latencyMs: Date.now() - started };
     } catch (error) { providerFailure(error); }
   }
 }

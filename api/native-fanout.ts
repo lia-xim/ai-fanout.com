@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { ToolError } from "../src/server/fanout/contracts.mjs";
 import { NATIVE_MODEL_IDS, NATIVE_RESERVE_MICRO_EUR, NATIVE_TOOL_VERSION } from "../src/server/fanout/native-contracts.mjs";
-import { GeminiNativeProvider, OpenAINativeProvider, OpenRouterAnthropicNativeProvider } from "../src/server/fanout/native-provider.mjs";
+import { GeminiNativeProvider, OpenAINativeProvider, OpenRouterNativeProvider } from "../src/server/fanout/native-provider.mjs";
 import { createNativeFanoutService } from "../src/server/fanout/native-service.mjs";
 import { RedisQuotaLedger } from "../src/server/fanout/quota.mjs";
 import { allowedRequestOrigins, expectedTurnstileHostnames } from "../src/server/fanout/request-origin.mjs";
@@ -23,9 +23,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const origin = String(req.headers.origin ?? "");
     if (!allowedOrigins.has(origin)) throw new ToolError("ORIGIN_NOT_ALLOWED", 403);
     const providers: Record<string, unknown> = {};
-    if (process.env.OPENAI_API_KEY) providers.openai = new OpenAINativeProvider({ apiKey: process.env.OPENAI_API_KEY, model: process.env.OPENAI_NATIVE_MODEL || NATIVE_MODEL_IDS.openai });
-    if (process.env.GEMINI_API_KEY) providers.gemini = new GeminiNativeProvider({ apiKey: process.env.GEMINI_API_KEY, model: process.env.GEMINI_NATIVE_MODEL || NATIVE_MODEL_IDS.gemini });
-    if (process.env.OPENROUTER_API_KEY) providers.anthropic = new OpenRouterAnthropicNativeProvider({ apiKey: process.env.OPENROUTER_API_KEY });
+    if (process.env.OPENROUTER_API_KEY) {
+      for (const provider of ["openai", "gemini", "anthropic"]) providers[provider] = new OpenRouterNativeProvider({ apiKey: process.env.OPENROUTER_API_KEY, provider });
+    } else {
+      if (process.env.OPENAI_API_KEY) providers.openai = new OpenAINativeProvider({ apiKey: process.env.OPENAI_API_KEY, model: process.env.OPENAI_NATIVE_MODEL || NATIVE_MODEL_IDS.openai });
+      if (process.env.GEMINI_API_KEY) providers.gemini = new GeminiNativeProvider({ apiKey: process.env.GEMINI_API_KEY, model: process.env.GEMINI_NATIVE_MODEL || NATIVE_MODEL_IDS.gemini });
+    }
     const requestedProvider = String(req.body?.provider ?? "");
     if (!providers[requestedProvider]) throw new ToolError("PROVIDER_NOT_CONFIGURED", 503);
     metricProvider = requestedProvider;

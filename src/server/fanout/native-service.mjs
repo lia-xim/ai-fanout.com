@@ -15,9 +15,11 @@ export function createNativeFanoutService({ ledger, providers, captchaVerifier, 
     try {
       const observed = await provider.observe(input);
       await ledger.settle({ bucketHash, reservationId, actualCostMicroEur: NATIVE_RESERVE_MICRO_EUR, status: "completed", inputTokens: observed.inputTokens, outputTokens: observed.outputTokens, latencyMs: observed.latencyMs });
-      return { keyword: input.keyword, language: input.language, country: input.country || null, queries: observed.queries, sources: observed.sources, searchActions: observed.searchActions ?? [], searchActionCount: observed.searchActionCount, providerResponseStatus: observed.providerResponseStatus ?? "completed", usage: observed.usage, modelId: observed.model, providerId: observed.provider, toolVersion: NATIVE_TOOL_VERSION, methodVersion: NATIVE_METHOD_VERSION, generatedAt: now().toISOString(), evidenceStatus: "provider_exposed_native_search", sourceEvidenceScope: observed.provider === "gemini" ? "run_level_only" : "search_action_when_exposed", notice: "Queries exposed by this provider API run under the published protocol. They are not a capture of a consumer ChatGPT, Gemini or Claude interface.", quota: reservation.quota };
+      return { keyword: input.keyword, language: input.language, country: input.country || null, queries: observed.queries, sources: observed.sources, searchActions: observed.searchActions ?? [], searchActionCount: observed.searchActionCount, providerResponseStatus: observed.providerResponseStatus ?? "completed", usage: observed.usage, modelId: observed.model, providerId: observed.provider, toolVersion: NATIVE_TOOL_VERSION, methodVersion: NATIVE_METHOD_VERSION, generatedAt: now().toISOString(), evidenceStatus: "provider_exposed_native_search", sourceEvidenceScope: observed.provider === "gemini" ? "run_level_only" : "search_action_when_exposed", notice: `Queries exposed by this provider API run under the published protocol. They are not a capture of a consumer ChatGPT, Gemini or Claude interface.${observed.notice ? ` ${observed.notice}` : ""}`, quota: reservation.quota };
     } catch (error) {
-      await ledger.settle({ bucketHash, reservationId, actualCostMicroEur: 0, status: error?.code === "PROVIDER_TIMEOUT" ? "timeout" : "failed" });
+      // A failed/aborted response can still have incurred native-search fees.
+      // Keep the conservative reserve so repeated failures cannot evade the cap.
+      await ledger.settle({ bucketHash, reservationId, actualCostMicroEur: NATIVE_RESERVE_MICRO_EUR, status: error?.code === "PROVIDER_TIMEOUT" ? "timeout" : "failed" });
       throw error;
     }
   };

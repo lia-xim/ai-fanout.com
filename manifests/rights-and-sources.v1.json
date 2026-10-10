@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-10.8",
+  "manifestVersion": "2026-10-10.9",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-10",
   "sources": [
@@ -730,22 +730,13 @@
       "supports": "USD 0.10/M input and 0.50/M output up to 100k prompt tokens, 0.50/M and 2.50/M above that threshold. This is a list-price reference, not a benchmark."
     },
     {
-      "id": "openrouter-anthropic-messages-2026-10-10",
-      "title": "OpenRouter Anthropic Messages API",
-      "kind": "primary_provider_documentation",
-      "location": "https://openrouter.ai/docs/api/api-reference/anthropic-messages/create-a-message",
-      "checkedAt": "2026-10-10",
-      "status": "verified_live",
-      "supports": "OpenRouter-key authentication for the Messages endpoint, Anthropic model routing, thinking controls and Anthropic response blocks."
-    },
-    {
       "id": "anthropic-native-search-2026-10-10",
       "title": "Anthropic native web search contract",
       "kind": "primary_provider_documentation",
       "location": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool",
       "checkedAt": "2026-10-10",
       "status": "verified_live",
-      "supports": "web_search_20250305 max_uses; server_tool_use input.query; exact tool_use_id links to web_search_tool_result. HTTP 200 tool errors, pause_turn and incomplete searches are handled without retries; encrypted content and final-answer text are excluded."
+      "supports": "Anthropic native-search contract and vendor-specific tool/result boundaries. Current routed runs parse OpenRouter Responses action fields; Messages query inputs are not assumed to survive routing."
     },
     {
       "id": "owner-offline-parser-kit-v2-2026-10-10",
@@ -768,6 +759,15 @@
       "status": "verified_source_and_offline_contract_checks",
       "supports": "Draft 2020-12 reference for the current native/modelled full runs, query selections and local comparisons. Schema checked against actual service/export functions with synthetic provider stubs and semantic negative tests. No root schemaVersion is invented for full runs. Legacy planner and handoff formats remain separate.",
       "supportsDe": "Draft-2020-12-Referenz für aktuelle native/modellierte Vollruns, Query-Auswahlen und lokale Vergleiche. Geprüft gegen tatsächliche Service-/Exportfunktionen mit synthetischen Provider-Stubs und negativen Semantiktests. Vollruns erhalten keine erfundene root-schemaVersion; ältere Planner- und Handoff-Formate bleiben getrennt."
+    },
+    {
+      "id": "openrouter-native-response-routing-2026-10-10",
+      "title": "OpenRouter native server tools and Responses routing evidence",
+      "kind": "primary_provider_documentation",
+      "location": "https://openrouter.ai/docs/guides/features/server-tools/web-search",
+      "checkedAt": "2026-10-10",
+      "status": "verified_documentation_and_protected_runtime_metadata",
+      "supports": "Responses and Chat Completions native server tools, model-only provider routing and native-engine pipeline evidence. Gemini Chat exposes request counts and run-level citations, but no query strings in the checked route. External engine responses fail closed. Haiku Messages loses query inputs in the checked routed response, so current native runs use Responses action fields instead."
     }
   ],
   "rights": [

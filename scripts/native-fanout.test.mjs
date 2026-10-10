@@ -7,6 +7,13 @@ import { MemoryQuotaLedger } from "../src/server/fanout/quota.mjs";
 import { allowedRequestOrigins, expectedTurnstileHostnames } from "../src/server/fanout/request-origin.mjs";
 
 const input={keyword:"best SEO tools",provider:"openai",language:"en",country:"US",turnstileToken:"valid"};
+test("failed billed native responses retain the reserve and cannot reopen the monthly budget",async()=>{
+  const ledger=new MemoryQuotaLedger({reserveMicroEur:NATIVE_RESERVE_MICRO_EUR,spent:24_950_000});
+  const service=createNativeFanoutService({ledger,providers:{openai:{observe:async()=>{throw new Error("PROVIDER_TIMEOUT")}}},bucketSalt:"test",captchaVerifier:async()=>{}});
+  await assert.rejects(()=>service({body:input,remoteIp:"preflight"}),/PROVIDER_TIMEOUT/);
+  assert.equal(ledger.spent,25_050_000);assert.equal(ledger.reserved,0);
+  await assert.rejects(()=>service({body:input,remoteIp:"preflight"}),/BUDGET_LIMIT/);
+});
 
 test("preview origins and Turnstile hostnames include only trusted Vercel system URLs",()=>{
   const previewEnv={VERCEL_ENV:"preview",VERCEL_URL:"ai-fanout-build.vercel.app",VERCEL_BRANCH_URL:"https://ai-fanout-branch.vercel.app/path"};

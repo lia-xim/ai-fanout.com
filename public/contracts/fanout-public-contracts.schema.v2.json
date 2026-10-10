@@ -180,7 +180,8 @@
             "estimateKind": {
               "enum": [
                 "list_price_estimate",
-                "list_price_range"
+                "list_price_range",
+                "provider_reported_cost"
               ]
             },
             "pricingCheckedAt": {
@@ -740,7 +741,8 @@
             "estimateKind": {
               "enum": [
                 "list_price_estimate",
-                "list_price_range"
+                "list_price_range",
+                "provider_reported_cost"
               ]
             },
             "pricingCheckedAt": {
