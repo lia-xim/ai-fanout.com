@@ -7,7 +7,7 @@
   "plan": "SEO_LONGTAIL_MASTERPLAN_2026-10-10.md",
   "totalTopics": 30,
   "totalUrlWorkItems": 60,
-  "verifiedShippedTopics": 12,
+  "verifiedShippedTopics": 18,
   "currentMilestone": {
     "topics": [
       "05",
@@ -17,9 +17,9 @@
       "29",
       "30"
     ],
-    "status": "local_verified_pending_release",
+    "status": "shipped_verified",
     "expectedCanonicalUrls": 63,
-    "deploymentId": null
+    "deploymentId": "dpl_FTagB4H5wcERADDRn7azz1AuRiMa"
   },
   "topics": [
     {
@@ -146,7 +146,7 @@
         "/library/how-to-see-openai-search-queries",
         "/de/lernen/openai-suchanfragen-sehen"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/developer-query-guides.ts",
         "public/code/fanout-kit-v1.zip",
@@ -163,8 +163,18 @@
         "providerAcquisition": "No paid request or new actual provider output",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T11:19:00.507Z",
+        "deploymentId": "dpl_FTagB4H5wcERADDRn7azz1AuRiMa",
+        "canonicalPages": "63/63 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "44/44 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "Live German learning path -> Gemini parser -> schema -> testkit PASS; twelve-page local responsive check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-03"
+      },
+      "releaseCommit": "53950193d0c65f29a4034e582756386717ccaa1a"
     },
     {
       "id": "06",
@@ -174,7 +184,7 @@
         "/library/gemini-search-queries",
         "/de/lernen/gemini-suchanfragen"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/developer-query-guides.ts",
         "public/code/fanout-kit-v1.zip",
@@ -191,8 +201,18 @@
         "providerAcquisition": "No paid request or new actual provider output",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T11:19:00.507Z",
+        "deploymentId": "dpl_FTagB4H5wcERADDRn7azz1AuRiMa",
+        "canonicalPages": "63/63 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "44/44 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "Live German learning path -> Gemini parser -> schema -> testkit PASS; twelve-page local responsive check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-03"
+      },
+      "releaseCommit": "53950193d0c65f29a4034e582756386717ccaa1a"
     },
     {
       "id": "07",
@@ -671,7 +691,7 @@
         "/library/extract-openai-search-queries",
         "/de/lernen/openai-queries-per-api-auslesen"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/developer-query-guides.ts",
         "public/code/fanout-kit-v1.zip",
@@ -688,8 +708,18 @@
         "providerAcquisition": "No paid request or new actual provider output",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T11:19:00.507Z",
+        "deploymentId": "dpl_FTagB4H5wcERADDRn7azz1AuRiMa",
+        "canonicalPages": "63/63 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "44/44 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "Live German learning path -> Gemini parser -> schema -> testkit PASS; twelve-page local responsive check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-03"
+      },
+      "releaseCommit": "53950193d0c65f29a4034e582756386717ccaa1a"
     },
     {
       "id": "28",
@@ -699,7 +729,7 @@
         "/library/extract-gemini-search-queries",
         "/de/lernen/gemini-queries-per-api-auslesen"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/developer-query-guides.ts",
         "public/code/fanout-kit-v1.zip",
@@ -716,8 +746,18 @@
         "providerAcquisition": "No paid request or new actual provider output",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T11:19:00.507Z",
+        "deploymentId": "dpl_FTagB4H5wcERADDRn7azz1AuRiMa",
+        "canonicalPages": "63/63 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "44/44 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "Live German learning path -> Gemini parser -> schema -> testkit PASS; twelve-page local responsive check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-03"
+      },
+      "releaseCommit": "53950193d0c65f29a4034e582756386717ccaa1a"
     },
     {
       "id": "29",
@@ -727,7 +767,7 @@
         "/library/fanout-result-schema",
         "/de/lernen/fanout-ergebnis-schema"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/developer-query-guides.ts",
         "public/code/fanout-kit-v1.zip",
@@ -744,8 +784,18 @@
         "providerAcquisition": "No paid request or new actual provider output",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T11:19:00.507Z",
+        "deploymentId": "dpl_FTagB4H5wcERADDRn7azz1AuRiMa",
+        "canonicalPages": "63/63 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "44/44 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "Live German learning path -> Gemini parser -> schema -> testkit PASS; twelve-page local responsive check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-03"
+      },
+      "releaseCommit": "53950193d0c65f29a4034e582756386717ccaa1a"
     },
     {
       "id": "30",
@@ -755,7 +805,7 @@
         "/library/test-fanout-parsers",
         "/de/lernen/fanout-parser-testen"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/developer-query-guides.ts",
         "public/code/fanout-kit-v1.zip",
@@ -772,14 +822,24 @@
         "providerAcquisition": "No paid request or new actual provider output",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-03"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T11:19:00.507Z",
+        "deploymentId": "dpl_FTagB4H5wcERADDRn7azz1AuRiMa",
+        "canonicalPages": "63/63 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "44/44 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "Live German learning path -> Gemini parser -> schema -> testkit PASS; twelve-page local responsive check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-03"
+      },
+      "releaseCommit": "53950193d0c65f29a4034e582756386717ccaa1a"
     }
   ],
   "nextWork": {
-    "focus": "Publish the verified API/parser/schema/testkit slice, then remaining content/application/import/handoff work",
-    "preflight": "SEO_LONGTAIL_API_PREFLIGHT_2026-10-10.md",
-    "remainingTopics": 18,
-    "status": "in_progress"
+    "focus": "Improve remaining seven existing topic pairs; add product/shop applications, hands-on tool comparison, real Excel/Sheets import and receiver handoff",
+    "remainingTopics": 12,
+    "status": "pending",
+    "requiredProof": "Tool comparison needs actual capability checks; CSV import needs actual Excel and Google Sheets; handoff needs receiver flow, beyond local roundtrip. No connected Excel document session was found at this checkpoint."
   }
 }
