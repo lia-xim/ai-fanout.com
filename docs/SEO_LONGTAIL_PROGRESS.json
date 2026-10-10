@@ -7,7 +7,7 @@
   "plan": "SEO_LONGTAIL_MASTERPLAN_2026-10-10.md",
   "totalTopics": 30,
   "totalUrlWorkItems": 60,
-  "verifiedShippedTopics": 6,
+  "verifiedShippedTopics": 12,
   "currentMilestone": {
     "topics": [
       "08",
@@ -17,8 +17,9 @@
       "25",
       "26"
     ],
-    "status": "local_verified_release_pending",
-    "expectedCanonicalUrls": 55
+    "status": "shipped_verified",
+    "expectedCanonicalUrls": 55,
+    "deploymentId": "dpl_DYaz2deeA66QcqicxTsYvDtBaaNt"
   },
   "topics": [
     {
@@ -187,7 +188,7 @@
         "/library/ai-query-fanout-for-seo",
         "/de/lernen/query-fanout-fuer-seo"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/decision-query-guides.ts"
       ],
@@ -201,8 +202,17 @@
         "links": "55/55 local inventory, no broken pages or orphans",
         "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:41:39.857Z",
+        "deploymentId": "dpl_DYaz2deeA66QcqicxTsYvDtBaaNt",
+        "canonicalPages": "55/55 HTTP, metadata, canonical, H1, sitemap and links PASS",
+        "downloads": "32/32 HTTP 200, source-byte equality and noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "browser": "live report -> source-audit link, localized source notes and 14-page local mobile verification PASS",
+        "rankingEffect": "NOT PROVEN: pre-release GSC baseline",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
+      "releaseCommit": "06a44e2bec758eb82b9f44b4bbe239924fa6f42b"
     },
     {
       "id": "09",
@@ -356,7 +366,7 @@
         "/library/prioritize-fanout-queries",
         "/de/lernen/fanout-queries-priorisieren"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/decision-query-guides.ts"
       ],
@@ -370,8 +380,17 @@
         "links": "55/55 local inventory, no broken pages or orphans",
         "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:41:39.857Z",
+        "deploymentId": "dpl_DYaz2deeA66QcqicxTsYvDtBaaNt",
+        "canonicalPages": "55/55 HTTP, metadata, canonical, H1, sitemap and links PASS",
+        "downloads": "32/32 HTTP 200, source-byte equality and noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "browser": "live report -> source-audit link, localized source notes and 14-page local mobile verification PASS",
+        "rankingEffect": "NOT PROVEN: pre-release GSC baseline",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
+      "releaseCommit": "06a44e2bec758eb82b9f44b4bbe239924fa6f42b"
     },
     {
       "id": "17",
@@ -418,7 +437,7 @@
         "/library/measure-fanout-content-changes",
         "/de/lernen/fanout-content-aenderungen-messen"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/decision-query-guides.ts"
       ],
@@ -432,8 +451,17 @@
         "links": "55/55 local inventory, no broken pages or orphans",
         "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:41:39.857Z",
+        "deploymentId": "dpl_DYaz2deeA66QcqicxTsYvDtBaaNt",
+        "canonicalPages": "55/55 HTTP, metadata, canonical, H1, sitemap and links PASS",
+        "downloads": "32/32 HTTP 200, source-byte equality and noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "browser": "live report -> source-audit link, localized source notes and 14-page local mobile verification PASS",
+        "rankingEffect": "NOT PROVEN: pre-release GSC baseline",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
+      "releaseCommit": "06a44e2bec758eb82b9f44b4bbe239924fa6f42b"
     },
     {
       "id": "19",
@@ -443,7 +471,7 @@
         "/library/fanout-source-audit",
         "/de/lernen/fanout-quellen-pruefen"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/decision-query-guides.ts"
       ],
@@ -457,8 +485,17 @@
         "links": "55/55 local inventory, no broken pages or orphans",
         "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:41:39.857Z",
+        "deploymentId": "dpl_DYaz2deeA66QcqicxTsYvDtBaaNt",
+        "canonicalPages": "55/55 HTTP, metadata, canonical, H1, sitemap and links PASS",
+        "downloads": "32/32 HTTP 200, source-byte equality and noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "browser": "live report -> source-audit link, localized source notes and 14-page local mobile verification PASS",
+        "rankingEffect": "NOT PROVEN: pre-release GSC baseline",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
+      "releaseCommit": "06a44e2bec758eb82b9f44b4bbe239924fa6f42b"
     },
     {
       "id": "20",
@@ -538,7 +575,7 @@
         "/library/fanout-experiment-template",
         "/de/lernen/fanout-experiment-vorlage"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/decision-query-guides.ts"
       ],
@@ -552,8 +589,17 @@
         "links": "55/55 local inventory, no broken pages or orphans",
         "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:41:39.857Z",
+        "deploymentId": "dpl_DYaz2deeA66QcqicxTsYvDtBaaNt",
+        "canonicalPages": "55/55 HTTP, metadata, canonical, H1, sitemap and links PASS",
+        "downloads": "32/32 HTTP 200, source-byte equality and noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "browser": "live report -> source-audit link, localized source notes and 14-page local mobile verification PASS",
+        "rankingEffect": "NOT PROVEN: pre-release GSC baseline",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
+      "releaseCommit": "06a44e2bec758eb82b9f44b4bbe239924fa6f42b"
     },
     {
       "id": "26",
@@ -563,7 +609,7 @@
         "/library/query-fanout-report-template",
         "/de/lernen/query-fanout-report-vorlage"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/decision-query-guides.ts"
       ],
@@ -577,8 +623,17 @@
         "links": "55/55 local inventory, no broken pages or orphans",
         "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:41:39.857Z",
+        "deploymentId": "dpl_DYaz2deeA66QcqicxTsYvDtBaaNt",
+        "canonicalPages": "55/55 HTTP, metadata, canonical, H1, sitemap and links PASS",
+        "downloads": "32/32 HTTP 200, source-byte equality and noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "browser": "live report -> source-audit link, localized source notes and 14-page local mobile verification PASS",
+        "rankingEffect": "NOT PROVEN: pre-release GSC baseline",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
+      "releaseCommit": "06a44e2bec758eb82b9f44b4bbe239924fa6f42b"
     },
     {
       "id": "27",
@@ -636,5 +691,11 @@
       "liveVerification": null,
       "releaseCommit": null
     }
-  ]
+  ],
+  "nextWork": {
+    "focus": "Current API/parser/schema/testkit packages and remaining existing-guide improvements",
+    "preflight": "SEO_LONGTAIL_API_PREFLIGHT_2026-10-10.md",
+    "remainingTopics": 18,
+    "status": "pending"
+  }
 }
