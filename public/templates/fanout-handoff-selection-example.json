@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "ai-fanout.seo-research-handoff/1.0",
+  "producer": "ai-fanout.com",
+  "transferredAt": "2026-10-10T12:30:00.000Z",
+  "run": {
+    "question": "Ahrefs vs Semrush for small business",
+    "language": "en",
+    "market": "US · en",
+    "providerLabel": "openai · gpt-5.6-luna",
+    "evidenceLabel": "Selected 2 of 4 exposed strings · completed · original action-domain set",
+    "evidenceState": "provider_exposed_native_search",
+    "displayedRunTime": "2026-08-27T13:13:59.201Z",
+    "queries": [
+      {
+        "text": "Ahrefs pricing official",
+        "intent": "",
+        "reason": "",
+        "sourceRelation": "Domain-only run/action evidence; no query-to-source mapping",
+        "sources": []
+      },
+      {
+        "text": "Semrush pricing official",
+        "intent": "",
+        "reason": "",
+        "sourceRelation": "Domain-only run/action evidence; no query-to-source mapping",
+        "sources": []
+      }
+    ],
+    "runSources": [],
+    "sourceDomains": [
+      "ahrefs.com",
+      "semrush.com",
+      "help.ahrefs.com",
+      "stackcompare.net",
+      "formativedigital.com",
+      "insidepro360.com",
+      "softoraguide.com",
+      "angletutoring.com",
+      "static.semrush.com",
+      "sec.gov",
+      "youtube.com",
+      "reddit.com",
+      "cdnc.heyzine.com"
+    ],
+    "methodLabel": "Public normalized observation · native-fanout-tool/1.0.0 · provider-native-search/1.0",
+    "sourceDocumentUrl": "https://ai-fanout.com/examples/openai-observations-2026-08-27.json"
+  },
+  "notice": "Selection from a previously published owner-run observation. Original run/action domain names are retained without inventing URLs or a query-source join. No new provider request, search volume, ranking or independent validation. The fixed transfer timestamp in this downloadable exercise is illustrative; the live button uses its actual transfer time."
+}

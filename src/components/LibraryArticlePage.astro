@@ -1,5 +1,6 @@
 ---
 import ArrowIcon from "./ArrowIcon.astro";
+import ObservedHandoffExample from "./ObservedHandoffExample.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import type { LibraryArticle } from "../data/library";
 import evidenceManifest from "../../manifests/rights-and-sources.v1.json";
@@ -82,6 +83,7 @@ const schema={"@context":"https://schema.org","@graph":[
             </table></div>
           </div>}
           {section.points&&section.points.length>0&&<ul>{section.points.map(point=><li>{point}</li>)}</ul>}
+          {section.observedHandoff&&<ObservedHandoffExample locale={locale}/>}
           {section.downloads&&<nav class="chapter-downloads" aria-label={de?"Arbeitsvorlagen herunterladen":"Download worksheets"}>{section.downloads.map(file=><a href={file.href} download>{file.label}<ArrowIcon size={16}/></a>)}</nav>}
         </section>)}
 

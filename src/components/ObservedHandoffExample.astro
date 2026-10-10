@@ -1,0 +1,44 @@
+---
+import ArrowIcon from "./ArrowIcon.astro";
+import corpus from "../../public/examples/openai-observations-2026-08-27.json";
+const {locale}=Astro.props;const de=locale==="de";
+const observation=corpus.observations.find(item=>item.id==="seo-tools-comparison-sources")!;
+const record=JSON.stringify({corpus,observationId:observation.id}).replaceAll("<","\\u003c");
+---
+<div class="handoff-example" data-observed-handoff data-locale={locale}>
+  <p>{de?"Freigegebener OpenAI-Lauf vom 27. August 2026: vier Strings, completed, en/US. Wähle die Queries, die du weiterbearbeiten willst.":"Approved OpenAI run from 27 August 2026: four strings, completed, en/US. Select the queries you want to investigate."}</p>
+  <fieldset>
+    <legend>{de?"Veröffentlichte Queries auswählen":"Select published queries"}</legend>
+    {observation.queries.map((query,index)=><label><input type="checkbox" value={index} checked/><span>{query}</span></label>)}
+  </fieldset>
+  <output data-selection-count aria-live="polite">{de?"4 Queries ausgewählt":"4 queries selected"}</output>
+  <p>{de?"Der Empfänger erhält die ausgewählten Strings und die 13 Domainnamen des ursprünglichen Laufs. Exakte Quellen-URLs und Query-Zuordnungen fehlen. AI Fanout und SEO Fanout gehören Matthias Ramahi.":"The receiver gets selected strings and the original run's 13 domain names. Exact source URLs and query mappings are absent. Matthias Ramahi owns AI Fanout and SEO Fanout."}</p>
+  <button type="button" data-open-handoff>{de?"Auswahl in SEO Fanout öffnen":"Open selection in SEO Fanout"}<ArrowIcon/></button>
+  <p data-handoff-error role="status"></p>
+  <script is:inline type="application/json" data-public-observation set:html={record}/>
+</div>
+<script>
+  import { observedSelectionHandoff } from "../lib/observed-selection-handoff.mjs";
+  import { buildSeoResearchUrl } from "../lib/seo-handoff.mjs";
+  for(const root of document.querySelectorAll<HTMLElement>("[data-observed-handoff]")){
+    const record=JSON.parse(root.querySelector("[data-public-observation]")!.textContent!);
+    const de=root.dataset.locale==="de";
+    const button=root.querySelector<HTMLButtonElement>("[data-open-handoff]")!;
+    const indexes=()=>[...root.querySelectorAll<HTMLInputElement>('input[type="checkbox"]:checked')].map(input=>Number(input.value));
+    root.addEventListener("change",()=>{const count=indexes().length;button.disabled=count===0;root.querySelector("[data-selection-count]")!.textContent=de?`${count} Queries ausgewählt`:`${count} queries selected`;});
+    button.addEventListener("click",()=>{
+      try{const payload=observedSelectionHandoff(record.corpus,record.observationId,indexes());window.location.href=buildSeoResearchUrl(payload);}
+      catch{root.querySelector("[data-handoff-error]")!.textContent=de?"Die Auswahl konnte nicht übertragen werden. Prüfe die Auswahl und versuche es erneut.":"The selection could not be transferred. Review the selection and try again.";}
+    });
+  }
+</script>
+<style>
+  .handoff-example{margin-top:2rem;padding:1.5rem;border:1px solid var(--rule);background:var(--surface)}
+  .handoff-example fieldset{border:0;padding:0;margin:1.5rem 0}.handoff-example legend{font-weight:600;margin-bottom:1rem}
+  .handoff-example label{display:flex;align-items:flex-start;gap:.8rem;padding:.85rem 0;border-bottom:1px solid var(--fine-rule);cursor:pointer}
+  .handoff-example input{flex:0 0 auto;width:1.2rem;height:1.2rem;margin-top:.25rem;accent-color:var(--source)}
+  .handoff-example span{overflow-wrap:anywhere;line-height:1.6}.handoff-example output{display:block;color:var(--source)}
+  .handoff-example button{display:flex;align-items:center;gap:.7rem;min-height:2.75rem;padding:.75rem 1rem;border:1px solid var(--source);background:transparent;color:var(--source);font:600 .9rem/1.5 var(--font-display);cursor:pointer}
+  .handoff-example button:disabled{opacity:.5;cursor:default}.handoff-example :focus-visible{outline:2px solid var(--source);outline-offset:4px}
+  .handoff-example [data-handoff-error]:empty{display:none}
+</style>

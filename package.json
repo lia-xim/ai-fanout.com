@@ -14,7 +14,7 @@
     "check": "astro check",
     "qa": "node scripts/qa.mjs",
     "verify": "pnpm build && pnpm qa",
-    "test:planner": "node --test scripts/planner.test.mjs scripts/native-fanout.test.mjs scripts/export-contract.test.mjs scripts/seo-handoff.test.mjs scripts/local-history.test.mjs scripts/metrics.test.mjs scripts/product-analytics.test.mjs scripts/umami-admin.test.mjs scripts/example-evidence.test.mjs",
+    "test:planner": "node --test scripts/planner.test.mjs scripts/native-fanout.test.mjs scripts/export-contract.test.mjs scripts/seo-handoff.test.mjs scripts/observed-selection-handoff.test.mjs scripts/local-history.test.mjs scripts/metrics.test.mjs scripts/product-analytics.test.mjs scripts/umami-admin.test.mjs scripts/example-evidence.test.mjs",
     "examples:build": "node scripts/build-example-assets.mjs",
     "metrics:summary": "node --env-file=.env.local scripts/read-metrics.mjs",
     "umami:sync-reports": "node scripts/sync-umami-reports.mjs",
@@ -23,7 +23,8 @@
     "verify:planner": "pnpm build && pnpm test:planner && pnpm qa:planner",
     "kit:build": "node scripts/build-public-fanout-kit.mjs",
     "test:kit": "node --test public/code/fanout-kit/v1/parser.test.mjs public/code/fanout-kit/v1/contract.test.mjs scripts/public-kit-production-contract.test.mjs",
-    "interpretation:build": "node scripts/build-interpretation-artifacts.mjs"
+    "interpretation:build": "node scripts/build-interpretation-artifacts.mjs",
+    "transfer:build": "node scripts/build-transfer-artifacts.mjs"
   },
   "dependencies": {
     "astro": "7.2.1",

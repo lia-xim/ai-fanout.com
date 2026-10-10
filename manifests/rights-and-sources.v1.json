@@ -1,9 +1,64 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-10.5",
+  "manifestVersion": "2026-10-10.6",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-10",
   "sources": [
+    {
+      "id": "owner-tool-transfer-checks-2026-10-10",
+      "title": "Owner-run selection and local receiver checks",
+      "titleDe": "Betreiber-Prüfung von Auswahl und lokalem Empfänger",
+      "kind": "owner_workflow_verification",
+      "location": "https://ai-fanout.com/templates/fanout-handoff-review-example-en.md",
+      "checkedAt": "2026-10-10",
+      "status": "bounded_owner_workflow_check",
+      "supports": "Two selected approved OpenAI strings, original en/US time/status and original 13-domain pool; versioned fragment handoff and rule-based receiver. No fresh provider call, invented source URL, query/source join, ranking or independent endorsement. Vendor rows remain documentation-only.",
+      "supportsDe": "Zwei freigegebene OpenAI-Strings, Original-Locale/Zeit/Status und ursprünglicher 13-Domain-Pool; versionierter Fragment-Handoff und regelbasierter Empfänger. Kein neuer Provider-Aufruf, erfundene Quellen-URL, Query-Zuordnung, Ranking oder unabhängige Empfehlung. Drittanbieter nur dokumentarisch geprüft."
+    },
+    {
+      "id": "profound-estimator-2026-10-10",
+      "title": "Profound: Query Fanout Estimator",
+      "titleDe": "Profound: Query Fanout Estimator",
+      "kind": "primary_documentation",
+      "location": "https://help.tryprofound.com/articles/9723781244-query-fanout-estimator",
+      "checkedAt": "2026-10-10",
+      "status": "documentation_review_only",
+      "supports": "Prediction node with target prompt and output label; no account execution.",
+      "supportsDe": "Vorhersage-Node mit Zielprompt und Output-Label; keine Konto-Ausführung."
+    },
+    {
+      "id": "profound-pricing-2026-10-10",
+      "title": "Profound: dated pricing view",
+      "titleDe": "Profound: datierte Preisansicht",
+      "kind": "primary_vendor_pricing",
+      "location": "https://www.tryprofound.com/pricing",
+      "checkedAt": "2026-10-10",
+      "status": "documentation_review_only",
+      "supports": "Limited Trial and custom Enterprise; exact Estimator entitlement/cost remains unconfirmed.",
+      "supportsDe": "Begrenzter Trial und individuelles Enterprise; genaue Estimator-Freischaltung/Kosten unbestätigt."
+    },
+    {
+      "id": "ahrefs-fanout-2026-10-10",
+      "title": "Ahrefs: viewing AI fanout queries",
+      "titleDe": "Ahrefs: AI-Fanout-Queries ansehen",
+      "kind": "primary_documentation",
+      "location": "https://help.ahrefs.com/en/articles/14319115-how-to-view-fanout-queries-generated-by-ai",
+      "checkedAt": "2026-10-10",
+      "status": "documentation_review_only",
+      "supports": "Brand Radar supported surfaces and feature access conditions; no account or export test.",
+      "supportsDe": "Unterstützte Brand-Radar-Oberflächen und Zugangsbedingungen; kein Konto- oder Exporttest."
+    },
+    {
+      "id": "fanout-extension-repository-2026-10-10",
+      "title": "Magganpice/fanout: extension README",
+      "titleDe": "Magganpice/fanout: Erweiterungs-README",
+      "kind": "primary_repository_documentation",
+      "location": "https://github.com/Magganpice/fanout",
+      "checkedAt": "2026-10-10",
+      "status": "documentation_review_only",
+      "supports": "Documented manual installation, conversation access and export formats; not installed, executed or network-audited.",
+      "supportsDe": "Dokumentierte manuelle Installation, Konversationszugriff und Exportformate; nicht installiert, ausgeführt oder netzwerkgeprüft."
+    },
     {
       "id": "owner-interpretation-artifacts-2026-10-10",
       "title": "Original annotated workflow, controls, prompts and export exercises",
