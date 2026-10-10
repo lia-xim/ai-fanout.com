@@ -7,7 +7,7 @@
   "plan": "SEO_LONGTAIL_MASTERPLAN_2026-10-10.md",
   "totalTopics": 30,
   "totalUrlWorkItems": 60,
-  "verifiedShippedTopics": 0,
+  "verifiedShippedTopics": 6,
   "currentMilestone": {
     "topics": [
       "01",
@@ -17,8 +17,9 @@
       "15",
       "17"
     ],
-    "status": "local_verified_release_pending",
-    "expectedCanonicalUrls": 45
+    "status": "shipped_verified",
+    "expectedCanonicalUrls": 45,
+    "deploymentId": "dpl_5qDzbWnyBgRwddwdfm8AEiBjHzVs"
   },
   "topics": [
     {
@@ -29,7 +30,7 @@
         "/",
         "/de"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/components/FanoutModeExamples.astro"
       ],
@@ -42,8 +43,18 @@
         "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
         "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:18:56.005Z",
+        "deploymentId": "dpl_5qDzbWnyBgRwddwdfm8AEiBjHzVs",
+        "canonicalPages": "45/45 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "12/12 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "live German learning paths and local 12-page responsive check PASS",
+        "rankingEffect": "NOT PROVEN: GSC baseline predates this release",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-01"
+      },
+      "releaseCommit": "4fbafa7a722e97b089ac6e29ea99f0857e4f3138"
     },
     {
       "id": "02",
@@ -53,7 +64,7 @@
         "/library",
         "/de/lernen"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/components/LearningPaths.astro"
       ],
@@ -66,8 +77,18 @@
         "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
         "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:18:56.005Z",
+        "deploymentId": "dpl_5qDzbWnyBgRwddwdfm8AEiBjHzVs",
+        "canonicalPages": "45/45 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "12/12 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "live German learning paths and local 12-page responsive check PASS",
+        "rankingEffect": "NOT PROVEN: GSC baseline predates this release",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-01"
+      },
+      "releaseCommit": "4fbafa7a722e97b089ac6e29ea99f0857e4f3138"
     },
     {
       "id": "03",
@@ -77,7 +98,7 @@
         "/methodology",
         "/de/methode"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/components/EvidenceContract.astro"
       ],
@@ -90,8 +111,18 @@
         "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
         "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:18:56.005Z",
+        "deploymentId": "dpl_5qDzbWnyBgRwddwdfm8AEiBjHzVs",
+        "canonicalPages": "45/45 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "12/12 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "live German learning paths and local 12-page responsive check PASS",
+        "rankingEffect": "NOT PROVEN: GSC baseline predates this release",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-01"
+      },
+      "releaseCommit": "4fbafa7a722e97b089ac6e29ea99f0857e4f3138"
     },
     {
       "id": "04",
@@ -151,7 +182,7 @@
     },
     {
       "id": "08",
-      "title": "Fanout für SEO anwenden",
+      "title": "Fanout fÃ¼r SEO anwenden",
       "wave": "A",
       "urls": [
         "/library/ai-query-fanout-for-seo",
@@ -165,7 +196,7 @@
     },
     {
       "id": "09",
-      "title": "SEO für KI-Suche",
+      "title": "SEO fÃ¼r KI-Suche",
       "wave": "A",
       "urls": [
         "/library/seo-for-ai-search",
@@ -241,7 +272,7 @@
         "/library/cluster-fanout-queries",
         "/de/lernen/fanout-queries-clustern"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "public/templates/fanout-clusters-en.csv",
         "public/templates/fanout-clusters-example-en.csv",
@@ -257,8 +288,18 @@
         "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
         "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:18:56.005Z",
+        "deploymentId": "dpl_5qDzbWnyBgRwddwdfm8AEiBjHzVs",
+        "canonicalPages": "45/45 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "12/12 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "live German learning paths and local 12-page responsive check PASS",
+        "rankingEffect": "NOT PROVEN: GSC baseline predates this release",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-01"
+      },
+      "releaseCommit": "4fbafa7a722e97b089ac6e29ea99f0857e4f3138"
     },
     {
       "id": "15",
@@ -268,7 +309,7 @@
         "/library/fanout-content-brief",
         "/de/lernen/content-brief-aus-fanout"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "public/templates/fanout-content-brief-en.md",
         "public/templates/fanout-content-brief-example-en.md",
@@ -284,8 +325,18 @@
         "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
         "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:18:56.005Z",
+        "deploymentId": "dpl_5qDzbWnyBgRwddwdfm8AEiBjHzVs",
+        "canonicalPages": "45/45 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "12/12 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "live German learning paths and local 12-page responsive check PASS",
+        "rankingEffect": "NOT PROVEN: GSC baseline predates this release",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-01"
+      },
+      "releaseCommit": "4fbafa7a722e97b089ac6e29ea99f0857e4f3138"
     },
     {
       "id": "16",
@@ -309,7 +360,7 @@
         "/library/fanout-queries-search-console",
         "/de/lernen/fanout-queries-search-console"
       ],
-      "status": "local_verified_release_pending",
+      "status": "shipped_verified",
       "artifactRefs": [
         "public/templates/fanout-gsc-map-en.csv",
         "public/templates/fanout-gsc-map-example-en.csv",
@@ -325,12 +376,22 @@
         "templates": "12 HTTP files byte-for-byte equal to source; CSV/Markdown validation PASS",
         "browserDownloadSave": "NOT PROVEN: Brave automation download event timed out"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T10:18:56.005Z",
+        "deploymentId": "dpl_5qDzbWnyBgRwddwdfm8AEiBjHzVs",
+        "canonicalPages": "45/45 HTTP, canonical, H1, metadata, sitemap and links PASS",
+        "downloads": "12/12 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired 404 routes, operational noindex PASS",
+        "browser": "live German learning paths and local 12-page responsive check PASS",
+        "rankingEffect": "NOT PROVEN: GSC baseline predates this release",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-01"
+      },
+      "releaseCommit": "4fbafa7a722e97b089ac6e29ea99f0857e4f3138"
     },
     {
       "id": "18",
-      "title": "Content-Änderungen messen",
+      "title": "Content-Ã„nderungen messen",
       "wave": "B",
       "urls": [
         "/library/measure-fanout-content-changes",
@@ -344,7 +405,7 @@
     },
     {
       "id": "19",
-      "title": "Fanout-Quellen systematisch prüfen",
+      "title": "Fanout-Quellen systematisch prÃ¼fen",
       "wave": "B",
       "urls": [
         "/library/fanout-source-audit",
@@ -414,7 +475,7 @@
     },
     {
       "id": "24",
-      "title": "Fanout-Ergebnisse auswerten und übergeben",
+      "title": "Fanout-Ergebnisse auswerten und Ã¼bergeben",
       "wave": "A",
       "urls": [
         "/library/analyze-fanout-results",
