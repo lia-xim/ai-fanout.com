@@ -25,8 +25,10 @@ Ausgabe: Frage | Leseraufgabe | nötiger Beleg | Seite oder Abschnitt | Status.`
 
 export function practicalQueryGuides(de:boolean):LibraryArticle[]{
   const path=(en:string,german:string):`/${string}`=>de?`/de/lernen/${german}`:`/library/${en}`;
-  const shared={reviewedAt:"2026-10-09",sourceIds:["owner-query-workflows-2026-10-09"],toolCta:{title:de?"Wähle die passende Art von Ergebnis":"Choose the right kind of result",copy:de?"Native Fanout beobachtet API-Suchen. Suchideen unterstützt die Planung ohne Websuche.":"Native fanout observes API searches. Search Ideas supports planning without web search.",button:de?"Kostenloses Tool öffnen":"Open the free tool"}};
+  const shared={reviewedAt:"2026-10-10",sourceIds:["owner-query-workflows-2026-10-09"],toolCta:{title:de?"Wähle die passende Art von Ergebnis":"Choose the right kind of result",copy:de?"Native Fanout beobachtet API-Suchen. Suchideen unterstützt die Planung ohne Websuche.":"Native fanout observes API searches. Search Ideas supports planning without web search.",button:de?"Kostenloses Tool öffnen":"Open the free tool"}};
   const prompts:LibraryArticle={...shared,number:"09",category:"Field guide",
+    image:"/images/guides/query-fanout-basics.webp",
+    imageAlt:de?"Ein Ausgangspunkt verzweigt über blaue Linien zu sechs Dokumenten; Markierungen zeigen offene Belege.":"One starting point branches along blue lines to six documents, with markers for evidence still to check.",
     slug:de?"query-fanout-prompt":"query-fanout-prompt",pairedSlug:"query-fanout-prompt",
     title:de?"Query-Fanout-Prompt: Suchideen sinnvoll planen":"Query fanout prompt: plan useful research questions",
     seoTitle:de?"Query-Fanout-Prompt: Vorlage und Suchideen":"Query Fanout Prompt: Template and Search Ideas",
@@ -76,6 +78,8 @@ export function practicalQueryGuides(de:boolean):LibraryArticle[]{
     readerQuestions:[{question:de?"Kann ein Prompt die echten Google-AI-Mode-Queries zeigen?":"Can a prompt show the real Google AI Mode queries?",answer:de?"Eine erzeugte Liste ist keine Aufzeichnung einer Google-Sitzung. Google beschreibt Query Fan-out öffentlich; dieses Tool liest keine privaten AI-Mode-Queries aus.":"A generated list is not a recording of a Google session. Google publicly describes query fan-out; this tool does not read private AI Mode queries."},{question:de?"Soll ich die ganze Vorlage ins Tool eingeben?":"Should I paste the whole template into the tool?",answer:de?"Nein. Nutze dort ein kurzes Thema. Die Vorlage ist für die separate Planung in deinem eigenen Chat oder Workflow gedacht.":"No. Enter a short topic here. The template is for separate planning in your own chat or workflow."}]
   };
   const exports:LibraryArticle={...shared,number:"10",category:"Data standard",
+    image:"/images/guides/provider-search-queries.webp",
+    imageAlt:de?"Zwei geometrische Raster mit verbundenen Pfaden und unterschiedlich markierten Knoten.":"Two geometric grids with connected paths and differently marked nodes.",
     slug:de?"fanout-queries-exportieren":"export-fanout-queries",pairedSlug:de?"export-fanout-queries":"fanout-queries-exportieren",
     title:de?"Fanout Queries als CSV oder JSON exportieren":"Export fanout queries as CSV or JSON",
     seoTitle:de?"Fanout Queries exportieren: CSV, JSON und Historie":"Export Fanout Queries: CSV, JSON and Local History",

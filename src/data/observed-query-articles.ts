@@ -63,7 +63,7 @@ function consolidate(source:readonly LibraryArticle[],german=false):LibraryArtic
       }));
     });
     const sourceIds=[...new Set([ ...article.sourceIds,...merged.flatMap(item=>item.sourceIds),...(plan.keep==="what-is-ai-query-fanout"?["stanford-query-expansion-2026-10-09","openai-chatgpt-search-help-2026-08-31"]:[])])];
-    return {...article,number:String(index+1).padStart(2,"0"),reviewedAt:"2026-10-09",sections:guideReaderPaths(plan.keep,sections,german),sourceIds,image:plan.image,imageAlt:german?plan.altDe:plan.altEn,toolCta:german?plan.ctaDe:plan.ctaEn,readerQuestions:questions[plan.keep][german?"de":"en"],...searchEntryFor(plan.keep,german)};
+    return {...article,number:String(index+1).padStart(2,"0"),sections:guideReaderPaths(plan.keep,sections,german),sourceIds,image:plan.image,imageAlt:german?plan.altDe:plan.altEn,toolCta:german?plan.ctaDe:plan.ctaEn,readerQuestions:questions[plan.keep][german?"de":"en"],...searchEntryFor(plan.keep,german),reviewedAt:plan.keep==="how-to-see-openai-search-queries"?"2026-10-10":"2026-10-09"};
   }).map((article,_,all)=>({...article,relatedSlugs:[...new Set(article.relatedSlugs.map(slug=>{
     const owner=plans.find(plan=>plan.merge.some(merged=>(german?deSlug[merged]:merged)===slug));
     return owner?(german?deSlug[owner.keep]:owner.keep):slug;

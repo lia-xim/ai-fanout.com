@@ -50,6 +50,19 @@ const references:Record<string,readonly Reference[]>={
 };
 
 const tables:Record<string,{section:number;en:LibraryDecisionTable;de:LibraryDecisionTable}>={
+  "how-to-see-openai-search-queries":{section:2,
+    en:{title:"No queries returned: read the status before repeating",caption:"A completed response with no exposed query strings differs from a failed request. These are interpretation rules, not additional observed runs.",headings:["Visible result","What you can conclude","Next step"],rows:[
+      ["Completed; zero queries and zero search actions","This response exposed no search action. It is not a complete trace of internal retrieval.","Keep the zero count and record model, locale and time."],
+      ["Completed; search actions but zero query strings","The response exposed search activity without reusable query wording. OpenAI says search actions do not always include queries.","Read any sources at the scope supplied; do not reconstruct queries from them."],
+      ["Queries returned but no supporting source","The query text is observable; support for a factual claim is still missing.","Check the cited page and the claim separately before using it as evidence."],
+      ["Timeout, CAPTCHA, quota or provider error","The request did not yield a completed usable observation. It is not a successful zero-query run.","Read the visible error and reset information. Repeated clicks do not bypass a limit."]
+    ]},
+    de:{title:"Keine Queries: vor dem Wiederholen den Status lesen",caption:"Ein abgeschlossener Response ohne sichtbare Query-Strings unterscheidet sich von einer fehlgeschlagenen Anfrage. Dies sind Regeln zur Einordnung, keine zusätzlichen beobachteten Läufe.",headings:["Sichtbares Ergebnis","Was du daraus schließen kannst","Nächster Schritt"],rows:[
+      ["Abgeschlossen; null Queries und null Suchaktionen","Dieser Response legt keine Suchaktion offen. Er ist keine vollständige Spur interner Retrieval-Vorgänge.","Die Null beibehalten und Modell, Locale und Zeitpunkt notieren."],
+      ["Abgeschlossen; Suchaktionen, aber keine Query-Strings","Der Response zeigt Suchaktivität ohne nutzbaren Suchwortlaut. Laut OpenAI enthalten Suchaktionen nicht immer Queries.","Quellen im gelieferten Umfang lesen; daraus keine Queries rekonstruieren."],
+      ["Queries vorhanden, aber keine stützende Quelle","Der Query-Text ist sichtbar; der Beleg für eine Tatsachenbehauptung fehlt weiterhin.","Zitierte Seite und konkrete Aussage getrennt prüfen, bevor du sie als Beleg verwendest."],
+      ["Timeout, CAPTCHA-, Limit- oder Providerfehler","Die Anfrage liefert keine abgeschlossene nutzbare Beobachtung. Das ist kein erfolgreicher Null-Query-Lauf.","Sichtbaren Fehler und Reset-Hinweis lesen. Wiederholtes Klicken umgeht kein Limit."]
+    ]}},
   "what-is-ai-query-fanout":{section:0,
     en:{title:"Query fanout, expansion and rewriting",caption:"The terms describe related operations, not identical evidence. Google documents fan-out; query expansion adds related terms; OpenAI describes rewriting into one or more targeted queries.",headings:["Term","Useful distinction","What it does not establish"],rows:[
       ["Query fanout","Several related retrieval queries address parts of one information need.","A private, complete list of queries from a consumer session."],
@@ -125,6 +138,13 @@ export function guideReaderPaths(slug:string,sections:readonly LibrarySection[],
   }
   if(table&&!sections[table.section])throw new Error(`Missing decision-table placement for ${slug}`);
   return sections.map((section,index)=>({...section,
+    paragraphs:slug==="how-to-see-openai-search-queries"&&index===2?[...section.paragraphs,...(german?[
+      "Lies zuerst den sichtbaren Laufstatus und danach die Zähler für Suchaktionen, Queries und Quellen. Ein fehlendes Query-Feld ist keine Liste versteckter Keywords. OpenAI dokumentiert ausdrücklich, dass Suchaktionen nicht immer den Suchwortlaut liefern.",
+      "Notiere bei einem möglichen Problem Modell, Zeitpunkt, Land, Sprache und den öffentlichen Fehlercode. Teile weder API-Schlüssel noch private Roh-Responses. Wenn du stattdessen Ideen brauchst, nutze den getrennten Modus Suchideen und behalte dessen Kennzeichnung bei."
+    ]:[
+      "First read the visible run status, then the search-action, query and source counts. A missing query field is not a list of hidden keywords. OpenAI explicitly documents that search actions do not always expose their query wording.",
+      "For a possible problem, record model, time, country, language and the public error code. Share neither API keys nor private raw responses. If you need ideas instead, use the separate Search Ideas mode and keep its modelled label."
+    ])]:section.paragraphs,
     references:paths.filter(reference=>reference.section===index).map((reference):LibraryReference=>{
       const [before,label,after]=reference[german?"de":"en"];
       return {afterParagraph:reference.paragraph,before,label,after,href:reference.target[german?1:0]};

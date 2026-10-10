@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-09.3",
+  "manifestVersion": "2026-10-10.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-10-09",
+  "reviewedAt": "2026-10-10",
   "domainOrigin": "fresh_registration",
   "defaultUnknownPathAction": "404",
   "catchAllRedirect": false,
@@ -43,6 +43,7 @@
     {"source":"/de/lernen/keine-fanout-query-sichtbar","destination":"/de/lernen/ki-modelle-vergleichen","status":308}
   ],
   "notes": [
+    "The 2026-10-10 quality pass strengthens six existing routes: the EN/DE OpenAI guides distinguish completed zero-query observations from request failures with a decision table; prompt and export guides gain existing owner-commissioned illustrations, localized alt text, article/social images and an optional copy-text control. No new URLs, provider output or third-party media; the 39-URL inventory is unchanged. Editorial lastmod changes only on these three guide pairs.",
     "The third 2026-10-09 pass adds two distinct EN/DE guide pairs: a planning prompt with explicit modelled-evidence limits, and a guide to actual CSV/JSON export and local-history contracts. There are now ten paired guides and 39 canonical indexable URLs. The definition guide also distinguishes fanout, expansion and rewriting; existing hubs and contextual chapter references expose the new reader journeys. No provider output is newly generated or published.",
     "The second 2026-10-09 improvement adds curated chapter references across all eight paired guides, decision tables for four guide pairs, and reader/reproduction paths on the four paired dated examples. Learning and evidence hubs link in context. The 35-URL indexable inventory, redirects and exclusions are unchanged; lastmod changes only on materially updated content.",
     "Local SEO update on 2026-10-09 strengthens the existing EN/DE homepages, learning hubs and definition/OpenAI/Gemini guide pairs. No canonical URL, redirect or indexability change; ten routes receive editorial lastmod updates. Provider guide links can preselect an allowlisted provider without starting a run. Production publication remains separately recorded.",

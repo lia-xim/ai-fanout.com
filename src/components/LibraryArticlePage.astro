@@ -64,7 +64,11 @@ const schema={"@context":"https://schema.org","@graph":[
             <p>{paragraph}</p>
             {section.references?.filter(reference=>reference.afterParagraph===paragraphIndex).map(reference=><p class="chapter-reference">{reference.before} <a href={reference.href}>{reference.label}</a>{reference.after??"."}</p>)}
           </>)}
-          {section.codeSample&&<figure class="chapter-sample"><figcaption>{section.codeSample.label}</figcaption><pre><code>{section.codeSample.text}</code></pre></figure>}
+          {section.codeSample&&<figure class="chapter-sample">
+            <figcaption><span>{section.codeSample.label}</span><button type="button" hidden data-copy-sample>{de?"Text kopieren":"Copy text"}</button></figcaption>
+            <pre><code>{section.codeSample.text}</code></pre>
+            <p class="sample-copy-status" role="status" data-copy-success={de?"Text kopiert.":"Text copied."} data-copy-failure={de?"Kopieren ist hier nicht verfügbar. Markiere den Text und kopiere ihn manuell.":"Copy is unavailable here. Select the text and copy it manually."}></p>
+          </figure>}
           {section.decisionTable&&<div class="chapter-decision" id={`${section.id}-decision`}>
             <h3>{section.decisionTable.title}</h3>
             <p>{section.decisionTable.caption}</p>
@@ -100,3 +104,25 @@ const schema={"@context":"https://schema.org","@graph":[
     {related.length>0&&<section class="related-articles" aria-labelledby="related-title"><header><h2 id="related-title">{de?"Weiterlesen":"Keep reading"}</h2><p>{de?"Weitere klare Erklärungen zum Tool und seinen Grenzen.":"More practical explanations of the tool and its limits."}</p></header><div>{related.map(item=><a href={`${hub}/${item.slug}`}><strong>{item.shortTitle}</strong><span>{de?"Artikel lesen":"Read guide"}<ArrowIcon/></span></a>)}</div></section>}
   </article>
 </BaseLayout>
+
+<script>
+  for (const button of document.querySelectorAll<HTMLButtonElement>("[data-copy-sample]")) {
+    const sample = button.closest(".chapter-sample");
+    const code = sample?.querySelector("code");
+    const status = sample?.querySelector<HTMLElement>(".sample-copy-status");
+    if (!code || !status || !navigator.clipboard?.writeText) continue;
+    button.hidden = false;
+    button.addEventListener("click", async () => {
+      button.disabled = true;
+      status.textContent = "";
+      try {
+        await navigator.clipboard.writeText(code.textContent ?? "");
+        status.textContent = status.dataset.copySuccess ?? "";
+      } catch {
+        status.textContent = status.dataset.copyFailure ?? "";
+      } finally {
+        button.disabled = false;
+      }
+    });
+  }
+</script>

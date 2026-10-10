@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-09.3",
+  "manifestVersion": "2026-10-10.1",
   "domain": "ai-fanout.com",
-  "reviewedAt": "2026-10-09",
+  "reviewedAt": "2026-10-10",
   "sources": [
     {
       "id": "owner-query-workflows-2026-10-09",
@@ -279,9 +279,9 @@
       "title": "OpenAI web search tool guide",
       "kind": "primary_documentation",
       "location": "https://developers.openai.com/api/docs/guides/tools-web-search",
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-10-10",
       "status": "verified",
-      "supports": "Documents web_search_call output and search actions that can include the query or queries searched. It does not expose chain of thought or guarantee that every route returns query strings."
+      "supports": "Documents web_search_call output and search actions that usually, but not always, include the query or queries searched. Search actions, exposed strings and cited sources therefore need separate interpretation. It does not expose chain of thought or guarantee that every route returns query strings. Rechecked for the original 2026-10-10 zero-query decision table; no new provider observation is published."
     },
     {
       "id": "openai-chatgpt-search-help-2026-08-31",
