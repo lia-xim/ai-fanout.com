@@ -5,6 +5,7 @@ import { searchEntryFor } from "./search-entry-guides";
 import { guideReaderPaths } from "./guide-reader-paths";
 import { practicalQueryGuides } from "./practical-query-guides";
 import { workflowQueryGuides } from "./workflow-query-guides";
+import { decisionQueryGuides, seoWorkflowSections } from "./decision-query-guides";
 
 type ToolCta={title:string;copy:string;button:string};
 type MergePlan={keep:string;merge:readonly string[];image:string;altEn:string;altDe:string;ctaEn:ToolCta;ctaDe:ToolCta};
@@ -63,15 +64,15 @@ function consolidate(source:readonly LibraryArticle[],german=false):LibraryArtic
         points:[...new Set(chunk.flatMap(section=>section.points??[]))]
       }));
     });
-    const sourceIds=[...new Set([ ...article.sourceIds,...merged.flatMap(item=>item.sourceIds),...(plan.keep==="what-is-ai-query-fanout"?["stanford-query-expansion-2026-10-09","openai-chatgpt-search-help-2026-08-31"]:[])])];
-    return {...article,number:String(index+1).padStart(2,"0"),sections:guideReaderPaths(plan.keep,sections,german),sourceIds,image:plan.image,imageAlt:german?plan.altDe:plan.altEn,toolCta:german?plan.ctaDe:plan.ctaEn,readerQuestions:questions[plan.keep][german?"de":"en"],...searchEntryFor(plan.keep,german),reviewedAt:["how-to-see-openai-search-queries","ai-query-fanout-for-seo"].includes(plan.keep)?"2026-10-10":"2026-10-09"};
+    const sourceIds=[...new Set([ ...article.sourceIds,...merged.flatMap(item=>item.sourceIds),...(plan.keep==="what-is-ai-query-fanout"?["stanford-query-expansion-2026-10-09","openai-chatgpt-search-help-2026-08-31"]:[]),...(plan.keep==="ai-query-fanout-for-seo"?["owner-decision-workflows-2026-10-10","gsc-dimensions-2026-10-10"]:[])])];
+    return {...article,number:String(index+1).padStart(2,"0"),sections:plan.keep==="ai-query-fanout-for-seo"?seoWorkflowSections(german):guideReaderPaths(plan.keep,sections,german),sourceIds,image:plan.image,imageAlt:german?plan.altDe:plan.altEn,toolCta:german?plan.ctaDe:plan.ctaEn,readerQuestions:questions[plan.keep][german?"de":"en"],...searchEntryFor(plan.keep,german),reviewedAt:["how-to-see-openai-search-queries","ai-query-fanout-for-seo"].includes(plan.keep)?"2026-10-10":"2026-10-09"};
   }).map((article,_,all)=>({...article,relatedSlugs:[...new Set(article.relatedSlugs.map(slug=>{
     const owner=plans.find(plan=>plan.merge.some(merged=>(german?deSlug[merged]:merged)===slug));
     return owner?(german?deSlug[owner.keep]:owner.keep):slug;
   }))].filter(slug=>slug!==article.slug&&all.some(item=>item.slug===slug)).slice(0,3)}));
 }
-export const englishArticles=[...consolidate(englishSource),...practicalQueryGuides(false),...workflowQueryGuides(false)];
-export const germanArticles=[...consolidate(germanSource,true),...practicalQueryGuides(true),...workflowQueryGuides(true)];
+export const englishArticles=[...consolidate(englishSource),...practicalQueryGuides(false),...workflowQueryGuides(false),...decisionQueryGuides(false)];
+export const germanArticles=[...consolidate(germanSource,true),...practicalQueryGuides(true),...workflowQueryGuides(true),...decisionQueryGuides(true)];
 
 export const groupsFor = (articles: readonly LibraryArticle[]) =>
   (["Concept", "Measurement", "Method", "Data standard", "Field guide"] as readonly LibraryCategory[])

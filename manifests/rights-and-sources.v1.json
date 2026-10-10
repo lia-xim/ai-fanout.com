@@ -1,12 +1,25 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026-10-10.2",
+  "manifestVersion": "2026-10-10.3",
   "domain": "ai-fanout.com",
   "reviewedAt": "2026-10-10",
   "sources": [
     {
+      "id": "owner-decision-workflows-2026-10-10",
+      "title": "Original prioritization, source-audit, measurement, repetition and reporting artifacts",
+      "titleDe": "Eigene Vorlagen für Priorisierung, Quellenprüfung, Messung, Wiederholung und Berichte",
+      "supportsDe": "Editierbare Arbeitsdateien und ausgefüllte redaktionelle Lehrbeispiele. Die Quellenprüfung verwendet öffentliche Primärdokumentation und Eigentümerangaben. Rechenwerte und Versuchszustände sind ausdrücklich synthetisch; sie berichten keine Website-Ergebnisse, Kunden-Erfolge oder Provider-Benchmarks.",
+      "kind": "owner_editorial_material",
+      "location": "https://github.com/lia-xim/ai-fanout.com/tree/codex/fanout-planner-v1/public/templates",
+      "checkedAt": "2026-10-10",
+      "status": "owner_created_editorial_examples_not_provider_output",
+      "supports": "Twenty blank/worked-example files and the end-to-end fictional buying-guide workflow. Source-audit rows review public primary guidance and owner disclosure. Measurement arithmetic and attempt states are explicitly synthetic, not website results, client outcomes, provider responses or benchmarks. No paid requests or new retained grounding output."
+    },
+    {
       "id": "owner-longtail-workflows-2026-10-10",
       "title": "Original query-clustering, content-brief and GSC-mapping worksheets",
+      "titleDe": "Eigene Arbeitsblätter für Clustering, Content-Brief und GSC-Abgleich",
+      "supportsDe": "Leere Vorlagen und ausgefüllte Lehrbeispiele mit sieben eigenen redaktionellen Fragen. Website-Pfade sind fiktiv. Die Dateien enthalten keine tatsächlichen Provider-Ausgaben, Kunden-Erfolge, GSC-Messwerte oder Suchvolumina.",
       "kind": "owner_editorial_material",
       "location": "https://github.com/lia-xim/ai-fanout.com/tree/codex/fanout-planner-v1/public/templates",
       "checkedAt": "2026-10-10",
@@ -16,6 +29,8 @@
     {
       "id": "gsc-dimensions-2026-10-10",
       "title": "Google Search Console: dimensions and data groupings",
+      "titleDe": "Google Search Console: Dimensionen und Datenumfang",
+      "supportsDe": "Erklärt Query-, Seiten- und Filterumfang sowie ausgeblendete anonymisierte Suchanfragen. Eine fehlende sichtbare Query-Zeile belegt keine Nachfrage von null im gesamten Markt.",
       "kind": "primary_documentation",
       "location": "https://support.google.com/webmasters/answer/17011259?hl=en-UM",
       "checkedAt": "2026-10-10",
@@ -25,6 +40,8 @@
     {
       "id": "gsc-performance-data-2026-10-10",
       "title": "Search Console API: getting performance data",
+      "titleDe": "Search Console API: Leistungsdaten abrufen",
+      "supportsDe": "Erklärt Datenabruf und Grenzen der Abdeckung. Die Dokumentation stützt einen sorgfältigen Messablauf, keine Behauptung gemessener Nachfrage für diese Anleitung oder ihre Fanout-Ideen.",
       "kind": "primary_documentation",
       "location": "https://developers.google.com/webmaster-tools/v1/how-tos/all-your-data",
       "checkedAt": "2026-10-10",
@@ -160,9 +177,11 @@
     {
       "id": "google-ai-optimization",
       "title": "Optimizing for generative AI features on Google Search",
+      "titleDe": "Google: Websites für generative Suchfunktionen optimieren",
+      "supportsDe": "SEO-Grundlagen bleiben relevant. Reine Fanout-Formulierungsvarianten rechtfertigen keine zusätzlichen Seiten ohne eigenen Nutzen.",
       "kind": "primary_documentation",
       "location": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
-      "checkedAt": "2026-08-22",
+      "checkedAt": "2026-10-10",
       "status": "verified",
       "supports": "Normal SEO foundations remain relevant; pages made primarily for fan-out variations are not the accepted content model."
     },

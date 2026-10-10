@@ -10,16 +10,15 @@
   "verifiedShippedTopics": 6,
   "currentMilestone": {
     "topics": [
-      "01",
-      "02",
-      "03",
-      "14",
-      "15",
-      "17"
+      "08",
+      "16",
+      "18",
+      "19",
+      "25",
+      "26"
     ],
-    "status": "shipped_verified",
-    "expectedCanonicalUrls": 45,
-    "deploymentId": "dpl_5qDzbWnyBgRwddwdfm8AEiBjHzVs"
+    "status": "local_verified_release_pending",
+    "expectedCanonicalUrls": 55
   },
   "topics": [
     {
@@ -188,9 +187,20 @@
         "/library/ai-query-fanout-for-seo",
         "/de/lernen/query-fanout-fuer-seo"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "src/data/decision-query-guides.ts"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "seoQa": "55 canonical routes PASS",
+        "plannerQa": "PASS",
+        "regressionTests": "47/47 PASS",
+        "mobile": "14 affected pages at 390x844; no document overflow; H1/chapters/download links/footer PASS",
+        "templates": "32/32 HTTP source-byte equality; CSV shape and evidence semantics PASS",
+        "links": "55/55 local inventory, no broken pages or orphans",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -346,9 +356,20 @@
         "/library/prioritize-fanout-queries",
         "/de/lernen/fanout-queries-priorisieren"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "src/data/decision-query-guides.ts"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "seoQa": "55 canonical routes PASS",
+        "plannerQa": "PASS",
+        "regressionTests": "47/47 PASS",
+        "mobile": "14 affected pages at 390x844; no document overflow; H1/chapters/download links/footer PASS",
+        "templates": "32/32 HTTP source-byte equality; CSV shape and evidence semantics PASS",
+        "links": "55/55 local inventory, no broken pages or orphans",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -397,9 +418,20 @@
         "/library/measure-fanout-content-changes",
         "/de/lernen/fanout-content-aenderungen-messen"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "src/data/decision-query-guides.ts"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "seoQa": "55 canonical routes PASS",
+        "plannerQa": "PASS",
+        "regressionTests": "47/47 PASS",
+        "mobile": "14 affected pages at 390x844; no document overflow; H1/chapters/download links/footer PASS",
+        "templates": "32/32 HTTP source-byte equality; CSV shape and evidence semantics PASS",
+        "links": "55/55 local inventory, no broken pages or orphans",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -411,9 +443,20 @@
         "/library/fanout-source-audit",
         "/de/lernen/fanout-quellen-pruefen"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "src/data/decision-query-guides.ts"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "seoQa": "55 canonical routes PASS",
+        "plannerQa": "PASS",
+        "regressionTests": "47/47 PASS",
+        "mobile": "14 affected pages at 390x844; no document overflow; H1/chapters/download links/footer PASS",
+        "templates": "32/32 HTTP source-byte equality; CSV shape and evidence semantics PASS",
+        "links": "55/55 local inventory, no broken pages or orphans",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -495,9 +538,20 @@
         "/library/fanout-experiment-template",
         "/de/lernen/fanout-experiment-vorlage"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "src/data/decision-query-guides.ts"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "seoQa": "55 canonical routes PASS",
+        "plannerQa": "PASS",
+        "regressionTests": "47/47 PASS",
+        "mobile": "14 affected pages at 390x844; no document overflow; H1/chapters/download links/footer PASS",
+        "templates": "32/32 HTTP source-byte equality; CSV shape and evidence semantics PASS",
+        "links": "55/55 local inventory, no broken pages or orphans",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },
@@ -509,9 +563,20 @@
         "/library/query-fanout-report-template",
         "/de/lernen/query-fanout-report-vorlage"
       ],
-      "status": "backlog",
-      "artifactRefs": [],
-      "localVerification": null,
+      "status": "local_verified_release_pending",
+      "artifactRefs": [
+        "src/data/decision-query-guides.ts"
+      ],
+      "localVerification": {
+        "build": "PASS: 0 errors, 0 warnings, 1 pre-existing hint",
+        "seoQa": "55 canonical routes PASS",
+        "plannerQa": "PASS",
+        "regressionTests": "47/47 PASS",
+        "mobile": "14 affected pages at 390x844; no document overflow; H1/chapters/download links/footer PASS",
+        "templates": "32/32 HTTP source-byte equality; CSV shape and evidence semantics PASS",
+        "links": "55/55 local inventory, no broken pages or orphans",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-02"
+      },
       "liveVerification": null,
       "releaseCommit": null
     },

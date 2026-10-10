@@ -11,7 +11,10 @@ const de=locale==="de";
 const hub=de?"/de/lernen":"/library";
 const canonicalPath=`${hub}/${article.slug}`;
 const alternatePath=article.pairedSlug?(de?`/library/${article.pairedSlug}`:`/de/lernen/${article.pairedSlug}`):undefined;
-const sources=evidenceManifest.sources.filter(source=>article.sourceIds.includes(source.id));
+const sources=evidenceManifest.sources.filter(source=>article.sourceIds.includes(source.id)).map(source=>({...source,
+  displayTitle:de&&"titleDe" in source?String(source.titleDe):source.title,
+  displaySupports:de&&"supportsDe" in source?String(source.supportsDe):source.supports
+}));
 const related=article.relatedSlugs.map(slug=>articles.find(item=>item.slug===slug)).filter((item):item is LibraryArticle=>Boolean(item));
 const words=[article.answer,article.useWhen,...(article.quickStart?.steps??[]).flatMap(step=>[step.title,step.copy]),...article.sections.flatMap(section=>[...section.paragraphs,...(section.points??[]),...(section.references??[]).flatMap(ref=>[ref.before,ref.label,ref.after??""]),...(section.codeSample?[section.codeSample.label,section.codeSample.text]:[]),...(section.decisionTable?[section.decisionTable.title,section.decisionTable.caption,...section.decisionTable.headings,...section.decisionTable.rows.flat()]:[])]),...(article.readerQuestions??[]).flatMap(item=>[item.question,item.answer])].join(" ").trim().split(/\s+/).length;
 const readingMinutes=Math.max(4,Math.ceil(words/190));
@@ -91,7 +94,7 @@ const schema={"@context":"https://schema.org","@graph":[
         <section class="source-notes" aria-labelledby="sources-title">
           <h2 id="sources-title">{de?"Verwendete Quellen":"Sources used"}</h2>
           <p>{de?"Diese Quellen stützen die beschriebenen Funktionen und Grenzen. Sie belegen keine darüber hinausgehenden Aussagen.":"These sources support the functions and limits described here. They do not prove claims beyond that scope."}</p>
-          <ol>{sources.map(source=><li><div><strong>{source.title}</strong><p>{source.supports}</p></div>{source.location.startsWith("https://")?<a href={source.location} rel="external">{de?"Quelle öffnen":"Open source"} <ArrowIcon size={15}/></a>:<small>{de?"Interner Eigentümer-Nachweis":"Owner record"}</small>}</li>)}</ol>
+          <ol>{sources.map(source=><li><div><strong>{source.displayTitle}</strong><p>{source.displaySupports}</p></div>{source.location.startsWith("https://")?<a href={source.location} rel="external">{de?"Quelle öffnen":"Open source"} <ArrowIcon size={15}/></a>:<small>{de?"Interner Eigentümer-Nachweis":"Owner record"}</small>}</li>)}</ol>
         </section>
       </div>
 
