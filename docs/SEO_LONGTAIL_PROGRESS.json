@@ -7,7 +7,7 @@
   "plan": "SEO_LONGTAIL_MASTERPLAN_2026-10-10.md",
   "totalTopics": 30,
   "totalUrlWorkItems": 60,
-  "verifiedShippedTopics": 18,
+  "verifiedShippedTopics": 27,
   "currentMilestone": {
     "topics": [
       "04",
@@ -20,9 +20,9 @@
       "20",
       "21"
     ],
-    "status": "local_verified_pending_release",
+    "status": "shipped_verified",
     "expectedCanonicalUrls": 67,
-    "deploymentId": null
+    "deploymentId": "dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA"
   },
   "topics": [
     {
@@ -135,7 +135,7 @@
         "/library/what-is-ai-query-fanout",
         "/de/lernen/was-ist-ai-query-fanout"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/interpretation-revisions.ts",
         "scripts/build-interpretation-artifacts.mjs"
@@ -151,8 +151,18 @@
         "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:02:53.471Z",
+        "deploymentId": "dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA",
+        "canonicalPages": "67/67 HTTP, canonical, H1, metadata, sitemap, rights boundaries and links PASS",
+        "downloads": "71/71 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both native/modelled modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired true 404 routes, tracker noindex PASS",
+        "browser": "DE hub -> product brief -> footer hub link -> shop guide PASS; product desktop bottom reachable; 18-page local mobile no-overflow check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
+      "releaseCommit": "a14a4365e9d1295976555a0f4ca04e0265b3f9a7"
     },
     {
       "id": "05",
@@ -238,7 +248,7 @@
         "/library/ai-citations",
         "/de/lernen/ki-zitate-und-quellen"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/interpretation-revisions.ts",
         "scripts/build-interpretation-artifacts.mjs"
@@ -254,8 +264,18 @@
         "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:02:53.471Z",
+        "deploymentId": "dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA",
+        "canonicalPages": "67/67 HTTP, canonical, H1, metadata, sitemap, rights boundaries and links PASS",
+        "downloads": "71/71 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both native/modelled modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired true 404 routes, tracker noindex PASS",
+        "browser": "DE hub -> product brief -> footer hub link -> shop guide PASS; product desktop bottom reachable; 18-page local mobile no-overflow check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
+      "releaseCommit": "a14a4365e9d1295976555a0f4ca04e0265b3f9a7"
     },
     {
       "id": "08",
@@ -299,7 +319,7 @@
         "/library/seo-for-ai-search",
         "/de/lernen/seo-fuer-ki-suche"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/interpretation-revisions.ts",
         "scripts/build-interpretation-artifacts.mjs"
@@ -315,8 +335,18 @@
         "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:02:53.471Z",
+        "deploymentId": "dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA",
+        "canonicalPages": "67/67 HTTP, canonical, H1, metadata, sitemap, rights boundaries and links PASS",
+        "downloads": "71/71 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both native/modelled modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired true 404 routes, tracker noindex PASS",
+        "browser": "DE hub -> product brief -> footer hub link -> shop guide PASS; product desktop bottom reachable; 18-page local mobile no-overflow check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
+      "releaseCommit": "a14a4365e9d1295976555a0f4ca04e0265b3f9a7"
     },
     {
       "id": "10",
@@ -326,7 +356,7 @@
         "/library/why-ai-fanout-results-change",
         "/de/lernen/warum-fanout-ergebnisse-schwanken"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/interpretation-revisions.ts",
         "scripts/build-interpretation-artifacts.mjs"
@@ -342,8 +372,18 @@
         "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:02:53.471Z",
+        "deploymentId": "dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA",
+        "canonicalPages": "67/67 HTTP, canonical, H1, metadata, sitemap, rights boundaries and links PASS",
+        "downloads": "71/71 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both native/modelled modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired true 404 routes, tracker noindex PASS",
+        "browser": "DE hub -> product brief -> footer hub link -> shop guide PASS; product desktop bottom reachable; 18-page local mobile no-overflow check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
+      "releaseCommit": "a14a4365e9d1295976555a0f4ca04e0265b3f9a7"
     },
     {
       "id": "11",
@@ -353,7 +393,7 @@
         "/library/compare-ai-model-searches",
         "/de/lernen/ki-modelle-vergleichen"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/interpretation-revisions.ts",
         "scripts/build-interpretation-artifacts.mjs"
@@ -369,8 +409,18 @@
         "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:02:53.471Z",
+        "deploymentId": "dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA",
+        "canonicalPages": "67/67 HTTP, canonical, H1, metadata, sitemap, rights boundaries and links PASS",
+        "downloads": "71/71 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both native/modelled modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired true 404 routes, tracker noindex PASS",
+        "browser": "DE hub -> product brief -> footer hub link -> shop guide PASS; product desktop bottom reachable; 18-page local mobile no-overflow check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
+      "releaseCommit": "a14a4365e9d1295976555a0f4ca04e0265b3f9a7"
     },
     {
       "id": "12",
@@ -380,7 +430,7 @@
         "/library/query-fanout-prompt",
         "/de/lernen/query-fanout-prompt"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/practical-query-guides.ts",
         "scripts/build-interpretation-artifacts.mjs"
@@ -396,8 +446,18 @@
         "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:02:53.471Z",
+        "deploymentId": "dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA",
+        "canonicalPages": "67/67 HTTP, canonical, H1, metadata, sitemap, rights boundaries and links PASS",
+        "downloads": "71/71 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both native/modelled modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired true 404 routes, tracker noindex PASS",
+        "browser": "DE hub -> product brief -> footer hub link -> shop guide PASS; product desktop bottom reachable; 18-page local mobile no-overflow check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
+      "releaseCommit": "a14a4365e9d1295976555a0f4ca04e0265b3f9a7"
     },
     {
       "id": "13",
@@ -407,7 +467,7 @@
         "/library/export-fanout-queries",
         "/de/lernen/fanout-queries-exportieren"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/practical-query-guides.ts",
         "scripts/build-interpretation-artifacts.mjs"
@@ -423,8 +483,18 @@
         "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:02:53.471Z",
+        "deploymentId": "dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA",
+        "canonicalPages": "67/67 HTTP, canonical, H1, metadata, sitemap, rights boundaries and links PASS",
+        "downloads": "71/71 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both native/modelled modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired true 404 routes, tracker noindex PASS",
+        "browser": "DE hub -> product brief -> footer hub link -> shop guide PASS; product desktop bottom reachable; 18-page local mobile no-overflow check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
+      "releaseCommit": "a14a4365e9d1295976555a0f4ca04e0265b3f9a7"
     },
     {
       "id": "14",
@@ -647,7 +717,7 @@
         "/library/fanout-for-product-comparisons",
         "/de/lernen/fanout-fuer-produktvergleiche"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/application-query-guides.ts",
         "scripts/build-interpretation-artifacts.mjs"
@@ -663,8 +733,18 @@
         "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:02:53.471Z",
+        "deploymentId": "dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA",
+        "canonicalPages": "67/67 HTTP, canonical, H1, metadata, sitemap, rights boundaries and links PASS",
+        "downloads": "71/71 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both native/modelled modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired true 404 routes, tracker noindex PASS",
+        "browser": "DE hub -> product brief -> footer hub link -> shop guide PASS; product desktop bottom reachable; 18-page local mobile no-overflow check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
+      "releaseCommit": "a14a4365e9d1295976555a0f4ca04e0265b3f9a7"
     },
     {
       "id": "21",
@@ -674,7 +754,7 @@
         "/library/fanout-for-ecommerce-categories",
         "/de/lernen/fanout-fuer-shop-kategorien"
       ],
-      "status": "local_verified_pending_release",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/application-query-guides.ts",
         "scripts/build-interpretation-artifacts.mjs"
@@ -690,8 +770,18 @@
         "proofBoundary": "Synthetic export, not actual provider output, Excel/Sheets import or OS download proof; no paid request",
         "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:02:53.471Z",
+        "deploymentId": "dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA",
+        "canonicalPages": "67/67 HTTP, canonical, H1, metadata, sitemap, rights boundaries and links PASS",
+        "downloads": "71/71 HTTP 200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "both native/modelled modes enabled in EN/DE PASS",
+        "routes": "8 content redirects, 6 retired true 404 routes, tracker noindex PASS",
+        "browser": "DE hub -> product brief -> footer hub link -> shop guide PASS; product desktop bottom reachable; 18-page local mobile no-overflow check PASS",
+        "rankingEffect": "NOT PROVEN: no post-release GSC evidence",
+        "evidenceDirectory": "C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-04"
+      },
+      "releaseCommit": "a14a4365e9d1295976555a0f4ca04e0265b3f9a7"
     },
     {
       "id": "22",
@@ -957,9 +1047,9 @@
     }
   ],
   "nextWork": {
-    "focus": "Improve remaining seven existing topic pairs; add product/shop applications, hands-on tool comparison, real Excel/Sheets import and receiver handoff",
-    "remainingTopics": 12,
+    "focus": "Three remaining original guide pairs: hands-on tool comparison (22), actual Excel and Google Sheets import (23), actual receiver handoff (24)",
+    "remainingTopics": 3,
     "status": "pending",
-    "requiredProof": "Tool comparison needs actual capability checks; CSV import needs actual Excel and Google Sheets; handoff needs receiver flow, beyond local roundtrip. No connected Excel document session was found at this checkpoint."
+    "requiredProof": "Actual product capability checks with current official access/cost sources; actual Excel/Sheets import retaining adversarial text and types; actual receiver flow beyond local handoff encoding/decoding. No substitution by this synthetic file roundtrip."
   }
 }
