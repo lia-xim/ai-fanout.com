@@ -3,17 +3,18 @@
   "goalThreadId": "01a12083-b447-78e0-bcd7-4e4b76fc3389",
   "acceptedBy": "Matthias Ramahi",
   "acceptedAt": "2026-10-10",
-  "status": "active",
+  "status": "complete",
   "plan": "SEO_LONGTAIL_MASTERPLAN_2026-10-10.md",
   "totalTopics": 30,
   "totalUrlWorkItems": 60,
-  "verifiedShippedTopics": 29,
+  "verifiedShippedTopics": 30,
   "currentMilestone": {
     "topics": [
       "23"
     ],
-    "status": "in_progress",
-    "expectedCanonicalUrls": 73
+    "status": "shipped_verified",
+    "expectedCanonicalUrls": 73,
+    "deploymentId": "dpl_3az6DhQHEf5N6ojERMEGXZs7Uhr8"
   },
   "topics": [
     {
@@ -821,7 +822,7 @@
         "/library/import-fanout-csv",
         "/de/lernen/fanout-csv-importieren"
       ],
-      "status": "in_progress",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/import-query-guide.ts",
         "scripts/build-import-artifacts.mjs",
@@ -835,10 +836,29 @@
         "googleSheets": "PASS actual UI CSV import: comma, conversion disabled; all 110 cells equal original strings; no repairs",
         "defaultConversion": "FAIL preserved: leading zero/date/formula conversion",
         "excel": "Removed from scope by explicit human instruction on 2026-10-10; no Excel claim",
-        "publication": "Prepared EN/DE Google Sheets guide; final release pending"
+        "publication": "EN/DE tested Sheets guides LIVE verified; Excel removed by explicit human amendment",
+        "build": "PASS: 75 built pages, 73 canonical URLs, zero errors/warnings, one pre-existing hint",
+        "regressionTests": "79/79 PASS: 51 planner/transfer + 28 parser/contracts",
+        "seoQa": "73 canonical routes PASS",
+        "plannerQa": "PASS",
+        "links": "73/73 full local/live audit, no orphans",
+        "mobile": "6 affected routes 390x844 without document overflow; actual render reviewed",
+        "artifacts": "Four original assets; CSV byte-identical to actually imported file; all 110 expected cells match actual Sheets native readback",
+        "browserDownloadSave": "NOT PROVEN: automation media download timed out; HTTP-byte delivery separately verified"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T13:30:40.623Z",
+        "deploymentId": "dpl_3az6DhQHEf5N6ojERMEGXZs7Uhr8",
+        "canonicalPages": "73/73 HTTP, canonical, H1, metadata, JSON-LD, sitemap and links PASS; zero warnings/failures",
+        "downloads": "86/86 HTTP200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "Both native/modelled modes enabled in EN/DE PASS",
+        "routes": "8 content 308 redirects, 6 retired true 404 routes and tracker 200 noindex PASS",
+        "browser": "Actual live German hub -> import guide with all four chapters and localized download links PASS",
+        "mobile": "6 affected routes at 390x844 without document overflow; actual mobile import guide inspected",
+        "rankingEffect": "NOT PROVEN: implementation complete; GSC baseline predates release",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-06"
+      },
+      "releaseCommit": "7c8da8fce0b87b7c2378251a50d394b0c72f7399"
     },
     {
       "id": "24",
@@ -1100,11 +1120,7 @@
       "releaseCommit": "53950193d0c65f29a4034e582756386717ccaa1a"
     }
   ],
-  "nextWork": [
-    "Verify, release and live-audit topic 23 Google Sheets import pair with exact tested CSV and original expectations/acceptance artifacts.",
-    "Run full completion audit of 30 topics/60 work items, including explicit Excel scope amendment, then close goal only after release proof.",
-    "Indexing and ranking gains require later GSC evidence and are not claimed by this implementation goal."
-  ],
+  "nextWork": [],
   "scopeAmendments": [
     {
       "date": "2026-10-10",
@@ -1113,5 +1129,8 @@
       "quote": "Nein, ich habe noch kein Excel. Lass das einfach mit Excel. Mach einfach weiter.",
       "decision": "Remove Excel instructions/import gate; ship same combined topic pair with actual tested Google Sheets import. All 30 topic / 60 EN-DE work items retained."
     }
-  ]
+  ],
+  "completedAt": "2026-10-10T13:30:40.623Z",
+  "completionAudit": "SEO_LONGTAIL_COMPLETION_AUDIT_2026-10-10.md",
+  "measurementFollowup": "Later GSC indexing/click/ranking review is separate from this completed implementation goal; no ranking promise or scheduler created."
 }

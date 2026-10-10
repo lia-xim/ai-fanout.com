@@ -1,6 +1,6 @@
 # Topic 23: actual CSV import preflight
 
-Status: actual Sheets import verified; final page release pending. Originally both Sheets and Excel were required. On 10 October 2026 the human explicitly removed Excel: “Nein, ich habe noch kein Excel. Lass das einfach mit Excel. Mach einfach weiter.” The same EN/DE topic pair now covers the tested Sheets import; no Excel instruction or executed-import claim will be published. File-generation roundtrip evidence remains a different gate.
+Status: actual Sheets import and final EN/DE production release verified. Originally both Sheets and Excel were required. On 10 October 2026 the human explicitly removed Excel: “Nein, ich habe noch kein Excel. Lass das einfach mit Excel. Mach einfach weiter.” The same EN/DE topic pair now covers the tested Sheets import; no Excel instruction or executed-import claim will be published. File-generation roundtrip evidence remains a different gate.
 
 The actual `selectedQueryExport` and `selectedQueriesCsv` producers generated a nine-record, eleven-column synthetic CSV. No provider request was made. Metadata explicitly uses `synthetic-model/no-provider-call`. Queries cover Unicode, comma, escaped quotes, embedded newline, leading zero, date-like text and harmless arithmetic/formula-like strings.
 
@@ -22,4 +22,4 @@ Primary references:
 - [Microsoft Power Query Text/CSV connector](https://learn.microsoft.com/power-query/connectors/textcsv)
 - [Microsoft: add or change data types](https://support.microsoft.com/en-us/excel/add-or-change-data-types-power-query)
 
-The bilingual page pair is now prepared for the final tested-Sheets release. The prior Excel acceptance below is an archived proposal and is outside the amended scope.
+The bilingual page pair is live verified in the final tested-Sheets release. The prior Excel acceptance below is an archived proposal and is outside the amended scope.

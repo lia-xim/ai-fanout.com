@@ -1,6 +1,6 @@
 # Sixth SEO longtail release — tested Sheets import, topic 23
 
-Prepared: 10 October 2026. Production release pending verification.
+Live verified: 10 October 2026 at `2026-10-10T13:30:40.623Z`. Product commit `7c8da8fce0b87b7c2378251a50d394b0c72f7399`; deployment `dpl_3az6DhQHEf5N6ojERMEGXZs7Uhr8`.
 
 The final original EN/DE topic pair teaches the actually verified Google Sheets import, with exact strings, original run fields and native cell-type acceptance. Four original downloads include the exact tested synthetic CSV, complete cell expectations and localized acceptance records. Export guides and both learning hubs link into the workflow.
 
@@ -15,7 +15,7 @@ Local gates:
 - Six affected routes at 390×844 have no document overflow. Actual mobile guide render inspected.
 - CSV download is byte-identical to the file actually imported into Sheets. Its ten rows/eleven columns equal the expectations JSON. Comparison against the actual Sheets native readback passes all 110 cells, with string types and no formulas/numbers. No cell repair or new provider request.
 
-Pending production gates: exact committed deployment READY, staged checks, promotion, full 73-page audit, full 86-download byte/noindex check, preserved runtime modes/redirects/404s and current-state completion audit of all thirty topics.
+Production gates PASS: exact committed deployment READY; authenticated staged checks; promotion via Vercel API; domain alias maps to this exact deployment; full 73-page audit with zero errors/warnings; all 86 downloads exact with noindex; both runtime modes, eight content redirects, six retired true 404s and tracker preserved. Actual live hub → import-guide journey passes. Goal: 30/30 topics, 60/60 URL work items, 27 guide pairs. See the requirement-by-requirement completion audit. Browser automation file-save event remains NOT PROVEN; exact HTTP download delivery is verified separately.
 
 Private proof: `C:/Users/matth/Documents/AI Fanout SEO/2026-10-10/goal-wave-a-06/`.
 

@@ -54,3 +54,7 @@ Goal remains active: **29/30 topics, 58/60 URL work items**. No new provider cal
 ## Final import scope amendment
 
 The human explicitly removed Excel on 10 October 2026: “Nein, ich habe noch kein Excel. Lass das einfach mit Excel. Mach einfach weiter.” The earlier setup question is resolved; no further Excel access or test is required. Topic 23 retains its EN/DE URLs and now covers the actually tested Google Sheets import, exact synthetic CSV, expected native text cells and localized acceptance record. Neither Excel instructions nor Excel success is claimed. The same thirty-topic / sixty-work-item objective remains active until this final release is live verified.
+
+## Sixth release and implementation completion
+
+Final tested-Sheets pair is live verified at `2026-10-10T13:30:40.623Z`, product commit `7c8da8fce0b87b7c2378251a50d394b0c72f7399`, deployment `dpl_3az6DhQHEf5N6ojERMEGXZs7Uhr8`. Exact domain-alias association confirmed. All 73 canonical URLs pass with zero warnings/failures; all 86 downloads are exact source bytes with noindex. Both runtime modes, eight content redirects, six retired 404s and tracker 200/noindex remain correct. Full thirty-topic audit confirms 13 substantially revised existing pairs and 17 original new pairs. Goal implementation: **30/30 topics, 60/60 work items**. Excel was explicitly removed by the human, not silently substituted. No paid provider call, new grounded corpus, subscription, indexing gain or ranking gain is claimed.
