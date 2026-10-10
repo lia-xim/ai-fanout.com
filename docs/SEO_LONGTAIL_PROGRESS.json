@@ -7,14 +7,15 @@
   "plan": "SEO_LONGTAIL_MASTERPLAN_2026-10-10.md",
   "totalTopics": 30,
   "totalUrlWorkItems": 60,
-  "verifiedShippedTopics": 27,
+  "verifiedShippedTopics": 29,
   "currentMilestone": {
     "topics": [
       "22",
       "24"
     ],
-    "status": "locally_verified_not_live",
-    "expectedCanonicalUrls": 71
+    "status": "shipped_verified",
+    "expectedCanonicalUrls": 71,
+    "deploymentId": "dpl_6iHzCpJwFHPTrdrNJHS7u7dEmY4q"
   },
   "topics": [
     {
@@ -783,7 +784,7 @@
         "/library/query-fanout-tools-comparison",
         "/de/lernen/query-fanout-tools-vergleichen"
       ],
-      "status": "locally_verified_not_live",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/transfer-query-guides.ts",
         "src/components/ObservedHandoffExample.astro",
@@ -800,8 +801,19 @@
         "toolComparison": "Own public workflow checked; third-party rows explicitly documentation-only",
         "assets": "11 original assets; CSV/SVG/JSON and exact built-source bytes PASS"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:53:51.287Z",
+        "deploymentId": "dpl_6iHzCpJwFHPTrdrNJHS7u7dEmY4q",
+        "canonicalPages": "71/71 HTTP, canonical, H1, metadata, sitemap and links PASS; zero warnings/failures",
+        "downloads": "82/82 HTTP200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "Both native/modelled flags enabled in EN/DE PASS",
+        "routes": "8 content 308 redirects, 6 retired true 404 routes and tracker 200 noindex PASS",
+        "browser": "Actual live German hub -> tool choice -> two-query handoff -> receiver PASS; original context/domains retained, no query mapping",
+        "mobile": "8 affected routes at 390x844 without document overflow; SVG actual mobile render reviewed",
+        "rankingEffect": "NOT PROVEN: GSC baseline predates these releases",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-05"
+      },
+      "releaseCommit": "6ca60f3f3315d78ffe400311a7fd50707e094c8c"
     },
     {
       "id": "23",
@@ -813,7 +825,8 @@
       ],
       "status": "in_progress",
       "artifactRefs": [
-        "docs/SEO_LONGTAIL_IMPORT_PREFLIGHT_2026-10-10.md"
+        "docs/SEO_LONGTAIL_IMPORT_PREFLIGHT_2026-10-10.md",
+        "docs/SEO_LONGTAIL_IMPORT_DRAFT_2026-10-10.md"
       ],
       "localVerification": {
         "googleSheets": "PASS actual UI CSV import: comma, conversion disabled; all 110 cells equal original strings; no repairs",
@@ -832,7 +845,7 @@
         "/library/analyze-fanout-results",
         "/de/lernen/fanout-ergebnisse-analysieren"
       ],
-      "status": "locally_verified_not_live",
+      "status": "shipped_verified",
       "artifactRefs": [
         "src/data/transfer-query-guides.ts",
         "src/components/ObservedHandoffExample.astro",
@@ -849,8 +862,19 @@
         "toolComparison": "Own public workflow checked; third-party rows explicitly documentation-only",
         "assets": "11 original assets; CSV/SVG/JSON and exact built-source bytes PASS"
       },
-      "liveVerification": null,
-      "releaseCommit": null
+      "liveVerification": {
+        "checkedAt": "2026-10-10T12:53:51.287Z",
+        "deploymentId": "dpl_6iHzCpJwFHPTrdrNJHS7u7dEmY4q",
+        "canonicalPages": "71/71 HTTP, canonical, H1, metadata, sitemap and links PASS; zero warnings/failures",
+        "downloads": "82/82 HTTP200, exact source bytes, X-Robots-Tag noindex PASS",
+        "runtimeFlags": "Both native/modelled flags enabled in EN/DE PASS",
+        "routes": "8 content 308 redirects, 6 retired true 404 routes and tracker 200 noindex PASS",
+        "browser": "Actual live German hub -> tool choice -> two-query handoff -> receiver PASS; original context/domains retained, no query mapping",
+        "mobile": "8 affected routes at 390x844 without document overflow; SVG actual mobile render reviewed",
+        "rankingEffect": "NOT PROVEN: GSC baseline predates these releases",
+        "evidenceDirectory": "C:\\Users\\matth\\Documents\\AI Fanout SEO\\2026-10-10\\goal-wave-a-05"
+      },
+      "releaseCommit": "6ca60f3f3315d78ffe400311a7fd50707e094c8c"
     },
     {
       "id": "25",
@@ -1074,8 +1098,8 @@
     }
   ],
   "nextWork": [
-    "Ship and verify topics 22/24 (71 canonical URLs).",
-    "Finish topic 23: actual Excel CSV import, native value/type readback against same synthetic file; Sheets UI route already passed.",
-    "Publish topic 23 only after both receiving-application imports pass; goal remains all 30 topics."
+    "Finish topic 23 with actual Excel CSV import of the same synthetic nine-record/eleven-column producer file; native value/type readback required. Google Sheets File > Import with comma/conversion off passed all 110 cells.",
+    "Publish the one combined EN/DE import-guide pair only after both application imports pass; no separate thin Excel/Sheets pages.",
+    "After the final verified release, close the full 30-topic goal. Ranking/indexing gains require fresh GSC evidence and are not claimed."
   ]
 }

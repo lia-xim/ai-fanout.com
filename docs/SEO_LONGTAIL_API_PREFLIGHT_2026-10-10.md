@@ -42,3 +42,11 @@ Import preflight: connected-document discovery found no Excel session. This does
 ## Fourth release checkpoint
 
 Interpretation/application slice: topics 04/07/09/10/11/12/13/20/21 are live verified at 2026-10-10T12:02:53.471Z, product commit a14a4365e9d1295976555a0f4ca04e0265b3f9a7, deployment dpl_3CoAAkSDNCkwpRoKrUfUHaQ24jSA. Inventory 67 canonical URLs, 71 noindex download assets, all passed. Goal is 27/30 topics and 54/60 URL work items. The actual selection exporter and independent CSV readback pass with synthetic records; this does not complete topic 23. Actual capability tests, Excel/Sheets imports and receiver handoff remain the final three proof requirements. No new paid provider call or actual grounding data was acquired.
+
+## Fifth release checkpoint
+
+Topics 22/24 are live verified at `2026-10-10T12:53:51.287Z`, product commit `6ca60f3f3315d78ffe400311a7fd50707e094c8c`, READY/promoted deployment `dpl_6iHzCpJwFHPTrdrNJHS7u7dEmY4q`. Full 71-canonical audit has no warnings/failures; all 82 downloads are exact source bytes with noindex. Live hub → capability guide → two-query selection → SEO Fanout receiver passes, including original locale/time/status and thirteen-domain scope. Actual receiver source integration confirms zero source URLs and zero invented query joins. Capability checks cover the public owner workflow; vendor rows remain current primary-documentation reviews, not account or installation tests.
+
+Topic 23 is partially verified: actual Google Sheets UI CSV import with comma and type conversion disabled preserves all 110 cells as text. Default native conversion demonstrably damaged leading-zero/date/formula-like strings. Actual Excel import remains NOT PROVEN; an access/setup question is pending. See `SEO_LONGTAIL_IMPORT_PREFLIGHT_2026-10-10.md`. No library-authored workbook or CSV-reader check substitutes for actual Excel acceptance.
+
+Goal remains active: **29/30 topics, 58/60 URL work items**. No new provider call, Gemini grounded corpus, subscription, indexing or ranking gain is claimed.
